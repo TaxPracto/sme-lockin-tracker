@@ -1,0 +1,42 @@
+{
+ "rajnandini-fashion-india-ipo|A30": {
+  "slug": "rajnandini-fashion-india-ipo",
+  "type": "A30",
+  "date": "2026-06-30",
+  "pct_cap": 3.94,
+  "dov": null,
+  "pre_close": 47.39,
+  "post5_close": 40.5,
+  "ret5_pct": -14.54
+ },
+ "vivid-electromech-ipo|A90": {
+  "slug": "vivid-electromech-ipo",
+  "type": "A90",
+  "date": "2026-07-01",
+  "pct_cap": 3.76,
+  "dov": null,
+  "pre_close": 1289.2,
+  "post5_close": 1200.95,
+  "ret5_pct": -6.85
+ },
+ "highness-microelectronics-ipo|A90": {
+  "slug": "highness-microelectronics-ipo",
+  "type": "A90",
+  "date": "2026-06-30",
+  "pct_cap": 4.95,
+  "dov": null,
+  "pre_close": 195.3,
+  "post5_close": 186.0,
+  "ret5_pct": -4.76
+ },
+ "modern-diagnostic-ipo|PRE6M": {
+  "slug": "modern-diagnostic-ipo",
+  "type": "PRE6M",
+  "date": "2026-06-30",
+  "pct_cap": 0.01,
+  "dov": null,
+  "pre_close": 52.0,
+  "post5_close": 52.0,
+  "ret5_pct": 0.0
+ }
+}

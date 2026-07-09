@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-09T12:51:02+05:30",
+ "generated_at": "2026-07-09T14:25:27+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -27,6 +27,9 @@
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": "2026-07-16",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -81,6 +84,9 @@
    "prom_pre_pct": 99.33,
    "prom_post_pct": 72.99,
    "listing_date": "2026-07-16",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": 70337,
    "nonprom_pre_pct_of_post": 0.49,
    "events": [
@@ -151,6 +157,7 @@
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": null,
+   "anchor_names": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -197,6 +204,7 @@
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": null,
+   "anchor_names": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -243,6 +251,9 @@
    "prom_pre_pct": 82.92,
    "prom_post_pct": 60.94,
    "listing_date": "2026-07-10",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": 2292477,
    "nonprom_pre_pct_of_post": 12.55,
    "events": [
@@ -313,6 +324,7 @@
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": null,
+   "anchor_names": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -359,6 +371,9 @@
    "prom_pre_pct": 72.58,
    "prom_post_pct": 53.36,
    "listing_date": "2026-07-07",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": 2237621,
    "nonprom_pre_pct_of_post": 20.16,
    "events": [
@@ -429,6 +444,9 @@
    "prom_pre_pct": 97.78,
    "prom_post_pct": 71.94,
    "listing_date": "2026-07-07",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": 200216,
    "nonprom_pre_pct_of_post": 1.63,
    "events": [
@@ -499,6 +517,9 @@
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": "2026-07-07",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -553,6 +574,7 @@
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": null,
+   "anchor_names": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -599,6 +621,7 @@
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": null,
+   "anchor_names": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -645,6 +668,9 @@
    "prom_pre_pct": 96.55,
    "prom_post_pct": 70.48,
    "listing_date": "2026-07-01",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": 539924,
    "nonprom_pre_pct_of_post": 2.52,
    "events": [
@@ -715,6 +741,7 @@
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": null,
+   "anchor_names": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -761,6 +788,9 @@
    "prom_pre_pct": 99.99,
    "prom_post_pct": 72.73,
    "listing_date": "2026-06-29",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": 800,
    "nonprom_pre_pct_of_post": 0.01,
    "events": [
@@ -831,6 +861,7 @@
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": null,
+   "anchor_names": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -877,6 +908,9 @@
    "prom_pre_pct": 87.89,
    "prom_post_pct": 64.59,
    "listing_date": "2026-06-25",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": 488185,
    "nonprom_pre_pct_of_post": 8.9,
    "events": [
@@ -947,6 +981,9 @@
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": "2026-06-24",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -1001,6 +1038,9 @@
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": "2026-06-19",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -1055,6 +1095,9 @@
    "prom_pre_pct": 92.47,
    "prom_post_pct": 66.97,
    "listing_date": "2026-06-18",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": 1173836,
    "nonprom_pre_pct_of_post": 5.77,
    "events": [
@@ -1125,6 +1168,9 @@
    "prom_pre_pct": 90.28,
    "prom_post_pct": 66.49,
    "listing_date": "2026-06-12",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": 1284557,
    "nonprom_pre_pct_of_post": 7.16,
    "events": [
@@ -1195,6 +1241,7 @@
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": null,
+   "anchor_names": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -1241,6 +1288,7 @@
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": null,
+   "anchor_names": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -1287,6 +1335,9 @@
    "prom_pre_pct": 85.17,
    "prom_post_pct": 62.28,
    "listing_date": "2026-06-08",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": 1895993,
    "nonprom_pre_pct_of_post": 10.84,
    "events": [
@@ -1357,6 +1408,9 @@
    "prom_pre_pct": 97.19,
    "prom_post_pct": 70.11,
    "listing_date": "2026-06-03",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": 210188,
    "nonprom_pre_pct_of_post": 2.03,
    "events": [
@@ -1427,6 +1481,9 @@
    "prom_pre_pct": 98.68,
    "prom_post_pct": 72.46,
    "listing_date": "2026-06-01",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": 189715,
    "nonprom_pre_pct_of_post": 0.97,
    "events": [
@@ -1497,6 +1554,9 @@
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": "2026-05-29",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -1551,6 +1611,9 @@
    "prom_pre_pct": 99.41,
    "prom_post_pct": 69.51,
    "listing_date": "2026-05-27",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": 74480,
    "nonprom_pre_pct_of_post": 0.45,
    "events": [
@@ -1621,6 +1684,9 @@
    "prom_pre_pct": 81.25,
    "prom_post_pct": 59.67,
    "listing_date": "2026-05-26",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": 4128000,
    "nonprom_pre_pct_of_post": 13.77,
    "events": [
@@ -1691,6 +1757,9 @@
    "prom_pre_pct": 79.7,
    "prom_post_pct": 57.29,
    "listing_date": "2026-05-19",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": 1400699,
    "nonprom_pre_pct_of_post": 14.59,
    "events": [
@@ -1761,6 +1830,9 @@
    "prom_pre_pct": 99.99,
    "prom_post_pct": 73.5,
    "listing_date": "2026-05-15",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": 880,
    "nonprom_pre_pct_of_post": 0.01,
    "events": [
@@ -1831,6 +1903,7 @@
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": null,
+   "anchor_names": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -1877,6 +1950,9 @@
    "prom_pre_pct": 88.93,
    "prom_post_pct": 65.01,
    "listing_date": "2026-05-12",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": 901224,
    "nonprom_pre_pct_of_post": 8.47,
    "events": [
@@ -1947,6 +2023,7 @@
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": null,
+   "anchor_names": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -1993,6 +2070,9 @@
    "prom_pre_pct": 99.98,
    "prom_post_pct": 73.6,
    "listing_date": "2026-04-30",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": 2401,
    "nonprom_pre_pct_of_post": 0.01,
    "events": [
@@ -2063,6 +2143,7 @@
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": null,
+   "anchor_names": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -2101,6 +2182,9 @@
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": "2026-04-24",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -2155,6 +2239,7 @@
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": null,
+   "anchor_names": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -2201,6 +2286,9 @@
    "prom_pre_pct": 66.53,
    "prom_post_pct": 46.4,
    "listing_date": "2026-04-13",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": 4627896,
    "nonprom_pre_pct_of_post": 23.34,
    "events": [
@@ -2271,6 +2359,9 @@
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": "2026-04-13",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -2325,6 +2416,9 @@
    "prom_pre_pct": 99.99,
    "prom_post_pct": 73.53,
    "listing_date": "2026-04-07",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": 700,
    "nonprom_pre_pct_of_post": 0.01,
    "events": [
@@ -2395,6 +2489,9 @@
    "prom_pre_pct": 99.9,
    "prom_post_pct": 64.96,
    "listing_date": "2026-04-02",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": 3509,
    "nonprom_pre_pct_of_post": 0.07,
    "events": [
@@ -2465,6 +2562,7 @@
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": null,
+   "anchor_names": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -2511,6 +2609,7 @@
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": null,
+   "anchor_names": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -2557,6 +2656,7 @@
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": null,
+   "anchor_names": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -2603,6 +2703,9 @@
    "prom_pre_pct": 87.19,
    "prom_post_pct": 57.79,
    "listing_date": "2026-04-01",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": 1962438,
    "nonprom_pre_pct_of_post": 9.45,
    "events": [
@@ -2673,6 +2776,7 @@
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": null,
+   "anchor_names": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -2719,6 +2823,9 @@
    "prom_pre_pct": 95.62,
    "prom_post_pct": 70.05,
    "listing_date": "2026-03-25",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": 536558,
    "nonprom_pre_pct_of_post": 3.45,
    "events": [
@@ -2789,6 +2896,7 @@
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": null,
+   "anchor_names": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -2835,6 +2943,7 @@
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": null,
+   "anchor_names": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -2881,6 +2990,9 @@
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": "2026-03-18",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -2935,6 +3047,7 @@
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": null,
+   "anchor_names": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -2981,6 +3094,9 @@
    "prom_pre_pct": 95.49,
    "prom_post_pct": 69.52,
    "listing_date": "2026-03-06",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": 635264,
    "nonprom_pre_pct_of_post": 3.41,
    "events": [
@@ -3051,6 +3167,9 @@
    "prom_pre_pct": 80.19,
    "prom_post_pct": 59.02,
    "listing_date": "2026-03-05",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": 3052324,
    "nonprom_pre_pct_of_post": 14.58,
    "events": [
@@ -3121,6 +3240,7 @@
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": null,
+   "anchor_names": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -3167,6 +3287,7 @@
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": null,
+   "anchor_names": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -3213,6 +3334,9 @@
    "prom_pre_pct": 96.0,
    "prom_post_pct": 70.65,
    "listing_date": "2026-03-02",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": 280000,
    "nonprom_pre_pct_of_post": 2.94,
    "events": [
@@ -3283,6 +3407,9 @@
    "prom_pre_pct": 84.94,
    "prom_post_pct": 61.98,
    "listing_date": "2026-03-02",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": 2260700,
    "nonprom_pre_pct_of_post": 10.99,
    "events": [
@@ -3353,6 +3480,7 @@
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": null,
+   "anchor_names": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -3399,6 +3527,9 @@
    "prom_pre_pct": 78.79,
    "prom_post_pct": 61.85,
    "listing_date": "2026-02-27",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": 3637514,
    "nonprom_pre_pct_of_post": 16.65,
    "events": [
@@ -3469,6 +3600,7 @@
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": null,
+   "anchor_names": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -3515,6 +3647,9 @@
    "prom_pre_pct": 97.15,
    "prom_post_pct": 69.07,
    "listing_date": "2026-02-24",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": 159037,
    "nonprom_pre_pct_of_post": 2.03,
    "events": [
@@ -3585,6 +3720,9 @@
    "prom_pre_pct": 79.71,
    "prom_post_pct": 58.19,
    "listing_date": "2026-02-19",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": 1264385,
    "nonprom_pre_pct_of_post": 14.81,
    "events": [
@@ -3655,6 +3793,9 @@
    "prom_pre_pct": 90.92,
    "prom_post_pct": 62.9,
    "listing_date": "2026-02-13",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": 491324,
    "nonprom_pre_pct_of_post": 6.81,
    "events": [
@@ -3725,6 +3866,7 @@
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": null,
+   "anchor_names": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -3771,6 +3913,7 @@
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": null,
+   "anchor_names": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -3817,6 +3960,9 @@
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": "2026-02-11",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -3871,6 +4017,9 @@
    "prom_pre_pct": 99.92,
    "prom_post_pct": 69.03,
    "listing_date": "2026-02-11",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": 10852,
    "nonprom_pre_pct_of_post": 0.06,
    "events": [
@@ -3941,6 +4090,9 @@
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": "2026-02-04",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -3995,6 +4147,9 @@
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": "2026-02-06",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -4049,6 +4204,9 @@
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": "2026-02-04",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -4103,6 +4261,9 @@
    "prom_pre_pct": 92.35,
    "prom_post_pct": 67.9,
    "listing_date": "2026-02-03",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": 584705,
    "nonprom_pre_pct_of_post": 5.62,
    "events": [
@@ -4173,6 +4334,9 @@
    "prom_pre_pct": 93.57,
    "prom_post_pct": 68.83,
    "listing_date": "2026-02-02",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": 1073704,
    "nonprom_pre_pct_of_post": 4.73,
    "events": [
@@ -4243,6 +4407,9 @@
    "prom_pre_pct": 92.16,
    "prom_post_pct": 67.28,
    "listing_date": "2026-01-29",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": 1216830,
    "nonprom_pre_pct_of_post": 5.72,
    "events": [
@@ -4313,6 +4480,9 @@
    "prom_pre_pct": 88.5,
    "prom_post_pct": 64.25,
    "listing_date": "2026-01-28",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": 2559052,
    "nonprom_pre_pct_of_post": 8.84,
    "events": [
@@ -4383,6 +4553,7 @@
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": null,
+   "anchor_names": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -4429,6 +4600,9 @@
    "prom_pre_pct": 95.06,
    "prom_post_pct": 69.99,
    "listing_date": "2026-01-21",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": 519688,
    "nonprom_pre_pct_of_post": 3.64,
    "events": [
@@ -4499,6 +4673,7 @@
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": null,
+   "anchor_names": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -4545,6 +4720,9 @@
    "prom_pre_pct": 82.3,
    "prom_post_pct": 60.07,
    "listing_date": "2026-01-21",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": 2953129,
    "nonprom_pre_pct_of_post": 12.92,
    "events": [
@@ -4615,6 +4793,9 @@
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": "2026-01-19",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -4669,6 +4850,9 @@
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": "2026-01-20",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -4723,6 +4907,7 @@
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": null,
+   "anchor_names": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -4769,6 +4954,9 @@
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": "2026-01-13",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -4823,6 +5011,9 @@
    "prom_pre_pct": 99.99,
    "prom_post_pct": 72.85,
    "listing_date": "2026-01-07",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": 1100,
    "nonprom_pre_pct_of_post": 0.01,
    "events": [
@@ -4893,6 +5084,9 @@
    "prom_pre_pct": 45.19,
    "prom_post_pct": 32.51,
    "listing_date": "2026-01-02",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": 6806070,
    "nonprom_pre_pct_of_post": 39.44,
    "events": [
@@ -4963,6 +5157,9 @@
    "prom_pre_pct": 71.87,
    "prom_post_pct": 52.95,
    "listing_date": "2025-12-31",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": 1403743,
    "nonprom_pre_pct_of_post": 20.73,
    "events": [
@@ -5033,6 +5230,9 @@
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": "2025-12-31",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -5087,6 +5287,9 @@
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": "2025-12-31",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -5141,6 +5344,9 @@
    "prom_pre_pct": 97.64,
    "prom_post_pct": 71.77,
    "listing_date": "2025-01-07",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": 300457,
    "nonprom_pre_pct_of_post": 1.73,
    "events": [
@@ -5187,6 +5393,7 @@
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": null,
+   "anchor_names": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -5233,6 +5440,9 @@
    "prom_pre_pct": 89.19,
    "prom_post_pct": 65.4,
    "listing_date": "2025-01-02",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
    "nonprom_pre_shares": 9512799,
    "nonprom_pre_pct_of_post": 7.93,
    "events": [
@@ -5279,6 +5489,7 @@
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": null,
+   "anchor_names": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -5325,6 +5536,7 @@
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": null,
+   "anchor_names": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
