@@ -39,23 +39,26 @@ def load_events():
     with open("data/lockins.json", encoding="utf-8") as f:
         payload = json.load(f)
     today = dt.datetime.now(IST).date()
+    tname = {"A30": "30D", "A90": "90D", "PRE6M": "6M PRE-IPO", "PX1Y": "1Y PROM", "PX2Y": "2Y PROM"}
+    tcol = {"A30": ("#fff3d9", AMBER), "A90": ("#dff7f9", CYAN),
+            "PRE6M": ("#efe9ff", "#6d4fd1"), "PX1Y": ("#ffe9df", "#c2410c"), "PX2Y": ("#ffe9df", "#c2410c")}
     evs = []
     for r in payload["records"]:
         if r["category"] != "SME":          # digest = SME only (page has a mainboard toggle)
             continue
-        for tr, d in ((30, r["d30"]), (90, r["d90"])):
-            if not d:
+        for e in r.get("events", []):
+            if not e.get("d"):
                 continue
-            dd = (dt.date.fromisoformat(d) - today).days
+            dd = (dt.date.fromisoformat(e["d"]) - today).days
             if dd < 0 or dd > 30:
                 continue
             evs.append({
-                "dd": dd, "date": d, "tr": tr, "company": r["company"], "url": r["url"],
-                "shares": r["anchor_shares"] // 2 if r["anchor_shares"] else None,
-                "val": round(r["anchor_investment_cr"] / 2, 2) if r["anchor_investment_cr"] else None,
-                "pct": r["pct_of_issue"],
+                "dd": dd, "date": e["d"], "tlbl": tname.get(e["t"], e["t"]),
+                "tbg": tcol.get(e["t"], ("#eee", "#555"))[0], "tfg": tcol.get(e["t"], ("#eee", "#555"))[1],
+                "company": r["company"], "url": r["url"], "est": e.get("est", False),
+                "shares": e.get("sh"), "val": e.get("val"), "cappct": e.get("pct"),
             })
-    evs.sort(key=lambda e: (e["date"], -(e["val"] or 0)))
+    evs.sort(key=lambda e: (e["date"], -(e["cappct"] or 0), -(e["val"] or 0)))
     return today, evs
 
 def sh_fmt(n):
@@ -74,14 +77,14 @@ def rows_html(evs, accent):
     out = []
     for e in evs:
         d = dt.date.fromisoformat(e["date"])
-        tr_bg = "#fff3d9" if e["tr"] == 30 else "#dff7f9"
-        tr_fg = AMBER if e["tr"] == 30 else CYAN
+        size = cr(e["val"]) if e["val"] is not None else (f"{e['cappct']}% cap" if e["cappct"] is not None else "—")
+        size_lbl = "at issue px" if e["val"] is not None else ("of capital" + (" · est" if e["est"] else ""))
         out.append(f"""<tr>
   <td style="padding:9px 6px 9px 14px;white-space:nowrap;color:{MUT};font-size:12px">{d.strftime('%a, %d %b')}</td>
   <td style="padding:9px 6px"><a href="{e['url'] or '#'}" style="color:{INK};font-weight:600;font-size:13.5px;text-decoration:none">{e['company']}</a></td>
-  <td style="padding:9px 6px"><span style="background:{tr_bg};color:{tr_fg};font-size:11px;font-weight:700;padding:2px 8px;border-radius:99px">{e['tr']}D</span></td>
-  <td style="padding:9px 6px;text-align:right;font-size:12.5px">{sh_fmt(e['shares'])}<br><span style="color:{MUT};font-size:10px">shares</span></td>
-  <td style="padding:9px 14px 9px 6px;text-align:right;font-size:12.5px;font-weight:600">{cr(e['val'])}<br><span style="color:{MUT};font-size:10px;font-weight:400">at issue px</span></td>
+  <td style="padding:9px 6px;white-space:nowrap"><span style="background:{e['tbg']};color:{e['tfg']};font-size:10.5px;font-weight:700;padding:2px 8px;border-radius:99px">{e['tlbl']}</span></td>
+  <td style="padding:9px 6px;text-align:right;font-size:12.5px">{sh_fmt(e['shares'])}<br><span style="color:{MUT};font-size:10px">shares{' · est' if e['est'] else ''}</span></td>
+  <td style="padding:9px 14px 9px 6px;text-align:right;font-size:12.5px;font-weight:600">{size}<br><span style="color:{MUT};font-size:10px;font-weight:400">{size_lbl}</span></td>
 </tr>""")
     return "\n".join(out)
 
@@ -100,8 +103,9 @@ def build_email():
     month = [e for e in evs if 8 <= e["dd"] <= 30]
     url = page_url()
 
-    subject = f"🔓 SME lock-ins — {len(t)} today · {len(t)+len(tom)+len(week)} in 7 days ({today.strftime('%d %b')})"
-    total7 = sum(e["val"] or 0 for e in t + tom + week)
+    subject = f"🔓 SME unlocks — {len(t)} today · {len(t)+len(tom)+len(week)} in 7 days ({today.strftime('%d %b')})"
+    big = max(t + tom + week, key=lambda e: e["cappct"] or 0, default=None)
+    big_txt = f"{big['cappct']}%" if big and big["cappct"] else "—"
 
     body = f"""<!DOCTYPE html><html><body style="margin:0;padding:0;background:#eef1f7">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr><td align="center" style="padding:26px 12px">
@@ -118,7 +122,7 @@ def build_email():
 <tr>
   <td style="padding:10px"><div style="font-size:30px;font-weight:800;color:{RED}">{len(t)}</div><div style="font-size:10px;letter-spacing:.16em;color:{MUT}">TODAY</div></td>
   <td style="padding:10px;border-left:1px solid #e5e9f2"><div style="font-size:30px;font-weight:800;color:{AMBER}">{len(t)+len(tom)+len(week)}</div><div style="font-size:10px;letter-spacing:.16em;color:{MUT}">NEXT 7 DAYS</div></td>
-  <td style="padding:10px;border-left:1px solid #e5e9f2"><div style="font-size:30px;font-weight:800;color:{CYAN}">₹{total7:,.0f} cr</div><div style="font-size:10px;letter-spacing:.16em;color:{MUT}">UNLOCKING · 7D</div></td>
+  <td style="padding:10px;border-left:1px solid #e5e9f2"><div style="font-size:30px;font-weight:800;color:{CYAN}">{big_txt}</div><div style="font-size:10px;letter-spacing:.16em;color:{MUT}">BIGGEST · % OF CAP · 7D</div></td>
 </tr></table>
 
 {section("🔴 OPENING TODAY", RED, t)}
@@ -131,7 +135,7 @@ def build_email():
 </td></tr></table>
 
 <div style="color:{MUT};font-size:10.5px;line-height:1.8;margin-top:16px;border-top:1px solid #e5e9f2;padding-top:12px">
-50% of anchor shares release at each date; values estimated at issue price. Data: Chittorgarh.com.
+Anchor: 50% at 30/90 days (values at issue price). Pre-IPO &amp; promoter events marked "est" are computed from SEBI ICDR rules and prospectus data — verify before acting. Data: Chittorgarh.com.
 For research &amp; information only — not investment advice. Anchor selling post-unlock is a possibility, not a certainty.</div>
 
 </td></tr></table></td></tr></table></body></html>"""
