@@ -76,13 +76,38 @@ with open("docs/data.json", "w", encoding="utf-8") as f:
 open("docs/.nojekyll", "w").close()
 
 # ---------------- HTML ----------------
+
+# outcome history stats (by event type) + anchor fund registry
+_outs = {}
+try:
+    with open("data/outcomes.json", encoding="utf-8") as _f:
+        _outs = json.load(_f)
+except Exception:
+    _outs = {}
+_by_type = {}
+for _o in _outs.values():
+    if _o.get("ret5_pct") is not None:
+        _by_type.setdefault(_o["type"], []).append(_o["ret5_pct"])
+OUTCOME_STATS = {}
+for _t, _v in _by_type.items():
+    _v.sort()
+    OUTCOME_STATS[_t] = {"n": len(_v), "med": round(_v[len(_v)//2], 1)}
+
+FUND_COUNTS = {}
+for _r in records:
+    if _r.get("category") != "SME":
+        continue
+    for _nm in (_r.get("anchor_names") or []):
+        _k = " ".join(_nm.split()).title()
+        FUND_COUNTS[_k] = FUND_COUNTS.get(_k, 0) + 1
+
 HTML = r"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Unlock Radar — SME IPO lock-in expiries</title>
-<meta name="description" content="Daily-refreshed calendar of anchor, pre-IPO and promoter lock-in expiries for Indian SME IPOs.">
+<meta name="description" content="Daily-refreshed anchor, pre-IPO and promoter lock-in expiries for Indian SME IPOs, with market context.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Instrument+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -96,231 +121,196 @@ HTML = r"""<!DOCTYPE html>
 }
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{background:var(--bg);color:var(--txt);font-family:"Instrument Sans",system-ui,sans-serif;font-size:15px;
-  background-image:radial-gradient(1100px 500px at 15% -10%, rgba(179,111,0,.06), transparent 60%),
-                   radial-gradient(900px 420px at 96% -4%, rgba(14,116,144,.05), transparent 55%);
-  min-height:100vh; padding-bottom:60px}
-.grain{position:fixed;inset:0;pointer-events:none;opacity:.05;z-index:99;mix-blend-mode:multiply;
-  background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 240 240' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
-.wrap{max-width:1180px;margin:0 auto;padding:0 28px}
+body{background:var(--bg);color:var(--txt);font-family:"Instrument Sans",system-ui,sans-serif;font-size:15px;min-height:100vh;padding-bottom:60px;
+  background-image:radial-gradient(1100px 500px at 15% -10%, rgba(179,111,0,.05), transparent 60%)}
+.wrap{max-width:980px;margin:0 auto;padding:0 24px}
 a{color:inherit;text-decoration:none}
-h2{font-family:Fraunces,serif;font-weight:430;font-style:italic;font-size:22px;color:var(--mut2);margin-bottom:14px}
+.sec{font-size:12px;font-weight:600;letter-spacing:.05em;color:var(--mut2);margin:26px 0 10px;display:flex;align-items:center;gap:7px}
+.sec .hint{color:var(--mut);cursor:help;font-size:13px}
 ::selection{background:rgba(179,111,0,.22)}
-
-.mast{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;padding:42px 0 22px;border-bottom:1.5px solid var(--line2);flex-wrap:wrap}
-.kicker{font-size:11.5px;font-weight:600;letter-spacing:.24em;color:var(--mut);display:flex;align-items:center;gap:14px;animation:rise .6s .05s both}
-.live{display:inline-flex;align-items:center;gap:6px;color:var(--green);letter-spacing:.14em;font-size:10.5px;font-weight:600}
-.live i{width:7px;height:7px;border-radius:50%;background:var(--green);animation:blink 2.2s infinite}
-h1{font-family:Fraunces,serif;font-weight:400;font-size:clamp(44px,7vw,74px);line-height:.98;margin:12px 0 10px;animation:rise .6s .12s both}
+.mast{display:flex;justify-content:space-between;align-items:flex-end;gap:14px;padding:34px 0 16px;border-bottom:1.5px solid var(--line2);flex-wrap:wrap}
+h1{font-family:Fraunces,serif;font-weight:400;font-size:clamp(34px,5vw,46px);line-height:1}
 h1 em{font-style:italic;color:var(--amber)}
-.sub{color:var(--mut2);max-width:600px;font-size:14px;line-height:1.7;animation:rise .6s .2s both}
-.mast-right{text-align:right;animation:rise .6s .26s both}
-.today-date{font-family:Fraunces,serif;font-style:italic;font-size:23px;color:var(--mut2)}
-.updated{font-size:12px;color:var(--mut);margin-top:8px;line-height:1.9}
-.updated a{color:var(--cyan);border-bottom:1px dotted rgba(14,116,144,.5);font-weight:500}
-.updated b{font-family:var(--mono);font-weight:500}
-@keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
-@keyframes blink{0%,100%{opacity:1}50%{opacity:.25}}
-
-.typebar{display:flex;gap:10px;flex-wrap:wrap;margin:20px 0 4px;animation:rise .6s .3s both}
-.tchip{display:flex;align-items:center;gap:8px;font-size:12px;font-weight:600;letter-spacing:.08em;padding:8px 15px;background:var(--panel);border:1px solid var(--line2);border-radius:99px;cursor:pointer;color:var(--mut2);user-select:none;transition:all .15s;box-shadow:0 1px 2px rgba(16,24,40,.04)}
-.tchip i{width:9px;height:9px;border-radius:50%}
-.tchip.off{opacity:.4;filter:grayscale(.6);box-shadow:none;background:transparent}
-.tchip:hover{border-color:rgba(24,33,51,.3)}
-.i-a30{background:var(--amber)}.i-a90{background:var(--cyan)}.i-pre{background:var(--violet)}.i-px{background:var(--coral)}
-
-.stats{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line2);border-radius:16px;margin:18px 0 8px;overflow:hidden;background:var(--panel);box-shadow:0 1px 3px rgba(16,24,40,.05);animation:rise .6s .32s both}
-.stat{padding:20px 22px;border-right:1px solid var(--line)}
-.stat:last-child{border-right:0}
-.stat .k{font-size:10.5px;font-weight:600;letter-spacing:.2em;color:var(--mut)}
-.stat .v{font-family:var(--mono);font-size:31px;margin-top:8px;font-weight:600}
-.stat .s{font-size:12px;color:var(--mut);margin-top:4px}
-.stat.hot .v{color:var(--red)} .stat.warm .v{color:var(--amber)} .stat.cool .v{color:var(--cyan)}
-
-.rail-wrap{margin-top:40px;animation:rise .6s .4s both}
-.rail{display:flex;gap:14px;overflow-x:auto;padding:4px 2px 18px;scroll-snap-type:x mandatory;scrollbar-width:thin;scrollbar-color:var(--line2) transparent}
-.card{min-width:222px;scroll-snap-align:start;background:var(--panel);border:1px solid var(--line2);border-radius:15px;padding:16px 17px 14px;transition:transform .22s,box-shadow .22s;display:flex;flex-direction:column;gap:9px;box-shadow:0 1px 3px rgba(16,24,40,.05)}
-.card:hover{transform:translateY(-4px);box-shadow:0 8px 22px rgba(16,24,40,.12)}
-.card.today{border-color:rgba(214,39,59,.5);animation:glow 2.6s infinite}
-@keyframes glow{0%,100%{box-shadow:0 2px 10px rgba(214,39,59,.12)}50%{box-shadow:0 4px 24px rgba(214,39,59,.25)}}
-.dbadge{font-size:11.5px;letter-spacing:.1em;color:var(--mut);display:flex;justify-content:space-between;align-items:center;font-family:var(--mono)}
-.dbadge b{font-size:17px;font-weight:600;color:var(--txt)}
-.card.today .dbadge b{color:var(--red)}
-.card.soon .dbadge b{color:var(--amber)}
-.cname{font-size:14px;line-height:1.4;min-height:40px;font-weight:600}
-.pill{display:inline-block;font-size:10.5px;letter-spacing:.08em;padding:3px 10px;border-radius:99px;font-weight:700}
-.p30{background:var(--amber-bg);color:var(--amber)}
-.p90{background:var(--cyan-bg);color:var(--cyan)}
-.p6m{background:var(--violet-bg);color:var(--violet)}
-.ppx{background:var(--coral-bg);color:var(--coral)}
+.subline{font-size:12px;color:var(--mut);margin-top:6px}
+.subline a{color:var(--cyan);border-bottom:1px dotted rgba(14,116,144,.5)}
+.glance{font-family:var(--mono);font-size:12.5px;color:var(--mut2);text-align:right;line-height:2}
+.glance b{font-weight:600}
+.glance .rd{color:var(--red)}
+.wrow{display:flex;align-items:center;gap:12px;padding:11px 12px;border-bottom:1px solid var(--line);background:var(--panel);cursor:pointer;transition:background .15s}
+.wrow:first-of-type{border-top-left-radius:12px;border-top-right-radius:12px}
+.wrow:last-of-type{border-bottom-left-radius:12px;border-bottom-right-radius:12px;border-bottom:0}
+.wbox{border:1px solid var(--line2);border-radius:12px;overflow:hidden;box-shadow:0 1px 3px rgba(16,24,40,.05)}
+.wrow:hover{background:#FBFAF7}
+.wrow.today{border-left:3px solid var(--red)}
+.wd{font-family:var(--mono);font-size:11px;font-weight:600;color:var(--mut);width:52px;text-align:center}
+.wrow.today .wd{color:var(--red)}
+.wmain{flex:1;min-width:0}
+.wname{font-size:14px;font-weight:600}
+.wname .pl{font-family:var(--mono);font-size:11px;font-weight:500;margin-left:7px}
+.wsub{font-size:11.5px;color:var(--mut);margin-top:1px}
+.pill{display:inline-block;font-size:10.5px;letter-spacing:.06em;padding:2px 9px;border-radius:99px;font-weight:600;white-space:nowrap}
+.p30{background:var(--amber-bg);color:var(--amber)} .p90{background:var(--cyan-bg);color:var(--cyan)}
+.p6m{background:var(--violet-bg);color:var(--violet)} .ppx{background:var(--coral-bg);color:var(--coral)}
 .pmb{background:#E8ECF5;color:#4A5A7A}
-.cnums{display:flex;justify-content:space-between;border-top:1px solid var(--line);padding-top:10px;font-size:13px;font-family:var(--mono);font-weight:500}
-.cnums span{display:block;font-family:"Instrument Sans",sans-serif;font-size:9.5px;font-weight:600;color:var(--mut);letter-spacing:.12em;margin-top:3px}
-
-.cal-wrap{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:34px;animation:rise .6s .46s both}
-.cal{background:var(--panel);border:1px solid var(--line);border-radius:15px;padding:18px 20px;box-shadow:0 1px 3px rgba(16,24,40,.04)}
-.cal h3{font-family:Fraunces,serif;font-style:italic;font-weight:430;font-size:16px;color:var(--mut2);margin-bottom:12px}
-.cal-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(31px,1fr));gap:5px}
-.day{aspect-ratio:1;border-radius:8px;border:1px solid transparent;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;font-size:11px;color:var(--mut);font-family:var(--mono)}
-.day.has{border-color:var(--line2);background:var(--panel2);cursor:pointer;color:var(--txt);font-weight:600}
-.day.has:hover{border-color:rgba(24,33,51,.35)}
-.day.today{border-color:var(--red);color:var(--red);font-weight:700}
-.dots{display:flex;gap:2px}
-.dot{width:4.5px;height:4.5px;border-radius:50%}
-
-.ledger-wrap{margin-top:44px;animation:rise .6s .5s both}
-.ledger-head{display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap;margin-bottom:16px}
-.controls{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
-.tabs{display:flex;border:1px solid var(--line2);border-radius:10px;overflow:hidden;background:var(--panel)}
-.tab{padding:8px 16px;font-size:11.5px;font-weight:600;letter-spacing:.1em;color:var(--mut);cursor:pointer;background:transparent;border:0;font-family:inherit}
-.tab.on{background:var(--txt);color:#fff}
-.mb-toggle{display:flex;gap:7px;align-items:center;font-size:12px;font-weight:500;color:var(--mut2);cursor:pointer}
-.mb-toggle input{accent-color:var(--amber)}
-#search{background:var(--panel);border:1px solid var(--line2);border-radius:10px;color:var(--txt);font-family:inherit;font-size:13px;padding:9px 14px;width:200px;outline:none;box-shadow:0 1px 2px rgba(16,24,40,.04)}
-#search:focus{border-color:var(--amber)}
-.lgroup{margin-bottom:6px}
-.ldate{font-size:11.5px;font-weight:700;letter-spacing:.16em;color:var(--mut);padding:18px 4px 8px;display:flex;gap:10px;align-items:center}
-.ldate.today-l{color:var(--red)}
-.lrow{display:grid;grid-template-columns:52px 1fr 112px 110px 110px 30px;gap:10px;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:13px 16px;margin-bottom:7px;transition:box-shadow .18s,transform .18s;box-shadow:0 1px 2px rgba(16,24,40,.04)}
-.lrow:hover{transform:translateX(3px);box-shadow:0 4px 14px rgba(16,24,40,.1);border-color:var(--line2)}
-.lrow.past{opacity:.55}
-.lrow .dd{font-family:var(--mono);font-size:17px;font-weight:600;color:var(--mut2)}
-.lrow .dd span{display:block;font-size:9px;letter-spacing:.18em;color:var(--mut);font-weight:500}
-.lrow .co{font-size:14px;font-weight:600;line-height:1.35}
-.lrow .co span{display:block;font-size:11px;color:var(--mut);margin-top:2px;font-weight:400}
-.num{text-align:right;font-size:13px;font-family:var(--mono);font-weight:500}
-.num span{display:block;font-family:"Instrument Sans",sans-serif;font-size:9px;font-weight:600;color:var(--mut);letter-spacing:.14em;margin-top:2px}
-.go{color:var(--mut);font-size:15px;text-align:center}
-.lrow:hover .go{color:var(--cyan)}
-.empty{color:var(--mut);padding:30px 4px;font-size:13px}
-mark{background:rgba(179,111,0,.25);color:var(--txt);border-radius:3px}
-
-.cbar{display:flex;height:26px;border-radius:8px;overflow:hidden;border:1px solid var(--line2);margin-top:6px}
-.cseg{height:100%}
-i.cmpc,.cseg.cmpc{background:#99A1B0} i.cexc,.cseg.cexc{background:var(--coral)} i.cpre,.cseg.cpre{background:var(--violet)} i.cpub,.cseg.cpub{background:#D4DBE6}
-.clegend{display:flex;gap:14px;flex-wrap:wrap;margin-top:8px;font-size:10.5px;color:var(--mut);font-family:var(--mono)}
-.clegend i{display:inline-block;width:9px;height:9px;border-radius:3px;margin-right:5px;vertical-align:-1px}
-.tl{position:relative;height:60px;margin:10px 2px 0}
-.tlline{position:absolute;top:18px;left:0;right:0;height:2px;background:var(--line2);border-radius:2px}
-.tld{position:absolute;top:12px;width:13px;height:13px;border-radius:50%;border:2.5px solid #fff;box-shadow:0 0 0 1px var(--line2);transform:translateX(-50%)}
-.tld.b30{background:var(--amber)}.tld.b90{background:var(--cyan)}.tld.bpre{background:var(--violet)}.tld.bpx{background:var(--coral)}
-.tld.done{opacity:.35}
-.tlnow{position:absolute;top:6px;width:2.5px;height:26px;background:var(--red);transform:translateX(-50%);border-radius:2px}
-.tlnow:after{content:'today';position:absolute;top:-4px;left:6px;font-size:9px;color:var(--red);font-weight:700;font-family:var(--mono)}
-.tll{position:absolute;top:36px;font-size:9.5px;color:var(--mut);font-family:var(--mono);line-height:1.5;white-space:nowrap}
-.emkt{font-size:12.5px;color:var(--mut2);margin-top:8px;font-family:var(--mono)}
-.emkt b{font-weight:600}
-.efrow{display:flex;align-items:center;gap:10px;margin-top:7px}
-.etrack{flex:1;height:9px;background:var(--panel2);border:1px solid var(--line);border-radius:99px;overflow:hidden}
-.efill{height:100%;border-radius:99px}
-.efill.b30{background:var(--amber)}.efill.b90{background:var(--cyan)}.efill.bpre{background:var(--violet)}.efill.bpx{background:var(--coral)}
-.efill.dv.dgreen{background:var(--green)}.efill.dv.damber{background:var(--amber)}.efill.dv.dred{background:var(--red)}
-.eflab{font-size:10.5px;color:var(--mut);font-family:var(--mono);white-space:nowrap}
+.wnum{text-align:right;font-family:var(--mono);min-width:86px}
+.wnum .v{font-size:13px;font-weight:600}
+.wnum .s{font-size:10.5px;margin-top:1px}
+.dot{display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:3px}
 .dgreen{color:var(--green)}.damber{color:var(--amber)}.dred{color:var(--red)}
-.pxchip{font-weight:600}
+.bgreen{background:#0B8A4D}.bamber{background:#EF9F27}.bred{background:#E24B4A}
+.pb{border:1px solid var(--line2);border-radius:12px;overflow:hidden;box-shadow:0 1px 3px rgba(16,24,40,.05)}
+.pbrow{display:flex;align-items:center;gap:12px;padding:10px 14px;border-bottom:1px solid var(--line);background:var(--panel);cursor:pointer}
+.pbrow:last-child{border-bottom:0}
+.pbrow:hover{background:#FBFAF7}
+.pbrank{font-family:var(--mono);font-size:11px;color:var(--mut);width:14px}
+.pbname{flex:1;font-size:13.5px;font-weight:600;min-width:0}
+.pbname span{font-family:var(--mono);font-size:11px;color:var(--mut);font-weight:400;margin-left:7px}
+.pbcap{font-family:var(--mono);font-size:11.5px;color:var(--mut2);width:74px;text-align:right}
+.pbdov{font-family:var(--mono);font-size:13px;font-weight:600;width:86px;text-align:right}
+.legend{font-size:11px;color:var(--mut);margin-top:7px}
+.hzrow{display:flex;align-items:center;gap:14px;margin-bottom:8px}
+.hzrow label{font-size:12px;font-weight:600;color:var(--mut2)}
+.hzrow input[type=range]{flex:1;accent-color:var(--amber);height:4px}
+.hzout{font-family:var(--mono);font-size:12px;min-width:100px;text-align:right;color:var(--mut2)}
+.strip{position:relative;height:34px;border-top:2px solid var(--line2);margin:12px 6px 0}
+.sdot{position:absolute;top:-6px;width:10px;height:10px;border-radius:50%;transform:translateX(-50%);cursor:pointer;border:2px solid #fff;box-shadow:0 0 0 1px var(--line2)}
+.snow{position:absolute;top:-9px;width:3px;height:16px;background:var(--red);transform:translateX(-50%)}
+.saxis{display:flex;justify-content:space-between;font-size:10px;font-family:var(--mono);color:var(--mut);margin-top:4px}
+.i-a30{background:#EF9F27}.i-a90{background:#14A38B}.i-pre{background:#7F77DD}.i-px{background:#D85A30}
+.toolbar{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:22px 0 12px;padding-top:16px;border-top:1px solid var(--line)}
+#search{background:var(--panel);border:1px solid var(--line2);border-radius:99px;color:var(--txt);font-family:inherit;font-size:12.5px;padding:8px 15px;width:190px;outline:none}
+#search:focus{border-color:var(--amber)}
+.fdot{display:flex;align-items:center;gap:5px;font-size:11.5px;font-weight:600;color:var(--mut2);cursor:pointer;user-select:none;padding:4px 2px}
+.fdot i{width:9px;height:9px;border-radius:50%;display:inline-block}
+.fdot.off{opacity:.35}
+.tabs{display:flex;border:1px solid var(--line2);border-radius:9px;overflow:hidden;margin-left:auto;background:var(--panel)}
+.tab{padding:6px 14px;font-size:11px;font-weight:600;letter-spacing:.06em;color:var(--mut);cursor:pointer;background:transparent;border:0;font-family:inherit}
+.tab.on{background:var(--txt);color:#fff}
+.mb-toggle{display:flex;gap:6px;align-items:center;font-size:11.5px;color:var(--mut2);cursor:pointer}
+.mb-toggle input{accent-color:var(--amber)}
+.lrow{display:flex;align-items:center;gap:12px;padding:8px 6px;border-bottom:1px solid var(--line);cursor:pointer}
+.lrow:hover{background:#FBFAF7}
+.lrow.past{opacity:.5}
+.ld{font-family:var(--mono);font-size:12px;color:var(--mut2);width:56px}
+.lco{flex:1;font-size:13px;font-weight:500;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.lco .pl{font-family:var(--mono);font-size:10.5px;margin-left:6px;font-weight:500}
+.lnum{font-family:var(--mono);font-size:12px;color:var(--mut2);width:78px;text-align:right}
+.empty{color:var(--mut);padding:24px 4px;font-size:12.5px}
+mark{background:rgba(179,111,0,.25);border-radius:3px}
 .mback{position:fixed;inset:0;background:rgba(26,33,48,.45);backdrop-filter:blur(6px);display:none;z-index:200;align-items:center;justify-content:center;padding:20px}
 .mback.on{display:flex}
-.mcard{background:var(--panel);border:1px solid var(--line2);border-radius:18px;max-width:760px;width:100%;max-height:88vh;overflow-y:auto;padding:28px 30px 24px;animation:mup .28s cubic-bezier(.2,.9,.3,1);scrollbar-width:thin;box-shadow:0 24px 60px rgba(16,24,40,.25)}
-@keyframes mup{from{opacity:0;transform:translateY(26px) scale(.98)}to{opacity:1;transform:none}}
-.mhead{display:flex;justify-content:space-between;align-items:flex-start;gap:14px;border-bottom:1px solid var(--line);padding-bottom:14px}
-.mhead h3{font-family:Fraunces,serif;font-style:italic;font-weight:430;font-size:25px;line-height:1.2}
-.mhead .msub{font-size:11.5px;color:var(--mut);margin-top:6px;line-height:1.9;font-family:var(--mono)}
+.mcard{background:var(--panel);border:1px solid var(--line2);border-radius:18px;max-width:760px;width:100%;max-height:88vh;overflow-y:auto;padding:26px 28px 22px;box-shadow:0 24px 60px rgba(16,24,40,.25);scrollbar-width:thin;animation:mup .25s cubic-bezier(.2,.9,.3,1)}
+@keyframes mup{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+.mhead{display:flex;justify-content:space-between;align-items:flex-start;gap:14px;border-bottom:1px solid var(--line);padding-bottom:13px}
+.mhead h3{font-family:Fraunces,serif;font-style:italic;font-weight:430;font-size:24px;line-height:1.2}
+.msub{font-size:11.5px;color:var(--mut);margin-top:6px;line-height:1.9;font-family:var(--mono)}
+.pxchip{font-weight:600}
 .mx{background:var(--panel);border:1px solid var(--line2);color:var(--mut2);border-radius:9px;font-family:inherit;font-size:12px;font-weight:600;padding:6px 11px;cursor:pointer}
 .mx:hover{border-color:var(--red);color:var(--red)}
-.mgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:16px 0 4px}
-.mstat{background:var(--panel2);border:1px solid var(--line);border-radius:11px;padding:11px 13px}
-.mstat .k{font-size:9.5px;font-weight:700;letter-spacing:.16em;color:var(--mut)}
-.mstat .v{font-family:var(--mono);font-size:14.5px;font-weight:600;margin-top:5px}
+.mgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin:15px 0 4px}
+.mstat{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+.mstat .k{font-size:9px;font-weight:700;letter-spacing:.14em;color:var(--mut)}
+.mstat .v{font-family:var(--mono);font-size:14px;font-weight:600;margin-top:4px}
 .mstat .v small{font-size:10px;color:var(--mut);font-weight:400}
-.msec{font-size:10.5px;font-weight:700;letter-spacing:.22em;color:var(--mut);margin:20px 0 10px}
-.mev{border:1px solid var(--line);border-left-width:3.5px;border-radius:11px;padding:12px 15px;margin-bottom:9px;background:#FDFCFA}
-.mev.b30{border-left-color:var(--amber)} .mev.b90{border-left-color:var(--cyan)}
-.mev.bpre{border-left-color:var(--violet)} .mev.bpx{border-left-color:var(--coral)}
+.msec{font-size:10px;font-weight:700;letter-spacing:.2em;color:var(--mut);margin:18px 0 9px}
+.cbar{display:flex;height:24px;border-radius:8px;overflow:hidden;border:1px solid var(--line2);margin-top:4px}
+.cseg{height:100%}
+i.cmpc,.cseg.cmpc{background:#99A1B0} i.cexc,.cseg.cexc{background:#D85A30} i.cpre,.cseg.cpre{background:#7F77DD} i.cpub,.cseg.cpub{background:#D4DBE6}
+.clegend{display:flex;gap:13px;flex-wrap:wrap;margin-top:7px;font-size:10.5px;color:var(--mut);font-family:var(--mono)}
+.clegend i{display:inline-block;width:9px;height:9px;border-radius:3px;margin-right:4px;vertical-align:-1px}
+.tl{position:relative;height:56px;margin:8px 2px 0}
+.tlline{position:absolute;top:16px;left:0;right:0;height:2px;background:var(--line2)}
+.tld{position:absolute;top:11px;width:12px;height:12px;border-radius:50%;border:2.5px solid #fff;box-shadow:0 0 0 1px var(--line2);transform:translateX(-50%)}
+.tld.b30{background:#EF9F27}.tld.b90{background:#14A38B}.tld.bpre{background:#7F77DD}.tld.bpx{background:#D85A30}
+.tld.done{opacity:.35}
+.tlnow{position:absolute;top:5px;width:2.5px;height:24px;background:var(--red);transform:translateX(-50%)}
+.tll{position:absolute;top:32px;font-size:9.5px;color:var(--mut);font-family:var(--mono);line-height:1.5;white-space:nowrap}
+.mev{border:1px solid var(--line);border-left-width:3.5px;border-radius:10px;padding:11px 14px;margin-bottom:8px;background:#FDFCFA}
+.mev.b30{border-left-color:#EF9F27}.mev.b90{border-left-color:#14A38B}.mev.bpre{border-left-color:#7F77DD}.mev.bpx{border-left-color:#D85A30}
 .mev .top{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
-.mev .top b{font-size:14px;font-weight:600}
-.mev .num2{font-size:12.5px;color:var(--mut2);font-family:var(--mono)}
-.mev .how{font-size:12.5px;color:var(--mut2);line-height:1.9;margin-top:8px;border-top:1px dashed var(--line2);padding-top:8px}
+.mev .top b{font-size:13.5px;font-weight:600}
+.mev .num2{font-size:12px;color:var(--mut2);font-family:var(--mono)}
+.mev .how{font-size:12px;color:var(--mut2);line-height:1.85;margin-top:7px;border-top:1px dashed var(--line2);padding-top:7px}
 .mev .how .fl{display:block}
-.mev .how b{color:var(--txt);font-weight:600;font-family:var(--mono);font-size:12px}
-.mev .how .lbl{display:inline-block;min-width:44px;font-weight:700;color:var(--mut);font-size:10.5px;letter-spacing:.1em}
-.mnote{font-size:11.5px;color:var(--mut);line-height:1.8;margin-top:16px;border-top:1px solid var(--line);padding-top:12px}
-.mbtns{display:flex;gap:10px;margin-top:16px;flex-wrap:wrap}
-.mbtn{border-radius:10px;padding:11px 18px;font-family:inherit;font-size:12.5px;font-weight:700;letter-spacing:.04em;cursor:pointer;text-align:center}
+.mev .how b{color:var(--txt);font-weight:600;font-family:var(--mono);font-size:11.5px}
+.mev .how .lbl{display:inline-block;min-width:42px;font-weight:700;color:var(--mut);font-size:10px;letter-spacing:.08em}
+.emkt{font-size:12px;color:var(--mut2);margin-top:7px;font-family:var(--mono)}
+.efrow{display:flex;align-items:center;gap:10px;margin-top:6px}
+.etrack{flex:1;height:8px;background:var(--panel2);border:1px solid var(--line);border-radius:99px;overflow:hidden}
+.efill{height:100%;border-radius:99px}
+.efill.b30{background:#EF9F27}.efill.b90{background:#14A38B}.efill.bpre{background:#7F77DD}.efill.bpx{background:#D85A30}
+.efill.dv.dgreen{background:#0B8A4D}.efill.dv.damber{background:#EF9F27}.efill.dv.dred{background:#E24B4A}
+.eflab{font-size:10px;color:var(--mut);font-family:var(--mono);white-space:nowrap}
+.fund{display:inline-block;background:var(--panel2);border:1px solid var(--line);border-radius:99px;padding:3px 10px;font-size:11px;color:var(--mut2);margin:0 6px 6px 0}
+.fund b{color:var(--coral);font-weight:600;font-family:var(--mono);font-size:10px}
+.mnote{font-size:11px;color:var(--mut);line-height:1.8;margin-top:14px;border-top:1px solid var(--line);padding-top:11px}
+.mbtns{display:flex;gap:10px;margin-top:14px}
+.mbtn{border-radius:10px;padding:10px 17px;font-family:inherit;font-size:12.5px;font-weight:700;cursor:pointer}
 .mbtn.primary{background:var(--txt);color:#fff;border:0}
-.mbtn.primary:hover{background:#000}
 .mbtn.ghost{background:transparent;border:1px solid var(--line2);color:var(--mut2)}
-.mbtn.ghost:hover{border-color:var(--txt);color:var(--txt)}
-@media(max-width:700px){.mgrid{grid-template-columns:1fr 1fr}.mcard{padding:20px 18px}}
-
-footer{border-top:1px solid var(--line2);margin-top:52px;padding-top:22px;font-size:12px;color:var(--mut);line-height:1.9;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+footer{border-top:1px solid var(--line2);margin-top:44px;padding-top:18px;font-size:11.5px;color:var(--mut);line-height:1.9;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
 footer b{color:var(--mut2);font-weight:600}
-@media(max-width:860px){
-  .stats{grid-template-columns:1fr 1fr}
-  .stat:nth-child(2){border-right:0}
-  .stat{border-bottom:1px solid var(--line)}
-  .cal-wrap{grid-template-columns:1fr}
-  .lrow{grid-template-columns:44px 1fr 100px 30px}
-  .lrow .num.hm{display:none}
-  .mast{padding-top:30px}
-  .mast-right{text-align:left}
+@media(max-width:760px){
+  .glance{text-align:left}
+  .mgrid{grid-template-columns:1fr 1fr}
+  .pbcap{display:none}
+  .wnum{min-width:70px}
+  .tabs{margin-left:0}
 }
 </style>
 </head>
 <body>
-<div class="grain"></div>
 <div class="wrap">
 
 <header class="mast">
   <div>
-    <div class="kicker">SME IPO · LOCK-IN EXPIRIES <span class="live"><i></i>DAILY 07:00 IST</span></div>
     <h1>Unlock <em>Radar</em></h1>
-    <div class="sub">Anchor tranches, pre-IPO holder windows and promoter releases on BSE SME &amp; NSE Emerge — who can sell, when, and how much of the company is unlocking. Click any company for the full math.</div>
+    <div class="subline">SME lock-in expiries · refreshed daily 07:00 IST · <a href="lockins.ics">calendar feed</a> · <a href="data.json">raw json</a> · data as of __GENERATED__</div>
   </div>
-  <div class="mast-right">
-    <div class="today-date" id="mastDate"></div>
-    <div class="updated">data as of <b>__GENERATED__</b><br>
-    <a href="lockins.ics">calendar feed (.ics)</a> · <a href="data.json">raw json</a></div>
-  </div>
+  <div class="glance" id="glance"></div>
 </header>
 
-<div class="typebar" id="typebar">
-  <div class="tchip" data-f="a30"><i class="i-a30"></i>30D ANCHOR</div>
-  <div class="tchip" data-f="a90"><i class="i-a90"></i>90D ANCHOR</div>
-  <div class="tchip" data-f="pre"><i class="i-pre"></i>6M PRE-IPO <small style="opacity:.65">est.</small></div>
-  <div class="tchip" data-f="px"><i class="i-px"></i>PROMOTER 1Y/2Y <small style="opacity:.65">est.</small></div>
+<div class="sec" id="weekhead">This week</div>
+<div class="wbox" id="week"></div>
+
+<div class="sec">Pressure board — heaviest unlocks ahead <span class="hint" title="Next 90 days, ranked by unlocking shares vs average daily traded volume">ⓘ</span></div>
+<div class="pb" id="pboard"></div>
+<div class="legend"><span class="dot bgreen"></span> under 1× easily absorbed &nbsp; <span class="dot bamber"></span> 1–5× heavy &nbsp; <span class="dot bred"></span> over 5× supply cliff</div>
+
+<div class="sec" style="margin-top:30px">Horizon</div>
+<div class="hzrow">
+  <input type="range" min="15" max="180" step="15" value="60" id="hz">
+  <span class="hzout" id="hzout">next 60 days</span>
 </div>
+<div class="strip" id="strip"></div>
+<div class="saxis"><span>today</span><span id="hzend"></span></div>
 
-<section class="stats" id="stats"></section>
-<section class="rail-wrap"><h2>Up next</h2><div class="rail" id="rail"></div></section>
-<section class="cal-wrap" id="cals"></section>
-
-<section class="ledger-wrap">
-  <div class="ledger-head">
-    <h2>The ledger</h2>
-    <div class="controls">
-      <div class="tabs" id="tabs">
-        <button class="tab on" data-t="up">UPCOMING</button>
-        <button class="tab" data-t="past">PAST</button>
-        <button class="tab" data-t="all">ALL</button>
-      </div>
-      <label class="mb-toggle"><input type="checkbox" id="mbToggle"> + Mainboard (anchor only)</label>
-      <input id="search" placeholder="search company…" autocomplete="off">
-    </div>
+<div class="toolbar">
+  <input id="search" placeholder="search company…" autocomplete="off">
+  <span class="fdot" data-f="a30"><i class="i-a30"></i>30D</span>
+  <span class="fdot" data-f="a90"><i class="i-a90"></i>90D</span>
+  <span class="fdot" data-f="pre"><i class="i-pre"></i>6M</span>
+  <span class="fdot" data-f="px"><i class="i-px"></i>PROM</span>
+  <label class="mb-toggle"><input type="checkbox" id="mbToggle"> +MB</label>
+  <div class="tabs">
+    <button class="tab on" data-t="up">UPCOMING</button>
+    <button class="tab" data-t="past">PAST</button>
   </div>
-  <div id="ledger"></div>
-</section>
+</div>
+<div id="ledger"></div>
 
 <footer>
-  <div><b>Unlock Radar v2</b> · data: Chittorgarh.com + SEBI ICDR rules · refreshed daily by GitHub Actions.<br>
-  Anchor: 50% each at 30/90 days · Pre-IPO: non-promoter holders at 6 months (est.) · Promoter: excess over 20% MPC at 1yr/2yr (est.).</div>
-  <div>Events marked <b>est.</b> are computed, not exchange-confirmed — verify before acting.<br>
-  For research &amp; information only — <b>not investment advice</b>.</div>
+  <div><b>Unlock Radar</b> · Chittorgarh.com + BSE/NSE bhavcopy + SEBI ICDR rules · runs itself on GitHub Actions.<br>
+  Anchor 50% at 30/90d · pre-IPO non-promoters at 6M (est.) · promoter excess over 20% MPC at 1yr/2yr (est.).</div>
+  <div>Estimates are computed, not exchange-confirmed — verify before acting.<br>Research information only — <b>not investment advice</b>.</div>
 </footer>
 
 </div>
 <div class="mback" id="mback"><div class="mcard" id="mcard"></div></div>
 <script>
 const DATA = __DATA__;
+const STATS = __STATS__;
+const FUNDS = __FUNDS__;
 const IST_OFF = 330;
 function istToday(){
   const n = new Date();
@@ -335,7 +325,7 @@ const MON = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','
 const DOW = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
 const fmtL = s => { const d = pd(s); return `${DOW[d.getDay()]}, ${String(d.getDate()).padStart(2,'0')} ${MON[d.getMonth()]} ${d.getFullYear()}`; };
 const fmtM = s => { const d = pd(s); return `${String(d.getDate()).padStart(2,'0')}-${MON[d.getMonth()]}-${d.getFullYear()}`; };
-const fmtS = s => { const d = pd(s); return `${DOW[d.getDay()]} · ${String(d.getDate()).padStart(2,'0')} ${MON[d.getMonth()]}`; };
+const fmtS = s => { const d = pd(s); return `${String(d.getDate()).padStart(2,'0')} ${MON[d.getMonth()]}`; };
 function shFmt(n){
   if(n == null || n === 0) return '—';
   if(n >= 1e7) return (n/1e7).toFixed(2).replace(/\.?0+$/,'') + ' Cr';
@@ -343,15 +333,34 @@ function shFmt(n){
   return n.toLocaleString('en-IN');
 }
 const crFmt = v => v == null ? null : '₹' + (v >= 100 ? Math.round(v).toLocaleString('en-IN') : v.toFixed(1)) + ' cr';
-const esc = s => s.replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const TYPE = {
   A30:{lbl:'30D', cls:'p30', fam:'a30'}, A90:{lbl:'90D', cls:'p90', fam:'a90'},
   PRE6M:{lbl:'6M PRE-IPO', cls:'p6m', fam:'pre'},
   PX1Y:{lbl:'1Y PROM', cls:'ppx', fam:'px'}, PX2Y:{lbl:'2Y PROM', cls:'ppx', fam:'px'}
 };
+const TLONG = {A30:'30-day anchor unlock', A90:'90-day anchor unlock', PRE6M:'Pre-IPO holders unlock (6M)', PX1Y:'Promoter release (1 year)', PX2Y:'Promoter release (2 years)'};
+const BCLS = {A30:'b30', A90:'b90', PRE6M:'bpre', PX1Y:'bpx', PX2Y:'bpx'};
 const FAM_ON = {a30:true, a90:true, pre:true, px:true};
-let TAB='up', MB=false, Q='';
-
+let TAB='up', MB=false, Q='', WIN=60;
+const $ = id => document.getElementById(id);
+const nfmt = n => n == null ? '—' : n.toLocaleString('en-IN');
+const line = (lbl, txt) => `<span class="fl"><span class="lbl">${lbl}</span> ${txt}</span>`;
+function dov(e){ return (e.sh && e.r.avg_vol) ? e.sh / e.r.avg_vol : null; }
+function dovCls(v){ return v < 1 ? 'dgreen' : v <= 5 ? 'damber' : 'dred'; }
+function dovDot(v){ return v < 1 ? 'bgreen' : v <= 5 ? 'bamber' : 'bred'; }
+function dovLab(v){ return (v < 10 ? v.toFixed(1) : Math.round(v)) + '×'; }
+function mkt(e){ return (e.sh && e.r.last_close) ? e.sh * e.r.last_close / 1e7 : null; }
+function plChip(r, small){
+  if(r.chg_from_issue_pct == null) return '';
+  const up = r.chg_from_issue_pct >= 0;
+  return `<span class="pl ${up?'dgreen':'dred'}" title="Last close vs final IPO issue price">${up?'+':''}${r.chg_from_issue_pct}% from IPO price</span>`;
+}
+function pills(e){
+  let h = `<span class="pill ${e.meta.cls}">${e.meta.lbl}</span>`;
+  if(e.r.category !== 'SME') h += ` <span class="pill pmb">MB</span>`;
+  return h;
+}
 function events(){
   const out = [];
   for(const r of DATA.records){
@@ -364,30 +373,38 @@ function events(){
   }
   return out;
 }
-function sizeMain(e){ if(e.sh && e.r.last_close) return crFmt(e.sh * e.r.last_close / 1e7); return crFmt(e.val) || (e.pct != null ? e.pct + '% cap' : shFmt(e.sh)); }
-function sizeLbl(e){ if(e.sh && e.r.last_close) return 'AT MKT PX' + (e.est?' · EST':''); return e.val != null ? 'AT ISSUE PX' : (e.pct != null ? 'OF CAPITAL' + (e.est?' · EST':'') : 'SHARES' + (e.est?' · EST':'')); }
-function pills(e){
-  let h = `<span class="pill ${e.meta.cls}">${e.meta.lbl}</span>`;
-  if(e.r.category !== 'SME') h += ` <span class="pill pmb">MB</span>`;
-  return h;
+function explain(e, r){
+  const phased = (r.events||[]).some(x => x.t === 'PX2Y');
+  const allot = r.boa_date || r.anchor_allotment_date;
+  if(e.t === 'A30' || e.t === 'A90'){
+    const dd = e.t === 'A30' ? 30 : 90;
+    return line('QTY', `50% × <b>${nfmt(r.anchor_shares)}</b> anchor sh = <b>${nfmt(e.sh)}</b> sh`) +
+           line('DATE', `allotment + ${dd} days → <b>${fmtM(e.d)}</b> (exchange-published)`);
+  }
+  if(e.t === 'PRE6M'){
+    const q = (r.pre_shares && r.prom_pre_pct != null)
+      ? `<b>${nfmt(r.pre_shares)}</b> pre-issue sh × (100 − ${r.prom_pre_pct}%) = <b>${nfmt(r.nonprom_pre_shares)}</b> sh${r.nonprom_pre_pct_of_post ? ` (${r.nonprom_pre_pct_of_post}% of company)` : ''}`
+      : `pending — shareholding data syncs on next run`;
+    return line('QTY', q) + line('DATE', `allotment ${fmtM(allot)} + 6 months = <b>${fmtM(e.d)}</b> (est., ±few days)`);
+  }
+  const excPct = r.prom_post_pct != null ? (r.prom_post_pct - 20).toFixed(2) : null;
+  if(e.t === 'PX1Y'){
+    const q = excPct ? `(${r.prom_post_pct}% − 20% MPC) = ${excPct}% of company${phased ? '; <b>50%</b> releases now' : '; <b>100%</b> releases now'}` : 'pending shareholding data';
+    return line('QTY', q) + line('DATE', `allotment ${fmtM(allot)} + 12 months = <b>${fmtM(e.d)}</b> (est.)`) +
+           line('RULE', phased ? 'listed on/after 08-Mar-2025 → phased 50/50 release' : 'listed before 08-Mar-2025 → single release at 1yr');
+  }
+  if(e.t === 'PX2Y')
+    return line('QTY', `remaining <b>50%</b> of promoter excess = <b>${nfmt(e.sh)}</b> sh (20% MPC stays locked 3yrs)`) +
+           line('DATE', `allotment ${fmtM(allot)} + 24 months = <b>${fmtM(e.d)}</b> (est.)`);
+  return '';
 }
-function subLine(r){
-  const bits = [`allotted ${r.anchor_allotment_date || '—'}`];
-  if(r.nonprom_pre_shares) bits.push(`pre-IPO non-prom: ${shFmt(r.nonprom_pre_shares)} sh${r.nonprom_pre_pct_of_post ? ' · ' + r.nonprom_pre_pct_of_post + '% cap' : ''}`);
-  else if(r.pct_of_issue) bits.push(r.pct_of_issue + '% of issue');
-  return bits.join(' · ');
-}
-const $ = id => document.getElementById(id);
-const TLONG = {A30:'30-day anchor unlock', A90:'90-day anchor unlock', PRE6M:'Pre-IPO holders unlock (6M)', PX1Y:'Promoter release (1 year)', PX2Y:'Promoter release (2 years)'};
-const BCLS = {A30:'b30', A90:'b90', PRE6M:'bpre', PX1Y:'bpx', PX2Y:'bpx'};
-const nfmt = n => n == null ? '—' : n.toLocaleString('en-IN');
 function capBar(r){
   if(r.prom_post_pct == null || !r.post_shares) return '';
   const mpc = 20, exc = +(r.prom_post_pct - 20).toFixed(2), pre = +(r.nonprom_pre_pct_of_post || 0);
   let pub = +(100 - mpc - Math.max(exc,0) - pre).toFixed(2); if(pub < 0) pub = 0;
   const seg = (w, cls, lb) => w > 0.4 ? `<div class="cseg ${cls}" style="width:${w}%" title="${lb} · ${w}%"></div>` : '';
   return `<div class="msec">CAPITAL STRUCTURE — WHO HOLDS THE COMPANY</div>
-  <div class="cbar">${seg(mpc,'cmpc','20% MPC, 3yr lock')}${seg(Math.max(exc,0),'cexc','Promoter excess (1yr/2yr)')}${seg(pre,'cpre','Pre-IPO non-promoter (6M)')}${seg(pub,'cpub','IPO float incl. anchors')}</div>
+  <div class="cbar">${seg(mpc,'cmpc','20% MPC, 3yr lock')}${seg(Math.max(exc,0),'cexc','Promoter excess')}${seg(pre,'cpre','Pre-IPO non-promoter')}${seg(pub,'cpub','IPO float incl. anchors')}</div>
   <div class="clegend"><span><i class="cmpc"></i>MPC ${mpc}%</span><span><i class="cexc"></i>Prom excess ${Math.max(exc,0)}%</span><span><i class="cpre"></i>Pre-IPO ${pre}%</span><span><i class="cpub"></i>IPO float ${pub}%</span></div>`;
 }
 function timelineViz(r){
@@ -407,47 +424,28 @@ function timelineViz(r){
 }
 function evViz(e, r){
   let h = '';
-  if(e.sh && r.last_close)
-    h += `<div class="emkt">≈ <b>${crFmt(e.sh * r.last_close / 1e7)}</b> at market price ₹${r.last_close}</div>`;
+  const mv = mkt({...e, r});
+  if(mv != null) h += `<div class="emkt">≈ <b>${crFmt(mv)}</b> at market price ₹${r.last_close}</div>`;
   if(e.pct != null)
     h += `<div class="efrow"><div class="etrack"><div class="efill ${BCLS[e.t]}" style="width:${Math.min(e.pct,100)}%"></div></div><span class="eflab">${e.pct}% of company</span></div>`;
-  if(e.sh && r.avg_vol){
-    const dov = e.sh / r.avg_vol;
-    const c = dov < 1 ? 'dgreen' : dov <= 5 ? 'damber' : 'dred';
-    const lab = dov < 10 ? dov.toFixed(1) : Math.round(dov);
-    h += `<div class="efrow"><div class="etrack"><div class="efill dv ${c}" style="width:${Math.min(dov/20*100,100)}%"></div></div><span class="eflab ${c}">${lab}× typical daily volume</span></div>`;
+  const dv = (e.sh && r.avg_vol) ? e.sh / r.avg_vol : null;
+  if(dv != null){
+    const c = dovCls(dv);
+    h += `<div class="efrow"><div class="etrack"><div class="efill dv ${c}" style="width:${Math.min(dv/20*100,100)}%"></div></div><span class="eflab ${c}" title="Unlocking shares vs average daily traded volume">${dovLab(dv)} typical daily volume</span></div>`;
   }
+  const st = STATS[e.t];
+  if(st && st.n >= 5) h += `<div class="emkt" style="font-size:11px">history: median ${st.med >= 0 ? '+' : ''}${st.med}% in 5 sessions after past ${TYPE[e.t].lbl} unlocks (n=${st.n})</div>`;
   return h;
 }
-const line = (lbl, txt) => `<span class="fl"><span class="lbl">${lbl}</span> ${txt}</span>`;
-
-function explain(e, r){
-  const phased = (r.events||[]).some(x => x.t === 'PX2Y');
-  const allot = r.boa_date || r.anchor_allotment_date;
-  if(e.t === 'A30' || e.t === 'A90'){
-    const dd = e.t === 'A30' ? 30 : 90;
-    return line('QTY', `50% × <b>${nfmt(r.anchor_shares)}</b> anchor sh = <b>${nfmt(e.sh)}</b> sh`) +
-           line('DATE', `allotment + ${dd} days → <b>${fmtM(e.d)}</b> (exchange-published)`);
-  }
-  if(e.t === 'PRE6M'){
-    const q = (r.pre_shares && r.prom_pre_pct != null)
-      ? `<b>${nfmt(r.pre_shares)}</b> pre-issue sh × (100 − ${r.prom_pre_pct}%) = <b>${nfmt(r.nonprom_pre_shares)}</b> sh${r.nonprom_pre_pct_of_post ? ` (${r.nonprom_pre_pct_of_post}% cap)` : ''}`
-      : `pending — shareholding data syncs on next run`;
-    return line('QTY', q) +
-           line('DATE', `allotment ${fmtM(allot)} + 6 months = <b>${fmtM(e.d)}</b> (est., ±few days)`);
-  }
-  const excPct = r.prom_post_pct != null ? (r.prom_post_pct - 20).toFixed(2) : null;
-  if(e.t === 'PX1Y'){
-    const q = excPct ? `(${r.prom_post_pct}% − 20% MPC) = ${excPct}% × post-issue = <b>${nfmt(e.sh != null ? (phased ? e.sh * 2 : e.sh) : null)}</b> sh excess${phased ? '; <b>50%</b> releases now' : '; <b>100%</b> releases now'}` : 'pending shareholding data';
-    return line('QTY', q) +
-           line('DATE', `allotment ${fmtM(allot)} + 12 months = <b>${fmtM(e.d)}</b> (est.)`) +
-           line('RULE', phased ? 'listed on/after 08-Mar-2025 → phased 50/50 release' : 'listed before 08-Mar-2025 → single release at 1yr');
-  }
-  if(e.t === 'PX2Y'){
-    return line('QTY', `remaining <b>50%</b> of promoter excess = <b>${nfmt(e.sh)}</b> sh (20% MPC stays locked 3yrs)`) +
-           line('DATE', `allotment ${fmtM(allot)} + 24 months = <b>${fmtM(e.d)}</b> (est.)`);
-  }
-  return '';
+function fundsBlock(r){
+  const names = r.anchor_names || [];
+  if(!names.length) return '';
+  const chips = names.map(n => {
+    const k = n.replace(/\s+/g,' ');
+    const cnt = FUNDS[k] || FUNDS[k.replace(/\w\S*/g, t => t[0].toUpperCase()+t.slice(1).toLowerCase())] || 0;
+    return `<span class="fund">${esc(n)}${cnt >= 3 ? ` <b title="Appears as anchor in ${cnt} tracked SME IPOs — serial anchor">×${cnt}</b>` : ''}</span>`;
+  }).join('');
+  return `<div class="msec">ANCHOR INVESTORS (${names.length}) <span style="letter-spacing:0;font-weight:400">· ×n = deals across tracked SME IPOs</span></div><div>${chips}</div>`;
 }
 function openModal(slug){
   const r = DATA.records.find(x => x.slug === slug);
@@ -456,30 +454,33 @@ function openModal(slug){
   const evHtml = evs.map(e => {
     const dd = dayDiff(e.d);
     const when = dd === 0 ? 'TODAY' : dd > 0 ? `D-${dd}` : `${-dd}d ago`;
-    const size = [e.sh ? shFmt(e.sh) + ' sh' : null, e.pct != null ? e.pct + '% of capital' : null, e.val != null ? crFmt(e.val) + ' at issue px' : null].filter(Boolean).join(' · ') || 'size n/a';
+    const size = [e.sh ? shFmt(e.sh) + ' sh' : null, e.pct != null ? e.pct + '% of company' : null].filter(Boolean).join(' · ') || 'size n/a';
     return `<div class="mev ${BCLS[e.t]}">
       <div class="top"><b>${TLONG[e.t]}</b><span class="num2">${fmtL(e.d)} · ${when}</span></div>
-      <div class="num2" style="margin-top:5px">${size}</div>${evViz(e, r)}
+      <div class="num2" style="margin-top:4px">${size}</div>${evViz(e, r)}
       <div class="how">${explain(e, r)}</div></div>`;
   }).join('') || '<div class="empty">no events computed</div>';
   const mpc = r.post_shares ? Math.round(r.post_shares * 0.2) : null;
   $('mcard').innerHTML = `
     <div class="mhead"><div>
       <h3>${esc(r.company)}</h3>
-      <div class="msub">${r.category}${r.nse_symbol ? ' · NSE ' + esc(String(r.nse_symbol)) : ''}${r.bse_code ? ' · BSE ' + r.bse_code : ''}${r.isin ? ' · ' + esc(String(r.isin)) : ''}<br>
-      allotted ${r.anchor_allotment_date || '—'} · listed ${r.listing_date || '—'}${r.last_close ? `<br><span class=\"pxchip\">₹${r.last_close}</span> close ${r.close_date}` : ''}${r.chg_from_issue_pct != null ? ` · <span class=\"pxchip ${r.chg_from_issue_pct >= 0 ? 'dgreen' : 'dred'}\">${r.chg_from_issue_pct >= 0 ? '+' : ''}${r.chg_from_issue_pct}% from issue ₹${r.issue_px}</span>` : ''}</div>
+      <div class="msub">${r.category}${r.nse_symbol ? ' · NSE ' + esc(r.nse_symbol) : ''}${r.bse_code ? ' · BSE ' + r.bse_code : ''}${r.isin ? ' · ' + esc(r.isin) : ''}<br>
+      allotted ${r.anchor_allotment_date || '—'} · listed ${r.listing_date || '—'}${r.last_close ? `<br><span class="pxchip">₹${r.last_close}</span> close ${r.close_date}` : ''}${r.chg_from_issue_pct != null ? ` · <span class="pxchip ${r.chg_from_issue_pct >= 0 ? 'dgreen' : 'dred'}" title="Last close vs final IPO issue price ₹${r.issue_px}">${r.chg_from_issue_pct >= 0 ? '+' : ''}${r.chg_from_issue_pct}% from IPO price ₹${r.issue_px}</span>` : ''}</div>
     </div><button class="mx" onclick="closeModal()">✕ esc</button></div>
     <div class="mgrid">
       <div class="mstat"><div class="k">PRE-ISSUE CAPITAL</div><div class="v">${shFmt(r.pre_shares)} <small>sh</small></div></div>
       <div class="mstat"><div class="k">POST-ISSUE CAPITAL</div><div class="v">${shFmt(r.post_shares)} <small>sh</small></div></div>
       <div class="mstat"><div class="k">PROMOTER PRE → POST</div><div class="v">${r.prom_pre_pct != null ? r.prom_pre_pct + '%' : '—'} → ${r.prom_post_pct != null ? r.prom_post_pct + '%' : '—'}</div></div>
-      <div class="mstat"><div class="k">NON-PROM PRE-IPO</div><div class="v">${shFmt(r.nonprom_pre_shares)} <small>${r.nonprom_pre_pct_of_post ? '· ' + r.nonprom_pre_pct_of_post + '% cap' : ''}</small></div></div>
+      <div class="mstat"><div class="k">NON-PROM PRE-IPO</div><div class="v">${shFmt(r.nonprom_pre_shares)} <small>${r.nonprom_pre_pct_of_post ? '· ' + r.nonprom_pre_pct_of_post + '% of co' : ''}</small></div></div>
       <div class="mstat"><div class="k">ANCHOR ALLOTMENT</div><div class="v">${shFmt(r.anchor_shares)} <small>${r.anchor_investment_cr ? '· ₹' + r.anchor_investment_cr + ' cr' : ''}</small></div></div>
       <div class="mstat"><div class="k">20% MPC (3YR LOCK)</div><div class="v">${shFmt(mpc)} <small>sh</small></div></div>
     </div>
-    ${capBar(r)}${timelineViz(r)}<div class="msec">UNLOCK EVENTS — QUANTITY &amp; DATE MATH</div>
+    ${capBar(r)}
+    ${timelineViz(r)}
+    ${fundsBlock(r)}
+    <div class="msec">UNLOCK EVENTS — QUANTITY &amp; DATE MATH</div>
     ${evHtml}
-    <div class="mnote">Anchor dates are exchange-published. "est." events are computed from prospectus shareholding + SEBI ICDR rules — verify against the exchange listing circular before acting. AIF/VC exemptions and ESOPs can change actual free-float. Volume multiple uses the average of recent tracked sessions; market values use the latest close.</div>
+    <div class="mnote">Anchor dates are exchange-published; "est." events are computed from prospectus data + SEBI ICDR rules — verify against the listing circular. Volume multiple uses recent tracked sessions; AIF/VC exemptions and ESOPs can change actual free-float.</div>
     <div class="mbtns">
       ${r.url ? `<a class="mbtn primary" href="${r.url}" target="_blank" rel="noopener">Chittorgarh page ↗</a>` : ''}
       <button class="mbtn ghost" onclick="closeModal()">Close</button>
@@ -487,10 +488,7 @@ function openModal(slug){
   $('mback').classList.add('on');
   document.body.style.overflow = 'hidden';
 }
-function closeModal(){
-  $('mback').classList.remove('on');
-  document.body.style.overflow = '';
-}
+function closeModal(){ $('mback').classList.remove('on'); document.body.style.overflow = ''; }
 document.addEventListener('click', ev => {
   const t = ev.target.closest('[data-slug]');
   if(t){ ev.preventDefault(); openModal(t.dataset.slug); return; }
@@ -500,82 +498,72 @@ document.addEventListener('keydown', ev => { if(ev.key === 'Escape') closeModal(
 
 function render(){
   const evs = events();
-  const up = evs.filter(e => dayDiff(e.d) >= 0).sort((a,b) => a.d.localeCompare(b.d) || (b.pct||0)-(a.pct||0) || (b.val||0)-(a.val||0));
+  const up = evs.filter(e => dayDiff(e.d) >= 0).sort((a,b) => a.d.localeCompare(b.d) || (b.pct||0)-(a.pct||0));
   const past = evs.filter(e => dayDiff(e.d) < 0).sort((a,b) => b.d.localeCompare(a.d));
-  $('mastDate').textContent = fmtL(iso(T0));
-
-  const tC = up.filter(e => dayDiff(e.d) === 0);
-  const w7 = up.filter(e => dayDiff(e.d) <= 7);
+  const tC = up.filter(e => dayDiff(e.d) === 0).length;
+  const w7 = up.filter(e => dayDiff(e.d) <= 7).length;
   const m30 = up.filter(e => dayDiff(e.d) <= 30);
-  const big30 = m30.reduce((mx,e) => (e.pct||0) > (mx.pct||0) ? e : mx, {});
-  $('stats').innerHTML = `
-    <div class="stat hot"><div class="k">OPENING TODAY</div><div class="v">${tC.length}</div>
-      <div class="s">${tC.length ? tC.map(e=>e.meta.lbl).join(' · ') : 'quiet session'}</div></div>
-    <div class="stat warm"><div class="k">NEXT 7 DAYS</div><div class="v">${w7.length}</div><div class="s">unlock events</div></div>
-    <div class="stat cool"><div class="k">NEXT 30 DAYS</div><div class="v">${m30.length}</div><div class="s">unlock events</div></div>
-    <div class="stat"><div class="k">BIGGEST · 30D</div><div class="v">${big30.pct ? big30.pct + '%' : '—'}</div>
-      <div class="s">${big30.r ? esc(big30.r.company).slice(0,26) + ' · ' + big30.meta.lbl : 'of capital unlocking'}</div></div>`;
+  const big = m30.reduce((mx,e) => (e.pct||0) > (mx.pct||0) ? e : mx, {});
+  $('glance').innerHTML = `<span class="${tC ? 'rd' : ''}"><b>${tC}</b> today</span> · <b>${w7}</b> this week · <b>${m30.length}</b> in 30d${big.pct ? ` · biggest <b>${big.pct}%</b> of co` : ''}`;
 
-  $('rail').innerHTML = up.slice(0, 14).map(e => {
+  const week = up.filter(e => dayDiff(e.d) <= 7);
+  $('week').innerHTML = week.map(e => {
     const dd = dayDiff(e.d);
-    const cls = dd === 0 ? 'today' : (dd <= 7 ? 'soon' : '');
-    return `<a class="card ${cls}" href="#" data-slug="${e.r.slug}">
-      <div class="dbadge"><b>${dd === 0 ? 'TODAY' : 'D-' + dd}</b><span>${fmtS(e.d)}</span></div>
-      <div class="cname">${esc(e.r.company)}</div>
-      <div>${pills(e)}</div>
-      <div class="cnums">
-        <div>${sizeMain(e) || '—'}<span>${sizeLbl(e)}</span></div>
-        <div>${shFmt(e.sh)}<span>SHARES</span></div>
-      </div></a>`;
-  }).join('') || '<div class="empty">nothing on the radar for these filters</div>';
+    const mv = mkt(e), dv = dov(e);
+    return `<div class="wrow ${dd===0?'today':''}" data-slug="${e.r.slug}">
+      <div class="wd">${dd===0 ? 'TODAY' : 'D-'+dd}<br><span style="font-weight:400">${fmtS(e.d)}</span></div>
+      <div class="wmain"><div class="wname">${esc(e.r.company)}${plChip(e.r)}</div>
+      <div class="wsub">${e.sh ? shFmt(e.sh)+' sh' : ''}${e.pct != null ? ' · '+e.pct+'% of company' : ''}${e.est ? ' · est.' : ''}</div></div>
+      ${pills(e)}
+      <div class="wnum"><div class="v">${mv != null ? crFmt(mv) : (crFmt(e.val) || (e.pct != null ? e.pct+'%' : '—'))}</div>
+      <div class="s ${dv != null ? dovCls(dv) : ''}">${dv != null ? `<span class="dot ${dovDot(dv)}"></span>${dovLab(dv)} vol` : (mv != null ? 'at mkt px' : 'at issue px')}</div></div>
+    </div>`;
+  }).join('') || '<div class="empty" style="padding:16px 14px">quiet week — nothing unlocking in the next 7 days</div>';
 
-  const byDay = {};
-  evs.forEach(e => { (byDay[e.d] = byDay[e.d] || []).push(e); });
-  $('cals').innerHTML = [0, 1].map(off => {
-    const first = new Date(T0.getFullYear(), T0.getMonth() + off, 1);
-    const dim = new Date(first.getFullYear(), first.getMonth() + 1, 0).getDate();
-    let cells = '';
-    for(let d = 1; d <= dim; d++){
-      const ds = iso(new Date(first.getFullYear(), first.getMonth(), d));
-      const es = byDay[ds] || [];
-      const dots = es.slice(0,3).map(e => `<i class="dot i-${e.meta.fam === 'px' ? 'px' : e.meta.fam === 'pre' ? 'pre' : e.t === 'A30' ? 'a30' : 'a90'}"></i>`).join('');
-      cells += `<div class="day ${es.length?'has':''} ${ds===iso(T0)?'today':''}" ${es.length?`onclick="jump('${ds}')"`:''} title="${es.length ? es.length + ' unlock(s)' : ''}">
-        <span>${d}</span><span class="dots">${dots}</span></div>`;
-    }
-    return `<div class="cal"><h3>${MON[first.getMonth()]} ${first.getFullYear()}</h3><div class="cal-grid">${cells}</div></div>`;
-  }).join('');
+  const pb = up.filter(e => dayDiff(e.d) <= 90 && dov(e) != null).sort((a,b) => dov(b) - dov(a)).slice(0, 6);
+  $('pboard').innerHTML = pb.map((e, i) => {
+    const dv = dov(e), dd = dayDiff(e.d);
+    return `<div class="pbrow" data-slug="${e.r.slug}">
+      <span class="pbrank">${i+1}</span>
+      <div class="pbname">${esc(e.r.company)}<span>${dd===0 ? 'today' : fmtS(e.d)+' · D-'+dd}</span></div>
+      ${pills(e)}
+      <span class="pbcap">${e.pct != null ? e.pct+'% of co' : shFmt(e.sh)+' sh'}</span>
+      <span class="pbdov ${dovCls(dv)}"><span class="dot ${dovDot(dv)}"></span>${dovLab(dv)}</span>
+    </div>`;
+  }).join('') || '<div class="empty" style="padding:14px">volume data syncs after the next market session — check back tomorrow</div>';
 
-  let list = TAB === 'up' ? up : TAB === 'past' ? past : up.concat(past);
+  drawStrip(up);
+  drawLedger(up, past);
+}
+function drawStrip(up){
+  let h = '<span class="snow" style="left:0%"></span>';
+  up.filter(e => dayDiff(e.d) > 0 && dayDiff(e.d) <= WIN).forEach(e => {
+    const fam = e.meta.fam;
+    h += `<span class="sdot i-${fam}" style="left:${(dayDiff(e.d)/WIN*100).toFixed(1)}%" title="${esc(e.r.company)} · ${e.meta.lbl} · ${fmtM(e.d)}" data-slug="${e.r.slug}"></span>`;
+  });
+  $('strip').innerHTML = h;
+  $('hzout').textContent = 'next ' + WIN + ' days';
+  const end = new Date(T0.getTime() + WIN * 86400000);
+  $('hzend').textContent = fmtS(iso(end));
+}
+function drawLedger(up, past){
+  let list = TAB === 'up' ? up.filter(e => dayDiff(e.d) <= WIN) : past;
   if(Q) list = list.filter(e => e.r.company.toLowerCase().includes(Q));
-  const groups = {};
-  list.forEach(e => { (groups[e.d] = groups[e.d] || []).push(e); });
-  const keys = Object.keys(groups);
-  if(TAB === 'up') keys.sort(); else if(TAB === 'past') keys.sort().reverse();
-  $('ledger').innerHTML = keys.map(d => {
-    const dd = dayDiff(d);
-    const label = dd === 0 ? 'TODAY — ' + fmtL(d) : dd === 1 ? 'TOMORROW — ' + fmtL(d) : fmtL(d);
-    const rows = groups[d].map(e => {
-      const day = pd(d);
-      const nm = Q ? esc(e.r.company).replace(new RegExp('(' + Q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ')','ig'),'<mark>$1</mark>') : esc(e.r.company);
-      return `<a class="lrow ${dd<0?'past':''}" id="d${d}" href="#" data-slug="${e.r.slug}">
-        <div class="dd">${String(day.getDate()).padStart(2,'0')}<span>${MON[day.getMonth()].toUpperCase()}</span></div>
-        <div class="co">${nm}<span>${subLine(e.r)}</span></div>
-        <div>${pills(e)}</div>
-        <div class="num hm">${shFmt(e.sh)}<span>SHARES FREE${e.est ? ' · EST' : ''}</span></div>
-        <div class="num">${e.pct != null ? e.pct + '%' : (crFmt(e.val) || '—')}<span>${e.pct != null ? 'OF CAPITAL' : 'AT ISSUE PX'}</span></div>
-        <div class="go">ⓘ</div></a>`;
-    }).join('');
-    return `<div class="lgroup"><div class="ldate ${dd===0?'today-l':''}">${label}<span>· ${groups[d].length}</span></div>${rows}</div>`;
-  }).join('') || '<div class="empty">no matches — clear search or switch tabs/filters</div>';
+  $('ledger').innerHTML = list.map(e => {
+    const dd = dayDiff(e.d);
+    const mv = mkt(e), dv = dov(e);
+    const nm = Q ? esc(e.r.company).replace(new RegExp('(' + Q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ')','ig'),'<mark>$1</mark>') : esc(e.r.company);
+    return `<div class="lrow ${dd<0?'past':''}" data-slug="${e.r.slug}">
+      <span class="ld">${fmtS(e.d)}</span>
+      <span class="lco">${nm}${plChip(e.r)}</span>
+      ${pills(e)}
+      <span class="lnum">${mv != null ? crFmt(mv) : (crFmt(e.val) || (e.pct != null ? e.pct+'%' : shFmt(e.sh)))}</span>
+      <span class="dot ${dv != null ? dovDot(dv) : ''}" style="${dv == null ? 'background:var(--line2)' : ''}" title="${dv != null ? dovLab(dv)+' daily volume' : 'volume data pending'}"></span>
+    </div>`;
+  }).join('') || '<div class="empty">nothing in this window — extend the horizon or clear the search</div>';
 }
-function jump(ds){
-  TAB = dayDiff(ds) >= 0 ? 'up' : 'past';
-  document.querySelectorAll('.tab').forEach(b => b.classList.toggle('on', b.dataset.t === TAB));
-  render();
-  const el = document.getElementById('d' + ds);
-  if(el) el.scrollIntoView({behavior:'smooth', block:'center'});
-}
-document.querySelectorAll('.tchip').forEach(c => c.onclick = () => {
+$('hz').addEventListener('input', e => { WIN = parseInt(e.target.value); render(); });
+document.querySelectorAll('.fdot').forEach(c => c.onclick = () => {
   FAM_ON[c.dataset.f] = !FAM_ON[c.dataset.f];
   c.classList.toggle('off', !FAM_ON[c.dataset.f]);
   render();
@@ -593,8 +581,11 @@ render();
 </html>"""
 
 html = HTML.replace("__DATA__", json.dumps(payload, ensure_ascii=False)) \
+           .replace("__STATS__", json.dumps(OUTCOME_STATS)) \
+           .replace("__FUNDS__", json.dumps(FUND_COUNTS, ensure_ascii=False)) \
            .replace("__GENERATED__", gen_label)
 with open("docs/index.html", "w", encoding="utf-8") as f:
     f.write(html)
 n_ev = sum(1 for r in records for e in r.get("events", []) if e["d"] and e["d"] >= today_iso)
-print(f"[build] v3 light theme written ({len(html)//1024} KB), {n_ev} future events")
+print(f"[build] v4 pressure-board layout written ({len(html)//1024} KB), {n_ev} future events, "
+      f"{len(FUND_COUNTS)} funds in registry, outcome stats: {OUTCOME_STATS}")

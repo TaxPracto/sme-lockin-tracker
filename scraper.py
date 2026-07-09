@@ -123,6 +123,9 @@ PRE_SH_RE = re.compile(r"Share\s*Holding\s*Pre\s*Issue.{0,700}?(\d{1,3}(?:,\d{2,
 POST_SH_RE = re.compile(r"Share\s*Holding\s*Post\s*Issue.{0,700}?(\d{1,3}(?:,\d{2,3}){2,})", re.S | re.I)
 PROM_RE = re.compile(r"Promoter\s*Holding[^%]{0,600}?([\d]{1,2}\.\d{1,2})\s*%.{0,300}?([\d]{1,2}\.\d{1,2})\s*%", re.S | re.I)
 LIST_DT_RE = re.compile(r"Listing\s*Date.{0,200}?(\w{3},\s*\w{3}\s*\d{1,2},\s*\d{4}|\d{2}-\w{3}-\d{4})", re.S | re.I)
+ANCHOR_SEC_RE = re.compile(r"Anchor\s*Investors?\s*(?:List|Detail)?(.{0,12000}?)(?:<h[23]|Anchor\s*lock-in|IPO\s*Reservation|Promoter)", re.S | re.I)
+FUND_HINT = re.compile(r"(fund|llp|limited|ltd|trust|mf|aif|capital|ventures?|securities|invest|wealth|advisors|portfolio|opportunit|emerging|india|global|alpha|growth)", re.I)
+NAME_CELL_RE = re.compile(r">\s*([A-Z][A-Za-z0-9&().,'\- ]{6,80})\s*<")
 
 
 def fetch_meta(url: str):
@@ -141,6 +144,25 @@ def fetch_meta(url: str):
             meta["prom_pre_pct"], meta["prom_post_pct"] = pre_pct, post_pct
     m = LIST_DT_RE.search(html)
     meta["listing_date"] = _iso(None, m.group(1).replace("  ", " ")) if m else None
+    names = []
+    sec = ANCHOR_SEC_RE.search(html)
+    if sec:
+        seen = set()
+        for cand in NAME_CELL_RE.findall(sec.group(1)):
+            cand = cand.strip().rstrip(".,")
+            low = cand.lower()
+            if len(cand) < 7 or not FUND_HINT.search(cand):
+                continue
+            if any(b in low for b in ("anchor", "lock-in", "shares", "invest amount", "bid date",
+                                       "click", "chittorgarh", "list of", "allotted", "total")):
+                continue
+            if low in seen:
+                continue
+            seen.add(low)
+            names.append(cand)
+            if len(names) >= 20:
+                break
+    meta["anchor_names"] = names
     return meta
 
 
@@ -216,7 +238,9 @@ def main():
         if (rec.get("boa_date") or "0000") < horizon:
             continue
         cached = meta_cache.get(slug)
-        if cached and (cached.get("post_shares") or cached.get("_attempts", 0) >= 3):
+        if cached and cached.get("post_shares") and "anchor_names" in cached:
+            continue
+        if cached and cached.get("_attempts", 0) >= 8:
             continue
         if fetched >= META_FETCH_CAP:
             continue
@@ -242,6 +266,7 @@ def main():
         rec["prom_pre_pct"] = meta.get("prom_pre_pct")
         rec["prom_post_pct"] = meta.get("prom_post_pct")
         rec["listing_date"] = meta.get("listing_date")
+        rec["anchor_names"] = meta.get("anchor_names") or []
         if rec["pre_shares"] and rec["prom_pre_pct"] is not None:
             rec["nonprom_pre_shares"] = int(rec["pre_shares"] * (1 - rec["prom_pre_pct"] / 100))
             rec["nonprom_pre_pct_of_post"] = (round(rec["nonprom_pre_shares"] / rec["post_shares"] * 100, 2)
