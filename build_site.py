@@ -165,6 +165,37 @@ h1 em{font-style:italic;color:var(--amber)}
 .lrow:hover .go{color:var(--cyan)}
 .empty{color:var(--mut);padding:30px 4px;font-size:12.5px}
 mark{background:rgba(255,176,32,.3);color:var(--txt);border-radius:3px}
+.mback{position:fixed;inset:0;background:rgba(4,7,12,.74);backdrop-filter:blur(7px);display:none;z-index:200;align-items:center;justify-content:center;padding:20px}
+.mback.on{display:flex}
+.mcard{background:linear-gradient(180deg,#0d1421,#0a1019);border:1px solid var(--line2);border-radius:18px;max-width:760px;width:100%;max-height:88vh;overflow-y:auto;padding:28px 30px 24px;animation:mup .28s cubic-bezier(.2,.9,.3,1);scrollbar-width:thin}
+@keyframes mup{from{opacity:0;transform:translateY(26px) scale(.98)}to{opacity:1;transform:none}}
+.mhead{display:flex;justify-content:space-between;align-items:flex-start;gap:14px;border-bottom:1px solid var(--line);padding-bottom:14px}
+.mhead h3{font-family:Fraunces,serif;font-style:italic;font-weight:400;font-size:24px;line-height:1.2}
+.mhead .msub{font-size:11px;color:var(--mut);margin-top:6px;letter-spacing:.08em;line-height:1.9}
+.mx{background:none;border:1px solid var(--line2);color:var(--mut2);border-radius:9px;font-family:inherit;font-size:13px;padding:6px 11px;cursor:pointer}
+.mx:hover{border-color:rgba(255,77,94,.5);color:var(--red)}
+.mgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:16px 0 4px}
+.mstat{background:var(--panel2);border:1px solid var(--line);border-radius:11px;padding:11px 13px}
+.mstat .k{font-size:9px;letter-spacing:.2em;color:var(--mut)}
+.mstat .v{font-size:14.5px;font-weight:600;margin-top:5px}
+.mstat .v small{font-size:10px;color:var(--mut);font-weight:400}
+.msec{font-size:10px;letter-spacing:.26em;color:var(--mut);margin:20px 0 10px}
+.mev{border:1px solid var(--line);border-left-width:3px;border-radius:11px;padding:12px 15px;margin-bottom:9px;background:rgba(10,16,25,.5)}
+.mev.b30{border-left-color:var(--amber)} .mev.b90{border-left-color:var(--cyan)}
+.mev.bpre{border-left-color:var(--violet)} .mev.bpx{border-left-color:var(--coral)}
+.mev .top{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.mev .top b{font-size:13.5px}
+.mev .num2{font-size:12.5px;color:var(--mut2)}
+.mev .how{font-size:11px;color:var(--mut);line-height:1.85;margin-top:8px;border-top:1px dashed var(--line);padding-top:8px}
+.mev .how b{color:var(--mut2);font-weight:500}
+.mnote{font-size:10.5px;color:var(--mut);line-height:1.9;margin-top:16px;border-top:1px solid var(--line);padding-top:12px}
+.mbtns{display:flex;gap:10px;margin-top:16px;flex-wrap:wrap}
+.mbtn{border-radius:10px;padding:11px 18px;font-family:inherit;font-size:12px;font-weight:600;letter-spacing:.06em;cursor:pointer;text-align:center}
+.mbtn.primary{background:var(--amber);color:#1a1205;border:0}
+.mbtn.primary:hover{filter:brightness(1.1)}
+.mbtn.ghost{background:transparent;border:1px solid var(--line2);color:var(--mut2)}
+.mbtn.ghost:hover{border-color:rgba(147,177,255,.4);color:var(--txt)}
+@media(max-width:700px){.mgrid{grid-template-columns:1fr 1fr}.mcard{padding:20px 18px}}
 footer{border-top:1px solid var(--line);margin-top:52px;padding-top:22px;font-size:11px;color:var(--mut);line-height:2;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
 footer b{color:var(--mut2);font-weight:500}
 @media(max-width:860px){
@@ -233,6 +264,7 @@ footer b{color:var(--mut2);font-weight:500}
 </footer>
 
 </div>
+<div class="mback" id="mback"><div class="mcard" id="mcard"></div></div>
 <script>
 const DATA = __DATA__;
 const IST_OFF = 330;
@@ -291,6 +323,77 @@ function subLine(r){
   return bits.join(' · ');
 }
 const $ = id => document.getElementById(id);
+const TLONG = {A30:'30-day anchor unlock', A90:'90-day anchor unlock', PRE6M:'Pre-IPO holders unlock (6M)', PX1Y:'Promoter release (1 year)', PX2Y:'Promoter release (2 years)'};
+const BCLS = {A30:'b30', A90:'b90', PRE6M:'bpre', PX1Y:'bpx', PX2Y:'bpx'};
+const nfmt = n => n == null ? '—' : n.toLocaleString('en-IN');
+function explain(e, r){
+  const phased = (r.events||[]).some(x => x.t === 'PX2Y');
+  if(e.t === 'A30' || e.t === 'A90')
+    return `<b>50% of the anchor allotment</b> (${nfmt(r.anchor_shares)} sh total, ₹${r.anchor_investment_cr ?? '—'} cr at issue price) stays locked for ${e.t==='A30'?30:90} days from allotment. Date as published — exchange-confirmed schedule, not an estimate.`;
+  if(e.t === 'PRE6M'){
+    if(r.pre_shares && r.prom_pre_pct != null)
+      return `<b>Pre-issue capital ${nfmt(r.pre_shares)} sh × (100% − ${r.prom_pre_pct}% promoter holding) = ${nfmt(r.nonprom_pre_shares)} sh</b> held by non-promoter pre-IPO investors${r.nonprom_pre_pct_of_post ? ` (${r.nonprom_pre_pct_of_post}% of post-issue capital)` : ''}. Date = allotment + 6 months per SEBI ICDR. <b>Estimated</b> — AIF/VC holdings may be exempt, which can reduce the actual quantity.`;
+    return `Date = allotment + 6 months per SEBI ICDR. Size pending — shareholding data for this IPO syncs on an upcoming daily run.`;
+  }
+  const exc = (r.prom_post_pct != null && r.post_shares) ? Math.round(r.post_shares * (r.prom_post_pct - 20) / 100) : null;
+  if(e.t === 'PX1Y'){
+    const base = `<b>Promoter post-issue ${r.prom_post_pct}% − 20% minimum promoter contribution = ${(r.prom_post_pct - 20).toFixed(2)}% excess${exc ? ` = ${nfmt(exc)} sh` : ''}.</b> `;
+    return base + (phased
+      ? `Listing on/after 08-Mar-2025 ⇒ phased regime: <b>50% of the excess releases at 1 year</b> from allotment. <b>Estimated.</b>`
+      : `Pre-Mar-2025 regime: <b>100% of the excess releases at 1 year</b> from allotment. <b>Estimated.</b>`);
+  }
+  if(e.t === 'PX2Y')
+    return `The <b>remaining 50% of the promoter excess</b>${exc ? ` (${nfmt(Math.round(exc/2))} sh)` : ''} releases at 2 years from allotment. The 20% MPC core stays locked 3 years. <b>Estimated.</b>`;
+  return '';
+}
+function openModal(slug){
+  const r = DATA.records.find(x => x.slug === slug);
+  if(!r) return;
+  const evs = (r.events || []).slice().sort((a,b) => a.d.localeCompare(b.d));
+  const evHtml = evs.map(e => {
+    const dd = dayDiff(e.d);
+    const when = dd === 0 ? 'TODAY' : dd > 0 ? `D-${dd}` : `${-dd}d ago`;
+    const size = [e.sh ? shFmt(e.sh) + ' sh' : null, e.pct != null ? e.pct + '% of capital' : null, e.val != null ? crFmt(e.val) + ' at issue px' : null].filter(Boolean).join(' · ') || 'size n/a';
+    return `<div class="mev ${BCLS[e.t]}">
+      <div class="top"><b>${TLONG[e.t]}</b><span class="num2">${fmtL(e.d)} · ${when}</span></div>
+      <div class="num2" style="margin-top:5px">${size}</div>
+      <div class="how">${explain(e, r)}</div></div>`;
+  }).join('') || '<div class="empty">no events computed</div>';
+  const mpc = r.post_shares ? Math.round(r.post_shares * 0.2) : null;
+  $('mcard').innerHTML = `
+    <div class="mhead"><div>
+      <h3>${esc(r.company)}</h3>
+      <div class="msub">${r.category}${r.nse_symbol ? ' · NSE ' + esc(String(r.nse_symbol)) : ''}${r.bse_code ? ' · BSE ' + r.bse_code : ''}${r.isin ? ' · ' + esc(String(r.isin)) : ''}<br>
+      anchor allotted ${r.anchor_allotment_date || '—'} · allotment (BOA) ${r.boa_date || '—'} · listed ${r.listing_date || '—'}</div>
+    </div><button class="mx" onclick="closeModal()">✕ esc</button></div>
+    <div class="mgrid">
+      <div class="mstat"><div class="k">PRE-ISSUE CAPITAL</div><div class="v">${shFmt(r.pre_shares)} <small>sh</small></div></div>
+      <div class="mstat"><div class="k">POST-ISSUE CAPITAL</div><div class="v">${shFmt(r.post_shares)} <small>sh</small></div></div>
+      <div class="mstat"><div class="k">PROMOTER PRE → POST</div><div class="v">${r.prom_pre_pct != null ? r.prom_pre_pct + '%' : '—'} → ${r.prom_post_pct != null ? r.prom_post_pct + '%' : '—'}</div></div>
+      <div class="mstat"><div class="k">NON-PROM PRE-IPO</div><div class="v">${shFmt(r.nonprom_pre_shares)} <small>${r.nonprom_pre_pct_of_post ? '· ' + r.nonprom_pre_pct_of_post + '% cap' : ''}</small></div></div>
+      <div class="mstat"><div class="k">ANCHOR ALLOTMENT</div><div class="v">${shFmt(r.anchor_shares)} <small>${r.anchor_investment_cr ? '· ₹' + r.anchor_investment_cr + ' cr' : ''}</small></div></div>
+      <div class="mstat"><div class="k">20% MPC (3YR LOCK)</div><div class="v">${shFmt(mpc)} <small>sh</small></div></div>
+    </div>
+    <div class="msec">UNLOCK TIMELINE — AND HOW EACH NUMBER IS BUILT</div>
+    ${evHtml}
+    <div class="mnote">Anchor dates are exchange-published. Pre-IPO and promoter events are computed from the prospectus shareholding + SEBI ICDR lock-in rules — treat as strong estimates and verify against the exchange listing circular before acting. AIF/VC exemptions and ESOP pools can change actual free-float.</div>
+    <div class="mbtns">
+      ${r.url ? `<a class="mbtn primary" href="${r.url}" target="_blank" rel="noopener">Chittorgarh page ↗</a>` : ''}
+      <button class="mbtn ghost" onclick="closeModal()">Close</button>
+    </div>`;
+  $('mback').classList.add('on');
+  document.body.style.overflow = 'hidden';
+}
+function closeModal(){
+  $('mback').classList.remove('on');
+  document.body.style.overflow = '';
+}
+document.addEventListener('click', ev => {
+  const t = ev.target.closest('[data-slug]');
+  if(t){ ev.preventDefault(); openModal(t.dataset.slug); return; }
+  if(ev.target.id === 'mback') closeModal();
+});
+document.addEventListener('keydown', ev => { if(ev.key === 'Escape') closeModal(); });
 
 function render(){
   const evs = events();
@@ -313,7 +416,7 @@ function render(){
   $('rail').innerHTML = up.slice(0, 14).map(e => {
     const dd = dayDiff(e.d);
     const cls = dd === 0 ? 'today' : (dd <= 7 ? 'soon' : '');
-    return `<a class="card ${cls}" href="${e.r.url||'#'}" target="_blank" rel="noopener">
+    return `<a class="card ${cls}" href="#" data-slug="${e.r.slug}">
       <div class="dbadge"><b>${dd === 0 ? 'TODAY' : 'D-' + dd}</b><span>${fmtS(e.d)}</span></div>
       <div class="cname">${esc(e.r.company)}</div>
       <div>${pills(e)}</div>
@@ -351,13 +454,13 @@ function render(){
     const rows = groups[d].map(e => {
       const day = pd(d);
       const nm = Q ? esc(e.r.company).replace(new RegExp('(' + Q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ')','ig'),'<mark>$1</mark>') : esc(e.r.company);
-      return `<a class="lrow ${dd<0?'past':''}" id="d${d}" href="${e.r.url||'#'}" target="_blank" rel="noopener">
+      return `<a class="lrow ${dd<0?'past':''}" id="d${d}" href="#" data-slug="${e.r.slug}">
         <div class="dd">${String(day.getDate()).padStart(2,'0')}<span>${MON[day.getMonth()].toUpperCase()}</span></div>
         <div class="co">${nm}<span>${subLine(e.r)}</span></div>
         <div>${pills(e)}</div>
         <div class="num hm">${shFmt(e.sh)}<span>SHARES FREE${e.est ? ' · EST' : ''}</span></div>
         <div class="num">${e.pct != null ? e.pct + '%' : (crFmt(e.val) || '—')}<span>${e.pct != null ? 'OF CAPITAL' : 'AT ISSUE PX'}</span></div>
-        <div class="go">↗</div></a>`;
+        <div class="go">ⓘ</div></a>`;
     }).join('');
     return `<div class="lgroup"><div class="ldate ${dd===0?'today-l':''}">${label}<span>· ${groups[d].length}</span></div>${rows}</div>`;
   }).join('') || '<div class="empty">no matches — clear search or switch tabs/filters</div>';
