@@ -84,14 +84,83 @@ try:
         _outs = json.load(_f)
 except Exception:
     _outs = {}
+def _r5(_o):
+    return _o.get("ret5", _o.get("ret5_pct"))
+
+def _med(_v):
+    _v = sorted(_v)
+    return round(_v[len(_v)//2], 1) if _v else None
+
 _by_type = {}
 for _o in _outs.values():
-    if _o.get("ret5_pct") is not None:
-        _by_type.setdefault(_o["type"], []).append(_o["ret5_pct"])
-OUTCOME_STATS = {}
-for _t, _v in _by_type.items():
-    _v.sort()
-    OUTCOME_STATS[_t] = {"n": len(_v), "med": round(_v[len(_v)//2], 1)}
+    if _r5(_o) is not None:
+        _by_type.setdefault(_o["type"], []).append(_r5(_o))
+OUTCOME_STATS = {_t: {"n": len(_v), "med": _med(_v)} for _t, _v in _by_type.items()}
+
+# ---------------- backtest report (docs/backtest.html) ----------------
+def _bucket_rows(keyfn, buckets, only_anchor=False):
+    rows = []
+    for lbl, lo, hi in buckets:
+        vals = [_r5(o) for o in _outs.values()
+                if _r5(o) is not None and (not only_anchor or o["type"] in ("A30", "A90"))
+                and keyfn(o) is not None and lo <= keyfn(o) < hi]
+        neg = sum(1 for v in vals if v < 0)
+        rows.append((lbl, len(vals), _med(vals), round(neg / len(vals) * 100) if vals else None))
+    return rows
+
+_slug_names = {r["slug"]: (r.get("anchor_names") or []) for r in records if r.get("category") == "SME"}
+_fund_rets = {}
+for _o in _outs.values():
+    if _o["type"] not in ("A30", "A90") or _r5(_o) is None:
+        continue
+    for _nm in _slug_names.get(_o["slug"], []):
+        _fund_rets.setdefault(" ".join(_nm.split()).title(), []).append(_r5(_o))
+FUND_ROWS = sorted(
+    [(k, len(v), _med(v), round(sum(1 for x in v if x < 0) / len(v) * 100)) for k, v in _fund_rets.items() if len(v) >= 4],
+    key=lambda x: x[2])[:15]
+
+def _tbl(title, headers, rows):
+    h = "".join(f"<th>{x}</th>" for x in headers)
+    b = "".join("<tr>" + "".join(f"<td>{('—' if c is None else c)}</td>" for c in row) + "</tr>" for row in rows)
+    return f"<h2>{title}</h2><table><tr>{h}</tr>{b}</table>"
+
+_tname = {"A30": "30D anchor", "A90": "90D anchor", "PRE6M": "6M pre-IPO", "PX1Y": "1Y promoter", "PX2Y": "2Y promoter"}
+_typ_rows = []
+for _t in ("A30", "A90", "PRE6M", "PX1Y", "PX2Y"):
+    _v = _by_type.get(_t, [])
+    if _v:
+        _typ_rows.append((_tname[_t], len(_v), _med(_v), round(sum(1 for x in _v if x < 0) / len(_v) * 100)))
+_dov_rows = _bucket_rows(lambda o: o.get("dov_ev"), [("under 1× vol", 0, 1), ("1–5× vol", 1, 5), ("over 5× vol", 5, 10_000)], True)
+_pl_rows = _bucket_rows(lambda o: o.get("pl_at_unlock"), [("underwater at unlock", -10_000, 0), ("0–50% gain", 0, 50), ("over 50% gain", 50, 100_000)], True)
+_ru_rows = _bucket_rows(lambda o: o.get("runup20"), [("fell into unlock", -10_000, 0), ("0–25% run-up", 0, 25), ("over 25% run-up", 25, 100_000)], True)
+_n_total = sum(1 for o in _outs.values() if _r5(o) is not None)
+
+os.makedirs("docs", exist_ok=True)
+_bt = f"""<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Unlock Radar — backtest</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Instrument+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>body{{background:#F7F5F0;color:#1A2130;font-family:'Instrument Sans',system-ui,sans-serif;font-size:15px;max-width:860px;margin:0 auto;padding:36px 24px 60px}}
+h1{{font-family:Fraunces,serif;font-weight:400;font-size:38px}}h1 em{{font-style:italic;color:#B36F00}}
+.sub{{font-size:12.5px;color:#727B8A;margin-top:6px;line-height:1.8}}.sub a{{color:#0E7490}}
+h2{{font-family:Fraunces,serif;font-style:italic;font-weight:430;font-size:19px;color:#3F4756;margin:30px 0 10px}}
+table{{width:100%;border-collapse:collapse;background:#fff;border:1px solid rgba(24,33,51,.16);border-radius:12px;overflow:hidden;font-size:13px}}
+th{{text-align:left;font-size:10.5px;letter-spacing:.14em;color:#727B8A;padding:9px 13px;border-bottom:1px solid rgba(24,33,51,.16);background:#F1EEE6}}
+td{{padding:9px 13px;border-bottom:1px solid rgba(24,33,51,.08);font-family:'IBM Plex Mono',monospace;font-size:12.5px}}
+td:first-child{{font-family:'Instrument Sans',sans-serif;font-weight:500}}
+tr:last-child td{{border-bottom:0}}
+.note{{font-size:11.5px;color:#727B8A;line-height:1.9;margin-top:26px;border-top:1px solid rgba(24,33,51,.16);padding-top:14px}}</style></head><body>
+<h1>Unlock <em>backtest</em></h1>
+<div class="sub">{_n_total} historical unlock events measured · prices from BSE/NSE bhavcopy archives · generated {gen_label} · <a href="index.html">← back to the radar</a><br>
+ret = close-to-close move in the 5 sessions after the unlock date. Negative median = stocks typically fell after that kind of unlock.</div>
+{_tbl("By unlock type", ["type", "events", "median T+5", "% negative"], _typ_rows)}
+{_tbl("Anchor unlocks by supply pressure", ["unlock size vs daily volume", "events", "median T+5", "% negative"], _dov_rows)}
+{_tbl("Anchor unlocks by holders' profit at unlock", ["gain vs IPO price on unlock eve", "events", "median T+5", "% negative"], _pl_rows)}
+{_tbl("Anchor unlocks by run-up into the event", ["price move T−20 → T−1", "events", "median T+5", "% negative"], _ru_rows)}
+{_tbl("Anchor funds — worst post-unlock records (min 4 deals)", ["fund", "deals", "median T+5", "% negative"], FUND_ROWS) if FUND_ROWS else "<h2>Anchor funds</h2><p style='font-size:13px;color:#727B8A'>Fund-level table appears once anchor names finish syncing and at least one fund has 4+ measured unlocks.</p>"}
+<div class="note">Aggregates of past events; small samples early on — read n before believing a median. Dates for pre-IPO/promoter events are rule-computed (±few days). Not investment advice.</div>
+</body></html>"""
+with open("docs/backtest.html", "w", encoding="utf-8") as _f:
+    _f.write(_bt)
 
 FUND_COUNTS = {}
 for _r in records:
@@ -265,7 +334,7 @@ footer b{color:var(--mut2);font-weight:600}
 <header class="mast">
   <div>
     <h1>Unlock <em>Radar</em></h1>
-    <div class="subline">SME lock-in expiries · refreshed daily 07:00 IST · <a href="lockins.ics">calendar feed</a> · <a href="data.json">raw json</a> · data as of __GENERATED__</div>
+    <div class="subline">SME lock-in expiries · refreshed daily 07:00 IST · <a href="lockins.ics">calendar feed</a> · <a href="data.json">raw json</a> · <a href="backtest.html">backtest</a> · data as of __GENERATED__</div>
   </div>
   <div class="glance" id="glance"></div>
 </header>
