@@ -39,6 +39,9 @@ jobs:
       - name: Update price & volume feed
         run: python price_feed.py
 
+      - name: Record unlock outcomes
+        run: python outcomes.py
+
       - name: Rebuild dashboard + calendar feed
         run: python build_site.py
 
