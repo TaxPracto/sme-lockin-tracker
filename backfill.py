@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """
+# v2 trigger
 One-shot historical price backfill (re-runnable; skips days already stored).
 Downloads BSE + NSE UDiFF bhavcopies from START date to today and stores
 close+volume for tracked ISINs in data/history.json:

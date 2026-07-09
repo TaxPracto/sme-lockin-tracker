@@ -109,15 +109,87 @@ def _bucket_rows(keyfn, buckets, only_anchor=False):
     return rows
 
 _slug_names = {r["slug"]: (r.get("anchor_names") or []) for r in records if r.get("category") == "SME"}
-_fund_rets = {}
+_deal_counts = {}
+for _names in _slug_names.values():
+    for _nm in _names:
+        _k = " ".join(_nm.split()).title()
+        _deal_counts[_k] = _deal_counts.get(_k, 0) + 1
+_fund_obs = {}
 for _o in _outs.values():
     if _o["type"] not in ("A30", "A90") or _r5(_o) is None:
         continue
     for _nm in _slug_names.get(_o["slug"], []):
-        _fund_rets.setdefault(" ".join(_nm.split()).title(), []).append(_r5(_o))
-FUND_ROWS = sorted(
-    [(k, len(v), _med(v), round(sum(1 for x in v if x < 0) / len(v) * 100)) for k, v in _fund_rets.items() if len(v) >= 4],
-    key=lambda x: x[2])[:15]
+        _fund_obs.setdefault(" ".join(_nm.split()).title(), []).append(_o)
+
+def _avg(_v):
+    _v = [x for x in _v if x is not None]
+    return round(sum(_v) / len(_v), 1) if _v else None
+
+FUND_TABLE = []
+for _k, _obs in _fund_obs.items():
+    _rets = [_r5(_o) for _o in _obs]
+    _n = len(_rets)
+    if _n < 3:
+        continue
+    _medt5 = _med(_rets)
+    _pneg = round(sum(1 for x in _rets if x < 0) / _n * 100)
+    _apl = _avg([_o.get("pl_at_unlock") for _o in _obs])
+    _adov = _avg([_o.get("dov_ev") for _o in _obs])
+    _aru = _avg([_o.get("runup20") for _o in _obs])
+    _score = 50 + 2.5 * max(min(_medt5, 10), -10) - 0.3 * (_pneg - 50) \
+             - (1.2 * max((_adov or 0) - 3, 0)) - 0.05 * max((_aru or 0) - 25, 0) \
+             + min(_deal_counts.get(_k, _n), 10) * 0.5
+    _grade = "STICKY" if _score >= 60 else ("NEUTRAL" if _score >= 45 else "FLIPPER")
+    FUND_TABLE.append({"fund": _k, "deals": _deal_counts.get(_k, _n), "n": _n, "med": _medt5,
+                       "pneg": _pneg, "apl": _apl, "adov": _adov, "aru": _aru,
+                       "score": round(_score, 1), "grade": _grade})
+FUND_TABLE.sort(key=lambda x: -x["score"])
+FUND_ROWS = [(f["fund"], f["n"], f["med"], f["pneg"]) for f in sorted(FUND_TABLE, key=lambda x: x["med"] if x["med"] is not None else 999)][:15]
+_UNGRADED = sorted([(k, c) for k, c in _deal_counts.items() if c >= 2 and k not in {f["fund"] for f in FUND_TABLE}],
+                   key=lambda x: -x[1])[:40]
+
+NAV = """<div class="nav"><a href="index.html" class="{a}">Radar</a><a href="anchors.html" class="{b}">Anchor ranks</a><a href="backtest.html" class="{c}">Backtest</a></div>"""
+_NAVCSS = ".nav{display:flex;gap:8px;margin:0 0 18px}.nav a{padding:7px 16px;border:1px solid rgba(24,33,51,.16);border-radius:99px;font-size:12px;font-weight:600;color:#3F4756;background:#fff;text-decoration:none}.nav a.on{background:#1A2130;color:#fff;border-color:#1A2130}"
+
+_gcol = {"STICKY": ("#E1F5EE", "#0F6E56"), "NEUTRAL": ("#FBF0DA", "#854F0B"), "FLIPPER": ("#FBE4E7", "#A32D2D")}
+_frows = ""
+for _i, _f in enumerate(FUND_TABLE):
+    _bg, _fg = _gcol[_f["grade"]]
+    _frows += (f"<tr><td>{_i+1}</td><td style=\"font-family:'Instrument Sans',sans-serif;font-weight:500\">{_f['fund']}</td>"
+               f"<td>{_f['deals']}</td><td>{_f['n']}</td><td>{_f['med']}%</td><td>{_f['pneg']}%</td>"
+               f"<td>{_f['apl'] if _f['apl'] is not None else '—'}%</td><td>{_f['adov'] if _f['adov'] is not None else '—'}×</td>"
+               f"<td><span style='background:{_bg};color:{_fg};padding:2px 10px;border-radius:99px;font-size:10.5px;font-weight:700'>{_f['grade']}</span></td></tr>")
+_urows = " · ".join(f"{k} ({c})" for k, c in _UNGRADED) or "—"
+
+os.makedirs("docs", exist_ok=True)
+_anch = f"""<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Unlock Radar — anchor ranks</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Instrument+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>body{{background:#F7F5F0;color:#1A2130;font-family:'Instrument Sans',system-ui,sans-serif;font-size:15px;max-width:920px;margin:0 auto;padding:32px 24px 60px}}
+h1{{font-family:Fraunces,serif;font-weight:400;font-size:36px;margin-bottom:4px}}h1 em{{font-style:italic;color:#B36F00}}
+.sub{{font-size:12.5px;color:#727B8A;margin:6px 0 20px;line-height:1.8}}
+{_NAVCSS}
+table{{width:100%;border-collapse:collapse;background:#fff;border:1px solid rgba(24,33,51,.16);border-radius:12px;overflow:hidden;font-size:12.5px}}
+th{{text-align:left;font-size:10px;letter-spacing:.12em;color:#727B8A;padding:9px 11px;border-bottom:1px solid rgba(24,33,51,.16);background:#F1EEE6}}
+td{{padding:9px 11px;border-bottom:1px solid rgba(24,33,51,.08);font-family:'IBM Plex Mono',monospace}}
+tr:last-child td{{border-bottom:0}}
+.card{{background:#fff;border:1px solid rgba(24,33,51,.16);border-radius:12px;padding:16px 18px;font-size:12.5px;color:#3F4756;line-height:1.9;margin-bottom:22px}}
+.note{{font-size:11.5px;color:#727B8A;line-height:1.9;margin-top:22px;border-top:1px solid rgba(24,33,51,.16);padding-top:13px}}</style></head><body>
+{NAV.format(a="", b="on", c="")}
+<h1>Anchor <em>ranks</em></h1>
+<div class="sub">{len(FUND_TABLE)} funds graded ({len(_deal_counts)} in registry) · updated {gen_label} · grades recompute daily as new unlocks pass into history</div>
+<div class="card"><b>How the grade works.</b> For every fund we measure what its anchored stocks did in the 5 sessions after each anchor unlock (30D/90D).
+Score starts at 50, rewards a positive median move after their unlocks, and penalises: a high share of negative outcomes, a habit of anchoring
+illiquid issues (unlock &gt;3× daily volume), and pumped-up run-ins (&gt;25% rally into the unlock). More tracked deals adds a small activity bonus.
+<b>STICKY ≥60</b> · NEUTRAL 45–60 · <b>FLIPPER &lt;45</b>. Minimum 3 measured unlocks to be graded.</div>
+<table><tr><th>#</th><th>fund</th><th>deals</th><th>measured</th><th>median T+5</th><th>% negative</th><th>avg gain at unlock</th><th>avg ×vol</th><th>grade</th></tr>{_frows if _frows else "<tr><td colspan=9 style='color:#727B8A'>Grades appear once the historical backfill completes and anchor names finish syncing.</td></tr>"}</table>
+<h2 style="font-family:Fraunces,serif;font-style:italic;font-weight:430;font-size:18px;color:#3F4756;margin:26px 0 8px">Not yet graded (under 3 measured unlocks)</h2>
+<div style="font-size:12px;color:#727B8A;line-height:2">{_urows}</div>
+<div class="note">A FLIPPER tag means stocks this fund anchored typically fell after unlock days — correlation across their deals, not proof any fund sold.
+Anchor lists come from public allotment disclosures. Small samples early on; grades firm up as history accumulates. Not investment advice.</div>
+</body></html>"""
+with open("docs/anchors.html", "w", encoding="utf-8") as _f:
+    _f.write(_anch)
 
 def _tbl(title, headers, rows):
     h = "".join(f"<th>{x}</th>" for x in headers)
@@ -146,10 +218,10 @@ h2{{font-family:Fraunces,serif;font-style:italic;font-weight:430;font-size:19px;
 table{{width:100%;border-collapse:collapse;background:#fff;border:1px solid rgba(24,33,51,.16);border-radius:12px;overflow:hidden;font-size:13px}}
 th{{text-align:left;font-size:10.5px;letter-spacing:.14em;color:#727B8A;padding:9px 13px;border-bottom:1px solid rgba(24,33,51,.16);background:#F1EEE6}}
 td{{padding:9px 13px;border-bottom:1px solid rgba(24,33,51,.08);font-family:'IBM Plex Mono',monospace;font-size:12.5px}}
-td:first-child{{font-family:'Instrument Sans',sans-serif;font-weight:500}}
+td:first-child{{font-family:'Instrument Sans',sans-serif;font-weight:500}}\n{_NAVCSS}
 tr:last-child td{{border-bottom:0}}
 .note{{font-size:11.5px;color:#727B8A;line-height:1.9;margin-top:26px;border-top:1px solid rgba(24,33,51,.16);padding-top:14px}}</style></head><body>
-<h1>Unlock <em>backtest</em></h1>
+{NAV.format(a="", b="", c="on")}\n<h1>Unlock <em>backtest</em></h1>
 <div class="sub">{_n_total} historical unlock events measured · prices from BSE/NSE bhavcopy archives · generated {gen_label} · <a href="index.html">← back to the radar</a><br>
 ret = close-to-close move in the 5 sessions after the unlock date. Negative median = stocks typically fell after that kind of unlock.</div>
 {_tbl("By unlock type", ["type", "events", "median T+5", "% negative"], _typ_rows)}
@@ -197,7 +269,8 @@ a{color:inherit;text-decoration:none}
 .sec{font-size:12px;font-weight:600;letter-spacing:.05em;color:var(--mut2);margin:26px 0 10px;display:flex;align-items:center;gap:7px}
 .sec .hint{color:var(--mut);cursor:help;font-size:13px}
 ::selection{background:rgba(179,111,0,.22)}
-.mast{display:flex;justify-content:space-between;align-items:flex-end;gap:14px;padding:34px 0 16px;border-bottom:1.5px solid var(--line2);flex-wrap:wrap}
+.topnav{display:flex;gap:8px;padding-top:22px}.topnav a{padding:7px 16px;border:1px solid var(--line2);border-radius:99px;font-size:12px;font-weight:600;color:var(--mut2);background:var(--panel)}.topnav a.on{background:var(--txt);color:#fff;border-color:var(--txt)}
+.mast{display:flex;justify-content:space-between;align-items:flex-end;gap:14px;padding:20px 0 16px;border-bottom:1.5px solid var(--line2);flex-wrap:wrap}
 h1{font-family:Fraunces,serif;font-weight:400;font-size:clamp(34px,5vw,46px);line-height:1}
 h1 em{font-style:italic;color:var(--amber)}
 .subline{font-size:12px;color:var(--mut);margin-top:6px}
@@ -331,6 +404,7 @@ footer b{color:var(--mut2);font-weight:600}
 <body>
 <div class="wrap">
 
+<div class="topnav"><a href="index.html" class="on">Radar</a><a href="anchors.html">Anchor ranks</a><a href="backtest.html">Backtest</a></div>
 <header class="mast">
   <div>
     <h1>Unlock <em>Radar</em></h1>
