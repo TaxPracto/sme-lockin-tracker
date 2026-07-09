@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-09T11:58:30+05:30",
+ "generated_at": "2026-07-09T12:38:57+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -54,7 +54,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 118.01,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Happy Steels Ltd.",
@@ -119,7 +124,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 65.99,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Laser Power & Infra Ltd.",
@@ -160,7 +170,12 @@
      "val": 111.3,
      "est": false
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 214.0,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Kusumgar Ltd.",
@@ -201,7 +216,12 @@
      "val": 96.975,
      "est": false
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 419.0,
+   "chg_from_issue_pct": null
   },
   {
    "company": "IC Electricals Co.Ltd.",
@@ -266,7 +286,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 98.98,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Knack Packaging Ltd.",
@@ -307,7 +332,12 @@
      "val": 65.625,
      "est": false
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 170.0,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Kratikal Tech Ltd.",
@@ -372,7 +402,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 135.02,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Sampark India Logistics Ltd.",
@@ -437,7 +472,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 83.95,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Atharva Polyplast Ltd.",
@@ -486,7 +526,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 59.97,
+   "chg_from_issue_pct": null
   },
   {
    "company": "CSM Technologies Ltd.",
@@ -527,7 +572,12 @@
      "val": 10.0,
      "est": false
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 112.99,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Advit Jewels Ltd.",
@@ -568,7 +618,12 @@
      "val": 24.76,
      "est": false
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 137.99,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Shreedhar Spinners Ltd.",
@@ -633,7 +688,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 53.03,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Waterways Leisure Tourism Ltd.",
@@ -674,7 +734,12 @@
      "val": 131.625,
      "est": false
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 808.0,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Anubhav Plast Ltd.",
@@ -739,7 +804,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 79.95,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Turtlemint Fintech Solutions Ltd.",
@@ -780,7 +850,12 @@
      "val": 198.6,
      "est": false
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 152.0,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Avience Biomedicals Ltd.",
@@ -845,7 +920,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 207.91,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Clay Craft India Ltd.",
@@ -894,7 +974,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 203.01,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Horizon Reclaim (India) Ltd.",
@@ -943,7 +1028,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 102.98,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Susan Electricals India Ltd.",
@@ -1008,7 +1098,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 126.99,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Genxai Analytics Ltd.",
@@ -1073,7 +1168,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 115.99,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Hexagon Nutrition Ltd.",
@@ -1114,7 +1214,12 @@
      "val": 20.83,
      "est": false
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 45.0,
+   "chg_from_issue_pct": null
   },
   {
    "company": "CMR Green Technologies Ltd.",
@@ -1155,7 +1260,12 @@
      "val": 94.22,
      "est": false
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 192.0,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Merritronix Ltd.",
@@ -1220,7 +1330,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 149.03,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Rajnandini Fashion India Ltd.",
@@ -1285,7 +1400,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 62.96,
+   "chg_from_issue_pct": null
   },
   {
    "company": "M R Maniveni Foods Ltd.",
@@ -1350,7 +1470,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 51.97,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Q-Line Biotech Ltd.",
@@ -1399,7 +1524,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 343.03,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Vegorama Punjabi Angithi Ltd.",
@@ -1464,7 +1594,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 76.98,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Teamtech Formwork Solutions Ltd.",
@@ -1529,7 +1664,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 63.02,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Goldline Pharmaceutical Ltd.",
@@ -1594,7 +1734,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 43.03,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Simca Advertising Ltd.",
@@ -1659,7 +1804,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 183.06,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Bagmane Prime Office REIT",
@@ -1700,7 +1850,12 @@
      "val": null,
      "est": false
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": null,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Recode Studios Ltd.",
@@ -1765,7 +1920,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 158.06,
+   "chg_from_issue_pct": null
   },
   {
    "company": "OnEMI Technology Solutions Ltd.",
@@ -1806,7 +1966,12 @@
      "val": 138.89,
      "est": false
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 171.0,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Adisoft Technologies Ltd.",
@@ -1871,7 +2036,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 172.0,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Citius Transnet Investment Trust",
@@ -1904,7 +2074,12 @@
      "val": null,
      "est": false
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": null,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Mehul Telecom Ltd.",
@@ -1953,7 +2128,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 98.02,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Om Power Transmission Ltd.",
@@ -1994,7 +2174,12 @@
      "val": 22.505,
      "est": false
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 174.98,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Safety Controls & Devices Ltd.",
@@ -2059,7 +2244,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 79.99,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Emiac Technologies Ltd.",
@@ -2108,7 +2298,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 97.97,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Vivid Electromech Ltd.",
@@ -2173,7 +2368,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 554.96,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Highness Microelectronics Ltd.",
@@ -2238,7 +2438,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 119.91,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Sai Parenteral's Ltd.",
@@ -2279,7 +2484,12 @@
      "val": 61.32,
      "est": false
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 392.01,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Powerica Ltd.",
@@ -2320,7 +2530,12 @@
      "val": 164.7,
      "est": false
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 395.0,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Amir Chand Jagdish Kumar (Exports) Ltd.",
@@ -2361,7 +2576,12 @@
      "val": 30.0,
      "est": false
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 211.99,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Tipco Engineering India Ltd.",
@@ -2426,7 +2646,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 89.01,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Central Mine Planning & Design Institute Ltd.",
@@ -2467,7 +2692,12 @@
      "val": 234.87,
      "est": false
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 172.0,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Novus Loyalty Ltd.",
@@ -2532,7 +2762,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 146.02,
+   "chg_from_issue_pct": null
   },
   {
    "company": "GSP Crop Science Ltd.",
@@ -2573,7 +2808,12 @@
      "val": 60.0,
      "est": false
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 320.0,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Raajmarg Infra Investment Trust",
@@ -2614,7 +2854,12 @@
      "val": null,
      "est": false
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": null,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Apsis Aerocom Ltd.",
@@ -2663,7 +2908,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 109.98,
+   "chg_from_issue_pct": null
   },
   {
    "company": "SEDEMAC Mechatronics Ltd.",
@@ -2704,7 +2954,12 @@
      "val": 162.945,
      "est": false
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 1352.02,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Striders Impex Ltd.",
@@ -2769,7 +3024,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 71.99,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Yaap Digital Ltd.",
@@ -2834,7 +3094,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 145.01,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Omnitech Engineering Ltd.",
@@ -2875,7 +3140,12 @@
      "val": 87.3,
      "est": false
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 227.0,
+   "chg_from_issue_pct": null
   },
   {
    "company": "PNGS Reva Diamond Jewellery Ltd.",
@@ -2916,7 +3186,12 @@
      "val": 85.29,
      "est": false
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 386.0,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Mobilise App Lab Ltd.",
@@ -2981,7 +3256,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 80.02,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Accord Transformer & Switchgear Ltd.",
@@ -3046,7 +3326,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 46.02,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Clean Max Enviro Energy Solutions Ltd.",
@@ -3087,7 +3372,12 @@
      "val": 460.5,
      "est": false
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 1053.0,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Manilam Industries India Ltd.",
@@ -3152,7 +3442,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 68.99,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Gaudium IVF & Women Health Ltd.",
@@ -3193,7 +3488,12 @@
      "val": 24.75,
      "est": false
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 79.0,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Fractal Industries Ltd.",
@@ -3258,7 +3558,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 215.97,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Marushika Technology Ltd.",
@@ -3323,7 +3628,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 116.94,
+   "chg_from_issue_pct": null
   },
   {
    "company": "PAN HR Solutions Ltd.",
@@ -3388,7 +3698,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 77.94,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Fractal Analytics Ltd.",
@@ -3429,7 +3744,12 @@
      "val": 624.125,
      "est": false
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 900.0,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Aye Finance Ltd.",
@@ -3470,7 +3790,12 @@
      "val": 227.25,
      "est": false
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 129.0,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Grover Jewells Ltd.",
@@ -3519,7 +3844,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 88.03,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Brandman Retail Ltd.",
@@ -3584,7 +3914,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 176.01,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Msafe Equipments Ltd.",
@@ -3633,7 +3968,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 123.02,
+   "chg_from_issue_pct": null
   },
   {
    "company": "CKK Retail Mart Ltd.",
@@ -3682,7 +4022,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 163.0,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Accretion Nutraveda Ltd.",
@@ -3731,7 +4076,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 129.04,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Kasturi Metal Composite Ltd.",
@@ -3796,7 +4146,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 63.94,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Hannah Joseph Hospital Ltd.",
@@ -3861,7 +4216,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 69.99,
+   "chg_from_issue_pct": null
   },
   {
    "company": "KRM Ayurveda Ltd.",
@@ -3926,7 +4286,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 135.02,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Digilogic Systems Ltd.",
@@ -3991,7 +4356,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 104.02,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Shadowfax Technologies Ltd.",
@@ -4032,7 +4402,12 @@
      "val": 428.01,
      "est": false
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 124.0,
+   "chg_from_issue_pct": null
   },
   {
    "company": "GRE Renew Enertech Ltd.",
@@ -4097,7 +4472,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 104.99,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Amagi Media Labs Ltd.",
@@ -4138,7 +4518,12 @@
      "val": 402.44,
      "est": false
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 361.0,
+   "chg_from_issue_pct": null
   },
   {
    "company": "INDO SMC Ltd.",
@@ -4203,7 +4588,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 148.97,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Defrail Technologies Ltd.",
@@ -4252,7 +4642,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 74.07,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Avana Electrosystems Ltd.",
@@ -4301,7 +4696,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 58.99,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Bharat Coking Coal Ltd.",
@@ -4342,7 +4742,12 @@
      "val": 136.565,
      "est": false
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 23.0,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Gabion Technologies India Ltd.",
@@ -4391,7 +4796,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 80.99,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Modern Diagnostic & Research Centre Ltd.",
@@ -4456,7 +4866,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 89.96,
+   "chg_from_issue_pct": null
   },
   {
    "company": "E to E Transportation Infrastructure Ltd.",
@@ -4521,7 +4936,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 174.0,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Admach Systems Ltd.",
@@ -4586,7 +5006,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 238.84,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Bai Kakaji Polymers Ltd.",
@@ -4635,7 +5060,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 186.01,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Apollo Techno Industries Ltd.",
@@ -4684,7 +5114,12 @@
      "val": null,
      "est": true
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 130.0,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Technichem Organics Ltd.",
@@ -4725,7 +5160,12 @@
      "val": 3.57,
      "est": false
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 55.01,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Indo Farm Equipment Ltd.",
@@ -4766,7 +5206,12 @@
      "val": 39.025,
      "est": false
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 215.01,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Anya Polytech & Fertilizers Ltd.",
@@ -4807,7 +5252,12 @@
      "val": 6.375,
      "est": false
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 14.0,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Unimech Aerospace & Manufacturing Ltd.",
@@ -4848,7 +5298,12 @@
      "val": 74.775,
      "est": false
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 785.0,
+   "chg_from_issue_pct": null
   },
   {
    "company": "Ventive Hospitality Ltd.",
@@ -4889,7 +5344,12 @@
      "val": 359.775,
      "est": false
     }
-   ]
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 643.0,
+   "chg_from_issue_pct": null
   }
  ]
 }
