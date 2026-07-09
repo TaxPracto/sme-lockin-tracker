@@ -1,0 +1,26 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Unlock Radar — anchor ranks</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Instrument+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>body{background:#F7F5F0;color:#1A2130;font-family:'Instrument Sans',system-ui,sans-serif;font-size:15px;max-width:920px;margin:0 auto;padding:32px 24px 60px}
+h1{font-family:Fraunces,serif;font-weight:400;font-size:36px;margin-bottom:4px}h1 em{font-style:italic;color:#B36F00}
+.sub{font-size:12.5px;color:#727B8A;margin:6px 0 20px;line-height:1.8}
+.nav{display:flex;gap:8px;margin:0 0 18px}.nav a{padding:7px 16px;border:1px solid rgba(24,33,51,.16);border-radius:99px;font-size:12px;font-weight:600;color:#3F4756;background:#fff;text-decoration:none}.nav a.on{background:#1A2130;color:#fff;border-color:#1A2130}
+table{width:100%;border-collapse:collapse;background:#fff;border:1px solid rgba(24,33,51,.16);border-radius:12px;overflow:hidden;font-size:12.5px}
+th{text-align:left;font-size:10px;letter-spacing:.12em;color:#727B8A;padding:9px 11px;border-bottom:1px solid rgba(24,33,51,.16);background:#F1EEE6}
+td{padding:9px 11px;border-bottom:1px solid rgba(24,33,51,.08);font-family:'IBM Plex Mono',monospace}
+tr:last-child td{border-bottom:0}
+.card{background:#fff;border:1px solid rgba(24,33,51,.16);border-radius:12px;padding:16px 18px;font-size:12.5px;color:#3F4756;line-height:1.9;margin-bottom:22px}
+.note{font-size:11.5px;color:#727B8A;line-height:1.9;margin-top:22px;border-top:1px solid rgba(24,33,51,.16);padding-top:13px}</style></head><body>
+<div class="nav"><a href="index.html" class="">Radar</a><a href="anchors.html" class="on">Anchor ranks</a><a href="backtest.html" class="">Backtest</a></div>
+<h1>Anchor <em>ranks</em></h1>
+<div class="sub">1 funds graded (1 in registry) · updated 09 Jul 2026, 17:29 IST · grades recompute daily as new unlocks pass into history</div>
+<div class="card"><b>How the grade works.</b> For every fund we measure what its anchored stocks did in the 5 sessions after each anchor unlock (30D/90D).
+Score starts at 50, rewards a positive median move after their unlocks, and penalises: a high share of negative outcomes, a habit of anchoring
+illiquid issues (unlock &gt;3× daily volume), and pumped-up run-ins (&gt;25% rally into the unlock). More tracked deals adds a small activity bonus.
+<b>STICKY ≥60</b> · NEUTRAL 45–60 · <b>FLIPPER &lt;45</b>. Minimum 3 measured unlocks to be graded.</div>
+<table><tr><th>#</th><th>fund</th><th>deals</th><th>measured</th><th>median T+5</th><th>% negative</th><th>avg gain at unlock</th><th>avg ×vol</th><th>grade</th></tr><tr><td>1</td><td style="font-family:'Instrument Sans',sans-serif;font-weight:500">Investment By Mutual Fund</td><td>60</td><td>81</td><td>-1.6%</td><td>57%</td><td>18.8%</td><td>9.9×</td><td><span style='background:#FBE4E7;color:#A32D2D;padding:2px 10px;border-radius:99px;font-size:10.5px;font-weight:700'>FLIPPER</span></td></tr></table>
+<h2 style="font-family:Fraunces,serif;font-style:italic;font-weight:430;font-size:18px;color:#3F4756;margin:26px 0 8px">Not yet graded (under 3 measured unlocks)</h2>
+<div style="font-size:12px;color:#727B8A;line-height:2">—</div>
+<div class="note">A FLIPPER tag means stocks this fund anchored typically fell after unlock days — correlation across their deals, not proof any fund sold.
+Anchor lists come from public allotment disclosures. Small samples early on; grades firm up as history accumulates. Not investment advice.</div>
+</body></html>
