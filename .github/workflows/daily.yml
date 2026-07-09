@@ -1,0 +1,65 @@
+name: daily-unlock-radar
+
+on:
+  schedule:
+    - cron: '30 1 * * *'      # 01:30 UTC = 07:00 IST, every day
+  workflow_dispatch: {}        # manual "Run workflow" button
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Scrape latest lock-in data
+        run: python scraper.py
+
+      - name: Rebuild dashboard + calendar feed
+        run: python build_site.py
+
+      - name: Commit refreshed data (history)
+        run: |
+          git config user.name "unlock-radar-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/ docs/
+          git commit -m "Daily refresh $(date -u +'%Y-%m-%d')" || echo "No changes today"
+          git push
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Send morning digest email
+        env:
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          DIGEST_TO: ${{ secrets.DIGEST_TO }}
+          PAGE_URL: ${{ steps.deployment.outputs.page_url }}
+        run: python send_email.py
