@@ -36,6 +36,9 @@ jobs:
       - name: Scrape latest lock-in data
         run: python scraper.py
 
+      - name: Update price & volume feed
+        run: python price_feed.py
+
       - name: Rebuild dashboard + calendar feed
         run: python build_site.py
 
