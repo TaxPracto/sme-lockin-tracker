@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-09T10:01:52+05:30",
+ "generated_at": "2026-07-09T10:09:21+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -22,8 +22,8 @@
    "isin": "",
    "nse_symbol": "",
    "bse_code": "",
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 10250000,
+   "post_shares": 13588000,
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": "2026-07-16",
@@ -34,7 +34,7 @@
      "t": "A30",
      "d": "2026-08-13",
      "sh": 500400,
-     "pct": null,
+     "pct": 3.68,
      "val": 5.905,
      "est": false
     },
@@ -42,7 +42,7 @@
      "t": "A90",
      "d": "2026-10-12",
      "sh": 500400,
-     "pct": null,
+     "pct": 3.68,
      "val": 5.905,
      "est": false
     },
@@ -71,19 +71,19 @@
    "isin": "",
    "nse_symbol": "",
    "bse_code": "",
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 10498180,
+   "post_shares": 14286180,
    "prom_pre_pct": 99.33,
    "prom_post_pct": 72.99,
    "listing_date": "2026-07-16",
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
+   "nonprom_pre_shares": 70337,
+   "nonprom_pre_pct_of_post": 0.49,
    "events": [
     {
      "t": "A30",
      "d": "2026-08-13",
      "sh": 538000,
-     "pct": null,
+     "pct": 3.77,
      "val": 3.55,
      "est": false
     },
@@ -91,15 +91,31 @@
      "t": "A90",
      "d": "2026-10-12",
      "sh": 538000,
-     "pct": null,
+     "pct": 3.77,
      "val": 3.55,
      "est": false
     },
     {
      "t": "PRE6M",
      "d": "2027-01-08",
-     "sh": null,
-     "pct": null,
+     "sh": 70337,
+     "pct": 0.49,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX1Y",
+     "d": "2027-07-08",
+     "sh": 3785123,
+     "pct": 26.49,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX2Y",
+     "d": "2028-07-08",
+     "sh": 3785123,
+     "pct": 26.49,
      "val": null,
      "est": true
     }
@@ -202,19 +218,19 @@
    "isin": "",
    "nse_symbol": "",
    "bse_code": "",
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 13422000,
+   "post_shares": 18261600,
    "prom_pre_pct": 82.92,
    "prom_post_pct": 60.94,
    "listing_date": "2026-07-10",
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
+   "nonprom_pre_shares": 2292477,
+   "nonprom_pre_pct_of_post": 12.55,
    "events": [
     {
      "t": "A30",
      "d": "2026-08-07",
      "sh": 684000,
-     "pct": null,
+     "pct": 3.75,
      "val": 6.77,
      "est": false
     },
@@ -222,15 +238,31 @@
      "t": "A90",
      "d": "2026-10-06",
      "sh": 684000,
-     "pct": null,
+     "pct": 3.75,
      "val": 6.77,
      "est": false
     },
     {
      "t": "PRE6M",
      "d": "2027-01-02",
-     "sh": null,
-     "pct": null,
+     "sh": 2292477,
+     "pct": 12.55,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX1Y",
+     "d": "2027-07-02",
+     "sh": 3738149,
+     "pct": 20.47,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX2Y",
+     "d": "2028-07-02",
+     "sh": 3738149,
+     "pct": 20.47,
      "val": null,
      "est": true
     }
@@ -292,19 +324,19 @@
    "isin": "INE1L0M01019",
    "nse_symbol": "",
    "bse_code": 544811,
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 8160545,
+   "post_shares": 11100545,
    "prom_pre_pct": 72.58,
    "prom_post_pct": 53.36,
    "listing_date": "2026-07-07",
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
+   "nonprom_pre_shares": 2237621,
+   "nonprom_pre_pct_of_post": 20.16,
    "events": [
     {
      "t": "A30",
      "d": "2026-08-02",
      "sh": 415500,
-     "pct": null,
+     "pct": 3.74,
      "val": 5.61,
      "est": false
     },
@@ -312,15 +344,31 @@
      "t": "A90",
      "d": "2026-10-01",
      "sh": 415500,
-     "pct": null,
+     "pct": 3.74,
      "val": 5.61,
      "est": false
     },
     {
      "t": "PRE6M",
      "d": "2026-12-29",
-     "sh": null,
-     "pct": null,
+     "sh": 2237621,
+     "pct": 20.16,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX1Y",
+     "d": "2027-06-29",
+     "sh": 1851570,
+     "pct": 16.68,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX2Y",
+     "d": "2028-06-29",
+     "sh": 1851570,
+     "pct": 16.68,
      "val": null,
      "est": true
     }
@@ -341,19 +389,19 @@
    "isin": "INE147701010",
    "nse_symbol": "",
    "bse_code": 544810,
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 9018750,
+   "post_shares": 12258750,
    "prom_pre_pct": 97.78,
    "prom_post_pct": 71.94,
    "listing_date": "2026-07-07",
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
+   "nonprom_pre_shares": 200216,
+   "nonprom_pre_pct_of_post": 1.63,
    "events": [
     {
      "t": "A30",
      "d": "2026-08-02",
      "sh": 459200,
-     "pct": null,
+     "pct": 3.75,
      "val": 3.855,
      "est": false
     },
@@ -361,15 +409,31 @@
      "t": "A90",
      "d": "2026-10-01",
      "sh": 459200,
-     "pct": null,
+     "pct": 3.75,
      "val": 3.855,
      "est": false
     },
     {
      "t": "PRE6M",
      "d": "2026-12-29",
-     "sh": null,
-     "pct": null,
+     "sh": 200216,
+     "pct": 1.63,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX1Y",
+     "d": "2027-06-29",
+     "sh": 3183597,
+     "pct": 25.97,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX2Y",
+     "d": "2028-06-29",
+     "sh": 3183597,
+     "pct": 25.97,
      "val": null,
      "est": true
     }
@@ -390,8 +454,8 @@
    "isin": "INE226801012",
    "nse_symbol": "",
    "bse_code": 544812,
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 12349998,
+   "post_shares": 16849998,
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": "2026-07-07",
@@ -402,7 +466,7 @@
      "t": "A30",
      "d": "2026-08-02",
      "sh": 637000,
-     "pct": null,
+     "pct": 3.78,
      "val": 3.82,
      "est": false
     },
@@ -410,7 +474,7 @@
      "t": "A90",
      "d": "2026-10-01",
      "sh": 637000,
-     "pct": null,
+     "pct": 3.78,
      "val": 3.82,
      "est": false
     },
@@ -521,19 +585,19 @@
    "isin": "INE0K3301012",
    "nse_symbol": "SHREEDHAR",
    "bse_code": "",
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 15650000,
+   "post_shares": 21438000,
    "prom_pre_pct": 96.55,
    "prom_post_pct": 70.48,
    "listing_date": "2026-07-01",
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
+   "nonprom_pre_shares": 539924,
+   "nonprom_pre_pct_of_post": 2.52,
    "events": [
     {
      "t": "A30",
      "d": "2026-07-28",
      "sh": 809000,
-     "pct": null,
+     "pct": 3.77,
      "val": 4.29,
      "est": false
     },
@@ -541,15 +605,31 @@
      "t": "A90",
      "d": "2026-09-26",
      "sh": 809000,
-     "pct": null,
+     "pct": 3.77,
      "val": 4.29,
      "est": false
     },
     {
      "t": "PRE6M",
      "d": "2026-12-22",
-     "sh": null,
-     "pct": null,
+     "sh": 539924,
+     "pct": 2.52,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX1Y",
+     "d": "2027-06-22",
+     "sh": 5410951,
+     "pct": 25.24,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX2Y",
+     "d": "2028-06-22",
+     "sh": 5410951,
+     "pct": 25.24,
      "val": null,
      "est": true
     }
@@ -611,19 +691,19 @@
    "isin": "INE1O7201010",
    "nse_symbol": "",
    "bse_code": 544800,
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 8000000,
+   "post_shares": 11000000,
    "prom_pre_pct": 99.99,
    "prom_post_pct": 72.73,
    "listing_date": "2026-06-29",
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
+   "nonprom_pre_shares": 800,
+   "nonprom_pre_pct_of_post": 0.01,
    "events": [
     {
      "t": "A30",
      "d": "2026-07-23",
      "sh": 424000,
-     "pct": null,
+     "pct": 3.85,
      "val": 3.39,
      "est": false
     },
@@ -631,15 +711,31 @@
      "t": "A90",
      "d": "2026-09-21",
      "sh": 424000,
-     "pct": null,
+     "pct": 3.85,
      "val": 3.39,
      "est": false
     },
     {
      "t": "PRE6M",
      "d": "2026-12-18",
-     "sh": null,
-     "pct": null,
+     "sh": 800,
+     "pct": 0.01,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX1Y",
+     "d": "2027-06-18",
+     "sh": 2900150,
+     "pct": 26.36,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX2Y",
+     "d": "2028-06-18",
+     "sh": 2900150,
+     "pct": 26.36,
      "val": null,
      "est": true
     }
@@ -701,19 +797,19 @@
    "isin": "INE0V9I01017",
    "nse_symbol": "AVIENCE",
    "bse_code": "",
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 4031256,
+   "post_shares": 5485056,
    "prom_pre_pct": 87.89,
    "prom_post_pct": 64.59,
    "listing_date": "2026-06-25",
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
+   "nonprom_pre_shares": 488185,
+   "nonprom_pre_pct_of_post": 8.9,
    "events": [
     {
      "t": "A30",
      "d": "2026-07-23",
      "sh": 204900,
-     "pct": null,
+     "pct": 3.74,
      "val": 4.26,
      "est": false
     },
@@ -721,15 +817,31 @@
      "t": "A90",
      "d": "2026-09-21",
      "sh": 204900,
-     "pct": null,
+     "pct": 3.74,
      "val": 4.26,
      "est": false
     },
     {
      "t": "PRE6M",
      "d": "2026-12-17",
-     "sh": null,
-     "pct": null,
+     "sh": 488185,
+     "pct": 8.9,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX1Y",
+     "d": "2027-06-17",
+     "sh": 1222893,
+     "pct": 22.29,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX2Y",
+     "d": "2028-06-17",
+     "sh": 1222893,
+     "pct": 22.29,
      "val": null,
      "est": true
     }
@@ -750,8 +862,8 @@
    "isin": "INE1QGM01024",
    "nse_symbol": "CLAYCRAFT",
    "bse_code": "",
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 15146280,
+   "post_shares": 20570280,
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": "2026-06-24",
@@ -762,7 +874,7 @@
      "t": "A30",
      "d": "2026-07-22",
      "sh": 771900,
-     "pct": null,
+     "pct": 3.75,
      "val": 15.67,
      "est": false
     },
@@ -770,7 +882,7 @@
      "t": "A90",
      "d": "2026-09-20",
      "sh": 771900,
-     "pct": null,
+     "pct": 3.75,
      "val": 15.67,
      "est": false
     },
@@ -799,8 +911,8 @@
    "isin": "INE1SEO01013",
    "nse_symbol": "",
    "bse_code": 544794,
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 14246200,
+   "post_shares": 19515400,
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": "2026-06-19",
@@ -811,7 +923,7 @@
      "t": "A30",
      "d": "2026-07-16",
      "sh": 750600,
-     "pct": null,
+     "pct": 3.85,
      "val": 7.73,
      "est": false
     },
@@ -819,7 +931,7 @@
      "t": "A90",
      "d": "2026-09-14",
      "sh": 750600,
-     "pct": null,
+     "pct": 3.85,
      "val": 7.73,
      "est": false
     },
@@ -848,19 +960,19 @@
    "isin": "INE2L0V01019",
    "nse_symbol": "",
    "bse_code": 544793,
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 15588795,
+   "post_shares": 20330795,
    "prom_pre_pct": 92.47,
    "prom_post_pct": 66.97,
    "listing_date": "2026-06-18",
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
+   "nonprom_pre_shares": 1173836,
+   "nonprom_pre_pct_of_post": 5.77,
    "events": [
     {
      "t": "A30",
      "d": "2026-07-16",
      "sh": 761500,
-     "pct": null,
+     "pct": 3.75,
      "val": 9.67,
      "est": false
     },
@@ -868,15 +980,31 @@
      "t": "A90",
      "d": "2026-09-14",
      "sh": 761500,
-     "pct": null,
+     "pct": 3.75,
      "val": 9.67,
      "est": false
     },
     {
      "t": "PRE6M",
      "d": "2026-12-10",
-     "sh": null,
-     "pct": null,
+     "sh": 1173836,
+     "pct": 5.77,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX1Y",
+     "d": "2027-06-10",
+     "sh": 4774687,
+     "pct": 23.48,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX2Y",
+     "d": "2028-06-10",
+     "sh": 4774687,
+     "pct": 23.48,
      "val": null,
      "est": true
     }
@@ -897,19 +1025,19 @@
    "isin": "INE1W0N01014",
    "nse_symbol": "GENXAI",
    "bse_code": "",
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 13215610,
+   "post_shares": 17943610,
    "prom_pre_pct": 90.28,
    "prom_post_pct": 66.49,
    "listing_date": "2026-06-12",
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
+   "nonprom_pre_shares": 1284557,
+   "nonprom_pre_pct_of_post": 7.16,
    "events": [
     {
      "t": "A30",
      "d": "2026-07-09",
      "sh": 646200,
-     "pct": null,
+     "pct": 3.6,
      "val": 7.495,
      "est": false
     },
@@ -917,15 +1045,31 @@
      "t": "A90",
      "d": "2026-09-07",
      "sh": 646200,
-     "pct": null,
+     "pct": 3.6,
      "val": 7.495,
      "est": false
     },
     {
      "t": "PRE6M",
      "d": "2026-12-04",
-     "sh": null,
-     "pct": null,
+     "sh": 1284557,
+     "pct": 7.16,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX1Y",
+     "d": "2027-06-04",
+     "sh": 4170992,
+     "pct": 23.24,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX2Y",
+     "d": "2028-06-04",
+     "sh": 4170992,
+     "pct": 23.24,
      "val": null,
      "est": true
     }
@@ -1028,19 +1172,19 @@
    "isin": "INE1RQS01010",
    "nse_symbol": "",
    "bse_code": 544773,
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 12784854,
+   "post_shares": 17484854,
    "prom_pre_pct": 85.17,
    "prom_post_pct": 62.28,
    "listing_date": "2026-06-08",
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
+   "nonprom_pre_shares": 1895993,
+   "nonprom_pre_pct_of_post": 10.84,
    "events": [
     {
      "t": "A30",
      "d": "2026-07-03",
      "sh": 668000,
-     "pct": null,
+     "pct": 3.82,
      "val": 9.955,
      "est": false
     },
@@ -1048,15 +1192,31 @@
      "t": "A90",
      "d": "2026-09-01",
      "sh": 668000,
-     "pct": null,
+     "pct": 3.82,
      "val": 9.955,
      "est": false
     },
     {
      "t": "PRE6M",
      "d": "2026-11-29",
-     "sh": null,
-     "pct": null,
+     "sh": 1895993,
+     "pct": 10.84,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX1Y",
+     "d": "2027-05-29",
+     "sh": 3696298,
+     "pct": 21.14,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX2Y",
+     "d": "2028-05-29",
+     "sh": 3696298,
+     "pct": 21.14,
      "val": null,
      "est": true
     }
@@ -1077,19 +1237,19 @@
    "isin": "INE1GM501015",
    "nse_symbol": "",
    "bse_code": 544771,
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 7480000,
+   "post_shares": 10370000,
    "prom_pre_pct": 97.19,
    "prom_post_pct": 70.11,
    "listing_date": "2026-06-03",
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
+   "nonprom_pre_shares": 210188,
+   "nonprom_pre_pct_of_post": 2.03,
    "events": [
     {
      "t": "A30",
      "d": "2026-06-30",
      "sh": 409000,
-     "pct": null,
+     "pct": 3.94,
      "val": 2.575,
      "est": false
     },
@@ -1097,15 +1257,31 @@
      "t": "A90",
      "d": "2026-08-29",
      "sh": 409000,
-     "pct": null,
+     "pct": 3.94,
      "val": 2.575,
      "est": false
     },
     {
      "t": "PRE6M",
      "d": "2026-11-25",
-     "sh": null,
-     "pct": null,
+     "sh": 210188,
+     "pct": 2.03,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX1Y",
+     "d": "2027-05-25",
+     "sh": 2598203,
+     "pct": 25.05,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX2Y",
+     "d": "2028-05-25",
+     "sh": 2598203,
+     "pct": 25.05,
      "val": null,
      "est": true
     }
@@ -1126,19 +1302,19 @@
    "isin": "INE0YD301010",
    "nse_symbol": "",
    "bse_code": 544768,
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 14372400,
+   "post_shares": 19572400,
    "prom_pre_pct": 98.68,
    "prom_post_pct": 72.46,
    "listing_date": "2026-06-01",
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
+   "nonprom_pre_shares": 189715,
+   "nonprom_pre_pct_of_post": 0.97,
    "events": [
     {
      "t": "A30",
      "d": "2026-06-25",
      "sh": 735000,
-     "pct": null,
+     "pct": 3.76,
      "val": 3.82,
      "est": false
     },
@@ -1146,15 +1322,31 @@
      "t": "A90",
      "d": "2026-08-24",
      "sh": 735000,
-     "pct": null,
+     "pct": 3.76,
      "val": 3.82,
      "est": false
     },
     {
      "t": "PRE6M",
      "d": "2026-11-21",
-     "sh": null,
-     "pct": null,
+     "sh": 189715,
+     "pct": 0.97,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX1Y",
+     "d": "2027-05-21",
+     "sh": 5133840,
+     "pct": 26.23,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX2Y",
+     "d": "2028-05-21",
+     "sh": 5133840,
+     "pct": 26.23,
      "val": null,
      "est": true
     }
@@ -1175,8 +1367,8 @@
    "isin": "INE1G2W01011",
    "nse_symbol": "QLINE",
    "bse_code": "",
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 17074999,
+   "post_shares": 23328199,
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": "2026-05-29",
@@ -1187,7 +1379,7 @@
      "t": "A30",
      "d": "2026-06-25",
      "sh": 890600,
-     "pct": null,
+     "pct": 3.82,
      "val": 30.55,
      "est": false
     },
@@ -1195,7 +1387,7 @@
      "t": "A90",
      "d": "2026-08-24",
      "sh": 890600,
-     "pct": null,
+     "pct": 3.82,
      "val": 30.55,
      "est": false
     },
@@ -1224,19 +1416,19 @@
    "isin": "INE1L3801017",
    "nse_symbol": "",
    "bse_code": 544765,
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 12623794,
+   "post_shares": 16610994,
    "prom_pre_pct": 99.41,
    "prom_post_pct": 69.51,
    "listing_date": "2026-05-27",
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
+   "nonprom_pre_shares": 74480,
+   "nonprom_pre_pct_of_post": 0.45,
    "events": [
     {
      "t": "A30",
      "d": "2026-06-23",
      "sh": 708000,
-     "pct": null,
+     "pct": 4.26,
      "val": 5.45,
      "est": false
     },
@@ -1244,15 +1436,31 @@
      "t": "A90",
      "d": "2026-08-22",
      "sh": 708000,
-     "pct": null,
+     "pct": 4.26,
      "val": 5.45,
      "est": false
     },
     {
      "t": "PRE6M",
      "d": "2026-11-19",
-     "sh": null,
-     "pct": null,
+     "sh": 74480,
+     "pct": 0.45,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX1Y",
+     "d": "2027-05-19",
+     "sh": 4112051,
+     "pct": 24.75,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX2Y",
+     "d": "2028-05-19",
+     "sh": 4112051,
+     "pct": 24.75,
      "val": null,
      "est": true
     }
@@ -1273,19 +1481,19 @@
    "isin": "INE2OL601013",
    "nse_symbol": "TEAMTECH",
    "bse_code": "",
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 22016000,
+   "post_shares": 29976000,
    "prom_pre_pct": 81.25,
    "prom_post_pct": 59.67,
    "listing_date": "2026-05-26",
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
+   "nonprom_pre_shares": 4128000,
+   "nonprom_pre_pct_of_post": 13.77,
    "events": [
     {
      "t": "A30",
      "d": "2026-06-21",
      "sh": 1133000,
-     "pct": null,
+     "pct": 3.78,
      "val": 7.14,
      "est": false
     },
@@ -1293,15 +1501,31 @@
      "t": "A90",
      "d": "2026-08-20",
      "sh": 1133000,
-     "pct": null,
+     "pct": 3.78,
      "val": 7.14,
      "est": false
     },
     {
      "t": "PRE6M",
      "d": "2026-11-18",
-     "sh": null,
-     "pct": null,
+     "sh": 4128000,
+     "pct": 13.77,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX1Y",
+     "d": "2027-05-18",
+     "sh": 5945739,
+     "pct": 19.83,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX2Y",
+     "d": "2028-05-18",
+     "sh": 5945739,
+     "pct": 19.83,
      "val": null,
      "est": true
     }
@@ -1322,19 +1546,19 @@
    "isin": "INE1CLW01015",
    "nse_symbol": "",
    "bse_code": 544759,
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 6900000,
+   "post_shares": 9600000,
    "prom_pre_pct": 79.7,
    "prom_post_pct": 57.29,
    "listing_date": "2026-05-19",
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
+   "nonprom_pre_shares": 1400699,
+   "nonprom_pre_pct_of_post": 14.59,
    "events": [
     {
      "t": "A30",
      "d": "2026-06-14",
      "sh": 366000,
-     "pct": null,
+     "pct": 3.81,
      "val": 1.575,
      "est": false
     },
@@ -1342,15 +1566,31 @@
      "t": "A90",
      "d": "2026-08-13",
      "sh": 366000,
-     "pct": null,
+     "pct": 3.81,
      "val": 1.575,
      "est": false
     },
     {
      "t": "PRE6M",
      "d": "2026-11-11",
-     "sh": null,
-     "pct": null,
+     "sh": 1400699,
+     "pct": 14.59,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX1Y",
+     "d": "2027-05-11",
+     "sh": 1789920,
+     "pct": 18.64,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX2Y",
+     "d": "2028-05-11",
+     "sh": 1789920,
+     "pct": 18.64,
      "val": null,
      "est": true
     }
@@ -1371,19 +1611,19 @@
    "isin": "INE1K4J01018",
    "nse_symbol": "SIMCA",
    "bse_code": "",
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 8800000,
+   "post_shares": 11971600,
    "prom_pre_pct": 99.99,
    "prom_post_pct": 73.5,
    "listing_date": "2026-05-15",
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
+   "nonprom_pre_shares": 880,
+   "nonprom_pre_pct_of_post": 0.01,
    "events": [
     {
      "t": "A30",
      "d": "2026-06-12",
      "sh": 219600,
-     "pct": null,
+     "pct": 1.83,
      "val": 4.02,
      "est": false
     },
@@ -1391,15 +1631,31 @@
      "t": "A90",
      "d": "2026-08-11",
      "sh": 219600,
-     "pct": null,
+     "pct": 1.83,
      "val": 4.02,
      "est": false
     },
     {
      "t": "PRE6M",
      "d": "2026-11-07",
-     "sh": null,
-     "pct": null,
+     "sh": 880,
+     "pct": 0.01,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX1Y",
+     "d": "2027-05-07",
+     "sh": 3202403,
+     "pct": 26.75,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX2Y",
+     "d": "2028-05-07",
+     "sh": 3202403,
+     "pct": 26.75,
      "val": null,
      "est": true
     }
@@ -1461,19 +1717,19 @@
    "isin": "INE2B6701015",
    "nse_symbol": "",
    "bse_code": 544755,
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 8141144,
+   "post_shares": 10644344,
    "prom_pre_pct": 88.93,
    "prom_post_pct": 65.01,
    "listing_date": "2026-05-12",
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
+   "nonprom_pre_shares": 901224,
+   "nonprom_pre_pct_of_post": 8.47,
    "events": [
     {
      "t": "A30",
      "d": "2026-06-07",
      "sh": 400800,
-     "pct": null,
+     "pct": 3.77,
      "val": 6.335,
      "est": false
     },
@@ -1481,15 +1737,31 @@
      "t": "A90",
      "d": "2026-08-06",
      "sh": 400800,
-     "pct": null,
+     "pct": 3.77,
      "val": 6.335,
      "est": false
     },
     {
      "t": "PRE6M",
      "d": "2026-11-04",
-     "sh": null,
-     "pct": null,
+     "sh": 901224,
+     "pct": 8.47,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX1Y",
+     "d": "2027-05-04",
+     "sh": 2395509,
+     "pct": 22.5,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX2Y",
+     "d": "2028-05-04",
+     "sh": 2395509,
+     "pct": 22.5,
      "val": null,
      "est": true
     }
@@ -1551,19 +1823,19 @@
    "isin": "INE20PL01012",
    "nse_symbol": "ADISOFT",
    "bse_code": "",
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 12010000,
+   "post_shares": 16318000,
    "prom_pre_pct": 99.98,
    "prom_post_pct": 73.6,
    "listing_date": "2026-04-30",
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
+   "nonprom_pre_shares": 2401,
+   "nonprom_pre_pct_of_post": 0.01,
    "events": [
     {
      "t": "A30",
      "d": "2026-05-28",
      "sh": 612800,
-     "pct": null,
+     "pct": 3.76,
      "val": 10.54,
      "est": false
     },
@@ -1571,15 +1843,31 @@
      "t": "A90",
      "d": "2026-07-27",
      "sh": 612800,
-     "pct": null,
+     "pct": 3.76,
      "val": 10.54,
      "est": false
     },
     {
      "t": "PRE6M",
      "d": "2026-10-22",
-     "sh": null,
-     "pct": null,
+     "sh": 2401,
+     "pct": 0.01,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX1Y",
+     "d": "2027-04-22",
+     "sh": 4373223,
+     "pct": 26.8,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX2Y",
+     "d": "2028-04-22",
+     "sh": 4373223,
+     "pct": 26.8,
      "val": null,
      "est": true
     }
@@ -1633,8 +1921,8 @@
    "isin": "INE1K0V01011",
    "nse_symbol": "",
    "bse_code": 544751,
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 7622000,
+   "post_shares": 10451600,
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": "2026-04-24",
@@ -1645,7 +1933,7 @@
      "t": "A30",
      "d": "2026-05-22",
      "sh": 394800,
-     "pct": null,
+     "pct": 3.78,
      "val": 3.87,
      "est": false
     },
@@ -1653,7 +1941,7 @@
      "t": "A90",
      "d": "2026-07-21",
      "sh": 394800,
-     "pct": null,
+     "pct": 3.78,
      "val": 3.87,
      "est": false
     },
@@ -1723,19 +2011,19 @@
    "isin": "INE0UMH01018",
    "nse_symbol": "",
    "bse_code": 544746,
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 13826999,
+   "post_shares": 19826999,
    "prom_pre_pct": 66.53,
    "prom_post_pct": 46.4,
    "listing_date": "2026-04-13",
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
+   "nonprom_pre_shares": 4627896,
+   "nonprom_pre_pct_of_post": 23.34,
    "events": [
     {
      "t": "A30",
      "d": "2026-05-08",
      "sh": 792000,
-     "pct": null,
+     "pct": 3.99,
      "val": 6.335,
      "est": false
     },
@@ -1743,15 +2031,31 @@
      "t": "A90",
      "d": "2026-07-08",
      "sh": 792000,
-     "pct": null,
+     "pct": 3.99,
      "val": 6.335,
      "est": false
     },
     {
      "t": "PRE6M",
      "d": "2026-10-02",
-     "sh": null,
-     "pct": null,
+     "sh": 4627896,
+     "pct": 23.34,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX1Y",
+     "d": "2027-04-02",
+     "sh": 2617163,
+     "pct": 13.2,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX2Y",
+     "d": "2028-04-02",
+     "sh": 2617163,
+     "pct": 13.2,
      "val": null,
      "est": true
     }
@@ -1772,8 +2076,8 @@
    "isin": "INE1OSW01015",
    "nse_symbol": "",
    "bse_code": 544747,
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 9003149,
+   "post_shares": 12243149,
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": "2026-04-13",
@@ -1784,7 +2088,7 @@
      "t": "A30",
      "d": "2026-05-08",
      "sh": 444000,
-     "pct": null,
+     "pct": 3.63,
      "val": 4.35,
      "est": false
     },
@@ -1792,7 +2096,7 @@
      "t": "A90",
      "d": "2026-07-07",
      "sh": 444000,
-     "pct": null,
+     "pct": 3.63,
      "val": 4.35,
      "est": false
     },
@@ -1821,19 +2125,19 @@
    "isin": "INE24H301028",
    "nse_symbol": "VIVIDEL",
    "bse_code": "",
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 7003800,
+   "post_shares": 8887800,
    "prom_pre_pct": 99.99,
    "prom_post_pct": 73.53,
    "listing_date": "2026-04-07",
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
+   "nonprom_pre_shares": 700,
+   "nonprom_pre_pct_of_post": 0.01,
    "events": [
     {
      "t": "A30",
      "d": "2026-05-02",
      "sh": 334440,
-     "pct": null,
+     "pct": 3.76,
      "val": 18.56,
      "est": false
     },
@@ -1841,15 +2145,31 @@
      "t": "A90",
      "d": "2026-07-01",
      "sh": 334440,
-     "pct": null,
+     "pct": 3.76,
      "val": 18.56,
      "est": false
     },
     {
      "t": "PRE6M",
      "d": "2026-09-24",
-     "sh": null,
-     "pct": null,
+     "sh": 700,
+     "pct": 0.01,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX1Y",
+     "d": "2027-03-24",
+     "sh": 2378819,
+     "pct": 26.76,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX2Y",
+     "d": "2028-03-24",
+     "sh": 2378819,
+     "pct": 26.76,
      "val": null,
      "est": true
     }
@@ -1870,19 +2190,19 @@
    "isin": "INE1KI801019",
    "nse_symbol": "",
    "bse_code": 544741,
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 3510000,
+   "post_shares": 5163600,
    "prom_pre_pct": 99.9,
    "prom_post_pct": 64.96,
    "listing_date": "2026-04-02",
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
+   "nonprom_pre_shares": 3509,
+   "nonprom_pre_pct_of_post": 0.07,
    "events": [
     {
      "t": "A30",
      "d": "2026-05-01",
      "sh": 255600,
-     "pct": null,
+     "pct": 4.95,
      "val": 3.065,
      "est": false
     },
@@ -1890,15 +2210,31 @@
      "t": "A90",
      "d": "2026-06-30",
      "sh": 255600,
-     "pct": null,
+     "pct": 4.95,
      "val": 3.065,
      "est": false
     },
     {
      "t": "PRE6M",
      "d": "2026-09-23",
-     "sh": null,
-     "pct": null,
+     "sh": 3509,
+     "pct": 0.07,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX1Y",
+     "d": "2027-03-23",
+     "sh": 1160777,
+     "pct": 22.48,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX2Y",
+     "d": "2028-03-23",
+     "sh": 1160777,
+     "pct": 22.48,
      "val": null,
      "est": true
     }
@@ -2042,19 +2378,19 @@
    "isin": "INE1U6D01014",
    "nse_symbol": "",
    "bse_code": 544740,
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 15319584,
+   "post_shares": 20767584,
    "prom_pre_pct": 87.19,
    "prom_post_pct": 57.79,
    "listing_date": "2026-04-01",
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
+   "nonprom_pre_shares": 1962438,
+   "nonprom_pre_pct_of_post": 9.45,
    "events": [
     {
      "t": "A30",
      "d": "2026-04-26",
      "sh": 860000,
-     "pct": null,
+     "pct": 4.14,
      "val": 7.655,
      "est": false
     },
@@ -2062,15 +2398,31 @@
      "t": "A90",
      "d": "2026-06-25",
      "sh": 860000,
-     "pct": null,
+     "pct": 4.14,
      "val": 7.655,
      "est": false
     },
     {
      "t": "PRE6M",
      "d": "2026-09-20",
-     "sh": null,
-     "pct": null,
+     "sh": 1962438,
+     "pct": 9.45,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX1Y",
+     "d": "2027-03-20",
+     "sh": 3924034,
+     "pct": 18.89,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX2Y",
+     "d": "2028-03-20",
+     "sh": 3924034,
+     "pct": 18.89,
      "val": null,
      "est": true
     }
@@ -2132,19 +2484,19 @@
    "isin": "INE1TFS01019",
    "nse_symbol": "",
    "bse_code": 544735,
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 12250200,
+   "post_shares": 15550200,
    "prom_pre_pct": 95.62,
    "prom_post_pct": 70.05,
    "listing_date": "2026-03-25",
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
+   "nonprom_pre_shares": 536558,
+   "nonprom_pre_pct_of_post": 3.45,
    "events": [
     {
      "t": "A30",
      "d": "2026-04-22",
      "sh": 565000,
-     "pct": null,
+     "pct": 3.63,
      "val": 8.25,
      "est": false
     },
@@ -2152,15 +2504,31 @@
      "t": "A90",
      "d": "2026-06-21",
      "sh": 565000,
-     "pct": null,
+     "pct": 3.63,
      "val": 8.25,
      "est": false
     },
     {
      "t": "PRE6M",
      "d": "2026-09-16",
-     "sh": null,
-     "pct": null,
+     "sh": 536558,
+     "pct": 3.45,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX1Y",
+     "d": "2027-03-16",
+     "sh": 3891437,
+     "pct": 25.02,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX2Y",
+     "d": "2028-03-16",
+     "sh": 3891437,
+     "pct": 25.02,
      "val": null,
      "est": true
     }
@@ -2263,8 +2631,8 @@
    "isin": "INE1OOJ01011",
    "nse_symbol": "APSISAERO",
    "bse_code": "",
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 8799921,
+   "post_shares": 12051921,
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": "2026-03-18",
@@ -2275,7 +2643,7 @@
      "t": "A30",
      "d": "2026-04-15",
      "sh": 457800,
-     "pct": null,
+     "pct": 3.8,
      "val": 5.035,
      "est": false
     },
@@ -2283,7 +2651,7 @@
      "t": "A90",
      "d": "2026-06-14",
      "sh": 457800,
-     "pct": null,
+     "pct": 3.8,
      "val": 5.035,
      "est": false
     },
@@ -2353,19 +2721,19 @@
    "isin": "INE1XWN01017",
    "nse_symbol": "STRIDERS",
    "bse_code": "",
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 14085680,
+   "post_shares": 18616880,
    "prom_pre_pct": 95.49,
    "prom_post_pct": 69.52,
    "listing_date": "2026-03-06",
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
+   "nonprom_pre_shares": 635264,
+   "nonprom_pre_pct_of_post": 3.41,
    "events": [
     {
      "t": "A30",
      "d": "2026-04-02",
      "sh": 716800,
-     "pct": null,
+     "pct": 3.85,
      "val": 5.16,
      "est": false
     },
@@ -2373,15 +2741,31 @@
      "t": "A90",
      "d": "2026-06-01",
      "sh": 716800,
-     "pct": null,
+     "pct": 3.85,
      "val": 5.16,
      "est": false
     },
     {
      "t": "PRE6M",
      "d": "2026-08-25",
-     "sh": null,
-     "pct": null,
+     "sh": 635264,
+     "pct": 3.41,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX1Y",
+     "d": "2027-02-25",
+     "sh": 4609539,
+     "pct": 24.76,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX2Y",
+     "d": "2028-02-25",
+     "sh": 4609539,
+     "pct": 24.76,
      "val": null,
      "est": true
     }
@@ -2402,19 +2786,19 @@
    "isin": "INE0U0J01015",
    "nse_symbol": "YAAP",
    "bse_code": "",
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 15408000,
+   "post_shares": 20933000,
    "prom_pre_pct": 80.19,
    "prom_post_pct": 59.02,
    "listing_date": "2026-03-05",
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
+   "nonprom_pre_shares": 3052324,
+   "nonprom_pre_pct_of_post": 14.58,
    "events": [
     {
      "t": "A30",
      "d": "2026-03-31",
      "sh": 786500,
-     "pct": null,
+     "pct": 3.76,
      "val": 11.405,
      "est": false
     },
@@ -2422,15 +2806,31 @@
      "t": "A90",
      "d": "2026-05-30",
      "sh": 786500,
-     "pct": null,
+     "pct": 3.76,
      "val": 11.405,
      "est": false
     },
     {
      "t": "PRE6M",
      "d": "2026-08-24",
-     "sh": null,
-     "pct": null,
+     "sh": 3052324,
+     "pct": 14.58,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX1Y",
+     "d": "2027-02-24",
+     "sh": 4084028,
+     "pct": 19.51,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX2Y",
+     "d": "2028-02-24",
+     "sh": 4084028,
+     "pct": 19.51,
      "val": null,
      "est": true
     }
@@ -2533,19 +2933,19 @@
    "isin": "INE1YNB01019",
    "nse_symbol": "MOBILISE",
    "bse_code": "",
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 7000000,
+   "post_shares": 9512000,
    "prom_pre_pct": 96.0,
    "prom_post_pct": 70.65,
    "listing_date": "2026-03-02",
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
+   "nonprom_pre_shares": 280000,
+   "nonprom_pre_pct_of_post": 2.94,
    "events": [
     {
      "t": "A30",
      "d": "2026-03-28",
      "sh": 356800,
-     "pct": null,
+     "pct": 3.75,
      "val": 2.855,
      "est": false
     },
@@ -2553,15 +2953,31 @@
      "t": "A90",
      "d": "2026-05-27",
      "sh": 356800,
-     "pct": null,
+     "pct": 3.75,
      "val": 2.855,
      "est": false
     },
     {
      "t": "PRE6M",
      "d": "2026-08-20",
-     "sh": null,
-     "pct": null,
+     "sh": 280000,
+     "pct": 2.94,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX1Y",
+     "d": "2027-02-20",
+     "sh": 2408914,
+     "pct": 25.32,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX2Y",
+     "d": "2028-02-20",
+     "sh": 2408914,
+     "pct": 25.32,
      "val": null,
      "est": true
     }
@@ -2582,19 +2998,19 @@
    "isin": "INE132201018",
    "nse_symbol": "",
    "bse_code": 544710,
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 15011289,
+   "post_shares": 20573289,
    "prom_pre_pct": 84.94,
    "prom_post_pct": 61.98,
    "listing_date": "2026-03-02",
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
+   "nonprom_pre_shares": 2260700,
+   "nonprom_pre_pct_of_post": 10.99,
    "events": [
     {
      "t": "A30",
      "d": "2026-03-27",
      "sh": 792000,
-     "pct": null,
+     "pct": 3.85,
      "val": 3.645,
      "est": false
     },
@@ -2602,15 +3018,31 @@
      "t": "A90",
      "d": "2026-05-26",
      "sh": 792000,
-     "pct": null,
+     "pct": 3.85,
      "val": 3.645,
      "est": false
     },
     {
      "t": "PRE6M",
      "d": "2026-08-20",
-     "sh": null,
-     "pct": null,
+     "sh": 2260700,
+     "pct": 10.99,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX1Y",
+     "d": "2027-02-20",
+     "sh": 4318333,
+     "pct": 20.99,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX2Y",
+     "d": "2028-02-20",
+     "sh": 4318333,
+     "pct": 20.99,
      "val": null,
      "est": true
     }
@@ -2672,19 +3104,19 @@
    "isin": "INE1ERK01013",
    "nse_symbol": "MANILAM",
    "bse_code": "",
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 17150000,
+   "post_shares": 21848000,
    "prom_pre_pct": 78.79,
    "prom_post_pct": 61.85,
    "listing_date": "2026-02-27",
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
+   "nonprom_pre_shares": 3637514,
+   "nonprom_pre_pct_of_post": 16.65,
    "events": [
     {
      "t": "A30",
      "d": "2026-03-27",
      "sh": 819000,
-     "pct": null,
+     "pct": 3.75,
      "val": 5.65,
      "est": false
     },
@@ -2692,15 +3124,31 @@
      "t": "A90",
      "d": "2026-05-26",
      "sh": 819000,
-     "pct": null,
+     "pct": 3.75,
      "val": 5.65,
      "est": false
     },
     {
      "t": "PRE6M",
      "d": "2026-08-19",
-     "sh": null,
-     "pct": null,
+     "sh": 3637514,
+     "pct": 16.65,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX1Y",
+     "d": "2027-02-19",
+     "sh": 4571694,
+     "pct": 20.93,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX2Y",
+     "d": "2028-02-19",
+     "sh": 4571694,
+     "pct": 20.93,
      "val": null,
      "est": true
     }
@@ -2762,19 +3210,19 @@
    "isin": "INE1W3Q01011",
    "nse_symbol": "",
    "bse_code": 544707,
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 5580267,
+   "post_shares": 7848867,
    "prom_pre_pct": 97.15,
    "prom_post_pct": 69.07,
    "listing_date": "2026-02-24",
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
+   "nonprom_pre_shares": 159037,
+   "nonprom_pre_pct_of_post": 2.03,
    "events": [
     {
      "t": "A30",
      "d": "2026-03-22",
      "sh": 322500,
-     "pct": null,
+     "pct": 4.11,
      "val": 6.965,
      "est": false
     },
@@ -2782,15 +3230,31 @@
      "t": "A90",
      "d": "2026-05-21",
      "sh": 322500,
-     "pct": null,
+     "pct": 4.11,
      "val": 6.965,
      "est": false
     },
     {
      "t": "PRE6M",
      "d": "2026-08-13",
-     "sh": null,
-     "pct": null,
+     "sh": 159037,
+     "pct": 2.03,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX1Y",
+     "d": "2027-02-13",
+     "sh": 1925719,
+     "pct": 24.53,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX2Y",
+     "d": "2028-02-13",
+     "sh": 1925719,
+     "pct": 24.53,
      "val": null,
      "est": true
     }
@@ -2811,19 +3275,19 @@
    "isin": "INE0X7G01013",
    "nse_symbol": "MARUSHIKA",
    "bse_code": "",
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 6231568,
+   "post_shares": 8536768,
    "prom_pre_pct": 79.71,
    "prom_post_pct": 58.19,
    "listing_date": "2026-02-19",
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
+   "nonprom_pre_shares": 1264385,
+   "nonprom_pre_pct_of_post": 14.81,
    "events": [
     {
      "t": "A30",
      "d": "2026-03-19",
      "sh": 325800,
-     "pct": null,
+     "pct": 3.82,
      "val": 3.81,
      "est": false
     },
@@ -2831,15 +3295,31 @@
      "t": "A90",
      "d": "2026-05-18",
      "sh": 325800,
-     "pct": null,
+     "pct": 3.82,
      "val": 3.81,
      "est": false
     },
     {
      "t": "PRE6M",
      "d": "2026-08-11",
-     "sh": null,
-     "pct": null,
+     "sh": 1264385,
+     "pct": 14.81,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX1Y",
+     "d": "2027-02-11",
+     "sh": 1630095,
+     "pct": 19.09,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX2Y",
+     "d": "2028-02-11",
+     "sh": 1630095,
+     "pct": 19.09,
      "val": null,
      "est": true
     }
@@ -2860,19 +3340,19 @@
    "isin": "INE1N9E01015",
    "nse_symbol": "",
    "bse_code": 544698,
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 5411058,
+   "post_shares": 7211058,
    "prom_pre_pct": 90.92,
    "prom_post_pct": 62.9,
    "listing_date": "2026-02-13",
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
+   "nonprom_pre_shares": 491324,
+   "nonprom_pre_pct_of_post": 6.81,
    "events": [
     {
      "t": "A30",
      "d": "2026-03-14",
      "sh": 268800,
-     "pct": null,
+     "pct": 3.73,
      "val": 2.095,
      "est": false
     },
@@ -2880,15 +3360,31 @@
      "t": "A90",
      "d": "2026-05-14",
      "sh": 268800,
-     "pct": null,
+     "pct": 3.73,
      "val": 2.095,
      "est": false
     },
     {
      "t": "PRE6M",
      "d": "2026-08-05",
-     "sh": null,
-     "pct": null,
+     "sh": 491324,
+     "pct": 6.81,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX1Y",
+     "d": "2027-02-05",
+     "sh": 1546771,
+     "pct": 21.45,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX2Y",
+     "d": "2028-02-05",
+     "sh": 1546771,
+     "pct": 21.45,
      "val": null,
      "est": true
     }
@@ -2991,8 +3487,8 @@
    "isin": "INE1TY801010",
    "nse_symbol": "GJL",
    "bse_code": "",
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 10662400,
+   "post_shares": 14507200,
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": "2026-02-11",
@@ -3003,7 +3499,7 @@
      "t": "A30",
      "d": "2026-03-13",
      "sh": 546400,
-     "pct": null,
+     "pct": 3.77,
      "val": 4.81,
      "est": false
     },
@@ -3011,7 +3507,7 @@
      "t": "A90",
      "d": "2026-05-12",
      "sh": 546400,
-     "pct": null,
+     "pct": 3.77,
      "val": 4.81,
      "est": false
     },
@@ -3040,19 +3536,19 @@
    "isin": "INE0XUD01014",
    "nse_symbol": "BRANDMAN",
    "bse_code": "",
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 13565986,
+   "post_shares": 18457186,
    "prom_pre_pct": 99.92,
    "prom_post_pct": 69.03,
    "listing_date": "2026-02-11",
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
+   "nonprom_pre_shares": 10852,
+   "nonprom_pre_pct_of_post": 0.06,
    "events": [
     {
      "t": "A30",
      "d": "2026-03-10",
      "sh": 696000,
-     "pct": null,
+     "pct": 3.77,
      "val": 12.25,
      "est": false
     },
@@ -3060,15 +3556,31 @@
      "t": "A90",
      "d": "2026-05-09",
      "sh": 696000,
-     "pct": null,
+     "pct": 3.77,
      "val": 12.25,
      "est": false
     },
     {
      "t": "PRE6M",
      "d": "2026-08-03",
-     "sh": null,
-     "pct": null,
+     "sh": 10852,
+     "pct": 0.06,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX1Y",
+     "d": "2027-02-03",
+     "sh": 4524779,
+     "pct": 24.51,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX2Y",
+     "d": "2028-02-03",
+     "sh": 4524779,
+     "pct": 24.51,
      "val": null,
      "est": true
     }
@@ -3089,8 +3601,8 @@
    "isin": "INE2B5L01011",
    "nse_symbol": "",
    "bse_code": 544695,
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 16000000,
+   "post_shares": 20400000,
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": "2026-02-04",
@@ -3101,7 +3613,7 @@
      "t": "A30",
      "d": "2026-03-06",
      "sh": 762500,
-     "pct": null,
+     "pct": 3.74,
      "val": 9.38,
      "est": false
     },
@@ -3109,7 +3621,7 @@
      "t": "A90",
      "d": "2026-05-05",
      "sh": 762500,
-     "pct": null,
+     "pct": 3.74,
      "val": 9.38,
      "est": false
     },
@@ -3138,8 +3650,8 @@
    "isin": "INE0SMX01019",
    "nse_symbol": "CKKRETAIL",
    "bse_code": "",
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 14960000,
+   "post_shares": 19368000,
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": "2026-02-06",
@@ -3150,7 +3662,7 @@
      "t": "A30",
      "d": "2026-03-05",
      "sh": 300000,
-     "pct": null,
+     "pct": 1.55,
      "val": 4.89,
      "est": false
     },
@@ -3158,7 +3670,7 @@
      "t": "A90",
      "d": "2026-05-04",
      "sh": 300000,
-     "pct": null,
+     "pct": 1.55,
      "val": 4.89,
      "est": false
     },
@@ -3187,8 +3699,8 @@
    "isin": "INE1KVQ01019",
    "nse_symbol": "",
    "bse_code": 544694,
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 5320000,
+   "post_shares": 7240000,
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": "2026-02-04",
@@ -3199,7 +3711,7 @@
      "t": "A30",
      "d": "2026-03-03",
      "sh": 272000,
-     "pct": null,
+     "pct": 3.76,
      "val": 3.51,
      "est": false
     },
@@ -3207,7 +3719,7 @@
      "t": "A90",
      "d": "2026-05-02",
      "sh": 272000,
-     "pct": null,
+     "pct": 3.76,
      "val": 3.51,
      "est": false
     },
@@ -3236,19 +3748,19 @@
    "isin": "INE0T1301023",
    "nse_symbol": "",
    "bse_code": 544688,
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 7643212,
+   "post_shares": 10395212,
    "prom_pre_pct": 92.35,
    "prom_post_pct": 67.9,
    "listing_date": "2026-02-03",
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
+   "nonprom_pre_shares": 584705,
+   "nonprom_pre_pct_of_post": 5.62,
    "events": [
     {
      "t": "A30",
      "d": "2026-02-28",
      "sh": 391000,
-     "pct": null,
+     "pct": 3.76,
      "val": 2.5,
      "est": false
     },
@@ -3256,15 +3768,31 @@
      "t": "A90",
      "d": "2026-04-29",
      "sh": 391000,
-     "pct": null,
+     "pct": 3.76,
      "val": 2.5,
      "est": false
     },
     {
      "t": "PRE6M",
      "d": "2026-07-23",
-     "sh": null,
-     "pct": null,
+     "sh": 584705,
+     "pct": 5.62,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX1Y",
+     "d": "2027-01-23",
+     "sh": 2489653,
+     "pct": 23.95,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX2Y",
+     "d": "2028-01-23",
+     "sh": 2489653,
+     "pct": 23.95,
      "val": null,
      "est": true
     }
@@ -3285,19 +3813,19 @@
    "isin": "INE0JVH01012",
    "nse_symbol": "",
    "bse_code": 544687,
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 16698363,
+   "post_shares": 22698363,
    "prom_pre_pct": 93.57,
    "prom_post_pct": 68.83,
    "listing_date": "2026-02-02",
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
+   "nonprom_pre_shares": 1073704,
+   "nonprom_pre_pct_of_post": 4.73,
    "events": [
     {
      "t": "A30",
      "d": "2026-02-27",
      "sh": 853000,
-     "pct": null,
+     "pct": 3.76,
      "val": 5.97,
      "est": false
     },
@@ -3305,15 +3833,31 @@
      "t": "A90",
      "d": "2026-04-28",
      "sh": 853000,
-     "pct": null,
+     "pct": 3.76,
      "val": 5.97,
      "est": false
     },
     {
      "t": "PRE6M",
      "d": "2026-07-21",
-     "sh": null,
-     "pct": null,
+     "sh": 1073704,
+     "pct": 4.73,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX1Y",
+     "d": "2027-01-21",
+     "sh": 5541805,
+     "pct": 24.41,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX2Y",
+     "d": "2028-01-21",
+     "sh": 5541805,
+     "pct": 24.41,
      "val": null,
      "est": true
     }
@@ -3334,19 +3878,19 @@
    "isin": "INE1MTV01019",
    "nse_symbol": "KRMAYURVED",
    "bse_code": "",
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 15520800,
+   "post_shares": 21260800,
    "prom_pre_pct": 92.16,
    "prom_post_pct": 67.28,
    "listing_date": "2026-01-29",
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
+   "nonprom_pre_shares": 1216830,
+   "nonprom_pre_pct_of_post": 5.72,
    "events": [
     {
      "t": "A30",
      "d": "2026-02-21",
      "sh": 771000,
-     "pct": null,
+     "pct": 3.63,
      "val": 10.41,
      "est": false
     },
@@ -3354,15 +3898,31 @@
      "t": "A90",
      "d": "2026-04-22",
      "sh": 771000,
-     "pct": null,
+     "pct": 3.63,
      "val": 10.41,
      "est": false
     },
     {
      "t": "PRE6M",
      "d": "2026-07-20",
-     "sh": null,
-     "pct": null,
+     "sh": 1216830,
+     "pct": 5.72,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX1Y",
+     "d": "2027-01-20",
+     "sh": 5026053,
+     "pct": 23.64,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX2Y",
+     "d": "2028-01-20",
+     "sh": 5026053,
+     "pct": 23.64,
      "val": null,
      "est": true
     }
@@ -3383,19 +3943,19 @@
    "isin": "INE1OOT01028",
    "nse_symbol": "",
    "bse_code": 544684,
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 22252630,
+   "post_shares": 28951030,
    "prom_pre_pct": 88.5,
    "prom_post_pct": 64.25,
    "listing_date": "2026-01-28",
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
+   "nonprom_pre_shares": 2559052,
+   "nonprom_pre_pct_of_post": 8.84,
    "events": [
     {
      "t": "A30",
      "d": "2026-02-21",
      "sh": 1109400,
-     "pct": null,
+     "pct": 3.83,
      "val": 11.54,
      "est": false
     },
@@ -3403,15 +3963,31 @@
      "t": "A90",
      "d": "2026-04-22",
      "sh": 1109400,
-     "pct": null,
+     "pct": 3.83,
      "val": 11.54,
      "est": false
     },
     {
      "t": "PRE6M",
      "d": "2026-07-19",
-     "sh": null,
-     "pct": null,
+     "sh": 2559052,
+     "pct": 8.84,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX1Y",
+     "d": "2027-01-19",
+     "sh": 6405415,
+     "pct": 22.12,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX2Y",
+     "d": "2028-01-19",
+     "sh": 6405415,
+     "pct": 22.12,
      "val": null,
      "est": true
     }
@@ -3473,19 +4049,19 @@
    "isin": "INE0U8P01015",
    "nse_symbol": "",
    "bse_code": 544682,
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 10520000,
+   "post_shares": 14288000,
    "prom_pre_pct": 95.06,
    "prom_post_pct": 69.99,
    "listing_date": "2026-01-21",
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
+   "nonprom_pre_shares": 519688,
+   "nonprom_pre_pct_of_post": 3.64,
    "events": [
     {
      "t": "A30",
      "d": "2026-02-18",
      "sh": 531000,
-     "pct": null,
+     "pct": 3.72,
      "val": 5.575,
      "est": false
     },
@@ -3493,15 +4069,31 @@
      "t": "A90",
      "d": "2026-04-19",
      "sh": 531000,
-     "pct": null,
+     "pct": 3.72,
      "val": 5.575,
      "est": false
     },
     {
      "t": "PRE6M",
      "d": "2026-07-12",
-     "sh": null,
-     "pct": null,
+     "sh": 519688,
+     "pct": 3.64,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX1Y",
+     "d": "2027-01-12",
+     "sh": 3571285,
+     "pct": 24.99,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX2Y",
+     "d": "2028-01-12",
+     "sh": 3571285,
+     "pct": 24.99,
      "val": null,
      "est": true
     }
@@ -3563,19 +4155,19 @@
    "isin": "INE0WKY01013",
    "nse_symbol": "",
    "bse_code": 544681,
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 16684350,
+   "post_shares": 22855350,
    "prom_pre_pct": 82.3,
    "prom_post_pct": 60.07,
    "listing_date": "2026-01-21",
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
+   "nonprom_pre_shares": 2953129,
+   "nonprom_pre_pct_of_post": 12.92,
    "events": [
     {
      "t": "A30",
      "d": "2026-02-15",
      "sh": 878000,
-     "pct": null,
+     "pct": 3.84,
      "val": 13.08,
      "est": false
     },
@@ -3583,15 +4175,31 @@
      "t": "A90",
      "d": "2026-04-16",
      "sh": 878000,
-     "pct": null,
+     "pct": 3.84,
      "val": 13.08,
      "est": false
     },
     {
      "t": "PRE6M",
      "d": "2026-07-12",
-     "sh": null,
-     "pct": null,
+     "sh": 2953129,
+     "pct": 12.92,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX1Y",
+     "d": "2027-01-12",
+     "sh": 4579069,
+     "pct": 20.03,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX2Y",
+     "d": "2028-01-12",
+     "sh": 4579069,
+     "pct": 20.03,
      "val": null,
      "est": true
     }
@@ -3612,8 +4220,8 @@
    "isin": "INE0ZE201010",
    "nse_symbol": "",
    "bse_code": 544677,
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 5163620,
+   "post_shares": 7024420,
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": "2026-01-19",
@@ -3624,7 +4232,7 @@
      "t": "A30",
      "d": "2026-02-15",
      "sh": 259200,
-     "pct": null,
+     "pct": 3.69,
      "val": 1.92,
      "est": false
     },
@@ -3632,7 +4240,7 @@
      "t": "A90",
      "d": "2026-04-16",
      "sh": 259200,
-     "pct": null,
+     "pct": 3.69,
      "val": 1.92,
      "est": false
     },
@@ -3661,8 +4269,8 @@
    "isin": "INE1KU201016",
    "nse_symbol": "AVANA",
    "bse_code": "",
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 17469408,
+   "post_shares": 22645408,
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": "2026-01-20",
@@ -3673,7 +4281,7 @@
      "t": "A30",
      "d": "2026-02-14",
      "sh": 845000,
-     "pct": null,
+     "pct": 3.73,
      "val": 4.985,
      "est": false
     },
@@ -3681,7 +4289,7 @@
      "t": "A90",
      "d": "2026-04-15",
      "sh": 845000,
-     "pct": null,
+     "pct": 3.73,
      "val": 4.985,
      "est": false
     },
@@ -3751,8 +4359,8 @@
    "isin": "INE1H1501013",
    "nse_symbol": "",
    "bse_code": 544675,
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 9975360,
+   "post_shares": 13575360,
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": "2026-01-13",
@@ -3763,7 +4371,7 @@
      "t": "A30",
      "d": "2026-02-07",
      "sh": 511200,
-     "pct": null,
+     "pct": 3.77,
      "val": 4.14,
      "est": false
     },
@@ -3771,7 +4379,7 @@
      "t": "A90",
      "d": "2026-04-08",
      "sh": 511200,
-     "pct": null,
+     "pct": 3.77,
      "val": 4.14,
      "est": false
     },
@@ -3800,19 +4408,19 @@
    "isin": "INE1HK501016",
    "nse_symbol": "",
    "bse_code": 544673,
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 11000000,
+   "post_shares": 15099200,
    "prom_pre_pct": 99.99,
    "prom_post_pct": 72.85,
    "listing_date": "2026-01-07",
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
+   "nonprom_pre_shares": 1100,
+   "nonprom_pre_pct_of_post": 0.01,
    "events": [
     {
      "t": "A30",
      "d": "2026-02-03",
      "sh": 580800,
-     "pct": null,
+     "pct": 3.85,
      "val": 5.225,
      "est": false
     },
@@ -3820,15 +4428,31 @@
      "t": "A90",
      "d": "2026-04-04",
      "sh": 580800,
-     "pct": null,
+     "pct": 3.85,
      "val": 5.225,
      "est": false
     },
     {
      "t": "PRE6M",
      "d": "2026-06-30",
-     "sh": null,
-     "pct": null,
+     "sh": 1100,
+     "pct": 0.01,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX1Y",
+     "d": "2026-12-30",
+     "sh": 3989963,
+     "pct": 26.42,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX2Y",
+     "d": "2027-12-30",
+     "sh": 3989963,
+     "pct": 26.42,
      "val": null,
      "est": true
     }
@@ -3849,19 +4473,19 @@
    "isin": "INE1CEJ01017",
    "nse_symbol": "E2ERAIL",
    "bse_code": "",
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 12417570,
+   "post_shares": 17257570,
    "prom_pre_pct": 45.19,
    "prom_post_pct": 32.51,
    "listing_date": "2026-01-02",
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
+   "nonprom_pre_shares": 6806070,
+   "nonprom_pre_pct_of_post": 39.44,
    "events": [
     {
      "t": "A30",
      "d": "2026-01-30",
      "sh": 688800,
-     "pct": null,
+     "pct": 3.99,
      "val": 11.985,
      "est": false
     },
@@ -3869,15 +4493,31 @@
      "t": "A90",
      "d": "2026-03-31",
      "sh": 688800,
-     "pct": null,
+     "pct": 3.99,
      "val": 11.985,
      "est": false
     },
     {
      "t": "PRE6M",
      "d": "2026-06-24",
-     "sh": null,
-     "pct": null,
+     "sh": 6806070,
+     "pct": 39.44,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX1Y",
+     "d": "2026-12-24",
+     "sh": 1079461,
+     "pct": 6.25,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX2Y",
+     "d": "2027-12-24",
+     "sh": 1079461,
+     "pct": 6.25,
      "val": null,
      "est": true
     }
@@ -3898,19 +4538,19 @@
    "isin": "INE0XLO01010",
    "nse_symbol": "",
    "bse_code": 544669,
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 4990200,
+   "post_shares": 6772800,
    "prom_pre_pct": 71.87,
    "prom_post_pct": 52.95,
    "listing_date": "2025-12-31",
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
+   "nonprom_pre_shares": 1403743,
+   "nonprom_pre_pct_of_post": 20.73,
    "events": [
     {
      "t": "A30",
      "d": "2026-01-30",
      "sh": 105300,
-     "pct": null,
+     "pct": 1.55,
      "val": 2.515,
      "est": false
     },
@@ -3918,15 +4558,31 @@
      "t": "A90",
      "d": "2026-03-31",
      "sh": 105300,
-     "pct": null,
+     "pct": 1.55,
      "val": 2.515,
      "est": false
     },
     {
      "t": "PRE6M",
      "d": "2026-06-22",
-     "sh": null,
-     "pct": null,
+     "sh": 1403743,
+     "pct": 20.73,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX1Y",
+     "d": "2026-12-22",
+     "sh": 1115818,
+     "pct": 16.47,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX2Y",
+     "d": "2027-12-22",
+     "sh": 1115818,
+     "pct": 16.47,
      "val": null,
      "est": true
     }
@@ -3947,8 +4603,8 @@
    "isin": "INE1IJQ01026",
    "nse_symbol": "",
    "bse_code": 544670,
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 15750000,
+   "post_shares": 21404400,
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": "2025-12-31",
@@ -3959,7 +4615,7 @@
      "t": "A30",
      "d": "2026-01-29",
      "sh": 804000,
-     "pct": null,
+     "pct": 3.76,
      "val": 14.955,
      "est": false
     },
@@ -3967,7 +4623,7 @@
      "t": "A90",
      "d": "2026-03-30",
      "sh": 804000,
-     "pct": null,
+     "pct": 3.76,
      "val": 14.955,
      "est": false
     },
@@ -3996,8 +4652,8 @@
    "isin": "INE0X4A01013",
    "nse_symbol": "",
    "bse_code": 544671,
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 10000000,
+   "post_shares": 13689000,
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": "2025-12-31",
@@ -4008,7 +4664,7 @@
      "t": "A30",
      "d": "2026-01-27",
      "sh": 525000,
-     "pct": null,
+     "pct": 3.84,
      "val": 6.825,
      "est": false
     },
@@ -4016,7 +4672,7 @@
      "t": "A90",
      "d": "2026-03-28",
      "sh": 525000,
-     "pct": null,
+     "pct": 3.84,
      "val": 6.825,
      "est": false
     },
@@ -4045,19 +4701,19 @@
    "isin": "INE0ZHT01012",
    "nse_symbol": "",
    "bse_code": 544327,
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 12731250,
+   "post_shares": 17321250,
    "prom_pre_pct": 97.64,
    "prom_post_pct": 71.77,
    "listing_date": "2025-01-07",
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
+   "nonprom_pre_shares": 300457,
+   "nonprom_pre_pct_of_post": 1.73,
    "events": [
     {
      "t": "A30",
      "d": "2025-02-02",
      "sh": 649000,
-     "pct": null,
+     "pct": 3.75,
      "val": 3.57,
      "est": false
     },
@@ -4065,7 +4721,7 @@
      "t": "A90",
      "d": "2025-04-03",
      "sh": 649000,
-     "pct": null,
+     "pct": 3.75,
      "val": 3.57,
      "est": false
     }
@@ -4127,19 +4783,19 @@
    "isin": "INE0SI601032",
    "nse_symbol": "ANYA",
    "bse_code": "",
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 88000000,
+   "post_shares": 120000000,
    "prom_pre_pct": 89.19,
    "prom_post_pct": 65.4,
    "listing_date": "2025-01-02",
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
+   "nonprom_pre_shares": 9512799,
+   "nonprom_pre_pct_of_post": 7.93,
    "events": [
     {
      "t": "A30",
      "d": "2025-01-30",
      "sh": 4552000,
-     "pct": null,
+     "pct": 3.79,
      "val": 6.375,
      "est": false
     },
@@ -4147,7 +4803,7 @@
      "t": "A90",
      "d": "2025-03-31",
      "sh": 4552000,
-     "pct": null,
+     "pct": 3.79,
      "val": 6.375,
      "est": false
     }

@@ -8,14 +8,14 @@ BEGIN:VEVENT
 UID:devson-catalyst-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260813
 DTEND;VALUE=DATE:20260814
-SUMMARY:🔓 Devson Catalyst Ltd. — 30D anchor unlock (500\,400 sh\; ~Rs.5.9 cr)
+SUMMARY:🔓 Devson Catalyst Ltd. — 30D anchor unlock (500\,400 sh\; 3.68% of capital\; ~Rs.5.9 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/devson-catalyst-ipo/2943/
 END:VEVENT
 BEGIN:VEVENT
 UID:devson-catalyst-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
-SUMMARY:🔓 Devson Catalyst Ltd. — 90D anchor unlock (500\,400 sh\; ~Rs.5.9 cr)
+SUMMARY:🔓 Devson Catalyst Ltd. — 90D anchor unlock (500\,400 sh\; 3.68% of capital\; ~Rs.5.9 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/devson-catalyst-ipo/2943/
 END:VEVENT
 BEGIN:VEVENT
@@ -29,21 +29,35 @@ BEGIN:VEVENT
 UID:happy-steels-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260813
 DTEND;VALUE=DATE:20260814
-SUMMARY:🔓 Happy Steels Ltd. — 30D anchor unlock (538\,000 sh\; ~Rs.3.5 cr)
+SUMMARY:🔓 Happy Steels Ltd. — 30D anchor unlock (538\,000 sh\; 3.77% of capital\; ~Rs.3.5 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/happy-steels-ipo/2864/
 END:VEVENT
 BEGIN:VEVENT
 UID:happy-steels-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
-SUMMARY:🔓 Happy Steels Ltd. — 90D anchor unlock (538\,000 sh\; ~Rs.3.5 cr)
+SUMMARY:🔓 Happy Steels Ltd. — 90D anchor unlock (538\,000 sh\; 3.77% of capital\; ~Rs.3.5 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/happy-steels-ipo/2864/
 END:VEVENT
 BEGIN:VEVENT
 UID:happy-steels-ipo-PRE6M@unlockradar
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270109
-SUMMARY:🔓 Happy Steels Ltd. — 6M pre-IPO unlock
+SUMMARY:🔓 Happy Steels Ltd. — 6M pre-IPO unlock (70\,337 sh\; 0.49% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/happy-steels-ipo/2864/
+END:VEVENT
+BEGIN:VEVENT
+UID:happy-steels-ipo-PX1Y@unlockradar
+DTSTART;VALUE=DATE:20270708
+DTEND;VALUE=DATE:20270709
+SUMMARY:🔓 Happy Steels Ltd. — 1Y promoter unlock (3\,785\,123 sh\; 26.49% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/happy-steels-ipo/2864/
+END:VEVENT
+BEGIN:VEVENT
+UID:happy-steels-ipo-PX2Y@unlockradar
+DTSTART;VALUE=DATE:20280708
+DTEND;VALUE=DATE:20280709
+SUMMARY:🔓 Happy Steels Ltd. — 2Y promoter unlock (3\,785\,123 sh\; 26.49% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/happy-steels-ipo/2864/
 END:VEVENT
 BEGIN:VEVENT
@@ -78,21 +92,35 @@ BEGIN:VEVENT
 UID:ic-electricals-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
-SUMMARY:🔓 IC Electricals Co.Ltd. — 30D anchor unlock (684\,000 sh\; ~Rs.6.8 cr)
+SUMMARY:🔓 IC Electricals Co.Ltd. — 30D anchor unlock (684\,000 sh\; 3.75% of capital\; ~Rs.6.8 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/ic-electricals-ipo/2754/
 END:VEVENT
 BEGIN:VEVENT
 UID:ic-electricals-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261006
 DTEND;VALUE=DATE:20261007
-SUMMARY:🔓 IC Electricals Co.Ltd. — 90D anchor unlock (684\,000 sh\; ~Rs.6.8 cr)
+SUMMARY:🔓 IC Electricals Co.Ltd. — 90D anchor unlock (684\,000 sh\; 3.75% of capital\; ~Rs.6.8 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/ic-electricals-ipo/2754/
 END:VEVENT
 BEGIN:VEVENT
 UID:ic-electricals-ipo-PRE6M@unlockradar
 DTSTART;VALUE=DATE:20270102
 DTEND;VALUE=DATE:20270103
-SUMMARY:🔓 IC Electricals Co.Ltd. — 6M pre-IPO unlock
+SUMMARY:🔓 IC Electricals Co.Ltd. — 6M pre-IPO unlock (2\,292\,477 sh\; 12.55% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/ic-electricals-ipo/2754/
+END:VEVENT
+BEGIN:VEVENT
+UID:ic-electricals-ipo-PX1Y@unlockradar
+DTSTART;VALUE=DATE:20270702
+DTEND;VALUE=DATE:20270703
+SUMMARY:🔓 IC Electricals Co.Ltd. — 1Y promoter unlock (3\,738\,149 sh\; 20.47% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/ic-electricals-ipo/2754/
+END:VEVENT
+BEGIN:VEVENT
+UID:ic-electricals-ipo-PX2Y@unlockradar
+DTSTART;VALUE=DATE:20280702
+DTEND;VALUE=DATE:20280703
+SUMMARY:🔓 IC Electricals Co.Ltd. — 2Y promoter unlock (3\,738\,149 sh\; 20.47% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/ic-electricals-ipo/2754/
 END:VEVENT
 BEGIN:VEVENT
@@ -113,56 +141,84 @@ BEGIN:VEVENT
 UID:kratikal-tech-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260802
 DTEND;VALUE=DATE:20260803
-SUMMARY:🔓 Kratikal Tech Ltd. — 30D anchor unlock (415\,500 sh\; ~Rs.5.6 cr)
+SUMMARY:🔓 Kratikal Tech Ltd. — 30D anchor unlock (415\,500 sh\; 3.74% of capital\; ~Rs.5.6 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/kratikal-tech-ipo/2844/
 END:VEVENT
 BEGIN:VEVENT
 UID:kratikal-tech-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
-SUMMARY:🔓 Kratikal Tech Ltd. — 90D anchor unlock (415\,500 sh\; ~Rs.5.6 cr)
+SUMMARY:🔓 Kratikal Tech Ltd. — 90D anchor unlock (415\,500 sh\; 3.74% of capital\; ~Rs.5.6 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/kratikal-tech-ipo/2844/
 END:VEVENT
 BEGIN:VEVENT
 UID:kratikal-tech-ipo-PRE6M@unlockradar
 DTSTART;VALUE=DATE:20261229
 DTEND;VALUE=DATE:20261230
-SUMMARY:🔓 Kratikal Tech Ltd. — 6M pre-IPO unlock
+SUMMARY:🔓 Kratikal Tech Ltd. — 6M pre-IPO unlock (2\,237\,621 sh\; 20.16% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/kratikal-tech-ipo/2844/
+END:VEVENT
+BEGIN:VEVENT
+UID:kratikal-tech-ipo-PX1Y@unlockradar
+DTSTART;VALUE=DATE:20270629
+DTEND;VALUE=DATE:20270630
+SUMMARY:🔓 Kratikal Tech Ltd. — 1Y promoter unlock (1\,851\,570 sh\; 16.68% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/kratikal-tech-ipo/2844/
+END:VEVENT
+BEGIN:VEVENT
+UID:kratikal-tech-ipo-PX2Y@unlockradar
+DTSTART;VALUE=DATE:20280629
+DTEND;VALUE=DATE:20280630
+SUMMARY:🔓 Kratikal Tech Ltd. — 2Y promoter unlock (1\,851\,570 sh\; 16.68% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/kratikal-tech-ipo/2844/
 END:VEVENT
 BEGIN:VEVENT
 UID:sampark-india-logistics-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260802
 DTEND;VALUE=DATE:20260803
-SUMMARY:🔓 Sampark India Logistics Ltd. — 30D anchor unlock (459\,200 sh\; ~Rs.3.9 cr)
+SUMMARY:🔓 Sampark India Logistics Ltd. — 30D anchor unlock (459\,200 sh\; 3.75% of capital\; ~Rs.3.9 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/sampark-india-logistics-ipo/2711/
 END:VEVENT
 BEGIN:VEVENT
 UID:sampark-india-logistics-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
-SUMMARY:🔓 Sampark India Logistics Ltd. — 90D anchor unlock (459\,200 sh\; ~Rs.3.9 cr)
+SUMMARY:🔓 Sampark India Logistics Ltd. — 90D anchor unlock (459\,200 sh\; 3.75% of capital\; ~Rs.3.9 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/sampark-india-logistics-ipo/2711/
 END:VEVENT
 BEGIN:VEVENT
 UID:sampark-india-logistics-ipo-PRE6M@unlockradar
 DTSTART;VALUE=DATE:20261229
 DTEND;VALUE=DATE:20261230
-SUMMARY:🔓 Sampark India Logistics Ltd. — 6M pre-IPO unlock
+SUMMARY:🔓 Sampark India Logistics Ltd. — 6M pre-IPO unlock (200\,216 sh\; 1.63% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/sampark-india-logistics-ipo/2711/
+END:VEVENT
+BEGIN:VEVENT
+UID:sampark-india-logistics-ipo-PX1Y@unlockradar
+DTSTART;VALUE=DATE:20270629
+DTEND;VALUE=DATE:20270630
+SUMMARY:🔓 Sampark India Logistics Ltd. — 1Y promoter unlock (3\,183\,597 sh\; 25.97% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/sampark-india-logistics-ipo/2711/
+END:VEVENT
+BEGIN:VEVENT
+UID:sampark-india-logistics-ipo-PX2Y@unlockradar
+DTSTART;VALUE=DATE:20280629
+DTEND;VALUE=DATE:20280630
+SUMMARY:🔓 Sampark India Logistics Ltd. — 2Y promoter unlock (3\,183\,597 sh\; 25.97% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/sampark-india-logistics-ipo/2711/
 END:VEVENT
 BEGIN:VEVENT
 UID:atharva-polyplast-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260802
 DTEND;VALUE=DATE:20260803
-SUMMARY:🔓 Atharva Polyplast Ltd. — 30D anchor unlock (637\,000 sh\; ~Rs.3.8 cr)
+SUMMARY:🔓 Atharva Polyplast Ltd. — 30D anchor unlock (637\,000 sh\; 3.78% of capital\; ~Rs.3.8 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/atharva-polyplast-ipo/2653/
 END:VEVENT
 BEGIN:VEVENT
 UID:atharva-polyplast-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
-SUMMARY:🔓 Atharva Polyplast Ltd. — 90D anchor unlock (637\,000 sh\; ~Rs.3.8 cr)
+SUMMARY:🔓 Atharva Polyplast Ltd. — 90D anchor unlock (637\,000 sh\; 3.78% of capital\; ~Rs.3.8 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/atharva-polyplast-ipo/2653/
 END:VEVENT
 BEGIN:VEVENT
@@ -204,21 +260,35 @@ BEGIN:VEVENT
 UID:shreedhar-spinners-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260728
 DTEND;VALUE=DATE:20260729
-SUMMARY:🔓 Shreedhar Spinners Ltd. — 30D anchor unlock (809\,000 sh\; ~Rs.4.3 cr)
+SUMMARY:🔓 Shreedhar Spinners Ltd. — 30D anchor unlock (809\,000 sh\; 3.77% of capital\; ~Rs.4.3 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/shreedhar-spinners-ipo/2851/
 END:VEVENT
 BEGIN:VEVENT
 UID:shreedhar-spinners-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20260926
 DTEND;VALUE=DATE:20260927
-SUMMARY:🔓 Shreedhar Spinners Ltd. — 90D anchor unlock (809\,000 sh\; ~Rs.4.3 cr)
+SUMMARY:🔓 Shreedhar Spinners Ltd. — 90D anchor unlock (809\,000 sh\; 3.77% of capital\; ~Rs.4.3 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/shreedhar-spinners-ipo/2851/
 END:VEVENT
 BEGIN:VEVENT
 UID:shreedhar-spinners-ipo-PRE6M@unlockradar
 DTSTART;VALUE=DATE:20261222
 DTEND;VALUE=DATE:20261223
-SUMMARY:🔓 Shreedhar Spinners Ltd. — 6M pre-IPO unlock
+SUMMARY:🔓 Shreedhar Spinners Ltd. — 6M pre-IPO unlock (539\,924 sh\; 2.52% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/shreedhar-spinners-ipo/2851/
+END:VEVENT
+BEGIN:VEVENT
+UID:shreedhar-spinners-ipo-PX1Y@unlockradar
+DTSTART;VALUE=DATE:20270622
+DTEND;VALUE=DATE:20270623
+SUMMARY:🔓 Shreedhar Spinners Ltd. — 1Y promoter unlock (5\,410\,951 sh\; 25.24% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/shreedhar-spinners-ipo/2851/
+END:VEVENT
+BEGIN:VEVENT
+UID:shreedhar-spinners-ipo-PX2Y@unlockradar
+DTSTART;VALUE=DATE:20280622
+DTEND;VALUE=DATE:20280623
+SUMMARY:🔓 Shreedhar Spinners Ltd. — 2Y promoter unlock (5\,410\,951 sh\; 25.24% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/shreedhar-spinners-ipo/2851/
 END:VEVENT
 BEGIN:VEVENT
@@ -239,21 +309,35 @@ BEGIN:VEVENT
 UID:anubhav-plast-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260723
 DTEND;VALUE=DATE:20260724
-SUMMARY:🔓 Anubhav Plast Ltd. — 30D anchor unlock (424\,000 sh\; ~Rs.3.4 cr)
+SUMMARY:🔓 Anubhav Plast Ltd. — 30D anchor unlock (424\,000 sh\; 3.85% of capital\; ~Rs.3.4 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/anubhav-plast-ipo/2610/
 END:VEVENT
 BEGIN:VEVENT
 UID:anubhav-plast-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20260921
 DTEND;VALUE=DATE:20260922
-SUMMARY:🔓 Anubhav Plast Ltd. — 90D anchor unlock (424\,000 sh\; ~Rs.3.4 cr)
+SUMMARY:🔓 Anubhav Plast Ltd. — 90D anchor unlock (424\,000 sh\; 3.85% of capital\; ~Rs.3.4 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/anubhav-plast-ipo/2610/
 END:VEVENT
 BEGIN:VEVENT
 UID:anubhav-plast-ipo-PRE6M@unlockradar
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
-SUMMARY:🔓 Anubhav Plast Ltd. — 6M pre-IPO unlock
+SUMMARY:🔓 Anubhav Plast Ltd. — 6M pre-IPO unlock (800 sh\; 0.01% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/anubhav-plast-ipo/2610/
+END:VEVENT
+BEGIN:VEVENT
+UID:anubhav-plast-ipo-PX1Y@unlockradar
+DTSTART;VALUE=DATE:20270618
+DTEND;VALUE=DATE:20270619
+SUMMARY:🔓 Anubhav Plast Ltd. — 1Y promoter unlock (2\,900\,150 sh\; 26.36% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/anubhav-plast-ipo/2610/
+END:VEVENT
+BEGIN:VEVENT
+UID:anubhav-plast-ipo-PX2Y@unlockradar
+DTSTART;VALUE=DATE:20280618
+DTEND;VALUE=DATE:20280619
+SUMMARY:🔓 Anubhav Plast Ltd. — 2Y promoter unlock (2\,900\,150 sh\; 26.36% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/anubhav-plast-ipo/2610/
 END:VEVENT
 BEGIN:VEVENT
@@ -274,35 +358,49 @@ BEGIN:VEVENT
 UID:avience-biomedicals-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260723
 DTEND;VALUE=DATE:20260724
-SUMMARY:🔓 Avience Biomedicals Ltd. — 30D anchor unlock (204\,900 sh\; ~Rs.4.3 cr)
+SUMMARY:🔓 Avience Biomedicals Ltd. — 30D anchor unlock (204\,900 sh\; 3.74% of capital\; ~Rs.4.3 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/avience-biomedicals-ipo/2184/
 END:VEVENT
 BEGIN:VEVENT
 UID:avience-biomedicals-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20260921
 DTEND;VALUE=DATE:20260922
-SUMMARY:🔓 Avience Biomedicals Ltd. — 90D anchor unlock (204\,900 sh\; ~Rs.4.3 cr)
+SUMMARY:🔓 Avience Biomedicals Ltd. — 90D anchor unlock (204\,900 sh\; 3.74% of capital\; ~Rs.4.3 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/avience-biomedicals-ipo/2184/
 END:VEVENT
 BEGIN:VEVENT
 UID:avience-biomedicals-ipo-PRE6M@unlockradar
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
-SUMMARY:🔓 Avience Biomedicals Ltd. — 6M pre-IPO unlock
+SUMMARY:🔓 Avience Biomedicals Ltd. — 6M pre-IPO unlock (488\,185 sh\; 8.9% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/avience-biomedicals-ipo/2184/
+END:VEVENT
+BEGIN:VEVENT
+UID:avience-biomedicals-ipo-PX1Y@unlockradar
+DTSTART;VALUE=DATE:20270617
+DTEND;VALUE=DATE:20270618
+SUMMARY:🔓 Avience Biomedicals Ltd. — 1Y promoter unlock (1\,222\,893 sh\; 22.29% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/avience-biomedicals-ipo/2184/
+END:VEVENT
+BEGIN:VEVENT
+UID:avience-biomedicals-ipo-PX2Y@unlockradar
+DTSTART;VALUE=DATE:20280617
+DTEND;VALUE=DATE:20280618
+SUMMARY:🔓 Avience Biomedicals Ltd. — 2Y promoter unlock (1\,222\,893 sh\; 22.29% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/avience-biomedicals-ipo/2184/
 END:VEVENT
 BEGIN:VEVENT
 UID:clay-craft-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260722
 DTEND;VALUE=DATE:20260723
-SUMMARY:🔓 Clay Craft India Ltd. — 30D anchor unlock (771\,900 sh\; ~Rs.15.7 cr)
+SUMMARY:🔓 Clay Craft India Ltd. — 30D anchor unlock (771\,900 sh\; 3.75% of capital\; ~Rs.15.7 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/clay-craft-ipo/2585/
 END:VEVENT
 BEGIN:VEVENT
 UID:clay-craft-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20260920
 DTEND;VALUE=DATE:20260921
-SUMMARY:🔓 Clay Craft India Ltd. — 90D anchor unlock (771\,900 sh\; ~Rs.15.7 cr)
+SUMMARY:🔓 Clay Craft India Ltd. — 90D anchor unlock (771\,900 sh\; 3.75% of capital\; ~Rs.15.7 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/clay-craft-ipo/2585/
 END:VEVENT
 BEGIN:VEVENT
@@ -316,14 +414,14 @@ BEGIN:VEVENT
 UID:horizon-reclaim-india-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260716
 DTEND;VALUE=DATE:20260717
-SUMMARY:🔓 Horizon Reclaim (India) Ltd. — 30D anchor unlock (750\,600 sh\; ~Rs.7.7 cr)
+SUMMARY:🔓 Horizon Reclaim (India) Ltd. — 30D anchor unlock (750\,600 sh\; 3.85% of capital\; ~Rs.7.7 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/horizon-reclaim-india-ipo/2937/
 END:VEVENT
 BEGIN:VEVENT
 UID:horizon-reclaim-india-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
-SUMMARY:🔓 Horizon Reclaim (India) Ltd. — 90D anchor unlock (750\,600 sh\; ~Rs.7.7 cr)
+SUMMARY:🔓 Horizon Reclaim (India) Ltd. — 90D anchor unlock (750\,600 sh\; 3.85% of capital\; ~Rs.7.7 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/horizon-reclaim-india-ipo/2937/
 END:VEVENT
 BEGIN:VEVENT
@@ -337,42 +435,70 @@ BEGIN:VEVENT
 UID:susan-electricals-india-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260716
 DTEND;VALUE=DATE:20260717
-SUMMARY:🔓 Susan Electricals India Ltd. — 30D anchor unlock (761\,500 sh\; ~Rs.9.7 cr)
+SUMMARY:🔓 Susan Electricals India Ltd. — 30D anchor unlock (761\,500 sh\; 3.75% of capital\; ~Rs.9.7 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/susan-electricals-india-ipo/2872/
 END:VEVENT
 BEGIN:VEVENT
 UID:susan-electricals-india-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
-SUMMARY:🔓 Susan Electricals India Ltd. — 90D anchor unlock (761\,500 sh\; ~Rs.9.7 cr)
+SUMMARY:🔓 Susan Electricals India Ltd. — 90D anchor unlock (761\,500 sh\; 3.75% of capital\; ~Rs.9.7 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/susan-electricals-india-ipo/2872/
 END:VEVENT
 BEGIN:VEVENT
 UID:susan-electricals-india-ipo-PRE6M@unlockradar
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
-SUMMARY:🔓 Susan Electricals India Ltd. — 6M pre-IPO unlock
+SUMMARY:🔓 Susan Electricals India Ltd. — 6M pre-IPO unlock (1\,173\,836 sh\; 5.77% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/susan-electricals-india-ipo/2872/
+END:VEVENT
+BEGIN:VEVENT
+UID:susan-electricals-india-ipo-PX1Y@unlockradar
+DTSTART;VALUE=DATE:20270610
+DTEND;VALUE=DATE:20270611
+SUMMARY:🔓 Susan Electricals India Ltd. — 1Y promoter unlock (4\,774\,687 sh\; 23.48% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/susan-electricals-india-ipo/2872/
+END:VEVENT
+BEGIN:VEVENT
+UID:susan-electricals-india-ipo-PX2Y@unlockradar
+DTSTART;VALUE=DATE:20280610
+DTEND;VALUE=DATE:20280611
+SUMMARY:🔓 Susan Electricals India Ltd. — 2Y promoter unlock (4\,774\,687 sh\; 23.48% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/susan-electricals-india-ipo/2872/
 END:VEVENT
 BEGIN:VEVENT
 UID:genxai-analytics-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260709
 DTEND;VALUE=DATE:20260710
-SUMMARY:🔓 Genxai Analytics Ltd. — 30D anchor unlock (646\,200 sh\; ~Rs.7.5 cr)
+SUMMARY:🔓 Genxai Analytics Ltd. — 30D anchor unlock (646\,200 sh\; 3.6% of capital\; ~Rs.7.5 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/genxai-analytics-ipo/2801/
 END:VEVENT
 BEGIN:VEVENT
 UID:genxai-analytics-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
-SUMMARY:🔓 Genxai Analytics Ltd. — 90D anchor unlock (646\,200 sh\; ~Rs.7.5 cr)
+SUMMARY:🔓 Genxai Analytics Ltd. — 90D anchor unlock (646\,200 sh\; 3.6% of capital\; ~Rs.7.5 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/genxai-analytics-ipo/2801/
 END:VEVENT
 BEGIN:VEVENT
 UID:genxai-analytics-ipo-PRE6M@unlockradar
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
-SUMMARY:🔓 Genxai Analytics Ltd. — 6M pre-IPO unlock
+SUMMARY:🔓 Genxai Analytics Ltd. — 6M pre-IPO unlock (1\,284\,557 sh\; 7.16% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/genxai-analytics-ipo/2801/
+END:VEVENT
+BEGIN:VEVENT
+UID:genxai-analytics-ipo-PX1Y@unlockradar
+DTSTART;VALUE=DATE:20270604
+DTEND;VALUE=DATE:20270605
+SUMMARY:🔓 Genxai Analytics Ltd. — 1Y promoter unlock (4\,170\,992 sh\; 23.24% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/genxai-analytics-ipo/2801/
+END:VEVENT
+BEGIN:VEVENT
+UID:genxai-analytics-ipo-PX2Y@unlockradar
+DTSTART;VALUE=DATE:20280604
+DTEND;VALUE=DATE:20280605
+SUMMARY:🔓 Genxai Analytics Ltd. — 2Y promoter unlock (4\,170\,992 sh\; 23.24% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/genxai-analytics-ipo/2801/
 END:VEVENT
 BEGIN:VEVENT
@@ -400,49 +526,91 @@ BEGIN:VEVENT
 UID:merritronix-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
-SUMMARY:🔓 Merritronix Ltd. — 90D anchor unlock (668\,000 sh\; ~Rs.10.0 cr)
+SUMMARY:🔓 Merritronix Ltd. — 90D anchor unlock (668\,000 sh\; 3.82% of capital\; ~Rs.10.0 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/merritronix-ipo/2961/
 END:VEVENT
 BEGIN:VEVENT
 UID:merritronix-ipo-PRE6M@unlockradar
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
-SUMMARY:🔓 Merritronix Ltd. — 6M pre-IPO unlock
+SUMMARY:🔓 Merritronix Ltd. — 6M pre-IPO unlock (1\,895\,993 sh\; 10.84% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/merritronix-ipo/2961/
+END:VEVENT
+BEGIN:VEVENT
+UID:merritronix-ipo-PX1Y@unlockradar
+DTSTART;VALUE=DATE:20270529
+DTEND;VALUE=DATE:20270530
+SUMMARY:🔓 Merritronix Ltd. — 1Y promoter unlock (3\,696\,298 sh\; 21.14% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/merritronix-ipo/2961/
+END:VEVENT
+BEGIN:VEVENT
+UID:merritronix-ipo-PX2Y@unlockradar
+DTSTART;VALUE=DATE:20280529
+DTEND;VALUE=DATE:20280530
+SUMMARY:🔓 Merritronix Ltd. — 2Y promoter unlock (3\,696\,298 sh\; 21.14% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/merritronix-ipo/2961/
 END:VEVENT
 BEGIN:VEVENT
 UID:rajnandini-fashion-india-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20260829
 DTEND;VALUE=DATE:20260830
-SUMMARY:🔓 Rajnandini Fashion India Ltd. — 90D anchor unlock (409\,000 sh\; ~Rs.2.6 cr)
+SUMMARY:🔓 Rajnandini Fashion India Ltd. — 90D anchor unlock (409\,000 sh\; 3.94% of capital\; ~Rs.2.6 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/rajnandini-fashion-india-ipo/2729/
 END:VEVENT
 BEGIN:VEVENT
 UID:rajnandini-fashion-india-ipo-PRE6M@unlockradar
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
-SUMMARY:🔓 Rajnandini Fashion India Ltd. — 6M pre-IPO unlock
+SUMMARY:🔓 Rajnandini Fashion India Ltd. — 6M pre-IPO unlock (210\,188 sh\; 2.03% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/rajnandini-fashion-india-ipo/2729/
+END:VEVENT
+BEGIN:VEVENT
+UID:rajnandini-fashion-india-ipo-PX1Y@unlockradar
+DTSTART;VALUE=DATE:20270525
+DTEND;VALUE=DATE:20270526
+SUMMARY:🔓 Rajnandini Fashion India Ltd. — 1Y promoter unlock (2\,598\,203 sh\; 25.05% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/rajnandini-fashion-india-ipo/2729/
+END:VEVENT
+BEGIN:VEVENT
+UID:rajnandini-fashion-india-ipo-PX2Y@unlockradar
+DTSTART;VALUE=DATE:20280525
+DTEND;VALUE=DATE:20280526
+SUMMARY:🔓 Rajnandini Fashion India Ltd. — 2Y promoter unlock (2\,598\,203 sh\; 25.05% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/rajnandini-fashion-india-ipo/2729/
 END:VEVENT
 BEGIN:VEVENT
 UID:m-r-maniveni-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20260824
 DTEND;VALUE=DATE:20260825
-SUMMARY:🔓 M R Maniveni Foods Ltd. — 90D anchor unlock (735\,000 sh\; ~Rs.3.8 cr)
+SUMMARY:🔓 M R Maniveni Foods Ltd. — 90D anchor unlock (735\,000 sh\; 3.76% of capital\; ~Rs.3.8 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/m-r-maniveni-ipo/2627/
 END:VEVENT
 BEGIN:VEVENT
 UID:m-r-maniveni-ipo-PRE6M@unlockradar
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
-SUMMARY:🔓 M R Maniveni Foods Ltd. — 6M pre-IPO unlock
+SUMMARY:🔓 M R Maniveni Foods Ltd. — 6M pre-IPO unlock (189\,715 sh\; 0.97% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/m-r-maniveni-ipo/2627/
+END:VEVENT
+BEGIN:VEVENT
+UID:m-r-maniveni-ipo-PX1Y@unlockradar
+DTSTART;VALUE=DATE:20270521
+DTEND;VALUE=DATE:20270522
+SUMMARY:🔓 M R Maniveni Foods Ltd. — 1Y promoter unlock (5\,133\,840 sh\; 26.23% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/m-r-maniveni-ipo/2627/
+END:VEVENT
+BEGIN:VEVENT
+UID:m-r-maniveni-ipo-PX2Y@unlockradar
+DTSTART;VALUE=DATE:20280521
+DTEND;VALUE=DATE:20280522
+SUMMARY:🔓 M R Maniveni Foods Ltd. — 2Y promoter unlock (5\,133\,840 sh\; 26.23% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/m-r-maniveni-ipo/2627/
 END:VEVENT
 BEGIN:VEVENT
 UID:q-line-biotec-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20260824
 DTEND;VALUE=DATE:20260825
-SUMMARY:🔓 Q-Line Biotech Ltd. — 90D anchor unlock (890\,600 sh\; ~Rs.30.6 cr)
+SUMMARY:🔓 Q-Line Biotech Ltd. — 90D anchor unlock (890\,600 sh\; 3.82% of capital\; ~Rs.30.6 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/q-line-biotec-ipo/2745/
 END:VEVENT
 BEGIN:VEVENT
@@ -456,56 +624,112 @@ BEGIN:VEVENT
 UID:vegorama-punjabi-angithi-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20260822
 DTEND;VALUE=DATE:20260823
-SUMMARY:🔓 Vegorama Punjabi Angithi Ltd. — 90D anchor unlock (708\,000 sh\; ~Rs.5.5 cr)
+SUMMARY:🔓 Vegorama Punjabi Angithi Ltd. — 90D anchor unlock (708\,000 sh\; 4.26% of capital\; ~Rs.5.5 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/vegorama-punjabi-angithi-ipo/2477/
 END:VEVENT
 BEGIN:VEVENT
 UID:vegorama-punjabi-angithi-ipo-PRE6M@unlockradar
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
-SUMMARY:🔓 Vegorama Punjabi Angithi Ltd. — 6M pre-IPO unlock
+SUMMARY:🔓 Vegorama Punjabi Angithi Ltd. — 6M pre-IPO unlock (74\,480 sh\; 0.45% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/vegorama-punjabi-angithi-ipo/2477/
+END:VEVENT
+BEGIN:VEVENT
+UID:vegorama-punjabi-angithi-ipo-PX1Y@unlockradar
+DTSTART;VALUE=DATE:20270519
+DTEND;VALUE=DATE:20270520
+SUMMARY:🔓 Vegorama Punjabi Angithi Ltd. — 1Y promoter unlock (4\,112\,051 sh\; 24.75% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/vegorama-punjabi-angithi-ipo/2477/
+END:VEVENT
+BEGIN:VEVENT
+UID:vegorama-punjabi-angithi-ipo-PX2Y@unlockradar
+DTSTART;VALUE=DATE:20280519
+DTEND;VALUE=DATE:20280520
+SUMMARY:🔓 Vegorama Punjabi Angithi Ltd. — 2Y promoter unlock (4\,112\,051 sh\; 24.75% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/vegorama-punjabi-angithi-ipo/2477/
 END:VEVENT
 BEGIN:VEVENT
 UID:teamtech-formwork-solutions-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20260820
 DTEND;VALUE=DATE:20260821
-SUMMARY:🔓 Teamtech Formwork Solutions Ltd. — 90D anchor unlock (1\,133\,000 sh\; ~Rs.7.1 cr)
+SUMMARY:🔓 Teamtech Formwork Solutions Ltd. — 90D anchor unlock (1\,133\,000 sh\; 3.78% of capital\; ~Rs.7.1 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/teamtech-formwork-solutions-ipo/2964/
 END:VEVENT
 BEGIN:VEVENT
 UID:teamtech-formwork-solutions-ipo-PRE6M@unlockradar
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
-SUMMARY:🔓 Teamtech Formwork Solutions Ltd. — 6M pre-IPO unlock
+SUMMARY:🔓 Teamtech Formwork Solutions Ltd. — 6M pre-IPO unlock (4\,128\,000 sh\; 13.77% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/teamtech-formwork-solutions-ipo/2964/
+END:VEVENT
+BEGIN:VEVENT
+UID:teamtech-formwork-solutions-ipo-PX1Y@unlockradar
+DTSTART;VALUE=DATE:20270518
+DTEND;VALUE=DATE:20270519
+SUMMARY:🔓 Teamtech Formwork Solutions Ltd. — 1Y promoter unlock (5\,945\,739 sh\; 19.83% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/teamtech-formwork-solutions-ipo/2964/
+END:VEVENT
+BEGIN:VEVENT
+UID:teamtech-formwork-solutions-ipo-PX2Y@unlockradar
+DTSTART;VALUE=DATE:20280518
+DTEND;VALUE=DATE:20280519
+SUMMARY:🔓 Teamtech Formwork Solutions Ltd. — 2Y promoter unlock (5\,945\,739 sh\; 19.83% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/teamtech-formwork-solutions-ipo/2964/
 END:VEVENT
 BEGIN:VEVENT
 UID:goldline-pharmaceutical-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20260813
 DTEND;VALUE=DATE:20260814
-SUMMARY:🔓 Goldline Pharmaceutical Ltd. — 90D anchor unlock (366\,000 sh\; ~Rs.1.6 cr)
+SUMMARY:🔓 Goldline Pharmaceutical Ltd. — 90D anchor unlock (366\,000 sh\; 3.81% of capital\; ~Rs.1.6 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/goldline-pharmaceutical-ipo/2773/
 END:VEVENT
 BEGIN:VEVENT
 UID:goldline-pharmaceutical-ipo-PRE6M@unlockradar
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
-SUMMARY:🔓 Goldline Pharmaceutical Ltd. — 6M pre-IPO unlock
+SUMMARY:🔓 Goldline Pharmaceutical Ltd. — 6M pre-IPO unlock (1\,400\,699 sh\; 14.59% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/goldline-pharmaceutical-ipo/2773/
+END:VEVENT
+BEGIN:VEVENT
+UID:goldline-pharmaceutical-ipo-PX1Y@unlockradar
+DTSTART;VALUE=DATE:20270511
+DTEND;VALUE=DATE:20270512
+SUMMARY:🔓 Goldline Pharmaceutical Ltd. — 1Y promoter unlock (1\,789\,920 sh\; 18.64% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/goldline-pharmaceutical-ipo/2773/
+END:VEVENT
+BEGIN:VEVENT
+UID:goldline-pharmaceutical-ipo-PX2Y@unlockradar
+DTSTART;VALUE=DATE:20280511
+DTEND;VALUE=DATE:20280512
+SUMMARY:🔓 Goldline Pharmaceutical Ltd. — 2Y promoter unlock (1\,789\,920 sh\; 18.64% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/goldline-pharmaceutical-ipo/2773/
 END:VEVENT
 BEGIN:VEVENT
 UID:simca-advertising-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20260811
 DTEND;VALUE=DATE:20260812
-SUMMARY:🔓 Simca Advertising Ltd. — 90D anchor unlock (219\,600 sh\; ~Rs.4.0 cr)
+SUMMARY:🔓 Simca Advertising Ltd. — 90D anchor unlock (219\,600 sh\; 1.83% of capital\; ~Rs.4.0 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/simca-advertising-ipo/2512/
 END:VEVENT
 BEGIN:VEVENT
 UID:simca-advertising-ipo-PRE6M@unlockradar
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
-SUMMARY:🔓 Simca Advertising Ltd. — 6M pre-IPO unlock
+SUMMARY:🔓 Simca Advertising Ltd. — 6M pre-IPO unlock (880 sh\; 0.01% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/simca-advertising-ipo/2512/
+END:VEVENT
+BEGIN:VEVENT
+UID:simca-advertising-ipo-PX1Y@unlockradar
+DTSTART;VALUE=DATE:20270507
+DTEND;VALUE=DATE:20270508
+SUMMARY:🔓 Simca Advertising Ltd. — 1Y promoter unlock (3\,202\,403 sh\; 26.75% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/simca-advertising-ipo/2512/
+END:VEVENT
+BEGIN:VEVENT
+UID:simca-advertising-ipo-PX2Y@unlockradar
+DTSTART;VALUE=DATE:20280507
+DTEND;VALUE=DATE:20280508
+SUMMARY:🔓 Simca Advertising Ltd. — 2Y promoter unlock (3\,202\,403 sh\; 26.75% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/simca-advertising-ipo/2512/
 END:VEVENT
 BEGIN:VEVENT
@@ -519,14 +743,28 @@ BEGIN:VEVENT
 UID:recode-studios-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20260806
 DTEND;VALUE=DATE:20260807
-SUMMARY:🔓 Recode Studios Ltd. — 90D anchor unlock (400\,800 sh\; ~Rs.6.3 cr)
+SUMMARY:🔓 Recode Studios Ltd. — 90D anchor unlock (400\,800 sh\; 3.77% of capital\; ~Rs.6.3 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/recode-studios-ipo/2825/
 END:VEVENT
 BEGIN:VEVENT
 UID:recode-studios-ipo-PRE6M@unlockradar
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
-SUMMARY:🔓 Recode Studios Ltd. — 6M pre-IPO unlock
+SUMMARY:🔓 Recode Studios Ltd. — 6M pre-IPO unlock (901\,224 sh\; 8.47% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/recode-studios-ipo/2825/
+END:VEVENT
+BEGIN:VEVENT
+UID:recode-studios-ipo-PX1Y@unlockradar
+DTSTART;VALUE=DATE:20270504
+DTEND;VALUE=DATE:20270505
+SUMMARY:🔓 Recode Studios Ltd. — 1Y promoter unlock (2\,395\,509 sh\; 22.5% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/recode-studios-ipo/2825/
+END:VEVENT
+BEGIN:VEVENT
+UID:recode-studios-ipo-PX2Y@unlockradar
+DTSTART;VALUE=DATE:20280504
+DTEND;VALUE=DATE:20280505
+SUMMARY:🔓 Recode Studios Ltd. — 2Y promoter unlock (2\,395\,509 sh\; 22.5% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/recode-studios-ipo/2825/
 END:VEVENT
 BEGIN:VEVENT
@@ -540,21 +778,35 @@ BEGIN:VEVENT
 UID:adisoft-technologies-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20260727
 DTEND;VALUE=DATE:20260728
-SUMMARY:🔓 Adisoft Technologies Ltd. — 90D anchor unlock (612\,800 sh\; ~Rs.10.5 cr)
+SUMMARY:🔓 Adisoft Technologies Ltd. — 90D anchor unlock (612\,800 sh\; 3.76% of capital\; ~Rs.10.5 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/adisoft-technologies-ipo/2788/
 END:VEVENT
 BEGIN:VEVENT
 UID:adisoft-technologies-ipo-PRE6M@unlockradar
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261023
-SUMMARY:🔓 Adisoft Technologies Ltd. — 6M pre-IPO unlock
+SUMMARY:🔓 Adisoft Technologies Ltd. — 6M pre-IPO unlock (2\,401 sh\; 0.01% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/adisoft-technologies-ipo/2788/
+END:VEVENT
+BEGIN:VEVENT
+UID:adisoft-technologies-ipo-PX1Y@unlockradar
+DTSTART;VALUE=DATE:20270422
+DTEND;VALUE=DATE:20270423
+SUMMARY:🔓 Adisoft Technologies Ltd. — 1Y promoter unlock (4\,373\,223 sh\; 26.8% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/adisoft-technologies-ipo/2788/
+END:VEVENT
+BEGIN:VEVENT
+UID:adisoft-technologies-ipo-PX2Y@unlockradar
+DTSTART;VALUE=DATE:20280422
+DTEND;VALUE=DATE:20280423
+SUMMARY:🔓 Adisoft Technologies Ltd. — 2Y promoter unlock (4\,373\,223 sh\; 26.8% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/adisoft-technologies-ipo/2788/
 END:VEVENT
 BEGIN:VEVENT
 UID:mehul-telecom-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20260721
 DTEND;VALUE=DATE:20260722
-SUMMARY:🔓 Mehul Telecom Ltd. — 90D anchor unlock (394\,800 sh\; ~Rs.3.9 cr)
+SUMMARY:🔓 Mehul Telecom Ltd. — 90D anchor unlock (394\,800 sh\; 3.78% of capital\; ~Rs.3.9 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/mehul-telecom-ipo/2536/
 END:VEVENT
 BEGIN:VEVENT
@@ -575,7 +827,21 @@ BEGIN:VEVENT
 UID:safety-controls-and-devices-ipo-PRE6M@unlockradar
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
-SUMMARY:🔓 Safety Controls & Devices Ltd. — 6M pre-IPO unlock
+SUMMARY:🔓 Safety Controls & Devices Ltd. — 6M pre-IPO unlock (4\,627\,896 sh\; 23.34% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/safety-controls-and-devices-ipo/2328/
+END:VEVENT
+BEGIN:VEVENT
+UID:safety-controls-and-devices-ipo-PX1Y@unlockradar
+DTSTART;VALUE=DATE:20270402
+DTEND;VALUE=DATE:20270403
+SUMMARY:🔓 Safety Controls & Devices Ltd. — 1Y promoter unlock (2\,617\,163 sh\; 13.2% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/safety-controls-and-devices-ipo/2328/
+END:VEVENT
+BEGIN:VEVENT
+UID:safety-controls-and-devices-ipo-PX2Y@unlockradar
+DTSTART;VALUE=DATE:20280402
+DTEND;VALUE=DATE:20280403
+SUMMARY:🔓 Safety Controls & Devices Ltd. — 2Y promoter unlock (2\,617\,163 sh\; 13.2% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/safety-controls-and-devices-ipo/2328/
 END:VEVENT
 BEGIN:VEVENT
@@ -589,28 +855,84 @@ BEGIN:VEVENT
 UID:vivid-electromech-ipo-PRE6M@unlockradar
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
-SUMMARY:🔓 Vivid Electromech Ltd. — 6M pre-IPO unlock
+SUMMARY:🔓 Vivid Electromech Ltd. — 6M pre-IPO unlock (700 sh\; 0.01% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/vivid-electromech-ipo/2728/
+END:VEVENT
+BEGIN:VEVENT
+UID:vivid-electromech-ipo-PX1Y@unlockradar
+DTSTART;VALUE=DATE:20270324
+DTEND;VALUE=DATE:20270325
+SUMMARY:🔓 Vivid Electromech Ltd. — 1Y promoter unlock (2\,378\,819 sh\; 26.76% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/vivid-electromech-ipo/2728/
+END:VEVENT
+BEGIN:VEVENT
+UID:vivid-electromech-ipo-PX2Y@unlockradar
+DTSTART;VALUE=DATE:20280324
+DTEND;VALUE=DATE:20280325
+SUMMARY:🔓 Vivid Electromech Ltd. — 2Y promoter unlock (2\,378\,819 sh\; 26.76% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/vivid-electromech-ipo/2728/
 END:VEVENT
 BEGIN:VEVENT
 UID:highness-microelectronics-ipo-PRE6M@unlockradar
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20260924
-SUMMARY:🔓 Highness Microelectronics Ltd. — 6M pre-IPO unlock
+SUMMARY:🔓 Highness Microelectronics Ltd. — 6M pre-IPO unlock (3\,509 sh\; 0.07% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/highness-microelectronics-ipo/2768/
+END:VEVENT
+BEGIN:VEVENT
+UID:highness-microelectronics-ipo-PX1Y@unlockradar
+DTSTART;VALUE=DATE:20270323
+DTEND;VALUE=DATE:20270324
+SUMMARY:🔓 Highness Microelectronics Ltd. — 1Y promoter unlock (1\,160\,777 sh\; 22.48% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/highness-microelectronics-ipo/2768/
+END:VEVENT
+BEGIN:VEVENT
+UID:highness-microelectronics-ipo-PX2Y@unlockradar
+DTSTART;VALUE=DATE:20280323
+DTEND;VALUE=DATE:20280324
+SUMMARY:🔓 Highness Microelectronics Ltd. — 2Y promoter unlock (1\,160\,777 sh\; 22.48% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/highness-microelectronics-ipo/2768/
 END:VEVENT
 BEGIN:VEVENT
 UID:tipco-engineering-ipo-PRE6M@unlockradar
 DTSTART;VALUE=DATE:20260920
 DTEND;VALUE=DATE:20260921
-SUMMARY:🔓 Tipco Engineering India Ltd. — 6M pre-IPO unlock
+SUMMARY:🔓 Tipco Engineering India Ltd. — 6M pre-IPO unlock (1\,962\,438 sh\; 9.45% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/tipco-engineering-ipo/2733/
+END:VEVENT
+BEGIN:VEVENT
+UID:tipco-engineering-ipo-PX1Y@unlockradar
+DTSTART;VALUE=DATE:20270320
+DTEND;VALUE=DATE:20270321
+SUMMARY:🔓 Tipco Engineering India Ltd. — 1Y promoter unlock (3\,924\,034 sh\; 18.89% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/tipco-engineering-ipo/2733/
+END:VEVENT
+BEGIN:VEVENT
+UID:tipco-engineering-ipo-PX2Y@unlockradar
+DTSTART;VALUE=DATE:20280320
+DTEND;VALUE=DATE:20280321
+SUMMARY:🔓 Tipco Engineering India Ltd. — 2Y promoter unlock (3\,924\,034 sh\; 18.89% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/tipco-engineering-ipo/2733/
 END:VEVENT
 BEGIN:VEVENT
 UID:novus-loyalty-ipo-PRE6M@unlockradar
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20260917
-SUMMARY:🔓 Novus Loyalty Ltd. — 6M pre-IPO unlock
+SUMMARY:🔓 Novus Loyalty Ltd. — 6M pre-IPO unlock (536\,558 sh\; 3.45% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/novus-loyalty-ipo/2747/
+END:VEVENT
+BEGIN:VEVENT
+UID:novus-loyalty-ipo-PX1Y@unlockradar
+DTSTART;VALUE=DATE:20270316
+DTEND;VALUE=DATE:20270317
+SUMMARY:🔓 Novus Loyalty Ltd. — 1Y promoter unlock (3\,891\,437 sh\; 25.02% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/novus-loyalty-ipo/2747/
+END:VEVENT
+BEGIN:VEVENT
+UID:novus-loyalty-ipo-PX2Y@unlockradar
+DTSTART;VALUE=DATE:20280316
+DTEND;VALUE=DATE:20280317
+SUMMARY:🔓 Novus Loyalty Ltd. — 2Y promoter unlock (3\,891\,437 sh\; 25.02% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/novus-loyalty-ipo/2747/
 END:VEVENT
 BEGIN:VEVENT
@@ -624,56 +946,168 @@ BEGIN:VEVENT
 UID:striders-impex-ipo-PRE6M@unlockradar
 DTSTART;VALUE=DATE:20260825
 DTEND;VALUE=DATE:20260826
-SUMMARY:🔓 Striders Impex Ltd. — 6M pre-IPO unlock
+SUMMARY:🔓 Striders Impex Ltd. — 6M pre-IPO unlock (635\,264 sh\; 3.41% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/striders-impex-ipo/2714/
+END:VEVENT
+BEGIN:VEVENT
+UID:striders-impex-ipo-PX1Y@unlockradar
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
+SUMMARY:🔓 Striders Impex Ltd. — 1Y promoter unlock (4\,609\,539 sh\; 24.76% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/striders-impex-ipo/2714/
+END:VEVENT
+BEGIN:VEVENT
+UID:striders-impex-ipo-PX2Y@unlockradar
+DTSTART;VALUE=DATE:20280225
+DTEND;VALUE=DATE:20280226
+SUMMARY:🔓 Striders Impex Ltd. — 2Y promoter unlock (4\,609\,539 sh\; 24.76% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/striders-impex-ipo/2714/
 END:VEVENT
 BEGIN:VEVENT
 UID:yaap-digital-ipo-PRE6M@unlockradar
 DTSTART;VALUE=DATE:20260824
 DTEND;VALUE=DATE:20260825
-SUMMARY:🔓 Yaap Digital Ltd. — 6M pre-IPO unlock
+SUMMARY:🔓 Yaap Digital Ltd. — 6M pre-IPO unlock (3\,052\,324 sh\; 14.58% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/yaap-digital-ipo/2582/
+END:VEVENT
+BEGIN:VEVENT
+UID:yaap-digital-ipo-PX1Y@unlockradar
+DTSTART;VALUE=DATE:20270224
+DTEND;VALUE=DATE:20270225
+SUMMARY:🔓 Yaap Digital Ltd. — 1Y promoter unlock (4\,084\,028 sh\; 19.51% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/yaap-digital-ipo/2582/
+END:VEVENT
+BEGIN:VEVENT
+UID:yaap-digital-ipo-PX2Y@unlockradar
+DTSTART;VALUE=DATE:20280224
+DTEND;VALUE=DATE:20280225
+SUMMARY:🔓 Yaap Digital Ltd. — 2Y promoter unlock (4\,084\,028 sh\; 19.51% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/yaap-digital-ipo/2582/
 END:VEVENT
 BEGIN:VEVENT
 UID:mobilise-app-ipo-PRE6M@unlockradar
 DTSTART;VALUE=DATE:20260820
 DTEND;VALUE=DATE:20260821
-SUMMARY:🔓 Mobilise App Lab Ltd. — 6M pre-IPO unlock
+SUMMARY:🔓 Mobilise App Lab Ltd. — 6M pre-IPO unlock (280\,000 sh\; 2.94% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/mobilise-app-ipo/2584/
+END:VEVENT
+BEGIN:VEVENT
+UID:mobilise-app-ipo-PX1Y@unlockradar
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+SUMMARY:🔓 Mobilise App Lab Ltd. — 1Y promoter unlock (2\,408\,914 sh\; 25.32% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/mobilise-app-ipo/2584/
+END:VEVENT
+BEGIN:VEVENT
+UID:mobilise-app-ipo-PX2Y@unlockradar
+DTSTART;VALUE=DATE:20280220
+DTEND;VALUE=DATE:20280221
+SUMMARY:🔓 Mobilise App Lab Ltd. — 2Y promoter unlock (2\,408\,914 sh\; 25.32% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/mobilise-app-ipo/2584/
 END:VEVENT
 BEGIN:VEVENT
 UID:accord-transformer-switchgear-ipo-PRE6M@unlockradar
 DTSTART;VALUE=DATE:20260820
 DTEND;VALUE=DATE:20260821
-SUMMARY:🔓 Accord Transformer & Switchgear Ltd. — 6M pre-IPO unlock
+SUMMARY:🔓 Accord Transformer & Switchgear Ltd. — 6M pre-IPO unlock (2\,260\,700 sh\; 10.99% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/accord-transformer-switchgear-ipo/2763/
+END:VEVENT
+BEGIN:VEVENT
+UID:accord-transformer-switchgear-ipo-PX1Y@unlockradar
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+SUMMARY:🔓 Accord Transformer & Switchgear Ltd. — 1Y promoter unlock (4\,318\,333 sh\; 20.99% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/accord-transformer-switchgear-ipo/2763/
+END:VEVENT
+BEGIN:VEVENT
+UID:accord-transformer-switchgear-ipo-PX2Y@unlockradar
+DTSTART;VALUE=DATE:20280220
+DTEND;VALUE=DATE:20280221
+SUMMARY:🔓 Accord Transformer & Switchgear Ltd. — 2Y promoter unlock (4\,318\,333 sh\; 20.99% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/accord-transformer-switchgear-ipo/2763/
 END:VEVENT
 BEGIN:VEVENT
 UID:manilam-industries-ipo-PRE6M@unlockradar
 DTSTART;VALUE=DATE:20260819
 DTEND;VALUE=DATE:20260820
-SUMMARY:🔓 Manilam Industries India Ltd. — 6M pre-IPO unlock
+SUMMARY:🔓 Manilam Industries India Ltd. — 6M pre-IPO unlock (3\,637\,514 sh\; 16.65% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/manilam-industries-ipo/2727/
+END:VEVENT
+BEGIN:VEVENT
+UID:manilam-industries-ipo-PX1Y@unlockradar
+DTSTART;VALUE=DATE:20270219
+DTEND;VALUE=DATE:20270220
+SUMMARY:🔓 Manilam Industries India Ltd. — 1Y promoter unlock (4\,571\,694 sh\; 20.93% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/manilam-industries-ipo/2727/
+END:VEVENT
+BEGIN:VEVENT
+UID:manilam-industries-ipo-PX2Y@unlockradar
+DTSTART;VALUE=DATE:20280219
+DTEND;VALUE=DATE:20280220
+SUMMARY:🔓 Manilam Industries India Ltd. — 2Y promoter unlock (4\,571\,694 sh\; 20.93% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/manilam-industries-ipo/2727/
 END:VEVENT
 BEGIN:VEVENT
 UID:fractal-industries-ipo-PRE6M@unlockradar
 DTSTART;VALUE=DATE:20260813
 DTEND;VALUE=DATE:20260814
-SUMMARY:🔓 Fractal Industries Ltd. — 6M pre-IPO unlock
+SUMMARY:🔓 Fractal Industries Ltd. — 6M pre-IPO unlock (159\,037 sh\; 2.03% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/fractal-industries-ipo/2780/
+END:VEVENT
+BEGIN:VEVENT
+UID:fractal-industries-ipo-PX1Y@unlockradar
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+SUMMARY:🔓 Fractal Industries Ltd. — 1Y promoter unlock (1\,925\,719 sh\; 24.53% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/fractal-industries-ipo/2780/
+END:VEVENT
+BEGIN:VEVENT
+UID:fractal-industries-ipo-PX2Y@unlockradar
+DTSTART;VALUE=DATE:20280213
+DTEND;VALUE=DATE:20280214
+SUMMARY:🔓 Fractal Industries Ltd. — 2Y promoter unlock (1\,925\,719 sh\; 24.53% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/fractal-industries-ipo/2780/
 END:VEVENT
 BEGIN:VEVENT
 UID:marushika-technology-ipo-PRE6M@unlockradar
 DTSTART;VALUE=DATE:20260811
 DTEND;VALUE=DATE:20260812
-SUMMARY:🔓 Marushika Technology Ltd. — 6M pre-IPO unlock
+SUMMARY:🔓 Marushika Technology Ltd. — 6M pre-IPO unlock (1\,264\,385 sh\; 14.81% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/marushika-technology-ipo/2606/
+END:VEVENT
+BEGIN:VEVENT
+UID:marushika-technology-ipo-PX1Y@unlockradar
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+SUMMARY:🔓 Marushika Technology Ltd. — 1Y promoter unlock (1\,630\,095 sh\; 19.09% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/marushika-technology-ipo/2606/
+END:VEVENT
+BEGIN:VEVENT
+UID:marushika-technology-ipo-PX2Y@unlockradar
+DTSTART;VALUE=DATE:20280211
+DTEND;VALUE=DATE:20280212
+SUMMARY:🔓 Marushika Technology Ltd. — 2Y promoter unlock (1\,630\,095 sh\; 19.09% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/marushika-technology-ipo/2606/
 END:VEVENT
 BEGIN:VEVENT
 UID:pan-hr-solutions-ipo-PRE6M@unlockradar
 DTSTART;VALUE=DATE:20260805
 DTEND;VALUE=DATE:20260806
-SUMMARY:🔓 PAN HR Solutions Ltd. — 6M pre-IPO unlock
+SUMMARY:🔓 PAN HR Solutions Ltd. — 6M pre-IPO unlock (491\,324 sh\; 6.81% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/pan-hr-solutions-ipo/2759/
+END:VEVENT
+BEGIN:VEVENT
+UID:pan-hr-solutions-ipo-PX1Y@unlockradar
+DTSTART;VALUE=DATE:20270205
+DTEND;VALUE=DATE:20270206
+SUMMARY:🔓 PAN HR Solutions Ltd. — 1Y promoter unlock (1\,546\,771 sh\; 21.45% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/pan-hr-solutions-ipo/2759/
+END:VEVENT
+BEGIN:VEVENT
+UID:pan-hr-solutions-ipo-PX2Y@unlockradar
+DTSTART;VALUE=DATE:20280205
+DTEND;VALUE=DATE:20280206
+SUMMARY:🔓 PAN HR Solutions Ltd. — 2Y promoter unlock (1\,546\,771 sh\; 21.45% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/pan-hr-solutions-ipo/2759/
 END:VEVENT
 BEGIN:VEVENT
@@ -687,7 +1121,21 @@ BEGIN:VEVENT
 UID:brandman-retail-ipo-PRE6M@unlockradar
 DTSTART;VALUE=DATE:20260803
 DTEND;VALUE=DATE:20260804
-SUMMARY:🔓 Brandman Retail Ltd. — 6M pre-IPO unlock
+SUMMARY:🔓 Brandman Retail Ltd. — 6M pre-IPO unlock (10\,852 sh\; 0.06% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/brandman-retail-ipo/2274/
+END:VEVENT
+BEGIN:VEVENT
+UID:brandman-retail-ipo-PX1Y@unlockradar
+DTSTART;VALUE=DATE:20270203
+DTEND;VALUE=DATE:20270204
+SUMMARY:🔓 Brandman Retail Ltd. — 1Y promoter unlock (4\,524\,779 sh\; 24.51% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/brandman-retail-ipo/2274/
+END:VEVENT
+BEGIN:VEVENT
+UID:brandman-retail-ipo-PX2Y@unlockradar
+DTSTART;VALUE=DATE:20280203
+DTEND;VALUE=DATE:20280204
+SUMMARY:🔓 Brandman Retail Ltd. — 2Y promoter unlock (4\,524\,779 sh\; 24.51% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/brandman-retail-ipo/2274/
 END:VEVENT
 BEGIN:VEVENT
@@ -715,42 +1163,126 @@ BEGIN:VEVENT
 UID:kasturi-metal-ipo-PRE6M@unlockradar
 DTSTART;VALUE=DATE:20260723
 DTEND;VALUE=DATE:20260724
-SUMMARY:🔓 Kasturi Metal Composite Ltd. — 6M pre-IPO unlock
+SUMMARY:🔓 Kasturi Metal Composite Ltd. — 6M pre-IPO unlock (584\,705 sh\; 5.62% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/kasturi-metal-ipo/2281/
+END:VEVENT
+BEGIN:VEVENT
+UID:kasturi-metal-ipo-PX1Y@unlockradar
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+SUMMARY:🔓 Kasturi Metal Composite Ltd. — 1Y promoter unlock (2\,489\,653 sh\; 23.95% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/kasturi-metal-ipo/2281/
+END:VEVENT
+BEGIN:VEVENT
+UID:kasturi-metal-ipo-PX2Y@unlockradar
+DTSTART;VALUE=DATE:20280123
+DTEND;VALUE=DATE:20280124
+SUMMARY:🔓 Kasturi Metal Composite Ltd. — 2Y promoter unlock (2\,489\,653 sh\; 23.95% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/kasturi-metal-ipo/2281/
 END:VEVENT
 BEGIN:VEVENT
 UID:hannah-joseph-ipo-PRE6M@unlockradar
 DTSTART;VALUE=DATE:20260721
 DTEND;VALUE=DATE:20260722
-SUMMARY:🔓 Hannah Joseph Hospital Ltd. — 6M pre-IPO unlock
+SUMMARY:🔓 Hannah Joseph Hospital Ltd. — 6M pre-IPO unlock (1\,073\,704 sh\; 4.73% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/hannah-joseph-ipo/2251/
+END:VEVENT
+BEGIN:VEVENT
+UID:hannah-joseph-ipo-PX1Y@unlockradar
+DTSTART;VALUE=DATE:20270121
+DTEND;VALUE=DATE:20270122
+SUMMARY:🔓 Hannah Joseph Hospital Ltd. — 1Y promoter unlock (5\,541\,805 sh\; 24.41% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/hannah-joseph-ipo/2251/
+END:VEVENT
+BEGIN:VEVENT
+UID:hannah-joseph-ipo-PX2Y@unlockradar
+DTSTART;VALUE=DATE:20280121
+DTEND;VALUE=DATE:20280122
+SUMMARY:🔓 Hannah Joseph Hospital Ltd. — 2Y promoter unlock (5\,541\,805 sh\; 24.41% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/hannah-joseph-ipo/2251/
 END:VEVENT
 BEGIN:VEVENT
 UID:krm-ayurveda-ipo-PRE6M@unlockradar
 DTSTART;VALUE=DATE:20260720
 DTEND;VALUE=DATE:20260721
-SUMMARY:🔓 KRM Ayurveda Ltd. — 6M pre-IPO unlock
+SUMMARY:🔓 KRM Ayurveda Ltd. — 6M pre-IPO unlock (1\,216\,830 sh\; 5.72% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/krm-ayurveda-ipo/2620/
+END:VEVENT
+BEGIN:VEVENT
+UID:krm-ayurveda-ipo-PX1Y@unlockradar
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+SUMMARY:🔓 KRM Ayurveda Ltd. — 1Y promoter unlock (5\,026\,053 sh\; 23.64% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/krm-ayurveda-ipo/2620/
+END:VEVENT
+BEGIN:VEVENT
+UID:krm-ayurveda-ipo-PX2Y@unlockradar
+DTSTART;VALUE=DATE:20280120
+DTEND;VALUE=DATE:20280121
+SUMMARY:🔓 KRM Ayurveda Ltd. — 2Y promoter unlock (5\,026\,053 sh\; 23.64% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/krm-ayurveda-ipo/2620/
 END:VEVENT
 BEGIN:VEVENT
 UID:digilogic-systems-ipo-PRE6M@unlockradar
 DTSTART;VALUE=DATE:20260719
 DTEND;VALUE=DATE:20260720
-SUMMARY:🔓 Digilogic Systems Ltd. — 6M pre-IPO unlock
+SUMMARY:🔓 Digilogic Systems Ltd. — 6M pre-IPO unlock (2\,559\,052 sh\; 8.84% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/digilogic-systems-ipo/2617/
+END:VEVENT
+BEGIN:VEVENT
+UID:digilogic-systems-ipo-PX1Y@unlockradar
+DTSTART;VALUE=DATE:20270119
+DTEND;VALUE=DATE:20270120
+SUMMARY:🔓 Digilogic Systems Ltd. — 1Y promoter unlock (6\,405\,415 sh\; 22.12% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/digilogic-systems-ipo/2617/
+END:VEVENT
+BEGIN:VEVENT
+UID:digilogic-systems-ipo-PX2Y@unlockradar
+DTSTART;VALUE=DATE:20280119
+DTEND;VALUE=DATE:20280120
+SUMMARY:🔓 Digilogic Systems Ltd. — 2Y promoter unlock (6\,405\,415 sh\; 22.12% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/digilogic-systems-ipo/2617/
 END:VEVENT
 BEGIN:VEVENT
 UID:gre-renew-enertech-ipo-PRE6M@unlockradar
 DTSTART;VALUE=DATE:20260712
 DTEND;VALUE=DATE:20260713
-SUMMARY:🔓 GRE Renew Enertech Ltd. — 6M pre-IPO unlock
+SUMMARY:🔓 GRE Renew Enertech Ltd. — 6M pre-IPO unlock (519\,688 sh\; 3.64% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/gre-renew-enertech-ipo/2353/
+END:VEVENT
+BEGIN:VEVENT
+UID:gre-renew-enertech-ipo-PX1Y@unlockradar
+DTSTART;VALUE=DATE:20270112
+DTEND;VALUE=DATE:20270113
+SUMMARY:🔓 GRE Renew Enertech Ltd. — 1Y promoter unlock (3\,571\,285 sh\; 24.99% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/gre-renew-enertech-ipo/2353/
+END:VEVENT
+BEGIN:VEVENT
+UID:gre-renew-enertech-ipo-PX2Y@unlockradar
+DTSTART;VALUE=DATE:20280112
+DTEND;VALUE=DATE:20280113
+SUMMARY:🔓 GRE Renew Enertech Ltd. — 2Y promoter unlock (3\,571\,285 sh\; 24.99% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/gre-renew-enertech-ipo/2353/
 END:VEVENT
 BEGIN:VEVENT
 UID:indo-smc-ipo-PRE6M@unlockradar
 DTSTART;VALUE=DATE:20260712
 DTEND;VALUE=DATE:20260713
-SUMMARY:🔓 INDO SMC Ltd. — 6M pre-IPO unlock
+SUMMARY:🔓 INDO SMC Ltd. — 6M pre-IPO unlock (2\,953\,129 sh\; 12.92% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/indo-smc-ipo/2694/
+END:VEVENT
+BEGIN:VEVENT
+UID:indo-smc-ipo-PX1Y@unlockradar
+DTSTART;VALUE=DATE:20270112
+DTEND;VALUE=DATE:20270113
+SUMMARY:🔓 INDO SMC Ltd. — 1Y promoter unlock (4\,579\,069 sh\; 20.03% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/indo-smc-ipo/2694/
+END:VEVENT
+BEGIN:VEVENT
+UID:indo-smc-ipo-PX2Y@unlockradar
+DTSTART;VALUE=DATE:20280112
+DTEND;VALUE=DATE:20280113
+SUMMARY:🔓 INDO SMC Ltd. — 2Y promoter unlock (4\,579\,069 sh\; 20.03% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/indo-smc-ipo/2694/
 END:VEVENT
 BEGIN:VEVENT
@@ -759,5 +1291,47 @@ DTSTART;VALUE=DATE:20260709
 DTEND;VALUE=DATE:20260710
 SUMMARY:🔓 Avana Electrosystems Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/avana-electrosystems-ipo/2635/
+END:VEVENT
+BEGIN:VEVENT
+UID:modern-diagnostic-ipo-PX1Y@unlockradar
+DTSTART;VALUE=DATE:20261230
+DTEND;VALUE=DATE:20261231
+SUMMARY:🔓 Modern Diagnostic & Research Centre Ltd. — 1Y promoter unlock (3\,989\,963 sh\; 26.42% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/modern-diagnostic-ipo/2276/
+END:VEVENT
+BEGIN:VEVENT
+UID:modern-diagnostic-ipo-PX2Y@unlockradar
+DTSTART;VALUE=DATE:20271230
+DTEND;VALUE=DATE:20271231
+SUMMARY:🔓 Modern Diagnostic & Research Centre Ltd. — 2Y promoter unlock (3\,989\,963 sh\; 26.42% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/modern-diagnostic-ipo/2276/
+END:VEVENT
+BEGIN:VEVENT
+UID:e-to-e-transportation-infrastructure-ipo-PX1Y@unlockradar
+DTSTART;VALUE=DATE:20261224
+DTEND;VALUE=DATE:20261225
+SUMMARY:🔓 E to E Transportation Infrastructure Ltd. — 1Y promoter unlock (1\,079\,461 sh\; 6.25% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/e-to-e-transportation-infrastructure-ipo/2720/
+END:VEVENT
+BEGIN:VEVENT
+UID:e-to-e-transportation-infrastructure-ipo-PX2Y@unlockradar
+DTSTART;VALUE=DATE:20271224
+DTEND;VALUE=DATE:20271225
+SUMMARY:🔓 E to E Transportation Infrastructure Ltd. — 2Y promoter unlock (1\,079\,461 sh\; 6.25% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/e-to-e-transportation-infrastructure-ipo/2720/
+END:VEVENT
+BEGIN:VEVENT
+UID:admach-systems-ipo-PX1Y@unlockradar
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
+SUMMARY:🔓 Admach Systems Ltd. — 1Y promoter unlock (1\,115\,818 sh\; 16.47% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/admach-systems-ipo/2578/
+END:VEVENT
+BEGIN:VEVENT
+UID:admach-systems-ipo-PX2Y@unlockradar
+DTSTART;VALUE=DATE:20271222
+DTEND;VALUE=DATE:20271223
+SUMMARY:🔓 Admach Systems Ltd. — 2Y promoter unlock (1\,115\,818 sh\; 16.47% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/admach-systems-ipo/2578/
 END:VEVENT
 END:VCALENDAR
