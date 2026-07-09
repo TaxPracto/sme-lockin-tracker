@@ -119,8 +119,8 @@ def parse_row(row: dict):
 
 
 # ---------- per-IPO metadata (pre/post shares, promoter %) ----------
-PRE_SH_RE = re.compile(r"Share\s*Holding\s*Pre\s*Issue.{0,400}?([\d][\d,]{4,})\s*shares", re.S | re.I)
-POST_SH_RE = re.compile(r"Share\s*Holding\s*Post\s*Issue.{0,400}?([\d][\d,]{4,})\s*shares", re.S | re.I)
+PRE_SH_RE = re.compile(r"Share\s*Holding\s*Pre\s*Issue.{0,700}?(\d{1,3}(?:,\d{2,3}){2,})", re.S | re.I)
+POST_SH_RE = re.compile(r"Share\s*Holding\s*Post\s*Issue.{0,700}?(\d{1,3}(?:,\d{2,3}){2,})", re.S | re.I)
 PROM_RE = re.compile(r"Promoter\s*Holding[^%]{0,600}?([\d]{1,2}\.\d{1,2})\s*%.{0,300}?([\d]{1,2}\.\d{1,2})\s*%", re.S | re.I)
 LIST_DT_RE = re.compile(r"Listing\s*Date.{0,200}?(\w{3},\s*\w{3}\s*\d{1,2},\s*\d{4}|\d{2}-\w{3}-\d{4})", re.S | re.I)
 
