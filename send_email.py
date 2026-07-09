@@ -38,6 +38,20 @@ def page_url():
 def load_events():
     with open("data/lockins.json", encoding="utf-8") as f:
         payload = json.load(f)
+    prices = {}
+    try:
+        with open("data/prices.json", encoding="utf-8") as f:
+            prices = json.load(f).get("hist", {})
+    except Exception:
+        prices = {}
+    for r in payload["records"]:
+        h = prices.get(str(r.get("isin") or "").strip())
+        if h:
+            r["last_close"] = h[-1][1]
+            vols = [e[2] for e in h if len(e) > 2 and e[2]]
+            r["avg_vol"] = int(sum(vols) / len(vols)) if vols else None
+        else:
+            r["last_close"] = r["avg_vol"] = None
     today = dt.datetime.now(IST).date()
     tname = {"A30": "30D", "A90": "90D", "PRE6M": "6M PRE-IPO", "PX1Y": "1Y PROM", "PX2Y": "2Y PROM"}
     tcol = {"A30": ("#fff3d9", AMBER), "A90": ("#dff7f9", CYAN),
@@ -57,6 +71,8 @@ def load_events():
                 "tbg": tcol.get(e["t"], ("#eee", "#555"))[0], "tfg": tcol.get(e["t"], ("#eee", "#555"))[1],
                 "company": r["company"], "url": r["url"], "est": e.get("est", False),
                 "shares": e.get("sh"), "val": e.get("val"), "cappct": e.get("pct"),
+                "mkt": round(e["sh"] * r["last_close"] / 1e7, 1) if e.get("sh") and r.get("last_close") else None,
+                "dov": round(e["sh"] / r["avg_vol"], 1) if e.get("sh") and r.get("avg_vol") else None,
             })
     evs.sort(key=lambda e: (e["date"], -(e["cappct"] or 0), -(e["val"] or 0)))
     return today, evs
@@ -77,8 +93,15 @@ def rows_html(evs, accent):
     out = []
     for e in evs:
         d = dt.date.fromisoformat(e["date"])
-        size = cr(e["val"]) if e["val"] is not None else (f"{e['cappct']}% cap" if e["cappct"] is not None else "—")
-        size_lbl = "at issue px" if e["val"] is not None else ("of capital" + (" · est" if e["est"] else ""))
+        if e.get("mkt") is not None:
+            size, size_lbl = f"₹{e['mkt']:,.1f} cr", "at market px" + (" · est" if e["est"] else "")
+        elif e["val"] is not None:
+            size, size_lbl = cr(e["val"]), "at issue px"
+        else:
+            size = f"{e['cappct']}% cap" if e["cappct"] is not None else "—"
+            size_lbl = "of capital" + (" · est" if e["est"] else "")
+        if e.get("dov") is not None:
+            size_lbl += f" · {e['dov']}× vol"
         out.append(f"""<tr>
   <td style="padding:9px 6px 9px 14px;white-space:nowrap;color:{MUT};font-size:12px">{d.strftime('%a, %d %b')}</td>
   <td style="padding:9px 6px"><a href="{e['url'] or '#'}" style="color:{INK};font-weight:600;font-size:13.5px;text-decoration:none">{e['company']}</a></td>

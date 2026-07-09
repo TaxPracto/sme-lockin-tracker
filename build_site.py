@@ -14,6 +14,26 @@ with open("data/lockins.json", encoding="utf-8") as f:
     payload = json.load(f)
 
 records = payload["records"]
+
+# merge daily price/volume feed (optional, graceful if absent)
+_prices = {}
+try:
+    with open("data/prices.json", encoding="utf-8") as _f:
+        _prices = json.load(_f).get("hist", {})
+except Exception:
+    _prices = {}
+for _r in records:
+    _h = _prices.get(str(_r.get("isin") or "").strip())
+    if _h:
+        _r["last_close"], _r["close_date"] = _h[-1][1], _h[-1][0]
+        _vols = [_e[2] for _e in _h if len(_e) > 2 and _e[2]]
+        _r["avg_vol"] = int(sum(_vols) / len(_vols)) if _vols else None
+    else:
+        _r["last_close"] = _r["close_date"] = _r["avg_vol"] = None
+    _inv, _sh = _r.get("anchor_investment_cr"), _r.get("anchor_shares")
+    _r["issue_px"] = round(_inv * 1e7 / _sh, 2) if _inv and _sh else None
+    _r["chg_from_issue_pct"] = (round((_r["last_close"] - _r["issue_px"]) / _r["issue_px"] * 100, 1)
+                                if _r.get("last_close") and _r.get("issue_px") else None)
 now_ist = dt.datetime.now(IST)
 gen_label = now_ist.strftime("%d %b %Y, %H:%M IST")
 today_iso = now_ist.date().isoformat()
@@ -175,6 +195,29 @@ h1 em{font-style:italic;color:var(--amber)}
 .empty{color:var(--mut);padding:30px 4px;font-size:13px}
 mark{background:rgba(179,111,0,.25);color:var(--txt);border-radius:3px}
 
+.cbar{display:flex;height:26px;border-radius:8px;overflow:hidden;border:1px solid var(--line2);margin-top:6px}
+.cseg{height:100%}
+i.cmpc,.cseg.cmpc{background:#99A1B0} i.cexc,.cseg.cexc{background:var(--coral)} i.cpre,.cseg.cpre{background:var(--violet)} i.cpub,.cseg.cpub{background:#D4DBE6}
+.clegend{display:flex;gap:14px;flex-wrap:wrap;margin-top:8px;font-size:10.5px;color:var(--mut);font-family:var(--mono)}
+.clegend i{display:inline-block;width:9px;height:9px;border-radius:3px;margin-right:5px;vertical-align:-1px}
+.tl{position:relative;height:60px;margin:10px 2px 0}
+.tlline{position:absolute;top:18px;left:0;right:0;height:2px;background:var(--line2);border-radius:2px}
+.tld{position:absolute;top:12px;width:13px;height:13px;border-radius:50%;border:2.5px solid #fff;box-shadow:0 0 0 1px var(--line2);transform:translateX(-50%)}
+.tld.b30{background:var(--amber)}.tld.b90{background:var(--cyan)}.tld.bpre{background:var(--violet)}.tld.bpx{background:var(--coral)}
+.tld.done{opacity:.35}
+.tlnow{position:absolute;top:6px;width:2.5px;height:26px;background:var(--red);transform:translateX(-50%);border-radius:2px}
+.tlnow:after{content:'today';position:absolute;top:-4px;left:6px;font-size:9px;color:var(--red);font-weight:700;font-family:var(--mono)}
+.tll{position:absolute;top:36px;font-size:9.5px;color:var(--mut);font-family:var(--mono);line-height:1.5;white-space:nowrap}
+.emkt{font-size:12.5px;color:var(--mut2);margin-top:8px;font-family:var(--mono)}
+.emkt b{font-weight:600}
+.efrow{display:flex;align-items:center;gap:10px;margin-top:7px}
+.etrack{flex:1;height:9px;background:var(--panel2);border:1px solid var(--line);border-radius:99px;overflow:hidden}
+.efill{height:100%;border-radius:99px}
+.efill.b30{background:var(--amber)}.efill.b90{background:var(--cyan)}.efill.bpre{background:var(--violet)}.efill.bpx{background:var(--coral)}
+.efill.dv.dgreen{background:var(--green)}.efill.dv.damber{background:var(--amber)}.efill.dv.dred{background:var(--red)}
+.eflab{font-size:10.5px;color:var(--mut);font-family:var(--mono);white-space:nowrap}
+.dgreen{color:var(--green)}.damber{color:var(--amber)}.dred{color:var(--red)}
+.pxchip{font-weight:600}
 .mback{position:fixed;inset:0;background:rgba(26,33,48,.45);backdrop-filter:blur(6px);display:none;z-index:200;align-items:center;justify-content:center;padding:20px}
 .mback.on{display:flex}
 .mcard{background:var(--panel);border:1px solid var(--line2);border-radius:18px;max-width:760px;width:100%;max-height:88vh;overflow-y:auto;padding:28px 30px 24px;animation:mup .28s cubic-bezier(.2,.9,.3,1);scrollbar-width:thin;box-shadow:0 24px 60px rgba(16,24,40,.25)}
@@ -321,8 +364,8 @@ function events(){
   }
   return out;
 }
-function sizeMain(e){ return crFmt(e.val) || (e.pct != null ? e.pct + '% cap' : shFmt(e.sh)); }
-function sizeLbl(e){ return e.val != null ? 'AT ISSUE PX' : (e.pct != null ? 'OF CAPITAL' + (e.est?' · EST':'') : 'SHARES' + (e.est?' · EST':'')); }
+function sizeMain(e){ if(e.sh && e.r.last_close) return crFmt(e.sh * e.r.last_close / 1e7); return crFmt(e.val) || (e.pct != null ? e.pct + '% cap' : shFmt(e.sh)); }
+function sizeLbl(e){ if(e.sh && e.r.last_close) return 'AT MKT PX' + (e.est?' · EST':''); return e.val != null ? 'AT ISSUE PX' : (e.pct != null ? 'OF CAPITAL' + (e.est?' · EST':'') : 'SHARES' + (e.est?' · EST':'')); }
 function pills(e){
   let h = `<span class="pill ${e.meta.cls}">${e.meta.lbl}</span>`;
   if(e.r.category !== 'SME') h += ` <span class="pill pmb">MB</span>`;
@@ -338,6 +381,44 @@ const $ = id => document.getElementById(id);
 const TLONG = {A30:'30-day anchor unlock', A90:'90-day anchor unlock', PRE6M:'Pre-IPO holders unlock (6M)', PX1Y:'Promoter release (1 year)', PX2Y:'Promoter release (2 years)'};
 const BCLS = {A30:'b30', A90:'b90', PRE6M:'bpre', PX1Y:'bpx', PX2Y:'bpx'};
 const nfmt = n => n == null ? '—' : n.toLocaleString('en-IN');
+function capBar(r){
+  if(r.prom_post_pct == null || !r.post_shares) return '';
+  const mpc = 20, exc = +(r.prom_post_pct - 20).toFixed(2), pre = +(r.nonprom_pre_pct_of_post || 0);
+  let pub = +(100 - mpc - Math.max(exc,0) - pre).toFixed(2); if(pub < 0) pub = 0;
+  const seg = (w, cls, lb) => w > 0.4 ? `<div class="cseg ${cls}" style="width:${w}%" title="${lb} · ${w}%"></div>` : '';
+  return `<div class="msec">CAPITAL STRUCTURE — WHO HOLDS THE COMPANY</div>
+  <div class="cbar">${seg(mpc,'cmpc','20% MPC, 3yr lock')}${seg(Math.max(exc,0),'cexc','Promoter excess (1yr/2yr)')}${seg(pre,'cpre','Pre-IPO non-promoter (6M)')}${seg(pub,'cpub','IPO float incl. anchors')}</div>
+  <div class="clegend"><span><i class="cmpc"></i>MPC ${mpc}%</span><span><i class="cexc"></i>Prom excess ${Math.max(exc,0)}%</span><span><i class="cpre"></i>Pre-IPO ${pre}%</span><span><i class="cpub"></i>IPO float ${pub}%</span></div>`;
+}
+function timelineViz(r){
+  const allot = r.boa_date || r.anchor_allotment_date;
+  const evs = (r.events || []);
+  if(!allot || !evs.length) return '';
+  const t0 = pd(allot).getTime();
+  const tend = Math.max(...evs.map(e => pd(e.d).getTime())) + 86400000 * 20;
+  const X = t => Math.max(0, Math.min(100, (t - t0) / (tend - t0) * 100)).toFixed(1);
+  const now = T0.getTime();
+  const dots = evs.map(e => `<i class="tld ${BCLS[e.t]} ${pd(e.d).getTime() < now ? 'done' : ''}" style="left:${X(pd(e.d).getTime())}%" title="${TLONG[e.t]} · ${fmtM(e.d)}"></i>`).join('');
+  const today = (now >= t0 && now <= tend) ? `<i class="tlnow" style="left:${X(now)}%"></i>` : '';
+  return `<div class="msec">DATE LINE — ALLOTMENT TO FINAL RELEASE</div>
+  <div class="tl"><div class="tlline"></div>${dots}${today}
+  <span class="tll" style="left:0">${fmtM(allot)}<br>allotment</span>
+  <span class="tll" style="left:100%;transform:translateX(-100%);text-align:right">${fmtM(iso(new Date(tend)))}</span></div>`;
+}
+function evViz(e, r){
+  let h = '';
+  if(e.sh && r.last_close)
+    h += `<div class="emkt">≈ <b>${crFmt(e.sh * r.last_close / 1e7)}</b> at market price ₹${r.last_close}</div>`;
+  if(e.pct != null)
+    h += `<div class="efrow"><div class="etrack"><div class="efill ${BCLS[e.t]}" style="width:${Math.min(e.pct,100)}%"></div></div><span class="eflab">${e.pct}% of company</span></div>`;
+  if(e.sh && r.avg_vol){
+    const dov = e.sh / r.avg_vol;
+    const c = dov < 1 ? 'dgreen' : dov <= 5 ? 'damber' : 'dred';
+    const lab = dov < 10 ? dov.toFixed(1) : Math.round(dov);
+    h += `<div class="efrow"><div class="etrack"><div class="efill dv ${c}" style="width:${Math.min(dov/20*100,100)}%"></div></div><span class="eflab ${c}">${lab}× typical daily volume</span></div>`;
+  }
+  return h;
+}
 const line = (lbl, txt) => `<span class="fl"><span class="lbl">${lbl}</span> ${txt}</span>`;
 
 function explain(e, r){
@@ -378,7 +459,7 @@ function openModal(slug){
     const size = [e.sh ? shFmt(e.sh) + ' sh' : null, e.pct != null ? e.pct + '% of capital' : null, e.val != null ? crFmt(e.val) + ' at issue px' : null].filter(Boolean).join(' · ') || 'size n/a';
     return `<div class="mev ${BCLS[e.t]}">
       <div class="top"><b>${TLONG[e.t]}</b><span class="num2">${fmtL(e.d)} · ${when}</span></div>
-      <div class="num2" style="margin-top:5px">${size}</div>
+      <div class="num2" style="margin-top:5px">${size}</div>${evViz(e, r)}
       <div class="how">${explain(e, r)}</div></div>`;
   }).join('') || '<div class="empty">no events computed</div>';
   const mpc = r.post_shares ? Math.round(r.post_shares * 0.2) : null;
@@ -386,7 +467,7 @@ function openModal(slug){
     <div class="mhead"><div>
       <h3>${esc(r.company)}</h3>
       <div class="msub">${r.category}${r.nse_symbol ? ' · NSE ' + esc(String(r.nse_symbol)) : ''}${r.bse_code ? ' · BSE ' + r.bse_code : ''}${r.isin ? ' · ' + esc(String(r.isin)) : ''}<br>
-      allotted ${r.anchor_allotment_date || '—'} · listed ${r.listing_date || '—'}</div>
+      allotted ${r.anchor_allotment_date || '—'} · listed ${r.listing_date || '—'}${r.last_close ? `<br><span class=\"pxchip\">₹${r.last_close}</span> close ${r.close_date}` : ''}${r.chg_from_issue_pct != null ? ` · <span class=\"pxchip ${r.chg_from_issue_pct >= 0 ? 'dgreen' : 'dred'}\">${r.chg_from_issue_pct >= 0 ? '+' : ''}${r.chg_from_issue_pct}% from issue ₹${r.issue_px}</span>` : ''}</div>
     </div><button class="mx" onclick="closeModal()">✕ esc</button></div>
     <div class="mgrid">
       <div class="mstat"><div class="k">PRE-ISSUE CAPITAL</div><div class="v">${shFmt(r.pre_shares)} <small>sh</small></div></div>
@@ -396,9 +477,9 @@ function openModal(slug){
       <div class="mstat"><div class="k">ANCHOR ALLOTMENT</div><div class="v">${shFmt(r.anchor_shares)} <small>${r.anchor_investment_cr ? '· ₹' + r.anchor_investment_cr + ' cr' : ''}</small></div></div>
       <div class="mstat"><div class="k">20% MPC (3YR LOCK)</div><div class="v">${shFmt(mpc)} <small>sh</small></div></div>
     </div>
-    <div class="msec">UNLOCK TIMELINE — QUANTITY &amp; DATE MATH</div>
+    ${capBar(r)}${timelineViz(r)}<div class="msec">UNLOCK EVENTS — QUANTITY &amp; DATE MATH</div>
     ${evHtml}
-    <div class="mnote">Anchor dates are exchange-published. "est." events are computed from prospectus shareholding + SEBI ICDR rules — verify against the exchange listing circular before acting. AIF/VC exemptions and ESOPs can change actual free-float.</div>
+    <div class="mnote">Anchor dates are exchange-published. "est." events are computed from prospectus shareholding + SEBI ICDR rules — verify against the exchange listing circular before acting. AIF/VC exemptions and ESOPs can change actual free-float. Volume multiple uses the average of recent tracked sessions; market values use the latest close.</div>
     <div class="mbtns">
       ${r.url ? `<a class="mbtn primary" href="${r.url}" target="_blank" rel="noopener">Chittorgarh page ↗</a>` : ''}
       <button class="mbtn ghost" onclick="closeModal()">Close</button>
