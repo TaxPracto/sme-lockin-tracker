@@ -144,8 +144,8 @@ def main():
             f.write(body)
         print(f"[email] preview written: email_preview.html | subject: {subject}")
         return
-    sender = os.environ["GMAIL_ADDRESS"]
-    pwd = os.environ["GMAIL_APP_PASSWORD"]
+    sender = os.environ["GMAIL_ADDRESS"].strip()
+    pwd = os.environ["GMAIL_APP_PASSWORD"].replace(" ", "").strip()
     to = [a.strip() for a in os.environ.get("DIGEST_TO", sender).split(",") if a.strip()]
     msg = MIMEMultipart("alternative")
     msg["Subject"], msg["From"], msg["To"] = subject, f"Unlock Radar <{sender}>", ", ".join(to)
