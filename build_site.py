@@ -195,6 +195,52 @@ for _i, _f in enumerate(FUND_TABLE):
                f"<td><span style='background:{_bg};color:{_fg};padding:2px 10px;border-radius:99px;font-size:10.5px;font-weight:700'>{_f['grade']}</span></td></tr>")
 _urows = " · ".join(f"{k} ({c})" for k, c in _UNGRADED) or "—"
 
+_ANCH_JS = """<script>
+(function(){
+const tab=document.getElementById('ftab');
+const heads=[...tab.rows[0].cells];
+const q=document.getElementById('fq');
+const pills=[...document.querySelectorAll('.vpill')];
+const chk=document.getElementById('fmin');
+let vsel='ALL';
+const rows=()=>[...tab.rows].slice(1);
+function apply(){
+  const s=q.value.trim().toLowerCase();
+  rows().forEach(r=>{
+    const name=r.cells[1].textContent.toLowerCase();
+    const verd=r.cells[9].textContent.trim();
+    const watched=parseFloat(r.cells[3].textContent)||0;
+    const ok=(!s||name.includes(s))&&(vsel==='ALL'||verd===vsel)&&(!chk.checked||watched>=10);
+    r.style.display=ok?'':'none';
+  });
+}
+q.addEventListener('input',apply);
+chk.addEventListener('change',apply);
+pills.forEach(p=>p.addEventListener('click',()=>{vsel=p.dataset.v;pills.forEach(x=>x.classList.toggle('on',x===p));apply();}));
+let sc=-1,sd=-1;
+function val(r,i){
+  const t=r.cells[i].textContent.trim();
+  if(t===''||t==='\u2014')return null;
+  const n=parseFloat(t.replace(/[+%\u00d7,]/g,''));
+  return isNaN(n)?t.toLowerCase():n;
+}
+heads.forEach((h,i)=>{if(i===0)return;h.addEventListener('click',()=>{
+  sd=(sc===i)?-sd:(i===1?1:-1);sc=i;
+  heads.forEach(x=>x.classList.remove('sa','sd'));
+  h.classList.add(sd===1?'sa':'sd');
+  const rs=rows();
+  rs.sort((a,b)=>{
+    const va=val(a,i),vb=val(b,i);
+    if(va===null&&vb===null)return 0;if(va===null)return 1;if(vb===null)return -1;
+    if(typeof va==='string'||typeof vb==='string')return String(va).localeCompare(String(vb))*sd;
+    return (va-vb)*sd;
+  });
+  rs.forEach(r=>tab.tBodies[0].appendChild(r));
+});});
+})();
+</script>
+</body></html>"""
+
 os.makedirs("docs", exist_ok=True)
 _anch = f"""<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Unlock Radar — anchor ranks</title>
@@ -210,6 +256,15 @@ tr:last-child td{{border-bottom:0}}
 .card{{background:#fff;border:1px solid rgba(24,33,51,.16);border-radius:12px;padding:16px 18px;font-size:12.5px;color:#3F4756;line-height:1.9;margin-bottom:22px}}
 .note{{font-size:11.5px;color:#727B8A;line-height:1.9;margin-top:22px;border-top:1px solid rgba(24,33,51,.16);padding-top:13px}}
 .cap{{font-size:12px;color:#727B8A;line-height:1.7}} b{{font-weight:600}} i{{font-style:italic}}
+.ftools{{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:0 0 12px}}
+#fq{{background:#fff;border:1px solid rgba(24,33,51,.2);border-radius:9px;padding:8px 12px;font-family:'Instrument Sans',sans-serif;font-size:13px;min-width:190px;outline:none;color:#1A2130}}
+#fq:focus{{border-color:#B36F00}}
+.vpill{{border:1px solid rgba(24,33,51,.2);background:#fff;border-radius:99px;padding:5px 13px;font-size:10.5px;font-weight:700;letter-spacing:.08em;color:#727B8A;cursor:pointer}}
+.vpill.on{{background:#1A2130;color:#fff;border-color:#1A2130}}
+.fchk{{font-size:11.5px;color:#727B8A;display:flex;align-items:center;gap:5px;cursor:pointer}}
+th{{cursor:pointer;user-select:none;white-space:nowrap}}
+th:hover{{background:#EAE6DA}}
+th.sa::after{{content:' \25b2';color:#B36F00}}th.sd::after{{content:' \25bc';color:#B36F00}}
 .lay{{display:grid;grid-template-columns:minmax(0,1fr) 330px;gap:26px;align-items:start}}
 .lay>aside{{order:2;position:sticky;top:18px;display:flex;flex-direction:column;gap:13px}}
 .lay>aside .card{{margin-bottom:0}}
@@ -235,7 +290,16 @@ A fund needs at least 3 measured unlocks to get a verdict.</div>
 coverage completes automatically day by day from here on.</div>
 </aside>
 <div class="main">
-<table><tr><th>#</th><th>fund house</th><th>IPOs anchored</th><th>unlocks watched</th><th>typical move after their unlocks</th><th>fell how often</th><th>avg listing-day gain</th><th>avg gain today</th><th>unlock size vs daily trading</th><th>verdict</th></tr>{_frows if _frows else "<tr><td colspan=10 style='color:#727B8A'>Grades appear once the historical backfill completes and anchor names finish syncing.</td></tr>"}</table>
+<div class="ftools">
+  <input id="fq" placeholder="search fund house&hellip;">
+  <span class="vpill on" data-v="ALL">ALL</span>
+  <span class="vpill" data-v="STICKY">STICKY</span>
+  <span class="vpill" data-v="NEUTRAL">NEUTRAL</span>
+  <span class="vpill" data-v="FLIPPER">FLIPPER</span>
+  <label class="fchk"><input type="checkbox" id="fmin"> only well-tested (10+ unlocks watched)</label>
+  <span style="margin-left:auto;font-size:11px;color:#727B8A">click any column heading to sort</span>
+</div>
+<table id="ftab"><tr><th>#</th><th>fund house</th><th>IPOs anchored</th><th>unlocks watched</th><th>typical move after their unlocks</th><th>fell how often</th><th>avg listing-day gain</th><th>avg gain today</th><th>unlock size vs daily trading</th><th>verdict</th></tr>{_frows if _frows else "<tr><td colspan=10 style='color:#727B8A'>Grades appear once the historical backfill completes and anchor names finish syncing.</td></tr>"}</table>
 <h2 style="font-family:Fraunces,serif;font-style:italic;font-weight:430;font-size:18px;color:#3F4756;margin:26px 0 8px">Tracked but not yet graded</h2>
 <p class="cap" style="font-size:12px;color:#727B8A;margin:0 0 8px">Every other fund in the registry, with its deal count in brackets — too few finished unlocks to judge yet. They graduate to the table above automatically.</p>
 <div style="font-size:12px;color:#727B8A;line-height:2">{_urows}</div>
@@ -243,7 +307,7 @@ coverage completes automatically day by day from here on.</div>
 The more "unlocks watched", the more the verdict means. Fund lists come from public allotment disclosures. Not investment advice.</div>
 </div>
 </div>
-</body></html>"""
+""" + _ANCH_JS
 with open("docs/anchors.html", "w", encoding="utf-8") as _f:
     _f.write(_anch)
 
