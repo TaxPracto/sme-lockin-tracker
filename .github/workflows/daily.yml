@@ -36,6 +36,9 @@ jobs:
       - name: Scrape latest lock-in data
         run: python scraper.py
 
+      - name: Refresh anchor registry
+        run: python registry_feed.py
+
       - name: Update price & volume feed
         run: python price_feed.py
 
@@ -49,6 +52,7 @@ jobs:
         run: |
           git config user.name "unlock-radar-bot"
           git config user.email "actions@users.noreply.github.com"
+          git pull --rebase || true
           git add data/ docs/
           git commit -m "Daily refresh $(date -u +'%Y-%m-%d')" || echo "No changes today"
           git push
