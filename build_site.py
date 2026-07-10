@@ -264,7 +264,7 @@ tr:last-child td{{border-bottom:0}}
 .fchk{{font-size:11.5px;color:#727B8A;display:flex;align-items:center;gap:5px;cursor:pointer}}
 th{{cursor:pointer;user-select:none;white-space:nowrap}}
 th:hover{{background:#EAE6DA}}
-th.sa::after{{content:' \25b2';color:#B36F00}}th.sd::after{{content:' \25bc';color:#B36F00}}
+th.sa::after{{content:' ▲';color:#B36F00}}th.sd::after{{content:' ▼';color:#B36F00}}
 .lay{{display:grid;grid-template-columns:minmax(0,1fr) 330px;gap:26px;align-items:start}}
 .lay>aside{{order:2;position:sticky;top:18px;display:flex;flex-direction:column;gap:13px}}
 .lay>aside .card{{margin-bottom:0}}
