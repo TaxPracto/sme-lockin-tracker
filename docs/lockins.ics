@@ -467,13 +467,6 @@ SUMMARY:🔓 Susan Electricals India Ltd. — 2Y promoter unlock (4\,774\,687 sh
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/susan-electricals-india-ipo/2872/
 END:VEVENT
 BEGIN:VEVENT
-UID:genxai-analytics-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260709
-DTEND;VALUE=DATE:20260710
-SUMMARY:🔓 Genxai Analytics Ltd. — 30D anchor unlock (646\,200 sh\; 3.6% of capital\; ~Rs.7.5 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/genxai-analytics-ipo/2801/
-END:VEVENT
-BEGIN:VEVENT
 UID:genxai-analytics-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
@@ -500,13 +493,6 @@ DTSTART;VALUE=DATE:20280604
 DTEND;VALUE=DATE:20280605
 SUMMARY:🔓 Genxai Analytics Ltd. — 2Y promoter unlock (4\,170\,992 sh\; 23.24% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/genxai-analytics-ipo/2801/
-END:VEVENT
-BEGIN:VEVENT
-UID:hexagon-nutrition-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260709
-DTEND;VALUE=DATE:20260710
-SUMMARY:🔓 Hexagon Nutrition Ltd. — 30D anchor unlock (4\,628\,848 sh\; ~Rs.20.8 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/hexagon-nutrition-ipo/2658/
 END:VEVENT
 BEGIN:VEVENT
 UID:hexagon-nutrition-ipo-A90@unlockradar
@@ -1284,13 +1270,6 @@ DTSTART;VALUE=DATE:20280112
 DTEND;VALUE=DATE:20280113
 SUMMARY:🔓 INDO SMC Ltd. — 2Y promoter unlock (4\,579\,069 sh\; 20.03% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/indo-smc-ipo/2694/
-END:VEVENT
-BEGIN:VEVENT
-UID:avana-electrosystems-ipo-PRE6M@unlockradar
-DTSTART;VALUE=DATE:20260709
-DTEND;VALUE=DATE:20260710
-SUMMARY:🔓 Avana Electrosystems Ltd. — 6M pre-IPO unlock
-DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/avana-electrosystems-ipo/2635/
 END:VEVENT
 BEGIN:VEVENT
 UID:modern-diagnostic-ipo-PX1Y@unlockradar
