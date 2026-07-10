@@ -153,7 +153,7 @@ def fetch_meta(url: str):
             low = cand.lower()
             if len(cand) < 7 or not FUND_HINT.search(cand):
                 continue
-            if any(b in low for b in ("anchor", "lock-in", "shares", "invest amount", "bid date",
+            if any(b in low for b in ("anchor", "lock-in", "shares", "invest amount", "bid date", "investment by",
                                        "click", "chittorgarh", "list of", "allotted", "total")):
                 continue
             if low in seen:

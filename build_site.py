@@ -108,12 +108,31 @@ def _bucket_rows(keyfn, buckets, only_anchor=False):
         rows.append((lbl, len(vals), _med(vals), round(neg / len(vals) * 100) if vals else None))
     return rows
 
-_slug_names = {r["slug"]: (r.get("anchor_names") or []) for r in records if r.get("category") == "SME"}
+_registry = {}
+try:
+    with open("data/registry.json", encoding="utf-8") as _f:
+        _registry = json.load(_f).get("houses", {})
+except Exception:
+    _registry = {}
+_slug_names = {}
 _deal_counts = {}
-for _names in _slug_names.values():
-    for _nm in _names:
-        _k = " ".join(_nm.split()).title()
-        _deal_counts[_k] = _deal_counts.get(_k, 0) + 1
+_house_lg = {}
+for _hn, _h in _registry.items():
+    _deal_counts[_hn] = len(_h.get("deals", {}))
+    _lgs = [d.get("lg") for d in _h.get("deals", {}).values() if d.get("lg") is not None]
+    _cgs = [d.get("cg") for d in _h.get("deals", {}).values() if d.get("cg") is not None]
+    _house_lg[_hn] = (round(sum(_lgs)/len(_lgs), 1) if _lgs else None,
+                      round(sum(_cgs)/len(_cgs), 1) if _cgs else None)
+    for _slug in _h.get("deals", {}):
+        _slug_names.setdefault(_slug, []).append(_hn)
+if not _registry:                      # fallback to page-scraped names until registry syncs
+    for _r0 in records:
+        if _r0.get("category") == "SME":
+            _slug_names[_r0["slug"]] = [" ".join(n.split()).title() for n in (_r0.get("anchor_names") or [])
+                                        if "investment by" not in n.lower()]
+    for _names in _slug_names.values():
+        for _nm in _names:
+            _deal_counts[_nm] = _deal_counts.get(_nm, 0) + 1
 _fund_obs = {}
 for _o in _outs.values():
     if _o["type"] not in ("A30", "A90") or _r5(_o) is None:
@@ -140,8 +159,9 @@ for _k, _obs in _fund_obs.items():
              - (1.2 * max((_adov or 0) - 3, 0)) - 0.05 * max((_aru or 0) - 25, 0) \
              + min(_deal_counts.get(_k, _n), 10) * 0.5
     _grade = "STICKY" if _score >= 60 else ("NEUTRAL" if _score >= 45 else "FLIPPER")
+    _lg, _cg = _house_lg.get(_k, (None, None)) if "_house_lg" in dir() else (None, None)
     FUND_TABLE.append({"fund": _k, "deals": _deal_counts.get(_k, _n), "n": _n, "med": _medt5,
-                       "pneg": _pneg, "apl": _apl, "adov": _adov, "aru": _aru,
+                       "pneg": _pneg, "apl": _apl, "adov": _adov, "aru": _aru, "lg": _lg, "cg": _cg,
                        "score": round(_score, 1), "grade": _grade})
 FUND_TABLE.sort(key=lambda x: -x["score"])
 FUND_ROWS = [(f["fund"], f["n"], f["med"], f["pneg"]) for f in sorted(FUND_TABLE, key=lambda x: x["med"] if x["med"] is not None else 999)][:15]
@@ -157,7 +177,8 @@ for _i, _f in enumerate(FUND_TABLE):
     _bg, _fg = _gcol[_f["grade"]]
     _frows += (f"<tr><td>{_i+1}</td><td style=\"font-family:'Instrument Sans',sans-serif;font-weight:500\">{_f['fund']}</td>"
                f"<td>{_f['deals']}</td><td>{_f['n']}</td><td>{_f['med']}%</td><td>{_f['pneg']}%</td>"
-               f"<td>{_f['apl'] if _f['apl'] is not None else '—'}%</td><td>{_f['adov'] if _f['adov'] is not None else '—'}×</td>"
+               f"<td>{_f['lg'] if _f.get('lg') is not None else '—'}%</td><td>{_f['cg'] if _f.get('cg') is not None else '—'}%</td>"
+               f"<td>{_f['adov'] if _f['adov'] is not None else '—'}×</td>"
                f"<td><span style='background:{_bg};color:{_fg};padding:2px 10px;border-radius:99px;font-size:10.5px;font-weight:700'>{_f['grade']}</span></td></tr>")
 _urows = " · ".join(f"{k} ({c})" for k, c in _UNGRADED) or "—"
 
@@ -182,7 +203,7 @@ tr:last-child td{{border-bottom:0}}
 Score starts at 50, rewards a positive median move after their unlocks, and penalises: a high share of negative outcomes, a habit of anchoring
 illiquid issues (unlock &gt;3× daily volume), and pumped-up run-ins (&gt;25% rally into the unlock). More tracked deals adds a small activity bonus.
 <b>STICKY ≥60</b> · NEUTRAL 45–60 · <b>FLIPPER &lt;45</b>. Minimum 3 measured unlocks to be graded.</div>
-<table><tr><th>#</th><th>fund</th><th>deals</th><th>measured</th><th>median T+5</th><th>% negative</th><th>avg gain at unlock</th><th>avg ×vol</th><th>grade</th></tr>{_frows if _frows else "<tr><td colspan=9 style='color:#727B8A'>Grades appear once the historical backfill completes and anchor names finish syncing.</td></tr>"}</table>
+<table><tr><th>#</th><th>fund house</th><th>deals</th><th>measured</th><th>median T+5</th><th>% negative</th><th>avg listing gain</th><th>avg current gain</th><th>avg ×vol</th><th>grade</th></tr>{_frows if _frows else "<tr><td colspan=10 style='color:#727B8A'>Grades appear once the historical backfill completes and anchor names finish syncing.</td></tr>"}</table>
 <h2 style="font-family:Fraunces,serif;font-style:italic;font-weight:430;font-size:18px;color:#3F4756;margin:26px 0 8px">Not yet graded (under 3 measured unlocks)</h2>
 <div style="font-size:12px;color:#727B8A;line-height:2">{_urows}</div>
 <div class="note">A FLIPPER tag means stocks this fund anchored typically fell after unlock days — correlation across their deals, not proof any fund sold.
@@ -234,13 +255,7 @@ ret = close-to-close move in the 5 sessions after the unlock date. Negative medi
 with open("docs/backtest.html", "w", encoding="utf-8") as _f:
     _f.write(_bt)
 
-FUND_COUNTS = {}
-for _r in records:
-    if _r.get("category") != "SME":
-        continue
-    for _nm in (_r.get("anchor_names") or []):
-        _k = " ".join(_nm.split()).title()
-        FUND_COUNTS[_k] = FUND_COUNTS.get(_k, 0) + 1
+FUND_COUNTS = dict(_deal_counts)
 
 HTML = r"""<!DOCTYPE html>
 <html lang="en">
@@ -454,6 +469,7 @@ footer b{color:var(--mut2);font-weight:600}
 const DATA = __DATA__;
 const STATS = __STATS__;
 const FUNDS = __FUNDS__;
+const REG = __REG__;
 const IST_OFF = 330;
 function istToday(){
   const n = new Date();
@@ -581,7 +597,7 @@ function evViz(e, r){
   return h;
 }
 function fundsBlock(r){
-  const names = r.anchor_names || [];
+  const names = (REG[r.slug] || r.anchor_names || []).filter(n => !/investment by/i.test(n));
   if(!names.length) return '';
   const chips = names.map(n => {
     const k = n.replace(/\s+/g,' ');
@@ -726,6 +742,7 @@ render();
 html = HTML.replace("__DATA__", json.dumps(payload, ensure_ascii=False)) \
            .replace("__STATS__", json.dumps(OUTCOME_STATS)) \
            .replace("__FUNDS__", json.dumps(FUND_COUNTS, ensure_ascii=False)) \
+           .replace("__REG__", json.dumps(_slug_names, ensure_ascii=False)) \
            .replace("__GENERATED__", gen_label)
 with open("docs/index.html", "w", encoding="utf-8") as f:
     f.write(html)
