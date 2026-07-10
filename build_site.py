@@ -96,6 +96,11 @@ for _o in _outs.values():
     if _r5(_o) is not None:
         _by_type.setdefault(_o["type"], []).append(_r5(_o))
 OUTCOME_STATS = {_t: {"n": len(_v), "med": _med(_v)} for _t, _v in _by_type.items()}
+_odates = sorted(o["date"] for o in _outs.values() if _r5(o) is not None and o.get("date"))
+def _dmy(_s):
+    _M = ["", "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+    return f"{_s[8:10]} {_M[int(_s[5:7])]} {_s[:4]}"
+_WINDOW = f"{_dmy(_odates[0])} to {_dmy(_odates[-1])}" if _odates else "syncing"
 
 # ---------------- backtest report (docs/backtest.html) ----------------
 def _bucket_rows(keyfn, buckets, only_anchor=False):
@@ -165,8 +170,8 @@ for _k, _obs in _fund_obs.items():
                        "score": round(_score, 1), "grade": _grade})
 FUND_TABLE.sort(key=lambda x: -x["score"])
 FUND_ROWS = [(f["fund"], f["n"], f["med"], f["pneg"]) for f in sorted(FUND_TABLE, key=lambda x: x["med"] if x["med"] is not None else 999)][:15]
-_UNGRADED = sorted([(k, c) for k, c in _deal_counts.items() if c >= 2 and k not in {f["fund"] for f in FUND_TABLE}],
-                   key=lambda x: -x[1])[:40]
+_UNGRADED = sorted([(k, c) for k, c in _deal_counts.items() if c >= 1 and k not in {f["fund"] for f in FUND_TABLE}],
+                   key=lambda x: (-x[1], x[0]))
 
 NAV = """<div class="nav"><a href="index.html" class="{a}">Radar</a><a href="anchors.html" class="{b}">Anchor ranks</a><a href="backtest.html" class="{c}">Backtest</a></div>"""
 _NAVCSS = ".nav{display:flex;gap:8px;margin:0 0 18px}.nav a{padding:7px 16px;border:1px solid rgba(24,33,51,.16);border-radius:99px;font-size:12px;font-weight:600;color:#3F4756;background:#fff;text-decoration:none}.nav a.on{background:#1A2130;color:#fff;border-color:#1A2130}"
@@ -195,27 +200,37 @@ th{{text-align:left;font-size:10px;letter-spacing:.12em;color:#727B8A;padding:9p
 td{{padding:9px 11px;border-bottom:1px solid rgba(24,33,51,.08);font-family:'IBM Plex Mono',monospace}}
 tr:last-child td{{border-bottom:0}}
 .card{{background:#fff;border:1px solid rgba(24,33,51,.16);border-radius:12px;padding:16px 18px;font-size:12.5px;color:#3F4756;line-height:1.9;margin-bottom:22px}}
-.note{{font-size:11.5px;color:#727B8A;line-height:1.9;margin-top:22px;border-top:1px solid rgba(24,33,51,.16);padding-top:13px}}</style></head><body>
+.note{{font-size:11.5px;color:#727B8A;line-height:1.9;margin-top:22px;border-top:1px solid rgba(24,33,51,.16);padding-top:13px}}
+.cap{{font-size:12px;color:#727B8A;line-height:1.7}} b{{font-weight:600}} i{{font-style:italic}}</style></head><body>
 {NAV.format(a="", b="on", c="")}
 <h1>Anchor <em>ranks</em></h1>
-<div class="sub">{len(FUND_TABLE)} funds graded ({len(_deal_counts)} in registry) · updated {gen_label} · grades recompute daily as new unlocks pass into history</div>
-<div class="card"><b>How the grade works.</b> For every fund we measure what its anchored stocks did in the 5 sessions after each anchor unlock (30D/90D).
-Score starts at 50, rewards a positive median move after their unlocks, and penalises: a high share of negative outcomes, a habit of anchoring
-illiquid issues (unlock &gt;3× daily volume), and pumped-up run-ins (&gt;25% rally into the unlock). More tracked deals adds a small activity bonus.
-<b>STICKY ≥60</b> · NEUTRAL 45–60 · <b>FLIPPER &lt;45</b>. Minimum 3 measured unlocks to be graded.</div>
-<table><tr><th>#</th><th>fund house</th><th>deals</th><th>measured</th><th>median T+5</th><th>% negative</th><th>avg listing gain</th><th>avg current gain</th><th>avg ×vol</th><th>grade</th></tr>{_frows if _frows else "<tr><td colspan=10 style='color:#727B8A'>Grades appear once the historical backfill completes and anchor names finish syncing.</td></tr>"}</table>
-<h2 style="font-family:Fraunces,serif;font-style:italic;font-weight:430;font-size:18px;color:#3F4756;margin:26px 0 8px">Not yet graded (under 3 measured unlocks)</h2>
+<div class="sub">{len(FUND_TABLE)} funds graded · {len(_deal_counts)} funds tracked in total · unlock history covers <b>{_WINDOW}</b> · updated {gen_label}</div>
+<div class="card"><b>What this page tells you.</b> Anchor funds get shares before the IPO and are freed to sell 30/90 days later.
+Some funds' stocks routinely <i>fall</i> right after their lock-ins open — a sign they take profits and leave. Others hold, and their stocks stay stable.
+This page grades each fund on that behaviour, using only what actually happened to prices — no opinions.<br><br>
+<b>Reading a row:</b> "Vikasa · 33 IPOs · 25 watched · +1.1% · 48%" means: Vikasa anchored 33 of our tracked IPOs; 25 of its unlocks have passed;
+the typical stock moved +1.1% in the week after; and 48 out of 100 fell. That is average behaviour → NEUTRAL.<br><br>
+<b>The verdict:</b> <b>STICKY</b> = stocks usually hold up after their unlocks (friendlier to stay invested through).
+<b>FLIPPER</b> = stocks usually drop after their unlocks (be careful holding through their unlock dates). NEUTRAL = in between.
+A fund needs at least 3 measured unlocks to get a verdict.</div>
+<div class="card" style="background:#FBF0DA;border-color:rgba(179,111,0,.3)"><b>Coverage note.</b> 2026 fund lists are complete. For 2024–25 the source
+(Chittorgarh) publicly shows only each year's top-5 funds — the rest sits behind their paid product. So older history is thin for smaller funds;
+coverage completes automatically day by day from here on.</div>
+<table><tr><th>#</th><th>fund house</th><th>IPOs anchored</th><th>unlocks watched</th><th>typical move after their unlocks</th><th>fell how often</th><th>avg listing-day gain</th><th>avg gain today</th><th>unlock size vs daily trading</th><th>verdict</th></tr>{_frows if _frows else "<tr><td colspan=10 style='color:#727B8A'>Grades appear once the historical backfill completes and anchor names finish syncing.</td></tr>"}</table>
+<h2 style="font-family:Fraunces,serif;font-style:italic;font-weight:430;font-size:18px;color:#3F4756;margin:26px 0 8px">Tracked but not yet graded</h2>
+<p class="cap" style="font-size:12px;color:#727B8A;margin:0 0 8px">Every other fund in the registry, with its deal count in brackets — too few finished unlocks to judge yet. They graduate to the table above automatically.</p>
 <div style="font-size:12px;color:#727B8A;line-height:2">{_urows}</div>
-<div class="note">A FLIPPER tag means stocks this fund anchored typically fell after unlock days — correlation across their deals, not proof any fund sold.
-Anchor lists come from public allotment disclosures. Small samples early on; grades firm up as history accumulates. Not investment advice.</div>
+<div class="note">A FLIPPER verdict means stocks this fund anchored typically fell after unlock days — a pattern across their deals, not proof the fund itself sold.
+The more "unlocks watched", the more the verdict means. Fund lists come from public allotment disclosures. Not investment advice.</div>
 </body></html>"""
 with open("docs/anchors.html", "w", encoding="utf-8") as _f:
     _f.write(_anch)
 
-def _tbl(title, headers, rows):
+def _tbl(title, headers, rows, caption=""):
     h = "".join(f"<th>{x}</th>" for x in headers)
     b = "".join("<tr>" + "".join(f"<td>{('—' if c is None else c)}</td>" for c in row) + "</tr>" for row in rows)
-    return f"<h2>{title}</h2><table><tr>{h}</tr>{b}</table>"
+    cap = f"<p class='cap'>{caption}</p>" if caption else ""
+    return f"<h2>{title}</h2>{cap}<table><tr>{h}</tr>{b}</table>"
 
 _tname = {"A30": "30D anchor", "A90": "90D anchor", "PRE6M": "6M pre-IPO", "PX1Y": "1Y promoter", "PX2Y": "2Y promoter"}
 _typ_rows = []
@@ -241,16 +256,26 @@ th{{text-align:left;font-size:10.5px;letter-spacing:.14em;color:#727B8A;padding:
 td{{padding:9px 13px;border-bottom:1px solid rgba(24,33,51,.08);font-family:'IBM Plex Mono',monospace;font-size:12.5px}}
 td:first-child{{font-family:'Instrument Sans',sans-serif;font-weight:500}}\n{_NAVCSS}
 tr:last-child td{{border-bottom:0}}
-.note{{font-size:11.5px;color:#727B8A;line-height:1.9;margin-top:26px;border-top:1px solid rgba(24,33,51,.16);padding-top:14px}}</style></head><body>
+.note{{font-size:11.5px;color:#727B8A;line-height:1.9;margin-top:26px;border-top:1px solid rgba(24,33,51,.16);padding-top:14px}}
+.card{{background:#fff;border:1px solid rgba(24,33,51,.16);border-radius:12px;padding:15px 18px;font-size:13px;color:#3F4756;line-height:1.9;margin:4px 0 8px}}
+.cap{{font-size:12px;color:#727B8A;margin:-4px 0 8px;line-height:1.7}}
+b{{font-weight:600}}</style></head><body>
 {NAV.format(a="", b="", c="on")}\n<h1>Unlock <em>backtest</em></h1>
-<div class="sub">{_n_total} historical unlock events measured · prices from BSE/NSE bhavcopy archives · generated {gen_label} · <a href="index.html">← back to the radar</a><br>
-ret = close-to-close move in the 5 sessions after the unlock date. Negative median = stocks typically fell after that kind of unlock.</div>
-{_tbl("By unlock type", ["type", "events", "median T+5", "% negative"], _typ_rows)}
-{_tbl("Anchor unlocks by supply pressure", ["unlock size vs daily volume", "events", "median T+5", "% negative"], _dov_rows)}
-{_tbl("Anchor unlocks by holders' profit at unlock", ["gain vs IPO price on unlock eve", "events", "median T+5", "% negative"], _pl_rows)}
-{_tbl("Anchor unlocks by run-up into the event", ["price move T−20 → T−1", "events", "median T+5", "% negative"], _ru_rows)}
-{_tbl("Anchor funds — worst post-unlock records (min 4 deals)", ["fund", "deals", "median T+5", "% negative"], FUND_ROWS) if FUND_ROWS else "<h2>Anchor funds</h2><p style='font-size:13px;color:#727B8A'>Fund-level table appears once anchor names finish syncing and at least one fund has 4+ measured unlocks.</p>"}
-<div class="note">Aggregates of past events; small samples early on — read n before believing a median. Dates for pre-IPO/promoter events are rule-computed (±few days). Not investment advice.</div>
+<div class="sub">{_n_total} past unlock events measured, covering <b>{_WINDOW}</b> · official BSE/NSE closing prices · refreshed daily, last: {gen_label} · <a href="index.html">← back to the radar</a></div>
+<div class="card"><b>How to read this page.</b> For every lock-in that opened in the past, we noted the share price just before the unlock day and again 5 trading days later.
+<b>"Typical move"</b> is the middle result — half the stocks did better, half did worse (one crazy stock can't distort it).
+<b>"Fell how often"</b> is simply: out of 100 such unlocks, how many stocks were lower a week later.<br>
+<b>Example:</b> a row reading "90D anchor · 53 · −1.9% · 58%" means: we watched 53 ninety-day unlocks; the typical stock was down 1.9% a week later; 58 out of 100 fell. So 90-day unlocks have been bad news on average.</div>
+{_tbl("Does the type of unlock matter?", ["unlock type", "events watched", "typical move, 5 days later", "fell how often"], _typ_rows,
+      "Each row is one kind of unlock. We watched every one that happened and checked the share price 5 trading days later.")}
+{_tbl("Does size vs liquidity matter?", ["how big vs daily trading", "events watched", "typical move, 5 days later", "fell how often"], _dov_rows,
+      "An unlock of 5× daily trading means the shares set free equal five normal days of all buying and selling — heavy supply to digest.")}
+{_tbl("Does the holders' profit matter?", ["holders' profit on unlock eve", "events watched", "typical move, 5 days later", "fell how often"], _pl_rows,
+      "If holders sit on big profits when their lock-in opens, are they more tempted to sell? This table checks exactly that.")}
+{_tbl("Does a price run-up before the unlock matter?", ["price move in the 20 days before", "events watched", "typical move, 5 days later", "fell how often"], _ru_rows,
+      "Sometimes a stock rallies suspiciously into an unlock date. This checks what usually happens next.")}
+<div class="note">Simple rule for the whole page: <b>the more "events watched", the more you can trust the row.</b> Under ~20 events, treat it as a hint, not a fact.
+Pre-IPO/promoter dates are computed from SEBI rules (can be off by a few days). Not investment advice.</div>
 </body></html>"""
 with open("docs/backtest.html", "w", encoding="utf-8") as _f:
     _f.write(_bt)
