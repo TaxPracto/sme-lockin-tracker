@@ -262,13 +262,13 @@ tr:last-child td{{border-bottom:0}}
 .vpill{{border:1px solid rgba(24,33,51,.2);background:#fff;border-radius:99px;padding:5px 13px;font-size:10.5px;font-weight:700;letter-spacing:.08em;color:#727B8A;cursor:pointer}}
 .vpill.on{{background:#1A2130;color:#fff;border-color:#1A2130}}
 .fchk{{font-size:11.5px;color:#727B8A;display:flex;align-items:center;gap:5px;cursor:pointer}}
-th{{cursor:pointer;user-select:none;white-space:nowrap}}
+th{{cursor:pointer;user-select:none;vertical-align:bottom}}
 th:hover{{background:#EAE6DA}}
 th.sa::after{{content:' ▲';color:#B36F00}}th.sd::after{{content:' ▼';color:#B36F00}}
 .lay{{display:grid;grid-template-columns:minmax(0,1fr) 330px;gap:26px;align-items:start}}
 .lay>aside{{order:2;position:sticky;top:18px;display:flex;flex-direction:column;gap:13px}}
 .lay>aside .card{{margin-bottom:0}}
-.lay>.main{{order:1;min-width:0}}
+.lay>.main{{order:1;min-width:0;overflow-x:auto}}
 @media(max-width:1020px){{.lay{{grid-template-columns:1fr}}.lay>aside{{position:static;order:0}}.lay>.main{{order:0}}}}</style></head><body>
 {NAV.format(a="", b="on", c="")}
 <h1>Anchor <em>ranks</em></h1>
@@ -299,7 +299,7 @@ coverage completes automatically day by day from here on.</div>
   <label class="fchk"><input type="checkbox" id="fmin"> only well-tested (10+ unlocks watched)</label>
   <span style="margin-left:auto;font-size:11px;color:#727B8A">click any column heading to sort</span>
 </div>
-<table id="ftab"><tr><th>#</th><th>fund house</th><th>IPOs anchored</th><th>unlocks watched</th><th>typical move after their unlocks</th><th>fell how often</th><th>avg listing-day gain</th><th>avg gain today</th><th>unlock size vs daily trading</th><th>verdict</th></tr>{_frows if _frows else "<tr><td colspan=10 style='color:#727B8A'>Grades appear once the historical backfill completes and anchor names finish syncing.</td></tr>"}</table>
+<table id="ftab"><tr><th>#</th><th>fund house</th><th>IPOs anchored</th><th>unlocks watched</th><th>typical move after unlock</th><th>fell how often</th><th>listing-day gain</th><th>gain today</th><th>size vs daily vol</th><th>verdict</th></tr>{_frows if _frows else "<tr><td colspan=10 style='color:#727B8A'>Grades appear once the historical backfill completes and anchor names finish syncing.</td></tr>"}</table>
 <h2 style="font-family:Fraunces,serif;font-style:italic;font-weight:430;font-size:18px;color:#3F4756;margin:26px 0 8px">Tracked but not yet graded</h2>
 <p class="cap" style="font-size:12px;color:#727B8A;margin:0 0 8px">Every other fund in the registry, with its deal count in brackets — too few finished unlocks to judge yet. They graduate to the table above automatically.</p>
 <div style="font-size:12px;color:#727B8A;line-height:2">{_urows}</div>
