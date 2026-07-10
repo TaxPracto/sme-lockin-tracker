@@ -210,6 +210,8 @@ Some funds' stocks routinely <i>fall</i> right after their lock-ins open — a s
 This page grades each fund on that behaviour, using only what actually happened to prices — no opinions.<br><br>
 <b>Reading a row:</b> "Vikasa · 33 IPOs · 25 watched · +1.1% · 48%" means: Vikasa anchored 33 of our tracked IPOs; 25 of its unlocks have passed;
 the typical stock moved +1.1% in the week after; and 48 out of 100 fell. That is average behaviour → NEUTRAL.<br><br>
+<b>Why can "unlocks watched" exceed "IPOs anchored"?</b> Every IPO creates <i>two</i> anchor unlocks — one at 30 days, one at 90 days.
+So a fund with 4 IPOs can have up to 8 unlocks; we count only the ones whose date has already passed.<br><br>
 <b>The verdict:</b> <b>STICKY</b> = stocks usually hold up after their unlocks (friendlier to stay invested through).
 <b>FLIPPER</b> = stocks usually drop after their unlocks (be careful holding through their unlock dates). NEUTRAL = in between.
 A fund needs at least 3 measured unlocks to get a verdict.</div>
