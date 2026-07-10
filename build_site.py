@@ -91,11 +91,19 @@ def _med(_v):
     _v = sorted(_v)
     return round(_v[len(_v)//2], 1) if _v else None
 
+def _sgn(_v):
+    return None if _v is None else f"{'+' if _v >= 0 else ''}{_v}%"
+
 _by_type = {}
 for _o in _outs.values():
     if _r5(_o) is not None:
         _by_type.setdefault(_o["type"], []).append(_r5(_o))
 OUTCOME_STATS = {_t: {"n": len(_v), "med": _med(_v)} for _t, _v in _by_type.items()}
+OUT_KEYED = {}
+for _k, _o in _outs.items():
+    if _r5(_o) is not None:
+        OUT_KEYED[_k] = {"r1": _o.get("ret1"), "r5": _r5(_o), "r20": _o.get("ret20"),
+                         "pre": _o.get("pre_close"), "dov": _o.get("dov_ev"), "pl": _o.get("pl_at_unlock")}
 _odates = sorted(o["date"] for o in _outs.values() if _r5(o) is not None and o.get("date"))
 def _dmy(_s):
     _M = ["", "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
@@ -110,7 +118,7 @@ def _bucket_rows(keyfn, buckets, only_anchor=False):
                 if _r5(o) is not None and (not only_anchor or o["type"] in ("A30", "A90"))
                 and keyfn(o) is not None and lo <= keyfn(o) < hi]
         neg = sum(1 for v in vals if v < 0)
-        rows.append((lbl, len(vals), _med(vals), round(neg / len(vals) * 100) if vals else None))
+        rows.append((lbl, len(vals), _sgn(_med(vals)), f"{round(neg / len(vals) * 100)}%" if vals else None))
     return rows
 
 _registry = {}
@@ -250,7 +258,7 @@ _typ_rows = []
 for _t in ("A30", "A90", "PRE6M", "PX1Y", "PX2Y"):
     _v = _by_type.get(_t, [])
     if _v:
-        _typ_rows.append((_tname[_t], len(_v), _med(_v), round(sum(1 for x in _v if x < 0) / len(_v) * 100)))
+        _typ_rows.append((_tname[_t], len(_v), _sgn(_med(_v)), f"{round(sum(1 for x in _v if x < 0) / len(_v) * 100)}%"))
 _dov_rows = _bucket_rows(lambda o: o.get("dov_ev"), [("under 1× vol", 0, 1), ("1–5× vol", 1, 5), ("over 5× vol", 5, 10_000)], True)
 _pl_rows = _bucket_rows(lambda o: o.get("pl_at_unlock"), [("underwater at unlock", -10_000, 0), ("0–50% gain", 0, 50), ("over 50% gain", 50, 100_000)], True)
 _ru_rows = _bucket_rows(lambda o: o.get("runup20"), [("fell into unlock", -10_000, 0), ("0–25% run-up", 0, 25), ("over 25% run-up", 25, 100_000)], True)
@@ -425,6 +433,14 @@ i.cmpc,.cseg.cmpc{background:#99A1B0} i.cexc,.cseg.cexc{background:#D85A30} i.cp
 .tld.done{opacity:.35}
 .tlnow{position:absolute;top:5px;width:2.5px;height:24px;background:var(--red);transform:translateX(-50%)}
 .tll{position:absolute;top:32px;font-size:9.5px;color:var(--mut);font-family:var(--mono);line-height:1.5;white-space:nowrap}
+.mtabs{display:flex;gap:8px;margin:18px 0 10px}
+.mtab{border:1px solid var(--line2);background:var(--panel2);border-radius:99px;padding:6px 15px;font-family:'Instrument Sans',sans-serif;font-size:10.5px;font-weight:700;letter-spacing:.1em;color:var(--mut);cursor:pointer}
+.mtab.on{background:#1A2130;color:#fff;border-color:#1A2130}
+.hrow{display:flex;gap:7px;margin-top:9px;flex-wrap:wrap}
+.hbox{flex:1;min-width:76px;background:var(--panel2);border-radius:9px;padding:6px 9px;text-align:center}
+.hk{font-size:9px;font-weight:700;letter-spacing:.12em;color:var(--mut)}
+.hv{font-family:var(--mono);font-size:13.5px;font-weight:600;margin-top:2px}
+.hcmp{font-size:11.5px;color:var(--mut2);margin-top:9px;line-height:1.7;border-top:1px dashed var(--line2);padding-top:7px}
 .mev{border:1px solid var(--line);border-left-width:3.5px;border-radius:10px;padding:11px 14px;margin-bottom:8px;background:#FDFCFA}
 .mev.b30{border-left-color:#EF9F27}.mev.b90{border-left-color:#14A38B}.mev.bpre{border-left-color:#7F77DD}.mev.bpx{border-left-color:#D85A30}
 .mev .top{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
@@ -478,6 +494,9 @@ footer b{color:var(--mut2);font-weight:600}
 <div class="pb" id="pboard"></div>
 <div class="legend"><span class="dot bgreen"></span> under 1× easily absorbed &nbsp; <span class="dot bamber"></span> 1–5× heavy &nbsp; <span class="dot bred"></span> over 5× supply cliff</div>
 
+<div class="sec" style="margin-top:30px">Just passed — how those unlocks actually went <span class="hint" title="Events from the last 30 days: the stock's move 5 trading days after the unlock, coloured green/red. Click a row for full history.">ⓘ</span></div>
+<div class="wbox" id="jpast"></div>
+
 <div class="sec" style="margin-top:30px">Horizon</div>
 <div class="hzrow">
   <input type="range" min="15" max="180" step="15" value="60" id="hz">
@@ -511,6 +530,7 @@ footer b{color:var(--mut2);font-weight:600}
 <script>
 const DATA = __DATA__;
 const STATS = __STATS__;
+const OUTS = __OUTS__;
 const FUNDS = __FUNDS__;
 const REG = __REG__;
 const IST_OFF = 330;
@@ -649,11 +669,42 @@ function fundsBlock(r){
   }).join('');
   return `<div class="msec">ANCHOR INVESTORS (${names.length}) <span style="letter-spacing:0;font-weight:400">· ×n = deals across tracked SME IPOs</span></div><div>${chips}</div>`;
 }
-function openModal(slug){
+function retBox(lbl, v){
+  if(v == null) return '';
+  const c = v >= 0 ? 'var(--green)' : 'var(--red)';
+  return `<div class="hbox"><div class="hk">${lbl}</div><div class="hv" style="color:${c}">${v >= 0 ? '+' : ''}${v}%</div></div>`;
+}
+function histCard(e, r){
+  const o = OUTS[`${r.slug}|${e.t}`];
+  const dd = -dayDiff(e.d);
+  const size = [e.sh ? shFmt(e.sh) + ' sh' : null, e.pct != null ? e.pct + '% of company' : null].filter(Boolean).join(' · ');
+  let body = '';
+  if(o){
+    body = `<div class="hrow">${o.pre != null ? `<div class="hbox"><div class="hk">CLOSE BEFORE</div><div class="hv">₹${o.pre}</div></div>` : ''}${retBox('+1 DAY', o.r1)}${retBox('+5 DAYS', o.r5)}${retBox('+20 DAYS', o.r20)}</div>`;
+    const st = STATS[e.t];
+    if(st && st.n >= 5 && o.r5 != null){
+      const diff = o.r5 - st.med;
+      const verdict = diff > 2 ? `<b style="color:var(--green)">held up better than typical</b>` : diff < -2 ? `<b style="color:var(--red)">did worse than typical</b>` : `<b>about in line with typical</b>`;
+      body += `<div class="hcmp">Benchmark: after a ${TYPE[e.t].lbl} unlock the typical stock moves ${st.med >= 0 ? '+' : ''}${st.med}% in 5 days (${st.n} watched). This one moved ${o.r5 >= 0 ? '+' : ''}${o.r5}% → ${verdict}.</div>`;
+    }
+  } else {
+    body = `<div class="hcmp">Price history for this unlock is still syncing — it appears after the next morning run.</div>`;
+  }
+  return `<div class="mev ${BCLS[e.t]}">
+    <div class="top"><b>${TLONG[e.t]}</b><span class="num2">${fmtL(e.d)} · ${dd}d ago</span></div>
+    ${size ? `<div class="num2" style="margin-top:4px">${size}</div>` : ''}${body}</div>`;
+}
+function mTab(btn, id){
+  document.querySelectorAll('.mtab').forEach(b => b.classList.toggle('on', b === btn));
+  document.querySelectorAll('.mtabc').forEach(d => d.style.display = d.id === id ? '' : 'none');
+}
+function openModal(slug, tab){
   const r = DATA.records.find(x => x.slug === slug);
   if(!r) return;
   const evs = (r.events || []).slice().sort((a,b) => a.d.localeCompare(b.d));
-  const evHtml = evs.map(e => {
+  const past = evs.filter(e => dayDiff(e.d) < 0);
+  const upc = evs.filter(e => dayDiff(e.d) >= 0);
+  const evHtml = upc.map(e => {
     const dd = dayDiff(e.d);
     const when = dd === 0 ? 'TODAY' : dd > 0 ? `D-${dd}` : `${-dd}d ago`;
     const size = [e.sh ? shFmt(e.sh) + ' sh' : null, e.pct != null ? e.pct + '% of company' : null].filter(Boolean).join(' · ') || 'size n/a';
@@ -661,7 +712,9 @@ function openModal(slug){
       <div class="top"><b>${TLONG[e.t]}</b><span class="num2">${fmtL(e.d)} · ${when}</span></div>
       <div class="num2" style="margin-top:4px">${size}</div>${evViz(e, r)}
       <div class="how">${explain(e, r)}</div></div>`;
-  }).join('') || '<div class="empty">no events computed</div>';
+  }).join('') || '<div class="empty">no upcoming unlocks — all tracked lock-ins have opened</div>';
+  const histHtml = past.slice().reverse().map(e => histCard(e, r)).join('') || '<div class="empty">no unlocks have passed yet</div>';
+  const defUp = tab === 'h' ? false : (upc.length > 0 || past.length === 0);
   const mpc = r.post_shares ? Math.round(r.post_shares * 0.2) : null;
   $('mcard').innerHTML = `
     <div class="mhead"><div>
@@ -680,8 +733,12 @@ function openModal(slug){
     ${capBar(r)}
     ${timelineViz(r)}
     ${fundsBlock(r)}
-    <div class="msec">UNLOCK EVENTS — QUANTITY &amp; DATE MATH</div>
-    ${evHtml}
+    <div class="mtabs">
+      <button class="mtab ${defUp ? 'on' : ''}" onclick="mTab(this,'mtabu')">UPCOMING (${upc.length})</button>
+      <button class="mtab ${defUp ? '' : 'on'}" onclick="mTab(this,'mtabh')">HISTORY (${past.length})</button>
+    </div>
+    <div class="mtabc" id="mtabu" style="${defUp ? '' : 'display:none'}">${evHtml}</div>
+    <div class="mtabc" id="mtabh" style="${defUp ? 'display:none' : ''}">${histHtml}</div>
     <div class="mnote">Anchor dates are exchange-published; "est." events are computed from prospectus data + SEBI ICDR rules — verify against the listing circular. Volume multiple uses recent tracked sessions; AIF/VC exemptions and ESOPs can change actual free-float.</div>
     <div class="mbtns">
       ${r.url ? `<a class="mbtn primary" href="${r.url}" target="_blank" rel="noopener">Chittorgarh page ↗</a>` : ''}
@@ -693,7 +750,7 @@ function openModal(slug){
 function closeModal(){ $('mback').classList.remove('on'); document.body.style.overflow = ''; }
 document.addEventListener('click', ev => {
   const t = ev.target.closest('[data-slug]');
-  if(t){ ev.preventDefault(); openModal(t.dataset.slug); return; }
+  if(t){ ev.preventDefault(); openModal(t.dataset.slug, t.dataset.mtab); return; }
   if(ev.target.id === 'mback') closeModal();
 });
 document.addEventListener('keydown', ev => { if(ev.key === 'Escape') closeModal(); });
@@ -733,6 +790,22 @@ function render(){
       <span class="pbdov ${dovCls(dv)}"><span class="dot ${dovDot(dv)}"></span>${dovLab(dv)}</span>
     </div>`;
   }).join('') || '<div class="empty" style="padding:14px">volume data syncs after the next market session — check back tomorrow</div>';
+
+  const jp = past.filter(e => dayDiff(e.d) >= -30).slice(0, 8);
+  $('jpast').innerHTML = jp.map(e => {
+    const dd = -dayDiff(e.d);
+    const o = OUTS[`${e.r.slug}|${e.t}`];
+    const chip = (o && o.r5 != null)
+      ? `<div class="v" style="color:${o.r5 >= 0 ? 'var(--green)' : 'var(--red)'}">${o.r5 >= 0 ? '+' : ''}${o.r5}%</div><div class="s">5 days after</div>`
+      : `<div class="v" style="color:var(--mut)">—</div><div class="s">syncing</div>`;
+    return `<div class="wrow" data-slug="${e.r.slug}" data-mtab="h">
+      <div class="wd">${dd}d ago<br><span style="font-weight:400">${fmtS(e.d)}</span></div>
+      <div class="wmain"><div class="wname">${esc(e.r.company)}${plChip(e.r)}</div>
+      <div class="wsub">${e.sh ? shFmt(e.sh)+' sh' : ''}${e.pct != null ? ' · '+e.pct+'% of company' : ''}</div></div>
+      ${pills(e)}
+      <div class="wnum">${chip}</div>
+    </div>`;
+  }).join('') || '<div class="empty" style="padding:16px 14px">no unlocks in the last 30 days</div>';
 
   drawStrip(up);
   drawLedger(up, past);
@@ -784,6 +857,7 @@ render();
 
 html = HTML.replace("__DATA__", json.dumps(payload, ensure_ascii=False)) \
            .replace("__STATS__", json.dumps(OUTCOME_STATS)) \
+           .replace("__OUTS__", json.dumps(OUT_KEYED)) \
            .replace("__FUNDS__", json.dumps(FUND_COUNTS, ensure_ascii=False)) \
            .replace("__REG__", json.dumps(_slug_names, ensure_ascii=False)) \
            .replace("__GENERATED__", gen_label)
