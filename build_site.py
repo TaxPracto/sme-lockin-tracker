@@ -191,7 +191,7 @@ os.makedirs("docs", exist_ok=True)
 _anch = f"""<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Unlock Radar — anchor ranks</title>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Instrument+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-<style>body{{background:#F7F5F0;color:#1A2130;font-family:'Instrument Sans',system-ui,sans-serif;font-size:15px;max-width:920px;margin:0 auto;padding:32px 24px 60px}}
+<style>body{{background:#F7F5F0;color:#1A2130;font-family:'Instrument Sans',system-ui,sans-serif;font-size:15px;max-width:1360px;margin:0 auto;padding:32px 24px 60px}}
 h1{{font-family:Fraunces,serif;font-weight:400;font-size:36px;margin-bottom:4px}}h1 em{{font-style:italic;color:#B36F00}}
 .sub{{font-size:12.5px;color:#727B8A;margin:6px 0 20px;line-height:1.8}}
 {_NAVCSS}
@@ -201,29 +201,40 @@ td{{padding:9px 11px;border-bottom:1px solid rgba(24,33,51,.08);font-family:'IBM
 tr:last-child td{{border-bottom:0}}
 .card{{background:#fff;border:1px solid rgba(24,33,51,.16);border-radius:12px;padding:16px 18px;font-size:12.5px;color:#3F4756;line-height:1.9;margin-bottom:22px}}
 .note{{font-size:11.5px;color:#727B8A;line-height:1.9;margin-top:22px;border-top:1px solid rgba(24,33,51,.16);padding-top:13px}}
-.cap{{font-size:12px;color:#727B8A;line-height:1.7}} b{{font-weight:600}} i{{font-style:italic}}</style></head><body>
+.cap{{font-size:12px;color:#727B8A;line-height:1.7}} b{{font-weight:600}} i{{font-style:italic}}
+.lay{{display:grid;grid-template-columns:minmax(0,1fr) 330px;gap:26px;align-items:start}}
+.lay>aside{{order:2;position:sticky;top:18px;display:flex;flex-direction:column;gap:13px}}
+.lay>aside .card{{margin-bottom:0}}
+.lay>.main{{order:1;min-width:0}}
+@media(max-width:1020px){{.lay{{grid-template-columns:1fr}}.lay>aside{{position:static;order:0}}.lay>.main{{order:0}}}}</style></head><body>
 {NAV.format(a="", b="on", c="")}
 <h1>Anchor <em>ranks</em></h1>
 <div class="sub">{len(FUND_TABLE)} funds graded · {len(_deal_counts)} funds tracked in total · unlock history covers <b>{_WINDOW}</b> · updated {gen_label}</div>
+<div class="lay">
+<aside class="rail">
 <div class="card"><b>What this page tells you.</b> Anchor funds get shares before the IPO and are freed to sell 30/90 days later.
 Some funds' stocks routinely <i>fall</i> right after their lock-ins open — a sign they take profits and leave. Others hold, and their stocks stay stable.
-This page grades each fund on that behaviour, using only what actually happened to prices — no opinions.<br><br>
-<b>Reading a row:</b> "Vikasa · 33 IPOs · 25 watched · +1.1% · 48%" means: Vikasa anchored 33 of our tracked IPOs; 25 of its unlocks have passed;
+This page grades each fund on that behaviour, using only what actually happened to prices — no opinions.</div>
+<div class="card"><b>Reading a row:</b> "Vikasa · 33 IPOs · 25 watched · +1.1% · 48%" means: Vikasa anchored 33 of our tracked IPOs; 25 of its unlocks have passed;
 the typical stock moved +1.1% in the week after; and 48 out of 100 fell. That is average behaviour → NEUTRAL.<br><br>
 <b>Why can "unlocks watched" exceed "IPOs anchored"?</b> Every IPO creates <i>two</i> anchor unlocks — one at 30 days, one at 90 days.
-So a fund with 4 IPOs can have up to 8 unlocks; we count only the ones whose date has already passed.<br><br>
-<b>The verdict:</b> <b>STICKY</b> = stocks usually hold up after their unlocks (friendlier to stay invested through).
+So a fund with 4 IPOs can have up to 8 unlocks; we count only the ones whose date has already passed.</div>
+<div class="card"><b>The verdict:</b> <b>STICKY</b> = stocks usually hold up after their unlocks (friendlier to stay invested through).
 <b>FLIPPER</b> = stocks usually drop after their unlocks (be careful holding through their unlock dates). NEUTRAL = in between.
 A fund needs at least 3 measured unlocks to get a verdict.</div>
 <div class="card" style="background:#FBF0DA;border-color:rgba(179,111,0,.3)"><b>Coverage note.</b> 2026 fund lists are complete. For 2024–25 the source
 (Chittorgarh) publicly shows only each year's top-5 funds — the rest sits behind their paid product. So older history is thin for smaller funds;
 coverage completes automatically day by day from here on.</div>
+</aside>
+<div class="main">
 <table><tr><th>#</th><th>fund house</th><th>IPOs anchored</th><th>unlocks watched</th><th>typical move after their unlocks</th><th>fell how often</th><th>avg listing-day gain</th><th>avg gain today</th><th>unlock size vs daily trading</th><th>verdict</th></tr>{_frows if _frows else "<tr><td colspan=10 style='color:#727B8A'>Grades appear once the historical backfill completes and anchor names finish syncing.</td></tr>"}</table>
 <h2 style="font-family:Fraunces,serif;font-style:italic;font-weight:430;font-size:18px;color:#3F4756;margin:26px 0 8px">Tracked but not yet graded</h2>
 <p class="cap" style="font-size:12px;color:#727B8A;margin:0 0 8px">Every other fund in the registry, with its deal count in brackets — too few finished unlocks to judge yet. They graduate to the table above automatically.</p>
 <div style="font-size:12px;color:#727B8A;line-height:2">{_urows}</div>
 <div class="note">A FLIPPER verdict means stocks this fund anchored typically fell after unlock days — a pattern across their deals, not proof the fund itself sold.
 The more "unlocks watched", the more the verdict means. Fund lists come from public allotment disclosures. Not investment advice.</div>
+</div>
+</div>
 </body></html>"""
 with open("docs/anchors.html", "w", encoding="utf-8") as _f:
     _f.write(_anch)
@@ -249,7 +260,7 @@ os.makedirs("docs", exist_ok=True)
 _bt = f"""<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Unlock Radar — backtest</title>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Instrument+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-<style>body{{background:#F7F5F0;color:#1A2130;font-family:'Instrument Sans',system-ui,sans-serif;font-size:15px;max-width:860px;margin:0 auto;padding:36px 24px 60px}}
+<style>body{{background:#F7F5F0;color:#1A2130;font-family:'Instrument Sans',system-ui,sans-serif;font-size:15px;max-width:1360px;margin:0 auto;padding:36px 24px 60px}}
 h1{{font-family:Fraunces,serif;font-weight:400;font-size:38px}}h1 em{{font-style:italic;color:#B36F00}}
 .sub{{font-size:12.5px;color:#727B8A;margin-top:6px;line-height:1.8}}.sub a{{color:#0E7490}}
 h2{{font-family:Fraunces,serif;font-style:italic;font-weight:430;font-size:19px;color:#3F4756;margin:30px 0 10px}}
@@ -261,21 +272,26 @@ tr:last-child td{{border-bottom:0}}
 .note{{font-size:11.5px;color:#727B8A;line-height:1.9;margin-top:26px;border-top:1px solid rgba(24,33,51,.16);padding-top:14px}}
 .card{{background:#fff;border:1px solid rgba(24,33,51,.16);border-radius:12px;padding:15px 18px;font-size:13px;color:#3F4756;line-height:1.9;margin:4px 0 8px}}
 .cap{{font-size:12px;color:#727B8A;margin:-4px 0 8px;line-height:1.7}}
-b{{font-weight:600}}</style></head><body>
+b{{font-weight:600}}
+.grid2{{display:grid;grid-template-columns:1fr 1fr;gap:6px 30px;align-items:start;margin-top:14px}}
+.grid2 .card{{margin:4px 0 0}}
+@media(max-width:1020px){{.grid2{{grid-template-columns:1fr}}}}</style></head><body>
 {NAV.format(a="", b="", c="on")}\n<h1>Unlock <em>backtest</em></h1>
 <div class="sub">{_n_total} past unlock events measured, covering <b>{_WINDOW}</b> · official BSE/NSE closing prices · refreshed daily, last: {gen_label} · <a href="index.html">← back to the radar</a></div>
+<div class="grid2">
 <div class="card"><b>How to read this page.</b> For every lock-in that opened in the past, we noted the share price just before the unlock day and again 5 trading days later.
 <b>"Typical move"</b> is the middle result — half the stocks did better, half did worse (one crazy stock can't distort it).
-<b>"Fell how often"</b> is simply: out of 100 such unlocks, how many stocks were lower a week later.<br>
-<b>Example:</b> a row reading "90D anchor · 53 · −1.9% · 58%" means: we watched 53 ninety-day unlocks; the typical stock was down 1.9% a week later; 58 out of 100 fell. So 90-day unlocks have been bad news on average.</div>
-{_tbl("Does the type of unlock matter?", ["unlock type", "events watched", "typical move, 5 days later", "fell how often"], _typ_rows,
-      "Each row is one kind of unlock. We watched every one that happened and checked the share price 5 trading days later.")}
-{_tbl("Does size vs liquidity matter?", ["how big vs daily trading", "events watched", "typical move, 5 days later", "fell how often"], _dov_rows,
-      "An unlock of 5× daily trading means the shares set free equal five normal days of all buying and selling — heavy supply to digest.")}
-{_tbl("Does the holders' profit matter?", ["holders' profit on unlock eve", "events watched", "typical move, 5 days later", "fell how often"], _pl_rows,
-      "If holders sit on big profits when their lock-in opens, are they more tempted to sell? This table checks exactly that.")}
-{_tbl("Does a price run-up before the unlock matter?", ["price move in the 20 days before", "events watched", "typical move, 5 days later", "fell how often"], _ru_rows,
-      "Sometimes a stock rallies suspiciously into an unlock date. This checks what usually happens next.")}
+<b>"Fell how often"</b> is simply: out of 100 such unlocks, how many stocks were lower a week later.</div>
+<div class="card"><b>Example:</b> a row reading "90D anchor · 53 · −1.9% · 58%" means: we watched 53 ninety-day unlocks; the typical stock was down 1.9% a week later; 58 out of 100 fell. So 90-day unlocks have been bad news on average.</div>
+<div>{_tbl("Does the type of unlock matter?", ["unlock type", "events watched", "typical move, 5 days later", "fell how often"], _typ_rows,
+      "Each row is one kind of unlock. We watched every one that happened and checked the share price 5 trading days later.")}</div>
+<div>{_tbl("Does size vs liquidity matter?", ["how big vs daily trading", "events watched", "typical move, 5 days later", "fell how often"], _dov_rows,
+      "An unlock of 5× daily trading means the shares set free equal five normal days of all buying and selling — heavy supply to digest.")}</div>
+<div>{_tbl("Does the holders' profit matter?", ["holders' profit on unlock eve", "events watched", "typical move, 5 days later", "fell how often"], _pl_rows,
+      "If holders sit on big profits when their lock-in opens, are they more tempted to sell? This table checks exactly that.")}</div>
+<div>{_tbl("Does a price run-up before the unlock matter?", ["price move in the 20 days before", "events watched", "typical move, 5 days later", "fell how often"], _ru_rows,
+      "Sometimes a stock rallies suspiciously into an unlock date. This checks what usually happens next.")}</div>
+</div>
 <div class="note">Simple rule for the whole page: <b>the more "events watched", the more you can trust the row.</b> Under ~20 events, treat it as a hint, not a fact.
 Pre-IPO/promoter dates are computed from SEBI rules (can be off by a few days). Not investment advice.</div>
 </body></html>"""
