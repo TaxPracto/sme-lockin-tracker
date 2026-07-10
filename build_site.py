@@ -185,17 +185,44 @@ NAV = """<div class="nav"><a href="index.html" class="{a}">Radar</a><a href="anc
 _NAVCSS = ".nav{display:flex;gap:8px;margin:0 0 18px}.nav a{padding:7px 16px;border:1px solid rgba(24,33,51,.16);border-radius:99px;font-size:12px;font-weight:600;color:#3F4756;background:#fff;text-decoration:none}.nav a.on{background:#1A2130;color:#fff;border-color:#1A2130}"
 
 _gcol = {"STICKY": ("#E1F5EE", "#0F6E56"), "NEUTRAL": ("#FBF0DA", "#854F0B"), "FLIPPER": ("#FBE4E7", "#A32D2D")}
+_FDATA = []
+for _f in FUND_TABLE:
+    _FDATA.append({
+        "fund": _f["fund"], "n": _f["n"], "deals": _f["deals"], "score": _f["score"], "grade": _f["grade"],
+        "med": _f["med"], "pneg": _f["pneg"], "adov": _f["adov"], "aru": _f["aru"],
+        "cmed": round(2.5 * max(min(_f["med"], 10), -10), 1),
+        "cneg": round(-0.3 * (_f["pneg"] - 50), 1),
+        "cdov": round(-1.2 * max((_f["adov"] or 0) - 3, 0), 1),
+        "cru": round(-0.05 * max((_f["aru"] or 0) - 25, 0), 1),
+        "cdl": round(min(_f["deals"], 10) * 0.5, 1)})
 _frows = ""
 for _i, _f in enumerate(FUND_TABLE):
     _bg, _fg = _gcol[_f["grade"]]
-    _frows += (f"<tr><td>{_i+1}</td><td style=\"font-family:'Instrument Sans',sans-serif;font-weight:500\">{_f['fund']}</td>"
+    _frows += (f"<tr><td>{_i+1}</td><td class=\"fname\" data-fi=\"{_i}\" style=\"font-family:'Instrument Sans',sans-serif;font-weight:500\">{_f['fund']}</td>"
                f"<td>{_f['deals']}</td><td>{_f['n']}</td><td>{_f['med']}%</td><td>{_f['pneg']}%</td>"
                f"<td>{_f['lg'] if _f.get('lg') is not None else '—'}%</td><td>{_f['cg'] if _f.get('cg') is not None else '—'}%</td>"
                f"<td>{_f['adov'] if _f['adov'] is not None else '—'}×</td>"
                f"<td><span style='background:{_bg};color:{_fg};padding:2px 10px;border-radius:99px;font-size:10.5px;font-weight:700'>{_f['grade']}</span></td></tr>")
 _urows = " · ".join(f"{k} ({c})" for k, c in _UNGRADED) or "—"
 
-_ANCH_JS = """<script>
+_ANCH_JS = """<style>
+.fname{cursor:pointer;text-decoration:underline dotted rgba(24,33,51,.35);text-underline-offset:3px}
+.fname:hover{color:#B36F00}
+#fback{position:fixed;inset:0;background:rgba(16,24,40,.45);display:none;align-items:center;justify-content:center;z-index:60;padding:18px}
+#fback.on{display:flex}
+#fcard{background:#fff;border:1px solid rgba(24,33,51,.16);border-radius:16px;max-width:600px;width:100%;max-height:88vh;overflow-y:auto;padding:24px 26px 20px;box-shadow:0 24px 60px rgba(16,24,40,.25)}
+#fcard h3{font-family:Fraunces,serif;font-weight:500;font-size:22px;margin:0 0 2px}
+.fsub{font-size:12px;color:#727B8A;margin-bottom:14px}
+.srow{display:grid;grid-template-columns:1fr 92px 64px;gap:10px;align-items:center;padding:9px 0;border-bottom:1px solid rgba(24,33,51,.08);font-size:12.5px;color:#3F4756}
+.srow .in{font-family:'IBM Plex Mono',monospace;font-size:12px;text-align:right;color:#1A2130}
+.srow .pt{font-family:'IBM Plex Mono',monospace;font-size:12.5px;font-weight:600;text-align:right}
+.srow small{display:block;color:#727B8A;font-size:10.5px;margin-top:1px}
+.sbar{height:5px;border-radius:4px;margin-top:5px}
+.stot{display:flex;justify-content:space-between;align-items:center;padding:13px 0 4px;font-size:13.5px;font-weight:600}
+.fnote{font-size:11px;color:#727B8A;line-height:1.7;margin-top:12px;border-top:1px solid rgba(24,33,51,.12);padding-top:10px}
+</style>
+<div id="fback"><div id="fcard"></div></div>
+<script>
 (function(){
 const tab=document.getElementById('ftab');
 const heads=[...tab.rows[0].cells];
@@ -237,6 +264,40 @@ heads.forEach((h,i)=>{if(i===0)return;h.addEventListener('click',()=>{
   });
   rs.forEach(r=>tab.tBodies[0].appendChild(r));
 });});
+const FDATA = __FD__;
+const gcol = {STICKY:['#E1F5EE','#0F6E56'], NEUTRAL:['#FBF0DA','#854F0B'], FLIPPER:['#FBE4E7','#A32D2D']};
+function srow(label, note, input, pts, max){
+  const c = pts >= 0 ? '#0B8A4D' : '#E24B4A';
+  const w = Math.min(Math.abs(pts) / max * 100, 100);
+  return `<div class="srow"><div>${label}<small>${note}</small><div class="sbar" style="background:${c};width:${Math.max(w,1.5)}%;opacity:${pts===0?0.15:1}"></div></div>
+    <div class="in">${input}</div><div class="pt" style="color:${c}">${pts >= 0 ? '+' : ''}${pts}</div></div>`;
+}
+function openFund(i){
+  const f = FDATA[i];
+  const [bg, fg] = gcol[f.grade];
+  document.getElementById('fcard').innerHTML = `
+    <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:10px">
+      <div><h3>${f.fund}</h3><div class="fsub">${f.deals} IPOs anchored \u00b7 ${f.n} unlocks watched</div></div>
+      <button onclick="document.getElementById('fback').classList.remove('on')" style="border:1px solid rgba(24,33,51,.2);background:#fff;border-radius:8px;padding:5px 11px;font-size:11px;cursor:pointer;color:#3F4756">\u2715 esc</button>
+    </div>
+    <div class="srow" style="border-bottom:1px dashed rgba(24,33,51,.2)"><div><b>Every fund starts at</b></div><div class="in"></div><div class="pt">50</div></div>
+    ${srow('Typical move in the week after its unlocks', 'the big one \u00b7 2.5 pts per %, capped at \u00b110%', (f.med >= 0 ? '+' : '') + f.med + '%', f.cmed, 25)}
+    ${srow('How often its stocks fell', 'vs a 50/50 coin-flip \u00b7 0.3 pts per % better or worse', f.pneg + '%', f.cneg, 15)}
+    ${srow('Heaviness of its unlocks', 'size vs daily trading \u00b7 penalty only above 3\u00d7', f.adov != null ? f.adov + '\u00d7' : '\u2014', f.cdov, 15)}
+    ${srow('Price run-up into its unlock dates', 'pump-and-dump guard \u00b7 penalty only above +25%', f.aru != null ? (f.aru >= 0 ? '+' : '') + f.aru + '%' : '\u2014', f.cru, 10)}
+    ${srow('Experience bonus', '\u00bd point per IPO anchored, max 10 IPOs', f.deals + ' IPOs', f.cdl, 5)}
+    <div class="stot"><span>Total score</span><span style="font-family:'IBM Plex Mono',monospace">${f.score}
+      <span style="background:${bg};color:${fg};padding:3px 12px;border-radius:99px;font-size:11px;font-weight:700;margin-left:8px">${f.grade}</span></span></div>
+    <div class="fnote">60 or more = STICKY \u00b7 under 45 = FLIPPER \u00b7 in between = NEUTRAL.
+    The fewer unlocks watched (${f.n} here), the softer you should hold this verdict \u2014 grades firm up automatically as more of this fund's unlocks pass.</div>`;
+  document.getElementById('fback').classList.add('on');
+}
+document.getElementById('ftab').addEventListener('click', e => {
+  const td = e.target.closest('td.fname');
+  if(td) openFund(+td.dataset.fi);
+});
+document.getElementById('fback').addEventListener('click', e => { if(e.target.id === 'fback') e.target.classList.remove('on'); });
+document.addEventListener('keydown', e => { if(e.key === 'Escape') document.getElementById('fback').classList.remove('on'); });
 })();
 </script>
 </body></html>"""
@@ -307,7 +368,7 @@ coverage completes automatically day by day from here on.</div>
 The more "unlocks watched", the more the verdict means. Fund lists come from public allotment disclosures. Not investment advice.</div>
 </div>
 </div>
-""" + _ANCH_JS
+""" + _ANCH_JS.replace("__FD__", json.dumps(_FDATA))
 with open("docs/anchors.html", "w", encoding="utf-8") as _f:
     _f.write(_anch)
 
