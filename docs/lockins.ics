@@ -5,6 +5,41 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:sbi-funds-management-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260816
+DTEND;VALUE=DATE:20260817
+SUMMARY:🔓 SBI Funds Management Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/sbi-funds-management-ipo/2949/
+END:VEVENT
+BEGIN:VEVENT
+UID:sbi-funds-management-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:🔓 SBI Funds Management Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/sbi-funds-management-ipo/2949/
+END:VEVENT
+BEGIN:VEVENT
+UID:millworks-technologies-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260816
+DTEND;VALUE=DATE:20260817
+SUMMARY:🔓 Millworks Technologies Ltd. — 30D anchor unlock (662\,600 sh\; 3.76% of capital\; ~Rs.21.9 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/millworks-technologies-ipo/2866/
+END:VEVENT
+BEGIN:VEVENT
+UID:millworks-technologies-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:🔓 Millworks Technologies Ltd. — 90D anchor unlock (662\,600 sh\; 3.76% of capital\; ~Rs.21.9 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/millworks-technologies-ipo/2866/
+END:VEVENT
+BEGIN:VEVENT
+UID:millworks-technologies-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270113
+DTEND;VALUE=DATE:20270114
+SUMMARY:🔓 Millworks Technologies Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/millworks-technologies-ipo/2866/
+END:VEVENT
+BEGIN:VEVENT
 UID:devson-catalyst-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260813
 DTEND;VALUE=DATE:20260814
@@ -138,41 +173,6 @@ SUMMARY:🔓 Knack Packaging Ltd. — 90D anchor unlock (3\,860\,293 sh\; ~Rs.65
 DESCRIPTION:https://www.chittorgarh.com/ipo/knack-packaging-ipo/2592/
 END:VEVENT
 BEGIN:VEVENT
-UID:kratikal-tech-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260802
-DTEND;VALUE=DATE:20260803
-SUMMARY:🔓 Kratikal Tech Ltd. — 30D anchor unlock (415\,500 sh\; 3.74% of capital\; ~Rs.5.6 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/kratikal-tech-ipo/2844/
-END:VEVENT
-BEGIN:VEVENT
-UID:kratikal-tech-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20261002
-SUMMARY:🔓 Kratikal Tech Ltd. — 90D anchor unlock (415\,500 sh\; 3.74% of capital\; ~Rs.5.6 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/kratikal-tech-ipo/2844/
-END:VEVENT
-BEGIN:VEVENT
-UID:kratikal-tech-ipo-PRE6M@unlockradar
-DTSTART;VALUE=DATE:20261229
-DTEND;VALUE=DATE:20261230
-SUMMARY:🔓 Kratikal Tech Ltd. — 6M pre-IPO unlock (2\,237\,621 sh\; 20.16% of capital)
-DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/kratikal-tech-ipo/2844/
-END:VEVENT
-BEGIN:VEVENT
-UID:kratikal-tech-ipo-PX1Y@unlockradar
-DTSTART;VALUE=DATE:20270629
-DTEND;VALUE=DATE:20270630
-SUMMARY:🔓 Kratikal Tech Ltd. — 1Y promoter unlock (1\,851\,570 sh\; 16.68% of capital)
-DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/kratikal-tech-ipo/2844/
-END:VEVENT
-BEGIN:VEVENT
-UID:kratikal-tech-ipo-PX2Y@unlockradar
-DTSTART;VALUE=DATE:20280629
-DTEND;VALUE=DATE:20280630
-SUMMARY:🔓 Kratikal Tech Ltd. — 2Y promoter unlock (1\,851\,570 sh\; 16.68% of capital)
-DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/kratikal-tech-ipo/2844/
-END:VEVENT
-BEGIN:VEVENT
 UID:sampark-india-logistics-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260802
 DTEND;VALUE=DATE:20260803
@@ -227,6 +227,41 @@ DTSTART;VALUE=DATE:20261229
 DTEND;VALUE=DATE:20261230
 SUMMARY:🔓 Atharva Polyplast Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/atharva-polyplast-ipo/2653/
+END:VEVENT
+BEGIN:VEVENT
+UID:kratikal-tech-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260802
+DTEND;VALUE=DATE:20260803
+SUMMARY:🔓 Kratikal Tech Ltd. — 30D anchor unlock (415\,500 sh\; 3.74% of capital\; ~Rs.5.6 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/kratikal-tech-ipo/2844/
+END:VEVENT
+BEGIN:VEVENT
+UID:kratikal-tech-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:🔓 Kratikal Tech Ltd. — 90D anchor unlock (415\,500 sh\; 3.74% of capital\; ~Rs.5.6 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/kratikal-tech-ipo/2844/
+END:VEVENT
+BEGIN:VEVENT
+UID:kratikal-tech-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+SUMMARY:🔓 Kratikal Tech Ltd. — 6M pre-IPO unlock (2\,237\,621 sh\; 20.16% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/kratikal-tech-ipo/2844/
+END:VEVENT
+BEGIN:VEVENT
+UID:kratikal-tech-ipo-PX1Y@unlockradar
+DTSTART;VALUE=DATE:20270629
+DTEND;VALUE=DATE:20270630
+SUMMARY:🔓 Kratikal Tech Ltd. — 1Y promoter unlock (1\,851\,570 sh\; 16.68% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/kratikal-tech-ipo/2844/
+END:VEVENT
+BEGIN:VEVENT
+UID:kratikal-tech-ipo-PX2Y@unlockradar
+DTSTART;VALUE=DATE:20280629
+DTEND;VALUE=DATE:20280630
+SUMMARY:🔓 Kratikal Tech Ltd. — 2Y promoter unlock (1\,851\,570 sh\; 16.68% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/kratikal-tech-ipo/2844/
 END:VEVENT
 BEGIN:VEVENT
 UID:csm-technologies-ipo-A30@unlockradar
@@ -1230,13 +1265,6 @@ SUMMARY:🔓 Digilogic Systems Ltd. — 2Y promoter unlock (6\,405\,415 sh\; 22.
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/digilogic-systems-ipo/2617/
 END:VEVENT
 BEGIN:VEVENT
-UID:gre-renew-enertech-ipo-PRE6M@unlockradar
-DTSTART;VALUE=DATE:20260712
-DTEND;VALUE=DATE:20260713
-SUMMARY:🔓 GRE Renew Enertech Ltd. — 6M pre-IPO unlock (519\,688 sh\; 3.64% of capital)
-DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/gre-renew-enertech-ipo/2353/
-END:VEVENT
-BEGIN:VEVENT
 UID:gre-renew-enertech-ipo-PX1Y@unlockradar
 DTSTART;VALUE=DATE:20270112
 DTEND;VALUE=DATE:20270113
@@ -1249,13 +1277,6 @@ DTSTART;VALUE=DATE:20280112
 DTEND;VALUE=DATE:20280113
 SUMMARY:🔓 GRE Renew Enertech Ltd. — 2Y promoter unlock (3\,571\,285 sh\; 24.99% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/gre-renew-enertech-ipo/2353/
-END:VEVENT
-BEGIN:VEVENT
-UID:indo-smc-ipo-PRE6M@unlockradar
-DTSTART;VALUE=DATE:20260712
-DTEND;VALUE=DATE:20260713
-SUMMARY:🔓 INDO SMC Ltd. — 6M pre-IPO unlock (2\,953\,129 sh\; 12.92% of capital)
-DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/indo-smc-ipo/2694/
 END:VEVENT
 BEGIN:VEVENT
 UID:indo-smc-ipo-PX1Y@unlockradar
