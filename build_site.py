@@ -185,8 +185,58 @@ NAV = """<div class="nav"><a href="index.html" class="{a}">Radar</a><a href="anc
 _NAVCSS = ".nav{display:flex;gap:8px;margin:0 0 18px}.nav a{padding:7px 16px;border:1px solid rgba(24,33,51,.16);border-radius:99px;font-size:12px;font-weight:600;color:#3F4756;background:#fff;text-decoration:none}.nav a.on{background:#1A2130;color:#fff;border-color:#1A2130}"
 
 _gcol = {"STICKY": ("#E1F5EE", "#0F6E56"), "NEUTRAL": ("#FBF0DA", "#854F0B"), "FLIPPER": ("#FBE4E7", "#A32D2D")}
+
+# ---- score replay: per-unlock points + 90-day momentum (anchors overlay + trend column) ----
+_slug_co = {}
+for _r0 in records:
+    if _r0.get("slug"):
+        _slug_co[_r0["slug"]] = _r0.get("company") or _r0["slug"]
+def _slug_pretty(_s):
+    return _slug_co.get(_s) or " ".join(_s.replace("-", " ").split()).title()
+_MON = ["", "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+def _dshort(_s):
+    return f"{_s[8:10]} {_MON[int(_s[5:7])]} {_s[2:4]}" if _s and len(_s) >= 10 else ""
+_reg_tc = {}
+for _hn0, _h0 in _registry.items():
+    _reg_tc[" ".join(_hn0.split()).title()] = _h0.get("deals", {})
+_MOM_CUT = (now_ist.date() - dt.timedelta(days=90)).isoformat()
+
+def _replay(_k, _obs):
+    """Rebuild the fund score after each measured unlock, oldest first.
+    Experience bonus held constant at today's value so the last point equals the table score.
+    Returns (events, momentum_over_90d, is_new)."""
+    _seq = sorted(_obs, key=lambda o: (o.get("date") or "", o["slug"], o["type"]))
+    _bonus = min(_deal_counts.get(_k, len(_obs)), 10) * 0.5
+    _evs, _scs = [], []
+    _rets2, _dovs2, _rus2 = [], [], []
+    for _o in _seq:
+        _rets2.append(_r5(_o))
+        if _o.get("dov_ev") is not None:
+            _dovs2.append(_o["dov_ev"])
+        if _o.get("runup20") is not None:
+            _rus2.append(_o["runup20"])
+        _m2 = _med(_rets2)
+        _pn2 = round(sum(1 for x in _rets2 if x < 0) / len(_rets2) * 100)
+        _ad2 = round(sum(_dovs2) / len(_dovs2), 1) if _dovs2 else None
+        _ar2 = round(sum(_rus2) / len(_rus2), 1) if _rus2 else None
+        _sc2 = 50 + 2.5 * max(min(_m2, 10), -10) - 0.3 * (_pn2 - 50) \
+               - (1.2 * max((_ad2 or 0) - 3, 0)) - 0.05 * max((_ar2 or 0) - 25, 0) + _bonus
+        _scs.append(round(_sc2, 1))
+        _evs.append({"d": _dshort(_o.get("date") or ""), "co": _slug_pretty(_o["slug"]),
+                     "t": "30D" if _o["type"] == "A30" else "90D", "r5": _r5(_o),
+                     "sc": _scs[-1], "dl": round(_scs[-1] - _scs[-2], 1) if len(_scs) > 1 else None})
+    _pri = [sc for sc, o in zip(_scs, _seq) if (o.get("date") or "") <= _MOM_CUT]
+    if not _pri:
+        return _evs, None, True
+    return _evs, round(_scs[-1] - _pri[-1], 1), False
+
 _FDATA = []
 for _f in FUND_TABLE:
+    _evs, _mom, _isnew = _replay(_f["fund"], _fund_obs.get(_f["fund"], []))
+    _f["mom"], _f["nw"] = _mom, _isnew
+    _dl_map = _reg_tc.get(_f["fund"], {})
+    _seen = {_o2["slug"] for _o2 in _fund_obs.get(_f["fund"], [])}
+    _pend = sorted({_slug_pretty(_s2) for _s2 in _dl_map if _s2 not in _seen})
     _FDATA.append({
         "fund": _f["fund"], "n": _f["n"], "deals": _f["deals"], "score": _f["score"], "grade": _f["grade"],
         "med": _f["med"], "pneg": _f["pneg"], "adov": _f["adov"], "aru": _f["aru"],
@@ -194,16 +244,42 @@ for _f in FUND_TABLE:
         "cneg": round(-0.3 * (_f["pneg"] - 50), 1),
         "cdov": round(-1.2 * max((_f["adov"] or 0) - 3, 0), 1),
         "cru": round(-0.05 * max((_f["aru"] or 0) - 25, 0), 1),
-        "cdl": round(min(_f["deals"], 10) * 0.5, 1)})
+        "cdl": round(min(_f["deals"], 10) * 0.5, 1),
+        "ev": _evs, "mom": _mom, "nw": _isnew, "pend": _pend})
 _frows = ""
 for _i, _f in enumerate(FUND_TABLE):
     _bg, _fg = _gcol[_f["grade"]]
+    if _f.get("nw"):
+        _tcell = "<span style='color:#727B8A;font-size:11px'>new</span>"
+    elif _f.get("mom") is None:
+        _tcell = "\u2014"
+    elif abs(_f["mom"]) < 0.05:
+        _tcell = "0.0"
+    else:
+        _tc, _aw = ("#0B8A4D", "\u25b2") if _f["mom"] > 0 else ("#E24B4A", "\u25bc")
+        _tcell = f"<span style='color:{_tc};font-weight:600'>{'+' if _f['mom'] > 0 else ''}{_f['mom']} {_aw}</span>"
     _frows += (f"<tr><td>{_i+1}</td><td class=\"fname\" data-fi=\"{_i}\" style=\"font-family:'Instrument Sans',sans-serif;font-weight:500\">{_f['fund']}</td>"
                f"<td>{_f['deals']}</td><td>{_f['n']}</td><td>{_f['med']}%</td><td>{_f['pneg']}%</td>"
                f"<td>{_f['lg'] if _f.get('lg') is not None else '—'}%</td><td>{_f['cg'] if _f.get('cg') is not None else '—'}%</td>"
                f"<td>{_f['adov'] if _f['adov'] is not None else '—'}×</td>"
-               f"<td><span style='background:{_bg};color:{_fg};padding:2px 10px;border-radius:99px;font-size:10.5px;font-weight:700'>{_f['grade']}</span></td></tr>")
+               f"<td><span style='background:{_bg};color:{_fg};padding:2px 10px;border-radius:99px;font-size:10.5px;font-weight:700'>{_f['grade']}</span></td>"
+               f"<td>{_tcell}</td></tr>")
 _urows = " · ".join(f"{k} ({c})" for k, c in _UNGRADED) or "—"
+
+_mup = sorted([(_i2, _f2) for _i2, _f2 in enumerate(FUND_TABLE) if not _f2.get("nw") and (_f2.get("mom") or 0) >= 0.5],
+              key=lambda x: -x[1]["mom"])[:5]
+_mdn = sorted([(_i2, _f2) for _i2, _f2 in enumerate(FUND_TABLE) if not _f2.get("nw") and (_f2.get("mom") or 0) <= -0.5],
+              key=lambda x: x[1]["mom"])[:5]
+def _mrows(_lst, _up):
+    _c, _a = ("#0B8A4D", "▲") if _up else ("#E24B4A", "▼")
+    _out = ""
+    for _i2, _f2 in _lst:
+        _out += (f"<div class='mrow' data-fi='{_i2}'><span class='mn'>{_f2['fund']}</span>"
+                 f"<span class='mv' style='color:{_c}'>{'+' if _up else ''}{_f2['mom']} {_a}</span></div>")
+    return _out or "<div style='font-size:11.5px;color:#727B8A;padding:4px 0'>no clear movers in the last 90 days</div>"
+_MOVERS = ("<div class='movers'>"
+           "<div class='mcard'><div class='mh'>On the way up · last 90 days</div>" + _mrows(_mup, True) + "</div>"
+           "<div class='mcard'><div class='mh'>Slipping · last 90 days</div>" + _mrows(_mdn, False) + "</div></div>")
 
 _ANCH_JS = """<style>
 .fname{cursor:pointer;text-decoration:underline dotted rgba(24,33,51,.35);text-underline-offset:3px}
@@ -220,6 +296,25 @@ _ANCH_JS = """<style>
 .sbar{height:5px;border-radius:4px;margin-top:5px}
 .stot{display:flex;justify-content:space-between;align-items:center;padding:13px 0 4px;font-size:13.5px;font-weight:600}
 .fnote{font-size:11px;color:#727B8A;line-height:1.7;margin-top:12px;border-top:1px solid rgba(24,33,51,.12);padding-top:10px}
+.ftabs{display:flex;gap:7px;margin:12px 0 12px}
+.ftabbtn{border:1px solid rgba(24,33,51,.2);background:#fff;border-radius:99px;padding:5px 14px;font-size:11px;font-weight:600;color:#727B8A;cursor:pointer;font-family:'Instrument Sans',sans-serif}
+.ftabbtn.on{background:#1A2130;color:#fff;border-color:#1A2130}
+.movers{display:grid;grid-template-columns:1fr 1fr;gap:13px;margin:0 0 14px}
+.mcard{background:#fff;border:1px solid rgba(24,33,51,.16);border-radius:12px;padding:12px 16px}
+.mh{font-size:10px;letter-spacing:.12em;font-weight:700;color:#727B8A;margin-bottom:5px;text-transform:uppercase}
+.mrow{display:flex;justify-content:space-between;gap:10px;padding:5px 0;border-bottom:1px solid rgba(24,33,51,.06);font-size:12.5px;cursor:pointer}
+.mrow:last-child{border-bottom:0}
+.mrow .mn{text-decoration:underline dotted rgba(24,33,51,.35);text-underline-offset:3px}
+.mrow:hover .mn{color:#B36F00}
+.mrow .mv{font-family:'IBM Plex Mono',monospace;font-weight:600;font-size:12px}
+.hrow{display:grid;grid-template-columns:64px minmax(0,1fr) 64px 46px 50px;gap:8px;align-items:center;padding:7px 0;border-bottom:1px solid rgba(24,33,51,.08);font-size:12.5px;color:#3F4756}
+.hrow.hhead{font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:#727B8A;padding:10px 0 4px;border-bottom:1px solid rgba(24,33,51,.16)}
+.hd{font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:#727B8A}
+.hco{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:500}
+.ht{font-size:9px;font-weight:700;color:#727B8A;background:#F1EEE6;border-radius:6px;padding:1px 6px;margin-left:5px}
+.hr,.hs{font-family:'IBM Plex Mono',monospace;font-size:11.5px;text-align:right}
+.dl{font-family:'IBM Plex Mono',monospace;font-size:11.5px;font-weight:700;text-align:right}
+@media(max-width:720px){.movers{grid-template-columns:1fr}}
 </style>
 <div id="fback"><div id="fcard"></div></div>
 <script>
@@ -247,7 +342,7 @@ pills.forEach(p=>p.addEventListener('click',()=>{vsel=p.dataset.v;pills.forEach(
 let sc=-1,sd=-1;
 function val(r,i){
   const t=r.cells[i].textContent.trim();
-  if(t===''||t==='\u2014')return null;
+  if(t===''||t==='\u2014'||t==='new')return null;
   const n=parseFloat(t.replace(/[+%\u00d7,]/g,''));
   return isNaN(n)?t.toLowerCase():n;
 }
@@ -272,30 +367,74 @@ function srow(label, note, input, pts, max){
   return `<div class="srow"><div>${label}<small>${note}</small><div class="sbar" style="background:${c};width:${Math.max(w,1.5)}%;opacity:${pts===0?0.15:1}"></div></div>
     <div class="in">${input}</div><div class="pt" style="color:${c}">${pts >= 0 ? '+' : ''}${pts}</div></div>`;
 }
-function openFund(i){
+function scoreBody(f){
+  return `
+    <div class="srow" style="border-bottom:1px dashed rgba(24,33,51,.2)"><div><b>Every fund starts at</b></div><div class="in"></div><div class="pt">50</div></div>
+    ${srow('Typical move in the week after its unlocks', 'the big one · 2.5 pts per %, capped at ±10%', (f.med >= 0 ? '+' : '') + f.med + '%', f.cmed, 25)}
+    ${srow('How often its stocks fell', 'vs a 50/50 coin-flip · 0.3 pts per % better or worse', f.pneg + '%', f.cneg, 15)}
+    ${srow('Heaviness of its unlocks', 'size vs daily trading · penalty only above 3×', f.adov != null ? f.adov + '×' : '—', f.cdov, 15)}
+    ${srow('Price run-up into its unlock dates', 'pump-and-dump guard · penalty only above +25%', f.aru != null ? (f.aru >= 0 ? '+' : '') + f.aru + '%' : '—', f.cru, 10)}
+    ${srow('Experience bonus', '½ point per IPO anchored, max 10 IPOs', f.deals + ' IPOs', f.cdl, 5)}
+    <div class="stot"><span>Total score</span><span style="font-family:'IBM Plex Mono',monospace">${f.score}</span></div>
+    <div class="fnote">60 or more = STICKY · under 45 = FLIPPER · in between = NEUTRAL.
+    The fewer unlocks watched (${f.n} here), the softer you should hold this verdict — grades firm up automatically as more of this fund's unlocks pass.</div>`;
+}
+function spark(f){
+  const pts = f.ev.map(e => e.sc);
+  if(pts.length < 2) return '';
+  const min = Math.min(Math.min(...pts), 50), max = Math.max(Math.max(...pts), 50);
+  const W = 540, H = 64, P = 6;
+  const x = i => P + i * (W - 2 * P) / (pts.length - 1);
+  const y = v => H - P - (v - min) * (H - 2 * P) / ((max - min) || 1);
+  const line = pts.map((v, i) => (i ? 'L' : 'M') + x(i).toFixed(1) + ' ' + y(v).toFixed(1)).join(' ');
+  return `<svg viewBox="0 0 ${W} ${H}" style="width:100%;height:64px;display:block;margin:6px 0 2px" preserveAspectRatio="none">
+    <line x1="${P}" y1="${y(50).toFixed(1)}" x2="${W-P}" y2="${y(50).toFixed(1)}" stroke="rgba(179,111,0,.45)" stroke-dasharray="3 4" stroke-width="1"></line>
+    <path d="${line}" fill="none" stroke="#1A2130" stroke-width="1.8"></path>
+    <circle cx="${x(pts.length-1).toFixed(1)}" cy="${y(pts[pts.length-1]).toFixed(1)}" r="3" fill="#B36F00"></circle></svg>`;
+}
+function histBody(f){
+  const rows = f.ev.slice().reverse().map(e => {
+    const dc = e.dl == null ? '<span class="dl" style="color:#727B8A">start</span>'
+      : `<span class="dl" style="color:${e.dl >= 0 ? '#0B8A4D' : '#E24B4A'}">${e.dl >= 0 ? '+' : ''}${e.dl}</span>`;
+    const rc = e.r5 == null ? '<span class="hr">—</span>'
+      : `<span class="hr" style="color:${e.r5 < 0 ? '#E24B4A' : '#0B8A4D'}">${e.r5 >= 0 ? '+' : ''}${e.r5}%</span>`;
+    return `<div class="hrow"><span class="hd">${e.d}</span><span class="hco">${e.co}<span class="ht">${e.t}</span></span>${rc}<span class="hs">${e.sc}</span>${dc}</div>`;
+  }).join('');
+  const mom = f.nw ? '<b>new</b> — its whole measured record is inside the last 90 days'
+    : (f.mom == null ? '—' : `<b style="color:${f.mom > 0 ? '#0B8A4D' : (f.mom < 0 ? '#E24B4A' : '#3F4756')}">${f.mom >= 0 ? '+' : ''}${f.mom} points in the last 90 days</b>`);
+  const pend = f.pend && f.pend.length ? `<div class="fnote"><b>Anchored, no unlock measured yet:</b> ${f.pend.join(' · ')}</div>` : '';
+  return `${spark(f)}
+    <div class="fsub" style="margin:0 0 6px">score trail after every unlock, oldest → newest · dotted line = 50 · trend: ${mom}</div>
+    <div class="hrow hhead"><span>date</span><span>IPO · unlock</span><span>week after</span><span>score</span><span>points</span></div>
+    ${rows}${pend}
+    <div class="fnote">"points" = how much that single unlock moved this fund's score when it happened (newest first).
+    Early unlocks swing the score hard — that is normal; it settles as more pass.
+    The trail carries today's experience bonus throughout, so its last point matches the score in the table.</div>`;
+}
+function openFund(i, mode){
+  mode = mode || 'score';
   const f = FDATA[i];
   const [bg, fg] = gcol[f.grade];
-  document.getElementById('fcard').innerHTML = `
+  const head = `
     <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:10px">
-      <div><h3>${f.fund}</h3><div class="fsub">${f.deals} IPOs anchored \u00b7 ${f.n} unlocks watched</div></div>
-      <button onclick="document.getElementById('fback').classList.remove('on')" style="border:1px solid rgba(24,33,51,.2);background:#fff;border-radius:8px;padding:5px 11px;font-size:11px;cursor:pointer;color:#3F4756">\u2715 esc</button>
+      <div><h3>${f.fund}</h3><div class="fsub">${f.deals} IPOs anchored · ${f.n} unlocks watched · score ${f.score}
+        <span style="background:${bg};color:${fg};padding:2px 10px;border-radius:99px;font-size:10.5px;font-weight:700;margin-left:4px">${f.grade}</span></div></div>
+      <button onclick="document.getElementById('fback').classList.remove('on')" style="border:1px solid rgba(24,33,51,.2);background:#fff;border-radius:8px;padding:5px 11px;font-size:11px;cursor:pointer;color:#3F4756">✕ esc</button>
     </div>
-    <div class="srow" style="border-bottom:1px dashed rgba(24,33,51,.2)"><div><b>Every fund starts at</b></div><div class="in"></div><div class="pt">50</div></div>
-    ${srow('Typical move in the week after its unlocks', 'the big one \u00b7 2.5 pts per %, capped at \u00b110%', (f.med >= 0 ? '+' : '') + f.med + '%', f.cmed, 25)}
-    ${srow('How often its stocks fell', 'vs a 50/50 coin-flip \u00b7 0.3 pts per % better or worse', f.pneg + '%', f.cneg, 15)}
-    ${srow('Heaviness of its unlocks', 'size vs daily trading \u00b7 penalty only above 3\u00d7', f.adov != null ? f.adov + '\u00d7' : '\u2014', f.cdov, 15)}
-    ${srow('Price run-up into its unlock dates', 'pump-and-dump guard \u00b7 penalty only above +25%', f.aru != null ? (f.aru >= 0 ? '+' : '') + f.aru + '%' : '\u2014', f.cru, 10)}
-    ${srow('Experience bonus', '\u00bd point per IPO anchored, max 10 IPOs', f.deals + ' IPOs', f.cdl, 5)}
-    <div class="stot"><span>Total score</span><span style="font-family:'IBM Plex Mono',monospace">${f.score}
-      <span style="background:${bg};color:${fg};padding:3px 12px;border-radius:99px;font-size:11px;font-weight:700;margin-left:8px">${f.grade}</span></span></div>
-    <div class="fnote">60 or more = STICKY \u00b7 under 45 = FLIPPER \u00b7 in between = NEUTRAL.
-    The fewer unlocks watched (${f.n} here), the softer you should hold this verdict \u2014 grades firm up automatically as more of this fund's unlocks pass.</div>`;
+    <div class="ftabs">
+      <button class="ftabbtn ${mode === 'score' ? 'on' : ''}" data-m="score">how the score is built</button>
+      <button class="ftabbtn ${mode === 'hist' ? 'on' : ''}" data-m="hist">IPO history &amp; trend</button>
+    </div>`;
+  const card = document.getElementById('fcard');
+  card.innerHTML = head + (mode === 'hist' ? histBody(f) : scoreBody(f));
+  card.querySelectorAll('.ftabbtn').forEach(btn => btn.onclick = () => openFund(i, btn.dataset.m));
   document.getElementById('fback').classList.add('on');
 }
 document.getElementById('ftab').addEventListener('click', e => {
   const td = e.target.closest('td.fname');
   if(td) openFund(+td.dataset.fi);
 });
+document.querySelectorAll('.mrow').forEach(m => m.onclick = () => openFund(+m.dataset.fi, 'hist'));
 document.getElementById('fback').addEventListener('click', e => { if(e.target.id === 'fback') e.target.classList.remove('on'); });
 document.addEventListener('keydown', e => { if(e.key === 'Escape') document.getElementById('fback').classList.remove('on'); });
 })();
@@ -346,11 +485,16 @@ So a fund with 4 IPOs can have up to 8 unlocks; we count only the ones whose dat
 <div class="card"><b>The verdict:</b> <b>STICKY</b> = stocks usually hold up after their unlocks (friendlier to stay invested through).
 <b>FLIPPER</b> = stocks usually drop after their unlocks (be careful holding through their unlock dates). NEUTRAL = in between.
 A fund needs at least 3 measured unlocks to get a verdict.</div>
+<div class="card"><b>Rising or slipping?</b> We rebuild every fund's score after each of its unlocks, oldest to newest.
+The <b>trend 90d</b> column and the movers cards show how many points the score moved in the last 90 days —
+▲ means its recent unlocks improved its record, ▼ means they hurt it. "new" = the fund's whole measured record
+is younger than 90 days, so there is no earlier self to compare against. Click any fund name for its unlock-by-unlock trail.</div>
 <div class="card" style="background:#FBF0DA;border-color:rgba(179,111,0,.3)"><b>Coverage note.</b> 2026 fund lists are complete. For 2024–25 the source
 (Chittorgarh) publicly shows only each year's top-5 funds — the rest sits behind their paid product. So older history is thin for smaller funds;
 coverage completes automatically day by day from here on.</div>
 </aside>
 <div class="main">
+{_MOVERS}
 <div class="ftools">
   <input id="fq" placeholder="search fund house&hellip;">
   <span class="vpill on" data-v="ALL">ALL</span>
@@ -360,7 +504,7 @@ coverage completes automatically day by day from here on.</div>
   <label class="fchk"><input type="checkbox" id="fmin"> only well-tested (10+ unlocks watched)</label>
   <span style="margin-left:auto;font-size:11px;color:#727B8A">click any column heading to sort</span>
 </div>
-<table id="ftab"><tr><th>#</th><th>fund house</th><th>IPOs anchored</th><th>unlocks watched</th><th>typical move after unlock</th><th>fell how often</th><th>listing-day gain</th><th>gain today</th><th>size vs daily vol</th><th>verdict</th></tr>{_frows if _frows else "<tr><td colspan=10 style='color:#727B8A'>Grades appear once the historical backfill completes and anchor names finish syncing.</td></tr>"}</table>
+<table id="ftab"><tr><th>#</th><th>fund house</th><th>IPOs anchored</th><th>unlocks watched</th><th>typical move after unlock</th><th>fell how often</th><th>listing-day gain</th><th>gain today</th><th>size vs daily vol</th><th>verdict</th><th>trend 90d</th></tr>{_frows if _frows else "<tr><td colspan=11 style='color:#727B8A'>Grades appear once the historical backfill completes and anchor names finish syncing.</td></tr>"}</table>
 <h2 style="font-family:Fraunces,serif;font-style:italic;font-weight:430;font-size:18px;color:#3F4756;margin:26px 0 8px">Tracked but not yet graded</h2>
 <p class="cap" style="font-size:12px;color:#727B8A;margin:0 0 8px">Every other fund in the registry, with its deal count in brackets — too few finished unlocks to judge yet. They graduate to the table above automatically.</p>
 <div style="font-size:12px;color:#727B8A;line-height:2">{_urows}</div>
