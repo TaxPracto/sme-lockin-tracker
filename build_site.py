@@ -230,6 +230,41 @@ def _replay(_k, _obs):
         return _evs, None, True
     return _evs, round(_scs[-1] - _pri[-1], 1), False
 
+def _pointers(_f, _mom, _nw, _recent, _pend):
+    """2-3 plain-English lines on how this fund is doing. Rebuilt every run, so they
+    change automatically as new unlocks get measured."""
+    _p = []
+    _msgn = f"{'+' if _f['med'] >= 0 else ''}{_f['med']}%"
+    if _f["grade"] == "STICKY":
+        _p.append(f"Stocks it anchors usually hold up after its unlocks — typical move {_msgn} in the week after.")
+    elif _f["grade"] == "FLIPPER":
+        _p.append(f"Stocks it anchors usually drop after its unlocks — typical move {_msgn} in the week after.")
+    else:
+        _p.append(f"About average after its unlocks — typical move {_msgn} in the week after.")
+    if _nw:
+        _p.append("Too new to show a direction — its whole record is inside the last 90 days.")
+    elif _mom is not None and _mom >= 2:
+        _p.append(f"Improving: recent unlocks lifted its score by {_mom} points in the last 90 days.")
+    elif _mom is not None and _mom <= -2:
+        _p.append(f"Slipping: recent unlocks cost it {abs(_mom)} points in the last 90 days.")
+    elif _recent:
+        _p.append("Holding steady — its recent unlocks barely moved its score.")
+    else:
+        _p.append("Quiet lately — no unlocks measured in the last 90 days.")
+    if _f["adov"] is not None and _f["adov"] > 5:
+        _p.append(f"Caution: its unlocks are heavy — {_f['adov']}× a normal day's trading on average.")
+    elif _f["aru"] is not None and _f["aru"] > 25:
+        _p.append(f"Prices typically climbed {_f['aru']}% into its unlock dates — watch for run-up games.")
+    elif _f["pneg"] >= 60:
+        _p.append(f"{_f['pneg']} out of 100 of its unlocks saw the stock lower a week later — careful holding through its dates.")
+    elif _f["pneg"] <= 35 and _f["n"] >= 10:
+        _p.append(f"Reliable so far: only {_f['pneg']} out of 100 of its unlocks saw the stock lower a week later.")
+    elif _f["n"] < 10:
+        _p.append(f"Small sample: only {_f['n']} unlocks watched so far — hold this read loosely.")
+    elif _pend:
+        _p.append(f"{len(_pend)} anchored IPOs still have unlocks coming — this read can move soon.")
+    return _p[:3]
+
 _FDATA = []
 for _f in FUND_TABLE:
     _evs, _mom, _isnew = _replay(_f["fund"], _fund_obs.get(_f["fund"], []))
@@ -237,6 +272,7 @@ for _f in FUND_TABLE:
     _dl_map = _reg_tc.get(_f["fund"], {})
     _seen = {_o2["slug"] for _o2 in _fund_obs.get(_f["fund"], [])}
     _pend = sorted({_slug_pretty(_s2) for _s2 in _dl_map if _s2 not in _seen})
+    _recent = any((_o3.get("date") or "") > _MOM_CUT for _o3 in _fund_obs.get(_f["fund"], []))
     _FDATA.append({
         "fund": _f["fund"], "n": _f["n"], "deals": _f["deals"], "score": _f["score"], "grade": _f["grade"],
         "med": _f["med"], "pneg": _f["pneg"], "adov": _f["adov"], "aru": _f["aru"],
@@ -245,7 +281,8 @@ for _f in FUND_TABLE:
         "cdov": round(-1.2 * max((_f["adov"] or 0) - 3, 0), 1),
         "cru": round(-0.05 * max((_f["aru"] or 0) - 25, 0), 1),
         "cdl": round(min(_f["deals"], 10) * 0.5, 1),
-        "ev": _evs, "mom": _mom, "nw": _isnew, "pend": _pend})
+        "ev": _evs, "mom": _mom, "nw": _isnew, "pend": _pend,
+        "pts": _pointers(_f, _mom, _isnew, _recent, _pend)})
 _frows = ""
 for _i, _f in enumerate(FUND_TABLE):
     _bg, _fg = _gcol[_f["grade"]]
@@ -315,6 +352,9 @@ _ANCH_JS = """<style>
 .hr,.hs{font-family:'IBM Plex Mono',monospace;font-size:11.5px;text-align:right}
 .dl{font-family:'IBM Plex Mono',monospace;font-size:11.5px;font-weight:700;text-align:right}
 @media(max-width:720px){.movers{grid-template-columns:1fr}}
+.fpts{background:#F7F5F0;border:1px solid rgba(24,33,51,.12);border-radius:10px;padding:9px 14px;margin:12px 0 0}
+.fpt{font-size:12.5px;color:#3F4756;line-height:1.65;padding:2.5px 0;display:flex;gap:9px;align-items:baseline}
+.fpt::before{content:'●';font-size:6.5px;color:#B36F00;flex:none;position:relative;top:-2px}
 </style>
 <div id="fback"><div id="fcard"></div></div>
 <script>
@@ -421,6 +461,7 @@ function openFund(i, mode){
         <span style="background:${bg};color:${fg};padding:2px 10px;border-radius:99px;font-size:10.5px;font-weight:700;margin-left:4px">${f.grade}</span></div></div>
       <button onclick="document.getElementById('fback').classList.remove('on')" style="border:1px solid rgba(24,33,51,.2);background:#fff;border-radius:8px;padding:5px 11px;font-size:11px;cursor:pointer;color:#3F4756">✕ esc</button>
     </div>
+    <div class="fpts">${f.pts.map(p => '<div class="fpt">' + p + '</div>').join('')}</div>
     <div class="ftabs">
       <button class="ftabbtn ${mode === 'score' ? 'on' : ''}" data-m="score">how the score is built</button>
       <button class="ftabbtn ${mode === 'hist' ? 'on' : ''}" data-m="hist">IPO history &amp; trend</button>
