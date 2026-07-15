@@ -49,6 +49,7 @@ Runs itself daily at 07:00 IST via GitHub Actions: scrape -> registry -> prices 
 6. Push to *.py triggers the FULL daily workflow including the digest email (mention to Ashwani when multiple deploys happen in a day). Deploy takes ~2.5-4 min. GitHub outages happen — re-trigger by pushing a comment-line bump.
 7. Verify LIVE with javascript_tool on the pages (location.reload(true) first — Pages caches hard; tell Ashwani Ctrl+Shift+R). Screenshot for visual changes.
 8. Chrome tabs die if Chrome restarts: list_connected_browsers -> tabs_context_mcp createIfEmpty:true.
+9. ALWAYS end a shipping session by updating THIS file (features, rules, pitfalls, backlog, _Last updated_) and committing it with the code. ONLY IF the trigger phrases, deploy method, security rules, or repo location changed: also regenerate unlock-radar.skill (zip of unlock-radar/SKILL.md — thin pointer to this file + stable snapshot) and present it to Ashwani to re-save, since saved skills do not update themselves.
 
 ## Code pitfalls (each cost a debugging round once)
 - f-string pages: CSS braces must be doubled {{ }}; backslashes FORBIDDEN in f-string expressions (reword instead); define variables (like _WINDOW) BEFORE first f-string use.
@@ -63,4 +64,4 @@ Runs itself daily at 07:00 IST via GitHub Actions: scrape -> registry -> prices 
 ## Backlog (discussed, not built)
 Watchlist + T-7/T-1 email alerts; free-float map; catalyst collisions; fixed-price (no-anchor) IPO coverage; mainboard promoter events; AI morning brief (needs paid API — declined for now); fund-name Title-case polish; pressure-board "% of co" wrap on narrow widths.
 
-_Last updated: 2026-07-15 (session: history tabs, just-passed, sort/filters, score overlay, wide layout)_
+_Last updated: 2026-07-15 (session: history tabs, just-passed, sort/filters, score overlay, wide layout, project-ification: skill + this file)_
