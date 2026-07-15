@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-14T09:55:42+05:30",
+ "generated_at": "2026-07-15T09:55:23+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -7,6 +7,56 @@
   2026
  ],
  "records": [
+  {
+   "company": "Sotefin Bharat Ltd.",
+   "slug": "sotefin-bharat-ipo",
+   "url": "https://www.chittorgarh.com/ipo/sotefin-bharat-ipo/2836/",
+   "category": "SME",
+   "anchor_allotment_date": "2026-07-15",
+   "boa_date": "2026-07-15",
+   "d30": "2026-08-20",
+   "d90": "2026-10-19",
+   "anchor_shares": 1368000,
+   "anchor_investment_cr": 25.58,
+   "pct_of_issue": 22.18,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": 13360307,
+   "post_shares": 18160307,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": "2026-07-23",
+   "anchor_names": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-08-20",
+     "sh": 684000,
+     "pct": 3.77,
+     "val": 12.79,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-10-19",
+     "sh": 684000,
+     "pct": 3.77,
+     "val": 12.79,
+     "est": false
+    },
+    {
+     "t": "PRE6M",
+     "d": "2027-01-15",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": true
+    }
+   ]
+  },
   {
    "company": "SBI Funds Management Ltd.",
    "slug": "sbi-funds-management-ipo",
@@ -16,9 +66,9 @@
    "boa_date": "2026-07-13",
    "d30": "2026-08-16",
    "d90": "2026-10-15",
-   "anchor_shares": 0,
-   "anchor_investment_cr": 0.0,
-   "pct_of_issue": null,
+   "anchor_shares": 46393095,
+   "anchor_investment_cr": 2662.96,
+   "pct_of_issue": 21.34,
    "isin": "",
    "nse_symbol": "",
    "bse_code": "",
@@ -34,17 +84,17 @@
     {
      "t": "A30",
      "d": "2026-08-16",
-     "sh": null,
+     "sh": 23196547,
      "pct": null,
-     "val": null,
+     "val": 1331.48,
      "est": false
     },
     {
      "t": "A90",
      "d": "2026-10-15",
-     "sh": null,
+     "sh": 23196547,
      "pct": null,
-     "val": null,
+     "val": 1331.48,
      "est": false
     }
    ]
@@ -273,9 +323,9 @@
    "anchor_shares": 4628877,
    "anchor_investment_cr": 193.95,
    "pct_of_issue": 22.97,
-   "isin": "",
-   "nse_symbol": "",
-   "bse_code": "",
+   "isin": "INE0ISX01025",
+   "nse_symbol": "KUSUMGAR",
+   "bse_code": 544821,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -414,126 +464,6 @@
    ]
   },
   {
-   "company": "Sampark India Logistics Ltd.",
-   "slug": "sampark-india-logistics-ipo",
-   "url": "https://www.chittorgarh.com/ipo/sampark-india-logistics-ipo/2711/",
-   "category": "SME",
-   "anchor_allotment_date": "2026-06-29",
-   "boa_date": "2026-06-29",
-   "d30": "2026-08-02",
-   "d90": "2026-10-01",
-   "anchor_shares": 918400,
-   "anchor_investment_cr": 7.71,
-   "pct_of_issue": 22.09,
-   "isin": "INE147701010",
-   "nse_symbol": "",
-   "bse_code": 544810,
-   "pre_shares": 9018750,
-   "post_shares": 12258750,
-   "prom_pre_pct": 97.78,
-   "prom_post_pct": 71.94,
-   "listing_date": "2026-07-07",
-   "anchor_names": [
-    "Investment by Mutual Fund"
-   ],
-   "nonprom_pre_shares": 200216,
-   "nonprom_pre_pct_of_post": 1.63,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-08-02",
-     "sh": 459200,
-     "pct": 3.75,
-     "val": 3.855,
-     "est": false
-    },
-    {
-     "t": "A90",
-     "d": "2026-10-01",
-     "sh": 459200,
-     "pct": 3.75,
-     "val": 3.855,
-     "est": false
-    },
-    {
-     "t": "PRE6M",
-     "d": "2026-12-29",
-     "sh": 200216,
-     "pct": 1.63,
-     "val": null,
-     "est": true
-    },
-    {
-     "t": "PX1Y",
-     "d": "2027-06-29",
-     "sh": 3183597,
-     "pct": 25.97,
-     "val": null,
-     "est": true
-    },
-    {
-     "t": "PX2Y",
-     "d": "2028-06-29",
-     "sh": 3183597,
-     "pct": 25.97,
-     "val": null,
-     "est": true
-    }
-   ]
-  },
-  {
-   "company": "Atharva Polyplast Ltd.",
-   "slug": "atharva-polyplast-ipo",
-   "url": "https://www.chittorgarh.com/ipo/atharva-polyplast-ipo/2653/",
-   "category": "SME",
-   "anchor_allotment_date": "2026-06-29",
-   "boa_date": "2026-06-29",
-   "d30": "2026-08-02",
-   "d90": "2026-10-01",
-   "anchor_shares": 1274000,
-   "anchor_investment_cr": 7.64,
-   "pct_of_issue": 22.06,
-   "isin": "INE226801012",
-   "nse_symbol": "",
-   "bse_code": 544812,
-   "pre_shares": 12349998,
-   "post_shares": 16849998,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": "2026-07-07",
-   "anchor_names": [
-    "Investment by Mutual Fund"
-   ],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-08-02",
-     "sh": 637000,
-     "pct": 3.78,
-     "val": 3.82,
-     "est": false
-    },
-    {
-     "t": "A90",
-     "d": "2026-10-01",
-     "sh": 637000,
-     "pct": 3.78,
-     "val": 3.82,
-     "est": false
-    },
-    {
-     "t": "PRE6M",
-     "d": "2026-12-29",
-     "sh": null,
-     "pct": null,
-     "val": null,
-     "est": true
-    }
-   ]
-  },
-  {
    "company": "Kratikal Tech Ltd.",
    "slug": "kratikal-tech-ipo",
    "url": "https://www.chittorgarh.com/ipo/kratikal-tech-ipo/2844/",
@@ -596,6 +526,126 @@
      "d": "2028-06-29",
      "sh": 1851570,
      "pct": 16.68,
+     "val": null,
+     "est": true
+    }
+   ]
+  },
+  {
+   "company": "Atharva Polyplast Ltd.",
+   "slug": "atharva-polyplast-ipo",
+   "url": "https://www.chittorgarh.com/ipo/atharva-polyplast-ipo/2653/",
+   "category": "SME",
+   "anchor_allotment_date": "2026-06-29",
+   "boa_date": "2026-06-29",
+   "d30": "2026-08-02",
+   "d90": "2026-10-01",
+   "anchor_shares": 1274000,
+   "anchor_investment_cr": 7.64,
+   "pct_of_issue": 22.06,
+   "isin": "INE226801012",
+   "nse_symbol": "",
+   "bse_code": 544812,
+   "pre_shares": 12349998,
+   "post_shares": 16849998,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": "2026-07-07",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-08-02",
+     "sh": 637000,
+     "pct": 3.78,
+     "val": 3.82,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-10-01",
+     "sh": 637000,
+     "pct": 3.78,
+     "val": 3.82,
+     "est": false
+    },
+    {
+     "t": "PRE6M",
+     "d": "2026-12-29",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": true
+    }
+   ]
+  },
+  {
+   "company": "Sampark India Logistics Ltd.",
+   "slug": "sampark-india-logistics-ipo",
+   "url": "https://www.chittorgarh.com/ipo/sampark-india-logistics-ipo/2711/",
+   "category": "SME",
+   "anchor_allotment_date": "2026-06-29",
+   "boa_date": "2026-06-29",
+   "d30": "2026-08-02",
+   "d90": "2026-10-01",
+   "anchor_shares": 918400,
+   "anchor_investment_cr": 7.71,
+   "pct_of_issue": 22.09,
+   "isin": "INE147701010",
+   "nse_symbol": "",
+   "bse_code": 544810,
+   "pre_shares": 9018750,
+   "post_shares": 12258750,
+   "prom_pre_pct": 97.78,
+   "prom_post_pct": 71.94,
+   "listing_date": "2026-07-07",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
+   "nonprom_pre_shares": 200216,
+   "nonprom_pre_pct_of_post": 1.63,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-08-02",
+     "sh": 459200,
+     "pct": 3.75,
+     "val": 3.855,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-10-01",
+     "sh": 459200,
+     "pct": 3.75,
+     "val": 3.855,
+     "est": false
+    },
+    {
+     "t": "PRE6M",
+     "d": "2026-12-29",
+     "sh": 200216,
+     "pct": 1.63,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX1Y",
+     "d": "2027-06-29",
+     "sh": 3183597,
+     "pct": 25.97,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX2Y",
+     "d": "2028-06-29",
+     "sh": 3183597,
+     "pct": 25.97,
      "val": null,
      "est": true
     }

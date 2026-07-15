@@ -5,17 +5,38 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:sotefin-bharat-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260820
+DTEND;VALUE=DATE:20260821
+SUMMARY:🔓 Sotefin Bharat Ltd. — 30D anchor unlock (684\,000 sh\; 3.77% of capital\; ~Rs.12.8 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/sotefin-bharat-ipo/2836/
+END:VEVENT
+BEGIN:VEVENT
+UID:sotefin-bharat-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:🔓 Sotefin Bharat Ltd. — 90D anchor unlock (684\,000 sh\; 3.77% of capital\; ~Rs.12.8 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/sotefin-bharat-ipo/2836/
+END:VEVENT
+BEGIN:VEVENT
+UID:sotefin-bharat-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:🔓 Sotefin Bharat Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/sotefin-bharat-ipo/2836/
+END:VEVENT
+BEGIN:VEVENT
 UID:sbi-funds-management-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260816
 DTEND;VALUE=DATE:20260817
-SUMMARY:🔓 SBI Funds Management Ltd. — 30D anchor unlock
+SUMMARY:🔓 SBI Funds Management Ltd. — 30D anchor unlock (23\,196\,547 sh\; ~Rs.1331.5 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/sbi-funds-management-ipo/2949/
 END:VEVENT
 BEGIN:VEVENT
 UID:sbi-funds-management-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
-SUMMARY:🔓 SBI Funds Management Ltd. — 90D anchor unlock
+SUMMARY:🔓 SBI Funds Management Ltd. — 90D anchor unlock (23\,196\,547 sh\; ~Rs.1331.5 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/sbi-funds-management-ipo/2949/
 END:VEVENT
 BEGIN:VEVENT
@@ -173,62 +194,6 @@ SUMMARY:🔓 Knack Packaging Ltd. — 90D anchor unlock (3\,860\,293 sh\; ~Rs.65
 DESCRIPTION:https://www.chittorgarh.com/ipo/knack-packaging-ipo/2592/
 END:VEVENT
 BEGIN:VEVENT
-UID:sampark-india-logistics-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260802
-DTEND;VALUE=DATE:20260803
-SUMMARY:🔓 Sampark India Logistics Ltd. — 30D anchor unlock (459\,200 sh\; 3.75% of capital\; ~Rs.3.9 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/sampark-india-logistics-ipo/2711/
-END:VEVENT
-BEGIN:VEVENT
-UID:sampark-india-logistics-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20261002
-SUMMARY:🔓 Sampark India Logistics Ltd. — 90D anchor unlock (459\,200 sh\; 3.75% of capital\; ~Rs.3.9 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/sampark-india-logistics-ipo/2711/
-END:VEVENT
-BEGIN:VEVENT
-UID:sampark-india-logistics-ipo-PRE6M@unlockradar
-DTSTART;VALUE=DATE:20261229
-DTEND;VALUE=DATE:20261230
-SUMMARY:🔓 Sampark India Logistics Ltd. — 6M pre-IPO unlock (200\,216 sh\; 1.63% of capital)
-DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/sampark-india-logistics-ipo/2711/
-END:VEVENT
-BEGIN:VEVENT
-UID:sampark-india-logistics-ipo-PX1Y@unlockradar
-DTSTART;VALUE=DATE:20270629
-DTEND;VALUE=DATE:20270630
-SUMMARY:🔓 Sampark India Logistics Ltd. — 1Y promoter unlock (3\,183\,597 sh\; 25.97% of capital)
-DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/sampark-india-logistics-ipo/2711/
-END:VEVENT
-BEGIN:VEVENT
-UID:sampark-india-logistics-ipo-PX2Y@unlockradar
-DTSTART;VALUE=DATE:20280629
-DTEND;VALUE=DATE:20280630
-SUMMARY:🔓 Sampark India Logistics Ltd. — 2Y promoter unlock (3\,183\,597 sh\; 25.97% of capital)
-DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/sampark-india-logistics-ipo/2711/
-END:VEVENT
-BEGIN:VEVENT
-UID:atharva-polyplast-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260802
-DTEND;VALUE=DATE:20260803
-SUMMARY:🔓 Atharva Polyplast Ltd. — 30D anchor unlock (637\,000 sh\; 3.78% of capital\; ~Rs.3.8 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/atharva-polyplast-ipo/2653/
-END:VEVENT
-BEGIN:VEVENT
-UID:atharva-polyplast-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20261002
-SUMMARY:🔓 Atharva Polyplast Ltd. — 90D anchor unlock (637\,000 sh\; 3.78% of capital\; ~Rs.3.8 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/atharva-polyplast-ipo/2653/
-END:VEVENT
-BEGIN:VEVENT
-UID:atharva-polyplast-ipo-PRE6M@unlockradar
-DTSTART;VALUE=DATE:20261229
-DTEND;VALUE=DATE:20261230
-SUMMARY:🔓 Atharva Polyplast Ltd. — 6M pre-IPO unlock
-DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/atharva-polyplast-ipo/2653/
-END:VEVENT
-BEGIN:VEVENT
 UID:kratikal-tech-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260802
 DTEND;VALUE=DATE:20260803
@@ -262,6 +227,62 @@ DTSTART;VALUE=DATE:20280629
 DTEND;VALUE=DATE:20280630
 SUMMARY:🔓 Kratikal Tech Ltd. — 2Y promoter unlock (1\,851\,570 sh\; 16.68% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/kratikal-tech-ipo/2844/
+END:VEVENT
+BEGIN:VEVENT
+UID:atharva-polyplast-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260802
+DTEND;VALUE=DATE:20260803
+SUMMARY:🔓 Atharva Polyplast Ltd. — 30D anchor unlock (637\,000 sh\; 3.78% of capital\; ~Rs.3.8 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/atharva-polyplast-ipo/2653/
+END:VEVENT
+BEGIN:VEVENT
+UID:atharva-polyplast-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:🔓 Atharva Polyplast Ltd. — 90D anchor unlock (637\,000 sh\; 3.78% of capital\; ~Rs.3.8 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/atharva-polyplast-ipo/2653/
+END:VEVENT
+BEGIN:VEVENT
+UID:atharva-polyplast-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+SUMMARY:🔓 Atharva Polyplast Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/atharva-polyplast-ipo/2653/
+END:VEVENT
+BEGIN:VEVENT
+UID:sampark-india-logistics-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260802
+DTEND;VALUE=DATE:20260803
+SUMMARY:🔓 Sampark India Logistics Ltd. — 30D anchor unlock (459\,200 sh\; 3.75% of capital\; ~Rs.3.9 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/sampark-india-logistics-ipo/2711/
+END:VEVENT
+BEGIN:VEVENT
+UID:sampark-india-logistics-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:🔓 Sampark India Logistics Ltd. — 90D anchor unlock (459\,200 sh\; 3.75% of capital\; ~Rs.3.9 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/sampark-india-logistics-ipo/2711/
+END:VEVENT
+BEGIN:VEVENT
+UID:sampark-india-logistics-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+SUMMARY:🔓 Sampark India Logistics Ltd. — 6M pre-IPO unlock (200\,216 sh\; 1.63% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/sampark-india-logistics-ipo/2711/
+END:VEVENT
+BEGIN:VEVENT
+UID:sampark-india-logistics-ipo-PX1Y@unlockradar
+DTSTART;VALUE=DATE:20270629
+DTEND;VALUE=DATE:20270630
+SUMMARY:🔓 Sampark India Logistics Ltd. — 1Y promoter unlock (3\,183\,597 sh\; 25.97% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/sampark-india-logistics-ipo/2711/
+END:VEVENT
+BEGIN:VEVENT
+UID:sampark-india-logistics-ipo-PX2Y@unlockradar
+DTSTART;VALUE=DATE:20280629
+DTEND;VALUE=DATE:20280630
+SUMMARY:🔓 Sampark India Logistics Ltd. — 2Y promoter unlock (3\,183\,597 sh\; 25.97% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/sampark-india-logistics-ipo/2711/
 END:VEVENT
 BEGIN:VEVENT
 UID:csm-technologies-ipo-A30@unlockradar
