@@ -181,7 +181,7 @@ FUND_ROWS = [(f["fund"], f["n"], f["med"], f["pneg"]) for f in sorted(FUND_TABLE
 _UNGRADED = sorted([(k, c) for k, c in _deal_counts.items() if c >= 1 and k not in {f["fund"] for f in FUND_TABLE}],
                    key=lambda x: (-x[1], x[0]))
 
-NAV = """<div class="nav"><a href="index.html" class="{a}">Radar</a><a href="anchors.html" class="{b}">Anchor ranks</a><a href="backtest.html" class="{c}">Backtest</a></div>"""
+NAV = """<div class="nav"><a href="index.html" class="{a}">Radar</a><a href="anchors.html" class="{b}">Anchor ranks</a><a href="lm.html" class="{d}">Lead managers</a><a href="backtest.html" class="{c}">Backtest</a></div>"""
 _NAVCSS = ".nav{display:flex;gap:8px;margin:0 0 18px}.nav a{padding:7px 16px;border:1px solid rgba(24,33,51,.16);border-radius:99px;font-size:12px;font-weight:600;color:#3F4756;background:#fff;text-decoration:none}.nav a.on{background:#1A2130;color:#fff;border-color:#1A2130}"
 
 _gcol = {"STICKY": ("#E1F5EE", "#0F6E56"), "NEUTRAL": ("#FBF0DA", "#854F0B"), "FLIPPER": ("#FBE4E7", "#A32D2D")}
@@ -317,6 +317,178 @@ def _mrows(_lst, _up):
 _MOVERS = ("<div class='movers'>"
            "<div class='mcard'><div class='mh'>On the way up · last 90 days</div>" + _mrows(_mup, True) + "</div>"
            "<div class='mcard'><div class='mh'>Slipping · last 90 days</div>" + _mrows(_mdn, False) + "</div></div>")
+
+# ---------------- lead managers: stats, score v1, anchor entourage ----------------
+# Score v1 grades ONLY measured price behaviour (unlock outcomes + survival).
+# Entourage (regular anchor partners + their FLIPPER share) is DISPLAY-ONLY in v1;
+# it folds into the score as v2 after the live distribution has been watched.
+_lm_map = {}                       # lm_id -> {"name": latest spelling, "slugs": set}
+for _r0 in records:
+    if _r0.get("category") != "SME":
+        continue
+    for _pair in (_r0.get("lm") or []):
+        try:
+            _lid0, _lnm0 = int(_pair[0]), str(_pair[1]).strip()
+        except (TypeError, ValueError, IndexError):
+            continue
+        if not _lnm0:
+            continue
+        _e0 = _lm_map.setdefault(_lid0, {"name": _lnm0, "slugs": set()})
+        _e0["name"] = _lnm0
+        _e0["slugs"].add(_r0["slug"])
+
+_rec_by_slug = {_r0["slug"]: _r0 for _r0 in records}
+_outs_by_slug = {}
+for _o in _outs.values():
+    if _r5(_o) is not None:
+        _outs_by_slug.setdefault(_o["slug"], []).append(_o)
+_n_sme = sum(1 for _r0 in records if _r0.get("category") == "SME")
+_n_lm_known = sum(1 for _r0 in records if _r0.get("category") == "SME" and _r0.get("lm"))
+_stale_cut = (now_ist.date() - dt.timedelta(days=14)).isoformat()
+_fund_grade = {_f0["fund"]: _f0["grade"] for _f0 in FUND_TABLE}
+_lmgcol = {"HOLDS UP": ("#E1F5EE", "#0F6E56"), "MIXED": ("#FBF0DA", "#854F0B"), "FADES": ("#FBE4E7", "#A32D2D")}
+
+def _lm_pointers(_L):
+    _p = []
+    _ms = f"{'+' if (_L['med'] or 0) >= 0 else ''}{_L['med']}%"
+    if _L["grade"] == "HOLDS UP":
+        _p.append(f"Issues it took public usually hold up after unlock days — typical move {_ms} in the week after.")
+    elif _L["grade"] == "FADES":
+        _p.append(f"Issues it took public usually slip after unlock days — typical move {_ms} in the week after.")
+    else:
+        _p.append(f"About average after unlock days on its issues — typical move {_ms} in the week after.")
+    if _L["pb"] is not None:
+        if _L["pb"] >= 60:
+            _p.append(f"Weak survival: {_L['b']} of its {_L['cov']} priced issues trade below issue price today.")
+        elif _L["pb"] <= 25:
+            _p.append(f"Strong survival: only {_L['b']} of its {_L['cov']} priced issues trade below issue price today.")
+        else:
+            _p.append(f"{_L['b']} of its {_L['cov']} priced issues trade below issue price today.")
+    if _L["nflip"] >= 2:
+        _p.append(f"{_L['nflip']} of its regular anchor partners are graded FLIPPER — extra care around its unlock dates.")
+    elif _L["adov"] is not None and _L["adov"] > 5:
+        _p.append(f"The unlocks it creates are heavy — {_L['adov']}× a normal day's trading on average.")
+    elif _L["aru"] is not None and _L["aru"] > 25:
+        _p.append(f"Prices typically climbed {_L['aru']}% into its unlock dates — watch for run-up games.")
+    elif _L["stale"] > 0:
+        _p.append(f"{_L['stale']} of its issues have gone quiet — no fresh closing price in 2+ weeks.")
+    elif _L["n"] < 10:
+        _p.append(f"Small sample: only {_L['n']} unlocks watched so far — hold this read loosely.")
+    return _p[:3]
+
+_LMDATA, _LM_EARLY = [], []
+for _lid0, _e0 in _lm_map.items():
+    _slugs0 = sorted(_e0["slugs"])
+    _evs0 = [_o for _s0 in _slugs0 for _o in _outs_by_slug.get(_s0, [])]
+    _n0 = len(_evs0)
+    _issm0 = sum(1 for _s0 in _slugs0 if _outs_by_slug.get(_s0))
+    _below0 = _cov0 = _stale0 = 0
+    for _s0 in _slugs0:
+        _rr0 = _rec_by_slug.get(_s0) or {}
+        if _rr0.get("chg_from_issue_pct") is None:
+            continue
+        _cov0 += 1
+        if _rr0["chg_from_issue_pct"] < 0:
+            _below0 += 1
+        if (_rr0.get("close_date") or "9999") < _stale_cut:
+            _stale0 += 1
+    _pb0 = round(_below0 / _cov0 * 100) if _cov0 else None
+    # entourage: regular anchor partners over anchor-COVERED issues only (honest denominator)
+    _fcnt0 = {}
+    _lmcov0 = 0
+    for _s0 in _slugs0:
+        _fl0 = _slug_names.get(_s0)
+        if not _fl0:
+            continue
+        _lmcov0 += 1
+        for _fn0 in {" ".join(_x0.split()).title() for _x0 in _fl0}:
+            _fcnt0[_fn0] = _fcnt0.get(_fn0, 0) + 1
+    _ent0 = [{"f": _k0, "k": _c0, "g": _fund_grade.get(_k0)}
+             for _k0, _c0 in sorted(_fcnt0.items(), key=lambda _x0: (-_x0[1], _x0[0])) if _c0 >= 3]
+    _nflip0 = sum(1 for _x0 in _ent0 if _x0["g"] == "FLIPPER")
+    if _issm0 < 4:
+        _LM_EARLY.append((_e0["name"], len(_slugs0), _issm0))
+        continue
+    _rets0 = [_r5(_o) for _o in _evs0]
+    _med0 = _med(_rets0)
+    _pneg0 = round(sum(1 for _x0 in _rets0 if _x0 < 0) / _n0 * 100)
+    _adov0 = _avg([_o.get("dov_ev") for _o in _evs0])
+    _aru0 = _avg([_o.get("runup20") for _o in _evs0])
+    _cmed0 = round(2.5 * max(min(_med0, 10), -10), 1)
+    _cneg0 = round(-0.3 * (_pneg0 - 50), 1)
+    _cbel0 = round(-0.4 * ((_pb0 if _pb0 is not None else 40) - 40), 1)
+    _cdov0 = round(-1.0 * max((_adov0 or 0) - 3, 0), 1)
+    _cru0 = round(-0.05 * max((_aru0 or 0) - 25, 0), 1)
+    _cdl0 = round(min(len(_slugs0), 10) * 0.5, 1)
+    _sc0 = round(50 + _cmed0 + _cneg0 + _cbel0 + _cdov0 + _cru0 + _cdl0, 1)
+    _gr0 = "HOLDS UP" if _sc0 >= 60 else ("MIXED" if _sc0 >= 45 else "FADES")
+    _idet0 = []
+    for _s0 in _slugs0:
+        _rr0 = _rec_by_slug.get(_s0) or {}
+        _ev_s0 = _outs_by_slug.get(_s0, [])
+        _idet0.append({"co": _rr0.get("company") or _slug_pretty(_s0),
+                       "ld": _dshort(_rr0.get("listing_date") or ""),
+                       "lds": _rr0.get("listing_date") or "",
+                       "chg": _rr0.get("chg_from_issue_pct"),
+                       "st": 1 if (_rr0.get("chg_from_issue_pct") is not None
+                                   and (_rr0.get("close_date") or "9999") < _stale_cut) else 0,
+                       "n": len(_ev_s0), "m": _med([_r5(_o) for _o in _ev_s0])})
+    _idet0.sort(key=lambda _x0: _x0["lds"], reverse=True)
+    _L0 = {"lid": _lid0, "name": _e0["name"], "iss": len(_slugs0), "issm": _issm0, "n": _n0,
+           "med": _med0, "pneg": _pneg0, "pb": _pb0, "b": _below0, "cov": _cov0, "stale": _stale0,
+           "adov": _adov0, "aru": _aru0, "score": _sc0, "grade": _gr0,
+           "cmed": _cmed0, "cneg": _cneg0, "cbel": _cbel0, "cdov": _cdov0, "cru": _cru0, "cdl": _cdl0,
+           "ent": _ent0, "nflip": _nflip0, "lmcov": _lmcov0, "idet": _idet0}
+    _L0["pts"] = _lm_pointers(_L0)
+    _LMDATA.append(_L0)
+_LMDATA.sort(key=lambda _x0: -_x0["score"])
+_LM_EARLY.sort(key=lambda _x0: (-_x0[1], _x0[0]))
+
+_lmrows = ""
+for _i0, _L0 in enumerate(_LMDATA):
+    _bg0, _fg0 = _lmgcol[_L0["grade"]]
+    _entc0 = "—" if not _L0["ent"] else (f"{len(_L0['ent'])}" + (f" · {_L0['nflip']} flip" if _L0["nflip"] else ""))
+    _pbc0 = "—" if _L0["pb"] is None else f"{_L0['pb']}% ({_L0['b']} of {_L0['cov']})"
+    _lmrows += (f"<tr><td>{_i0+1}</td><td class=\"fname\" data-li=\"{_i0}\" style=\"font-family:'Instrument Sans',sans-serif;font-weight:500\">{_L0['name']}</td>"
+                f"<td>{_L0['iss']}</td><td>{_L0['n']}</td>"
+                f"<td>{'+' if _L0['med'] >= 0 else ''}{_L0['med']}%</td><td>{_L0['pneg']}%</td>"
+                f"<td>{_pbc0}</td>"
+                f"<td>{_L0['adov'] if _L0['adov'] is not None else '—'}×</td>"
+                f"<td>{'+' if (_L0['aru'] or 0) >= 0 else ''}{_L0['aru'] if _L0['aru'] is not None else '—'}%</td>"
+                f"<td>{_entc0}</td>"
+                f"<td><span style='background:{_bg0};color:{_fg0};padding:2px 10px;border-radius:99px;font-size:10.5px;font-weight:700;white-space:nowrap'>{_L0['grade']}</span></td></tr>")
+_lm_early_strip = " · ".join(f"{_n1} ({_c1} issue{'s' if _c1 != 1 else ''}, {_m1} with unlocks watched)"
+                             for _n1, _c1, _m1 in _LM_EARLY) or "—"
+
+# index-page lookup: lm_id -> compact stats (only graded LMs carry a grade)
+_LM_IDX = {}
+for _L0 in _LMDATA:
+    _LM_IDX[str(_L0["lid"])] = {"n": _L0["name"], "g": _L0["grade"], "sc": _L0["score"],
+                                "med": _L0["med"], "nev": _L0["n"], "pb": _L0["pb"]}
+
+# backtest: bucket every measured unlock event by its issue's LM grade
+_lm_grade_slugs = {}
+for _L0 in _LMDATA:
+    for _s0 in _lm_map[_L0["lid"]]["slugs"]:
+        _lm_grade_slugs.setdefault(_s0, set()).add(_L0["grade"])
+_lm_early_ids = {_lid1 for _lid1, _e1 in _lm_map.items() if str(_lid1) not in _LM_IDX}
+_lm_early_slugs = set()
+for _lid1 in _lm_early_ids:
+    _lm_early_slugs |= _lm_map[_lid1]["slugs"]
+_lmbt_rows = []
+for _lbl0, _sel0 in (("issues from HOLDS UP lead managers", "HOLDS UP"),
+                     ("issues from MIXED lead managers", "MIXED"),
+                     ("issues from FADES lead managers", "FADES")):
+    _v0 = [_r5(_o) for _s0, _g0 in _lm_grade_slugs.items() if _sel0 in _g0
+           for _o in _outs_by_slug.get(_s0, [])]
+    _neg0 = sum(1 for _x0 in _v0 if _x0 < 0)
+    _lmbt_rows.append((_lbl0, len(_v0) or None, _sgn(_med(_v0)),
+                       f"{round(_neg0 / len(_v0) * 100)}%" if _v0 else None))
+_v0 = [_r5(_o) for _s0 in _lm_early_slugs if _s0 not in _lm_grade_slugs
+       for _o in _outs_by_slug.get(_s0, [])]
+_neg0 = sum(1 for _x0 in _v0 if _x0 < 0)
+_lmbt_rows.append(("lead manager not yet graded", len(_v0) or None, _sgn(_med(_v0)),
+                   f"{round(_neg0 / len(_v0) * 100)}%" if _v0 else None))
 
 _ANCH_JS = """<style>
 .fname{cursor:pointer;text-decoration:underline dotted rgba(24,33,51,.35);text-underline-offset:3px}
@@ -511,7 +683,7 @@ th.sa::after{{content:' ▲';color:#B36F00}}th.sd::after{{content:' ▼';color:#
 .lay>aside .card{{margin-bottom:0}}
 .lay>.main{{order:1;min-width:0;overflow-x:auto}}
 @media(max-width:1020px){{.lay{{grid-template-columns:1fr}}.lay>aside{{position:static;order:0}}.lay>.main{{order:0}}}}</style></head><body>
-{NAV.format(a="", b="on", c="")}
+{NAV.format(a="", b="on", c="", d="")}
 <h1>Anchor <em>ranks</em></h1>
 <div class="sub">{len(FUND_TABLE)} funds graded · {len(_deal_counts)} funds tracked in total · unlock history covers <b>{_WINDOW}</b> · updated {gen_label}</div>
 <div class="lay">
@@ -594,7 +766,7 @@ b{{font-weight:600}}
 .grid2{{display:grid;grid-template-columns:1fr 1fr;gap:6px 30px;align-items:start;margin-top:14px}}
 .grid2 .card{{margin:4px 0 0}}
 @media(max-width:1020px){{.grid2{{grid-template-columns:1fr}}}}</style></head><body>
-{NAV.format(a="", b="", c="on")}\n<h1>Unlock <em>backtest</em></h1>
+{NAV.format(a="", b="", c="on", d="")}\n<h1>Unlock <em>backtest</em></h1>
 <div class="sub">{_n_total} past unlock events measured, covering <b>{_WINDOW}</b> · official BSE/NSE closing prices · refreshed daily, last: {gen_label} · <a href="index.html">← back to the radar</a></div>
 <div class="grid2">
 <div class="card"><b>How to read this page.</b> For every lock-in that opened in the past, we noted the share price just before the unlock day and again 5 trading days later.
@@ -609,12 +781,237 @@ b{{font-weight:600}}
       "If holders sit on big profits when their lock-in opens, are they more tempted to sell? This table checks exactly that.")}</div>
 <div>{_tbl("Does a price run-up before the unlock matter?", ["price move in the 20 days before", "events watched", "typical move, 5 days later", "fell how often"], _ru_rows,
       "Sometimes a stock rallies suspiciously into an unlock date. This checks what usually happens next.")}</div>
+<div>{_tbl("Does the lead manager's track record matter?", ["issues managed by", "events watched", "typical move, 5 days later", "fell how often"], _lmbt_rows,
+      "Grades come from the <a href='lm.html'>Lead managers</a> page. An issue with two lead managers counts under each. Mild health warning: the grade is built from these same unlocks — read this as description, not prophecy.")}</div>
 </div>
 <div class="note">Simple rule for the whole page: <b>the more "events watched", the more you can trust the row.</b> Under ~20 events, treat it as a hint, not a fact.
 Pre-IPO/promoter dates are computed from SEBI rules (can be off by a few days). Not investment advice.</div>
 </body></html>"""
 with open("docs/backtest.html", "w", encoding="utf-8") as _f:
     _f.write(_bt)
+
+# ---------------- lead managers page (docs/lm.html) ----------------
+_LM_JS = """<style>
+.fname{cursor:pointer;text-decoration:underline dotted rgba(24,33,51,.35);text-underline-offset:3px}
+.fname:hover{color:#B36F00}
+#fback{position:fixed;inset:0;background:rgba(16,24,40,.45);display:none;align-items:center;justify-content:center;z-index:60;padding:18px}
+#fback.on{display:flex}
+#fcard{background:#fff;border:1px solid rgba(24,33,51,.16);border-radius:16px;max-width:620px;width:100%;max-height:88vh;overflow-y:auto;padding:24px 26px 20px;box-shadow:0 24px 60px rgba(16,24,40,.25)}
+#fcard h3{font-family:Fraunces,serif;font-weight:500;font-size:22px;margin:0 0 2px}
+.fsub{font-size:12px;color:#727B8A;margin-bottom:14px}
+.srow{display:grid;grid-template-columns:1fr 92px 64px;gap:10px;align-items:center;padding:9px 0;border-bottom:1px solid rgba(24,33,51,.08);font-size:12.5px;color:#3F4756}
+.srow .in{font-family:'IBM Plex Mono',monospace;font-size:12px;text-align:right;color:#1A2130}
+.srow .pt{font-family:'IBM Plex Mono',monospace;font-size:12.5px;font-weight:600;text-align:right}
+.srow small{display:block;color:#727B8A;font-size:10.5px;margin-top:1px}
+.sbar{height:5px;border-radius:4px;margin-top:5px}
+.stot{display:flex;justify-content:space-between;align-items:center;padding:13px 0 4px;font-size:13.5px;font-weight:600}
+.fnote{font-size:11px;color:#727B8A;line-height:1.7;margin-top:12px;border-top:1px solid rgba(24,33,51,.12);padding-top:10px}
+.ftabs{display:flex;gap:7px;margin:12px 0 12px}
+.ftabbtn{border:1px solid rgba(24,33,51,.2);background:#fff;border-radius:99px;padding:5px 14px;font-size:11px;font-weight:600;color:#727B8A;cursor:pointer;font-family:'Instrument Sans',sans-serif}
+.ftabbtn.on{background:#1A2130;color:#fff;border-color:#1A2130}
+.hrow{display:grid;grid-template-columns:60px minmax(0,1fr) 84px 52px 62px;gap:8px;align-items:center;padding:7px 0;border-bottom:1px solid rgba(24,33,51,.08);font-size:12.5px;color:#3F4756}
+.hrow.hhead{font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:#727B8A;padding:10px 0 4px;border-bottom:1px solid rgba(24,33,51,.16)}
+.hd{font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:#727B8A}
+.hco{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:500}
+.hr,.hs{font-family:'IBM Plex Mono',monospace;font-size:11.5px;text-align:right}
+.fpts{background:#F7F5F0;border:1px solid rgba(24,33,51,.12);border-radius:10px;padding:9px 14px;margin:12px 0 0}
+.fpt{font-size:12.5px;color:#3F4756;line-height:1.65;padding:2.5px 0;display:flex;gap:9px;align-items:baseline}
+.fpt::before{content:'●';font-size:6.5px;color:#B36F00;flex:none;position:relative;top:-2px}
+.echip{display:inline-flex;align-items:center;gap:6px;border:1px solid rgba(24,33,51,.16);background:#F7F5F0;border-radius:99px;padding:3px 11px;font-size:11.5px;margin:0 6px 6px 0}
+.echip b{font-weight:600}
+.epill{font-size:9px;font-weight:700;padding:1px 7px;border-radius:99px;letter-spacing:.04em}
+</style>
+<div id="fback"><div id="fcard"></div></div>
+<script>
+(function(){
+const tab=document.getElementById('ltab');
+const heads=[...tab.rows[0].cells];
+const q=document.getElementById('lq');
+const pills=[...document.querySelectorAll('.vpill')];
+const chk=document.getElementById('lmin');
+let vsel='ALL';
+const rows=()=>[...tab.rows].slice(1);
+function apply(){
+  const s=q.value.trim().toLowerCase();
+  rows().forEach(r=>{
+    const name=r.cells[1].textContent.toLowerCase();
+    const verd=r.cells[10].textContent.trim();
+    const watched=parseFloat(r.cells[3].textContent)||0;
+    const ok=(!s||name.includes(s))&&(vsel==='ALL'||verd===vsel)&&(!chk.checked||watched>=10);
+    r.style.display=ok?'':'none';
+  });
+}
+q.addEventListener('input',apply);
+chk.addEventListener('change',apply);
+pills.forEach(p=>p.addEventListener('click',()=>{vsel=p.dataset.v;pills.forEach(x=>x.classList.toggle('on',x===p));apply();}));
+let sc=-1,sd=-1;
+function val(r,i){
+  const t=r.cells[i].textContent.trim();
+  if(t===''||t==='—')return null;
+  const n=parseFloat(t.replace(/[+%×,]/g,''));
+  return isNaN(n)?t.toLowerCase():n;
+}
+heads.forEach((h,i)=>{if(i===0)return;h.addEventListener('click',()=>{
+  sd=(sc===i)?-sd:(i===1?1:-1);sc=i;
+  heads.forEach(x=>x.classList.remove('sa','sd'));
+  h.classList.add(sd===1?'sa':'sd');
+  const rs=rows();
+  rs.sort((a,b)=>{
+    const va=val(a,i),vb=val(b,i);
+    if(va===null&&vb===null)return 0;if(va===null)return 1;if(vb===null)return -1;
+    if(typeof va==='string'||typeof vb==='string')return String(va).localeCompare(String(vb))*sd;
+    return (va-vb)*sd;
+  });
+  rs.forEach(r=>tab.tBodies[0].appendChild(r));
+});});
+const LMDATA = __LD__;
+const lmg = {'HOLDS UP':['#E1F5EE','#0F6E56'], MIXED:['#FBF0DA','#854F0B'], FADES:['#FBE4E7','#A32D2D']};
+const fg2 = {STICKY:['#E1F5EE','#0F6E56'], NEUTRAL:['#FBF0DA','#854F0B'], FLIPPER:['#FBE4E7','#A32D2D']};
+function srow(label, note, input, pts, max){
+  const c = pts >= 0 ? '#0B8A4D' : '#E24B4A';
+  const w = Math.min(Math.abs(pts) / max * 100, 100);
+  return `<div class="srow"><div>${label}<small>${note}</small><div class="sbar" style="background:${c};width:${Math.max(w,1.5)}%;opacity:${pts===0?0.15:1}"></div></div>
+    <div class="in">${input}</div><div class="pt" style="color:${c}">${pts >= 0 ? '+' : ''}${pts}</div></div>`;
+}
+function scoreBody(L){
+  return `
+    <div class="srow" style="border-bottom:1px dashed rgba(24,33,51,.2)"><div><b>Every lead manager starts at</b></div><div class="in"></div><div class="pt">50</div></div>
+    ${srow('Typical move in the week after unlocks on its issues', 'the big one · 2.5 pts per %, capped at ±10%', (L.med >= 0 ? '+' : '') + L.med + '%', L.cmed, 25)}
+    ${srow('How often its issues fell after unlocks', 'vs a 50/50 coin-flip · 0.3 pts per % better or worse', L.pneg + '%', L.cneg, 15)}
+    ${srow('Issues below issue price today', 'the survival test · 0.4 pts per % vs a 40% baseline', L.pb != null ? L.pb + '%' : '—', L.cbel, 20)}
+    ${srow('Heaviness of the unlocks it creates', 'size vs daily trading · penalty only above 3×', L.adov != null ? L.adov + '×' : '—', L.cdov, 15)}
+    ${srow('Price run-up into its unlock dates', 'pump-and-dump guard · penalty only above +25%', L.aru != null ? (L.aru >= 0 ? '+' : '') + L.aru + '%' : '—', L.cru, 10)}
+    ${srow('Experience bonus', 'half a point per issue taken public, max 10', L.iss + ' issues', L.cdl, 5)}
+    <div class="stot"><span>Total score</span><span style="font-family:'IBM Plex Mono',monospace">${L.score}</span></div>
+    <div class="fnote">60 or more = HOLDS UP · under 45 = FADES · in between = MIXED.
+    Only issues in our tracked universe count. The fewer unlocks watched (${L.n} here), the softer you should hold this verdict — it firms up automatically as more pass.</div>`;
+}
+function issBody(L){
+  let ent = '';
+  if(L.ent.length){
+    const chips = L.ent.map(e => {
+      const g = e.g ? `<span class="epill" style="background:${fg2[e.g][0]};color:${fg2[e.g][1]}">${e.g}</span>` : '<span class="epill" style="background:#F1EEE6;color:#727B8A">not graded</span>';
+      return `<span class="echip">${e.f} <b>×${e.k}</b> ${g}</span>`;
+    }).join('');
+    ent = `<div style="margin:2px 0 4px">${chips}</div>
+      <div class="fsub" style="margin:0 0 10px">funds appearing in 3+ of its anchor-covered issues (${L.lmcov} covered) · fund verdicts come from the Anchor ranks page${L.nflip ? ` · <b style="color:#A32D2D">${L.nflip} FLIPPER${L.nflip > 1 ? 's' : ''} among its regulars</b>` : ''}</div>`;
+  } else {
+    ent = `<div class="fsub" style="margin:0 0 10px">No regular anchor partners yet — a fund becomes "regular" after appearing in 3+ of this lead manager's anchor-covered issues (${L.lmcov} covered so far).</div>`;
+  }
+  const rows = L.idet.map(x => {
+    const chg = x.chg == null ? '<span class="hr">—</span>'
+      : `<span class="hr" style="color:${x.chg < 0 ? '#E24B4A' : '#0B8A4D'}">${x.chg >= 0 ? '+' : ''}${x.chg}%${x.st ? ' <span title="no fresh closing price in 2+ weeks" style="color:#727B8A;font-size:9px">quiet</span>' : ''}</span>`;
+    const m = x.m == null ? '<span class="hs">—</span>' : `<span class="hs" style="color:${x.m < 0 ? '#E24B4A' : '#0B8A4D'}">${x.m >= 0 ? '+' : ''}${x.m}%</span>`;
+    return `<div class="hrow"><span class="hd">${x.ld || '—'}</span><span class="hco">${x.co}</span>${chg}<span class="hs">${x.n}</span>${m}</div>`;
+  }).join('');
+  return `<div class="fsub" style="margin:0 0 2px;font-weight:600;color:#3F4756">Regular anchor partners</div>${ent}
+    <div class="hrow hhead"><span>listed</span><span>issue</span><span>vs issue px</span><span>unlocks</span><span>typical</span></div>${rows}
+    <div class="fnote">"vs issue px" = last close against the derived issue price (anchor money ÷ anchor shares). "quiet" = no fresh close in 2+ weeks — possibly illiquid or suspended; it still counts as its last known level. "typical" = median move 5 days after that issue's unlocks.</div>`;
+}
+function openLM(i, mode){
+  mode = mode || 'score';
+  const L = LMDATA[i];
+  const [bg, fgc] = lmg[L.grade];
+  const head = `
+    <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:10px">
+      <div><h3>${L.name}</h3><div class="fsub">${L.iss} issues in tracked universe · ${L.n} unlocks watched · score ${L.score}
+        <span style="background:${bg};color:${fgc};padding:2px 10px;border-radius:99px;font-size:10.5px;font-weight:700;margin-left:4px;white-space:nowrap">${L.grade}</span></div></div>
+      <button onclick="document.getElementById('fback').classList.remove('on')" style="border:1px solid rgba(24,33,51,.2);background:#fff;border-radius:8px;padding:5px 11px;font-size:11px;cursor:pointer;color:#3F4756">✕ esc</button>
+    </div>
+    <div class="fpts">${L.pts.map(p => '<div class="fpt">' + p + '</div>').join('')}</div>
+    <div class="ftabs">
+      <button class="ftabbtn ${mode === 'score' ? 'on' : ''}" data-m="score">how the score is built</button>
+      <button class="ftabbtn ${mode === 'iss' ? 'on' : ''}" data-m="iss">issues &amp; anchor partners</button>
+    </div>`;
+  const card = document.getElementById('fcard');
+  card.innerHTML = head + (mode === 'iss' ? issBody(L) : scoreBody(L));
+  card.querySelectorAll('.ftabbtn').forEach(btn => btn.onclick = () => openLM(i, btn.dataset.m));
+  document.getElementById('fback').classList.add('on');
+}
+tab.addEventListener('click', e => {
+  const td = e.target.closest('td.fname');
+  if(td) openLM(+td.dataset.li);
+});
+document.getElementById('fback').addEventListener('click', e => { if(e.target.id === 'fback') e.target.classList.remove('on'); });
+document.addEventListener('keydown', e => { if(e.key === 'Escape') document.getElementById('fback').classList.remove('on'); });
+if(location.hash && location.hash.indexOf('#lm') === 0){
+  const id = location.hash.slice(3);
+  const ix = LMDATA.findIndex(x => String(x.lid) === id);
+  if(ix >= 0) openLM(ix, 'iss');
+}
+})();
+</script>
+</body></html>"""
+
+_lmp = f"""<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Unlock Radar — lead managers</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Instrument+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>body{{background:#F7F5F0;color:#1A2130;font-family:'Instrument Sans',system-ui,sans-serif;font-size:15px;max-width:1360px;margin:0 auto;padding:32px 24px 60px}}
+h1{{font-family:Fraunces,serif;font-weight:400;font-size:36px;margin-bottom:4px}}h1 em{{font-style:italic;color:#B36F00}}
+.sub{{font-size:12.5px;color:#727B8A;margin:6px 0 20px;line-height:1.8}}
+{_NAVCSS}
+table{{width:100%;border-collapse:collapse;background:#fff;border:1px solid rgba(24,33,51,.16);border-radius:12px;overflow:hidden;font-size:12.5px}}
+th{{text-align:left;font-size:10px;letter-spacing:.12em;color:#727B8A;padding:9px 11px;border-bottom:1px solid rgba(24,33,51,.16);background:#F1EEE6}}
+td{{padding:9px 11px;border-bottom:1px solid rgba(24,33,51,.08);font-family:'IBM Plex Mono',monospace}}
+tr:last-child td{{border-bottom:0}}
+.card{{background:#fff;border:1px solid rgba(24,33,51,.16);border-radius:12px;padding:16px 18px;font-size:12.5px;color:#3F4756;line-height:1.9;margin-bottom:22px}}
+.note{{font-size:11.5px;color:#727B8A;line-height:1.9;margin-top:22px;border-top:1px solid rgba(24,33,51,.16);padding-top:13px}}
+.cap{{font-size:12px;color:#727B8A;line-height:1.7}} b{{font-weight:600}} i{{font-style:italic}}
+.ftools{{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:0 0 12px}}
+#lq{{background:#fff;border:1px solid rgba(24,33,51,.2);border-radius:9px;padding:8px 12px;font-family:'Instrument Sans',sans-serif;font-size:13px;min-width:190px;outline:none;color:#1A2130}}
+#lq:focus{{border-color:#B36F00}}
+.vpill{{border:1px solid rgba(24,33,51,.2);background:#fff;border-radius:99px;padding:5px 13px;font-size:10.5px;font-weight:700;letter-spacing:.08em;color:#727B8A;cursor:pointer}}
+.vpill.on{{background:#1A2130;color:#fff;border-color:#1A2130}}
+.fchk{{font-size:11.5px;color:#727B8A;display:flex;align-items:center;gap:5px;cursor:pointer}}
+th{{cursor:pointer;user-select:none;vertical-align:bottom}}
+th:hover{{background:#EAE6DA}}
+th.sa::after{{content:' ▲';color:#B36F00}}th.sd::after{{content:' ▼';color:#B36F00}}
+.lay{{display:grid;grid-template-columns:minmax(0,1fr) 330px;gap:26px;align-items:start}}
+.lay>aside{{order:2;position:sticky;top:18px;display:flex;flex-direction:column;gap:13px}}
+.lay>aside .card{{margin-bottom:0}}
+.lay>.main{{order:1;min-width:0;overflow-x:auto}}
+@media(max-width:1020px){{.lay{{grid-template-columns:1fr}}.lay>aside{{position:static;order:0}}.lay>.main{{order:0}}}}</style></head><body>
+{NAV.format(a="", b="", c="", d="on")}
+<h1>Lead <em>managers</em></h1>
+<div class="sub">{len(_LMDATA)} graded · {len(_lm_map)} tracked in total · lead manager known for <b>{_n_lm_known} of {_n_sme}</b> tracked SME IPOs · unlock history covers <b>{_WINDOW}</b> · updated {gen_label}</div>
+<div class="lay">
+<aside class="rail">
+<div class="card"><b>What this page tells you.</b> The lead manager (merchant banker) <i>designs</i> an SME IPO — picks the company, sets the price, builds the anchor book, underwrites the issue and appoints the market maker.
+Funds come and go deal by deal; the lead manager is the one actor present in every one of its issues.
+This page grades each of them purely on what happened to their issues' prices after lock-ins opened — no opinions, only measured outcomes.</div>
+<div class="card"><b>Reading a row:</b> "8 issues · 19 unlocks watched · −2.1% · 58% · 43% below issue" means: 8 of its IPOs are in our tracked universe; 19 of their unlocks have passed;
+the typical stock moved −2.1% in the week after; 58 out of 100 fell; and 43% of its priced issues trade below issue price today.<br><br>
+<b>Why can "unlocks watched" exceed "issues"?</b> Every IPO creates several unlocks — two anchor tranches, pre-IPO holders at 6 months, promoter slices later. All of them count here.</div>
+<div class="card"><b>The verdict:</b> <b>HOLDS UP</b> = issues usually stay firm after their unlock days. <b>FADES</b> = issues usually slip after unlock days — be careful holding its issues through unlock dates. MIXED = in between.
+A lead manager needs at least 4 issues with measured unlocks to get a verdict — everyone else waits in the "not yet graded" list below the table.</div>
+<div class="card"><b>Regular anchor partners.</b> Click any lead manager to see which funds keep reappearing in its deals (3+ of its covered issues).
+Each carries the fund's own verdict from the <a href="anchors.html" style="color:#0E7490">Anchor ranks</a> page.
+A lead manager whose regulars are mostly <b>FLIPPERs</b> deserves extra care around its unlock dates — the same names keep getting freed to sell.
+This signal is shown for information in v1; it does not move the score yet.</div>
+<div class="card" style="background:#FBF0DA;border-color:rgba(179,111,0,.3)"><b>Coverage note.</b> Lead-manager names sync from IPO pages one batch per day — currently known for {_n_lm_known} of {_n_sme} tracked SME IPOs, completing automatically.
+Anchor lists for 2024–25 show only each year's top-5 funds (source paywall), so "regular partner" counts lean on recent issues.</div>
+</aside>
+<div class="main">
+<div class="ftools">
+  <input id="lq" placeholder="search lead manager&hellip;">
+  <span class="vpill on" data-v="ALL">ALL</span>
+  <span class="vpill" data-v="HOLDS UP">HOLDS UP</span>
+  <span class="vpill" data-v="MIXED">MIXED</span>
+  <span class="vpill" data-v="FADES">FADES</span>
+  <label class="fchk"><input type="checkbox" id="lmin"> only well-tested (10+ unlocks watched)</label>
+  <span style="margin-left:auto;font-size:11px;color:#727B8A">click any column heading to sort · click a name for the full story</span>
+</div>
+<table id="ltab"><tr><th>#</th><th>lead manager</th><th>issues</th><th>unlocks watched</th><th>typical move after unlock</th><th>fell how often</th><th>below issue today</th><th>size vs daily vol</th><th>run-up into unlocks</th><th>regular anchors</th><th>verdict</th></tr>{_lmrows if _lmrows else "<tr><td colspan=11 style='color:#727B8A'>Grades appear after the first morning run captures lead-manager data — usually within a day.</td></tr>"}</table>
+<h2 style="font-family:Fraunces,serif;font-style:italic;font-weight:430;font-size:18px;color:#3F4756;margin:26px 0 8px">Tracked but not yet graded</h2>
+<p class="cap" style="font-size:12px;color:#727B8A;margin:0 0 8px">Needs 4 issues with measured unlocks for a verdict. Shown as: name (issues in universe, issues with unlocks watched). They graduate automatically.</p>
+<div style="font-size:12px;color:#727B8A;line-height:2">{_lm_early_strip}</div>
+<div class="note">A FADES verdict means issues this lead manager managed typically fell after unlock days — a pattern in measured prices, not an allegation about the banker's conduct.
+The more "unlocks watched", the more the verdict means. Scores recompute every morning as new unlocks pass. Not investment advice.</div>
+</div>
+</div>
+""" + _LM_JS.replace("__LD__", json.dumps(_LMDATA, ensure_ascii=False))
+with open("docs/lm.html", "w", encoding="utf-8") as _f:
+    _f.write(_lmp)
 
 FUND_COUNTS = dict(_deal_counts)
 
@@ -788,7 +1185,7 @@ footer b{color:var(--mut2);font-weight:600}
 <body>
 <div class="wrap">
 
-<div class="topnav"><a href="index.html" class="on">Radar</a><a href="anchors.html">Anchor ranks</a><a href="backtest.html">Backtest</a></div>
+<div class="topnav"><a href="index.html" class="on">Radar</a><a href="anchors.html">Anchor ranks</a><a href="lm.html">Lead managers</a><a href="backtest.html">Backtest</a></div>
 <header class="mast">
   <div>
     <h1>Unlock <em>Radar</em></h1>
@@ -843,6 +1240,8 @@ const STATS = __STATS__;
 const OUTS = __OUTS__;
 const FUNDS = __FUNDS__;
 const REG = __REG__;
+const LMS = __LMS__;
+const LMG = {'HOLDS UP':['#E1F5EE','#0F6E56','#0B8A4D'], MIXED:['#FBF0DA','#854F0B','#EF9F27'], FADES:['#FBE4E7','#A32D2D','#E24B4A']};
 const IST_OFF = 330;
 function istToday(){
   const n = new Date();
@@ -984,6 +1383,27 @@ function retBox(lbl, v){
   const c = v >= 0 ? 'var(--green)' : 'var(--red)';
   return `<div class="hbox"><div class="hk">${lbl}</div><div class="hv" style="color:${c}">${v >= 0 ? '+' : ''}${v}%</div></div>`;
 }
+function lmBlock(r){
+  const lms = (r.lm || []);
+  if(!lms.length) return '';
+  const chips = lms.map(p => {
+    const s = LMS[p[0]];
+    if(!s) return `<span class="fund">${esc(p[1])} <b style="font-weight:400;color:var(--mut)">· not yet graded</b></span>`;
+    const g = LMG[s.g];
+    return `<a class="fund" href="lm.html#lm${p[0]}" title="score ${s.sc} · see all its issues" style="cursor:pointer">${esc(s.n)} <b style="background:${g[0]};color:${g[1]};padding:1px 8px;border-radius:99px;font-size:9.5px;margin-left:2px">${s.g}</b></a>`;
+  }).join('');
+  const s0 = LMS[lms[0][0]];
+  const note = s0 ? `<div class="emkt" style="font-size:11px;margin-top:6px">this lead manager's issues typically move ${s0.med >= 0 ? '+' : ''}${s0.med}% in the week after unlocks (${s0.nev} watched)${s0.pb != null ? ` · ${s0.pb}% of its issues sit below issue price today` : ''}</div>` : '';
+  return `<div class="msec">LEAD MANAGER — WHO BUILT THIS IPO</div><div>${chips}${note}</div>`;
+}
+function lmTag(r){
+  const lms = (r.lm || []);
+  if(!lms.length) return '';
+  const s = LMS[lms[0][0]];
+  const nm = (s ? s.n : lms[0][1]).split(' ').slice(0, 2).join(' ');
+  if(!s) return ` · ${esc(nm)}`;
+  return ` · <span title="lead manager · ${s.g}"><span class="dot" style="background:${LMG[s.g][2]}"></span>${esc(nm)}</span>`;
+}
 function histCard(e, r){
   const o = OUTS[`${r.slug}|${e.t}`];
   const dd = -dayDiff(e.d);
@@ -1042,6 +1462,7 @@ function openModal(slug, tab){
     </div>
     ${capBar(r)}
     ${timelineViz(r)}
+    ${lmBlock(r)}
     ${fundsBlock(r)}
     <div class="mtabs">
       <button class="mtab ${defUp ? 'on' : ''}" onclick="mTab(this,'mtabu')">UPCOMING (${upc.length})</button>
@@ -1094,7 +1515,7 @@ function render(){
     const dv = dov(e), dd = dayDiff(e.d);
     return `<div class="pbrow" data-slug="${e.r.slug}">
       <span class="pbrank">${i+1}</span>
-      <div class="pbname">${esc(e.r.company)}<span>${dd===0 ? 'today' : fmtS(e.d)+' · D-'+dd}</span></div>
+      <div class="pbname">${esc(e.r.company)}<span>${dd===0 ? 'today' : fmtS(e.d)+' · D-'+dd}${lmTag(e.r)}</span></div>
       ${pills(e)}
       <span class="pbcap">${e.pct != null ? e.pct+'% of co' : shFmt(e.sh)+' sh'}</span>
       <span class="pbdov ${dovCls(dv)}"><span class="dot ${dovDot(dv)}"></span>${dovLab(dv)}</span>
@@ -1170,6 +1591,7 @@ html = HTML.replace("__DATA__", json.dumps(payload, ensure_ascii=False)) \
            .replace("__OUTS__", json.dumps(OUT_KEYED)) \
            .replace("__FUNDS__", json.dumps(FUND_COUNTS, ensure_ascii=False)) \
            .replace("__REG__", json.dumps(_slug_names, ensure_ascii=False)) \
+           .replace("__LMS__", json.dumps(_LM_IDX, ensure_ascii=False)) \
            .replace("__GENERATED__", gen_label)
 with open("docs/index.html", "w", encoding="utf-8") as f:
     f.write(html)

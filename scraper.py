@@ -124,6 +124,9 @@ POST_SH_RE = re.compile(r"Share\s*Holding\s*Post\s*Issue.{0,700}?(\d{1,3}(?:,\d{
 PROM_RE = re.compile(r"Promoter\s*Holding[^%]{0,600}?([\d]{1,2}\.\d{1,2})\s*%.{0,300}?([\d]{1,2}\.\d{1,2})\s*%", re.S | re.I)
 LIST_DT_RE = re.compile(r"Listing\s*Date.{0,200}?(\w{3},\s*\w{3}\s*\d{1,2},\s*\d{4}|\d{2}-\w{3}-\d{4})", re.S | re.I)
 ANCHOR_SEC_RE = re.compile(r"Anchor\s*Investors?\s*(?:List|Detail)?(.{0,12000}?)(?:<h[23]|Anchor\s*lock-in|IPO\s*Reservation|Promoter)", re.S | re.I)
+# Lead manager(s): name links use /report/ipo-lead-manager-review/112/<LM_ID>/ — the numeric
+# id is Chittorgarh's stable LM identifier (canonical key; sidesteps name-spelling drift).
+LM_RE = re.compile(r"ipo-lead-manager-review/112/(\d+)[^>]*>(.*?)</a>", re.S | re.I)
 FUND_HINT = re.compile(r"(fund|llp|limited|ltd|trust|mf|aif|capital|ventures?|securities|invest|wealth|advisors|portfolio|opportunit|emerging|india|global|alpha|growth)", re.I)
 NAME_CELL_RE = re.compile(r">\s*([A-Z][A-Za-z0-9&().,'\- ]{6,80})\s*<")
 
@@ -163,6 +166,14 @@ def fetch_meta(url: str):
             if len(names) >= 20:
                 break
     meta["anchor_names"] = names
+    lms, lseen = [], set()
+    for _lid, _ltxt in LM_RE.findall(html):
+        nm = " ".join(TAG_RE.sub("", _ltxt).replace("&amp;", "&").split()).strip().rstrip(".,")
+        if not nm or len(nm) < 3 or _lid in lseen:
+            continue
+        lseen.add(_lid)
+        lms.append([int(_lid), nm])
+    meta["lm"] = lms   # ALWAYS set (even []) so cached entries are not refetched forever
     return meta
 
 
@@ -238,7 +249,7 @@ def main():
         if (rec.get("boa_date") or "0000") < horizon:
             continue
         cached = meta_cache.get(slug)
-        if cached and cached.get("post_shares") and "anchor_names" in cached:
+        if cached and cached.get("post_shares") and "anchor_names" in cached and "lm" in cached:
             continue
         if cached and cached.get("_attempts", 0) >= 8:
             continue
@@ -246,6 +257,14 @@ def main():
             continue
         try:
             meta = fetch_meta(rec["url"])
+            # defensive merge: a refetch (e.g. the one-time lm backfill) must never
+            # lose previously-captured fields to a transient page change
+            if cached:
+                for _k in ("pre_shares", "post_shares", "prom_pre_pct", "prom_post_pct", "listing_date"):
+                    if meta.get(_k) is None and cached.get(_k) is not None:
+                        meta[_k] = cached[_k]
+                if not meta.get("anchor_names") and cached.get("anchor_names"):
+                    meta["anchor_names"] = cached["anchor_names"]
             meta["_attempts"] = (cached or {}).get("_attempts", 0) + 1
             meta_cache[slug] = meta
             fetched += 1
@@ -267,6 +286,7 @@ def main():
         rec["prom_post_pct"] = meta.get("prom_post_pct")
         rec["listing_date"] = meta.get("listing_date")
         rec["anchor_names"] = meta.get("anchor_names") or []
+        rec["lm"] = meta.get("lm") or []   # [[lm_id, name], ...] — SME lead manager(s)
         if rec["pre_shares"] and rec["prom_pre_pct"] is not None:
             rec["nonprom_pre_shares"] = int(rec["pre_shares"] * (1 - rec["prom_pre_pct"] / 100))
             rec["nonprom_pre_pct_of_post"] = (round(rec["nonprom_pre_shares"] / rec["post_shares"] * 100, 2)
@@ -293,8 +313,10 @@ def main():
     with open("data/lockins.json", "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
     n_ev = sum(len(r["events"]) for r in recs)
+    n_lm = sum(1 for r in recs if r["category"] == "SME" and r.get("lm"))
     print(f"[scraper] {len(recs)} records, {n_ev} events "
-          f"({sum(1 for r in recs if r['category']=='SME')} SME), skipped {len(skipped)}")
+          f"({sum(1 for r in recs if r['category']=='SME')} SME, lead manager known for {n_lm}), "
+          f"skipped {len(skipped)}")
 
 
 if __name__ == "__main__":
