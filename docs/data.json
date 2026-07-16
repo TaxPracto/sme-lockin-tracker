@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-16T10:06:50+05:30",
+ "generated_at": "2026-07-16T14:54:23+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -28,6 +28,7 @@
    "prom_post_pct": null,
    "listing_date": null,
    "anchor_names": [],
+   "lm": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -75,6 +76,12 @@
    "prom_post_pct": null,
    "listing_date": "2026-07-23",
    "anchor_names": [],
+   "lm": [
+    [
+     116,
+     "Choice Capital Advisors Pvt.Ltd"
+    ]
+   ],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -130,6 +137,7 @@
    "prom_post_pct": null,
    "listing_date": null,
    "anchor_names": [],
+   "lm": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -177,6 +185,12 @@
    "prom_post_pct": null,
    "listing_date": "2026-07-21",
    "anchor_names": [],
+   "lm": [
+    [
+     182,
+     "GYR Capital Advisors Pvt.Ltd"
+    ]
+   ],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -234,6 +248,12 @@
    "anchor_names": [
     "Investment by Mutual Fund"
    ],
+   "lm": [
+    [
+     941,
+     "JJ IPO Advisors Pvt.Ltd"
+    ]
+   ],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -290,6 +310,12 @@
    "listing_date": "2026-07-16",
    "anchor_names": [
     "Investment by Mutual Fund"
+   ],
+   "lm": [
+    [
+     162,
+     "Share India Capital Services Pvt.Ltd"
+    ]
    ],
    "nonprom_pre_shares": 70337,
    "nonprom_pre_pct_of_post": 0.49,
@@ -362,6 +388,7 @@
    "prom_post_pct": null,
    "listing_date": null,
    "anchor_names": [],
+   "lm": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -409,6 +436,7 @@
    "prom_post_pct": null,
    "listing_date": null,
    "anchor_names": [],
+   "lm": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -457,6 +485,12 @@
    "listing_date": "2026-07-10",
    "anchor_names": [
     "Investment by Mutual Fund"
+   ],
+   "lm": [
+    [
+     477,
+     "NEXGEN Financial Solutions Pvt.Ltd"
+    ]
    ],
    "nonprom_pre_shares": 2292477,
    "nonprom_pre_pct_of_post": 12.55,
@@ -529,6 +563,7 @@
    "prom_post_pct": null,
    "listing_date": null,
    "anchor_names": [],
+   "lm": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -577,6 +612,12 @@
    "listing_date": "2026-07-07",
    "anchor_names": [
     "Investment by Mutual Fund"
+   ],
+   "lm": [
+    [
+     192,
+     "Beeline Capital Advisors Pvt.Ltd"
+    ]
    ],
    "nonprom_pre_shares": 2237621,
    "nonprom_pre_pct_of_post": 20.16,
@@ -651,6 +692,12 @@
    "anchor_names": [
     "Investment by Mutual Fund"
    ],
+   "lm": [
+    [
+     147,
+     "Finshore Management Services Ltd"
+    ]
+   ],
    "nonprom_pre_shares": 200216,
    "nonprom_pre_pct_of_post": 1.63,
    "events": [
@@ -724,6 +771,12 @@
    "anchor_names": [
     "Investment by Mutual Fund"
    ],
+   "lm": [
+    [
+     406,
+     "Horizon Management Pvt.Ltd"
+    ]
+   ],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -779,6 +832,7 @@
    "prom_post_pct": null,
    "listing_date": null,
    "anchor_names": [],
+   "lm": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -826,6 +880,7 @@
    "prom_post_pct": null,
    "listing_date": null,
    "anchor_names": [],
+   "lm": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -874,6 +929,12 @@
    "listing_date": "2026-07-01",
    "anchor_names": [
     "Investment by Mutual Fund"
+   ],
+   "lm": [
+    [
+     435,
+     "Marwadi Chandarana Intermediaries Brokers Pvt.Ltd"
+    ]
    ],
    "nonprom_pre_shares": 539924,
    "nonprom_pre_pct_of_post": 2.52,
@@ -946,6 +1007,7 @@
    "prom_post_pct": null,
    "listing_date": null,
    "anchor_names": [],
+   "lm": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -994,6 +1056,12 @@
    "listing_date": "2026-06-29",
    "anchor_names": [
     "Investment by Mutual Fund"
+   ],
+   "lm": [
+    [
+     168,
+     "Capital Square Advisors Pvt.Ltd"
+    ]
    ],
    "nonprom_pre_shares": 800,
    "nonprom_pre_pct_of_post": 0.01,
@@ -1066,6 +1134,7 @@
    "prom_post_pct": null,
    "listing_date": null,
    "anchor_names": [],
+   "lm": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -1114,6 +1183,12 @@
    "listing_date": "2026-06-25",
    "anchor_names": [
     "Investment by Mutual Fund"
+   ],
+   "lm": [
+    [
+     424,
+     "Fintellectual Corporate Advisors Pvt.Ltd"
+    ]
    ],
    "nonprom_pre_shares": 488185,
    "nonprom_pre_pct_of_post": 8.9,
@@ -1188,6 +1263,12 @@
    "anchor_names": [
     "Investment by Mutual Fund"
    ],
+   "lm": [
+    [
+     76,
+     "Hem Securities Ltd"
+    ]
+   ],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -1245,6 +1326,12 @@
    "anchor_names": [
     "Investment by Mutual Fund"
    ],
+   "lm": [
+    [
+     182,
+     "GYR Capital Advisors Pvt.Ltd"
+    ]
+   ],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -1301,6 +1388,12 @@
    "listing_date": "2026-06-18",
    "anchor_names": [
     "Investment by Mutual Fund"
+   ],
+   "lm": [
+    [
+     450,
+     "Seren Capital Pvt.Ltd"
+    ]
    ],
    "nonprom_pre_shares": 1173836,
    "nonprom_pre_pct_of_post": 5.77,
@@ -1375,6 +1468,12 @@
    "anchor_names": [
     "Investment by Mutual Fund"
    ],
+   "lm": [
+    [
+     116,
+     "Choice Capital Advisors Pvt.Ltd"
+    ]
+   ],
    "nonprom_pre_shares": 1284557,
    "nonprom_pre_pct_of_post": 7.16,
    "events": [
@@ -1446,6 +1545,7 @@
    "prom_post_pct": null,
    "listing_date": null,
    "anchor_names": [],
+   "lm": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -1493,6 +1593,7 @@
    "prom_post_pct": null,
    "listing_date": null,
    "anchor_names": [],
+   "lm": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -1541,6 +1642,12 @@
    "listing_date": "2026-06-08",
    "anchor_names": [
     "Investment by Mutual Fund"
+   ],
+   "lm": [
+    [
+     182,
+     "GYR Capital Advisors Pvt.Ltd"
+    ]
    ],
    "nonprom_pre_shares": 1895993,
    "nonprom_pre_pct_of_post": 10.84,
@@ -1615,6 +1722,12 @@
    "anchor_names": [
     "Investment by Mutual Fund"
    ],
+   "lm": [
+    [
+     450,
+     "Seren Capital Pvt.Ltd"
+    ]
+   ],
    "nonprom_pre_shares": 210188,
    "nonprom_pre_pct_of_post": 2.03,
    "events": [
@@ -1687,6 +1800,12 @@
    "listing_date": "2026-06-01",
    "anchor_names": [
     "Investment by Mutual Fund"
+   ],
+   "lm": [
+    [
+     168,
+     "Capital Square Advisors Pvt.Ltd"
+    ]
    ],
    "nonprom_pre_shares": 189715,
    "nonprom_pre_pct_of_post": 0.97,
@@ -1761,6 +1880,12 @@
    "anchor_names": [
     "Investment by Mutual Fund"
    ],
+   "lm": [
+    [
+     76,
+     "Hem Securities Ltd"
+    ]
+   ],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -1817,6 +1942,12 @@
    "listing_date": "2026-05-27",
    "anchor_names": [
     "Investment by Mutual Fund"
+   ],
+   "lm": [
+    [
+     440,
+     "Corporate Makers Capital Ltd"
+    ]
    ],
    "nonprom_pre_shares": 74480,
    "nonprom_pre_pct_of_post": 0.45,
@@ -1891,6 +2022,12 @@
    "anchor_names": [
     "Investment by Mutual Fund"
    ],
+   "lm": [
+    [
+     451,
+     "GetFive Advisors Pvt.Ltd"
+    ]
+   ],
    "nonprom_pre_shares": 4128000,
    "nonprom_pre_pct_of_post": 13.77,
    "events": [
@@ -1963,6 +2100,12 @@
    "listing_date": "2026-05-19",
    "anchor_names": [
     "Investment by Mutual Fund"
+   ],
+   "lm": [
+    [
+     431,
+     "Cumulative Capital Pvt.Ltd"
+    ]
    ],
    "nonprom_pre_shares": 1400699,
    "nonprom_pre_pct_of_post": 14.59,
@@ -2037,6 +2180,12 @@
    "anchor_names": [
     "Investment by Mutual Fund"
    ],
+   "lm": [
+    [
+     436,
+     "Socradamus Capital Pvt.Ltd"
+    ]
+   ],
    "nonprom_pre_shares": 880,
    "nonprom_pre_pct_of_post": 0.01,
    "events": [
@@ -2108,6 +2257,7 @@
    "prom_post_pct": null,
    "listing_date": null,
    "anchor_names": [],
+   "lm": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -2156,6 +2306,12 @@
    "listing_date": "2026-05-12",
    "anchor_names": [
     "Investment by Mutual Fund"
+   ],
+   "lm": [
+    [
+     450,
+     "Seren Capital Pvt.Ltd"
+    ]
    ],
    "nonprom_pre_shares": 901224,
    "nonprom_pre_pct_of_post": 8.47,
@@ -2228,6 +2384,7 @@
    "prom_post_pct": null,
    "listing_date": null,
    "anchor_names": [],
+   "lm": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -2276,6 +2433,12 @@
    "listing_date": "2026-04-30",
    "anchor_names": [
     "Investment by Mutual Fund"
+   ],
+   "lm": [
+    [
+     76,
+     "Hem Securities Ltd"
+    ]
    ],
    "nonprom_pre_shares": 2401,
    "nonprom_pre_pct_of_post": 0.01,
@@ -2348,6 +2511,7 @@
    "prom_post_pct": null,
    "listing_date": null,
    "anchor_names": [],
+   "lm": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -2388,6 +2552,12 @@
    "listing_date": "2026-04-24",
    "anchor_names": [
     "Investment by Mutual Fund"
+   ],
+   "lm": [
+    [
+     431,
+     "Cumulative Capital Pvt.Ltd"
+    ]
    ],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
@@ -2444,6 +2614,7 @@
    "prom_post_pct": null,
    "listing_date": null,
    "anchor_names": [],
+   "lm": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -2492,6 +2663,12 @@
    "listing_date": "2026-04-13",
    "anchor_names": [
     "Investment by Mutual Fund"
+   ],
+   "lm": [
+    [
+     126,
+     "Sobhagya Capital Options Pvt.Ltd"
+    ]
    ],
    "nonprom_pre_shares": 4627896,
    "nonprom_pre_pct_of_post": 23.34,
@@ -2566,6 +2743,12 @@
    "anchor_names": [
     "Investment by Mutual Fund"
    ],
+   "lm": [
+    [
+     172,
+     "Smart Horizon Capital Advisors Pvt.Ltd"
+    ]
+   ],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -2622,6 +2805,12 @@
    "listing_date": "2026-04-07",
    "anchor_names": [
     "Investment by Mutual Fund"
+   ],
+   "lm": [
+    [
+     76,
+     "Hem Securities Ltd"
+    ]
    ],
    "nonprom_pre_shares": 700,
    "nonprom_pre_pct_of_post": 0.01,
@@ -2696,6 +2885,12 @@
    "anchor_names": [
     "Investment by Mutual Fund"
    ],
+   "lm": [
+    [
+     424,
+     "Fintellectual Corporate Advisors Pvt.Ltd"
+    ]
+   ],
    "nonprom_pre_shares": 3509,
    "nonprom_pre_pct_of_post": 0.07,
    "events": [
@@ -2767,6 +2962,7 @@
    "prom_post_pct": null,
    "listing_date": null,
    "anchor_names": [],
+   "lm": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -2814,6 +3010,7 @@
    "prom_post_pct": null,
    "listing_date": null,
    "anchor_names": [],
+   "lm": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -2861,6 +3058,7 @@
    "prom_post_pct": null,
    "listing_date": null,
    "anchor_names": [],
+   "lm": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -2909,6 +3107,12 @@
    "listing_date": "2026-04-01",
    "anchor_names": [
     "Investment by Mutual Fund"
+   ],
+   "lm": [
+    [
+     172,
+     "Smart Horizon Capital Advisors Pvt.Ltd"
+    ]
    ],
    "nonprom_pre_shares": 1962438,
    "nonprom_pre_pct_of_post": 9.45,
@@ -2981,6 +3185,7 @@
    "prom_post_pct": null,
    "listing_date": null,
    "anchor_names": [],
+   "lm": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -3029,6 +3234,12 @@
    "listing_date": "2026-03-25",
    "anchor_names": [
     "Investment by Mutual Fund"
+   ],
+   "lm": [
+    [
+     172,
+     "Smart Horizon Capital Advisors Pvt.Ltd"
+    ]
    ],
    "nonprom_pre_shares": 536558,
    "nonprom_pre_pct_of_post": 3.45,
@@ -3101,6 +3312,7 @@
    "prom_post_pct": null,
    "listing_date": null,
    "anchor_names": [],
+   "lm": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -3148,6 +3360,7 @@
    "prom_post_pct": null,
    "listing_date": null,
    "anchor_names": [],
+   "lm": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -3196,6 +3409,12 @@
    "listing_date": "2026-03-18",
    "anchor_names": [
     "Investment by Mutual Fund"
+   ],
+   "lm": [
+    [
+     94,
+     "Oneview Corporate Advisors Pvt.Ltd"
+    ]
    ],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
@@ -3252,6 +3471,7 @@
    "prom_post_pct": null,
    "listing_date": null,
    "anchor_names": [],
+   "lm": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -3300,6 +3520,12 @@
    "listing_date": "2026-03-06",
    "anchor_names": [
     "Investment by Mutual Fund"
+   ],
+   "lm": [
+    [
+     168,
+     "Capital Square Advisors Pvt.Ltd"
+    ]
    ],
    "nonprom_pre_shares": 635264,
    "nonprom_pre_pct_of_post": 3.41,
@@ -3374,6 +3600,12 @@
    "anchor_names": [
     "Investment by Mutual Fund"
    ],
+   "lm": [
+    [
+     436,
+     "Socradamus Capital Pvt.Ltd"
+    ]
+   ],
    "nonprom_pre_shares": 3052324,
    "nonprom_pre_pct_of_post": 14.58,
    "events": [
@@ -3445,6 +3677,7 @@
    "prom_post_pct": null,
    "listing_date": null,
    "anchor_names": [],
+   "lm": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -3492,6 +3725,7 @@
    "prom_post_pct": null,
    "listing_date": null,
    "anchor_names": [],
+   "lm": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -3540,6 +3774,12 @@
    "listing_date": "2026-03-02",
    "anchor_names": [
     "Investment by Mutual Fund"
+   ],
+   "lm": [
+    [
+     143,
+     "Corporate Capitalventures Pvt.Ltd"
+    ]
    ],
    "nonprom_pre_shares": 280000,
    "nonprom_pre_pct_of_post": 2.94,
@@ -3614,6 +3854,12 @@
    "anchor_names": [
     "Investment by Mutual Fund"
    ],
+   "lm": [
+    [
+     182,
+     "GYR Capital Advisors Pvt.Ltd"
+    ]
+   ],
    "nonprom_pre_shares": 2260700,
    "nonprom_pre_pct_of_post": 10.99,
    "events": [
@@ -3685,6 +3931,7 @@
    "prom_post_pct": null,
    "listing_date": null,
    "anchor_names": [],
+   "lm": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -3733,6 +3980,12 @@
    "listing_date": "2026-02-27",
    "anchor_names": [
     "Investment by Mutual Fund"
+   ],
+   "lm": [
+    [
+     477,
+     "NEXGEN Financial Solutions Pvt.Ltd"
+    ]
    ],
    "nonprom_pre_shares": 3637514,
    "nonprom_pre_pct_of_post": 16.65,
@@ -3805,6 +4058,7 @@
    "prom_post_pct": null,
    "listing_date": null,
    "anchor_names": [],
+   "lm": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -3853,6 +4107,12 @@
    "listing_date": "2026-02-24",
    "anchor_names": [
     "Investment by Mutual Fund"
+   ],
+   "lm": [
+    [
+     472,
+     "Finaax Capital Advisors Private Limited"
+    ]
    ],
    "nonprom_pre_shares": 159037,
    "nonprom_pre_pct_of_post": 2.03,
@@ -3927,6 +4187,12 @@
    "anchor_names": [
     "Investment by Mutual Fund"
    ],
+   "lm": [
+    [
+     477,
+     "NEXGEN Financial Solutions Pvt.Ltd"
+    ]
+   ],
    "nonprom_pre_shares": 1264385,
    "nonprom_pre_pct_of_post": 14.81,
    "events": [
@@ -4000,6 +4266,12 @@
    "anchor_names": [
     "Investment by Mutual Fund"
    ],
+   "lm": [
+    [
+     435,
+     "Marwadi Chandarana Intermediaries Brokers Pvt.Ltd"
+    ]
+   ],
    "nonprom_pre_shares": 491324,
    "nonprom_pre_pct_of_post": 6.81,
    "events": [
@@ -4071,6 +4343,7 @@
    "prom_post_pct": null,
    "listing_date": null,
    "anchor_names": [],
+   "lm": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -4118,6 +4391,7 @@
    "prom_post_pct": null,
    "listing_date": null,
    "anchor_names": [],
+   "lm": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -4166,6 +4440,12 @@
    "listing_date": "2026-02-11",
    "anchor_names": [
     "Investment by Mutual Fund"
+   ],
+   "lm": [
+    [
+     147,
+     "Finshore Management Services Ltd"
+    ]
    ],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
@@ -4223,6 +4503,12 @@
    "listing_date": "2026-02-11",
    "anchor_names": [
     "Investment by Mutual Fund"
+   ],
+   "lm": [
+    [
+     123,
+     "Gretex Corporate Services Ltd"
+    ]
    ],
    "nonprom_pre_shares": 10852,
    "nonprom_pre_pct_of_post": 0.06,
@@ -4297,6 +4583,12 @@
    "anchor_names": [
     "Investment by Mutual Fund"
    ],
+   "lm": [
+    [
+     450,
+     "Seren Capital Pvt.Ltd"
+    ]
+   ],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -4353,6 +4645,12 @@
    "listing_date": "2026-02-06",
    "anchor_names": [
     "Investment by Mutual Fund"
+   ],
+   "lm": [
+    [
+     94,
+     "Oneview Corporate Advisors Pvt.Ltd"
+    ]
    ],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
@@ -4411,6 +4709,12 @@
    "anchor_names": [
     "Investment by Mutual Fund"
    ],
+   "lm": [
+    [
+     126,
+     "Sobhagya Capital Options Pvt.Ltd"
+    ]
+   ],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -4467,6 +4771,12 @@
    "listing_date": "2026-02-03",
    "anchor_names": [
     "Investment by Mutual Fund"
+   ],
+   "lm": [
+    [
+     76,
+     "Hem Securities Ltd"
+    ]
    ],
    "nonprom_pre_shares": 584705,
    "nonprom_pre_pct_of_post": 5.62,
@@ -4541,6 +4851,12 @@
    "anchor_names": [
     "Investment by Mutual Fund"
    ],
+   "lm": [
+    [
+     168,
+     "Capital Square Advisors Pvt.Ltd"
+    ]
+   ],
    "nonprom_pre_shares": 1073704,
    "nonprom_pre_pct_of_post": 4.73,
    "events": [
@@ -4613,6 +4929,12 @@
    "listing_date": "2026-01-29",
    "anchor_names": [
     "Investment by Mutual Fund"
+   ],
+   "lm": [
+    [
+     477,
+     "NEXGEN Financial Solutions Pvt.Ltd"
+    ]
    ],
    "nonprom_pre_shares": 1216830,
    "nonprom_pre_pct_of_post": 5.72,
@@ -4687,6 +5009,12 @@
    "anchor_names": [
     "Investment by Mutual Fund"
    ],
+   "lm": [
+    [
+     175,
+     "Indorient Financial Services Ltd"
+    ]
+   ],
    "nonprom_pre_shares": 2559052,
    "nonprom_pre_pct_of_post": 8.84,
    "events": [
@@ -4758,6 +5086,7 @@
    "prom_post_pct": null,
    "listing_date": null,
    "anchor_names": [],
+   "lm": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -4806,6 +5135,12 @@
    "listing_date": "2026-01-21",
    "anchor_names": [
     "Investment by Mutual Fund"
+   ],
+   "lm": [
+    [
+     162,
+     "Share India Capital Services Pvt.Ltd"
+    ]
    ],
    "nonprom_pre_shares": 519688,
    "nonprom_pre_pct_of_post": 3.64,
@@ -4878,6 +5213,7 @@
    "prom_post_pct": null,
    "listing_date": null,
    "anchor_names": [],
+   "lm": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -4926,6 +5262,12 @@
    "listing_date": "2026-01-21",
    "anchor_names": [
     "Investment by Mutual Fund"
+   ],
+   "lm": [
+    [
+     182,
+     "GYR Capital Advisors Pvt.Ltd"
+    ]
    ],
    "nonprom_pre_shares": 2953129,
    "nonprom_pre_pct_of_post": 12.92,
@@ -5000,6 +5342,12 @@
    "anchor_names": [
     "Investment by Mutual Fund"
    ],
+   "lm": [
+    [
+     477,
+     "NEXGEN Financial Solutions Pvt. Ltd"
+    ]
+   ],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -5057,6 +5405,12 @@
    "anchor_names": [
     "Investment by Mutual Fund"
    ],
+   "lm": [
+    [
+     445,
+     "Indcap Advisors Pvt.Ltd"
+    ]
+   ],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -5112,6 +5466,7 @@
    "prom_post_pct": null,
    "listing_date": null,
    "anchor_names": [],
+   "lm": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -5160,6 +5515,12 @@
    "listing_date": "2026-01-13",
    "anchor_names": [
     "Investment by Mutual Fund"
+   ],
+   "lm": [
+    [
+     182,
+     "GYR Capital Advisors Pvt.Ltd"
+    ]
    ],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
@@ -5217,6 +5578,12 @@
    "listing_date": "2026-01-07",
    "anchor_names": [
     "Investment by Mutual Fund"
+   ],
+   "lm": [
+    [
+     192,
+     "Beeline Capital Advisors Pvt.Ltd"
+    ]
    ],
    "nonprom_pre_shares": 1100,
    "nonprom_pre_pct_of_post": 0.01,
@@ -5291,6 +5658,12 @@
    "anchor_names": [
     "Investment by Mutual Fund"
    ],
+   "lm": [
+    [
+     76,
+     "Hem Securities Ltd"
+    ]
+   ],
    "nonprom_pre_shares": 6806070,
    "nonprom_pre_pct_of_post": 39.44,
    "events": [
@@ -5363,6 +5736,12 @@
    "listing_date": "2025-12-31",
    "anchor_names": [
     "Investment by Mutual Fund"
+   ],
+   "lm": [
+    [
+     448,
+     "Aftertrade Broking Pvt.Ltd"
+    ]
    ],
    "nonprom_pre_shares": 1403743,
    "nonprom_pre_pct_of_post": 20.73,
@@ -5437,6 +5816,12 @@
    "anchor_names": [
     "Investment by Mutual Fund"
    ],
+   "lm": [
+    [
+     76,
+     "Hem Securities Ltd"
+    ]
+   ],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -5493,6 +5878,12 @@
    "listing_date": "2025-12-31",
    "anchor_names": [
     "Investment by Mutual Fund"
+   ],
+   "lm": [
+    [
+     192,
+     "Beeline Capital Advisors Pvt.Ltd"
+    ]
    ],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
@@ -5551,6 +5942,12 @@
    "anchor_names": [
     "Investment by Mutual Fund"
    ],
+   "lm": [
+    [
+     449,
+     "Shreni Shares Ltd"
+    ]
+   ],
    "nonprom_pre_shares": 300457,
    "nonprom_pre_pct_of_post": 1.73,
    "events": [
@@ -5598,6 +5995,7 @@
    "prom_post_pct": null,
    "listing_date": null,
    "anchor_names": [],
+   "lm": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -5647,6 +6045,12 @@
    "anchor_names": [
     "Investment by Mutual Fund"
    ],
+   "lm": [
+    [
+     192,
+     "Beeline Capital Advisors Pvt.Ltd"
+    ]
+   ],
    "nonprom_pre_shares": 9512799,
    "nonprom_pre_pct_of_post": 7.93,
    "events": [
@@ -5694,6 +6098,7 @@
    "prom_post_pct": null,
    "listing_date": null,
    "anchor_names": [],
+   "lm": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -5741,6 +6146,7 @@
    "prom_post_pct": null,
    "listing_date": null,
    "anchor_names": [],
+   "lm": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
