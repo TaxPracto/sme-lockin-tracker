@@ -5,6 +5,20 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:caliber-mining-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260821
+DTEND;VALUE=DATE:20260822
+SUMMARY:🔓 Caliber Mining & Logistics Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/caliber-mining-ipo/1999/
+END:VEVENT
+BEGIN:VEVENT
+UID:caliber-mining-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:🔓 Caliber Mining & Logistics Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/caliber-mining-ipo/1999/
+END:VEVENT
+BEGIN:VEVENT
 UID:sotefin-bharat-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260820
 DTEND;VALUE=DATE:20260821
@@ -229,27 +243,6 @@ SUMMARY:🔓 Kratikal Tech Ltd. — 2Y promoter unlock (1\,851\,570 sh\; 16.68% 
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/kratikal-tech-ipo/2844/
 END:VEVENT
 BEGIN:VEVENT
-UID:atharva-polyplast-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260802
-DTEND;VALUE=DATE:20260803
-SUMMARY:🔓 Atharva Polyplast Ltd. — 30D anchor unlock (637\,000 sh\; 3.78% of capital\; ~Rs.3.8 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/atharva-polyplast-ipo/2653/
-END:VEVENT
-BEGIN:VEVENT
-UID:atharva-polyplast-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20261002
-SUMMARY:🔓 Atharva Polyplast Ltd. — 90D anchor unlock (637\,000 sh\; 3.78% of capital\; ~Rs.3.8 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/atharva-polyplast-ipo/2653/
-END:VEVENT
-BEGIN:VEVENT
-UID:atharva-polyplast-ipo-PRE6M@unlockradar
-DTSTART;VALUE=DATE:20261229
-DTEND;VALUE=DATE:20261230
-SUMMARY:🔓 Atharva Polyplast Ltd. — 6M pre-IPO unlock
-DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/atharva-polyplast-ipo/2653/
-END:VEVENT
-BEGIN:VEVENT
 UID:sampark-india-logistics-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260802
 DTEND;VALUE=DATE:20260803
@@ -283,6 +276,27 @@ DTSTART;VALUE=DATE:20280629
 DTEND;VALUE=DATE:20280630
 SUMMARY:🔓 Sampark India Logistics Ltd. — 2Y promoter unlock (3\,183\,597 sh\; 25.97% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/sampark-india-logistics-ipo/2711/
+END:VEVENT
+BEGIN:VEVENT
+UID:atharva-polyplast-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260802
+DTEND;VALUE=DATE:20260803
+SUMMARY:🔓 Atharva Polyplast Ltd. — 30D anchor unlock (637\,000 sh\; 3.78% of capital\; ~Rs.3.8 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/atharva-polyplast-ipo/2653/
+END:VEVENT
+BEGIN:VEVENT
+UID:atharva-polyplast-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:🔓 Atharva Polyplast Ltd. — 90D anchor unlock (637\,000 sh\; 3.78% of capital\; ~Rs.3.8 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/atharva-polyplast-ipo/2653/
+END:VEVENT
+BEGIN:VEVENT
+UID:atharva-polyplast-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+SUMMARY:🔓 Atharva Polyplast Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/atharva-polyplast-ipo/2653/
 END:VEVENT
 BEGIN:VEVENT
 UID:csm-technologies-ipo-A30@unlockradar
