@@ -481,13 +481,6 @@ SUMMARY:🔓 Clay Craft India Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/clay-craft-ipo/2585/
 END:VEVENT
 BEGIN:VEVENT
-UID:horizon-reclaim-india-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260716
-DTEND;VALUE=DATE:20260717
-SUMMARY:🔓 Horizon Reclaim (India) Ltd. — 30D anchor unlock (750\,600 sh\; 3.85% of capital\; ~Rs.7.7 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/horizon-reclaim-india-ipo/2937/
-END:VEVENT
-BEGIN:VEVENT
 UID:horizon-reclaim-india-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
@@ -500,13 +493,6 @@ DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:🔓 Horizon Reclaim (India) Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/horizon-reclaim-india-ipo/2937/
-END:VEVENT
-BEGIN:VEVENT
-UID:susan-electricals-india-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260716
-DTEND;VALUE=DATE:20260717
-SUMMARY:🔓 Susan Electricals India Ltd. — 30D anchor unlock (761\,500 sh\; 3.75% of capital\; ~Rs.9.7 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/susan-electricals-india-ipo/2872/
 END:VEVENT
 BEGIN:VEVENT
 UID:susan-electricals-india-ipo-A90@unlockradar
