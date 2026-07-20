@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-19T10:17:36+05:30",
+ "generated_at": "2026-07-20T10:34:03+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -7,6 +7,78 @@
   2026
  ],
  "records": [
+  {
+   "company": "Metalic Technoforge Ltd.",
+   "slug": "metalic-technoforge-ipo",
+   "url": "https://www.chittorgarh.com/ipo/metalic-technoforge-ipo/2993/",
+   "category": "SME",
+   "anchor_allotment_date": "2026-07-20",
+   "boa_date": "2026-07-20",
+   "d30": "2026-08-23",
+   "d90": "2026-10-22",
+   "anchor_shares": 1840000,
+   "anchor_investment_cr": 14.17,
+   "pct_of_issue": 22.09,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": 17496400,
+   "post_shares": 23984400,
+   "prom_pre_pct": 83.63,
+   "prom_post_pct": 61.0,
+   "listing_date": "2026-07-28",
+   "anchor_names": [],
+   "lm": [
+    [
+     172,
+     "Smart Horizon Capital Advisors Pvt.Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": 2864160,
+   "nonprom_pre_pct_of_post": 11.94,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-08-23",
+     "sh": 920000,
+     "pct": 3.84,
+     "val": 7.085,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-10-22",
+     "sh": 920000,
+     "pct": 3.84,
+     "val": 7.085,
+     "est": false
+    },
+    {
+     "t": "PRE6M",
+     "d": "2027-01-20",
+     "sh": 2864160,
+     "pct": 11.94,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX1Y",
+     "d": "2027-07-20",
+     "sh": 4916802,
+     "pct": 20.5,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX2Y",
+     "d": "2028-07-20",
+     "sh": 4916802,
+     "pct": 20.5,
+     "val": null,
+     "est": true
+    }
+   ]
+  },
   {
    "company": "Caliber Mining & Logistics Ltd.",
    "slug": "caliber-mining-ipo",

@@ -5,6 +5,41 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:metalic-technoforge-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260823
+DTEND;VALUE=DATE:20260824
+SUMMARY:🔓 Metalic Technoforge Ltd. — 30D anchor unlock (920\,000 sh\; 3.84% of capital\; ~Rs.7.1 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/metalic-technoforge-ipo/2993/
+END:VEVENT
+BEGIN:VEVENT
+UID:metalic-technoforge-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:🔓 Metalic Technoforge Ltd. — 90D anchor unlock (920\,000 sh\; 3.84% of capital\; ~Rs.7.1 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/metalic-technoforge-ipo/2993/
+END:VEVENT
+BEGIN:VEVENT
+UID:metalic-technoforge-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+SUMMARY:🔓 Metalic Technoforge Ltd. — 6M pre-IPO unlock (2\,864\,160 sh\; 11.94% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/metalic-technoforge-ipo/2993/
+END:VEVENT
+BEGIN:VEVENT
+UID:metalic-technoforge-ipo-PX1Y@unlockradar
+DTSTART;VALUE=DATE:20270720
+DTEND;VALUE=DATE:20270721
+SUMMARY:🔓 Metalic Technoforge Ltd. — 1Y promoter unlock (4\,916\,802 sh\; 20.5% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/metalic-technoforge-ipo/2993/
+END:VEVENT
+BEGIN:VEVENT
+UID:metalic-technoforge-ipo-PX2Y@unlockradar
+DTSTART;VALUE=DATE:20280720
+DTEND;VALUE=DATE:20280721
+SUMMARY:🔓 Metalic Technoforge Ltd. — 2Y promoter unlock (4\,916\,802 sh\; 20.5% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/metalic-technoforge-ipo/2993/
+END:VEVENT
+BEGIN:VEVENT
 UID:caliber-mining-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260821
 DTEND;VALUE=DATE:20260822
@@ -1256,13 +1291,6 @@ DTSTART;VALUE=DATE:20280120
 DTEND;VALUE=DATE:20280121
 SUMMARY:🔓 KRM Ayurveda Ltd. — 2Y promoter unlock (5\,026\,053 sh\; 23.64% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/krm-ayurveda-ipo/2620/
-END:VEVENT
-BEGIN:VEVENT
-UID:digilogic-systems-ipo-PRE6M@unlockradar
-DTSTART;VALUE=DATE:20260719
-DTEND;VALUE=DATE:20260720
-SUMMARY:🔓 Digilogic Systems Ltd. — 6M pre-IPO unlock (2\,559\,052 sh\; 8.84% of capital)
-DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/digilogic-systems-ipo/2617/
 END:VEVENT
 BEGIN:VEVENT
 UID:digilogic-systems-ipo-PX1Y@unlockradar
