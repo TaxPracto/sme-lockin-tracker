@@ -6,17 +6,59 @@ X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
 UID:cube-highways-trust-invit-A30@unlockradar
-DTSTART;VALUE=DATE:20260826
-DTEND;VALUE=DATE:20260827
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20260829
 SUMMARY:🔓 Cube Highways Trust — 30D anchor unlock
 DESCRIPTION:https://www.chittorgarh.com/ipo/cube-highways-trust-invit/3192/
 END:VEVENT
 BEGIN:VEVENT
 UID:cube-highways-trust-invit-A90@unlockradar
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
 SUMMARY:🔓 Cube Highways Trust — 90D anchor unlock
 DESCRIPTION:https://www.chittorgarh.com/ipo/cube-highways-trust-invit/3192/
+END:VEVENT
+BEGIN:VEVENT
+UID:xtranet-technologies-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260828
+SUMMARY:🔓 Xtranet Technologies Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/xtranet-technologies-ipo/2688/
+END:VEVENT
+BEGIN:VEVENT
+UID:xtranet-technologies-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:🔓 Xtranet Technologies Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/xtranet-technologies-ipo/2688/
+END:VEVENT
+BEGIN:VEVENT
+UID:indo-mim-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260828
+SUMMARY:🔓 Indo-MIM Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/indo-mim-ipo/2682/
+END:VEVENT
+BEGIN:VEVENT
+UID:indo-mim-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:🔓 Indo-MIM Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/indo-mim-ipo/2682/
+END:VEVENT
+BEGIN:VEVENT
+UID:lohia-corp-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260828
+SUMMARY:🔓 Lohia Corp Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/lohia-corp-ipo/2574/
+END:VEVENT
+BEGIN:VEVENT
+UID:lohia-corp-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:🔓 Lohia Corp Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/lohia-corp-ipo/2574/
 END:VEVENT
 BEGIN:VEVENT
 UID:shree-balaji-mala-ipo-A30@unlockradar
@@ -145,6 +187,27 @@ SUMMARY:🔓 Millworks Technologies Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/millworks-technologies-ipo/2866/
 END:VEVENT
 BEGIN:VEVENT
+UID:devson-catalyst-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260813
+DTEND;VALUE=DATE:20260814
+SUMMARY:🔓 Devson Catalyst Ltd. — 30D anchor unlock (500\,400 sh\; 3.68% of capital\; ~Rs.5.9 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/devson-catalyst-ipo/2943/
+END:VEVENT
+BEGIN:VEVENT
+UID:devson-catalyst-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:🔓 Devson Catalyst Ltd. — 90D anchor unlock (500\,400 sh\; 3.68% of capital\; ~Rs.5.9 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/devson-catalyst-ipo/2943/
+END:VEVENT
+BEGIN:VEVENT
+UID:devson-catalyst-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
+SUMMARY:🔓 Devson Catalyst Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/devson-catalyst-ipo/2943/
+END:VEVENT
+BEGIN:VEVENT
 UID:laser-power-infra-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260813
 DTEND;VALUE=DATE:20260814
@@ -192,27 +255,6 @@ DTSTART;VALUE=DATE:20280708
 DTEND;VALUE=DATE:20280709
 SUMMARY:🔓 Happy Steels Ltd. — 2Y promoter unlock (3\,785\,123 sh\; 26.49% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/happy-steels-ipo/2864/
-END:VEVENT
-BEGIN:VEVENT
-UID:devson-catalyst-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260813
-DTEND;VALUE=DATE:20260814
-SUMMARY:🔓 Devson Catalyst Ltd. — 30D anchor unlock (500\,400 sh\; 3.68% of capital\; ~Rs.5.9 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/devson-catalyst-ipo/2943/
-END:VEVENT
-BEGIN:VEVENT
-UID:devson-catalyst-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261012
-DTEND;VALUE=DATE:20261013
-SUMMARY:🔓 Devson Catalyst Ltd. — 90D anchor unlock (500\,400 sh\; 3.68% of capital\; ~Rs.5.9 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/devson-catalyst-ipo/2943/
-END:VEVENT
-BEGIN:VEVENT
-UID:devson-catalyst-ipo-PRE6M@unlockradar
-DTSTART;VALUE=DATE:20270108
-DTEND;VALUE=DATE:20270109
-SUMMARY:🔓 Devson Catalyst Ltd. — 6M pre-IPO unlock
-DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/devson-catalyst-ipo/2943/
 END:VEVENT
 BEGIN:VEVENT
 UID:kusumgar-ipo-A30@unlockradar
@@ -397,6 +439,20 @@ SUMMARY:🔓 Advit Jewels Ltd. — 90D anchor unlock (1\,794\,350 sh\; ~Rs.24.8 
 DESCRIPTION:https://www.chittorgarh.com/ipo/advit-jewels-ipo/2686/
 END:VEVENT
 BEGIN:VEVENT
+UID:cordelia-cruises-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260728
+DTEND;VALUE=DATE:20260729
+SUMMARY:🔓 Waterways Leisure Tourism Ltd. — 30D anchor unlock (1\,629\,022 sh\; ~Rs.131.6 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/cordelia-cruises-ipo/2474/
+END:VEVENT
+BEGIN:VEVENT
+UID:cordelia-cruises-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:🔓 Waterways Leisure Tourism Ltd. — 90D anchor unlock (1\,629\,022 sh\; ~Rs.131.6 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/cordelia-cruises-ipo/2474/
+END:VEVENT
+BEGIN:VEVENT
 UID:shreedhar-spinners-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260728
 DTEND;VALUE=DATE:20260729
@@ -432,34 +488,6 @@ SUMMARY:🔓 Shreedhar Spinners Ltd. — 2Y promoter unlock (5\,410\,951 sh\; 25
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/shreedhar-spinners-ipo/2851/
 END:VEVENT
 BEGIN:VEVENT
-UID:cordelia-cruises-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260728
-DTEND;VALUE=DATE:20260729
-SUMMARY:🔓 Waterways Leisure Tourism Ltd. — 30D anchor unlock (1\,629\,022 sh\; ~Rs.131.6 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/cordelia-cruises-ipo/2474/
-END:VEVENT
-BEGIN:VEVENT
-UID:cordelia-cruises-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20260926
-DTEND;VALUE=DATE:20260927
-SUMMARY:🔓 Waterways Leisure Tourism Ltd. — 90D anchor unlock (1\,629\,022 sh\; ~Rs.131.6 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/cordelia-cruises-ipo/2474/
-END:VEVENT
-BEGIN:VEVENT
-UID:turtlemint-fintech-solutions-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260723
-DTEND;VALUE=DATE:20260724
-SUMMARY:🔓 Turtlemint Fintech Solutions Ltd. — 30D anchor unlock (13\,065\,840 sh\; ~Rs.198.6 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/turtlemint-fintech-solutions-ipo/2601/
-END:VEVENT
-BEGIN:VEVENT
-UID:turtlemint-fintech-solutions-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20260921
-DTEND;VALUE=DATE:20260922
-SUMMARY:🔓 Turtlemint Fintech Solutions Ltd. — 90D anchor unlock (13\,065\,840 sh\; ~Rs.198.6 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/turtlemint-fintech-solutions-ipo/2601/
-END:VEVENT
-BEGIN:VEVENT
 UID:anubhav-plast-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260723
 DTEND;VALUE=DATE:20260724
@@ -493,6 +521,20 @@ DTSTART;VALUE=DATE:20280618
 DTEND;VALUE=DATE:20280619
 SUMMARY:🔓 Anubhav Plast Ltd. — 2Y promoter unlock (2\,900\,150 sh\; 26.36% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/anubhav-plast-ipo/2610/
+END:VEVENT
+BEGIN:VEVENT
+UID:turtlemint-fintech-solutions-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260723
+DTEND;VALUE=DATE:20260724
+SUMMARY:🔓 Turtlemint Fintech Solutions Ltd. — 30D anchor unlock (13\,065\,840 sh\; ~Rs.198.6 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/turtlemint-fintech-solutions-ipo/2601/
+END:VEVENT
+BEGIN:VEVENT
+UID:turtlemint-fintech-solutions-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:🔓 Turtlemint Fintech Solutions Ltd. — 90D anchor unlock (13\,065\,840 sh\; ~Rs.198.6 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/turtlemint-fintech-solutions-ipo/2601/
 END:VEVENT
 BEGIN:VEVENT
 UID:avience-biomedicals-ipo-A30@unlockradar
@@ -915,13 +957,6 @@ SUMMARY:🔓 Adisoft Technologies Ltd. — 2Y promoter unlock (4\,373\,223 sh\; 
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/adisoft-technologies-ipo/2788/
 END:VEVENT
 BEGIN:VEVENT
-UID:mehul-telecom-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20260721
-DTEND;VALUE=DATE:20260722
-SUMMARY:🔓 Mehul Telecom Ltd. — 90D anchor unlock (394\,800 sh\; 3.78% of capital\; ~Rs.3.9 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/mehul-telecom-ipo/2536/
-END:VEVENT
-BEGIN:VEVENT
 UID:mehul-telecom-ipo-PRE6M@unlockradar
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
@@ -1284,13 +1319,6 @@ DTSTART;VALUE=DATE:20280123
 DTEND;VALUE=DATE:20280124
 SUMMARY:🔓 Kasturi Metal Composite Ltd. — 2Y promoter unlock (2\,489\,653 sh\; 23.95% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/kasturi-metal-ipo/2281/
-END:VEVENT
-BEGIN:VEVENT
-UID:hannah-joseph-ipo-PRE6M@unlockradar
-DTSTART;VALUE=DATE:20260721
-DTEND;VALUE=DATE:20260722
-SUMMARY:🔓 Hannah Joseph Hospital Ltd. — 6M pre-IPO unlock (1\,073\,704 sh\; 4.73% of capital)
-DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/hannah-joseph-ipo/2251/
 END:VEVENT
 BEGIN:VEVENT
 UID:hannah-joseph-ipo-PX1Y@unlockradar

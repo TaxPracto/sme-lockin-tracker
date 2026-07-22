@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-21T10:14:25+05:30",
+ "generated_at": "2026-07-22T10:15:03+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -14,11 +14,11 @@
    "category": "Mainboard",
    "anchor_allotment_date": "2026-07-21",
    "boa_date": "2026-07-21",
-   "d30": "2026-08-26",
-   "d90": "2026-10-25",
+   "d30": "2026-08-28",
+   "d90": "2026-10-27",
    "anchor_shares": 0,
    "anchor_investment_cr": null,
-   "pct_of_issue": 0.0,
+   "pct_of_issue": null,
    "isin": "",
    "nse_symbol": "",
    "bse_code": "",
@@ -34,7 +34,7 @@
    "events": [
     {
      "t": "A30",
-     "d": "2026-08-26",
+     "d": "2026-08-28",
      "sh": null,
      "pct": null,
      "val": null,
@@ -42,7 +42,136 @@
     },
     {
      "t": "A90",
-     "d": "2026-10-25",
+     "d": "2026-10-27",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "Xtranet Technologies Ltd.",
+   "slug": "xtranet-technologies-ipo",
+   "url": "https://www.chittorgarh.com/ipo/xtranet-technologies-ipo/2688/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-07-22",
+   "boa_date": "2026-07-22",
+   "d30": "2026-08-27",
+   "d90": "2026-10-26",
+   "anchor_shares": 0,
+   "anchor_investment_cr": 0.0,
+   "pct_of_issue": null,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-08-27",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-10-26",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "Indo-MIM Ltd.",
+   "slug": "indo-mim-ipo",
+   "url": "https://www.chittorgarh.com/ipo/indo-mim-ipo/2682/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-07-22",
+   "boa_date": "2026-07-22",
+   "d30": "2026-08-27",
+   "d90": "2026-10-26",
+   "anchor_shares": 0,
+   "anchor_investment_cr": 0.0,
+   "pct_of_issue": null,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-08-27",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-10-26",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "Lohia Corp Ltd.",
+   "slug": "lohia-corp-ipo",
+   "url": "https://www.chittorgarh.com/ipo/lohia-corp-ipo/2574/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-07-22",
+   "boa_date": "2026-07-22",
+   "d30": "2026-08-27",
+   "d90": "2026-10-26",
+   "anchor_shares": 0,
+   "anchor_investment_cr": 0.0,
+   "pct_of_issue": null,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-08-27",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-10-26",
      "sh": null,
      "pct": null,
      "val": null,
@@ -377,6 +506,64 @@
    ]
   },
   {
+   "company": "Devson Catalyst Ltd.",
+   "slug": "devson-catalyst-ipo",
+   "url": "https://www.chittorgarh.com/ipo/devson-catalyst-ipo/2943/",
+   "category": "SME",
+   "anchor_allotment_date": "2026-07-08",
+   "boa_date": "2026-07-08",
+   "d30": "2026-08-13",
+   "d90": "2026-10-12",
+   "anchor_shares": 1000800,
+   "anchor_investment_cr": 11.81,
+   "pct_of_issue": 21.81,
+   "isin": "INE2KRP01017",
+   "nse_symbol": "",
+   "bse_code": 544823,
+   "pre_shares": 10250000,
+   "post_shares": 13588000,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": "2026-07-16",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
+   "lm": [
+    [
+     941,
+     "JJ IPO Advisors Pvt.Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-08-13",
+     "sh": 500400,
+     "pct": 3.68,
+     "val": 5.905,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-10-12",
+     "sh": 500400,
+     "pct": 3.68,
+     "val": 5.905,
+     "est": false
+    },
+    {
+     "t": "PRE6M",
+     "d": "2027-01-08",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": true
+    }
+   ]
+  },
+  {
    "company": "Laser Power & Infra Ltd.",
    "slug": "laser-power-infra-ipo",
    "url": "https://www.chittorgarh.com/ipo/laser-power-infra-ipo/2654/",
@@ -488,64 +675,6 @@
      "d": "2028-07-08",
      "sh": 3785123,
      "pct": 26.49,
-     "val": null,
-     "est": true
-    }
-   ]
-  },
-  {
-   "company": "Devson Catalyst Ltd.",
-   "slug": "devson-catalyst-ipo",
-   "url": "https://www.chittorgarh.com/ipo/devson-catalyst-ipo/2943/",
-   "category": "SME",
-   "anchor_allotment_date": "2026-07-08",
-   "boa_date": "2026-07-08",
-   "d30": "2026-08-13",
-   "d90": "2026-10-12",
-   "anchor_shares": 1000800,
-   "anchor_investment_cr": 11.81,
-   "pct_of_issue": 21.81,
-   "isin": "INE2KRP01017",
-   "nse_symbol": "",
-   "bse_code": 544823,
-   "pre_shares": 10250000,
-   "post_shares": 13588000,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": "2026-07-16",
-   "anchor_names": [
-    "Investment by Mutual Fund"
-   ],
-   "lm": [
-    [
-     941,
-     "JJ IPO Advisors Pvt.Ltd"
-    ]
-   ],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-08-13",
-     "sh": 500400,
-     "pct": 3.68,
-     "val": 5.905,
-     "est": false
-    },
-    {
-     "t": "A90",
-     "d": "2026-10-12",
-     "sh": 500400,
-     "pct": 3.68,
-     "val": 5.905,
-     "est": false
-    },
-    {
-     "t": "PRE6M",
-     "d": "2027-01-08",
-     "sh": null,
-     "pct": null,
      "val": null,
      "est": true
     }
@@ -1004,6 +1133,49 @@
    ]
   },
   {
+   "company": "Waterways Leisure Tourism Ltd.",
+   "slug": "cordelia-cruises-ipo",
+   "url": "https://www.chittorgarh.com/ipo/cordelia-cruises-ipo/2474/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-06-22",
+   "boa_date": "2026-06-22",
+   "d30": "2026-07-28",
+   "d90": "2026-09-26",
+   "anchor_shares": 3258045,
+   "anchor_investment_cr": 263.25,
+   "pct_of_issue": 31.03,
+   "isin": "INE0LZF01013",
+   "nse_symbol": "CORDELIA",
+   "bse_code": 544802,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-07-28",
+     "sh": 1629022,
+     "pct": null,
+     "val": 131.625,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-09-26",
+     "sh": 1629022,
+     "pct": null,
+     "val": 131.625,
+     "est": false
+    }
+   ]
+  },
+  {
    "company": "Shreedhar Spinners Ltd.",
    "slug": "shreedhar-spinners-ipo",
    "url": "https://www.chittorgarh.com/ipo/shreedhar-spinners-ipo/2851/",
@@ -1078,92 +1250,6 @@
    ]
   },
   {
-   "company": "Waterways Leisure Tourism Ltd.",
-   "slug": "cordelia-cruises-ipo",
-   "url": "https://www.chittorgarh.com/ipo/cordelia-cruises-ipo/2474/",
-   "category": "Mainboard",
-   "anchor_allotment_date": "2026-06-22",
-   "boa_date": "2026-06-22",
-   "d30": "2026-07-28",
-   "d90": "2026-09-26",
-   "anchor_shares": 3258045,
-   "anchor_investment_cr": 263.25,
-   "pct_of_issue": 31.03,
-   "isin": "INE0LZF01013",
-   "nse_symbol": "CORDELIA",
-   "bse_code": 544802,
-   "pre_shares": null,
-   "post_shares": null,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": null,
-   "anchor_names": [],
-   "lm": [],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-07-28",
-     "sh": 1629022,
-     "pct": null,
-     "val": 131.625,
-     "est": false
-    },
-    {
-     "t": "A90",
-     "d": "2026-09-26",
-     "sh": 1629022,
-     "pct": null,
-     "val": 131.625,
-     "est": false
-    }
-   ]
-  },
-  {
-   "company": "Turtlemint Fintech Solutions Ltd.",
-   "slug": "turtlemint-fintech-solutions-ipo",
-   "url": "https://www.chittorgarh.com/ipo/turtlemint-fintech-solutions-ipo/2601/",
-   "category": "Mainboard",
-   "anchor_allotment_date": "2026-06-18",
-   "boa_date": "2026-06-18",
-   "d30": "2026-07-23",
-   "d90": "2026-09-21",
-   "anchor_shares": 26131680,
-   "anchor_investment_cr": 397.2,
-   "pct_of_issue": 31.03,
-   "isin": "INE0OC301013",
-   "nse_symbol": "TURTLEMINT",
-   "bse_code": 544799,
-   "pre_shares": null,
-   "post_shares": null,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": null,
-   "anchor_names": [],
-   "lm": [],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-07-23",
-     "sh": 13065840,
-     "pct": null,
-     "val": 198.6,
-     "est": false
-    },
-    {
-     "t": "A90",
-     "d": "2026-09-21",
-     "sh": 13065840,
-     "pct": null,
-     "val": 198.6,
-     "est": false
-    }
-   ]
-  },
-  {
    "company": "Anubhav Plast Ltd.",
    "slug": "anubhav-plast-ipo",
    "url": "https://www.chittorgarh.com/ipo/anubhav-plast-ipo/2610/",
@@ -1234,6 +1320,49 @@
      "pct": 26.36,
      "val": null,
      "est": true
+    }
+   ]
+  },
+  {
+   "company": "Turtlemint Fintech Solutions Ltd.",
+   "slug": "turtlemint-fintech-solutions-ipo",
+   "url": "https://www.chittorgarh.com/ipo/turtlemint-fintech-solutions-ipo/2601/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-06-18",
+   "boa_date": "2026-06-18",
+   "d30": "2026-07-23",
+   "d90": "2026-09-21",
+   "anchor_shares": 26131680,
+   "anchor_investment_cr": 397.2,
+   "pct_of_issue": 31.03,
+   "isin": "INE0OC301013",
+   "nse_symbol": "TURTLEMINT",
+   "bse_code": 544799,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-07-23",
+     "sh": 13065840,
+     "pct": null,
+     "val": 198.6,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-09-21",
+     "sh": 13065840,
+     "pct": null,
+     "val": 198.6,
+     "est": false
     }
    ]
   },
