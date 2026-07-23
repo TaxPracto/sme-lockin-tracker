@@ -5,31 +5,66 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:silverstorm-parks-resorts-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20260829
+SUMMARY:🔓 Silverstorm Parks & Resorts Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/silverstorm-parks-resorts-ipo/2824/
+END:VEVENT
+BEGIN:VEVENT
+UID:silverstorm-parks-resorts-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:🔓 Silverstorm Parks & Resorts Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/silverstorm-parks-resorts-ipo/2824/
+END:VEVENT
+BEGIN:VEVENT
+UID:silverstorm-parks-resorts-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+SUMMARY:🔓 Silverstorm Parks & Resorts Ltd. — 6M pre-IPO unlock (4\,918\,902 sh\; 21.69% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/silverstorm-parks-resorts-ipo/2824/
+END:VEVENT
+BEGIN:VEVENT
+UID:silverstorm-parks-resorts-ipo-PX1Y@unlockradar
+DTSTART;VALUE=DATE:20270723
+DTEND;VALUE=DATE:20270724
+SUMMARY:🔓 Silverstorm Parks & Resorts Ltd. — 1Y promoter unlock (3\,512\,626 sh\; 15.49% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/silverstorm-parks-resorts-ipo/2824/
+END:VEVENT
+BEGIN:VEVENT
+UID:silverstorm-parks-resorts-ipo-PX2Y@unlockradar
+DTSTART;VALUE=DATE:20280723
+DTEND;VALUE=DATE:20280724
+SUMMARY:🔓 Silverstorm Parks & Resorts Ltd. — 2Y promoter unlock (3\,512\,626 sh\; 15.49% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/silverstorm-parks-resorts-ipo/2824/
+END:VEVENT
+BEGIN:VEVENT
 UID:cube-highways-trust-invit-A30@unlockradar
 DTSTART;VALUE=DATE:20260828
 DTEND;VALUE=DATE:20260829
-SUMMARY:🔓 Cube Highways Trust — 30D anchor unlock
+SUMMARY:🔓 Cube Highways Trust — 30D anchor unlock (55\,509\,782 sh)
 DESCRIPTION:https://www.chittorgarh.com/ipo/cube-highways-trust-invit/3192/
 END:VEVENT
 BEGIN:VEVENT
 UID:cube-highways-trust-invit-A90@unlockradar
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261028
-SUMMARY:🔓 Cube Highways Trust — 90D anchor unlock
+SUMMARY:🔓 Cube Highways Trust — 90D anchor unlock (55\,509\,782 sh)
 DESCRIPTION:https://www.chittorgarh.com/ipo/cube-highways-trust-invit/3192/
 END:VEVENT
 BEGIN:VEVENT
 UID:xtranet-technologies-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260827
 DTEND;VALUE=DATE:20260828
-SUMMARY:🔓 Xtranet Technologies Ltd. — 30D anchor unlock
+SUMMARY:🔓 Xtranet Technologies Ltd. — 30D anchor unlock (1\,970\,100 sh\; ~Rs.25.0 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/xtranet-technologies-ipo/2688/
 END:VEVENT
 BEGIN:VEVENT
 UID:xtranet-technologies-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261027
-SUMMARY:🔓 Xtranet Technologies Ltd. — 90D anchor unlock
+SUMMARY:🔓 Xtranet Technologies Ltd. — 90D anchor unlock (1\,970\,100 sh\; ~Rs.25.0 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/xtranet-technologies-ipo/2688/
 END:VEVENT
 BEGIN:VEVENT
@@ -152,20 +187,6 @@ SUMMARY:🔓 Sotefin Bharat Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/sotefin-bharat-ipo/2836/
 END:VEVENT
 BEGIN:VEVENT
-UID:sbi-funds-management-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260816
-DTEND;VALUE=DATE:20260817
-SUMMARY:🔓 SBI Funds Management Ltd. — 30D anchor unlock (23\,196\,547 sh\; ~Rs.1331.5 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/sbi-funds-management-ipo/2949/
-END:VEVENT
-BEGIN:VEVENT
-UID:sbi-funds-management-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261015
-DTEND;VALUE=DATE:20261016
-SUMMARY:🔓 SBI Funds Management Ltd. — 90D anchor unlock (23\,196\,547 sh\; ~Rs.1331.5 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/sbi-funds-management-ipo/2949/
-END:VEVENT
-BEGIN:VEVENT
 UID:millworks-technologies-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260816
 DTEND;VALUE=DATE:20260817
@@ -187,6 +208,20 @@ SUMMARY:🔓 Millworks Technologies Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/millworks-technologies-ipo/2866/
 END:VEVENT
 BEGIN:VEVENT
+UID:sbi-funds-management-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260816
+DTEND;VALUE=DATE:20260817
+SUMMARY:🔓 SBI Funds Management Ltd. — 30D anchor unlock (23\,196\,547 sh\; ~Rs.1331.5 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/sbi-funds-management-ipo/2949/
+END:VEVENT
+BEGIN:VEVENT
+UID:sbi-funds-management-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:🔓 SBI Funds Management Ltd. — 90D anchor unlock (23\,196\,547 sh\; ~Rs.1331.5 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/sbi-funds-management-ipo/2949/
+END:VEVENT
+BEGIN:VEVENT
 UID:devson-catalyst-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260813
 DTEND;VALUE=DATE:20260814
@@ -206,20 +241,6 @@ DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270109
 SUMMARY:🔓 Devson Catalyst Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/devson-catalyst-ipo/2943/
-END:VEVENT
-BEGIN:VEVENT
-UID:laser-power-infra-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260813
-DTEND;VALUE=DATE:20260814
-SUMMARY:🔓 Laser Power & Infra Ltd. — 30D anchor unlock (5\,200\,933 sh\; ~Rs.111.3 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/laser-power-infra-ipo/2654/
-END:VEVENT
-BEGIN:VEVENT
-UID:laser-power-infra-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261012
-DTEND;VALUE=DATE:20261013
-SUMMARY:🔓 Laser Power & Infra Ltd. — 90D anchor unlock (5\,200\,933 sh\; ~Rs.111.3 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/laser-power-infra-ipo/2654/
 END:VEVENT
 BEGIN:VEVENT
 UID:happy-steels-ipo-A30@unlockradar
@@ -255,6 +276,20 @@ DTSTART;VALUE=DATE:20280708
 DTEND;VALUE=DATE:20280709
 SUMMARY:🔓 Happy Steels Ltd. — 2Y promoter unlock (3\,785\,123 sh\; 26.49% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/happy-steels-ipo/2864/
+END:VEVENT
+BEGIN:VEVENT
+UID:laser-power-infra-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260813
+DTEND;VALUE=DATE:20260814
+SUMMARY:🔓 Laser Power & Infra Ltd. — 30D anchor unlock (5\,200\,933 sh\; ~Rs.111.3 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/laser-power-infra-ipo/2654/
+END:VEVENT
+BEGIN:VEVENT
+UID:laser-power-infra-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:🔓 Laser Power & Infra Ltd. — 90D anchor unlock (5\,200\,933 sh\; ~Rs.111.3 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/laser-power-infra-ipo/2654/
 END:VEVENT
 BEGIN:VEVENT
 UID:kusumgar-ipo-A30@unlockradar
@@ -570,13 +605,6 @@ DTSTART;VALUE=DATE:20280617
 DTEND;VALUE=DATE:20280618
 SUMMARY:🔓 Avience Biomedicals Ltd. — 2Y promoter unlock (1\,222\,893 sh\; 22.29% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/avience-biomedicals-ipo/2184/
-END:VEVENT
-BEGIN:VEVENT
-UID:clay-craft-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260722
-DTEND;VALUE=DATE:20260723
-SUMMARY:🔓 Clay Craft India Ltd. — 30D anchor unlock (771\,900 sh\; 3.75% of capital\; ~Rs.15.7 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/clay-craft-ipo/2585/
 END:VEVENT
 BEGIN:VEVENT
 UID:clay-craft-ipo-A90@unlockradar
