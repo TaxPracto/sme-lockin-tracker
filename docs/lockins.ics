@@ -71,28 +71,28 @@ BEGIN:VEVENT
 UID:indo-mim-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260827
 DTEND;VALUE=DATE:20260828
-SUMMARY:🔓 Indo-MIM Ltd. — 30D anchor unlock
+SUMMARY:🔓 Indo-MIM Ltd. — 30D anchor unlock (11\,762\,828 sh\; ~Rs.570.5 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/indo-mim-ipo/2682/
 END:VEVENT
 BEGIN:VEVENT
 UID:indo-mim-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261027
-SUMMARY:🔓 Indo-MIM Ltd. — 90D anchor unlock
+SUMMARY:🔓 Indo-MIM Ltd. — 90D anchor unlock (11\,762\,828 sh\; ~Rs.570.5 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/indo-mim-ipo/2682/
 END:VEVENT
 BEGIN:VEVENT
 UID:lohia-corp-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260827
 DTEND;VALUE=DATE:20260828
-SUMMARY:🔓 Lohia Corp Ltd. — 30D anchor unlock
+SUMMARY:🔓 Lohia Corp Ltd. — 30D anchor unlock (5\,789\,566 sh\; ~Rs.246.1 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/lohia-corp-ipo/2574/
 END:VEVENT
 BEGIN:VEVENT
 UID:lohia-corp-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261027
-SUMMARY:🔓 Lohia Corp Ltd. — 90D anchor unlock
+SUMMARY:🔓 Lohia Corp Ltd. — 90D anchor unlock (5\,789\,566 sh\; ~Rs.246.1 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/lohia-corp-ipo/2574/
 END:VEVENT
 BEGIN:VEVENT
@@ -523,13 +523,6 @@ SUMMARY:🔓 Shreedhar Spinners Ltd. — 2Y promoter unlock (5\,410\,951 sh\; 25
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/shreedhar-spinners-ipo/2851/
 END:VEVENT
 BEGIN:VEVENT
-UID:anubhav-plast-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260723
-DTEND;VALUE=DATE:20260724
-SUMMARY:🔓 Anubhav Plast Ltd. — 30D anchor unlock (424\,000 sh\; 3.85% of capital\; ~Rs.3.4 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/anubhav-plast-ipo/2610/
-END:VEVENT
-BEGIN:VEVENT
 UID:anubhav-plast-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20260921
 DTEND;VALUE=DATE:20260922
@@ -558,25 +551,11 @@ SUMMARY:🔓 Anubhav Plast Ltd. — 2Y promoter unlock (2\,900\,150 sh\; 26.36% 
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/anubhav-plast-ipo/2610/
 END:VEVENT
 BEGIN:VEVENT
-UID:turtlemint-fintech-solutions-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260723
-DTEND;VALUE=DATE:20260724
-SUMMARY:🔓 Turtlemint Fintech Solutions Ltd. — 30D anchor unlock (13\,065\,840 sh\; ~Rs.198.6 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/turtlemint-fintech-solutions-ipo/2601/
-END:VEVENT
-BEGIN:VEVENT
 UID:turtlemint-fintech-solutions-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20260921
 DTEND;VALUE=DATE:20260922
 SUMMARY:🔓 Turtlemint Fintech Solutions Ltd. — 90D anchor unlock (13\,065\,840 sh\; ~Rs.198.6 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/turtlemint-fintech-solutions-ipo/2601/
-END:VEVENT
-BEGIN:VEVENT
-UID:avience-biomedicals-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260723
-DTEND;VALUE=DATE:20260724
-SUMMARY:🔓 Avience Biomedicals Ltd. — 30D anchor unlock (204\,900 sh\; 3.74% of capital\; ~Rs.4.3 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/avience-biomedicals-ipo/2184/
 END:VEVENT
 BEGIN:VEVENT
 UID:avience-biomedicals-ipo-A90@unlockradar
@@ -1326,13 +1305,6 @@ DTSTART;VALUE=DATE:20260727
 DTEND;VALUE=DATE:20260728
 SUMMARY:🔓 Accretion Nutraveda Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/accretion-nutraveda-ipo/2699/
-END:VEVENT
-BEGIN:VEVENT
-UID:kasturi-metal-ipo-PRE6M@unlockradar
-DTSTART;VALUE=DATE:20260723
-DTEND;VALUE=DATE:20260724
-SUMMARY:🔓 Kasturi Metal Composite Ltd. — 6M pre-IPO unlock (584\,705 sh\; 5.62% of capital)
-DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/kasturi-metal-ipo/2281/
 END:VEVENT
 BEGIN:VEVENT
 UID:kasturi-metal-ipo-PX1Y@unlockradar
