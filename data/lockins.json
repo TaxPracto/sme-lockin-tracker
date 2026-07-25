@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-24T10:16:10+05:30",
+ "generated_at": "2026-07-25T10:11:46+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -16,9 +16,9 @@
    "boa_date": "2026-07-23",
    "d30": "2026-08-28",
    "d90": "2026-10-27",
-   "anchor_shares": 0,
-   "anchor_investment_cr": 0.0,
-   "pct_of_issue": null,
+   "anchor_shares": 1652000,
+   "anchor_investment_cr": 21.97,
+   "pct_of_issue": 21.04,
    "isin": "",
    "nse_symbol": "",
    "bse_code": "",
@@ -40,17 +40,17 @@
     {
      "t": "A30",
      "d": "2026-08-28",
-     "sh": null,
-     "pct": null,
-     "val": null,
+     "sh": 826000,
+     "pct": 3.64,
+     "val": 10.985,
      "est": false
     },
     {
      "t": "A90",
      "d": "2026-10-27",
-     "sh": null,
-     "pct": null,
-     "val": null,
+     "sh": 826000,
+     "pct": 3.64,
+     "val": 10.985,
      "est": false
     },
     {
