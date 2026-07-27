@@ -5,6 +5,41 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:poojaa-precision-engg-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260830
+DTEND;VALUE=DATE:20260831
+SUMMARY:🔓 Poojaa Precision Engg.Ltd. — 30D anchor unlock (749\,800 sh\; 3.76% of capital\; ~Rs.22.6 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/poojaa-precision-engg-ipo/2954/
+END:VEVENT
+BEGIN:VEVENT
+UID:poojaa-precision-engg-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:🔓 Poojaa Precision Engg.Ltd. — 90D anchor unlock (749\,800 sh\; 3.76% of capital\; ~Rs.22.6 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/poojaa-precision-engg-ipo/2954/
+END:VEVENT
+BEGIN:VEVENT
+UID:poojaa-precision-engg-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270127
+DTEND;VALUE=DATE:20270128
+SUMMARY:🔓 Poojaa Precision Engg.Ltd. — 6M pre-IPO unlock (2\,542\,092 sh\; 12.75% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/poojaa-precision-engg-ipo/2954/
+END:VEVENT
+BEGIN:VEVENT
+UID:poojaa-precision-engg-ipo-PX1Y@unlockradar
+DTSTART;VALUE=DATE:20270727
+DTEND;VALUE=DATE:20270728
+SUMMARY:🔓 Poojaa Precision Engg.Ltd. — 1Y promoter unlock (4\,051\,818 sh\; 20.31% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/poojaa-precision-engg-ipo/2954/
+END:VEVENT
+BEGIN:VEVENT
+UID:poojaa-precision-engg-ipo-PX2Y@unlockradar
+DTSTART;VALUE=DATE:20280727
+DTEND;VALUE=DATE:20280728
+SUMMARY:🔓 Poojaa Precision Engg.Ltd. — 2Y promoter unlock (4\,051\,818 sh\; 20.31% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/poojaa-precision-engg-ipo/2954/
+END:VEVENT
+BEGIN:VEVENT
 UID:silverstorm-parks-resorts-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260828
 DTEND;VALUE=DATE:20260829
@@ -474,20 +509,6 @@ SUMMARY:🔓 Advit Jewels Ltd. — 90D anchor unlock (1\,794\,350 sh\; ~Rs.24.8 
 DESCRIPTION:https://www.chittorgarh.com/ipo/advit-jewels-ipo/2686/
 END:VEVENT
 BEGIN:VEVENT
-UID:cordelia-cruises-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260728
-DTEND;VALUE=DATE:20260729
-SUMMARY:🔓 Waterways Leisure Tourism Ltd. — 30D anchor unlock (1\,629\,022 sh\; ~Rs.131.6 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/cordelia-cruises-ipo/2474/
-END:VEVENT
-BEGIN:VEVENT
-UID:cordelia-cruises-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20260926
-DTEND;VALUE=DATE:20260927
-SUMMARY:🔓 Waterways Leisure Tourism Ltd. — 90D anchor unlock (1\,629\,022 sh\; ~Rs.131.6 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/cordelia-cruises-ipo/2474/
-END:VEVENT
-BEGIN:VEVENT
 UID:shreedhar-spinners-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260728
 DTEND;VALUE=DATE:20260729
@@ -521,6 +542,20 @@ DTSTART;VALUE=DATE:20280622
 DTEND;VALUE=DATE:20280623
 SUMMARY:🔓 Shreedhar Spinners Ltd. — 2Y promoter unlock (5\,410\,951 sh\; 25.24% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/shreedhar-spinners-ipo/2851/
+END:VEVENT
+BEGIN:VEVENT
+UID:cordelia-cruises-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260728
+DTEND;VALUE=DATE:20260729
+SUMMARY:🔓 Waterways Leisure Tourism Ltd. — 30D anchor unlock (1\,629\,022 sh\; ~Rs.131.6 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/cordelia-cruises-ipo/2474/
+END:VEVENT
+BEGIN:VEVENT
+UID:cordelia-cruises-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:🔓 Waterways Leisure Tourism Ltd. — 90D anchor unlock (1\,629\,022 sh\; ~Rs.131.6 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/cordelia-cruises-ipo/2474/
 END:VEVENT
 BEGIN:VEVENT
 UID:anubhav-plast-ipo-A90@unlockradar

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-26T10:25:57+05:30",
+ "generated_at": "2026-07-27T10:38:58+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -7,6 +7,83 @@
   2026
  ],
  "records": [
+  {
+   "company": "Poojaa Precision Engg.Ltd.",
+   "slug": "poojaa-precision-engg-ipo",
+   "url": "https://www.chittorgarh.com/ipo/poojaa-precision-engg-ipo/2954/",
+   "category": "SME",
+   "anchor_allotment_date": "2026-07-27",
+   "boa_date": "2026-07-27",
+   "d30": "2026-08-30",
+   "d90": "2026-10-29",
+   "anchor_shares": 1499600,
+   "anchor_investment_cr": 45.14,
+   "pct_of_issue": 22.02,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": 14634960,
+   "post_shares": 19944960,
+   "prom_pre_pct": 82.63,
+   "prom_post_pct": 60.63,
+   "listing_date": "2026-08-04",
+   "anchor_names": [],
+   "lm": [
+    [
+     76,
+     "Hem Securities Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": 2542092,
+   "nonprom_pre_pct_of_post": 12.75,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-08-30",
+     "sh": 749800,
+     "pct": 3.76,
+     "val": 22.57,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-10-29",
+     "sh": 749800,
+     "pct": 3.76,
+     "val": 22.57,
+     "est": false
+    },
+    {
+     "t": "PRE6M",
+     "d": "2027-01-27",
+     "sh": 2542092,
+     "pct": 12.75,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX1Y",
+     "d": "2027-07-27",
+     "sh": 4051818,
+     "pct": 20.31,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX2Y",
+     "d": "2028-07-27",
+     "sh": 4051818,
+     "pct": 20.31,
+     "val": null,
+     "est": true
+    }
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 301.01,
+   "chg_from_issue_pct": null
+  },
   {
    "company": "Silverstorm Parks & Resorts Ltd.",
    "slug": "silverstorm-parks-resorts-ipo",
@@ -1315,54 +1392,6 @@
    "chg_from_issue_pct": 40.6
   },
   {
-   "company": "Waterways Leisure Tourism Ltd.",
-   "slug": "cordelia-cruises-ipo",
-   "url": "https://www.chittorgarh.com/ipo/cordelia-cruises-ipo/2474/",
-   "category": "Mainboard",
-   "anchor_allotment_date": "2026-06-22",
-   "boa_date": "2026-06-22",
-   "d30": "2026-07-28",
-   "d90": "2026-09-26",
-   "anchor_shares": 3258045,
-   "anchor_investment_cr": 263.25,
-   "pct_of_issue": 31.03,
-   "isin": "INE0LZF01013",
-   "nse_symbol": "CORDELIA",
-   "bse_code": 544802,
-   "pre_shares": null,
-   "post_shares": null,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": null,
-   "anchor_names": [],
-   "lm": [],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-07-28",
-     "sh": 1629022,
-     "pct": null,
-     "val": 131.625,
-     "est": false
-    },
-    {
-     "t": "A90",
-     "d": "2026-09-26",
-     "sh": 1629022,
-     "pct": null,
-     "val": 131.625,
-     "est": false
-    }
-   ],
-   "last_close": 806.4,
-   "close_date": "2026-07-24",
-   "avg_vol": 1276729,
-   "issue_px": 808.0,
-   "chg_from_issue_pct": -0.2
-  },
-  {
    "company": "Shreedhar Spinners Ltd.",
    "slug": "shreedhar-spinners-ipo",
    "url": "https://www.chittorgarh.com/ipo/shreedhar-spinners-ipo/2851/",
@@ -1440,6 +1469,54 @@
    "avg_vol": 311222,
    "issue_px": 53.03,
    "chg_from_issue_pct": 69.8
+  },
+  {
+   "company": "Waterways Leisure Tourism Ltd.",
+   "slug": "cordelia-cruises-ipo",
+   "url": "https://www.chittorgarh.com/ipo/cordelia-cruises-ipo/2474/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-06-22",
+   "boa_date": "2026-06-22",
+   "d30": "2026-07-28",
+   "d90": "2026-09-26",
+   "anchor_shares": 3258045,
+   "anchor_investment_cr": 263.25,
+   "pct_of_issue": 31.03,
+   "isin": "INE0LZF01013",
+   "nse_symbol": "CORDELIA",
+   "bse_code": 544802,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-07-28",
+     "sh": 1629022,
+     "pct": null,
+     "val": 131.625,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-09-26",
+     "sh": 1629022,
+     "pct": null,
+     "val": 131.625,
+     "est": false
+    }
+   ],
+   "last_close": 806.4,
+   "close_date": "2026-07-24",
+   "avg_vol": 1276729,
+   "issue_px": 808.0,
+   "chg_from_issue_pct": -0.2
   },
   {
    "company": "Anubhav Plast Ltd.",
@@ -4239,6 +4316,54 @@
    "chg_from_issue_pct": 42.5
   },
   {
+   "company": "Clean Max Enviro Energy Solutions Ltd.",
+   "slug": "clean-max-enviro-energy-solutions-ipo",
+   "url": "https://www.chittorgarh.com/ipo/clean-max-enviro-energy-solutions-ipo/2573/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-02-20",
+   "boa_date": "2026-02-20",
+   "d30": "2026-03-27",
+   "d90": "2026-05-26",
+   "anchor_shares": 8746437,
+   "anchor_investment_cr": 921.0,
+   "pct_of_issue": 22.98,
+   "isin": "INE647U01026",
+   "nse_symbol": "CLEANMAX",
+   "bse_code": 544717,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-03-27",
+     "sh": 4373218,
+     "pct": null,
+     "val": 460.5,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-05-26",
+     "sh": 4373218,
+     "pct": null,
+     "val": 460.5,
+     "est": false
+    }
+   ],
+   "last_close": 1456.9,
+   "close_date": "2026-07-24",
+   "avg_vol": 177845,
+   "issue_px": 1053.0,
+   "chg_from_issue_pct": 38.4
+  },
+  {
    "company": "Accord Transformer & Switchgear Ltd.",
    "slug": "accord-transformer-switchgear-ipo",
    "url": "https://www.chittorgarh.com/ipo/accord-transformer-switchgear-ipo/2763/",
@@ -4316,54 +4441,6 @@
    "avg_vol": 90600,
    "issue_px": 46.02,
    "chg_from_issue_pct": 13.5
-  },
-  {
-   "company": "Clean Max Enviro Energy Solutions Ltd.",
-   "slug": "clean-max-enviro-energy-solutions-ipo",
-   "url": "https://www.chittorgarh.com/ipo/clean-max-enviro-energy-solutions-ipo/2573/",
-   "category": "Mainboard",
-   "anchor_allotment_date": "2026-02-20",
-   "boa_date": "2026-02-20",
-   "d30": "2026-03-27",
-   "d90": "2026-05-26",
-   "anchor_shares": 8746437,
-   "anchor_investment_cr": 921.0,
-   "pct_of_issue": 22.98,
-   "isin": "INE647U01026",
-   "nse_symbol": "CLEANMAX",
-   "bse_code": 544717,
-   "pre_shares": null,
-   "post_shares": null,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": null,
-   "anchor_names": [],
-   "lm": [],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-03-27",
-     "sh": 4373218,
-     "pct": null,
-     "val": 460.5,
-     "est": false
-    },
-    {
-     "t": "A90",
-     "d": "2026-05-26",
-     "sh": 4373218,
-     "pct": null,
-     "val": 460.5,
-     "est": false
-    }
-   ],
-   "last_close": 1456.9,
-   "close_date": "2026-07-24",
-   "avg_vol": 177845,
-   "issue_px": 1053.0,
-   "chg_from_issue_pct": 38.4
   },
   {
    "company": "Manilam Industries India Ltd.",
