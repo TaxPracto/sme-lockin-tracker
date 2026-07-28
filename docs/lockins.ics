@@ -5,6 +5,41 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:manipal-health-enterprises-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
+SUMMARY:🔓 Manipal Health Enterprises Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/manipal-health-enterprises-ipo/2956/
+END:VEVENT
+BEGIN:VEVENT
+UID:manipal-health-enterprises-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:🔓 Manipal Health Enterprises Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/manipal-health-enterprises-ipo/2956/
+END:VEVENT
+BEGIN:VEVENT
+UID:hr-hygiene-products-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
+SUMMARY:🔓 H.R.Hygiene Products Ltd. — 30D anchor unlock (843\,200 sh\; 3.71% of capital\; ~Rs.7.4 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/hr-hygiene-products-ipo/2713/
+END:VEVENT
+BEGIN:VEVENT
+UID:hr-hygiene-products-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:🔓 H.R.Hygiene Products Ltd. — 90D anchor unlock (843\,200 sh\; 3.71% of capital\; ~Rs.7.4 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/hr-hygiene-products-ipo/2713/
+END:VEVENT
+BEGIN:VEVENT
+UID:hr-hygiene-products-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+SUMMARY:🔓 H.R.Hygiene Products Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/hr-hygiene-products-ipo/2713/
+END:VEVENT
+BEGIN:VEVENT
 UID:poojaa-precision-engg-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260830
 DTEND;VALUE=DATE:20260831
@@ -222,6 +257,20 @@ SUMMARY:🔓 Sotefin Bharat Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/sotefin-bharat-ipo/2836/
 END:VEVENT
 BEGIN:VEVENT
+UID:sbi-funds-management-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260816
+DTEND;VALUE=DATE:20260817
+SUMMARY:🔓 SBI Funds Management Ltd. — 30D anchor unlock (23\,196\,547 sh\; ~Rs.1331.5 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/sbi-funds-management-ipo/2949/
+END:VEVENT
+BEGIN:VEVENT
+UID:sbi-funds-management-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:🔓 SBI Funds Management Ltd. — 90D anchor unlock (23\,196\,547 sh\; ~Rs.1331.5 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/sbi-funds-management-ipo/2949/
+END:VEVENT
+BEGIN:VEVENT
 UID:millworks-technologies-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260816
 DTEND;VALUE=DATE:20260817
@@ -241,20 +290,6 @@ DTSTART;VALUE=DATE:20270113
 DTEND;VALUE=DATE:20270114
 SUMMARY:🔓 Millworks Technologies Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/millworks-technologies-ipo/2866/
-END:VEVENT
-BEGIN:VEVENT
-UID:sbi-funds-management-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260816
-DTEND;VALUE=DATE:20260817
-SUMMARY:🔓 SBI Funds Management Ltd. — 30D anchor unlock (23\,196\,547 sh\; ~Rs.1331.5 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/sbi-funds-management-ipo/2949/
-END:VEVENT
-BEGIN:VEVENT
-UID:sbi-funds-management-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261015
-DTEND;VALUE=DATE:20261016
-SUMMARY:🔓 SBI Funds Management Ltd. — 90D anchor unlock (23\,196\,547 sh\; ~Rs.1331.5 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/sbi-funds-management-ipo/2949/
 END:VEVENT
 BEGIN:VEVENT
 UID:devson-catalyst-ipo-A30@unlockradar
@@ -971,13 +1006,6 @@ SUMMARY:🔓 OnEMI Technology Solutions Ltd. — 90D anchor unlock (8\,122\,108 
 DESCRIPTION:https://www.chittorgarh.com/ipo/onemi-technology-ipo/2576/
 END:VEVENT
 BEGIN:VEVENT
-UID:adisoft-technologies-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20260727
-DTEND;VALUE=DATE:20260728
-SUMMARY:🔓 Adisoft Technologies Ltd. — 90D anchor unlock (612\,800 sh\; 3.76% of capital\; ~Rs.10.5 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/adisoft-technologies-ipo/2788/
-END:VEVENT
-BEGIN:VEVENT
 UID:adisoft-technologies-ipo-PRE6M@unlockradar
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261023
@@ -1321,25 +1349,11 @@ SUMMARY:🔓 Brandman Retail Ltd. — 2Y promoter unlock (4\,524\,779 sh\; 24.51
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/brandman-retail-ipo/2274/
 END:VEVENT
 BEGIN:VEVENT
-UID:msafe-equipments-ipo-PRE6M@unlockradar
-DTSTART;VALUE=DATE:20260727
-DTEND;VALUE=DATE:20260728
-SUMMARY:🔓 Msafe Equipments Ltd. — 6M pre-IPO unlock
-DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/msafe-equipments-ipo/2600/
-END:VEVENT
-BEGIN:VEVENT
 UID:c-k-k-retail-mart-ipo-PRE6M@unlockradar
 DTSTART;VALUE=DATE:20260729
 DTEND;VALUE=DATE:20260730
 SUMMARY:🔓 CKK Retail Mart Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/c-k-k-retail-mart-ipo/2409/
-END:VEVENT
-BEGIN:VEVENT
-UID:accretion-nutraveda-ipo-PRE6M@unlockradar
-DTSTART;VALUE=DATE:20260727
-DTEND;VALUE=DATE:20260728
-SUMMARY:🔓 Accretion Nutraveda Ltd. — 6M pre-IPO unlock
-DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/accretion-nutraveda-ipo/2699/
 END:VEVENT
 BEGIN:VEVENT
 UID:kasturi-metal-ipo-PX1Y@unlockradar
