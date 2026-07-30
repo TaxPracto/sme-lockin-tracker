@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-29T10:14:43+05:30",
+ "generated_at": "2026-07-30T10:01:25+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -8,30 +8,30 @@
  ],
  "records": [
   {
-   "company": "Dhaval Packaging Ltd.",
-   "slug": "dhaval-packaging-ipo",
-   "url": "https://www.chittorgarh.com/ipo/dhaval-packaging-ipo/2835/",
+   "company": "Fusion Klassroom Edutech Ltd.",
+   "slug": "fusion-klassroom-edutech-ipo",
+   "url": "https://www.chittorgarh.com/ipo/fusion-klassroom-edutech-ipo/2867/",
    "category": "SME",
-   "anchor_allotment_date": "2026-07-29",
-   "boa_date": "2026-07-29",
-   "d30": "2026-09-03",
-   "d90": "2026-11-02",
-   "anchor_shares": 1030800,
-   "anchor_investment_cr": 10.0,
-   "pct_of_issue": 21.57,
+   "anchor_allotment_date": "2026-07-30",
+   "boa_date": "2026-07-30",
+   "d30": "2026-09-04",
+   "d90": "2026-11-03",
+   "anchor_shares": 696800,
+   "anchor_investment_cr": 11.08,
+   "pct_of_issue": 22.11,
    "isin": "",
    "nse_symbol": "",
    "bse_code": "",
-   "pre_shares": 9988000,
-   "post_shares": 13736800,
+   "pre_shares": 7327473,
+   "post_shares": 9316873,
    "prom_pre_pct": null,
    "prom_post_pct": null,
-   "listing_date": "2026-08-06",
+   "listing_date": "2026-08-07",
    "anchor_names": [],
    "lm": [
     [
-     447,
-     "Rarever Financial Advisors Pvt.Ltd"
+     185,
+     "Narnolia Financial Services Ltd"
     ]
    ],
    "nonprom_pre_shares": null,
@@ -39,23 +39,23 @@
    "events": [
     {
      "t": "A30",
-     "d": "2026-09-03",
-     "sh": 515400,
-     "pct": 3.75,
-     "val": 5.0,
+     "d": "2026-09-04",
+     "sh": 348400,
+     "pct": 3.74,
+     "val": 5.54,
      "est": false
     },
     {
      "t": "A90",
-     "d": "2026-11-02",
-     "sh": 515400,
-     "pct": 3.75,
-     "val": 5.0,
+     "d": "2026-11-03",
+     "sh": 348400,
+     "pct": 3.74,
+     "val": 5.54,
      "est": false
     },
     {
      "t": "PRE6M",
-     "d": "2027-01-29",
+     "d": "2027-01-30",
      "sh": null,
      "pct": null,
      "val": null,
@@ -65,13 +65,74 @@
    "last_close": null,
    "close_date": null,
    "avg_vol": null,
-   "issue_px": 97.01,
+   "issue_px": 159.01,
    "chg_from_issue_pct": null
   },
   {
-   "company": "MV Electrosystems Ltd.",
-   "slug": "mv-electrosystems-ipo",
-   "url": "https://www.chittorgarh.com/ipo/mv-electrosystems-ipo/2800/",
+   "company": "G.V.Electricals Ltd.",
+   "slug": "gv-electricals-ipo",
+   "url": "https://www.chittorgarh.com/ipo/gv-electricals-ipo/2985/",
+   "category": "SME",
+   "anchor_allotment_date": "2026-07-30",
+   "boa_date": "2026-07-30",
+   "d30": "2026-09-04",
+   "d90": "2026-11-03",
+   "anchor_shares": 888000,
+   "anchor_investment_cr": 11.54,
+   "pct_of_issue": 21.46,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": 8279190,
+   "post_shares": 11279190,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": "2026-08-07",
+   "anchor_names": [],
+   "lm": [
+    [
+     450,
+     "Seren Capital Pvt.Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-09-04",
+     "sh": 444000,
+     "pct": 3.94,
+     "val": 5.77,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-11-03",
+     "sh": 444000,
+     "pct": 3.94,
+     "val": 5.77,
+     "est": false
+    },
+    {
+     "t": "PRE6M",
+     "d": "2027-01-30",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": true
+    }
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 129.95,
+   "chg_from_issue_pct": null
+  },
+  {
+   "company": "Juniper Green Energy Ltd.",
+   "slug": "juniper-green-energy-ipo",
+   "url": "https://www.chittorgarh.com/ipo/juniper-green-energy-ipo/2492/",
    "category": "Mainboard",
    "anchor_allotment_date": "2026-07-29",
    "boa_date": "2026-07-29",
@@ -178,9 +239,9 @@
    "chg_from_issue_pct": null
   },
   {
-   "company": "Juniper Green Energy Ltd.",
-   "slug": "juniper-green-energy-ipo",
-   "url": "https://www.chittorgarh.com/ipo/juniper-green-energy-ipo/2492/",
+   "company": "MV Electrosystems Ltd.",
+   "slug": "mv-electrosystems-ipo",
+   "url": "https://www.chittorgarh.com/ipo/mv-electrosystems-ipo/2800/",
    "category": "Mainboard",
    "anchor_allotment_date": "2026-07-29",
    "boa_date": "2026-07-29",
@@ -226,51 +287,64 @@
    "chg_from_issue_pct": null
   },
   {
-   "company": "Manipal Health Enterprises Ltd.",
-   "slug": "manipal-health-enterprises-ipo",
-   "url": "https://www.chittorgarh.com/ipo/manipal-health-enterprises-ipo/2956/",
-   "category": "Mainboard",
-   "anchor_allotment_date": "2026-07-28",
-   "boa_date": "2026-07-28",
-   "d30": "2026-09-02",
-   "d90": "2026-11-01",
-   "anchor_shares": 0,
-   "anchor_investment_cr": 0.0,
-   "pct_of_issue": 0.0,
+   "company": "Dhaval Packaging Ltd.",
+   "slug": "dhaval-packaging-ipo",
+   "url": "https://www.chittorgarh.com/ipo/dhaval-packaging-ipo/2835/",
+   "category": "SME",
+   "anchor_allotment_date": "2026-07-29",
+   "boa_date": "2026-07-29",
+   "d30": "2026-09-03",
+   "d90": "2026-11-02",
+   "anchor_shares": 1030800,
+   "anchor_investment_cr": 10.0,
+   "pct_of_issue": 21.57,
    "isin": "",
    "nse_symbol": "",
    "bse_code": "",
-   "pre_shares": null,
-   "post_shares": null,
+   "pre_shares": 9988000,
+   "post_shares": 13736800,
    "prom_pre_pct": null,
    "prom_post_pct": null,
-   "listing_date": null,
+   "listing_date": "2026-08-06",
    "anchor_names": [],
-   "lm": [],
+   "lm": [
+    [
+     447,
+     "Rarever Financial Advisors Pvt.Ltd"
+    ]
+   ],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
     {
      "t": "A30",
-     "d": "2026-09-02",
-     "sh": null,
-     "pct": null,
-     "val": null,
+     "d": "2026-09-03",
+     "sh": 515400,
+     "pct": 3.75,
+     "val": 5.0,
      "est": false
     },
     {
      "t": "A90",
-     "d": "2026-11-01",
+     "d": "2026-11-02",
+     "sh": 515400,
+     "pct": 3.75,
+     "val": 5.0,
+     "est": false
+    },
+    {
+     "t": "PRE6M",
+     "d": "2027-01-29",
      "sh": null,
      "pct": null,
      "val": null,
-     "est": false
+     "est": true
     }
    ],
    "last_close": null,
    "close_date": null,
    "avg_vol": null,
-   "issue_px": null,
+   "issue_px": 97.01,
    "chg_from_issue_pct": null
   },
   {
@@ -332,6 +406,54 @@
    "close_date": null,
    "avg_vol": null,
    "issue_px": 88.0,
+   "chg_from_issue_pct": null
+  },
+  {
+   "company": "Manipal Health Enterprises Ltd.",
+   "slug": "manipal-health-enterprises-ipo",
+   "url": "https://www.chittorgarh.com/ipo/manipal-health-enterprises-ipo/2956/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-07-28",
+   "boa_date": "2026-07-28",
+   "d30": "2026-09-02",
+   "d90": "2026-11-01",
+   "anchor_shares": 70628768,
+   "anchor_investment_cr": 4167.1,
+   "pct_of_issue": 31.0,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-09-02",
+     "sh": 35314384,
+     "pct": null,
+     "val": 2083.55,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-11-01",
+     "sh": 35314384,
+     "pct": null,
+     "val": 2083.55,
+     "est": false
+    }
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 590.0,
    "chg_from_issue_pct": null
   },
   {
@@ -489,6 +611,54 @@
    "chg_from_issue_pct": null
   },
   {
+   "company": "Xtranet Technologies Ltd.",
+   "slug": "xtranet-technologies-ipo",
+   "url": "https://www.chittorgarh.com/ipo/xtranet-technologies-ipo/2688/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-07-22",
+   "boa_date": "2026-07-22",
+   "d30": "2026-08-28",
+   "d90": "2026-10-25",
+   "anchor_shares": 3940200,
+   "anchor_investment_cr": 50.04,
+   "pct_of_issue": 23.08,
+   "isin": "INE0NG701011",
+   "nse_symbol": "XTRANET",
+   "bse_code": 544838,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-08-28",
+     "sh": 1970100,
+     "pct": null,
+     "val": 25.02,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-10-25",
+     "sh": 1970100,
+     "pct": null,
+     "val": 25.02,
+     "est": false
+    }
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 127.0,
+   "chg_from_issue_pct": null
+  },
+  {
    "company": "Cube Highways Trust",
    "slug": "cube-highways-trust-invit",
    "url": "https://www.chittorgarh.com/ipo/cube-highways-trust-invit/3192/",
@@ -537,116 +707,20 @@
    "chg_from_issue_pct": null
   },
   {
-   "company": "Xtranet Technologies Ltd.",
-   "slug": "xtranet-technologies-ipo",
-   "url": "https://www.chittorgarh.com/ipo/xtranet-technologies-ipo/2688/",
-   "category": "Mainboard",
-   "anchor_allotment_date": "2026-07-22",
-   "boa_date": "2026-07-22",
-   "d30": "2026-08-27",
-   "d90": "2026-10-26",
-   "anchor_shares": 3940200,
-   "anchor_investment_cr": 50.04,
-   "pct_of_issue": 23.08,
-   "isin": "",
-   "nse_symbol": "",
-   "bse_code": "",
-   "pre_shares": null,
-   "post_shares": null,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": null,
-   "anchor_names": [],
-   "lm": [],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-08-27",
-     "sh": 1970100,
-     "pct": null,
-     "val": 25.02,
-     "est": false
-    },
-    {
-     "t": "A90",
-     "d": "2026-10-26",
-     "sh": 1970100,
-     "pct": null,
-     "val": 25.02,
-     "est": false
-    }
-   ],
-   "last_close": null,
-   "close_date": null,
-   "avg_vol": null,
-   "issue_px": 127.0,
-   "chg_from_issue_pct": null
-  },
-  {
-   "company": "Indo-MIM Ltd.",
-   "slug": "indo-mim-ipo",
-   "url": "https://www.chittorgarh.com/ipo/indo-mim-ipo/2682/",
-   "category": "Mainboard",
-   "anchor_allotment_date": "2026-07-22",
-   "boa_date": "2026-07-22",
-   "d30": "2026-08-27",
-   "d90": "2026-10-26",
-   "anchor_shares": 23525656,
-   "anchor_investment_cr": 1140.99,
-   "pct_of_issue": 23.04,
-   "isin": "",
-   "nse_symbol": "",
-   "bse_code": "",
-   "pre_shares": null,
-   "post_shares": null,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": null,
-   "anchor_names": [],
-   "lm": [],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-08-27",
-     "sh": 11762828,
-     "pct": null,
-     "val": 570.495,
-     "est": false
-    },
-    {
-     "t": "A90",
-     "d": "2026-10-26",
-     "sh": 11762828,
-     "pct": null,
-     "val": 570.495,
-     "est": false
-    }
-   ],
-   "last_close": null,
-   "close_date": null,
-   "avg_vol": null,
-   "issue_px": 485.0,
-   "chg_from_issue_pct": null
-  },
-  {
    "company": "Lohia Corp Ltd.",
    "slug": "lohia-corp-ipo",
    "url": "https://www.chittorgarh.com/ipo/lohia-corp-ipo/2574/",
    "category": "Mainboard",
    "anchor_allotment_date": "2026-07-22",
    "boa_date": "2026-07-22",
-   "d30": "2026-08-27",
-   "d90": "2026-10-26",
+   "d30": "2026-08-26",
+   "d90": "2026-10-25",
    "anchor_shares": 11579133,
    "anchor_investment_cr": 492.11,
    "pct_of_issue": 30.87,
-   "isin": "",
-   "nse_symbol": "",
-   "bse_code": "",
+   "isin": "INE0QJW01029",
+   "nse_symbol": "LCL",
+   "bse_code": 544839,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -659,7 +733,7 @@
    "events": [
     {
      "t": "A30",
-     "d": "2026-08-27",
+     "d": "2026-08-26",
      "sh": 5789566,
      "pct": null,
      "val": 246.055,
@@ -667,7 +741,7 @@
     },
     {
      "t": "A90",
-     "d": "2026-10-26",
+     "d": "2026-10-25",
      "sh": 5789566,
      "pct": null,
      "val": 246.055,
@@ -678,6 +752,54 @@
    "close_date": null,
    "avg_vol": null,
    "issue_px": 425.0,
+   "chg_from_issue_pct": null
+  },
+  {
+   "company": "Indo-MIM Ltd.",
+   "slug": "indo-mim-ipo",
+   "url": "https://www.chittorgarh.com/ipo/indo-mim-ipo/2682/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-07-22",
+   "boa_date": "2026-07-22",
+   "d30": "2026-08-26",
+   "d90": "2026-10-25",
+   "anchor_shares": 23525656,
+   "anchor_investment_cr": 1140.99,
+   "pct_of_issue": 23.04,
+   "isin": "INE084101034",
+   "nse_symbol": "INDOMIM",
+   "bse_code": 544837,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-08-26",
+     "sh": 11762828,
+     "pct": null,
+     "val": 570.495,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-10-25",
+     "sh": 11762828,
+     "pct": null,
+     "val": 570.495,
+     "est": false
+    }
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 485.0,
    "chg_from_issue_pct": null
   },
   {
@@ -735,11 +857,11 @@
      "est": true
     }
    ],
-   "last_close": null,
-   "close_date": null,
-   "avg_vol": null,
+   "last_close": 126.35,
+   "close_date": "2026-07-29",
+   "avg_vol": 1040000,
    "issue_px": 70.03,
-   "chg_from_issue_pct": null
+   "chg_from_issue_pct": 80.4
   },
   {
    "company": "Metalic Technoforge Ltd.",
@@ -812,11 +934,11 @@
      "est": true
     }
    ],
-   "last_close": 83.05,
-   "close_date": "2026-07-28",
-   "avg_vol": 2686400,
+   "last_close": 87.2,
+   "close_date": "2026-07-29",
+   "avg_vol": 1512800,
    "issue_px": 77.01,
-   "chg_from_issue_pct": 7.8
+   "chg_from_issue_pct": 13.2
   },
   {
    "company": "Caliber Mining & Logistics Ltd.",
@@ -860,11 +982,11 @@
      "est": false
     }
    ],
-   "last_close": 566.35,
-   "close_date": "2026-07-28",
-   "avg_vol": 22171879,
+   "last_close": 561.3,
+   "close_date": "2026-07-29",
+   "avg_vol": 18122149,
    "issue_px": 424.0,
-   "chg_from_issue_pct": 33.6
+   "chg_from_issue_pct": 32.4
   },
   {
    "company": "Sotefin Bharat Ltd.",
@@ -921,59 +1043,11 @@
      "est": true
     }
    ],
-   "last_close": 210.05,
-   "close_date": "2026-07-28",
-   "avg_vol": 751950,
+   "last_close": 208.0,
+   "close_date": "2026-07-29",
+   "avg_vol": 608400,
    "issue_px": 186.99,
-   "chg_from_issue_pct": 12.3
-  },
-  {
-   "company": "SBI Funds Management Ltd.",
-   "slug": "sbi-funds-management-ipo",
-   "url": "https://www.chittorgarh.com/ipo/sbi-funds-management-ipo/2949/",
-   "category": "Mainboard",
-   "anchor_allotment_date": "2026-07-13",
-   "boa_date": "2026-07-13",
-   "d30": "2026-08-16",
-   "d90": "2026-10-15",
-   "anchor_shares": 46393095,
-   "anchor_investment_cr": 2662.96,
-   "pct_of_issue": 21.34,
-   "isin": "INE640G01020",
-   "nse_symbol": "SBIFUNDS",
-   "bse_code": 544829,
-   "pre_shares": null,
-   "post_shares": null,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": null,
-   "anchor_names": [],
-   "lm": [],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-08-16",
-     "sh": 23196547,
-     "pct": null,
-     "val": 1331.48,
-     "est": false
-    },
-    {
-     "t": "A90",
-     "d": "2026-10-15",
-     "sh": 23196547,
-     "pct": null,
-     "val": 1331.48,
-     "est": false
-    }
-   ],
-   "last_close": 576.35,
-   "close_date": "2026-07-28",
-   "avg_vol": 21021665,
-   "issue_px": 574.0,
-   "chg_from_issue_pct": 0.4
+   "chg_from_issue_pct": 11.2
   },
   {
    "company": "Millworks Technologies Ltd.",
@@ -1030,74 +1104,107 @@
      "est": true
     }
    ],
-   "last_close": 758.95,
-   "close_date": "2026-07-28",
-   "avg_vol": 586400,
+   "last_close": 747.75,
+   "close_date": "2026-07-29",
+   "avg_vol": 531371,
    "issue_px": 330.97,
-   "chg_from_issue_pct": 129.3
+   "chg_from_issue_pct": 125.9
   },
   {
-   "company": "Devson Catalyst Ltd.",
-   "slug": "devson-catalyst-ipo",
-   "url": "https://www.chittorgarh.com/ipo/devson-catalyst-ipo/2943/",
-   "category": "SME",
+   "company": "SBI Funds Management Ltd.",
+   "slug": "sbi-funds-management-ipo",
+   "url": "https://www.chittorgarh.com/ipo/sbi-funds-management-ipo/2949/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-07-13",
+   "boa_date": "2026-07-13",
+   "d30": "2026-08-16",
+   "d90": "2026-10-15",
+   "anchor_shares": 46393095,
+   "anchor_investment_cr": 2662.96,
+   "pct_of_issue": 21.34,
+   "isin": "INE640G01020",
+   "nse_symbol": "SBIFUNDS",
+   "bse_code": 544829,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-08-16",
+     "sh": 23196547,
+     "pct": null,
+     "val": 1331.48,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-10-15",
+     "sh": 23196547,
+     "pct": null,
+     "val": 1331.48,
+     "est": false
+    }
+   ],
+   "last_close": 576.05,
+   "close_date": "2026-07-29",
+   "avg_vol": 18428927,
+   "issue_px": 574.0,
+   "chg_from_issue_pct": 0.4
+  },
+  {
+   "company": "Laser Power & Infra Ltd.",
+   "slug": "laser-power-infra-ipo",
+   "url": "https://www.chittorgarh.com/ipo/laser-power-infra-ipo/2654/",
+   "category": "Mainboard",
    "anchor_allotment_date": "2026-07-08",
    "boa_date": "2026-07-08",
    "d30": "2026-08-13",
    "d90": "2026-10-12",
-   "anchor_shares": 1000800,
-   "anchor_investment_cr": 11.81,
-   "pct_of_issue": 21.81,
-   "isin": "INE2KRP01017",
-   "nse_symbol": "",
-   "bse_code": 544823,
-   "pre_shares": 10250000,
-   "post_shares": 13588000,
+   "anchor_shares": 10401867,
+   "anchor_investment_cr": 222.6,
+   "pct_of_issue": 23.08,
+   "isin": "INE17IR01028",
+   "nse_symbol": "LASERPOWER",
+   "bse_code": 544822,
+   "pre_shares": null,
+   "post_shares": null,
    "prom_pre_pct": null,
    "prom_post_pct": null,
-   "listing_date": "2026-07-16",
-   "anchor_names": [
-    "Investment by Mutual Fund"
-   ],
-   "lm": [
-    [
-     941,
-     "JJ IPO Advisors Pvt.Ltd"
-    ]
-   ],
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
     {
      "t": "A30",
      "d": "2026-08-13",
-     "sh": 500400,
-     "pct": 3.68,
-     "val": 5.905,
+     "sh": 5200933,
+     "pct": null,
+     "val": 111.3,
      "est": false
     },
     {
      "t": "A90",
      "d": "2026-10-12",
-     "sh": 500400,
-     "pct": 3.68,
-     "val": 5.905,
-     "est": false
-    },
-    {
-     "t": "PRE6M",
-     "d": "2027-01-08",
-     "sh": null,
+     "sh": 5200933,
      "pct": null,
-     "val": null,
-     "est": true
+     "val": 111.3,
+     "est": false
     }
    ],
-   "last_close": 210.0,
-   "close_date": "2026-07-28",
-   "avg_vol": 437866,
-   "issue_px": 118.01,
-   "chg_from_issue_pct": 78.0
+   "last_close": 306.67,
+   "close_date": "2026-07-29",
+   "avg_vol": 9013402,
+   "issue_px": 214.0,
+   "chg_from_issue_pct": 43.3
   },
   {
    "company": "Happy Steels Ltd.",
@@ -1172,59 +1279,74 @@
      "est": true
     }
    ],
-   "last_close": 61.15,
-   "close_date": "2026-07-28",
-   "avg_vol": 275777,
+   "last_close": 61.65,
+   "close_date": "2026-07-29",
+   "avg_vol": 250200,
    "issue_px": 65.99,
-   "chg_from_issue_pct": -7.3
+   "chg_from_issue_pct": -6.6
   },
   {
-   "company": "Laser Power & Infra Ltd.",
-   "slug": "laser-power-infra-ipo",
-   "url": "https://www.chittorgarh.com/ipo/laser-power-infra-ipo/2654/",
-   "category": "Mainboard",
+   "company": "Devson Catalyst Ltd.",
+   "slug": "devson-catalyst-ipo",
+   "url": "https://www.chittorgarh.com/ipo/devson-catalyst-ipo/2943/",
+   "category": "SME",
    "anchor_allotment_date": "2026-07-08",
    "boa_date": "2026-07-08",
    "d30": "2026-08-13",
    "d90": "2026-10-12",
-   "anchor_shares": 10401867,
-   "anchor_investment_cr": 222.6,
-   "pct_of_issue": 23.08,
-   "isin": "INE17IR01028",
-   "nse_symbol": "LASERPOWER",
-   "bse_code": 544822,
-   "pre_shares": null,
-   "post_shares": null,
+   "anchor_shares": 1000800,
+   "anchor_investment_cr": 11.81,
+   "pct_of_issue": 21.81,
+   "isin": "INE2KRP01017",
+   "nse_symbol": "",
+   "bse_code": 544823,
+   "pre_shares": 10250000,
+   "post_shares": 13588000,
    "prom_pre_pct": null,
    "prom_post_pct": null,
-   "listing_date": null,
-   "anchor_names": [],
-   "lm": [],
+   "listing_date": "2026-07-16",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
+   "lm": [
+    [
+     941,
+     "JJ IPO Advisors Pvt.Ltd"
+    ]
+   ],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
     {
      "t": "A30",
      "d": "2026-08-13",
-     "sh": 5200933,
-     "pct": null,
-     "val": 111.3,
+     "sh": 500400,
+     "pct": 3.68,
+     "val": 5.905,
      "est": false
     },
     {
      "t": "A90",
      "d": "2026-10-12",
-     "sh": 5200933,
-     "pct": null,
-     "val": 111.3,
+     "sh": 500400,
+     "pct": 3.68,
+     "val": 5.905,
      "est": false
+    },
+    {
+     "t": "PRE6M",
+     "d": "2027-01-08",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": true
     }
    ],
-   "last_close": 285.66,
-   "close_date": "2026-07-28",
-   "avg_vol": 9155403,
-   "issue_px": 214.0,
-   "chg_from_issue_pct": 33.5
+   "last_close": 204.2,
+   "close_date": "2026-07-29",
+   "avg_vol": 403680,
+   "issue_px": 118.01,
+   "chg_from_issue_pct": 73.0
   },
   {
    "company": "Kusumgar Ltd.",
@@ -1268,11 +1390,11 @@
      "est": false
     }
    ],
-   "last_close": 566.55,
-   "close_date": "2026-07-28",
-   "avg_vol": 3640026,
+   "last_close": 592.1,
+   "close_date": "2026-07-29",
+   "avg_vol": 3379372,
    "issue_px": 419.0,
-   "chg_from_issue_pct": 35.2
+   "chg_from_issue_pct": 41.3
   },
   {
    "company": "IC Electricals Co.Ltd.",
@@ -1347,11 +1469,11 @@
      "est": true
     }
    ],
-   "last_close": 149.8,
-   "close_date": "2026-07-28",
-   "avg_vol": 460153,
+   "last_close": 156.0,
+   "close_date": "2026-07-29",
+   "avg_vol": 432685,
    "issue_px": 98.98,
-   "chg_from_issue_pct": 51.3
+   "chg_from_issue_pct": 57.6
   },
   {
    "company": "Knack Packaging Ltd.",
@@ -1395,90 +1517,11 @@
      "est": false
     }
    ],
-   "last_close": 191.0,
-   "close_date": "2026-07-28",
-   "avg_vol": 6704878,
+   "last_close": 189.51,
+   "close_date": "2026-07-29",
+   "avg_vol": 6337123,
    "issue_px": 170.0,
-   "chg_from_issue_pct": 12.4
-  },
-  {
-   "company": "Kratikal Tech Ltd.",
-   "slug": "kratikal-tech-ipo",
-   "url": "https://www.chittorgarh.com/ipo/kratikal-tech-ipo/2844/",
-   "category": "SME",
-   "anchor_allotment_date": "2026-06-29",
-   "boa_date": "2026-06-29",
-   "d30": "2026-08-02",
-   "d90": "2026-10-01",
-   "anchor_shares": 831000,
-   "anchor_investment_cr": 11.22,
-   "pct_of_issue": 22.04,
-   "isin": "INE1L0M01019",
-   "nse_symbol": "",
-   "bse_code": 544811,
-   "pre_shares": 8160545,
-   "post_shares": 11100545,
-   "prom_pre_pct": 72.58,
-   "prom_post_pct": 53.36,
-   "listing_date": "2026-07-07",
-   "anchor_names": [
-    "Investment by Mutual Fund"
-   ],
-   "lm": [
-    [
-     192,
-     "Beeline Capital Advisors Pvt.Ltd"
-    ]
-   ],
-   "nonprom_pre_shares": 2237621,
-   "nonprom_pre_pct_of_post": 20.16,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-08-02",
-     "sh": 415500,
-     "pct": 3.74,
-     "val": 5.61,
-     "est": false
-    },
-    {
-     "t": "A90",
-     "d": "2026-10-01",
-     "sh": 415500,
-     "pct": 3.74,
-     "val": 5.61,
-     "est": false
-    },
-    {
-     "t": "PRE6M",
-     "d": "2026-12-29",
-     "sh": 2237621,
-     "pct": 20.16,
-     "val": null,
-     "est": true
-    },
-    {
-     "t": "PX1Y",
-     "d": "2027-06-29",
-     "sh": 1851570,
-     "pct": 16.68,
-     "val": null,
-     "est": true
-    },
-    {
-     "t": "PX2Y",
-     "d": "2028-06-29",
-     "sh": 1851570,
-     "pct": 16.68,
-     "val": null,
-     "est": true
-    }
-   ],
-   "last_close": 168.85,
-   "close_date": "2026-07-28",
-   "avg_vol": 175562,
-   "issue_px": 135.02,
-   "chg_from_issue_pct": 25.1
+   "chg_from_issue_pct": 11.5
   },
   {
    "company": "Atharva Polyplast Ltd.",
@@ -1537,11 +1580,11 @@
      "est": true
     }
    ],
-   "last_close": 76.81,
-   "close_date": "2026-07-28",
-   "avg_vol": 282500,
+   "last_close": 77.8,
+   "close_date": "2026-07-29",
+   "avg_vol": 267058,
    "issue_px": 59.97,
-   "chg_from_issue_pct": 28.1
+   "chg_from_issue_pct": 29.7
   },
   {
    "company": "Sampark India Logistics Ltd.",
@@ -1616,11 +1659,90 @@
      "est": true
     }
    ],
-   "last_close": 95.15,
-   "close_date": "2026-07-28",
-   "avg_vol": 132800,
+   "last_close": 93.33,
+   "close_date": "2026-07-29",
+   "avg_vol": 126305,
    "issue_px": 83.95,
-   "chg_from_issue_pct": 13.3
+   "chg_from_issue_pct": 11.2
+  },
+  {
+   "company": "Kratikal Tech Ltd.",
+   "slug": "kratikal-tech-ipo",
+   "url": "https://www.chittorgarh.com/ipo/kratikal-tech-ipo/2844/",
+   "category": "SME",
+   "anchor_allotment_date": "2026-06-29",
+   "boa_date": "2026-06-29",
+   "d30": "2026-08-02",
+   "d90": "2026-10-01",
+   "anchor_shares": 831000,
+   "anchor_investment_cr": 11.22,
+   "pct_of_issue": 22.04,
+   "isin": "INE1L0M01019",
+   "nse_symbol": "",
+   "bse_code": 544811,
+   "pre_shares": 8160545,
+   "post_shares": 11100545,
+   "prom_pre_pct": 72.58,
+   "prom_post_pct": 53.36,
+   "listing_date": "2026-07-07",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
+   "lm": [
+    [
+     192,
+     "Beeline Capital Advisors Pvt.Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": 2237621,
+   "nonprom_pre_pct_of_post": 20.16,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-08-02",
+     "sh": 415500,
+     "pct": 3.74,
+     "val": 5.61,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-10-01",
+     "sh": 415500,
+     "pct": 3.74,
+     "val": 5.61,
+     "est": false
+    },
+    {
+     "t": "PRE6M",
+     "d": "2026-12-29",
+     "sh": 2237621,
+     "pct": 20.16,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX1Y",
+     "d": "2027-06-29",
+     "sh": 1851570,
+     "pct": 16.68,
+     "val": null,
+     "est": true
+    },
+    {
+     "t": "PX2Y",
+     "d": "2028-06-29",
+     "sh": 1851570,
+     "pct": 16.68,
+     "val": null,
+     "est": true
+    }
+   ],
+   "last_close": 165.4,
+   "close_date": "2026-07-29",
+   "avg_vol": 166176,
+   "issue_px": 135.02,
+   "chg_from_issue_pct": 22.5
   },
   {
    "company": "CSM Technologies Ltd.",
@@ -1664,11 +1786,11 @@
      "est": false
     }
    ],
-   "last_close": 100.6,
-   "close_date": "2026-07-28",
-   "avg_vol": 384061,
+   "last_close": 96.14,
+   "close_date": "2026-07-29",
+   "avg_vol": 400551,
    "issue_px": 112.99,
-   "chg_from_issue_pct": -11.0
+   "chg_from_issue_pct": -14.9
   },
   {
    "company": "Advit Jewels Ltd.",
@@ -1712,11 +1834,59 @@
      "est": false
     }
    ],
-   "last_close": 187.26,
-   "close_date": "2026-07-28",
-   "avg_vol": 890274,
+   "last_close": 185.93,
+   "close_date": "2026-07-29",
+   "avg_vol": 861284,
    "issue_px": 137.99,
-   "chg_from_issue_pct": 35.7
+   "chg_from_issue_pct": 34.7
+  },
+  {
+   "company": "Waterways Leisure Tourism Ltd.",
+   "slug": "cordelia-cruises-ipo",
+   "url": "https://www.chittorgarh.com/ipo/cordelia-cruises-ipo/2474/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-06-22",
+   "boa_date": "2026-06-22",
+   "d30": "2026-07-28",
+   "d90": "2026-09-26",
+   "anchor_shares": 3258045,
+   "anchor_investment_cr": 263.25,
+   "pct_of_issue": 31.03,
+   "isin": "INE0LZF01013",
+   "nse_symbol": "CORDELIA",
+   "bse_code": 544802,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-07-28",
+     "sh": 1629022,
+     "pct": null,
+     "val": 131.625,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-09-26",
+     "sh": 1629022,
+     "pct": null,
+     "val": 131.625,
+     "est": false
+    }
+   ],
+   "last_close": 806.2,
+   "close_date": "2026-07-29",
+   "avg_vol": 1112130,
+   "issue_px": 808.0,
+   "chg_from_issue_pct": -0.2
   },
   {
    "company": "Shreedhar Spinners Ltd.",
@@ -1791,27 +1961,27 @@
      "est": true
     }
    ],
-   "last_close": 89.0,
-   "close_date": "2026-07-28",
-   "avg_vol": 292100,
+   "last_close": 87.0,
+   "close_date": "2026-07-29",
+   "avg_vol": 288571,
    "issue_px": 53.03,
-   "chg_from_issue_pct": 67.8
+   "chg_from_issue_pct": 64.1
   },
   {
-   "company": "Waterways Leisure Tourism Ltd.",
-   "slug": "cordelia-cruises-ipo",
-   "url": "https://www.chittorgarh.com/ipo/cordelia-cruises-ipo/2474/",
+   "company": "Turtlemint Fintech Solutions Ltd.",
+   "slug": "turtlemint-fintech-solutions-ipo",
+   "url": "https://www.chittorgarh.com/ipo/turtlemint-fintech-solutions-ipo/2601/",
    "category": "Mainboard",
-   "anchor_allotment_date": "2026-06-22",
-   "boa_date": "2026-06-22",
-   "d30": "2026-07-28",
-   "d90": "2026-09-26",
-   "anchor_shares": 3258045,
-   "anchor_investment_cr": 263.25,
+   "anchor_allotment_date": "2026-06-18",
+   "boa_date": "2026-06-18",
+   "d30": "2026-07-23",
+   "d90": "2026-09-21",
+   "anchor_shares": 26131680,
+   "anchor_investment_cr": 397.2,
    "pct_of_issue": 31.03,
-   "isin": "INE0LZF01013",
-   "nse_symbol": "CORDELIA",
-   "bse_code": 544802,
+   "isin": "INE0OC301013",
+   "nse_symbol": "TURTLEMINT",
+   "bse_code": 544799,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -1824,26 +1994,26 @@
    "events": [
     {
      "t": "A30",
-     "d": "2026-07-28",
-     "sh": 1629022,
+     "d": "2026-07-23",
+     "sh": 13065840,
      "pct": null,
-     "val": 131.625,
+     "val": 198.6,
      "est": false
     },
     {
      "t": "A90",
-     "d": "2026-09-26",
-     "sh": 1629022,
+     "d": "2026-09-21",
+     "sh": 13065840,
      "pct": null,
-     "val": 131.625,
+     "val": 198.6,
      "est": false
     }
    ],
-   "last_close": 804.2,
-   "close_date": "2026-07-28",
-   "avg_vol": 1162275,
-   "issue_px": 808.0,
-   "chg_from_issue_pct": -0.5
+   "last_close": 117.73,
+   "close_date": "2026-07-29",
+   "avg_vol": 2102233,
+   "issue_px": 152.0,
+   "chg_from_issue_pct": -22.5
   },
   {
    "company": "Anubhav Plast Ltd.",
@@ -1918,59 +2088,11 @@
      "est": true
     }
    ],
-   "last_close": 49.75,
-   "close_date": "2026-07-28",
-   "avg_vol": 70690,
+   "last_close": 50.0,
+   "close_date": "2026-07-29",
+   "avg_vol": 69217,
    "issue_px": 79.95,
-   "chg_from_issue_pct": -37.8
-  },
-  {
-   "company": "Turtlemint Fintech Solutions Ltd.",
-   "slug": "turtlemint-fintech-solutions-ipo",
-   "url": "https://www.chittorgarh.com/ipo/turtlemint-fintech-solutions-ipo/2601/",
-   "category": "Mainboard",
-   "anchor_allotment_date": "2026-06-18",
-   "boa_date": "2026-06-18",
-   "d30": "2026-07-23",
-   "d90": "2026-09-21",
-   "anchor_shares": 26131680,
-   "anchor_investment_cr": 397.2,
-   "pct_of_issue": 31.03,
-   "isin": "INE0OC301013",
-   "nse_symbol": "TURTLEMINT",
-   "bse_code": 544799,
-   "pre_shares": null,
-   "post_shares": null,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": null,
-   "anchor_names": [],
-   "lm": [],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-07-23",
-     "sh": 13065840,
-     "pct": null,
-     "val": 198.6,
-     "est": false
-    },
-    {
-     "t": "A90",
-     "d": "2026-09-21",
-     "sh": 13065840,
-     "pct": null,
-     "val": 198.6,
-     "est": false
-    }
-   ],
-   "last_close": 121.84,
-   "close_date": "2026-07-28",
-   "avg_vol": 2160966,
-   "issue_px": 152.0,
-   "chg_from_issue_pct": -19.8
+   "chg_from_issue_pct": -37.5
   },
   {
    "company": "Avience Biomedicals Ltd.",
@@ -2045,11 +2167,11 @@
      "est": true
     }
    ],
-   "last_close": 259.65,
-   "close_date": "2026-07-28",
-   "avg_vol": 99954,
+   "last_close": 257.95,
+   "close_date": "2026-07-29",
+   "avg_vol": 96886,
    "issue_px": 207.91,
-   "chg_from_issue_pct": 24.9
+   "chg_from_issue_pct": 24.1
   },
   {
    "company": "Clay Craft India Ltd.",
@@ -2108,11 +2230,11 @@
      "est": true
     }
    ],
-   "last_close": 159.15,
-   "close_date": "2026-07-28",
-   "avg_vol": 103390,
+   "last_close": 165.15,
+   "close_date": "2026-07-29",
+   "avg_vol": 100460,
    "issue_px": 203.01,
-   "chg_from_issue_pct": -21.6
+   "chg_from_issue_pct": -18.6
   },
   {
    "company": "Horizon Reclaim (India) Ltd.",
@@ -2171,11 +2293,11 @@
      "est": true
     }
    ],
-   "last_close": 142.0,
-   "close_date": "2026-07-28",
-   "avg_vol": 141436,
+   "last_close": 139.85,
+   "close_date": "2026-07-29",
+   "avg_vol": 139773,
    "issue_px": 102.98,
-   "chg_from_issue_pct": 37.9
+   "chg_from_issue_pct": 35.8
   },
   {
    "company": "Susan Electricals India Ltd.",
@@ -2250,11 +2372,59 @@
      "est": true
     }
    ],
-   "last_close": 216.55,
-   "close_date": "2026-07-28",
-   "avg_vol": 305636,
+   "last_close": 218.8,
+   "close_date": "2026-07-29",
+   "avg_vol": 297130,
    "issue_px": 126.99,
-   "chg_from_issue_pct": 70.5
+   "chg_from_issue_pct": 72.3
+  },
+  {
+   "company": "Hexagon Nutrition Ltd.",
+   "slug": "hexagon-nutrition-ipo",
+   "url": "https://www.chittorgarh.com/ipo/hexagon-nutrition-ipo/2658/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-06-04",
+   "boa_date": "2026-06-04",
+   "d30": "2026-07-09",
+   "d90": "2026-09-07",
+   "anchor_shares": 9257696,
+   "anchor_investment_cr": 41.66,
+   "pct_of_issue": 23.08,
+   "isin": "INE0JUI01012",
+   "nse_symbol": "HEXAGON",
+   "bse_code": 544785,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-07-09",
+     "sh": 4628848,
+     "pct": null,
+     "val": 20.83,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-09-07",
+     "sh": 4628848,
+     "pct": null,
+     "val": 20.83,
+     "est": false
+    }
+   ],
+   "last_close": 62.06,
+   "close_date": "2026-07-29",
+   "avg_vol": 2888565,
+   "issue_px": 45.0,
+   "chg_from_issue_pct": 37.9
   },
   {
    "company": "Genxai Analytics Ltd.",
@@ -2329,59 +2499,11 @@
      "est": true
     }
    ],
-   "last_close": 70.55,
-   "close_date": "2026-07-28",
-   "avg_vol": 83509,
+   "last_close": 72.0,
+   "close_date": "2026-07-29",
+   "avg_vol": 80191,
    "issue_px": 115.99,
-   "chg_from_issue_pct": -39.2
-  },
-  {
-   "company": "Hexagon Nutrition Ltd.",
-   "slug": "hexagon-nutrition-ipo",
-   "url": "https://www.chittorgarh.com/ipo/hexagon-nutrition-ipo/2658/",
-   "category": "Mainboard",
-   "anchor_allotment_date": "2026-06-04",
-   "boa_date": "2026-06-04",
-   "d30": "2026-07-09",
-   "d90": "2026-09-07",
-   "anchor_shares": 9257696,
-   "anchor_investment_cr": 41.66,
-   "pct_of_issue": 23.08,
-   "isin": "INE0JUI01012",
-   "nse_symbol": "HEXAGON",
-   "bse_code": 544785,
-   "pre_shares": null,
-   "post_shares": null,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": null,
-   "anchor_names": [],
-   "lm": [],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-07-09",
-     "sh": 4628848,
-     "pct": null,
-     "val": 20.83,
-     "est": false
-    },
-    {
-     "t": "A90",
-     "d": "2026-09-07",
-     "sh": 4628848,
-     "pct": null,
-     "val": 20.83,
-     "est": false
-    }
-   ],
-   "last_close": 62.61,
-   "close_date": "2026-07-28",
-   "avg_vol": 3008304,
-   "issue_px": 45.0,
-   "chg_from_issue_pct": 39.1
+   "chg_from_issue_pct": -37.9
   },
   {
    "company": "CMR Green Technologies Ltd.",
@@ -2425,11 +2547,11 @@
      "est": false
     }
    ],
-   "last_close": 215.1,
-   "close_date": "2026-07-28",
-   "avg_vol": 1484452,
+   "last_close": 215.15,
+   "close_date": "2026-07-29",
+   "avg_vol": 1446678,
    "issue_px": 192.0,
-   "chg_from_issue_pct": 12.0
+   "chg_from_issue_pct": 12.1
   },
   {
    "company": "Merritronix Ltd.",
@@ -2504,11 +2626,11 @@
      "est": true
     }
    ],
-   "last_close": 346.1,
-   "close_date": "2026-07-28",
-   "avg_vol": 165454,
+   "last_close": 350.3,
+   "close_date": "2026-07-29",
+   "avg_vol": 161869,
    "issue_px": 149.03,
-   "chg_from_issue_pct": 132.2
+   "chg_from_issue_pct": 135.1
   },
   {
    "company": "Rajnandini Fashion India Ltd.",
@@ -2583,11 +2705,11 @@
      "est": true
     }
    ],
-   "last_close": 33.51,
-   "close_date": "2026-07-28",
-   "avg_vol": 27200,
+   "last_close": 34.6,
+   "close_date": "2026-07-29",
+   "avg_vol": 29047,
    "issue_px": 62.96,
-   "chg_from_issue_pct": -46.8
+   "chg_from_issue_pct": -45.0
   },
   {
    "company": "M R Maniveni Foods Ltd.",
@@ -2662,11 +2784,11 @@
      "est": true
     }
    ],
-   "last_close": 31.85,
-   "close_date": "2026-07-27",
-   "avg_vol": 49473,
+   "last_close": 31.83,
+   "close_date": "2026-07-29",
+   "avg_vol": 47100,
    "issue_px": 51.97,
-   "chg_from_issue_pct": -38.7
+   "chg_from_issue_pct": -38.8
   },
   {
    "company": "Q-Line Biotech Ltd.",
@@ -2725,11 +2847,11 @@
      "est": true
     }
    ],
-   "last_close": 496.55,
-   "close_date": "2026-07-28",
-   "avg_vol": 125145,
+   "last_close": 508.1,
+   "close_date": "2026-07-29",
+   "avg_vol": 122400,
    "issue_px": 343.03,
-   "chg_from_issue_pct": 44.8
+   "chg_from_issue_pct": 48.1
   },
   {
    "company": "Vegorama Punjabi Angithi Ltd.",
@@ -2804,11 +2926,11 @@
      "est": true
     }
    ],
-   "last_close": 173.0,
-   "close_date": "2026-07-28",
-   "avg_vol": 53018,
+   "last_close": 168.05,
+   "close_date": "2026-07-29",
+   "avg_vol": 52173,
    "issue_px": 76.98,
-   "chg_from_issue_pct": 124.7
+   "chg_from_issue_pct": 118.3
   },
   {
    "company": "Teamtech Formwork Solutions Ltd.",
@@ -2883,11 +3005,11 @@
      "est": true
     }
    ],
-   "last_close": 119.25,
-   "close_date": "2026-07-28",
-   "avg_vol": 91909,
+   "last_close": 116.1,
+   "close_date": "2026-07-29",
+   "avg_vol": 90434,
    "issue_px": 63.02,
-   "chg_from_issue_pct": 89.2
+   "chg_from_issue_pct": 84.2
   },
   {
    "company": "Goldline Pharmaceutical Ltd.",
@@ -3041,11 +3163,11 @@
      "est": true
     }
    ],
-   "last_close": 217.95,
-   "close_date": "2026-07-28",
-   "avg_vol": 82609,
+   "last_close": 216.1,
+   "close_date": "2026-07-29",
+   "avg_vol": 79669,
    "issue_px": 183.06,
-   "chg_from_issue_pct": 19.1
+   "chg_from_issue_pct": 18.0
   },
   {
    "company": "Bagmane Prime Office REIT",
@@ -3089,9 +3211,9 @@
      "est": false
     }
    ],
-   "last_close": 104.97,
-   "close_date": "2026-07-28",
-   "avg_vol": 1309036,
+   "last_close": 104.94,
+   "close_date": "2026-07-29",
+   "avg_vol": 1292007,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3168,11 +3290,11 @@
      "est": true
     }
    ],
-   "last_close": 224.45,
-   "close_date": "2026-07-28",
-   "avg_vol": 70327,
+   "last_close": 224.75,
+   "close_date": "2026-07-29",
+   "avg_vol": 69634,
    "issue_px": 158.06,
-   "chg_from_issue_pct": 42.0
+   "chg_from_issue_pct": 42.2
   },
   {
    "company": "OnEMI Technology Solutions Ltd.",
@@ -3216,11 +3338,11 @@
      "est": false
     }
    ],
-   "last_close": 342.8,
-   "close_date": "2026-07-28",
-   "avg_vol": 2600636,
+   "last_close": 343.45,
+   "close_date": "2026-07-29",
+   "avg_vol": 2535009,
    "issue_px": 171.0,
-   "chg_from_issue_pct": 100.5
+   "chg_from_issue_pct": 100.8
   },
   {
    "company": "Adisoft Technologies Ltd.",
@@ -3295,11 +3417,11 @@
      "est": true
     }
    ],
-   "last_close": 172.9,
-   "close_date": "2026-07-28",
-   "avg_vol": 56000,
+   "last_close": 176.65,
+   "close_date": "2026-07-29",
+   "avg_vol": 55200,
    "issue_px": 172.0,
-   "chg_from_issue_pct": 0.5
+   "chg_from_issue_pct": 2.7
   },
   {
    "company": "Citius Transnet Investment Trust",
@@ -3336,8 +3458,8 @@
     }
    ],
    "last_close": 109.28,
-   "close_date": "2026-07-28",
-   "avg_vol": 97467,
+   "close_date": "2026-07-29",
+   "avg_vol": 95843,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3398,11 +3520,11 @@
      "est": true
     }
    ],
-   "last_close": 92.0,
-   "close_date": "2026-07-28",
-   "avg_vol": 15300,
+   "last_close": 87.0,
+   "close_date": "2026-07-29",
+   "avg_vol": 14800,
    "issue_px": 98.02,
-   "chg_from_issue_pct": -6.1
+   "chg_from_issue_pct": -11.2
   },
   {
    "company": "Om Power Transmission Ltd.",
@@ -3446,11 +3568,11 @@
      "est": false
     }
    ],
-   "last_close": 167.74,
-   "close_date": "2026-07-28",
-   "avg_vol": 131587,
+   "last_close": 164.07,
+   "close_date": "2026-07-29",
+   "avg_vol": 132980,
    "issue_px": 174.98,
-   "chg_from_issue_pct": -4.1
+   "chg_from_issue_pct": -6.2
   },
   {
    "company": "Safety Controls & Devices Ltd.",
@@ -3525,11 +3647,11 @@
      "est": true
     }
    ],
-   "last_close": 68.01,
-   "close_date": "2026-07-28",
-   "avg_vol": 97527,
+   "last_close": 69.5,
+   "close_date": "2026-07-29",
+   "avg_vol": 93704,
    "issue_px": 79.99,
-   "chg_from_issue_pct": -15.0
+   "chg_from_issue_pct": -13.1
   },
   {
    "company": "Emiac Technologies Ltd.",
@@ -3589,8 +3711,8 @@
     }
    ],
    "last_close": 96.7,
-   "close_date": "2026-07-28",
-   "avg_vol": 58294,
+   "close_date": "2026-07-29",
+   "avg_vol": 56040,
    "issue_px": 97.97,
    "chg_from_issue_pct": -1.3
   },
@@ -3667,11 +3789,11 @@
      "est": true
     }
    ],
-   "last_close": 1254.0,
-   "close_date": "2026-07-28",
-   "avg_vol": 18687,
+   "last_close": 1191.3,
+   "close_date": "2026-07-29",
+   "avg_vol": 18897,
    "issue_px": 554.96,
-   "chg_from_issue_pct": 126.0
+   "chg_from_issue_pct": 114.7
   },
   {
    "company": "Highness Microelectronics Ltd.",
@@ -3746,11 +3868,11 @@
      "est": true
     }
    ],
-   "last_close": 176.4,
-   "close_date": "2026-07-28",
-   "avg_vol": 37636,
+   "last_close": 180.35,
+   "close_date": "2026-07-29",
+   "avg_vol": 36939,
    "issue_px": 119.91,
-   "chg_from_issue_pct": 47.1
+   "chg_from_issue_pct": 50.4
   },
   {
    "company": "Amir Chand Jagdish Kumar (Exports) Ltd.",
@@ -3794,11 +3916,11 @@
      "est": false
     }
    ],
-   "last_close": 185.28,
-   "close_date": "2026-07-28",
-   "avg_vol": 1079464,
+   "last_close": 182.53,
+   "close_date": "2026-07-29",
+   "avg_vol": 1039301,
    "issue_px": 211.99,
-   "chg_from_issue_pct": -12.6
+   "chg_from_issue_pct": -13.9
   },
   {
    "company": "Powerica Ltd.",
@@ -3842,11 +3964,11 @@
      "est": false
     }
    ],
-   "last_close": 548.15,
-   "close_date": "2026-07-28",
-   "avg_vol": 313342,
+   "last_close": 533.7,
+   "close_date": "2026-07-29",
+   "avg_vol": 310100,
    "issue_px": 395.0,
-   "chg_from_issue_pct": 38.8
+   "chg_from_issue_pct": 35.1
   },
   {
    "company": "Sai Parenteral's Ltd.",
@@ -3890,11 +4012,11 @@
      "est": false
     }
    ],
-   "last_close": 547.4,
-   "close_date": "2026-07-28",
-   "avg_vol": 316075,
+   "last_close": 552.65,
+   "close_date": "2026-07-29",
+   "avg_vol": 304704,
    "issue_px": 392.01,
-   "chg_from_issue_pct": 39.6
+   "chg_from_issue_pct": 41.0
   },
   {
    "company": "Tipco Engineering India Ltd.",
@@ -3969,11 +4091,11 @@
      "est": true
     }
    ],
-   "last_close": 181.0,
-   "close_date": "2026-07-28",
-   "avg_vol": 129163,
+   "last_close": 179.55,
+   "close_date": "2026-07-29",
+   "avg_vol": 127165,
    "issue_px": 89.01,
-   "chg_from_issue_pct": 103.3
+   "chg_from_issue_pct": 101.7
   },
   {
    "company": "Central Mine Planning & Design Institute Ltd.",
@@ -4017,11 +4139,11 @@
      "est": false
     }
    ],
-   "last_close": 242.96,
-   "close_date": "2026-07-28",
-   "avg_vol": 4026067,
+   "last_close": 244.61,
+   "close_date": "2026-07-29",
+   "avg_vol": 3940351,
    "issue_px": 172.0,
-   "chg_from_issue_pct": 41.3
+   "chg_from_issue_pct": 42.2
   },
   {
    "company": "Novus Loyalty Ltd.",
@@ -4096,11 +4218,11 @@
      "est": true
     }
    ],
-   "last_close": 127.0,
-   "close_date": "2026-07-28",
-   "avg_vol": 42318,
+   "last_close": 138.4,
+   "close_date": "2026-07-29",
+   "avg_vol": 42000,
    "issue_px": 146.02,
-   "chg_from_issue_pct": -13.0
+   "chg_from_issue_pct": -5.2
   },
   {
    "company": "GSP Crop Science Ltd.",
@@ -4144,11 +4266,11 @@
      "est": false
     }
    ],
-   "last_close": 546.4,
-   "close_date": "2026-07-28",
-   "avg_vol": 464690,
+   "last_close": 582.65,
+   "close_date": "2026-07-29",
+   "avg_vol": 474975,
    "issue_px": 320.0,
-   "chg_from_issue_pct": 70.7
+   "chg_from_issue_pct": 82.1
   },
   {
    "company": "Raajmarg Infra Investment Trust",
@@ -4192,9 +4314,9 @@
      "est": false
     }
    ],
-   "last_close": 116.66,
-   "close_date": "2026-07-28",
-   "avg_vol": 496748,
+   "last_close": 117.13,
+   "close_date": "2026-07-29",
+   "avg_vol": 478183,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4255,11 +4377,11 @@
      "est": true
     }
    ],
-   "last_close": 443.1,
-   "close_date": "2026-07-28",
-   "avg_vol": 19200,
+   "last_close": 434.25,
+   "close_date": "2026-07-29",
+   "avg_vol": 19513,
    "issue_px": 109.98,
-   "chg_from_issue_pct": 302.9
+   "chg_from_issue_pct": 294.8
   },
   {
    "company": "SEDEMAC Mechatronics Ltd.",
@@ -4303,11 +4425,11 @@
      "est": false
     }
    ],
-   "last_close": 2705.4,
-   "close_date": "2026-07-28",
-   "avg_vol": 93030,
+   "last_close": 2657.8,
+   "close_date": "2026-07-29",
+   "avg_vol": 97517,
    "issue_px": 1352.02,
-   "chg_from_issue_pct": 100.1
+   "chg_from_issue_pct": 96.6
   },
   {
    "company": "Striders Impex Ltd.",
@@ -4382,11 +4504,59 @@
      "est": true
     }
    ],
-   "last_close": 67.45,
-   "close_date": "2026-07-28",
-   "avg_vol": 21473,
+   "last_close": 65.7,
+   "close_date": "2026-07-29",
+   "avg_vol": 21200,
    "issue_px": 71.99,
-   "chg_from_issue_pct": -6.3
+   "chg_from_issue_pct": -8.7
+  },
+  {
+   "company": "Omnitech Engineering Ltd.",
+   "slug": "omnitech-engineering-ipo",
+   "url": "https://www.chittorgarh.com/ipo/omnitech-engineering-ipo/2479/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-02-24",
+   "boa_date": "2026-02-24",
+   "d30": "2026-03-31",
+   "d90": "2026-05-30",
+   "anchor_shares": 7691629,
+   "anchor_investment_cr": 174.6,
+   "pct_of_issue": 23.04,
+   "isin": "INE0UH301010",
+   "nse_symbol": "OMNI",
+   "bse_code": 544720,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-03-31",
+     "sh": 3845814,
+     "pct": null,
+     "val": 87.3,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-05-30",
+     "sh": 3845814,
+     "pct": null,
+     "val": 87.3,
+     "est": false
+    }
+   ],
+   "last_close": 597.8,
+   "close_date": "2026-07-29",
+   "avg_vol": 464861,
+   "issue_px": 227.0,
+   "chg_from_issue_pct": 163.3
   },
   {
    "company": "Yaap Digital Ltd.",
@@ -4461,59 +4631,11 @@
      "est": true
     }
    ],
-   "last_close": 157.35,
-   "close_date": "2026-07-28",
-   "avg_vol": 27045,
+   "last_close": 152.25,
+   "close_date": "2026-07-29",
+   "avg_vol": 25956,
    "issue_px": 145.01,
-   "chg_from_issue_pct": 8.5
-  },
-  {
-   "company": "Omnitech Engineering Ltd.",
-   "slug": "omnitech-engineering-ipo",
-   "url": "https://www.chittorgarh.com/ipo/omnitech-engineering-ipo/2479/",
-   "category": "Mainboard",
-   "anchor_allotment_date": "2026-02-24",
-   "boa_date": "2026-02-24",
-   "d30": "2026-03-31",
-   "d90": "2026-05-30",
-   "anchor_shares": 7691629,
-   "anchor_investment_cr": 174.6,
-   "pct_of_issue": 23.04,
-   "isin": "INE0UH301010",
-   "nse_symbol": "OMNI",
-   "bse_code": 544720,
-   "pre_shares": null,
-   "post_shares": null,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": null,
-   "anchor_names": [],
-   "lm": [],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-03-31",
-     "sh": 3845814,
-     "pct": null,
-     "val": 87.3,
-     "est": false
-    },
-    {
-     "t": "A90",
-     "d": "2026-05-30",
-     "sh": 3845814,
-     "pct": null,
-     "val": 87.3,
-     "est": false
-    }
-   ],
-   "last_close": 595.75,
-   "close_date": "2026-07-28",
-   "avg_vol": 479207,
-   "issue_px": 227.0,
-   "chg_from_issue_pct": 162.4
+   "chg_from_issue_pct": 5.0
   },
   {
    "company": "PNGS Reva Diamond Jewellery Ltd.",
@@ -4557,11 +4679,11 @@
      "est": false
     }
    ],
-   "last_close": 423.95,
-   "close_date": "2026-07-28",
-   "avg_vol": 95129,
+   "last_close": 447.5,
+   "close_date": "2026-07-29",
+   "avg_vol": 262563,
    "issue_px": 386.0,
-   "chg_from_issue_pct": 9.8
+   "chg_from_issue_pct": 15.9
   },
   {
    "company": "Mobilise App Lab Ltd.",
@@ -4636,11 +4758,11 @@
      "est": true
     }
    ],
-   "last_close": 114.0,
-   "close_date": "2026-07-28",
-   "avg_vol": 22000,
+   "last_close": 111.5,
+   "close_date": "2026-07-29",
+   "avg_vol": 20800,
    "issue_px": 80.02,
-   "chg_from_issue_pct": 42.5
+   "chg_from_issue_pct": 39.3
   },
   {
    "company": "Clean Max Enviro Energy Solutions Ltd.",
@@ -4684,11 +4806,11 @@
      "est": false
     }
    ],
-   "last_close": 1317.1,
-   "close_date": "2026-07-28",
-   "avg_vol": 181629,
+   "last_close": 1328.2,
+   "close_date": "2026-07-29",
+   "avg_vol": 179582,
    "issue_px": 1053.0,
-   "chg_from_issue_pct": 25.1
+   "chg_from_issue_pct": 26.1
   },
   {
    "company": "Accord Transformer & Switchgear Ltd.",
@@ -4763,11 +4885,11 @@
      "est": true
     }
    ],
-   "last_close": 58.66,
-   "close_date": "2026-07-28",
-   "avg_vol": 92318,
+   "last_close": 58.21,
+   "close_date": "2026-07-29",
+   "avg_vol": 90782,
    "issue_px": 46.02,
-   "chg_from_issue_pct": 27.5
+   "chg_from_issue_pct": 26.5
   },
   {
    "company": "Manilam Industries India Ltd.",
@@ -4842,11 +4964,11 @@
      "est": true
     }
    ],
-   "last_close": 53.9,
-   "close_date": "2026-07-28",
-   "avg_vol": 13272,
+   "last_close": 53.3,
+   "close_date": "2026-07-29",
+   "avg_vol": 13000,
    "issue_px": 68.99,
-   "chg_from_issue_pct": -21.9
+   "chg_from_issue_pct": -22.7
   },
   {
    "company": "Gaudium IVF & Women Health Ltd.",
@@ -4890,11 +5012,11 @@
      "est": false
     }
    ],
-   "last_close": 145.9,
-   "close_date": "2026-07-28",
-   "avg_vol": 244728,
+   "last_close": 142.99,
+   "close_date": "2026-07-29",
+   "avg_vol": 234381,
    "issue_px": 79.0,
-   "chg_from_issue_pct": 84.7
+   "chg_from_issue_pct": 81.0
   },
   {
    "company": "Fractal Industries Ltd.",
@@ -5048,11 +5170,11 @@
      "est": true
     }
    ],
-   "last_close": 94.25,
-   "close_date": "2026-07-28",
-   "avg_vol": 7885,
+   "last_close": 101.9,
+   "close_date": "2026-07-29",
+   "avg_vol": 7840,
    "issue_px": 116.94,
-   "chg_from_issue_pct": -19.4
+   "chg_from_issue_pct": -12.9
   },
   {
    "company": "PAN HR Solutions Ltd.",
@@ -5134,54 +5256,6 @@
    "chg_from_issue_pct": -27.3
   },
   {
-   "company": "Fractal Analytics Ltd.",
-   "slug": "fractal-analytics-ipo",
-   "url": "https://www.chittorgarh.com/ipo/fractal-analytics-ipo/2569/",
-   "category": "Mainboard",
-   "anchor_allotment_date": "2026-02-06",
-   "boa_date": "2026-02-06",
-   "d30": "2026-03-13",
-   "d90": "2026-05-12",
-   "anchor_shares": 13869499,
-   "anchor_investment_cr": 1248.25,
-   "pct_of_issue": 30.53,
-   "isin": "INE212S01015",
-   "nse_symbol": "FRACTAL",
-   "bse_code": 544700,
-   "pre_shares": null,
-   "post_shares": null,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": null,
-   "anchor_names": [],
-   "lm": [],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-03-13",
-     "sh": 6934749,
-     "pct": null,
-     "val": 624.125,
-     "est": false
-    },
-    {
-     "t": "A90",
-     "d": "2026-05-12",
-     "sh": 6934749,
-     "pct": null,
-     "val": 624.125,
-     "est": false
-    }
-   ],
-   "last_close": 792.1,
-   "close_date": "2026-07-28",
-   "avg_vol": 420715,
-   "issue_px": 900.0,
-   "chg_from_issue_pct": -12.0
-  },
-  {
    "company": "Aye Finance Ltd.",
    "slug": "aye-finance-ipo",
    "url": "https://www.chittorgarh.com/ipo/aye-finance-ipo/2026/",
@@ -5223,11 +5297,59 @@
      "est": false
     }
    ],
-   "last_close": 162.92,
-   "close_date": "2026-07-28",
-   "avg_vol": 2246180,
+   "last_close": 166.06,
+   "close_date": "2026-07-29",
+   "avg_vol": 2161552,
    "issue_px": 129.0,
-   "chg_from_issue_pct": 26.3
+   "chg_from_issue_pct": 28.7
+  },
+  {
+   "company": "Fractal Analytics Ltd.",
+   "slug": "fractal-analytics-ipo",
+   "url": "https://www.chittorgarh.com/ipo/fractal-analytics-ipo/2569/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-02-06",
+   "boa_date": "2026-02-06",
+   "d30": "2026-03-13",
+   "d90": "2026-05-12",
+   "anchor_shares": 13869499,
+   "anchor_investment_cr": 1248.25,
+   "pct_of_issue": 30.53,
+   "isin": "INE212S01015",
+   "nse_symbol": "FRACTAL",
+   "bse_code": 544700,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-03-13",
+     "sh": 6934749,
+     "pct": null,
+     "val": 624.125,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-05-12",
+     "sh": 6934749,
+     "pct": null,
+     "val": 624.125,
+     "est": false
+    }
+   ],
+   "last_close": 786.4,
+   "close_date": "2026-07-29",
+   "avg_vol": 409964,
+   "issue_px": 900.0,
+   "chg_from_issue_pct": -12.6
   },
   {
    "company": "Grover Jewells Ltd.",
@@ -5286,11 +5408,11 @@
      "est": true
     }
    ],
-   "last_close": 155.0,
-   "close_date": "2026-07-28",
-   "avg_vol": 18666,
+   "last_close": 156.6,
+   "close_date": "2026-07-29",
+   "avg_vol": 21305,
    "issue_px": 88.03,
-   "chg_from_issue_pct": 76.1
+   "chg_from_issue_pct": 77.9
   },
   {
    "company": "Brandman Retail Ltd.",
@@ -5365,11 +5487,11 @@
      "est": true
     }
    ],
-   "last_close": 182.0,
-   "close_date": "2026-07-28",
-   "avg_vol": 16914,
+   "last_close": 176.85,
+   "close_date": "2026-07-29",
+   "avg_vol": 18545,
    "issue_px": 176.01,
-   "chg_from_issue_pct": 3.4
+   "chg_from_issue_pct": 0.5
   },
   {
    "company": "Msafe Equipments Ltd.",
@@ -5428,11 +5550,11 @@
      "est": true
     }
    ],
-   "last_close": 187.0,
-   "close_date": "2026-07-28",
-   "avg_vol": 29000,
+   "last_close": 181.2,
+   "close_date": "2026-07-29",
+   "avg_vol": 28652,
    "issue_px": 123.02,
-   "chg_from_issue_pct": 52.0
+   "chg_from_issue_pct": 47.3
   },
   {
    "company": "CKK Retail Mart Ltd.",
@@ -5491,11 +5613,11 @@
      "est": true
     }
    ],
-   "last_close": 142.95,
-   "close_date": "2026-07-28",
-   "avg_vol": 66133,
+   "last_close": 145.95,
+   "close_date": "2026-07-29",
+   "avg_vol": 67527,
    "issue_px": 163.0,
-   "chg_from_issue_pct": -12.3
+   "chg_from_issue_pct": -10.5
   },
   {
    "company": "Accretion Nutraveda Ltd.",
@@ -5554,11 +5676,11 @@
      "est": true
     }
    ],
-   "last_close": 284.0,
-   "close_date": "2026-07-27",
-   "avg_vol": 5705,
+   "last_close": 283.95,
+   "close_date": "2026-07-29",
+   "avg_vol": 10388,
    "issue_px": 129.04,
-   "chg_from_issue_pct": 120.1
+   "chg_from_issue_pct": 120.0
   },
   {
    "company": "Kasturi Metal Composite Ltd.",
@@ -5712,11 +5834,11 @@
      "est": true
     }
    ],
-   "last_close": 112.6,
-   "close_date": "2026-07-28",
-   "avg_vol": 26454,
+   "last_close": 115.8,
+   "close_date": "2026-07-29",
+   "avg_vol": 25913,
    "issue_px": 69.99,
-   "chg_from_issue_pct": 60.9
+   "chg_from_issue_pct": 65.5
   },
   {
    "company": "KRM Ayurveda Ltd.",
@@ -5791,11 +5913,59 @@
      "est": true
     }
    ],
-   "last_close": 252.7,
-   "close_date": "2026-07-28",
-   "avg_vol": 30363,
+   "last_close": 257.05,
+   "close_date": "2026-07-29",
+   "avg_vol": 31347,
    "issue_px": 135.02,
-   "chg_from_issue_pct": 87.2
+   "chg_from_issue_pct": 90.4
+  },
+  {
+   "company": "Shadowfax Technologies Ltd.",
+   "slug": "shadowfax-technologies-ipo",
+   "url": "https://www.chittorgarh.com/ipo/shadowfax-technologies-ipo/2526/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-01-19",
+   "boa_date": "2026-01-19",
+   "d30": "2026-02-21",
+   "d90": "2026-04-22",
+   "anchor_shares": 69033955,
+   "anchor_investment_cr": 856.02,
+   "pct_of_issue": 30.98,
+   "isin": "INE12UN01015",
+   "nse_symbol": "SHADOWFAX",
+   "bse_code": 544685,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-02-21",
+     "sh": 34516977,
+     "pct": null,
+     "val": 428.01,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-04-22",
+     "sh": 34516977,
+     "pct": null,
+     "val": 428.01,
+     "est": false
+    }
+   ],
+   "last_close": 216.19,
+   "close_date": "2026-07-29",
+   "avg_vol": 9989231,
+   "issue_px": 124.0,
+   "chg_from_issue_pct": 74.3
   },
   {
    "company": "Digilogic Systems Ltd.",
@@ -5870,59 +6040,11 @@
      "est": true
     }
    ],
-   "last_close": 118.8,
-   "close_date": "2026-07-28",
-   "avg_vol": 46963,
+   "last_close": 118.2,
+   "close_date": "2026-07-29",
+   "avg_vol": 46434,
    "issue_px": 104.02,
-   "chg_from_issue_pct": 14.2
-  },
-  {
-   "company": "Shadowfax Technologies Ltd.",
-   "slug": "shadowfax-technologies-ipo",
-   "url": "https://www.chittorgarh.com/ipo/shadowfax-technologies-ipo/2526/",
-   "category": "Mainboard",
-   "anchor_allotment_date": "2026-01-19",
-   "boa_date": "2026-01-19",
-   "d30": "2026-02-21",
-   "d90": "2026-04-22",
-   "anchor_shares": 69033955,
-   "anchor_investment_cr": 856.02,
-   "pct_of_issue": 30.98,
-   "isin": "INE12UN01015",
-   "nse_symbol": "SHADOWFAX",
-   "bse_code": 544685,
-   "pre_shares": null,
-   "post_shares": null,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": null,
-   "anchor_names": [],
-   "lm": [],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-02-21",
-     "sh": 34516977,
-     "pct": null,
-     "val": 428.01,
-     "est": false
-    },
-    {
-     "t": "A90",
-     "d": "2026-04-22",
-     "sh": 34516977,
-     "pct": null,
-     "val": 428.01,
-     "est": false
-    }
-   ],
-   "last_close": 207.52,
-   "close_date": "2026-07-28",
-   "avg_vol": 9994935,
-   "issue_px": 124.0,
-   "chg_from_issue_pct": 67.4
+   "chg_from_issue_pct": 13.6
   },
   {
    "company": "GRE Renew Enertech Ltd.",
@@ -5997,11 +6119,11 @@
      "est": true
     }
    ],
-   "last_close": 190.0,
-   "close_date": "2026-07-28",
-   "avg_vol": 59314,
+   "last_close": 187.0,
+   "close_date": "2026-07-29",
+   "avg_vol": 56945,
    "issue_px": 104.99,
-   "chg_from_issue_pct": 81.0
+   "chg_from_issue_pct": 78.1
   },
   {
    "company": "Amagi Media Labs Ltd.",
@@ -6045,11 +6167,11 @@
      "est": false
     }
    ],
-   "last_close": 622.7,
-   "close_date": "2026-07-28",
-   "avg_vol": 609031,
+   "last_close": 650.9,
+   "close_date": "2026-07-29",
+   "avg_vol": 608219,
    "issue_px": 361.0,
-   "chg_from_issue_pct": 72.5
+   "chg_from_issue_pct": 80.3
   },
   {
    "company": "INDO SMC Ltd.",
@@ -6124,11 +6246,11 @@
      "est": true
     }
    ],
-   "last_close": 447.45,
-   "close_date": "2026-07-28",
-   "avg_vol": 74227,
+   "last_close": 430.7,
+   "close_date": "2026-07-29",
+   "avg_vol": 73869,
    "issue_px": 148.97,
-   "chg_from_issue_pct": 200.4
+   "chg_from_issue_pct": 189.1
   },
   {
    "company": "Defrail Technologies Ltd.",
@@ -6250,11 +6372,11 @@
      "est": true
     }
    ],
-   "last_close": 159.7,
-   "close_date": "2026-07-28",
-   "avg_vol": 30666,
+   "last_close": 155.0,
+   "close_date": "2026-07-29",
+   "avg_vol": 30000,
    "issue_px": 58.99,
-   "chg_from_issue_pct": 170.7
+   "chg_from_issue_pct": 162.8
   },
   {
    "company": "Bharat Coking Coal Ltd.",
@@ -6299,8 +6421,8 @@
     }
    ],
    "last_close": 34.27,
-   "close_date": "2026-07-28",
-   "avg_vol": 13247678,
+   "close_date": "2026-07-29",
+   "avg_vol": 12902852,
    "issue_px": 23.0,
    "chg_from_issue_pct": 49.0
   },
@@ -6361,11 +6483,11 @@
      "est": true
     }
    ],
-   "last_close": 82.48,
-   "close_date": "2026-07-28",
-   "avg_vol": 70981,
+   "last_close": 82.5,
+   "close_date": "2026-07-29",
+   "avg_vol": 68452,
    "issue_px": 80.99,
-   "chg_from_issue_pct": 1.8
+   "chg_from_issue_pct": 1.9
   },
   {
    "company": "Modern Diagnostic & Research Centre Ltd.",
@@ -6440,11 +6562,11 @@
      "est": true
     }
    ],
-   "last_close": 51.0,
-   "close_date": "2026-07-28",
-   "avg_vol": 6500,
+   "last_close": 52.0,
+   "close_date": "2026-07-29",
+   "avg_vol": 6211,
    "issue_px": 89.96,
-   "chg_from_issue_pct": -43.3
+   "chg_from_issue_pct": -42.2
   },
   {
    "company": "E to E Transportation Infrastructure Ltd.",
@@ -6519,11 +6641,11 @@
      "est": true
     }
    ],
-   "last_close": 275.75,
-   "close_date": "2026-07-28",
-   "avg_vol": 31200,
+   "last_close": 274.35,
+   "close_date": "2026-07-29",
+   "avg_vol": 30504,
    "issue_px": 174.0,
-   "chg_from_issue_pct": 58.5
+   "chg_from_issue_pct": 57.7
   },
   {
    "company": "Admach Systems Ltd.",
@@ -6598,11 +6720,11 @@
      "est": true
     }
    ],
-   "last_close": 399.95,
-   "close_date": "2026-07-28",
-   "avg_vol": 13118,
+   "last_close": 409.0,
+   "close_date": "2026-07-29",
+   "avg_vol": 12730,
    "issue_px": 238.84,
-   "chg_from_issue_pct": 67.5
+   "chg_from_issue_pct": 71.2
   },
   {
    "company": "Bai Kakaji Polymers Ltd.",
@@ -6661,11 +6783,11 @@
      "est": true
     }
    ],
-   "last_close": 188.0,
-   "close_date": "2026-07-28",
-   "avg_vol": 24354,
+   "last_close": 200.0,
+   "close_date": "2026-07-29",
+   "avg_vol": 24495,
    "issue_px": 186.01,
-   "chg_from_issue_pct": 1.1
+   "chg_from_issue_pct": 7.5
   },
   {
    "company": "Apollo Techno Industries Ltd.",
@@ -6724,11 +6846,11 @@
      "est": true
     }
    ],
-   "last_close": 89.44,
-   "close_date": "2026-07-28",
-   "avg_vol": 32863,
+   "last_close": 93.81,
+   "close_date": "2026-07-29",
+   "avg_vol": 32695,
    "issue_px": 130.0,
-   "chg_from_issue_pct": -31.2
+   "chg_from_issue_pct": -27.8
   },
   {
    "company": "Technichem Organics Ltd.",
@@ -6827,11 +6949,11 @@
      "est": false
     }
    ],
-   "last_close": 152.11,
-   "close_date": "2026-07-28",
-   "avg_vol": 855654,
+   "last_close": 155.06,
+   "close_date": "2026-07-29",
+   "avg_vol": 824772,
    "issue_px": 215.01,
-   "chg_from_issue_pct": -29.3
+   "chg_from_issue_pct": -27.9
   },
   {
    "company": "Anya Polytech & Fertilizers Ltd.",
@@ -6883,8 +7005,8 @@
     }
    ],
    "last_close": 15.35,
-   "close_date": "2026-07-28",
-   "avg_vol": 31190,
+   "close_date": "2026-07-29",
+   "avg_vol": 32727,
    "issue_px": 14.0,
    "chg_from_issue_pct": 9.6
   },
@@ -6930,11 +7052,11 @@
      "est": false
     }
    ],
-   "last_close": 1180.8,
-   "close_date": "2026-07-28",
-   "avg_vol": 152628,
+   "last_close": 1191.2,
+   "close_date": "2026-07-29",
+   "avg_vol": 147744,
    "issue_px": 785.0,
-   "chg_from_issue_pct": 50.4
+   "chg_from_issue_pct": 51.7
   },
   {
    "company": "Ventive Hospitality Ltd.",
@@ -6978,11 +7100,11 @@
      "est": false
     }
    ],
-   "last_close": 619.25,
-   "close_date": "2026-07-28",
-   "avg_vol": 16181,
+   "last_close": 635.05,
+   "close_date": "2026-07-29",
+   "avg_vol": 16269,
    "issue_px": 643.0,
-   "chg_from_issue_pct": -3.7
+   "chg_from_issue_pct": -1.2
   }
  ]
 }

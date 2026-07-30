@@ -5,39 +5,60 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
-UID:dhaval-packaging-ipo-A30@unlockradar
+UID:fusion-klassroom-edutech-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+SUMMARY:🔓 Fusion Klassroom Edutech Ltd. — 30D anchor unlock (348\,400 sh\; 3.74% of capital\; ~Rs.5.5 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/fusion-klassroom-edutech-ipo/2867/
+END:VEVENT
+BEGIN:VEVENT
+UID:fusion-klassroom-edutech-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:🔓 Fusion Klassroom Edutech Ltd. — 90D anchor unlock (348\,400 sh\; 3.74% of capital\; ~Rs.5.5 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/fusion-klassroom-edutech-ipo/2867/
+END:VEVENT
+BEGIN:VEVENT
+UID:fusion-klassroom-edutech-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+SUMMARY:🔓 Fusion Klassroom Edutech Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/fusion-klassroom-edutech-ipo/2867/
+END:VEVENT
+BEGIN:VEVENT
+UID:gv-electricals-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+SUMMARY:🔓 G.V.Electricals Ltd. — 30D anchor unlock (444\,000 sh\; 3.94% of capital\; ~Rs.5.8 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/gv-electricals-ipo/2985/
+END:VEVENT
+BEGIN:VEVENT
+UID:gv-electricals-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:🔓 G.V.Electricals Ltd. — 90D anchor unlock (444\,000 sh\; 3.94% of capital\; ~Rs.5.8 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/gv-electricals-ipo/2985/
+END:VEVENT
+BEGIN:VEVENT
+UID:gv-electricals-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+SUMMARY:🔓 G.V.Electricals Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/gv-electricals-ipo/2985/
+END:VEVENT
+BEGIN:VEVENT
+UID:juniper-green-energy-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260903
 DTEND;VALUE=DATE:20260904
-SUMMARY:🔓 Dhaval Packaging Ltd. — 30D anchor unlock (515\,400 sh\; 3.75% of capital\; ~Rs.5.0 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/dhaval-packaging-ipo/2835/
+SUMMARY:🔓 Juniper Green Energy Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/juniper-green-energy-ipo/2492/
 END:VEVENT
 BEGIN:VEVENT
-UID:dhaval-packaging-ipo-A90@unlockradar
+UID:juniper-green-energy-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
-SUMMARY:🔓 Dhaval Packaging Ltd. — 90D anchor unlock (515\,400 sh\; 3.75% of capital\; ~Rs.5.0 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/dhaval-packaging-ipo/2835/
-END:VEVENT
-BEGIN:VEVENT
-UID:dhaval-packaging-ipo-PRE6M@unlockradar
-DTSTART;VALUE=DATE:20270129
-DTEND;VALUE=DATE:20270130
-SUMMARY:🔓 Dhaval Packaging Ltd. — 6M pre-IPO unlock
-DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/dhaval-packaging-ipo/2835/
-END:VEVENT
-BEGIN:VEVENT
-UID:mv-electrosystems-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260903
-DTEND;VALUE=DATE:20260904
-SUMMARY:🔓 MV Electrosystems Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/mv-electrosystems-ipo/2800/
-END:VEVENT
-BEGIN:VEVENT
-UID:mv-electrosystems-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
-SUMMARY:🔓 MV Electrosystems Ltd. — 90D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/mv-electrosystems-ipo/2800/
+SUMMARY:🔓 Juniper Green Energy Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/juniper-green-energy-ipo/2492/
 END:VEVENT
 BEGIN:VEVENT
 UID:oneindig-technologies-ipo-A30@unlockradar
@@ -61,32 +82,39 @@ SUMMARY:🔓 Oneindig Technologies Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/oneindig-technologies-ipo/2646/
 END:VEVENT
 BEGIN:VEVENT
-UID:juniper-green-energy-ipo-A30@unlockradar
+UID:mv-electrosystems-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260903
 DTEND;VALUE=DATE:20260904
-SUMMARY:🔓 Juniper Green Energy Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/juniper-green-energy-ipo/2492/
+SUMMARY:🔓 MV Electrosystems Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/mv-electrosystems-ipo/2800/
 END:VEVENT
 BEGIN:VEVENT
-UID:juniper-green-energy-ipo-A90@unlockradar
+UID:mv-electrosystems-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
-SUMMARY:🔓 Juniper Green Energy Ltd. — 90D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/juniper-green-energy-ipo/2492/
+SUMMARY:🔓 MV Electrosystems Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/mv-electrosystems-ipo/2800/
 END:VEVENT
 BEGIN:VEVENT
-UID:manipal-health-enterprises-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260902
-DTEND;VALUE=DATE:20260903
-SUMMARY:🔓 Manipal Health Enterprises Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/manipal-health-enterprises-ipo/2956/
+UID:dhaval-packaging-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
+SUMMARY:🔓 Dhaval Packaging Ltd. — 30D anchor unlock (515\,400 sh\; 3.75% of capital\; ~Rs.5.0 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/dhaval-packaging-ipo/2835/
 END:VEVENT
 BEGIN:VEVENT
-UID:manipal-health-enterprises-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:🔓 Manipal Health Enterprises Ltd. — 90D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/manipal-health-enterprises-ipo/2956/
+UID:dhaval-packaging-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:🔓 Dhaval Packaging Ltd. — 90D anchor unlock (515\,400 sh\; 3.75% of capital\; ~Rs.5.0 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/dhaval-packaging-ipo/2835/
+END:VEVENT
+BEGIN:VEVENT
+UID:dhaval-packaging-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+SUMMARY:🔓 Dhaval Packaging Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/dhaval-packaging-ipo/2835/
 END:VEVENT
 BEGIN:VEVENT
 UID:hr-hygiene-products-ipo-A30@unlockradar
@@ -108,6 +136,20 @@ DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270129
 SUMMARY:🔓 H.R.Hygiene Products Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/hr-hygiene-products-ipo/2713/
+END:VEVENT
+BEGIN:VEVENT
+UID:manipal-health-enterprises-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
+SUMMARY:🔓 Manipal Health Enterprises Ltd. — 30D anchor unlock (35\,314\,384 sh\; ~Rs.2083.6 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/manipal-health-enterprises-ipo/2956/
+END:VEVENT
+BEGIN:VEVENT
+UID:manipal-health-enterprises-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:🔓 Manipal Health Enterprises Ltd. — 90D anchor unlock (35\,314\,384 sh\; ~Rs.2083.6 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/manipal-health-enterprises-ipo/2956/
 END:VEVENT
 BEGIN:VEVENT
 UID:poojaa-precision-engg-ipo-A30@unlockradar
@@ -180,6 +222,20 @@ SUMMARY:🔓 Silverstorm Parks & Resorts Ltd. — 2Y promoter unlock (3\,512\,62
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/silverstorm-parks-resorts-ipo/2824/
 END:VEVENT
 BEGIN:VEVENT
+UID:xtranet-technologies-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20260829
+SUMMARY:🔓 Xtranet Technologies Ltd. — 30D anchor unlock (1\,970\,100 sh\; ~Rs.25.0 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/xtranet-technologies-ipo/2688/
+END:VEVENT
+BEGIN:VEVENT
+UID:xtranet-technologies-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:🔓 Xtranet Technologies Ltd. — 90D anchor unlock (1\,970\,100 sh\; ~Rs.25.0 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/xtranet-technologies-ipo/2688/
+END:VEVENT
+BEGIN:VEVENT
 UID:cube-highways-trust-invit-A30@unlockradar
 DTSTART;VALUE=DATE:20260828
 DTEND;VALUE=DATE:20260829
@@ -194,46 +250,32 @@ SUMMARY:🔓 Cube Highways Trust — 90D anchor unlock (55\,509\,782 sh)
 DESCRIPTION:https://www.chittorgarh.com/ipo/cube-highways-trust-invit/3192/
 END:VEVENT
 BEGIN:VEVENT
-UID:xtranet-technologies-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260827
-DTEND;VALUE=DATE:20260828
-SUMMARY:🔓 Xtranet Technologies Ltd. — 30D anchor unlock (1\,970\,100 sh\; ~Rs.25.0 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/xtranet-technologies-ipo/2688/
-END:VEVENT
-BEGIN:VEVENT
-UID:xtranet-technologies-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261026
-DTEND;VALUE=DATE:20261027
-SUMMARY:🔓 Xtranet Technologies Ltd. — 90D anchor unlock (1\,970\,100 sh\; ~Rs.25.0 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/xtranet-technologies-ipo/2688/
-END:VEVENT
-BEGIN:VEVENT
-UID:indo-mim-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260827
-DTEND;VALUE=DATE:20260828
-SUMMARY:🔓 Indo-MIM Ltd. — 30D anchor unlock (11\,762\,828 sh\; ~Rs.570.5 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/indo-mim-ipo/2682/
-END:VEVENT
-BEGIN:VEVENT
-UID:indo-mim-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261026
-DTEND;VALUE=DATE:20261027
-SUMMARY:🔓 Indo-MIM Ltd. — 90D anchor unlock (11\,762\,828 sh\; ~Rs.570.5 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/indo-mim-ipo/2682/
-END:VEVENT
-BEGIN:VEVENT
 UID:lohia-corp-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260827
-DTEND;VALUE=DATE:20260828
+DTSTART;VALUE=DATE:20260826
+DTEND;VALUE=DATE:20260827
 SUMMARY:🔓 Lohia Corp Ltd. — 30D anchor unlock (5\,789\,566 sh\; ~Rs.246.1 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/lohia-corp-ipo/2574/
 END:VEVENT
 BEGIN:VEVENT
 UID:lohia-corp-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261026
-DTEND;VALUE=DATE:20261027
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
 SUMMARY:🔓 Lohia Corp Ltd. — 90D anchor unlock (5\,789\,566 sh\; ~Rs.246.1 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/lohia-corp-ipo/2574/
+END:VEVENT
+BEGIN:VEVENT
+UID:indo-mim-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260826
+DTEND;VALUE=DATE:20260827
+SUMMARY:🔓 Indo-MIM Ltd. — 30D anchor unlock (11\,762\,828 sh\; ~Rs.570.5 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/indo-mim-ipo/2682/
+END:VEVENT
+BEGIN:VEVENT
+UID:indo-mim-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:🔓 Indo-MIM Ltd. — 90D anchor unlock (11\,762\,828 sh\; ~Rs.570.5 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/indo-mim-ipo/2682/
 END:VEVENT
 BEGIN:VEVENT
 UID:shree-balaji-mala-ipo-A30@unlockradar
@@ -327,20 +369,6 @@ SUMMARY:🔓 Sotefin Bharat Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/sotefin-bharat-ipo/2836/
 END:VEVENT
 BEGIN:VEVENT
-UID:sbi-funds-management-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260816
-DTEND;VALUE=DATE:20260817
-SUMMARY:🔓 SBI Funds Management Ltd. — 30D anchor unlock (23\,196\,547 sh\; ~Rs.1331.5 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/sbi-funds-management-ipo/2949/
-END:VEVENT
-BEGIN:VEVENT
-UID:sbi-funds-management-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261015
-DTEND;VALUE=DATE:20261016
-SUMMARY:🔓 SBI Funds Management Ltd. — 90D anchor unlock (23\,196\,547 sh\; ~Rs.1331.5 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/sbi-funds-management-ipo/2949/
-END:VEVENT
-BEGIN:VEVENT
 UID:millworks-technologies-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260816
 DTEND;VALUE=DATE:20260817
@@ -362,25 +390,32 @@ SUMMARY:🔓 Millworks Technologies Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/millworks-technologies-ipo/2866/
 END:VEVENT
 BEGIN:VEVENT
-UID:devson-catalyst-ipo-A30@unlockradar
+UID:sbi-funds-management-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260816
+DTEND;VALUE=DATE:20260817
+SUMMARY:🔓 SBI Funds Management Ltd. — 30D anchor unlock (23\,196\,547 sh\; ~Rs.1331.5 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/sbi-funds-management-ipo/2949/
+END:VEVENT
+BEGIN:VEVENT
+UID:sbi-funds-management-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:🔓 SBI Funds Management Ltd. — 90D anchor unlock (23\,196\,547 sh\; ~Rs.1331.5 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/sbi-funds-management-ipo/2949/
+END:VEVENT
+BEGIN:VEVENT
+UID:laser-power-infra-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260813
 DTEND;VALUE=DATE:20260814
-SUMMARY:🔓 Devson Catalyst Ltd. — 30D anchor unlock (500\,400 sh\; 3.68% of capital\; ~Rs.5.9 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/devson-catalyst-ipo/2943/
+SUMMARY:🔓 Laser Power & Infra Ltd. — 30D anchor unlock (5\,200\,933 sh\; ~Rs.111.3 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/laser-power-infra-ipo/2654/
 END:VEVENT
 BEGIN:VEVENT
-UID:devson-catalyst-ipo-A90@unlockradar
+UID:laser-power-infra-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
-SUMMARY:🔓 Devson Catalyst Ltd. — 90D anchor unlock (500\,400 sh\; 3.68% of capital\; ~Rs.5.9 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/devson-catalyst-ipo/2943/
-END:VEVENT
-BEGIN:VEVENT
-UID:devson-catalyst-ipo-PRE6M@unlockradar
-DTSTART;VALUE=DATE:20270108
-DTEND;VALUE=DATE:20270109
-SUMMARY:🔓 Devson Catalyst Ltd. — 6M pre-IPO unlock
-DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/devson-catalyst-ipo/2943/
+SUMMARY:🔓 Laser Power & Infra Ltd. — 90D anchor unlock (5\,200\,933 sh\; ~Rs.111.3 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/laser-power-infra-ipo/2654/
 END:VEVENT
 BEGIN:VEVENT
 UID:happy-steels-ipo-A30@unlockradar
@@ -418,18 +453,25 @@ SUMMARY:🔓 Happy Steels Ltd. — 2Y promoter unlock (3\,785\,123 sh\; 26.49% o
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/happy-steels-ipo/2864/
 END:VEVENT
 BEGIN:VEVENT
-UID:laser-power-infra-ipo-A30@unlockradar
+UID:devson-catalyst-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260813
 DTEND;VALUE=DATE:20260814
-SUMMARY:🔓 Laser Power & Infra Ltd. — 30D anchor unlock (5\,200\,933 sh\; ~Rs.111.3 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/laser-power-infra-ipo/2654/
+SUMMARY:🔓 Devson Catalyst Ltd. — 30D anchor unlock (500\,400 sh\; 3.68% of capital\; ~Rs.5.9 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/devson-catalyst-ipo/2943/
 END:VEVENT
 BEGIN:VEVENT
-UID:laser-power-infra-ipo-A90@unlockradar
+UID:devson-catalyst-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
-SUMMARY:🔓 Laser Power & Infra Ltd. — 90D anchor unlock (5\,200\,933 sh\; ~Rs.111.3 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/laser-power-infra-ipo/2654/
+SUMMARY:🔓 Devson Catalyst Ltd. — 90D anchor unlock (500\,400 sh\; 3.68% of capital\; ~Rs.5.9 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/devson-catalyst-ipo/2943/
+END:VEVENT
+BEGIN:VEVENT
+UID:devson-catalyst-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
+SUMMARY:🔓 Devson Catalyst Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/devson-catalyst-ipo/2943/
 END:VEVENT
 BEGIN:VEVENT
 UID:kusumgar-ipo-A30@unlockradar
@@ -495,41 +537,6 @@ SUMMARY:🔓 Knack Packaging Ltd. — 90D anchor unlock (3\,860\,293 sh\; ~Rs.65
 DESCRIPTION:https://www.chittorgarh.com/ipo/knack-packaging-ipo/2592/
 END:VEVENT
 BEGIN:VEVENT
-UID:kratikal-tech-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260802
-DTEND;VALUE=DATE:20260803
-SUMMARY:🔓 Kratikal Tech Ltd. — 30D anchor unlock (415\,500 sh\; 3.74% of capital\; ~Rs.5.6 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/kratikal-tech-ipo/2844/
-END:VEVENT
-BEGIN:VEVENT
-UID:kratikal-tech-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20261002
-SUMMARY:🔓 Kratikal Tech Ltd. — 90D anchor unlock (415\,500 sh\; 3.74% of capital\; ~Rs.5.6 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/kratikal-tech-ipo/2844/
-END:VEVENT
-BEGIN:VEVENT
-UID:kratikal-tech-ipo-PRE6M@unlockradar
-DTSTART;VALUE=DATE:20261229
-DTEND;VALUE=DATE:20261230
-SUMMARY:🔓 Kratikal Tech Ltd. — 6M pre-IPO unlock (2\,237\,621 sh\; 20.16% of capital)
-DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/kratikal-tech-ipo/2844/
-END:VEVENT
-BEGIN:VEVENT
-UID:kratikal-tech-ipo-PX1Y@unlockradar
-DTSTART;VALUE=DATE:20270629
-DTEND;VALUE=DATE:20270630
-SUMMARY:🔓 Kratikal Tech Ltd. — 1Y promoter unlock (1\,851\,570 sh\; 16.68% of capital)
-DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/kratikal-tech-ipo/2844/
-END:VEVENT
-BEGIN:VEVENT
-UID:kratikal-tech-ipo-PX2Y@unlockradar
-DTSTART;VALUE=DATE:20280629
-DTEND;VALUE=DATE:20280630
-SUMMARY:🔓 Kratikal Tech Ltd. — 2Y promoter unlock (1\,851\,570 sh\; 16.68% of capital)
-DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/kratikal-tech-ipo/2844/
-END:VEVENT
-BEGIN:VEVENT
 UID:atharva-polyplast-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260802
 DTEND;VALUE=DATE:20260803
@@ -586,6 +593,41 @@ SUMMARY:🔓 Sampark India Logistics Ltd. — 2Y promoter unlock (3\,183\,597 sh
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/sampark-india-logistics-ipo/2711/
 END:VEVENT
 BEGIN:VEVENT
+UID:kratikal-tech-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260802
+DTEND;VALUE=DATE:20260803
+SUMMARY:🔓 Kratikal Tech Ltd. — 30D anchor unlock (415\,500 sh\; 3.74% of capital\; ~Rs.5.6 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/kratikal-tech-ipo/2844/
+END:VEVENT
+BEGIN:VEVENT
+UID:kratikal-tech-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:🔓 Kratikal Tech Ltd. — 90D anchor unlock (415\,500 sh\; 3.74% of capital\; ~Rs.5.6 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/kratikal-tech-ipo/2844/
+END:VEVENT
+BEGIN:VEVENT
+UID:kratikal-tech-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+SUMMARY:🔓 Kratikal Tech Ltd. — 6M pre-IPO unlock (2\,237\,621 sh\; 20.16% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/kratikal-tech-ipo/2844/
+END:VEVENT
+BEGIN:VEVENT
+UID:kratikal-tech-ipo-PX1Y@unlockradar
+DTSTART;VALUE=DATE:20270629
+DTEND;VALUE=DATE:20270630
+SUMMARY:🔓 Kratikal Tech Ltd. — 1Y promoter unlock (1\,851\,570 sh\; 16.68% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/kratikal-tech-ipo/2844/
+END:VEVENT
+BEGIN:VEVENT
+UID:kratikal-tech-ipo-PX2Y@unlockradar
+DTSTART;VALUE=DATE:20280629
+DTEND;VALUE=DATE:20280630
+SUMMARY:🔓 Kratikal Tech Ltd. — 2Y promoter unlock (1\,851\,570 sh\; 16.68% of capital)
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/kratikal-tech-ipo/2844/
+END:VEVENT
+BEGIN:VEVENT
 UID:csm-technologies-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260730
 DTEND;VALUE=DATE:20260731
@@ -600,18 +642,18 @@ SUMMARY:🔓 CSM Technologies Ltd. — 90D anchor unlock (885\,060 sh\; ~Rs.10.0
 DESCRIPTION:https://www.chittorgarh.com/ipo/csm-technologies-ipo/2641/
 END:VEVENT
 BEGIN:VEVENT
-UID:advit-jewels-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260729
-DTEND;VALUE=DATE:20260730
-SUMMARY:🔓 Advit Jewels Ltd. — 30D anchor unlock (1\,794\,350 sh\; ~Rs.24.8 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/advit-jewels-ipo/2686/
-END:VEVENT
-BEGIN:VEVENT
 UID:advit-jewels-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
 SUMMARY:🔓 Advit Jewels Ltd. — 90D anchor unlock (1\,794\,350 sh\; ~Rs.24.8 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/advit-jewels-ipo/2686/
+END:VEVENT
+BEGIN:VEVENT
+UID:cordelia-cruises-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:🔓 Waterways Leisure Tourism Ltd. — 90D anchor unlock (1\,629\,022 sh\; ~Rs.131.6 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/cordelia-cruises-ipo/2474/
 END:VEVENT
 BEGIN:VEVENT
 UID:shreedhar-spinners-ipo-A90@unlockradar
@@ -642,11 +684,11 @@ SUMMARY:🔓 Shreedhar Spinners Ltd. — 2Y promoter unlock (5\,410\,951 sh\; 25
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/shreedhar-spinners-ipo/2851/
 END:VEVENT
 BEGIN:VEVENT
-UID:cordelia-cruises-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20260926
-DTEND;VALUE=DATE:20260927
-SUMMARY:🔓 Waterways Leisure Tourism Ltd. — 90D anchor unlock (1\,629\,022 sh\; ~Rs.131.6 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/cordelia-cruises-ipo/2474/
+UID:turtlemint-fintech-solutions-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:🔓 Turtlemint Fintech Solutions Ltd. — 90D anchor unlock (13\,065\,840 sh\; ~Rs.198.6 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/turtlemint-fintech-solutions-ipo/2601/
 END:VEVENT
 BEGIN:VEVENT
 UID:anubhav-plast-ipo-A90@unlockradar
@@ -675,13 +717,6 @@ DTSTART;VALUE=DATE:20280618
 DTEND;VALUE=DATE:20280619
 SUMMARY:🔓 Anubhav Plast Ltd. — 2Y promoter unlock (2\,900\,150 sh\; 26.36% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/anubhav-plast-ipo/2610/
-END:VEVENT
-BEGIN:VEVENT
-UID:turtlemint-fintech-solutions-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20260921
-DTEND;VALUE=DATE:20260922
-SUMMARY:🔓 Turtlemint Fintech Solutions Ltd. — 90D anchor unlock (13\,065\,840 sh\; ~Rs.198.6 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/turtlemint-fintech-solutions-ipo/2601/
 END:VEVENT
 BEGIN:VEVENT
 UID:avience-biomedicals-ipo-A90@unlockradar
@@ -768,6 +803,13 @@ SUMMARY:🔓 Susan Electricals India Ltd. — 2Y promoter unlock (4\,774\,687 sh
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/susan-electricals-india-ipo/2872/
 END:VEVENT
 BEGIN:VEVENT
+UID:hexagon-nutrition-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+SUMMARY:🔓 Hexagon Nutrition Ltd. — 90D anchor unlock (4\,628\,848 sh\; ~Rs.20.8 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/hexagon-nutrition-ipo/2658/
+END:VEVENT
+BEGIN:VEVENT
 UID:genxai-analytics-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
@@ -794,13 +836,6 @@ DTSTART;VALUE=DATE:20280604
 DTEND;VALUE=DATE:20280605
 SUMMARY:🔓 Genxai Analytics Ltd. — 2Y promoter unlock (4\,170\,992 sh\; 23.24% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/genxai-analytics-ipo/2801/
-END:VEVENT
-BEGIN:VEVENT
-UID:hexagon-nutrition-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20260907
-DTEND;VALUE=DATE:20260908
-SUMMARY:🔓 Hexagon Nutrition Ltd. — 90D anchor unlock (4\,628\,848 sh\; ~Rs.20.8 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/hexagon-nutrition-ipo/2658/
 END:VEVENT
 BEGIN:VEVENT
 UID:cmr-green-technologies-ipo-A90@unlockradar
@@ -1403,13 +1438,6 @@ DTSTART;VALUE=DATE:20280203
 DTEND;VALUE=DATE:20280204
 SUMMARY:🔓 Brandman Retail Ltd. — 2Y promoter unlock (4\,524\,779 sh\; 24.51% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/brandman-retail-ipo/2274/
-END:VEVENT
-BEGIN:VEVENT
-UID:c-k-k-retail-mart-ipo-PRE6M@unlockradar
-DTSTART;VALUE=DATE:20260729
-DTEND;VALUE=DATE:20260730
-SUMMARY:🔓 CKK Retail Mart Ltd. — 6M pre-IPO unlock
-DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/c-k-k-retail-mart-ipo/2409/
 END:VEVENT
 BEGIN:VEVENT
 UID:kasturi-metal-ipo-PX1Y@unlockradar
