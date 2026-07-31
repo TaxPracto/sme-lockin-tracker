@@ -5,6 +5,27 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:anawil-wire-engieering-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260905
+DTEND;VALUE=DATE:20260906
+SUMMARY:🔓 Anawil Wire & Engineering Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/anawil-wire-engieering-ipo/2618/
+END:VEVENT
+BEGIN:VEVENT
+UID:anawil-wire-engieering-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:🔓 Anawil Wire & Engineering Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/anawil-wire-engieering-ipo/2618/
+END:VEVENT
+BEGIN:VEVENT
+UID:anawil-wire-engieering-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:🔓 Anawil Wire & Engineering Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/anawil-wire-engieering-ipo/2618/
+END:VEVENT
+BEGIN:VEVENT
 UID:fusion-klassroom-edutech-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
@@ -50,14 +71,14 @@ BEGIN:VEVENT
 UID:juniper-green-energy-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260903
 DTEND;VALUE=DATE:20260904
-SUMMARY:🔓 Juniper Green Energy Ltd. — 30D anchor unlock
+SUMMARY:🔓 Juniper Green Energy Ltd. — 30D anchor unlock (11\,986\,666 sh\; ~Rs.269.7 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/juniper-green-energy-ipo/2492/
 END:VEVENT
 BEGIN:VEVENT
 UID:juniper-green-energy-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
-SUMMARY:🔓 Juniper Green Energy Ltd. — 90D anchor unlock
+SUMMARY:🔓 Juniper Green Energy Ltd. — 90D anchor unlock (11\,986\,666 sh\; ~Rs.269.7 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/juniper-green-energy-ipo/2492/
 END:VEVENT
 BEGIN:VEVENT
@@ -85,14 +106,14 @@ BEGIN:VEVENT
 UID:mv-electrosystems-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260903
 DTEND;VALUE=DATE:20260904
-SUMMARY:🔓 MV Electrosystems Ltd. — 30D anchor unlock
+SUMMARY:🔓 MV Electrosystems Ltd. — 30D anchor unlock (1\,535\,293 sh\; ~Rs.65.2 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/mv-electrosystems-ipo/2800/
 END:VEVENT
 BEGIN:VEVENT
 UID:mv-electrosystems-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
-SUMMARY:🔓 MV Electrosystems Ltd. — 90D anchor unlock
+SUMMARY:🔓 MV Electrosystems Ltd. — 90D anchor unlock (1\,535\,293 sh\; ~Rs.65.2 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/mv-electrosystems-ipo/2800/
 END:VEVENT
 BEGIN:VEVENT
@@ -626,13 +647,6 @@ DTSTART;VALUE=DATE:20280629
 DTEND;VALUE=DATE:20280630
 SUMMARY:🔓 Kratikal Tech Ltd. — 2Y promoter unlock (1\,851\,570 sh\; 16.68% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/kratikal-tech-ipo/2844/
-END:VEVENT
-BEGIN:VEVENT
-UID:csm-technologies-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260730
-DTEND;VALUE=DATE:20260731
-SUMMARY:🔓 CSM Technologies Ltd. — 30D anchor unlock (885\,060 sh\; ~Rs.10.0 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/csm-technologies-ipo/2641/
 END:VEVENT
 BEGIN:VEVENT
 UID:csm-technologies-ipo-A90@unlockradar
