@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-31T10:27:05+05:30",
+ "generated_at": "2026-08-01T10:19:59+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -671,9 +671,9 @@
    "anchor_shares": 111019565,
    "anchor_investment_cr": null,
    "pct_of_issue": 25.23,
-   "isin": "",
-   "nse_symbol": "",
-   "bse_code": "",
+   "isin": "INE0NR623014",
+   "nse_symbol": "CUBEINVIT",
+   "bse_code": 543899,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
