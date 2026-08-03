@@ -5,6 +5,27 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:aegeus-technologies-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260906
+DTEND;VALUE=DATE:20260907
+SUMMARY:🔓 Aegeus Technologies Ltd. — 30D anchor unlock (286\,200 sh\; 3.42% of capital\; ~Rs.3.0 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/aegeus-technologies-ipo/2837/
+END:VEVENT
+BEGIN:VEVENT
+UID:aegeus-technologies-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:🔓 Aegeus Technologies Ltd. — 90D anchor unlock (286\,200 sh\; 3.42% of capital\; ~Rs.3.0 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/aegeus-technologies-ipo/2837/
+END:VEVENT
+BEGIN:VEVENT
+UID:aegeus-technologies-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270203
+DTEND;VALUE=DATE:20270204
+SUMMARY:🔓 Aegeus Technologies Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/aegeus-technologies-ipo/2837/
+END:VEVENT
+BEGIN:VEVENT
 UID:anawil-wire-engieering-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260905
 DTEND;VALUE=DATE:20260906
@@ -558,13 +579,6 @@ SUMMARY:🔓 Knack Packaging Ltd. — 90D anchor unlock (3\,860\,293 sh\; ~Rs.65
 DESCRIPTION:https://www.chittorgarh.com/ipo/knack-packaging-ipo/2592/
 END:VEVENT
 BEGIN:VEVENT
-UID:atharva-polyplast-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260802
-DTEND;VALUE=DATE:20260803
-SUMMARY:🔓 Atharva Polyplast Ltd. — 30D anchor unlock (637\,000 sh\; 3.78% of capital\; ~Rs.3.8 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/atharva-polyplast-ipo/2653/
-END:VEVENT
-BEGIN:VEVENT
 UID:atharva-polyplast-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
@@ -577,13 +591,6 @@ DTSTART;VALUE=DATE:20261229
 DTEND;VALUE=DATE:20261230
 SUMMARY:🔓 Atharva Polyplast Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/atharva-polyplast-ipo/2653/
-END:VEVENT
-BEGIN:VEVENT
-UID:sampark-india-logistics-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260802
-DTEND;VALUE=DATE:20260803
-SUMMARY:🔓 Sampark India Logistics Ltd. — 30D anchor unlock (459\,200 sh\; 3.75% of capital\; ~Rs.3.9 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/sampark-india-logistics-ipo/2711/
 END:VEVENT
 BEGIN:VEVENT
 UID:sampark-india-logistics-ipo-A90@unlockradar
@@ -612,13 +619,6 @@ DTSTART;VALUE=DATE:20280629
 DTEND;VALUE=DATE:20280630
 SUMMARY:🔓 Sampark India Logistics Ltd. — 2Y promoter unlock (3\,183\,597 sh\; 25.97% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/sampark-india-logistics-ipo/2711/
-END:VEVENT
-BEGIN:VEVENT
-UID:kratikal-tech-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260802
-DTEND;VALUE=DATE:20260803
-SUMMARY:🔓 Kratikal Tech Ltd. — 30D anchor unlock (415\,500 sh\; 3.74% of capital\; ~Rs.5.6 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/kratikal-tech-ipo/2844/
 END:VEVENT
 BEGIN:VEVENT
 UID:kratikal-tech-ipo-A90@unlockradar

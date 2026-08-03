@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-02T10:22:36+05:30",
+ "generated_at": "2026-08-03T10:32:08+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -7,6 +7,67 @@
   2026
  ],
  "records": [
+  {
+   "company": "Aegeus Technologies Ltd.",
+   "slug": "aegeus-technologies-ipo",
+   "url": "https://www.chittorgarh.com/ipo/aegeus-technologies-ipo/2837/",
+   "category": "SME",
+   "anchor_allotment_date": "2026-08-03",
+   "boa_date": "2026-08-03",
+   "d30": "2026-09-06",
+   "d90": "2026-11-05",
+   "anchor_shares": 572400,
+   "anchor_investment_cr": 6.01,
+   "pct_of_issue": 20.22,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": 6116193,
+   "post_shares": 8374593,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": "2026-08-11",
+   "anchor_names": [],
+   "lm": [
+    [
+     157,
+     "Turnaround Corporate Advisors Pvt.Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-09-06",
+     "sh": 286200,
+     "pct": 3.42,
+     "val": 3.005,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-11-05",
+     "sh": 286200,
+     "pct": 3.42,
+     "val": 3.005,
+     "est": false
+    },
+    {
+     "t": "PRE6M",
+     "d": "2027-02-03",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": true
+    }
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 105.0,
+   "chg_from_issue_pct": null
+  },
   {
    "company": "Anawil Wire & Engineering Ltd.",
    "slug": "anawil-wire-engieering-ipo",
