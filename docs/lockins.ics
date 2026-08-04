@@ -5,6 +5,20 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:ardee-industries-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260909
+DTEND;VALUE=DATE:20260910
+SUMMARY:🔓 Ardee Industries Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/ardee-industries-ipo/2860/
+END:VEVENT
+BEGIN:VEVENT
+UID:ardee-industries-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:🔓 Ardee Industries Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/ardee-industries-ipo/2860/
+END:VEVENT
+BEGIN:VEVENT
 UID:aegeus-technologies-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260906
 DTEND;VALUE=DATE:20260907
@@ -29,14 +43,14 @@ BEGIN:VEVENT
 UID:anawil-wire-engieering-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260905
 DTEND;VALUE=DATE:20260906
-SUMMARY:🔓 Anawil Wire & Engineering Ltd. — 30D anchor unlock
+SUMMARY:🔓 Anawil Wire & Engineering Ltd. — 30D anchor unlock (937\,800 sh\; 3.75% of capital\; ~Rs.25.3 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/anawil-wire-engieering-ipo/2618/
 END:VEVENT
 BEGIN:VEVENT
 UID:anawil-wire-engieering-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
-SUMMARY:🔓 Anawil Wire & Engineering Ltd. — 90D anchor unlock
+SUMMARY:🔓 Anawil Wire & Engineering Ltd. — 90D anchor unlock (937\,800 sh\; 3.75% of capital\; ~Rs.25.3 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/anawil-wire-engieering-ipo/2618/
 END:VEVENT
 BEGIN:VEVENT
@@ -195,15 +209,15 @@ DESCRIPTION:https://www.chittorgarh.com/ipo/manipal-health-enterprises-ipo/2956/
 END:VEVENT
 BEGIN:VEVENT
 UID:poojaa-precision-engg-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260830
-DTEND;VALUE=DATE:20260831
+DTSTART;VALUE=DATE:20260829
+DTEND;VALUE=DATE:20260830
 SUMMARY:🔓 Poojaa Precision Engg.Ltd. — 30D anchor unlock (749\,800 sh\; 3.76% of capital\; ~Rs.22.6 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/poojaa-precision-engg-ipo/2954/
 END:VEVENT
 BEGIN:VEVENT
 UID:poojaa-precision-engg-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261029
-DTEND;VALUE=DATE:20261030
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
 SUMMARY:🔓 Poojaa Precision Engg.Ltd. — 90D anchor unlock (749\,800 sh\; 3.76% of capital\; ~Rs.22.6 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/poojaa-precision-engg-ipo/2954/
 END:VEVENT
@@ -1104,13 +1118,6 @@ SUMMARY:🔓 Recode Studios Ltd. — 2Y promoter unlock (2\,395\,509 sh\; 22.5% 
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/recode-studios-ipo/2825/
 END:VEVENT
 BEGIN:VEVENT
-UID:onemi-technology-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20260803
-DTEND;VALUE=DATE:20260804
-SUMMARY:🔓 OnEMI Technology Solutions Ltd. — 90D anchor unlock (8\,122\,108 sh\; ~Rs.138.9 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/onemi-technology-ipo/2576/
-END:VEVENT
-BEGIN:VEVENT
 UID:adisoft-technologies-ipo-PRE6M@unlockradar
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261023
@@ -1424,20 +1431,6 @@ DTSTART;VALUE=DATE:20280205
 DTEND;VALUE=DATE:20280206
 SUMMARY:🔓 PAN HR Solutions Ltd. — 2Y promoter unlock (1\,546\,771 sh\; 21.45% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/pan-hr-solutions-ipo/2759/
-END:VEVENT
-BEGIN:VEVENT
-UID:grover-jewells-ipo-PRE6M@unlockradar
-DTSTART;VALUE=DATE:20260803
-DTEND;VALUE=DATE:20260804
-SUMMARY:🔓 Grover Jewells Ltd. — 6M pre-IPO unlock
-DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/grover-jewells-ipo/2731/
-END:VEVENT
-BEGIN:VEVENT
-UID:brandman-retail-ipo-PRE6M@unlockradar
-DTSTART;VALUE=DATE:20260803
-DTEND;VALUE=DATE:20260804
-SUMMARY:🔓 Brandman Retail Ltd. — 6M pre-IPO unlock (10\,852 sh\; 0.06% of capital)
-DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/brandman-retail-ipo/2274/
 END:VEVENT
 BEGIN:VEVENT
 UID:brandman-retail-ipo-PX1Y@unlockradar
