@@ -5,6 +5,27 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:lapl-automotive-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SUMMARY:🔓 LAPL Automotive Ltd. — 30D anchor unlock (488\,400 sh\; 3.9% of capital\; ~Rs.4.6 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/lapl-automotive-ipo/2300/
+END:VEVENT
+BEGIN:VEVENT
+UID:lapl-automotive-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:🔓 LAPL Automotive Ltd. — 90D anchor unlock (488\,400 sh\; 3.9% of capital\; ~Rs.4.6 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/lapl-automotive-ipo/2300/
+END:VEVENT
+BEGIN:VEVENT
+UID:lapl-automotive-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270205
+DTEND;VALUE=DATE:20270206
+SUMMARY:🔓 LAPL Automotive Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/lapl-automotive-ipo/2300/
+END:VEVENT
+BEGIN:VEVENT
 UID:ardee-industries-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260909
 DTEND;VALUE=DATE:20260910
@@ -195,15 +216,15 @@ DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/hr-h
 END:VEVENT
 BEGIN:VEVENT
 UID:manipal-health-enterprises-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260902
-DTEND;VALUE=DATE:20260903
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
 SUMMARY:🔓 Manipal Health Enterprises Ltd. — 30D anchor unlock (35\,314\,384 sh\; ~Rs.2083.6 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/manipal-health-enterprises-ipo/2956/
 END:VEVENT
 BEGIN:VEVENT
 UID:manipal-health-enterprises-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
 SUMMARY:🔓 Manipal Health Enterprises Ltd. — 90D anchor unlock (35\,314\,384 sh\; ~Rs.2083.6 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/manipal-health-enterprises-ipo/2956/
 END:VEVENT
@@ -577,13 +598,6 @@ DTSTART;VALUE=DATE:20280702
 DTEND;VALUE=DATE:20280703
 SUMMARY:🔓 IC Electricals Co.Ltd. — 2Y promoter unlock (3\,738\,149 sh\; 20.47% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/ic-electricals-ipo/2754/
-END:VEVENT
-BEGIN:VEVENT
-UID:knack-packaging-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260804
-DTEND;VALUE=DATE:20260805
-SUMMARY:🔓 Knack Packaging Ltd. — 30D anchor unlock (3\,860\,293 sh\; ~Rs.65.6 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/knack-packaging-ipo/2592/
 END:VEVENT
 BEGIN:VEVENT
 UID:knack-packaging-ipo-A90@unlockradar
