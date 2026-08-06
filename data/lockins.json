@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-05T10:11:23+05:30",
+ "generated_at": "2026-08-06T10:11:36+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -7,6 +7,148 @@
   2026
  ],
  "records": [
+  {
+   "company": "Technocraft Ventures Ltd.",
+   "slug": "technocraft-ventures-ipo",
+   "url": "https://www.chittorgarh.com/ipo/technocraft-ventures-ipo/2565/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-08-06",
+   "boa_date": "2026-08-06",
+   "d30": "2026-09-11",
+   "d90": "2026-11-10",
+   "anchor_shares": 0,
+   "anchor_investment_cr": 0.0,
+   "pct_of_issue": null,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-09-11",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-11-10",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "LEAP India Ltd.",
+   "slug": "leap-india-ipo",
+   "url": "https://www.chittorgarh.com/ipo/leap-india-ipo/2583/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-08-06",
+   "boa_date": "2026-08-06",
+   "d30": "2026-09-11",
+   "d90": "2026-11-10",
+   "anchor_shares": 0,
+   "anchor_investment_cr": 0.0,
+   "pct_of_issue": null,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-09-11",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-11-10",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "Optimystix Entertainment India Ltd.",
+   "slug": "optimystix-entertainment-ipo",
+   "url": "https://www.chittorgarh.com/ipo/optimystix-entertainment-ipo/2755/",
+   "category": "SME",
+   "anchor_allotment_date": "2026-08-06",
+   "boa_date": "2026-08-06",
+   "d30": "2026-09-11",
+   "d90": "2026-11-10",
+   "anchor_shares": 1670400,
+   "anchor_investment_cr": 29.23,
+   "pct_of_issue": 21.22,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": 18268900,
+   "post_shares": 23268900,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": "2026-08-14",
+   "anchor_names": [],
+   "lm": [
+    [
+     480,
+     "LSI Financial Services Pvt.Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-09-11",
+     "sh": 835200,
+     "pct": 3.59,
+     "val": 14.615,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-11-10",
+     "sh": 835200,
+     "pct": 3.59,
+     "val": 14.615,
+     "est": false
+    },
+    {
+     "t": "PRE6M",
+     "d": "2027-02-06",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": true
+    }
+   ]
+  },
   {
    "company": "LAPL Automotive Ltd.",
    "slug": "lapl-automotive-ipo",
@@ -72,9 +214,9 @@
    "boa_date": "2026-08-04",
    "d30": "2026-09-09",
    "d90": "2026-11-08",
-   "anchor_shares": 0,
-   "anchor_investment_cr": 0.0,
-   "pct_of_issue": 0.0,
+   "anchor_shares": 24105584,
+   "anchor_investment_cr": 127.76,
+   "pct_of_issue": 23.08,
    "isin": "",
    "nse_symbol": "",
    "bse_code": "",
@@ -91,18 +233,74 @@
     {
      "t": "A30",
      "d": "2026-09-09",
-     "sh": null,
+     "sh": 12052792,
      "pct": null,
-     "val": null,
+     "val": 63.88,
      "est": false
     },
     {
      "t": "A90",
      "d": "2026-11-08",
+     "sh": 12052792,
+     "pct": null,
+     "val": 63.88,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "G.V.Electricals Ltd.",
+   "slug": "gv-electricals-ipo",
+   "url": "https://www.chittorgarh.com/ipo/gv-electricals-ipo/2985/",
+   "category": "SME",
+   "anchor_allotment_date": "2026-07-30",
+   "boa_date": "2026-07-30",
+   "d30": "2026-09-09",
+   "d90": "2026-11-08",
+   "anchor_shares": 888000,
+   "anchor_investment_cr": 11.54,
+   "pct_of_issue": 21.46,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": 8279190,
+   "post_shares": 11279190,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": "2026-08-07",
+   "anchor_names": [],
+   "lm": [
+    [
+     450,
+     "Seren Capital Pvt.Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-09-09",
+     "sh": 444000,
+     "pct": 3.94,
+     "val": 5.77,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-11-08",
+     "sh": 444000,
+     "pct": 3.94,
+     "val": 5.77,
+     "est": false
+    },
+    {
+     "t": "PRE6M",
+     "d": "2027-01-30",
      "sh": null,
      "pct": null,
      "val": null,
-     "est": false
+     "est": true
     }
    ]
   },
@@ -275,105 +473,6 @@
    ]
   },
   {
-   "company": "G.V.Electricals Ltd.",
-   "slug": "gv-electricals-ipo",
-   "url": "https://www.chittorgarh.com/ipo/gv-electricals-ipo/2985/",
-   "category": "SME",
-   "anchor_allotment_date": "2026-07-30",
-   "boa_date": "2026-07-30",
-   "d30": "2026-09-04",
-   "d90": "2026-11-03",
-   "anchor_shares": 888000,
-   "anchor_investment_cr": 11.54,
-   "pct_of_issue": 21.46,
-   "isin": "",
-   "nse_symbol": "",
-   "bse_code": "",
-   "pre_shares": 8279190,
-   "post_shares": 11279190,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": "2026-08-07",
-   "anchor_names": [],
-   "lm": [
-    [
-     450,
-     "Seren Capital Pvt.Ltd"
-    ]
-   ],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-09-04",
-     "sh": 444000,
-     "pct": 3.94,
-     "val": 5.77,
-     "est": false
-    },
-    {
-     "t": "A90",
-     "d": "2026-11-03",
-     "sh": 444000,
-     "pct": 3.94,
-     "val": 5.77,
-     "est": false
-    },
-    {
-     "t": "PRE6M",
-     "d": "2027-01-30",
-     "sh": null,
-     "pct": null,
-     "val": null,
-     "est": true
-    }
-   ]
-  },
-  {
-   "company": "Juniper Green Energy Ltd.",
-   "slug": "juniper-green-energy-ipo",
-   "url": "https://www.chittorgarh.com/ipo/juniper-green-energy-ipo/2492/",
-   "category": "Mainboard",
-   "anchor_allotment_date": "2026-07-29",
-   "boa_date": "2026-07-29",
-   "d30": "2026-09-03",
-   "d90": "2026-11-02",
-   "anchor_shares": 23973333,
-   "anchor_investment_cr": 539.4,
-   "pct_of_issue": 23.06,
-   "isin": "",
-   "nse_symbol": "",
-   "bse_code": "",
-   "pre_shares": null,
-   "post_shares": null,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": null,
-   "anchor_names": [],
-   "lm": [],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-09-03",
-     "sh": 11986666,
-     "pct": null,
-     "val": 269.7,
-     "est": false
-    },
-    {
-     "t": "A90",
-     "d": "2026-11-02",
-     "sh": 11986666,
-     "pct": null,
-     "val": 269.7,
-     "est": false
-    }
-   ]
-  },
-  {
    "company": "Oneindig Technologies Ltd.",
    "slug": "oneindig-technologies-ipo",
    "url": "https://www.chittorgarh.com/ipo/oneindig-technologies-ipo/2646/",
@@ -385,9 +484,9 @@
    "anchor_shares": 816000,
    "anchor_investment_cr": 7.83,
    "pct_of_issue": 22.08,
-   "isin": "",
+   "isin": "INE0UR501013",
    "nse_symbol": "",
-   "bse_code": "",
+   "bse_code": 544852,
    "pre_shares": 8044160,
    "post_shares": 10924160,
    "prom_pre_pct": null,
@@ -430,20 +529,20 @@
    ]
   },
   {
-   "company": "MV Electrosystems Ltd.",
-   "slug": "mv-electrosystems-ipo",
-   "url": "https://www.chittorgarh.com/ipo/mv-electrosystems-ipo/2800/",
+   "company": "Juniper Green Energy Ltd.",
+   "slug": "juniper-green-energy-ipo",
+   "url": "https://www.chittorgarh.com/ipo/juniper-green-energy-ipo/2492/",
    "category": "Mainboard",
    "anchor_allotment_date": "2026-07-29",
    "boa_date": "2026-07-29",
-   "d30": "2026-09-03",
-   "d90": "2026-11-02",
-   "anchor_shares": 3070587,
-   "anchor_investment_cr": 130.5,
-   "pct_of_issue": 31.03,
-   "isin": "",
-   "nse_symbol": "",
-   "bse_code": "",
+   "d30": "2026-09-02",
+   "d90": "2026-11-01",
+   "anchor_shares": 23973333,
+   "anchor_investment_cr": 539.4,
+   "pct_of_issue": 23.06,
+   "isin": "INE05C901015",
+   "nse_symbol": "JNPR",
+   "bse_code": 544853,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -456,7 +555,50 @@
    "events": [
     {
      "t": "A30",
-     "d": "2026-09-03",
+     "d": "2026-09-02",
+     "sh": 11986666,
+     "pct": null,
+     "val": 269.7,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-11-01",
+     "sh": 11986666,
+     "pct": null,
+     "val": 269.7,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "MV Electrosystems Ltd.",
+   "slug": "mv-electrosystems-ipo",
+   "url": "https://www.chittorgarh.com/ipo/mv-electrosystems-ipo/2800/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-07-29",
+   "boa_date": "2026-07-29",
+   "d30": "2026-09-02",
+   "d90": "2026-11-01",
+   "anchor_shares": 3070587,
+   "anchor_investment_cr": 130.5,
+   "pct_of_issue": 31.03,
+   "isin": "INE0OWZ01020",
+   "nse_symbol": "MVELECTRO",
+   "bse_code": 544851,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-09-02",
      "sh": 1535293,
      "pct": null,
      "val": 65.25,
@@ -464,7 +606,7 @@
     },
     {
      "t": "A90",
-     "d": "2026-11-02",
+     "d": "2026-11-01",
      "sh": 1535293,
      "pct": null,
      "val": 65.25,
@@ -479,14 +621,14 @@
    "category": "SME",
    "anchor_allotment_date": "2026-07-29",
    "boa_date": "2026-07-29",
-   "d30": "2026-09-03",
-   "d90": "2026-11-02",
+   "d30": "2026-09-02",
+   "d90": "2026-11-01",
    "anchor_shares": 1030800,
    "anchor_investment_cr": 10.0,
    "pct_of_issue": 21.57,
-   "isin": "",
+   "isin": "INE1HX301016",
    "nse_symbol": "",
-   "bse_code": "",
+   "bse_code": 544854,
    "pre_shares": 9988000,
    "post_shares": 13736800,
    "prom_pre_pct": null,
@@ -504,7 +646,7 @@
    "events": [
     {
      "t": "A30",
-     "d": "2026-09-03",
+     "d": "2026-09-02",
      "sh": 515400,
      "pct": 3.75,
      "val": 5.0,
@@ -512,7 +654,7 @@
     },
     {
      "t": "A90",
-     "d": "2026-11-02",
+     "d": "2026-11-01",
      "sh": 515400,
      "pct": 3.75,
      "val": 5.0,

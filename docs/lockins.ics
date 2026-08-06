@@ -5,6 +5,55 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:technocraft-ventures-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+SUMMARY:🔓 Technocraft Ventures Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/technocraft-ventures-ipo/2565/
+END:VEVENT
+BEGIN:VEVENT
+UID:technocraft-ventures-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:🔓 Technocraft Ventures Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/technocraft-ventures-ipo/2565/
+END:VEVENT
+BEGIN:VEVENT
+UID:leap-india-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+SUMMARY:🔓 LEAP India Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/leap-india-ipo/2583/
+END:VEVENT
+BEGIN:VEVENT
+UID:leap-india-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:🔓 LEAP India Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/leap-india-ipo/2583/
+END:VEVENT
+BEGIN:VEVENT
+UID:optimystix-entertainment-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+SUMMARY:🔓 Optimystix Entertainment India Ltd. — 30D anchor unlock (835\,200 sh\; 3.59% of capital\; ~Rs.14.6 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/optimystix-entertainment-ipo/2755/
+END:VEVENT
+BEGIN:VEVENT
+UID:optimystix-entertainment-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:🔓 Optimystix Entertainment India Ltd. — 90D anchor unlock (835\,200 sh\; 3.59% of capital\; ~Rs.14.6 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/optimystix-entertainment-ipo/2755/
+END:VEVENT
+BEGIN:VEVENT
+UID:optimystix-entertainment-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+SUMMARY:🔓 Optimystix Entertainment India Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/optimystix-entertainment-ipo/2755/
+END:VEVENT
+BEGIN:VEVENT
 UID:lapl-automotive-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
@@ -29,15 +78,36 @@ BEGIN:VEVENT
 UID:ardee-industries-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260909
 DTEND;VALUE=DATE:20260910
-SUMMARY:🔓 Ardee Industries Ltd. — 30D anchor unlock
+SUMMARY:🔓 Ardee Industries Ltd. — 30D anchor unlock (12\,052\,792 sh\; ~Rs.63.9 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/ardee-industries-ipo/2860/
 END:VEVENT
 BEGIN:VEVENT
 UID:ardee-industries-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
-SUMMARY:🔓 Ardee Industries Ltd. — 90D anchor unlock
+SUMMARY:🔓 Ardee Industries Ltd. — 90D anchor unlock (12\,052\,792 sh\; ~Rs.63.9 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/ardee-industries-ipo/2860/
+END:VEVENT
+BEGIN:VEVENT
+UID:gv-electricals-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260909
+DTEND;VALUE=DATE:20260910
+SUMMARY:🔓 G.V.Electricals Ltd. — 30D anchor unlock (444\,000 sh\; 3.94% of capital\; ~Rs.5.8 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/gv-electricals-ipo/2985/
+END:VEVENT
+BEGIN:VEVENT
+UID:gv-electricals-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:🔓 G.V.Electricals Ltd. — 90D anchor unlock (444\,000 sh\; 3.94% of capital\; ~Rs.5.8 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/gv-electricals-ipo/2985/
+END:VEVENT
+BEGIN:VEVENT
+UID:gv-electricals-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+SUMMARY:🔓 G.V.Electricals Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/gv-electricals-ipo/2985/
 END:VEVENT
 BEGIN:VEVENT
 UID:aegeus-technologies-ipo-A30@unlockradar
@@ -103,41 +173,6 @@ SUMMARY:🔓 Fusion Klassroom Edutech Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/fusion-klassroom-edutech-ipo/2867/
 END:VEVENT
 BEGIN:VEVENT
-UID:gv-electricals-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260904
-DTEND;VALUE=DATE:20260905
-SUMMARY:🔓 G.V.Electricals Ltd. — 30D anchor unlock (444\,000 sh\; 3.94% of capital\; ~Rs.5.8 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/gv-electricals-ipo/2985/
-END:VEVENT
-BEGIN:VEVENT
-UID:gv-electricals-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261103
-DTEND;VALUE=DATE:20261104
-SUMMARY:🔓 G.V.Electricals Ltd. — 90D anchor unlock (444\,000 sh\; 3.94% of capital\; ~Rs.5.8 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/gv-electricals-ipo/2985/
-END:VEVENT
-BEGIN:VEVENT
-UID:gv-electricals-ipo-PRE6M@unlockradar
-DTSTART;VALUE=DATE:20270130
-DTEND;VALUE=DATE:20270131
-SUMMARY:🔓 G.V.Electricals Ltd. — 6M pre-IPO unlock
-DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/gv-electricals-ipo/2985/
-END:VEVENT
-BEGIN:VEVENT
-UID:juniper-green-energy-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260903
-DTEND;VALUE=DATE:20260904
-SUMMARY:🔓 Juniper Green Energy Ltd. — 30D anchor unlock (11\,986\,666 sh\; ~Rs.269.7 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/juniper-green-energy-ipo/2492/
-END:VEVENT
-BEGIN:VEVENT
-UID:juniper-green-energy-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
-SUMMARY:🔓 Juniper Green Energy Ltd. — 90D anchor unlock (11\,986\,666 sh\; ~Rs.269.7 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/juniper-green-energy-ipo/2492/
-END:VEVENT
-BEGIN:VEVENT
 UID:oneindig-technologies-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260903
 DTEND;VALUE=DATE:20260904
@@ -159,30 +194,44 @@ SUMMARY:🔓 Oneindig Technologies Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/oneindig-technologies-ipo/2646/
 END:VEVENT
 BEGIN:VEVENT
+UID:juniper-green-energy-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
+SUMMARY:🔓 Juniper Green Energy Ltd. — 30D anchor unlock (11\,986\,666 sh\; ~Rs.269.7 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/juniper-green-energy-ipo/2492/
+END:VEVENT
+BEGIN:VEVENT
+UID:juniper-green-energy-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:🔓 Juniper Green Energy Ltd. — 90D anchor unlock (11\,986\,666 sh\; ~Rs.269.7 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/juniper-green-energy-ipo/2492/
+END:VEVENT
+BEGIN:VEVENT
 UID:mv-electrosystems-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260903
-DTEND;VALUE=DATE:20260904
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
 SUMMARY:🔓 MV Electrosystems Ltd. — 30D anchor unlock (1\,535\,293 sh\; ~Rs.65.2 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/mv-electrosystems-ipo/2800/
 END:VEVENT
 BEGIN:VEVENT
 UID:mv-electrosystems-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
 SUMMARY:🔓 MV Electrosystems Ltd. — 90D anchor unlock (1\,535\,293 sh\; ~Rs.65.2 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/mv-electrosystems-ipo/2800/
 END:VEVENT
 BEGIN:VEVENT
 UID:dhaval-packaging-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260903
-DTEND;VALUE=DATE:20260904
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
 SUMMARY:🔓 Dhaval Packaging Ltd. — 30D anchor unlock (515\,400 sh\; 3.75% of capital\; ~Rs.5.0 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/dhaval-packaging-ipo/2835/
 END:VEVENT
 BEGIN:VEVENT
 UID:dhaval-packaging-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
 SUMMARY:🔓 Dhaval Packaging Ltd. — 90D anchor unlock (515\,400 sh\; 3.75% of capital\; ~Rs.5.0 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/dhaval-packaging-ipo/2835/
 END:VEVENT
@@ -1424,13 +1473,6 @@ DTSTART;VALUE=DATE:20280211
 DTEND;VALUE=DATE:20280212
 SUMMARY:🔓 Marushika Technology Ltd. — 2Y promoter unlock (1\,630\,095 sh\; 19.09% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/marushika-technology-ipo/2606/
-END:VEVENT
-BEGIN:VEVENT
-UID:pan-hr-solutions-ipo-PRE6M@unlockradar
-DTSTART;VALUE=DATE:20260805
-DTEND;VALUE=DATE:20260806
-SUMMARY:🔓 PAN HR Solutions Ltd. — 6M pre-IPO unlock (491\,324 sh\; 6.81% of capital)
-DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/pan-hr-solutions-ipo/2759/
 END:VEVENT
 BEGIN:VEVENT
 UID:pan-hr-solutions-ipo-PX1Y@unlockradar
