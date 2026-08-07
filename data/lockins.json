@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-06T10:11:36+05:30",
+ "generated_at": "2026-08-07T09:39:23+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -7,6 +7,92 @@
   2026
  ],
  "records": [
+  {
+   "company": "Molbio Diagnostics Ltd.",
+   "slug": "molbio-diagnostics-ipo",
+   "url": "https://www.chittorgarh.com/ipo/molbio-diagnostics-ipo/2579/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-08-07",
+   "boa_date": "2026-08-07",
+   "d30": "2026-09-12",
+   "d90": "2026-11-11",
+   "anchor_shares": 0,
+   "anchor_investment_cr": 0.0,
+   "pct_of_issue": null,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-09-12",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-11-11",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "Dhoot Transmission Ltd.",
+   "slug": "dhoot-transmission-ipo",
+   "url": "https://www.chittorgarh.com/ipo/dhoot-transmission-ipo/2859/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-08-07",
+   "boa_date": "2026-08-07",
+   "d30": "2026-09-12",
+   "d90": "2026-11-11",
+   "anchor_shares": 0,
+   "anchor_investment_cr": 0.0,
+   "pct_of_issue": null,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-09-12",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-11-11",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
   {
    "company": "Technocraft Ventures Ltd.",
    "slug": "technocraft-ventures-ipo",
@@ -423,14 +509,14 @@
    "category": "SME",
    "anchor_allotment_date": "2026-07-30",
    "boa_date": "2026-07-30",
-   "d30": "2026-09-04",
-   "d90": "2026-11-03",
+   "d30": "2026-09-05",
+   "d90": "2026-11-04",
    "anchor_shares": 696800,
    "anchor_investment_cr": 11.08,
    "pct_of_issue": 22.11,
-   "isin": "",
+   "isin": "INE1LMA01010",
    "nse_symbol": "",
-   "bse_code": "",
+   "bse_code": 544856,
    "pre_shares": 7327473,
    "post_shares": 9316873,
    "prom_pre_pct": null,
@@ -448,7 +534,7 @@
    "events": [
     {
      "t": "A30",
-     "d": "2026-09-04",
+     "d": "2026-09-05",
      "sh": 348400,
      "pct": 3.74,
      "val": 5.54,
@@ -456,7 +542,7 @@
     },
     {
      "t": "A90",
-     "d": "2026-11-03",
+     "d": "2026-11-04",
      "sh": 348400,
      "pct": 3.74,
      "val": 5.54,

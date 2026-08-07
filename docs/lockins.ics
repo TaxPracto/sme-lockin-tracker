@@ -5,6 +5,34 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:molbio-diagnostics-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:🔓 Molbio Diagnostics Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/molbio-diagnostics-ipo/2579/
+END:VEVENT
+BEGIN:VEVENT
+UID:molbio-diagnostics-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:🔓 Molbio Diagnostics Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/molbio-diagnostics-ipo/2579/
+END:VEVENT
+BEGIN:VEVENT
+UID:dhoot-transmission-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:🔓 Dhoot Transmission Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/dhoot-transmission-ipo/2859/
+END:VEVENT
+BEGIN:VEVENT
+UID:dhoot-transmission-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:🔓 Dhoot Transmission Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/dhoot-transmission-ipo/2859/
+END:VEVENT
+BEGIN:VEVENT
 UID:technocraft-ventures-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
@@ -153,15 +181,15 @@ DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/anaw
 END:VEVENT
 BEGIN:VEVENT
 UID:fusion-klassroom-edutech-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260904
-DTEND;VALUE=DATE:20260905
+DTSTART;VALUE=DATE:20260905
+DTEND;VALUE=DATE:20260906
 SUMMARY:🔓 Fusion Klassroom Edutech Ltd. — 30D anchor unlock (348\,400 sh\; 3.74% of capital\; ~Rs.5.5 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/fusion-klassroom-edutech-ipo/2867/
 END:VEVENT
 BEGIN:VEVENT
 UID:fusion-klassroom-edutech-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261103
-DTEND;VALUE=DATE:20261104
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
 SUMMARY:🔓 Fusion Klassroom Edutech Ltd. — 90D anchor unlock (348\,400 sh\; 3.74% of capital\; ~Rs.5.5 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/fusion-klassroom-edutech-ipo/2867/
 END:VEVENT
@@ -1151,13 +1179,6 @@ DTSTART;VALUE=DATE:20260810
 DTEND;VALUE=DATE:20260811
 SUMMARY:🔓 Bagmane Prime Office REIT — 90D anchor unlock (57\,487\,425 sh)
 DESCRIPTION:https://www.chittorgarh.com/ipo/bagmane-reit/3090/
-END:VEVENT
-BEGIN:VEVENT
-UID:recode-studios-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20260806
-DTEND;VALUE=DATE:20260807
-SUMMARY:🔓 Recode Studios Ltd. — 90D anchor unlock (400\,800 sh\; 3.77% of capital\; ~Rs.6.3 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/recode-studios-ipo/2825/
 END:VEVENT
 BEGIN:VEVENT
 UID:recode-studios-ipo-PRE6M@unlockradar
