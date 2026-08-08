@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-07T09:39:23+05:30",
+ "generated_at": "2026-08-08T08:38:12+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -102,9 +102,9 @@
    "boa_date": "2026-08-06",
    "d30": "2026-09-11",
    "d90": "2026-11-10",
-   "anchor_shares": 0,
-   "anchor_investment_cr": 0.0,
-   "pct_of_issue": null,
+   "anchor_shares": 3563810,
+   "anchor_investment_cr": 75.55,
+   "pct_of_issue": 23.07,
    "isin": "",
    "nse_symbol": "",
    "bse_code": "",
@@ -121,17 +121,17 @@
     {
      "t": "A30",
      "d": "2026-09-11",
-     "sh": null,
+     "sh": 1781905,
      "pct": null,
-     "val": null,
+     "val": 37.775,
      "est": false
     },
     {
      "t": "A90",
      "d": "2026-11-10",
-     "sh": null,
+     "sh": 1781905,
      "pct": null,
-     "val": null,
+     "val": 37.775,
      "est": false
     }
    ]
@@ -145,9 +145,9 @@
    "boa_date": "2026-08-06",
    "d30": "2026-09-11",
    "d90": "2026-11-10",
-   "anchor_shares": 0,
-   "anchor_investment_cr": 0.0,
-   "pct_of_issue": null,
+   "anchor_shares": 46768854,
+   "anchor_investment_cr": 743.62,
+   "pct_of_issue": 23.07,
    "isin": "",
    "nse_symbol": "",
    "bse_code": "",
@@ -164,17 +164,17 @@
     {
      "t": "A30",
      "d": "2026-09-11",
-     "sh": null,
+     "sh": 23384427,
      "pct": null,
-     "val": null,
+     "val": 371.81,
      "est": false
     },
     {
      "t": "A90",
      "d": "2026-11-10",
-     "sh": null,
+     "sh": 23384427,
      "pct": null,
-     "val": null,
+     "val": 371.81,
      "est": false
     }
    ]
@@ -458,8 +458,8 @@
    "anchor_shares": 1875600,
    "anchor_investment_cr": 50.64,
    "pct_of_issue": 22.17,
-   "isin": "",
-   "nse_symbol": "",
+   "isin": "INE1J5V01013",
+   "nse_symbol": "ANAWIL",
    "bse_code": "",
    "pre_shares": 19715000,
    "post_shares": 24999800,

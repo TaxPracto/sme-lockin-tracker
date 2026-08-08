@@ -36,28 +36,28 @@ BEGIN:VEVENT
 UID:technocraft-ventures-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
-SUMMARY:🔓 Technocraft Ventures Ltd. — 30D anchor unlock
+SUMMARY:🔓 Technocraft Ventures Ltd. — 30D anchor unlock (1\,781\,905 sh\; ~Rs.37.8 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/technocraft-ventures-ipo/2565/
 END:VEVENT
 BEGIN:VEVENT
 UID:technocraft-ventures-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
-SUMMARY:🔓 Technocraft Ventures Ltd. — 90D anchor unlock
+SUMMARY:🔓 Technocraft Ventures Ltd. — 90D anchor unlock (1\,781\,905 sh\; ~Rs.37.8 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/technocraft-ventures-ipo/2565/
 END:VEVENT
 BEGIN:VEVENT
 UID:leap-india-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
-SUMMARY:🔓 LEAP India Ltd. — 30D anchor unlock
+SUMMARY:🔓 LEAP India Ltd. — 30D anchor unlock (23\,384\,427 sh\; ~Rs.371.8 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/leap-india-ipo/2583/
 END:VEVENT
 BEGIN:VEVENT
 UID:leap-india-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
-SUMMARY:🔓 LEAP India Ltd. — 90D anchor unlock
+SUMMARY:🔓 LEAP India Ltd. — 90D anchor unlock (23\,384\,427 sh\; ~Rs.371.8 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/leap-india-ipo/2583/
 END:VEVENT
 BEGIN:VEVENT
@@ -640,13 +640,6 @@ DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
 SUMMARY:🔓 Kusumgar Ltd. — 90D anchor unlock (2\,314\,438 sh\; ~Rs.97.0 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/kusumgar-ipo/2670/
-END:VEVENT
-BEGIN:VEVENT
-UID:ic-electricals-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260807
-DTEND;VALUE=DATE:20260808
-SUMMARY:🔓 IC Electricals Co.Ltd. — 30D anchor unlock (684\,000 sh\; 3.75% of capital\; ~Rs.6.8 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/ic-electricals-ipo/2754/
 END:VEVENT
 BEGIN:VEVENT
 UID:ic-electricals-ipo-A90@unlockradar
