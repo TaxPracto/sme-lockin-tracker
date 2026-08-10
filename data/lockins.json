@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-09T08:45:22+05:30",
+ "generated_at": "2026-08-10T08:55:20+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -7,6 +7,49 @@
   2026
  ],
  "records": [
+  {
+   "company": "Milky Mist Dairy Food Ltd.",
+   "slug": "milky-mist-dairy-food-ipo",
+   "url": "https://www.chittorgarh.com/ipo/milky-mist-dairy-food-ipo/2541/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-08-10",
+   "boa_date": "2026-08-10",
+   "d30": "2026-09-13",
+   "d90": "2026-11-12",
+   "anchor_shares": 0,
+   "anchor_investment_cr": 0.0,
+   "pct_of_issue": null,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-09-13",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-11-12",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
   {
    "company": "Molbio Diagnostics Ltd.",
    "slug": "molbio-diagnostics-ipo",

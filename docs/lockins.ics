@@ -5,6 +5,20 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:milky-mist-dairy-food-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260914
+SUMMARY:🔓 Milky Mist Dairy Food Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/milky-mist-dairy-food-ipo/2541/
+END:VEVENT
+BEGIN:VEVENT
+UID:milky-mist-dairy-food-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:🔓 Milky Mist Dairy Food Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/milky-mist-dairy-food-ipo/2541/
+END:VEVENT
+BEGIN:VEVENT
 UID:molbio-diagnostics-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
