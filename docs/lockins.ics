@@ -5,6 +5,55 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:shiprocket-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+SUMMARY:🔓 Shiprocket Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/shiprocket-ipo/2450/
+END:VEVENT
+BEGIN:VEVENT
+UID:shiprocket-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:🔓 Shiprocket Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/shiprocket-ipo/2450/
+END:VEVENT
+BEGIN:VEVENT
+UID:behari-lal-engineering-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+SUMMARY:🔓 Behari Lal Engineering Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/behari-lal-engineering-ipo/2659/
+END:VEVENT
+BEGIN:VEVENT
+UID:behari-lal-engineering-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:🔓 Behari Lal Engineering Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/behari-lal-engineering-ipo/2659/
+END:VEVENT
+BEGIN:VEVENT
+UID:pramodini-medicare-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+SUMMARY:🔓 Pramodini Medicare Ltd. — 30D anchor unlock (680\,400 sh\; 3.09% of capital\; ~Rs.8.0 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/pramodini-medicare-ipo/3088/
+END:VEVENT
+BEGIN:VEVENT
+UID:pramodini-medicare-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:🔓 Pramodini Medicare Ltd. — 90D anchor unlock (680\,400 sh\; 3.09% of capital\; ~Rs.8.0 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/pramodini-medicare-ipo/3088/
+END:VEVENT
+BEGIN:VEVENT
+UID:pramodini-medicare-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+SUMMARY:🔓 Pramodini Medicare Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/pramodini-medicare-ipo/3088/
+END:VEVENT
+BEGIN:VEVENT
 UID:milky-mist-dairy-food-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260913
 DTEND;VALUE=DATE:20260914
@@ -22,28 +71,28 @@ BEGIN:VEVENT
 UID:molbio-diagnostics-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
-SUMMARY:🔓 Molbio Diagnostics Ltd. — 30D anchor unlock
+SUMMARY:🔓 Molbio Diagnostics Ltd. — 30D anchor unlock (1\,743\,858 sh\; ~Rs.140.7 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/molbio-diagnostics-ipo/2579/
 END:VEVENT
 BEGIN:VEVENT
 UID:molbio-diagnostics-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
-SUMMARY:🔓 Molbio Diagnostics Ltd. — 90D anchor unlock
+SUMMARY:🔓 Molbio Diagnostics Ltd. — 90D anchor unlock (1\,743\,858 sh\; ~Rs.140.7 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/molbio-diagnostics-ipo/2579/
 END:VEVENT
 BEGIN:VEVENT
 UID:dhoot-transmission-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
-SUMMARY:🔓 Dhoot Transmission Ltd. — 30D anchor unlock
+SUMMARY:🔓 Dhoot Transmission Ltd. — 30D anchor unlock (5\,271\,328 sh\; ~Rs.459.1 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/dhoot-transmission-ipo/2859/
 END:VEVENT
 BEGIN:VEVENT
 UID:dhoot-transmission-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
-SUMMARY:🔓 Dhoot Transmission Ltd. — 90D anchor unlock
+SUMMARY:🔓 Dhoot Transmission Ltd. — 90D anchor unlock (5\,271\,328 sh\; ~Rs.459.1 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/dhoot-transmission-ipo/2859/
 END:VEVENT
 BEGIN:VEVENT
@@ -1179,13 +1228,6 @@ DTSTART;VALUE=DATE:20280507
 DTEND;VALUE=DATE:20280508
 SUMMARY:🔓 Simca Advertising Ltd. — 2Y promoter unlock (3\,202\,403 sh\; 26.75% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/simca-advertising-ipo/2512/
-END:VEVENT
-BEGIN:VEVENT
-UID:bagmane-reit-A90@unlockradar
-DTSTART;VALUE=DATE:20260810
-DTEND;VALUE=DATE:20260811
-SUMMARY:🔓 Bagmane Prime Office REIT — 90D anchor unlock (57\,487\,425 sh)
-DESCRIPTION:https://www.chittorgarh.com/ipo/bagmane-reit/3090/
 END:VEVENT
 BEGIN:VEVENT
 UID:recode-studios-ipo-PRE6M@unlockradar
