@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-11T08:48:12+05:30",
+ "generated_at": "2026-08-12T09:06:13+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -7,6 +7,62 @@
   2026
  ],
  "records": [
+  {
+   "company": "Credent Connect N Care Ltd.",
+   "slug": "credent-connect-ipo",
+   "url": "https://www.chittorgarh.com/ipo/credent-connect-ipo/2991/",
+   "category": "SME",
+   "anchor_allotment_date": "2026-08-12",
+   "boa_date": "2026-08-12",
+   "d30": "2026-09-17",
+   "d90": "2026-11-16",
+   "anchor_shares": 0,
+   "anchor_investment_cr": 0.0,
+   "pct_of_issue": 0.0,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": 13254900,
+   "post_shares": 18222900,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": "2026-08-20",
+   "anchor_names": [],
+   "lm": [
+    [
+     76,
+     "Hem Securities Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-09-17",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-11-16",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    },
+    {
+     "t": "PRE6M",
+     "d": "2027-02-12",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": true
+    }
+   ]
+  },
   {
    "company": "Shiprocket Ltd.",
    "slug": "shiprocket-ipo",
@@ -158,9 +214,9 @@
    "boa_date": "2026-08-10",
    "d30": "2026-09-13",
    "d90": "2026-11-12",
-   "anchor_shares": 0,
-   "anchor_investment_cr": 0.0,
-   "pct_of_issue": null,
+   "anchor_shares": 33235713,
+   "anchor_investment_cr": 465.3,
+   "pct_of_issue": 23.05,
    "isin": "",
    "nse_symbol": "",
    "bse_code": "",
@@ -177,18 +233,74 @@
     {
      "t": "A30",
      "d": "2026-09-13",
-     "sh": null,
+     "sh": 16617856,
      "pct": null,
-     "val": null,
+     "val": 232.65,
      "est": false
     },
     {
      "t": "A90",
      "d": "2026-11-12",
+     "sh": 16617856,
+     "pct": null,
+     "val": 232.65,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "G.V.Electricals Ltd.",
+   "slug": "gv-electricals-ipo",
+   "url": "https://www.chittorgarh.com/ipo/gv-electricals-ipo/2985/",
+   "category": "SME",
+   "anchor_allotment_date": "2026-07-30",
+   "boa_date": "2026-07-30",
+   "d30": "2026-09-13",
+   "d90": "2026-11-11",
+   "anchor_shares": 888000,
+   "anchor_investment_cr": 11.54,
+   "pct_of_issue": 21.46,
+   "isin": "INE1ZGR01024",
+   "nse_symbol": "",
+   "bse_code": 544859,
+   "pre_shares": 8279190,
+   "post_shares": 11279190,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": "2026-08-07",
+   "anchor_names": [],
+   "lm": [
+    [
+     450,
+     "Seren Capital Pvt.Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-09-13",
+     "sh": 444000,
+     "pct": 3.94,
+     "val": 5.77,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-11-11",
+     "sh": 444000,
+     "pct": 3.94,
+     "val": 5.77,
+     "est": false
+    },
+    {
+     "t": "PRE6M",
+     "d": "2027-01-30",
      "sh": null,
      "pct": null,
      "val": null,
-     "est": false
+     "est": true
     }
    ]
   },
@@ -246,7 +358,7 @@
    "d90": "2026-11-11",
    "anchor_shares": 10542657,
    "anchor_investment_cr": 918.27,
-   "pct_of_issue": 22.81,
+   "pct_of_issue": 23.04,
    "isin": "",
    "nse_symbol": "",
    "bse_code": "",
@@ -488,9 +600,9 @@
    "anchor_shares": 24105584,
    "anchor_investment_cr": 127.76,
    "pct_of_issue": 23.08,
-   "isin": "",
-   "nse_symbol": "",
-   "bse_code": "",
+   "isin": "INE0XNF01022",
+   "nse_symbol": "ARDEE",
+   "bse_code": 544860,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -516,62 +628,6 @@
      "pct": null,
      "val": 63.88,
      "est": false
-    }
-   ]
-  },
-  {
-   "company": "G.V.Electricals Ltd.",
-   "slug": "gv-electricals-ipo",
-   "url": "https://www.chittorgarh.com/ipo/gv-electricals-ipo/2985/",
-   "category": "SME",
-   "anchor_allotment_date": "2026-07-30",
-   "boa_date": "2026-07-30",
-   "d30": "2026-09-09",
-   "d90": "2026-11-08",
-   "anchor_shares": 888000,
-   "anchor_investment_cr": 11.54,
-   "pct_of_issue": 21.46,
-   "isin": "",
-   "nse_symbol": "",
-   "bse_code": "",
-   "pre_shares": 8279190,
-   "post_shares": 11279190,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": "2026-08-07",
-   "anchor_names": [],
-   "lm": [
-    [
-     450,
-     "Seren Capital Pvt.Ltd"
-    ]
-   ],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-09-09",
-     "sh": 444000,
-     "pct": 3.94,
-     "val": 5.77,
-     "est": false
-    },
-    {
-     "t": "A90",
-     "d": "2026-11-08",
-     "sh": 444000,
-     "pct": 3.94,
-     "val": 5.77,
-     "est": false
-    },
-    {
-     "t": "PRE6M",
-     "d": "2027-01-30",
-     "sh": null,
-     "pct": null,
-     "val": null,
-     "est": true
     }
    ]
   },
