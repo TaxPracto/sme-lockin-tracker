@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-12T09:06:13+05:30",
+ "generated_at": "2026-08-13T09:09:41+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -7,6 +7,118 @@
   2026
  ],
  "records": [
+  {
+   "company": "ENS Enterprises Ltd.",
+   "slug": "ens-enterprises-ipo",
+   "url": "https://www.chittorgarh.com/ipo/ens-enterprises-ipo/2792/",
+   "category": "SME",
+   "anchor_allotment_date": "2026-08-13",
+   "boa_date": "2026-08-13",
+   "d30": "2026-09-18",
+   "d90": "2026-11-17",
+   "anchor_shares": 0,
+   "anchor_investment_cr": 0.0,
+   "pct_of_issue": null,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": 9992512,
+   "post_shares": 13594912,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": "2026-08-21",
+   "anchor_names": [],
+   "lm": [
+    [
+     440,
+     "Corporate Makers Capital Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-09-18",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-11-17",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    },
+    {
+     "t": "PRE6M",
+     "d": "2027-02-13",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": true
+    }
+   ]
+  },
+  {
+   "company": "Technocrats Plasma Systems Ltd.",
+   "slug": "technocrats-plasma-systems-ipo",
+   "url": "https://www.chittorgarh.com/ipo/technocrats-plasma-systems-ipo/2840/",
+   "category": "SME",
+   "anchor_allotment_date": "2026-08-13",
+   "boa_date": "2026-08-13",
+   "d30": "2026-09-18",
+   "d90": "2026-11-17",
+   "anchor_shares": 0,
+   "anchor_investment_cr": 0.0,
+   "pct_of_issue": null,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": 12880000,
+   "post_shares": 17500000,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": "2026-08-21",
+   "anchor_names": [],
+   "lm": [
+    [
+     447,
+     "Rarever Financial Advisors Pvt.Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-09-18",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-11-17",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    },
+    {
+     "t": "PRE6M",
+     "d": "2027-02-13",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": true
+    }
+   ]
+  },
   {
    "company": "Credent Connect N Care Ltd.",
    "slug": "credent-connect-ipo",
@@ -72,9 +184,9 @@
    "boa_date": "2026-08-11",
    "d30": "2026-09-16",
    "d90": "2026-11-15",
-   "anchor_shares": 0,
-   "anchor_investment_cr": 0.0,
-   "pct_of_issue": null,
+   "anchor_shares": 74991568,
+   "anchor_investment_cr": 727.42,
+   "pct_of_issue": 31.02,
    "isin": "",
    "nse_symbol": "",
    "bse_code": "",
@@ -91,17 +203,17 @@
     {
      "t": "A30",
      "d": "2026-09-16",
-     "sh": null,
+     "sh": 37495784,
      "pct": null,
-     "val": null,
+     "val": 363.71,
      "est": false
     },
     {
      "t": "A90",
      "d": "2026-11-15",
-     "sh": null,
+     "sh": 37495784,
      "pct": null,
-     "val": null,
+     "val": 363.71,
      "est": false
     }
    ]
@@ -115,9 +227,9 @@
    "boa_date": "2026-08-11",
    "d30": "2026-09-16",
    "d90": "2026-11-15",
-   "anchor_shares": 0,
-   "anchor_investment_cr": 0.0,
-   "pct_of_issue": null,
+   "anchor_shares": 3174946,
+   "anchor_investment_cr": 90.49,
+   "pct_of_issue": 24.13,
    "isin": "",
    "nse_symbol": "",
    "bse_code": "",
@@ -134,17 +246,17 @@
     {
      "t": "A30",
      "d": "2026-09-16",
-     "sh": null,
+     "sh": 1587473,
      "pct": null,
-     "val": null,
+     "val": 45.245,
      "est": false
     },
     {
      "t": "A90",
      "d": "2026-11-15",
-     "sh": null,
+     "sh": 1587473,
      "pct": null,
-     "val": null,
+     "val": 45.245,
      "est": false
     }
    ]
@@ -544,9 +656,9 @@
    "anchor_shares": 976800,
    "anchor_investment_cr": 9.18,
    "pct_of_issue": 22.08,
-   "isin": "",
+   "isin": "INE0X9I01023",
    "nse_symbol": "",
-   "bse_code": "",
+   "bse_code": 544863,
    "pre_shares": 9089818,
    "post_shares": 12536218,
    "prom_pre_pct": null,
@@ -595,8 +707,8 @@
    "category": "Mainboard",
    "anchor_allotment_date": "2026-08-04",
    "boa_date": "2026-08-04",
-   "d30": "2026-09-09",
-   "d90": "2026-11-08",
+   "d30": "2026-09-08",
+   "d90": "2026-11-07",
    "anchor_shares": 24105584,
    "anchor_investment_cr": 127.76,
    "pct_of_issue": 23.08,
@@ -615,7 +727,7 @@
    "events": [
     {
      "t": "A30",
-     "d": "2026-09-09",
+     "d": "2026-09-08",
      "sh": 12052792,
      "pct": null,
      "val": 63.88,
@@ -623,7 +735,7 @@
     },
     {
      "t": "A90",
-     "d": "2026-11-08",
+     "d": "2026-11-07",
      "sh": 12052792,
      "pct": null,
      "val": 63.88,
@@ -1921,7 +2033,7 @@
    "anchor_allotment_date": "2026-07-07",
    "boa_date": "2026-07-07",
    "d30": "2026-08-12",
-   "d90": "2026-10-11",
+   "d90": "2026-10-10",
    "anchor_shares": 4628877,
    "anchor_investment_cr": 193.95,
    "pct_of_issue": 22.97,
@@ -1948,7 +2060,7 @@
     },
     {
      "t": "A90",
-     "d": "2026-10-11",
+     "d": "2026-10-10",
      "sh": 2314438,
      "pct": null,
      "val": 96.975,

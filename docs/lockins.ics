@@ -5,6 +5,48 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:ens-enterprises-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+SUMMARY:🔓 ENS Enterprises Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/ens-enterprises-ipo/2792/
+END:VEVENT
+BEGIN:VEVENT
+UID:ens-enterprises-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:🔓 ENS Enterprises Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/ens-enterprises-ipo/2792/
+END:VEVENT
+BEGIN:VEVENT
+UID:ens-enterprises-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+SUMMARY:🔓 ENS Enterprises Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/ens-enterprises-ipo/2792/
+END:VEVENT
+BEGIN:VEVENT
+UID:technocrats-plasma-systems-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+SUMMARY:🔓 Technocrats Plasma Systems Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/technocrats-plasma-systems-ipo/2840/
+END:VEVENT
+BEGIN:VEVENT
+UID:technocrats-plasma-systems-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:🔓 Technocrats Plasma Systems Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/technocrats-plasma-systems-ipo/2840/
+END:VEVENT
+BEGIN:VEVENT
+UID:technocrats-plasma-systems-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+SUMMARY:🔓 Technocrats Plasma Systems Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/technocrats-plasma-systems-ipo/2840/
+END:VEVENT
+BEGIN:VEVENT
 UID:credent-connect-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
@@ -29,28 +71,28 @@ BEGIN:VEVENT
 UID:shiprocket-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20260917
-SUMMARY:🔓 Shiprocket Ltd. — 30D anchor unlock
+SUMMARY:🔓 Shiprocket Ltd. — 30D anchor unlock (37\,495\,784 sh\; ~Rs.363.7 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/shiprocket-ipo/2450/
 END:VEVENT
 BEGIN:VEVENT
 UID:shiprocket-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
-SUMMARY:🔓 Shiprocket Ltd. — 90D anchor unlock
+SUMMARY:🔓 Shiprocket Ltd. — 90D anchor unlock (37\,495\,784 sh\; ~Rs.363.7 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/shiprocket-ipo/2450/
 END:VEVENT
 BEGIN:VEVENT
 UID:behari-lal-engineering-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20260917
-SUMMARY:🔓 Behari Lal Engineering Ltd. — 30D anchor unlock
+SUMMARY:🔓 Behari Lal Engineering Ltd. — 30D anchor unlock (1\,587\,473 sh\; ~Rs.45.2 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/behari-lal-engineering-ipo/2659/
 END:VEVENT
 BEGIN:VEVENT
 UID:behari-lal-engineering-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
-SUMMARY:🔓 Behari Lal Engineering Ltd. — 90D anchor unlock
+SUMMARY:🔓 Behari Lal Engineering Ltd. — 90D anchor unlock (1\,587\,473 sh\; ~Rs.45.2 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/behari-lal-engineering-ipo/2659/
 END:VEVENT
 BEGIN:VEVENT
@@ -209,15 +251,15 @@ DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/lapl
 END:VEVENT
 BEGIN:VEVENT
 UID:ardee-industries-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260909
-DTEND;VALUE=DATE:20260910
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
 SUMMARY:🔓 Ardee Industries Ltd. — 30D anchor unlock (12\,052\,792 sh\; ~Rs.63.9 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/ardee-industries-ipo/2860/
 END:VEVENT
 BEGIN:VEVENT
 UID:ardee-industries-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
 SUMMARY:🔓 Ardee Industries Ltd. — 90D anchor unlock (12\,052\,792 sh\; ~Rs.63.9 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/ardee-industries-ipo/2860/
 END:VEVENT
@@ -712,16 +754,9 @@ SUMMARY:🔓 Devson Catalyst Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/devson-catalyst-ipo/2943/
 END:VEVENT
 BEGIN:VEVENT
-UID:kusumgar-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260812
-DTEND;VALUE=DATE:20260813
-SUMMARY:🔓 Kusumgar Ltd. — 30D anchor unlock (2\,314\,438 sh\; ~Rs.97.0 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/kusumgar-ipo/2670/
-END:VEVENT
-BEGIN:VEVENT
 UID:kusumgar-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261011
-DTEND;VALUE=DATE:20261012
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
 SUMMARY:🔓 Kusumgar Ltd. — 90D anchor unlock (2\,314\,438 sh\; ~Rs.97.0 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/kusumgar-ipo/2670/
 END:VEVENT
