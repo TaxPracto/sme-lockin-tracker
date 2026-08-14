@@ -5,17 +5,45 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:lalithaa-jewellery-mart-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+SUMMARY:🔓 Lalithaa Jewellery Mart Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/lalithaa-jewellery-mart-ipo/2469/
+END:VEVENT
+BEGIN:VEVENT
+UID:lalithaa-jewellery-mart-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:🔓 Lalithaa Jewellery Mart Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/lalithaa-jewellery-mart-ipo/2469/
+END:VEVENT
+BEGIN:VEVENT
+UID:horizon-industrial-parks-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+SUMMARY:🔓 Horizon Industrial Parks Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/horizon-industrial-parks-ipo/2826/
+END:VEVENT
+BEGIN:VEVENT
+UID:horizon-industrial-parks-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:🔓 Horizon Industrial Parks Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/horizon-industrial-parks-ipo/2826/
+END:VEVENT
+BEGIN:VEVENT
 UID:ens-enterprises-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
-SUMMARY:🔓 ENS Enterprises Ltd. — 30D anchor unlock
+SUMMARY:🔓 ENS Enterprises Ltd. — 30D anchor unlock (513\,000 sh\; 3.77% of capital\; ~Rs.4.7 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/ens-enterprises-ipo/2792/
 END:VEVENT
 BEGIN:VEVENT
 UID:ens-enterprises-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
-SUMMARY:🔓 ENS Enterprises Ltd. — 90D anchor unlock
+SUMMARY:🔓 ENS Enterprises Ltd. — 90D anchor unlock (513\,000 sh\; 3.77% of capital\; ~Rs.4.7 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/ens-enterprises-ipo/2792/
 END:VEVENT
 BEGIN:VEVENT
@@ -50,14 +78,14 @@ BEGIN:VEVENT
 UID:credent-connect-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
-SUMMARY:🔓 Credent Connect N Care Ltd. — 30D anchor unlock
+SUMMARY:🔓 Credent Connect N Care Ltd. — 30D anchor unlock (702\,000 sh\; 3.85% of capital\; ~Rs.13.3 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/credent-connect-ipo/2991/
 END:VEVENT
 BEGIN:VEVENT
 UID:credent-connect-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
-SUMMARY:🔓 Credent Connect N Care Ltd. — 90D anchor unlock
+SUMMARY:🔓 Credent Connect N Care Ltd. — 90D anchor unlock (702\,000 sh\; 3.85% of capital\; ~Rs.13.3 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/credent-connect-ipo/2991/
 END:VEVENT
 BEGIN:VEVENT
@@ -180,32 +208,25 @@ SUMMARY:🔓 Dhoot Transmission Ltd. — 90D anchor unlock (5\,271\,328 sh\; ~Rs
 DESCRIPTION:https://www.chittorgarh.com/ipo/dhoot-transmission-ipo/2859/
 END:VEVENT
 BEGIN:VEVENT
-UID:technocraft-ventures-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260911
-DTEND;VALUE=DATE:20260912
-SUMMARY:🔓 Technocraft Ventures Ltd. — 30D anchor unlock (1\,781\,905 sh\; ~Rs.37.8 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/technocraft-ventures-ipo/2565/
+UID:lapl-automotive-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:🔓 LAPL Automotive Ltd. — 30D anchor unlock (488\,400 sh\; 3.9% of capital\; ~Rs.4.6 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/lapl-automotive-ipo/2300/
 END:VEVENT
 BEGIN:VEVENT
-UID:technocraft-ventures-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261110
-DTEND;VALUE=DATE:20261111
-SUMMARY:🔓 Technocraft Ventures Ltd. — 90D anchor unlock (1\,781\,905 sh\; ~Rs.37.8 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/technocraft-ventures-ipo/2565/
+UID:lapl-automotive-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:🔓 LAPL Automotive Ltd. — 90D anchor unlock (488\,400 sh\; 3.9% of capital\; ~Rs.4.6 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/lapl-automotive-ipo/2300/
 END:VEVENT
 BEGIN:VEVENT
-UID:leap-india-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260911
-DTEND;VALUE=DATE:20260912
-SUMMARY:🔓 LEAP India Ltd. — 30D anchor unlock (23\,384\,427 sh\; ~Rs.371.8 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/leap-india-ipo/2583/
-END:VEVENT
-BEGIN:VEVENT
-UID:leap-india-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261110
-DTEND;VALUE=DATE:20261111
-SUMMARY:🔓 LEAP India Ltd. — 90D anchor unlock (23\,384\,427 sh\; ~Rs.371.8 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/leap-india-ipo/2583/
+UID:lapl-automotive-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270205
+DTEND;VALUE=DATE:20270206
+SUMMARY:🔓 LAPL Automotive Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/lapl-automotive-ipo/2300/
 END:VEVENT
 BEGIN:VEVENT
 UID:optimystix-entertainment-ipo-A30@unlockradar
@@ -229,25 +250,32 @@ SUMMARY:🔓 Optimystix Entertainment India Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/optimystix-entertainment-ipo/2755/
 END:VEVENT
 BEGIN:VEVENT
-UID:lapl-automotive-ipo-A30@unlockradar
+UID:technocraft-ventures-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
-SUMMARY:🔓 LAPL Automotive Ltd. — 30D anchor unlock (488\,400 sh\; 3.9% of capital\; ~Rs.4.6 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/lapl-automotive-ipo/2300/
+SUMMARY:🔓 Technocraft Ventures Ltd. — 30D anchor unlock (1\,781\,905 sh\; ~Rs.37.8 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/technocraft-ventures-ipo/2565/
 END:VEVENT
 BEGIN:VEVENT
-UID:lapl-automotive-ipo-A90@unlockradar
+UID:technocraft-ventures-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
-SUMMARY:🔓 LAPL Automotive Ltd. — 90D anchor unlock (488\,400 sh\; 3.9% of capital\; ~Rs.4.6 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/lapl-automotive-ipo/2300/
+SUMMARY:🔓 Technocraft Ventures Ltd. — 90D anchor unlock (1\,781\,905 sh\; ~Rs.37.8 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/technocraft-ventures-ipo/2565/
 END:VEVENT
 BEGIN:VEVENT
-UID:lapl-automotive-ipo-PRE6M@unlockradar
-DTSTART;VALUE=DATE:20270205
-DTEND;VALUE=DATE:20270206
-SUMMARY:🔓 LAPL Automotive Ltd. — 6M pre-IPO unlock
-DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/lapl-automotive-ipo/2300/
+UID:leap-india-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SUMMARY:🔓 LEAP India Ltd. — 30D anchor unlock (23\,384\,427 sh\; ~Rs.371.8 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/leap-india-ipo/2583/
+END:VEVENT
+BEGIN:VEVENT
+UID:leap-india-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:🔓 LEAP India Ltd. — 90D anchor unlock (23\,384\,427 sh\; ~Rs.371.8 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/leap-india-ipo/2583/
 END:VEVENT
 BEGIN:VEVENT
 UID:ardee-industries-ipo-A30@unlockradar
@@ -684,25 +712,11 @@ SUMMARY:🔓 SBI Funds Management Ltd. — 90D anchor unlock (23\,196\,547 sh\; 
 DESCRIPTION:https://www.chittorgarh.com/ipo/sbi-funds-management-ipo/2949/
 END:VEVENT
 BEGIN:VEVENT
-UID:laser-power-infra-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260813
-DTEND;VALUE=DATE:20260814
-SUMMARY:🔓 Laser Power & Infra Ltd. — 30D anchor unlock (5\,200\,933 sh\; ~Rs.111.3 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/laser-power-infra-ipo/2654/
-END:VEVENT
-BEGIN:VEVENT
 UID:laser-power-infra-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
 SUMMARY:🔓 Laser Power & Infra Ltd. — 90D anchor unlock (5\,200\,933 sh\; ~Rs.111.3 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/laser-power-infra-ipo/2654/
-END:VEVENT
-BEGIN:VEVENT
-UID:happy-steels-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260813
-DTEND;VALUE=DATE:20260814
-SUMMARY:🔓 Happy Steels Ltd. — 30D anchor unlock (538\,000 sh\; 3.77% of capital\; ~Rs.3.5 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/happy-steels-ipo/2864/
 END:VEVENT
 BEGIN:VEVENT
 UID:happy-steels-ipo-A90@unlockradar
@@ -731,13 +745,6 @@ DTSTART;VALUE=DATE:20280708
 DTEND;VALUE=DATE:20280709
 SUMMARY:🔓 Happy Steels Ltd. — 2Y promoter unlock (3\,785\,123 sh\; 26.49% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/happy-steels-ipo/2864/
-END:VEVENT
-BEGIN:VEVENT
-UID:devson-catalyst-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260813
-DTEND;VALUE=DATE:20260814
-SUMMARY:🔓 Devson Catalyst Ltd. — 30D anchor unlock (500\,400 sh\; 3.68% of capital\; ~Rs.5.9 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/devson-catalyst-ipo/2943/
 END:VEVENT
 BEGIN:VEVENT
 UID:devson-catalyst-ipo-A90@unlockradar
@@ -1230,13 +1237,6 @@ SUMMARY:🔓 Teamtech Formwork Solutions Ltd. — 2Y promoter unlock (5\,945\,73
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/teamtech-formwork-solutions-ipo/2964/
 END:VEVENT
 BEGIN:VEVENT
-UID:goldline-pharmaceutical-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20260813
-DTEND;VALUE=DATE:20260814
-SUMMARY:🔓 Goldline Pharmaceutical Ltd. — 90D anchor unlock (366\,000 sh\; 3.81% of capital\; ~Rs.1.6 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/goldline-pharmaceutical-ipo/2773/
-END:VEVENT
-BEGIN:VEVENT
 UID:goldline-pharmaceutical-ipo-PRE6M@unlockradar
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
@@ -1550,13 +1550,6 @@ DTSTART;VALUE=DATE:20280219
 DTEND;VALUE=DATE:20280220
 SUMMARY:🔓 Manilam Industries India Ltd. — 2Y promoter unlock (4\,571\,694 sh\; 20.93% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/manilam-industries-ipo/2727/
-END:VEVENT
-BEGIN:VEVENT
-UID:fractal-industries-ipo-PRE6M@unlockradar
-DTSTART;VALUE=DATE:20260813
-DTEND;VALUE=DATE:20260814
-SUMMARY:🔓 Fractal Industries Ltd. — 6M pre-IPO unlock (159\,037 sh\; 2.03% of capital)
-DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/fractal-industries-ipo/2780/
 END:VEVENT
 BEGIN:VEVENT
 UID:fractal-industries-ipo-PX1Y@unlockradar
