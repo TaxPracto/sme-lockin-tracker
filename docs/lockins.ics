@@ -57,14 +57,14 @@ BEGIN:VEVENT
 UID:technocrats-plasma-systems-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
-SUMMARY:🔓 Technocrats Plasma Systems Ltd. — 30D anchor unlock
+SUMMARY:🔓 Technocrats Plasma Systems Ltd. — 30D anchor unlock (657\,000 sh\; 3.75% of capital\; ~Rs.8.7 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/technocrats-plasma-systems-ipo/2840/
 END:VEVENT
 BEGIN:VEVENT
 UID:technocrats-plasma-systems-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
-SUMMARY:🔓 Technocrats Plasma Systems Ltd. — 90D anchor unlock
+SUMMARY:🔓 Technocrats Plasma Systems Ltd. — 90D anchor unlock (657\,000 sh\; 3.75% of capital\; ~Rs.8.7 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/technocrats-plasma-systems-ipo/2840/
 END:VEVENT
 BEGIN:VEVENT
@@ -180,34 +180,6 @@ SUMMARY:🔓 G.V.Electricals Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/gv-electricals-ipo/2985/
 END:VEVENT
 BEGIN:VEVENT
-UID:molbio-diagnostics-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260912
-DTEND;VALUE=DATE:20260913
-SUMMARY:🔓 Molbio Diagnostics Ltd. — 30D anchor unlock (1\,743\,858 sh\; ~Rs.140.7 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/molbio-diagnostics-ipo/2579/
-END:VEVENT
-BEGIN:VEVENT
-UID:molbio-diagnostics-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261111
-DTEND;VALUE=DATE:20261112
-SUMMARY:🔓 Molbio Diagnostics Ltd. — 90D anchor unlock (1\,743\,858 sh\; ~Rs.140.7 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/molbio-diagnostics-ipo/2579/
-END:VEVENT
-BEGIN:VEVENT
-UID:dhoot-transmission-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260912
-DTEND;VALUE=DATE:20260913
-SUMMARY:🔓 Dhoot Transmission Ltd. — 30D anchor unlock (5\,271\,328 sh\; ~Rs.459.1 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/dhoot-transmission-ipo/2859/
-END:VEVENT
-BEGIN:VEVENT
-UID:dhoot-transmission-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261111
-DTEND;VALUE=DATE:20261112
-SUMMARY:🔓 Dhoot Transmission Ltd. — 90D anchor unlock (5\,271\,328 sh\; ~Rs.459.1 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/dhoot-transmission-ipo/2859/
-END:VEVENT
-BEGIN:VEVENT
 UID:lapl-automotive-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
@@ -227,6 +199,34 @@ DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:🔓 LAPL Automotive Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/lapl-automotive-ipo/2300/
+END:VEVENT
+BEGIN:VEVENT
+UID:molbio-diagnostics-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+SUMMARY:🔓 Molbio Diagnostics Ltd. — 30D anchor unlock (1\,743\,858 sh\; ~Rs.140.7 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/molbio-diagnostics-ipo/2579/
+END:VEVENT
+BEGIN:VEVENT
+UID:molbio-diagnostics-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:🔓 Molbio Diagnostics Ltd. — 90D anchor unlock (1\,743\,858 sh\; ~Rs.140.7 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/molbio-diagnostics-ipo/2579/
+END:VEVENT
+BEGIN:VEVENT
+UID:dhoot-transmission-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+SUMMARY:🔓 Dhoot Transmission Ltd. — 30D anchor unlock (5\,271\,328 sh\; ~Rs.459.1 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/dhoot-transmission-ipo/2859/
+END:VEVENT
+BEGIN:VEVENT
+UID:dhoot-transmission-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:🔓 Dhoot Transmission Ltd. — 90D anchor unlock (5\,271\,328 sh\; ~Rs.459.1 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/dhoot-transmission-ipo/2859/
 END:VEVENT
 BEGIN:VEVENT
 UID:optimystix-entertainment-ipo-A30@unlockradar

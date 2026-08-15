@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-14T09:07:54+05:30",
+ "generated_at": "2026-08-15T08:01:31+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -158,9 +158,9 @@
    "boa_date": "2026-08-13",
    "d30": "2026-09-18",
    "d90": "2026-11-17",
-   "anchor_shares": 0,
-   "anchor_investment_cr": 0.0,
-   "pct_of_issue": null,
+   "anchor_shares": 1314000,
+   "anchor_investment_cr": 17.34,
+   "pct_of_issue": 22.14,
    "isin": "",
    "nse_symbol": "",
    "bse_code": "",
@@ -182,17 +182,17 @@
     {
      "t": "A30",
      "d": "2026-09-18",
-     "sh": null,
-     "pct": null,
-     "val": null,
+     "sh": 657000,
+     "pct": 3.75,
+     "val": 8.67,
      "est": false
     },
     {
      "t": "A90",
      "d": "2026-11-17",
-     "sh": null,
-     "pct": null,
-     "val": null,
+     "sh": 657000,
+     "pct": 3.75,
+     "val": 8.67,
      "est": false
     },
     {
@@ -503,92 +503,6 @@
    ]
   },
   {
-   "company": "Molbio Diagnostics Ltd.",
-   "slug": "molbio-diagnostics-ipo",
-   "url": "https://www.chittorgarh.com/ipo/molbio-diagnostics-ipo/2579/",
-   "category": "Mainboard",
-   "anchor_allotment_date": "2026-08-07",
-   "boa_date": "2026-08-07",
-   "d30": "2026-09-12",
-   "d90": "2026-11-11",
-   "anchor_shares": 3487717,
-   "anchor_investment_cr": 281.46,
-   "pct_of_issue": 23.05,
-   "isin": "",
-   "nse_symbol": "",
-   "bse_code": "",
-   "pre_shares": null,
-   "post_shares": null,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": null,
-   "anchor_names": [],
-   "lm": [],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-09-12",
-     "sh": 1743858,
-     "pct": null,
-     "val": 140.73,
-     "est": false
-    },
-    {
-     "t": "A90",
-     "d": "2026-11-11",
-     "sh": 1743858,
-     "pct": null,
-     "val": 140.73,
-     "est": false
-    }
-   ]
-  },
-  {
-   "company": "Dhoot Transmission Ltd.",
-   "slug": "dhoot-transmission-ipo",
-   "url": "https://www.chittorgarh.com/ipo/dhoot-transmission-ipo/2859/",
-   "category": "Mainboard",
-   "anchor_allotment_date": "2026-08-07",
-   "boa_date": "2026-08-07",
-   "d30": "2026-09-12",
-   "d90": "2026-11-11",
-   "anchor_shares": 10542657,
-   "anchor_investment_cr": 918.27,
-   "pct_of_issue": 23.04,
-   "isin": "",
-   "nse_symbol": "",
-   "bse_code": "",
-   "pre_shares": null,
-   "post_shares": null,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": null,
-   "anchor_names": [],
-   "lm": [],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-09-12",
-     "sh": 5271328,
-     "pct": null,
-     "val": 459.135,
-     "est": false
-    },
-    {
-     "t": "A90",
-     "d": "2026-11-11",
-     "sh": 5271328,
-     "pct": null,
-     "val": 459.135,
-     "est": false
-    }
-   ]
-  },
-  {
    "company": "LAPL Automotive Ltd.",
    "slug": "lapl-automotive-ipo",
    "url": "https://www.chittorgarh.com/ipo/lapl-automotive-ipo/2300/",
@@ -641,6 +555,92 @@
      "pct": null,
      "val": null,
      "est": true
+    }
+   ]
+  },
+  {
+   "company": "Molbio Diagnostics Ltd.",
+   "slug": "molbio-diagnostics-ipo",
+   "url": "https://www.chittorgarh.com/ipo/molbio-diagnostics-ipo/2579/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-08-07",
+   "boa_date": "2026-08-07",
+   "d30": "2026-09-11",
+   "d90": "2026-11-10",
+   "anchor_shares": 3487717,
+   "anchor_investment_cr": 281.46,
+   "pct_of_issue": 23.05,
+   "isin": "INE869T01028",
+   "nse_symbol": "MOLBIO",
+   "bse_code": 544866,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-09-11",
+     "sh": 1743858,
+     "pct": null,
+     "val": 140.73,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-11-10",
+     "sh": 1743858,
+     "pct": null,
+     "val": 140.73,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "Dhoot Transmission Ltd.",
+   "slug": "dhoot-transmission-ipo",
+   "url": "https://www.chittorgarh.com/ipo/dhoot-transmission-ipo/2859/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-08-07",
+   "boa_date": "2026-08-07",
+   "d30": "2026-09-11",
+   "d90": "2026-11-10",
+   "anchor_shares": 10542657,
+   "anchor_investment_cr": 918.27,
+   "pct_of_issue": 23.04,
+   "isin": "INE01NH01023",
+   "nse_symbol": "DHOOTTRANS",
+   "bse_code": 544867,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-09-11",
+     "sh": 5271328,
+     "pct": null,
+     "val": 459.135,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-11-10",
+     "sh": 5271328,
+     "pct": null,
+     "val": 459.135,
+     "est": false
     }
    ]
   },
