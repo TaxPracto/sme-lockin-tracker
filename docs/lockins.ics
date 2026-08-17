@@ -5,6 +5,34 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:sunshine-pictures-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260921
+SUMMARY:🔓 Sunshine Pictures Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/sunshine-pictures-ipo/2002/
+END:VEVENT
+BEGIN:VEVENT
+UID:sunshine-pictures-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:🔓 Sunshine Pictures Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/sunshine-pictures-ipo/2002/
+END:VEVENT
+BEGIN:VEVENT
+UID:shankesh-jewellers-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260921
+SUMMARY:🔓 Shankesh Jewellers Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/shankesh-jewellers-ipo/2663/
+END:VEVENT
+BEGIN:VEVENT
+UID:shankesh-jewellers-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:🔓 Shankesh Jewellers Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/shankesh-jewellers-ipo/2663/
+END:VEVENT
+BEGIN:VEVENT
 UID:lalithaa-jewellery-mart-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
@@ -677,13 +705,6 @@ SUMMARY:🔓 Sotefin Bharat Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/sotefin-bharat-ipo/2836/
 END:VEVENT
 BEGIN:VEVENT
-UID:millworks-technologies-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260816
-DTEND;VALUE=DATE:20260817
-SUMMARY:🔓 Millworks Technologies Ltd. — 30D anchor unlock (662\,600 sh\; 3.76% of capital\; ~Rs.21.9 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/millworks-technologies-ipo/2866/
-END:VEVENT
-BEGIN:VEVENT
 UID:millworks-technologies-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
@@ -696,13 +717,6 @@ DTSTART;VALUE=DATE:20270113
 DTEND;VALUE=DATE:20270114
 SUMMARY:🔓 Millworks Technologies Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/millworks-technologies-ipo/2866/
-END:VEVENT
-BEGIN:VEVENT
-UID:sbi-funds-management-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260816
-DTEND;VALUE=DATE:20260817
-SUMMARY:🔓 SBI Funds Management Ltd. — 30D anchor unlock (23\,196\,547 sh\; ~Rs.1331.5 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/sbi-funds-management-ipo/2949/
 END:VEVENT
 BEGIN:VEVENT
 UID:sbi-funds-management-ipo-A90@unlockradar
