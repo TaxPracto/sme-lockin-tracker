@@ -5,6 +5,20 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:gaja-alternative-asset-management-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
+SUMMARY:🔓 Gaja Alternative Asset Management Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/gaja-alternative-asset-management-ipo/2527/
+END:VEVENT
+BEGIN:VEVENT
+UID:gaja-alternative-asset-management-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:🔓 Gaja Alternative Asset Management Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/gaja-alternative-asset-management-ipo/2527/
+END:VEVENT
+BEGIN:VEVENT
 UID:sunshine-pictures-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260920
 DTEND;VALUE=DATE:20260921
@@ -36,28 +50,28 @@ BEGIN:VEVENT
 UID:lalithaa-jewellery-mart-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
-SUMMARY:🔓 Lalithaa Jewellery Mart Ltd. — 30D anchor unlock
+SUMMARY:🔓 Lalithaa Jewellery Mart Ltd. — 30D anchor unlock (12\,641\,790 sh\; ~Rs.254.1 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/lalithaa-jewellery-mart-ipo/2469/
 END:VEVENT
 BEGIN:VEVENT
 UID:lalithaa-jewellery-mart-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
-SUMMARY:🔓 Lalithaa Jewellery Mart Ltd. — 90D anchor unlock
+SUMMARY:🔓 Lalithaa Jewellery Mart Ltd. — 90D anchor unlock (12\,641\,790 sh\; ~Rs.254.1 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/lalithaa-jewellery-mart-ipo/2469/
 END:VEVENT
 BEGIN:VEVENT
 UID:horizon-industrial-parks-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
-SUMMARY:🔓 Horizon Industrial Parks Ltd. — 30D anchor unlock
+SUMMARY:🔓 Horizon Industrial Parks Ltd. — 30D anchor unlock (97\,312\,500 sh\; ~Rs.583.9 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/horizon-industrial-parks-ipo/2826/
 END:VEVENT
 BEGIN:VEVENT
 UID:horizon-industrial-parks-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
-SUMMARY:🔓 Horizon Industrial Parks Ltd. — 90D anchor unlock
+SUMMARY:🔓 Horizon Industrial Parks Ltd. — 90D anchor unlock (97\,312\,500 sh\; ~Rs.583.9 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/horizon-industrial-parks-ipo/2826/
 END:VEVENT
 BEGIN:VEVENT
@@ -173,20 +187,6 @@ SUMMARY:🔓 Pramodini Medicare Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/pramodini-medicare-ipo/3088/
 END:VEVENT
 BEGIN:VEVENT
-UID:milky-mist-dairy-food-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260913
-DTEND;VALUE=DATE:20260914
-SUMMARY:🔓 Milky Mist Dairy Food Ltd. — 30D anchor unlock (16\,617\,856 sh\; ~Rs.232.7 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/milky-mist-dairy-food-ipo/2541/
-END:VEVENT
-BEGIN:VEVENT
-UID:milky-mist-dairy-food-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261112
-DTEND;VALUE=DATE:20261113
-SUMMARY:🔓 Milky Mist Dairy Food Ltd. — 90D anchor unlock (16\,617\,856 sh\; ~Rs.232.7 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/milky-mist-dairy-food-ipo/2541/
-END:VEVENT
-BEGIN:VEVENT
 UID:gv-electricals-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260913
 DTEND;VALUE=DATE:20260914
@@ -206,6 +206,20 @@ DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270131
 SUMMARY:🔓 G.V.Electricals Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/gv-electricals-ipo/2985/
+END:VEVENT
+BEGIN:VEVENT
+UID:milky-mist-dairy-food-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:🔓 Milky Mist Dairy Food Ltd. — 30D anchor unlock (16\,617\,856 sh\; ~Rs.232.7 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/milky-mist-dairy-food-ipo/2541/
+END:VEVENT
+BEGIN:VEVENT
+UID:milky-mist-dairy-food-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:🔓 Milky Mist Dairy Food Ltd. — 90D anchor unlock (16\,617\,856 sh\; ~Rs.232.7 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/milky-mist-dairy-food-ipo/2541/
 END:VEVENT
 BEGIN:VEVENT
 UID:lapl-automotive-ipo-A30@unlockradar

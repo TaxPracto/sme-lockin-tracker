@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-17T08:09:58+05:30",
+ "generated_at": "2026-08-18T08:04:32+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -7,6 +7,49 @@
   2026
  ],
  "records": [
+  {
+   "company": "Gaja Alternative Asset Management Ltd.",
+   "slug": "gaja-alternative-asset-management-ipo",
+   "url": "https://www.chittorgarh.com/ipo/gaja-alternative-asset-management-ipo/2527/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-08-18",
+   "boa_date": "2026-08-18",
+   "d30": "2026-09-23",
+   "d90": "2026-11-22",
+   "anchor_shares": 0,
+   "anchor_investment_cr": 0.0,
+   "pct_of_issue": null,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-09-23",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-11-22",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
   {
    "company": "Sunshine Pictures Ltd.",
    "slug": "sunshine-pictures-ipo",
@@ -102,9 +145,9 @@
    "boa_date": "2026-08-14",
    "d30": "2026-09-19",
    "d90": "2026-11-18",
-   "anchor_shares": 0,
-   "anchor_investment_cr": 0.0,
-   "pct_of_issue": null,
+   "anchor_shares": 25283581,
+   "anchor_investment_cr": 508.2,
+   "pct_of_issue": 23.01,
    "isin": "",
    "nse_symbol": "",
    "bse_code": "",
@@ -121,17 +164,17 @@
     {
      "t": "A30",
      "d": "2026-09-19",
-     "sh": null,
+     "sh": 12641790,
      "pct": null,
-     "val": null,
+     "val": 254.1,
      "est": false
     },
     {
      "t": "A90",
      "d": "2026-11-18",
-     "sh": null,
+     "sh": 12641790,
      "pct": null,
-     "val": null,
+     "val": 254.1,
      "est": false
     }
    ]
@@ -145,9 +188,9 @@
    "boa_date": "2026-08-14",
    "d30": "2026-09-19",
    "d90": "2026-11-18",
-   "anchor_shares": 0,
-   "anchor_investment_cr": 0.0,
-   "pct_of_issue": null,
+   "anchor_shares": 194625000,
+   "anchor_investment_cr": 1167.75,
+   "pct_of_issue": 30.99,
    "isin": "",
    "nse_symbol": "",
    "bse_code": "",
@@ -164,17 +207,17 @@
     {
      "t": "A30",
      "d": "2026-09-19",
-     "sh": null,
+     "sh": 97312500,
      "pct": null,
-     "val": null,
+     "val": 583.875,
      "est": false
     },
     {
      "t": "A90",
      "d": "2026-11-18",
-     "sh": null,
+     "sh": 97312500,
      "pct": null,
-     "val": null,
+     "val": 583.875,
      "est": false
     }
    ]
@@ -490,49 +533,6 @@
    ]
   },
   {
-   "company": "Milky Mist Dairy Food Ltd.",
-   "slug": "milky-mist-dairy-food-ipo",
-   "url": "https://www.chittorgarh.com/ipo/milky-mist-dairy-food-ipo/2541/",
-   "category": "Mainboard",
-   "anchor_allotment_date": "2026-08-10",
-   "boa_date": "2026-08-10",
-   "d30": "2026-09-13",
-   "d90": "2026-11-12",
-   "anchor_shares": 33235713,
-   "anchor_investment_cr": 465.3,
-   "pct_of_issue": 23.05,
-   "isin": "",
-   "nse_symbol": "",
-   "bse_code": "",
-   "pre_shares": null,
-   "post_shares": null,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": null,
-   "anchor_names": [],
-   "lm": [],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-09-13",
-     "sh": 16617856,
-     "pct": null,
-     "val": 232.65,
-     "est": false
-    },
-    {
-     "t": "A90",
-     "d": "2026-11-12",
-     "sh": 16617856,
-     "pct": null,
-     "val": 232.65,
-     "est": false
-    }
-   ]
-  },
-  {
    "company": "G.V.Electricals Ltd.",
    "slug": "gv-electricals-ipo",
    "url": "https://www.chittorgarh.com/ipo/gv-electricals-ipo/2985/",
@@ -585,6 +585,49 @@
      "pct": null,
      "val": null,
      "est": true
+    }
+   ]
+  },
+  {
+   "company": "Milky Mist Dairy Food Ltd.",
+   "slug": "milky-mist-dairy-food-ipo",
+   "url": "https://www.chittorgarh.com/ipo/milky-mist-dairy-food-ipo/2541/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-08-10",
+   "boa_date": "2026-08-10",
+   "d30": "2026-09-12",
+   "d90": "2026-11-11",
+   "anchor_shares": 33235713,
+   "anchor_investment_cr": 465.3,
+   "pct_of_issue": 23.05,
+   "isin": "INE00IT01020",
+   "nse_symbol": "MILKYMIST",
+   "bse_code": 544868,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-09-12",
+     "sh": 16617856,
+     "pct": null,
+     "val": 232.65,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-11-11",
+     "sh": 16617856,
+     "pct": null,
+     "val": 232.65,
+     "est": false
     }
    ]
   },
