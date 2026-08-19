@@ -5,6 +5,20 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:tempsens-instruments-india-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:🔓 Tempsens Instruments (India) Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/tempsens-instruments-india-ipo/2668/
+END:VEVENT
+BEGIN:VEVENT
+UID:tempsens-instruments-india-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:🔓 Tempsens Instruments (India) Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/tempsens-instruments-india-ipo/2668/
+END:VEVENT
+BEGIN:VEVENT
 UID:gaja-alternative-asset-management-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20260924
@@ -22,28 +36,28 @@ BEGIN:VEVENT
 UID:sunshine-pictures-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260920
 DTEND;VALUE=DATE:20260921
-SUMMARY:🔓 Sunshine Pictures Ltd. — 30D anchor unlock
+SUMMARY:🔓 Sunshine Pictures Ltd. — 30D anchor unlock (1\,175\,570 sh\; ~Rs.42.3 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/sunshine-pictures-ipo/2002/
 END:VEVENT
 BEGIN:VEVENT
 UID:sunshine-pictures-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
-SUMMARY:🔓 Sunshine Pictures Ltd. — 90D anchor unlock
+SUMMARY:🔓 Sunshine Pictures Ltd. — 90D anchor unlock (1\,175\,570 sh\; ~Rs.42.3 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/sunshine-pictures-ipo/2002/
 END:VEVENT
 BEGIN:VEVENT
 UID:shankesh-jewellers-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260920
 DTEND;VALUE=DATE:20260921
-SUMMARY:🔓 Shankesh Jewellers Ltd. — 30D anchor unlock
+SUMMARY:🔓 Shankesh Jewellers Ltd. — 30D anchor unlock (5\,922\,300 sh\; ~Rs.55.1 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/shankesh-jewellers-ipo/2663/
 END:VEVENT
 BEGIN:VEVENT
 UID:shankesh-jewellers-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
-SUMMARY:🔓 Shankesh Jewellers Ltd. — 90D anchor unlock
+SUMMARY:🔓 Shankesh Jewellers Ltd. — 90D anchor unlock (5\,922\,300 sh\; ~Rs.55.1 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/shankesh-jewellers-ipo/2663/
 END:VEVENT
 BEGIN:VEVENT
