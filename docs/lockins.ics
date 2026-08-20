@@ -5,6 +5,20 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:augmont-enterprises-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:🔓 Augmont Enterprises Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/augmont-enterprises-ipo/2673/
+END:VEVENT
+BEGIN:VEVENT
+UID:augmont-enterprises-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:🔓 Augmont Enterprises Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/augmont-enterprises-ipo/2673/
+END:VEVENT
+BEGIN:VEVENT
 UID:tempsens-instruments-india-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
@@ -22,14 +36,14 @@ BEGIN:VEVENT
 UID:gaja-alternative-asset-management-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20260924
-SUMMARY:🔓 Gaja Alternative Asset Management Ltd. — 30D anchor unlock
+SUMMARY:🔓 Gaja Alternative Asset Management Ltd. — 30D anchor unlock (5\,156\,250 sh\; ~Rs.82.5 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/gaja-alternative-asset-management-ipo/2527/
 END:VEVENT
 BEGIN:VEVENT
 UID:gaja-alternative-asset-management-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
-SUMMARY:🔓 Gaja Alternative Asset Management Ltd. — 90D anchor unlock
+SUMMARY:🔓 Gaja Alternative Asset Management Ltd. — 90D anchor unlock (5\,156\,250 sh\; ~Rs.82.5 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/gaja-alternative-asset-management-ipo/2527/
 END:VEVENT
 BEGIN:VEVENT
@@ -152,34 +166,6 @@ SUMMARY:🔓 Credent Connect N Care Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/credent-connect-ipo/2991/
 END:VEVENT
 BEGIN:VEVENT
-UID:shiprocket-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260916
-DTEND;VALUE=DATE:20260917
-SUMMARY:🔓 Shiprocket Ltd. — 30D anchor unlock (37\,495\,784 sh\; ~Rs.363.7 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/shiprocket-ipo/2450/
-END:VEVENT
-BEGIN:VEVENT
-UID:shiprocket-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:🔓 Shiprocket Ltd. — 90D anchor unlock (37\,495\,784 sh\; ~Rs.363.7 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/shiprocket-ipo/2450/
-END:VEVENT
-BEGIN:VEVENT
-UID:behari-lal-engineering-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260916
-DTEND;VALUE=DATE:20260917
-SUMMARY:🔓 Behari Lal Engineering Ltd. — 30D anchor unlock (1\,587\,473 sh\; ~Rs.45.2 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/behari-lal-engineering-ipo/2659/
-END:VEVENT
-BEGIN:VEVENT
-UID:behari-lal-engineering-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:🔓 Behari Lal Engineering Ltd. — 90D anchor unlock (1\,587\,473 sh\; ~Rs.45.2 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/behari-lal-engineering-ipo/2659/
-END:VEVENT
-BEGIN:VEVENT
 UID:pramodini-medicare-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20260917
@@ -199,6 +185,34 @@ DTSTART;VALUE=DATE:20270211
 DTEND;VALUE=DATE:20270212
 SUMMARY:🔓 Pramodini Medicare Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/pramodini-medicare-ipo/3088/
+END:VEVENT
+BEGIN:VEVENT
+UID:shiprocket-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+SUMMARY:🔓 Shiprocket Ltd. — 30D anchor unlock (37\,495\,784 sh\; ~Rs.363.7 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/shiprocket-ipo/2450/
+END:VEVENT
+BEGIN:VEVENT
+UID:shiprocket-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:🔓 Shiprocket Ltd. — 90D anchor unlock (37\,495\,784 sh\; ~Rs.363.7 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/shiprocket-ipo/2450/
+END:VEVENT
+BEGIN:VEVENT
+UID:behari-lal-engineering-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+SUMMARY:🔓 Behari Lal Engineering Ltd. — 30D anchor unlock (1\,587\,473 sh\; ~Rs.45.2 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/behari-lal-engineering-ipo/2659/
+END:VEVENT
+BEGIN:VEVENT
+UID:behari-lal-engineering-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:🔓 Behari Lal Engineering Ltd. — 90D anchor unlock (1\,587\,473 sh\; ~Rs.45.2 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/behari-lal-engineering-ipo/2659/
 END:VEVENT
 BEGIN:VEVENT
 UID:gv-electricals-ipo-A30@unlockradar
@@ -1571,13 +1585,6 @@ DTSTART;VALUE=DATE:20280220
 DTEND;VALUE=DATE:20280221
 SUMMARY:🔓 Accord Transformer & Switchgear Ltd. — 2Y promoter unlock (4\,318\,333 sh\; 20.99% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/accord-transformer-switchgear-ipo/2763/
-END:VEVENT
-BEGIN:VEVENT
-UID:manilam-industries-ipo-PRE6M@unlockradar
-DTSTART;VALUE=DATE:20260819
-DTEND;VALUE=DATE:20260820
-SUMMARY:🔓 Manilam Industries India Ltd. — 6M pre-IPO unlock (3\,637\,514 sh\; 16.65% of capital)
-DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/manilam-industries-ipo/2727/
 END:VEVENT
 BEGIN:VEVENT
 UID:manilam-industries-ipo-PX1Y@unlockradar
