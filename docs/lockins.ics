@@ -5,6 +5,69 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:skyways-air-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:🔓 Skyways Air Services Ltd. — 30D anchor unlock (6\,324\,000 sh\; ~Rs.87.3 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/skyways-air-ipo/2510/
+END:VEVENT
+BEGIN:VEVENT
+UID:skyways-air-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:🔓 Skyways Air Services Ltd. — 90D anchor unlock (6\,324\,000 sh\; ~Rs.87.3 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/skyways-air-ipo/2510/
+END:VEVENT
+BEGIN:VEVENT
+UID:hy-tech-engineers-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:🔓 Hy-Tech Engineers Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/hy-tech-engineers-ipo/2591/
+END:VEVENT
+BEGIN:VEVENT
+UID:hy-tech-engineers-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:🔓 Hy-Tech Engineers Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/hy-tech-engineers-ipo/2591/
+END:VEVENT
+BEGIN:VEVENT
+UID:madhur-knit-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:🔓 Madhur Knit Crafts Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/madhur-knit-ipo/2783/
+END:VEVENT
+BEGIN:VEVENT
+UID:madhur-knit-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:🔓 Madhur Knit Crafts Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/madhur-knit-ipo/2783/
+END:VEVENT
+BEGIN:VEVENT
+UID:madhur-knit-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+SUMMARY:🔓 Madhur Knit Crafts Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/madhur-knit-ipo/2783/
+END:VEVENT
+BEGIN:VEVENT
+UID:symbiotec-pharmalab-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:🔓 Symbiotec Pharmalab Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/symbiotec-pharmalab-ipo/2815/
+END:VEVENT
+BEGIN:VEVENT
+UID:symbiotec-pharmalab-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:🔓 Symbiotec Pharmalab Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/symbiotec-pharmalab-ipo/2815/
+END:VEVENT
+BEGIN:VEVENT
 UID:augmont-enterprises-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260926
 DTEND;VALUE=DATE:20260927
@@ -22,14 +85,14 @@ BEGIN:VEVENT
 UID:tempsens-instruments-india-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
-SUMMARY:🔓 Tempsens Instruments (India) Ltd. — 30D anchor unlock
+SUMMARY:🔓 Tempsens Instruments (India) Ltd. — 30D anchor unlock (3\,242\,499 sh\; ~Rs.97.3 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/tempsens-instruments-india-ipo/2668/
 END:VEVENT
 BEGIN:VEVENT
 UID:tempsens-instruments-india-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
-SUMMARY:🔓 Tempsens Instruments (India) Ltd. — 90D anchor unlock
+SUMMARY:🔓 Tempsens Instruments (India) Ltd. — 90D anchor unlock (3\,242\,499 sh\; ~Rs.97.3 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/tempsens-instruments-india-ipo/2668/
 END:VEVENT
 BEGIN:VEVENT
@@ -726,13 +789,6 @@ SUMMARY:🔓 Caliber Mining & Logistics Ltd. — 90D anchor unlock (1\,591\,980 
 DESCRIPTION:https://www.chittorgarh.com/ipo/caliber-mining-ipo/1999/
 END:VEVENT
 BEGIN:VEVENT
-UID:sotefin-bharat-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260820
-DTEND;VALUE=DATE:20260821
-SUMMARY:🔓 Sotefin Bharat Ltd. — 30D anchor unlock (684\,000 sh\; 3.77% of capital\; ~Rs.12.8 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/sotefin-bharat-ipo/2836/
-END:VEVENT
-BEGIN:VEVENT
 UID:sotefin-bharat-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261019
 DTEND;VALUE=DATE:20261020
@@ -1265,13 +1321,6 @@ SUMMARY:🔓 Vegorama Punjabi Angithi Ltd. — 2Y promoter unlock (4\,112\,051 s
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/vegorama-punjabi-angithi-ipo/2477/
 END:VEVENT
 BEGIN:VEVENT
-UID:teamtech-formwork-solutions-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20260820
-DTEND;VALUE=DATE:20260821
-SUMMARY:🔓 Teamtech Formwork Solutions Ltd. — 90D anchor unlock (1\,133\,000 sh\; 3.78% of capital\; ~Rs.7.1 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/teamtech-formwork-solutions-ipo/2964/
-END:VEVENT
-BEGIN:VEVENT
 UID:teamtech-formwork-solutions-ipo-PRE6M@unlockradar
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
@@ -1545,13 +1594,6 @@ SUMMARY:🔓 Yaap Digital Ltd. — 2Y promoter unlock (4\,084\,028 sh\; 19.51% o
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/yaap-digital-ipo/2582/
 END:VEVENT
 BEGIN:VEVENT
-UID:mobilise-app-ipo-PRE6M@unlockradar
-DTSTART;VALUE=DATE:20260820
-DTEND;VALUE=DATE:20260821
-SUMMARY:🔓 Mobilise App Lab Ltd. — 6M pre-IPO unlock (280\,000 sh\; 2.94% of capital)
-DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/mobilise-app-ipo/2584/
-END:VEVENT
-BEGIN:VEVENT
 UID:mobilise-app-ipo-PX1Y@unlockradar
 DTSTART;VALUE=DATE:20270220
 DTEND;VALUE=DATE:20270221
@@ -1564,13 +1606,6 @@ DTSTART;VALUE=DATE:20280220
 DTEND;VALUE=DATE:20280221
 SUMMARY:🔓 Mobilise App Lab Ltd. — 2Y promoter unlock (2\,408\,914 sh\; 25.32% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/mobilise-app-ipo/2584/
-END:VEVENT
-BEGIN:VEVENT
-UID:accord-transformer-switchgear-ipo-PRE6M@unlockradar
-DTSTART;VALUE=DATE:20260820
-DTEND;VALUE=DATE:20260821
-SUMMARY:🔓 Accord Transformer & Switchgear Ltd. — 6M pre-IPO unlock (2\,260\,700 sh\; 10.99% of capital)
-DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/accord-transformer-switchgear-ipo/2763/
 END:VEVENT
 BEGIN:VEVENT
 UID:accord-transformer-switchgear-ipo-PX1Y@unlockradar
