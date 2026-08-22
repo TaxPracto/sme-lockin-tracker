@@ -36,14 +36,14 @@ BEGIN:VEVENT
 UID:madhur-knit-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
-SUMMARY:🔓 Madhur Knit Crafts Ltd. — 30D anchor unlock
+SUMMARY:🔓 Madhur Knit Crafts Ltd. — 30D anchor unlock (151\,200 sh\; 0.81% of capital\; ~Rs.1.5 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/madhur-knit-ipo/2783/
 END:VEVENT
 BEGIN:VEVENT
 UID:madhur-knit-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
-SUMMARY:🔓 Madhur Knit Crafts Ltd. — 90D anchor unlock
+SUMMARY:🔓 Madhur Knit Crafts Ltd. — 90D anchor unlock (151\,200 sh\; 0.81% of capital\; ~Rs.1.5 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/madhur-knit-ipo/2783/
 END:VEVENT
 BEGIN:VEVENT
@@ -71,14 +71,14 @@ BEGIN:VEVENT
 UID:augmont-enterprises-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260926
 DTEND;VALUE=DATE:20260927
-SUMMARY:🔓 Augmont Enterprises Ltd. — 30D anchor unlock
+SUMMARY:🔓 Augmont Enterprises Ltd. — 30D anchor unlock (1\,562\,816 sh\; ~Rs.123.2 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/augmont-enterprises-ipo/2673/
 END:VEVENT
 BEGIN:VEVENT
 UID:augmont-enterprises-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
-SUMMARY:🔓 Augmont Enterprises Ltd. — 90D anchor unlock
+SUMMARY:🔓 Augmont Enterprises Ltd. — 90D anchor unlock (1\,562\,816 sh\; ~Rs.123.2 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/augmont-enterprises-ipo/2673/
 END:VEVENT
 BEGIN:VEVENT
@@ -174,8 +174,8 @@ DESCRIPTION:https://www.chittorgarh.com/ipo/ens-enterprises-ipo/2792/
 END:VEVENT
 BEGIN:VEVENT
 UID:ens-enterprises-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261117
-DTEND;VALUE=DATE:20261118
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
 SUMMARY:🔓 ENS Enterprises Ltd. — 90D anchor unlock (513\,000 sh\; 3.77% of capital\; ~Rs.4.7 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/ens-enterprises-ipo/2792/
 END:VEVENT
@@ -773,13 +773,6 @@ DTSTART;VALUE=DATE:20280720
 DTEND;VALUE=DATE:20280721
 SUMMARY:🔓 Metalic Technoforge Ltd. — 2Y promoter unlock (4\,916\,802 sh\; 20.5% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/metalic-technoforge-ipo/2993/
-END:VEVENT
-BEGIN:VEVENT
-UID:caliber-mining-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260821
-DTEND;VALUE=DATE:20260822
-SUMMARY:🔓 Caliber Mining & Logistics Ltd. — 30D anchor unlock (1\,591\,980 sh\; ~Rs.67.5 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/caliber-mining-ipo/1999/
 END:VEVENT
 BEGIN:VEVENT
 UID:caliber-mining-ipo-A90@unlockradar
