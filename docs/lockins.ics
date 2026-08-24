@@ -5,6 +5,41 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:annu-projects-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:🔓 Annu Projects Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/annu-projects-ipo/2500/
+END:VEVENT
+BEGIN:VEVENT
+UID:annu-projects-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:🔓 Annu Projects Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/annu-projects-ipo/2500/
+END:VEVENT
+BEGIN:VEVENT
+UID:sumax-engineering-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:🔓 Sumax Engineering Ltd. — 30D anchor unlock (717\,600 sh\; 3.77% of capital\; ~Rs.7.2 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/sumax-engineering-ipo/2977/
+END:VEVENT
+BEGIN:VEVENT
+UID:sumax-engineering-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:🔓 Sumax Engineering Ltd. — 90D anchor unlock (717\,600 sh\; 3.77% of capital\; ~Rs.7.2 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/sumax-engineering-ipo/2977/
+END:VEVENT
+BEGIN:VEVENT
+UID:sumax-engineering-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270224
+DTEND;VALUE=DATE:20270225
+SUMMARY:🔓 Sumax Engineering Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/sumax-engineering-ipo/2977/
+END:VEVENT
+BEGIN:VEVENT
 UID:skyways-air-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
@@ -738,13 +773,6 @@ DTSTART;VALUE=DATE:20270121
 DTEND;VALUE=DATE:20270122
 SUMMARY:🔓 Shree Balaji (Mala) Textiles Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/shree-balaji-mala-ipo/2706/
-END:VEVENT
-BEGIN:VEVENT
-UID:metalic-technoforge-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260823
-DTEND;VALUE=DATE:20260824
-SUMMARY:🔓 Metalic Technoforge Ltd. — 30D anchor unlock (920\,000 sh\; 3.84% of capital\; ~Rs.7.1 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/metalic-technoforge-ipo/2993/
 END:VEVENT
 BEGIN:VEVENT
 UID:metalic-technoforge-ipo-A90@unlockradar

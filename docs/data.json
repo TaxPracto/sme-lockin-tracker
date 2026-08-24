@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-23T08:13:15+05:30",
+ "generated_at": "2026-08-24T08:13:59+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -7,6 +7,115 @@
   2026
  ],
  "records": [
+  {
+   "company": "Annu Projects Ltd.",
+   "slug": "annu-projects-ipo",
+   "url": "https://www.chittorgarh.com/ipo/annu-projects-ipo/2500/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-08-24",
+   "boa_date": "2026-08-24",
+   "d30": "2026-09-30",
+   "d90": "2026-11-29",
+   "anchor_shares": 0,
+   "anchor_investment_cr": 0.0,
+   "pct_of_issue": null,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-09-30",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-11-29",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": null,
+   "chg_from_issue_pct": null
+  },
+  {
+   "company": "Sumax Engineering Ltd.",
+   "slug": "sumax-engineering-ipo",
+   "url": "https://www.chittorgarh.com/ipo/sumax-engineering-ipo/2977/",
+   "category": "SME",
+   "anchor_allotment_date": "2026-08-24",
+   "boa_date": "2026-08-24",
+   "d30": "2026-09-30",
+   "d90": "2026-11-29",
+   "anchor_shares": 1435200,
+   "anchor_investment_cr": 14.5,
+   "pct_of_issue": 21.35,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": 14731500,
+   "post_shares": 19022700,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": "2026-09-02",
+   "anchor_names": [],
+   "lm": [
+    [
+     182,
+     "GYR Capital Advisors Pvt.Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-09-30",
+     "sh": 717600,
+     "pct": 3.77,
+     "val": 7.25,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-11-29",
+     "sh": 717600,
+     "pct": 3.77,
+     "val": 7.25,
+     "est": false
+    },
+    {
+     "t": "PRE6M",
+     "d": "2027-02-24",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": true
+    }
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 101.03,
+   "chg_from_issue_pct": null
+  },
   {
    "company": "Skyways Air Services Ltd.",
    "slug": "skyways-air-ipo",
