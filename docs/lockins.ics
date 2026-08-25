@@ -5,6 +5,41 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:lumino-industries-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:🔓 Lumino Industries Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/lumino-industries-ipo/2013/
+END:VEVENT
+BEGIN:VEVENT
+UID:lumino-industries-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:🔓 Lumino Industries Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/lumino-industries-ipo/2013/
+END:VEVENT
+BEGIN:VEVENT
+UID:kwick-forensic-solutions-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:🔓 Kwick Forensic Solutions Ltd. — 30D anchor unlock (801\,600 sh\; 3.74% of capital\; ~Rs.7.2 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/kwick-forensic-solutions-ipo/2757/
+END:VEVENT
+BEGIN:VEVENT
+UID:kwick-forensic-solutions-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:🔓 Kwick Forensic Solutions Ltd. — 90D anchor unlock (801\,600 sh\; 3.74% of capital\; ~Rs.7.2 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/kwick-forensic-solutions-ipo/2757/
+END:VEVENT
+BEGIN:VEVENT
+UID:kwick-forensic-solutions-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
+SUMMARY:🔓 Kwick Forensic Solutions Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/kwick-forensic-solutions-ipo/2757/
+END:VEVENT
+BEGIN:VEVENT
 UID:annu-projects-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
@@ -57,14 +92,14 @@ BEGIN:VEVENT
 UID:hy-tech-engineers-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
-SUMMARY:🔓 Hy-Tech Engineers Ltd. — 30D anchor unlock
+SUMMARY:🔓 Hy-Tech Engineers Ltd. — 30D anchor unlock (3\,841\,530 sh\; ~Rs.20.4 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/hy-tech-engineers-ipo/2591/
 END:VEVENT
 BEGIN:VEVENT
 UID:hy-tech-engineers-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
-SUMMARY:🔓 Hy-Tech Engineers Ltd. — 90D anchor unlock
+SUMMARY:🔓 Hy-Tech Engineers Ltd. — 90D anchor unlock (3\,841\,530 sh\; ~Rs.20.4 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/hy-tech-engineers-ipo/2591/
 END:VEVENT
 BEGIN:VEVENT
@@ -92,14 +127,14 @@ BEGIN:VEVENT
 UID:symbiotec-pharmalab-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
-SUMMARY:🔓 Symbiotec Pharmalab Ltd. — 30D anchor unlock
+SUMMARY:🔓 Symbiotec Pharmalab Ltd. — 30D anchor unlock (2\,662\,954 sh\; ~Rs.263.1 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/symbiotec-pharmalab-ipo/2815/
 END:VEVENT
 BEGIN:VEVENT
 UID:symbiotec-pharmalab-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
-SUMMARY:🔓 Symbiotec Pharmalab Ltd. — 90D anchor unlock
+SUMMARY:🔓 Symbiotec Pharmalab Ltd. — 90D anchor unlock (2\,662\,954 sh\; ~Rs.263.1 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/symbiotec-pharmalab-ipo/2815/
 END:VEVENT
 BEGIN:VEVENT
@@ -174,29 +209,29 @@ DESCRIPTION:https://www.chittorgarh.com/ipo/shankesh-jewellers-ipo/2663/
 END:VEVENT
 BEGIN:VEVENT
 UID:lalithaa-jewellery-mart-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260919
-DTEND;VALUE=DATE:20260920
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
 SUMMARY:🔓 Lalithaa Jewellery Mart Ltd. — 30D anchor unlock (12\,641\,790 sh\; ~Rs.254.1 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/lalithaa-jewellery-mart-ipo/2469/
 END:VEVENT
 BEGIN:VEVENT
 UID:lalithaa-jewellery-mart-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261119
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
 SUMMARY:🔓 Lalithaa Jewellery Mart Ltd. — 90D anchor unlock (12\,641\,790 sh\; ~Rs.254.1 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/lalithaa-jewellery-mart-ipo/2469/
 END:VEVENT
 BEGIN:VEVENT
 UID:horizon-industrial-parks-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260919
-DTEND;VALUE=DATE:20260920
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
 SUMMARY:🔓 Horizon Industrial Parks Ltd. — 30D anchor unlock (97\,312\,500 sh\; ~Rs.583.9 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/horizon-industrial-parks-ipo/2826/
 END:VEVENT
 BEGIN:VEVENT
 UID:horizon-industrial-parks-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261119
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
 SUMMARY:🔓 Horizon Industrial Parks Ltd. — 90D anchor unlock (97\,312\,500 sh\; ~Rs.583.9 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/horizon-industrial-parks-ipo/2826/
 END:VEVENT
@@ -1272,13 +1307,6 @@ SUMMARY:🔓 Rajnandini Fashion India Ltd. — 2Y promoter unlock (2\,598\,203 s
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/rajnandini-fashion-india-ipo/2729/
 END:VEVENT
 BEGIN:VEVENT
-UID:m-r-maniveni-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20260824
-DTEND;VALUE=DATE:20260825
-SUMMARY:🔓 M R Maniveni Foods Ltd. — 90D anchor unlock (735\,000 sh\; 3.76% of capital\; ~Rs.3.8 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/m-r-maniveni-ipo/2627/
-END:VEVENT
-BEGIN:VEVENT
 UID:m-r-maniveni-ipo-PRE6M@unlockradar
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
@@ -1298,13 +1326,6 @@ DTSTART;VALUE=DATE:20280521
 DTEND;VALUE=DATE:20280522
 SUMMARY:🔓 M R Maniveni Foods Ltd. — 2Y promoter unlock (5\,133\,840 sh\; 26.23% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/m-r-maniveni-ipo/2627/
-END:VEVENT
-BEGIN:VEVENT
-UID:q-line-biotec-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20260824
-DTEND;VALUE=DATE:20260825
-SUMMARY:🔓 Q-Line Biotech Ltd. — 90D anchor unlock (890\,600 sh\; 3.82% of capital\; ~Rs.30.6 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/q-line-biotec-ipo/2745/
 END:VEVENT
 BEGIN:VEVENT
 UID:q-line-biotec-ipo-PRE6M@unlockradar
@@ -1585,13 +1606,6 @@ DTSTART;VALUE=DATE:20280225
 DTEND;VALUE=DATE:20280226
 SUMMARY:🔓 Striders Impex Ltd. — 2Y promoter unlock (4\,609\,539 sh\; 24.76% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/striders-impex-ipo/2714/
-END:VEVENT
-BEGIN:VEVENT
-UID:yaap-digital-ipo-PRE6M@unlockradar
-DTSTART;VALUE=DATE:20260824
-DTEND;VALUE=DATE:20260825
-SUMMARY:🔓 Yaap Digital Ltd. — 6M pre-IPO unlock (3\,052\,324 sh\; 14.58% of capital)
-DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/yaap-digital-ipo/2582/
 END:VEVENT
 BEGIN:VEVENT
 UID:yaap-digital-ipo-PX1Y@unlockradar
