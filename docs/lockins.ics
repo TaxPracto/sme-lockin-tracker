@@ -40,20 +40,6 @@ SUMMARY:🔓 Kwick Forensic Solutions Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/kwick-forensic-solutions-ipo/2757/
 END:VEVENT
 BEGIN:VEVENT
-UID:annu-projects-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260930
-DTEND;VALUE=DATE:20261001
-SUMMARY:🔓 Annu Projects Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/annu-projects-ipo/2500/
-END:VEVENT
-BEGIN:VEVENT
-UID:annu-projects-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261129
-DTEND;VALUE=DATE:20261130
-SUMMARY:🔓 Annu Projects Ltd. — 90D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/annu-projects-ipo/2500/
-END:VEVENT
-BEGIN:VEVENT
 UID:sumax-engineering-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
@@ -181,29 +167,29 @@ DESCRIPTION:https://www.chittorgarh.com/ipo/gaja-alternative-asset-management-ip
 END:VEVENT
 BEGIN:VEVENT
 UID:sunshine-pictures-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260920
-DTEND;VALUE=DATE:20260921
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
 SUMMARY:🔓 Sunshine Pictures Ltd. — 30D anchor unlock (1\,175\,570 sh\; ~Rs.42.3 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/sunshine-pictures-ipo/2002/
 END:VEVENT
 BEGIN:VEVENT
 UID:sunshine-pictures-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
 SUMMARY:🔓 Sunshine Pictures Ltd. — 90D anchor unlock (1\,175\,570 sh\; ~Rs.42.3 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/sunshine-pictures-ipo/2002/
 END:VEVENT
 BEGIN:VEVENT
 UID:shankesh-jewellers-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260920
-DTEND;VALUE=DATE:20260921
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
 SUMMARY:🔓 Shankesh Jewellers Ltd. — 30D anchor unlock (5\,922\,300 sh\; ~Rs.55.1 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/shankesh-jewellers-ipo/2663/
 END:VEVENT
 BEGIN:VEVENT
 UID:shankesh-jewellers-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
 SUMMARY:🔓 Shankesh Jewellers Ltd. — 90D anchor unlock (5\,922\,300 sh\; ~Rs.55.1 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/shankesh-jewellers-ipo/2663/
 END:VEVENT
@@ -787,13 +773,6 @@ DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
 SUMMARY:🔓 Indo-MIM Ltd. — 90D anchor unlock (11\,762\,828 sh\; ~Rs.570.5 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/indo-mim-ipo/2682/
-END:VEVENT
-BEGIN:VEVENT
-UID:shree-balaji-mala-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260825
-DTEND;VALUE=DATE:20260826
-SUMMARY:🔓 Shree Balaji (Mala) Textiles Ltd. — 30D anchor unlock (382\,000 sh\; 3.86% of capital\; ~Rs.2.7 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/shree-balaji-mala-ipo/2706/
 END:VEVENT
 BEGIN:VEVENT
 UID:shree-balaji-mala-ipo-A90@unlockradar
@@ -1585,13 +1564,6 @@ DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:🔓 Apsis Aerocom Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/apsis-aerocom-ipo/2752/
-END:VEVENT
-BEGIN:VEVENT
-UID:striders-impex-ipo-PRE6M@unlockradar
-DTSTART;VALUE=DATE:20260825
-DTEND;VALUE=DATE:20260826
-SUMMARY:🔓 Striders Impex Ltd. — 6M pre-IPO unlock (635\,264 sh\; 3.41% of capital)
-DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/striders-impex-ipo/2714/
 END:VEVENT
 BEGIN:VEVENT
 UID:striders-impex-ipo-PX1Y@unlockradar
