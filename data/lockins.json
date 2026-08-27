@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-26T08:15:41+05:30",
+ "generated_at": "2026-08-27T17:16:18+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -8,14 +8,14 @@
  ],
  "records": [
   {
-   "company": "Lumino Industries Ltd.",
-   "slug": "lumino-industries-ipo",
-   "url": "https://www.chittorgarh.com/ipo/lumino-industries-ipo/2013/",
+   "company": "ESDS Software Solution Ltd.",
+   "slug": "esds-software-ipo",
+   "url": "https://www.chittorgarh.com/ipo/esds-software-ipo/1198/",
    "category": "Mainboard",
-   "anchor_allotment_date": "2026-08-25",
-   "boa_date": "2026-08-25",
-   "d30": "2026-10-01",
-   "d90": "2026-11-30",
+   "anchor_allotment_date": "2026-08-27",
+   "boa_date": "2026-08-27",
+   "d30": "2026-10-02",
+   "d90": "2026-12-01",
    "anchor_shares": 0,
    "anchor_investment_cr": 0.0,
    "pct_of_issue": null,
@@ -34,7 +34,7 @@
    "events": [
     {
      "t": "A30",
-     "d": "2026-10-01",
+     "d": "2026-10-02",
      "sh": null,
      "pct": null,
      "val": null,
@@ -42,10 +42,208 @@
     },
     {
      "t": "A90",
-     "d": "2026-11-30",
+     "d": "2026-12-01",
      "sh": null,
      "pct": null,
      "val": null,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "Priority Jewels Ltd.",
+   "slug": "priority-jewels-ipo",
+   "url": "https://www.chittorgarh.com/ipo/priority-jewels-ipo/2435/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-08-27",
+   "boa_date": "2026-08-27",
+   "d30": "2026-10-02",
+   "d90": "2026-12-01",
+   "anchor_shares": 0,
+   "anchor_investment_cr": 0.0,
+   "pct_of_issue": null,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-02",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-12-01",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "Paluck Technologies Ltd.",
+   "slug": "paluck-technologies-ipo",
+   "url": "https://www.chittorgarh.com/ipo/paluck-technologies-ipo/2702/",
+   "category": "SME",
+   "anchor_allotment_date": "2026-08-27",
+   "boa_date": "2026-08-27",
+   "d30": "2026-10-02",
+   "d90": "2026-12-01",
+   "anchor_shares": 1956000,
+   "anchor_investment_cr": 9.39,
+   "pct_of_issue": 22.15,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": 13946282,
+   "post_shares": 20822282,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": "2026-09-04",
+   "anchor_names": [],
+   "lm": [
+    [
+     406,
+     "Horizon Management Pvt.Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-02",
+     "sh": 978000,
+     "pct": 4.7,
+     "val": 4.695,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-12-01",
+     "sh": 978000,
+     "pct": 4.7,
+     "val": 4.695,
+     "est": false
+    },
+    {
+     "t": "PRE6M",
+     "d": "2027-02-27",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": true
+    }
+   ]
+  },
+  {
+   "company": "Complete Sports & Management India Ltd.",
+   "slug": "complete-sports-and-management-ipo",
+   "url": "https://www.chittorgarh.com/ipo/complete-sports-and-management-ipo/3182/",
+   "category": "SME",
+   "anchor_allotment_date": "2026-08-27",
+   "boa_date": "2026-08-27",
+   "d30": "2026-10-02",
+   "d90": "2026-12-01",
+   "anchor_shares": 1579000,
+   "anchor_investment_cr": 21.32,
+   "pct_of_issue": 22.15,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": 15010000,
+   "post_shares": 20560000,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": "2026-09-04",
+   "anchor_names": [],
+   "lm": [
+    [
+     172,
+     "Smart Horizon Capital Advisors Pvt.Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-02",
+     "sh": 789500,
+     "pct": 3.84,
+     "val": 10.66,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-12-01",
+     "sh": 789500,
+     "pct": 3.84,
+     "val": 10.66,
+     "est": false
+    },
+    {
+     "t": "PRE6M",
+     "d": "2027-02-27",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": true
+    }
+   ]
+  },
+  {
+   "company": "Lumino Industries Ltd.",
+   "slug": "lumino-industries-ipo",
+   "url": "https://www.chittorgarh.com/ipo/lumino-industries-ipo/2013/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-08-25",
+   "boa_date": "2026-08-25",
+   "d30": "2026-10-01",
+   "d90": "2026-11-30",
+   "anchor_shares": 25243901,
+   "anchor_investment_cr": 207.0,
+   "pct_of_issue": 22.82,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-01",
+     "sh": 12621950,
+     "pct": null,
+     "val": 103.5,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-11-30",
+     "sh": 12621950,
+     "pct": null,
+     "val": 103.5,
      "est": false
     }
    ]
@@ -402,9 +600,9 @@
    "anchor_shares": 6484999,
    "anchor_investment_cr": 194.55,
    "pct_of_issue": 23.04,
-   "isin": "",
+   "isin": "INE1KZI01025",
    "nse_symbol": "",
-   "bse_code": "",
+   "bse_code": 544886,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -440,8 +638,8 @@
    "category": "Mainboard",
    "anchor_allotment_date": "2026-08-18",
    "boa_date": "2026-08-18",
-   "d30": "2026-09-23",
-   "d90": "2026-11-22",
+   "d30": "2026-09-22",
+   "d90": "2026-11-21",
    "anchor_shares": 10312500,
    "anchor_investment_cr": 165.0,
    "pct_of_issue": 23.08,
@@ -460,7 +658,7 @@
    "events": [
     {
      "t": "A30",
-     "d": "2026-09-23",
+     "d": "2026-09-22",
      "sh": 5156250,
      "pct": null,
      "val": 82.5,
@@ -468,7 +666,7 @@
     },
     {
      "t": "A90",
-     "d": "2026-11-22",
+     "d": "2026-11-21",
      "sh": 5156250,
      "pct": null,
      "val": 82.5,

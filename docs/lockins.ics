@@ -5,17 +5,87 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:esds-software-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:🔓 ESDS Software Solution Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/esds-software-ipo/1198/
+END:VEVENT
+BEGIN:VEVENT
+UID:esds-software-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:🔓 ESDS Software Solution Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/esds-software-ipo/1198/
+END:VEVENT
+BEGIN:VEVENT
+UID:priority-jewels-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:🔓 Priority Jewels Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/priority-jewels-ipo/2435/
+END:VEVENT
+BEGIN:VEVENT
+UID:priority-jewels-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:🔓 Priority Jewels Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/priority-jewels-ipo/2435/
+END:VEVENT
+BEGIN:VEVENT
+UID:paluck-technologies-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:🔓 Paluck Technologies Ltd. — 30D anchor unlock (978\,000 sh\; 4.7% of capital\; ~Rs.4.7 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/paluck-technologies-ipo/2702/
+END:VEVENT
+BEGIN:VEVENT
+UID:paluck-technologies-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:🔓 Paluck Technologies Ltd. — 90D anchor unlock (978\,000 sh\; 4.7% of capital\; ~Rs.4.7 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/paluck-technologies-ipo/2702/
+END:VEVENT
+BEGIN:VEVENT
+UID:paluck-technologies-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+SUMMARY:🔓 Paluck Technologies Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/paluck-technologies-ipo/2702/
+END:VEVENT
+BEGIN:VEVENT
+UID:complete-sports-and-management-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:🔓 Complete Sports & Management India Ltd. — 30D anchor unlock (789\,500 sh\; 3.84% of capital\; ~Rs.10.7 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/complete-sports-and-management-ipo/3182/
+END:VEVENT
+BEGIN:VEVENT
+UID:complete-sports-and-management-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:🔓 Complete Sports & Management India Ltd. — 90D anchor unlock (789\,500 sh\; 3.84% of capital\; ~Rs.10.7 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/complete-sports-and-management-ipo/3182/
+END:VEVENT
+BEGIN:VEVENT
+UID:complete-sports-and-management-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+SUMMARY:🔓 Complete Sports & Management India Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/complete-sports-and-management-ipo/3182/
+END:VEVENT
+BEGIN:VEVENT
 UID:lumino-industries-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
-SUMMARY:🔓 Lumino Industries Ltd. — 30D anchor unlock
+SUMMARY:🔓 Lumino Industries Ltd. — 30D anchor unlock (12\,621\,950 sh\; ~Rs.103.5 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/lumino-industries-ipo/2013/
 END:VEVENT
 BEGIN:VEVENT
 UID:lumino-industries-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
-SUMMARY:🔓 Lumino Industries Ltd. — 90D anchor unlock
+SUMMARY:🔓 Lumino Industries Ltd. — 90D anchor unlock (12\,621\,950 sh\; ~Rs.103.5 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/lumino-industries-ipo/2013/
 END:VEVENT
 BEGIN:VEVENT
@@ -153,15 +223,15 @@ DESCRIPTION:https://www.chittorgarh.com/ipo/tempsens-instruments-india-ipo/2668/
 END:VEVENT
 BEGIN:VEVENT
 UID:gaja-alternative-asset-management-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260923
-DTEND;VALUE=DATE:20260924
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260923
 SUMMARY:🔓 Gaja Alternative Asset Management Ltd. — 30D anchor unlock (5\,156\,250 sh\; ~Rs.82.5 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/gaja-alternative-asset-management-ipo/2527/
 END:VEVENT
 BEGIN:VEVENT
 UID:gaja-alternative-asset-management-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
 SUMMARY:🔓 Gaja Alternative Asset Management Ltd. — 90D anchor unlock (5\,156\,250 sh\; ~Rs.82.5 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/gaja-alternative-asset-management-ipo/2527/
 END:VEVENT
@@ -747,25 +817,11 @@ SUMMARY:🔓 Cube Highways Trust — 90D anchor unlock (55\,509\,782 sh)
 DESCRIPTION:https://www.chittorgarh.com/ipo/cube-highways-trust-invit/3192/
 END:VEVENT
 BEGIN:VEVENT
-UID:lohia-corp-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260826
-DTEND;VALUE=DATE:20260827
-SUMMARY:🔓 Lohia Corp Ltd. — 30D anchor unlock (5\,789\,566 sh\; ~Rs.246.1 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/lohia-corp-ipo/2574/
-END:VEVENT
-BEGIN:VEVENT
 UID:lohia-corp-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
 SUMMARY:🔓 Lohia Corp Ltd. — 90D anchor unlock (5\,789\,566 sh\; ~Rs.246.1 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/lohia-corp-ipo/2574/
-END:VEVENT
-BEGIN:VEVENT
-UID:indo-mim-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260826
-DTEND;VALUE=DATE:20260827
-SUMMARY:🔓 Indo-MIM Ltd. — 30D anchor unlock (11\,762\,828 sh\; ~Rs.570.5 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/indo-mim-ipo/2682/
 END:VEVENT
 BEGIN:VEVENT
 UID:indo-mim-ipo-A90@unlockradar
