@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-27T17:16:18+05:30",
+ "generated_at": "2026-08-28T18:39:08+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -8,14 +8,14 @@
  ],
  "records": [
   {
-   "company": "ESDS Software Solution Ltd.",
-   "slug": "esds-software-ipo",
-   "url": "https://www.chittorgarh.com/ipo/esds-software-ipo/1198/",
+   "company": "Purple Style Labs Ltd.",
+   "slug": "purple-style-labs-ipo",
+   "url": "https://www.chittorgarh.com/ipo/purple-style-labs-ipo/2622/",
    "category": "Mainboard",
-   "anchor_allotment_date": "2026-08-27",
-   "boa_date": "2026-08-27",
-   "d30": "2026-10-02",
-   "d90": "2026-12-01",
+   "anchor_allotment_date": "2026-08-28",
+   "boa_date": "2026-08-28",
+   "d30": "2026-10-03",
+   "d90": "2026-12-02",
    "anchor_shares": 0,
    "anchor_investment_cr": 0.0,
    "pct_of_issue": null,
@@ -34,7 +34,7 @@
    "events": [
     {
      "t": "A30",
-     "d": "2026-10-02",
+     "d": "2026-10-03",
      "sh": null,
      "pct": null,
      "val": null,
@@ -42,10 +42,221 @@
     },
     {
      "t": "A90",
-     "d": "2026-12-01",
+     "d": "2026-12-02",
      "sh": null,
      "pct": null,
      "val": null,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "Phychem Technologies Ltd.",
+   "slug": "phychem-technologies-ipo",
+   "url": "https://www.chittorgarh.com/ipo/phychem-technologies-ipo/2730/",
+   "category": "SME",
+   "anchor_allotment_date": "2026-08-28",
+   "boa_date": "2026-08-28",
+   "d30": "2026-10-03",
+   "d90": "2026-12-02",
+   "anchor_shares": 768000,
+   "anchor_investment_cr": 4.15,
+   "pct_of_issue": 22.15,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": 7540000,
+   "post_shares": 10240000,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": "2026-09-07",
+   "anchor_names": [],
+   "lm": [
+    [
+     76,
+     "Hem Securities Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-03",
+     "sh": 384000,
+     "pct": 3.75,
+     "val": 2.075,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-12-02",
+     "sh": 384000,
+     "pct": 3.75,
+     "val": 2.075,
+     "est": false
+    },
+    {
+     "t": "PRE6M",
+     "d": "2027-02-28",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": true
+    }
+   ]
+  },
+  {
+   "company": "Shanti Inorganics Ltd.",
+   "slug": "shanti-inorganics-ipo",
+   "url": "https://www.chittorgarh.com/ipo/shanti-inorganics-ipo/2736/",
+   "category": "SME",
+   "anchor_allotment_date": "2026-08-28",
+   "boa_date": "2026-08-28",
+   "d30": "2026-10-03",
+   "d90": "2026-12-02",
+   "anchor_shares": 0,
+   "anchor_investment_cr": 0.0,
+   "pct_of_issue": null,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": 11556200,
+   "post_shares": 17247400,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": "2026-09-07",
+   "anchor_names": [],
+   "lm": [
+    [
+     62,
+     "Vivro Financial Services Pvt.Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-03",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-12-02",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    },
+    {
+     "t": "PRE6M",
+     "d": "2027-02-28",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": true
+    }
+   ]
+  },
+  {
+   "company": "Ashutosh Fibre Ltd.",
+   "slug": "ashutosh-fibre-ipo",
+   "url": "https://www.chittorgarh.com/ipo/ashutosh-fibre-ipo/2751/",
+   "category": "SME",
+   "anchor_allotment_date": "2026-08-28",
+   "boa_date": "2026-08-28",
+   "d30": "2026-10-03",
+   "d90": "2026-12-02",
+   "anchor_shares": 1743600,
+   "anchor_investment_cr": 16.04,
+   "pct_of_issue": 22.16,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": 15750000,
+   "post_shares": 21874800,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": "2026-09-07",
+   "anchor_names": [],
+   "lm": [
+    [
+     463,
+     "Mefcom Capital Markets Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-03",
+     "sh": 871800,
+     "pct": 3.99,
+     "val": 8.02,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-12-02",
+     "sh": 871800,
+     "pct": 3.99,
+     "val": 8.02,
+     "est": false
+    },
+    {
+     "t": "PRE6M",
+     "d": "2027-02-28",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": true
+    }
+   ]
+  },
+  {
+   "company": "ESDS Software Solution Ltd.",
+   "slug": "esds-software-ipo",
+   "url": "https://www.chittorgarh.com/ipo/esds-software-ipo/1198/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-08-27",
+   "boa_date": "2026-08-27",
+   "d30": "2026-10-02",
+   "d90": "2026-12-01",
+   "anchor_shares": 5034964,
+   "anchor_investment_cr": 216.0,
+   "pct_of_issue": 23.08,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-02",
+     "sh": 2517482,
+     "pct": null,
+     "val": 108.0,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-12-01",
+     "sh": 2517482,
+     "pct": null,
+     "val": 108.0,
      "est": false
     }
    ]
@@ -59,9 +270,9 @@
    "boa_date": "2026-08-27",
    "d30": "2026-10-02",
    "d90": "2026-12-01",
-   "anchor_shares": 0,
-   "anchor_investment_cr": 0.0,
-   "pct_of_issue": null,
+   "anchor_shares": 1372500,
+   "anchor_investment_cr": 27.45,
+   "pct_of_issue": 23.08,
    "isin": "",
    "nse_symbol": "",
    "bse_code": "",
@@ -78,17 +289,17 @@
     {
      "t": "A30",
      "d": "2026-10-02",
-     "sh": null,
+     "sh": 686250,
      "pct": null,
-     "val": null,
+     "val": 13.725,
      "est": false
     },
     {
      "t": "A90",
      "d": "2026-12-01",
-     "sh": null,
+     "sh": 686250,
      "pct": null,
-     "val": null,
+     "val": 13.725,
      "est": false
     }
    ]
@@ -104,7 +315,7 @@
    "d90": "2026-12-01",
    "anchor_shares": 1956000,
    "anchor_investment_cr": 9.39,
-   "pct_of_issue": 22.15,
+   "pct_of_issue": 33.54,
    "isin": "",
    "nse_symbol": "",
    "bse_code": "",
@@ -557,9 +768,9 @@
    "anchor_shares": 3125633,
    "anchor_investment_cr": 246.3,
    "pct_of_issue": 22.99,
-   "isin": "",
+   "isin": "INE16W401027",
    "nse_symbol": "",
-   "bse_code": "",
+   "bse_code": 544888,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -595,13 +806,13 @@
    "category": "Mainboard",
    "anchor_allotment_date": "2026-08-19",
    "boa_date": "2026-08-19",
-   "d30": "2026-09-24",
-   "d90": "2026-11-23",
+   "d30": "2026-09-23",
+   "d90": "2026-11-22",
    "anchor_shares": 6484999,
    "anchor_investment_cr": 194.55,
    "pct_of_issue": 23.04,
    "isin": "INE1KZI01025",
-   "nse_symbol": "",
+   "nse_symbol": "TEMPSENS",
    "bse_code": 544886,
    "pre_shares": null,
    "post_shares": null,
@@ -615,7 +826,7 @@
    "events": [
     {
      "t": "A30",
-     "d": "2026-09-24",
+     "d": "2026-09-23",
      "sh": 3242499,
      "pct": null,
      "val": 97.275,
@@ -623,7 +834,7 @@
     },
     {
      "t": "A90",
-     "d": "2026-11-23",
+     "d": "2026-11-22",
      "sh": 3242499,
      "pct": null,
      "val": 97.275,

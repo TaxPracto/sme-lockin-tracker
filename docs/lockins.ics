@@ -5,31 +5,108 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:purple-style-labs-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:🔓 Purple Style Labs Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/purple-style-labs-ipo/2622/
+END:VEVENT
+BEGIN:VEVENT
+UID:purple-style-labs-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:🔓 Purple Style Labs Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/purple-style-labs-ipo/2622/
+END:VEVENT
+BEGIN:VEVENT
+UID:phychem-technologies-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:🔓 Phychem Technologies Ltd. — 30D anchor unlock (384\,000 sh\; 3.75% of capital\; ~Rs.2.1 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/phychem-technologies-ipo/2730/
+END:VEVENT
+BEGIN:VEVENT
+UID:phychem-technologies-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:🔓 Phychem Technologies Ltd. — 90D anchor unlock (384\,000 sh\; 3.75% of capital\; ~Rs.2.1 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/phychem-technologies-ipo/2730/
+END:VEVENT
+BEGIN:VEVENT
+UID:phychem-technologies-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:🔓 Phychem Technologies Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/phychem-technologies-ipo/2730/
+END:VEVENT
+BEGIN:VEVENT
+UID:shanti-inorganics-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:🔓 Shanti Inorganics Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/shanti-inorganics-ipo/2736/
+END:VEVENT
+BEGIN:VEVENT
+UID:shanti-inorganics-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:🔓 Shanti Inorganics Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/shanti-inorganics-ipo/2736/
+END:VEVENT
+BEGIN:VEVENT
+UID:shanti-inorganics-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:🔓 Shanti Inorganics Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/shanti-inorganics-ipo/2736/
+END:VEVENT
+BEGIN:VEVENT
+UID:ashutosh-fibre-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:🔓 Ashutosh Fibre Ltd. — 30D anchor unlock (871\,800 sh\; 3.99% of capital\; ~Rs.8.0 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/ashutosh-fibre-ipo/2751/
+END:VEVENT
+BEGIN:VEVENT
+UID:ashutosh-fibre-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:🔓 Ashutosh Fibre Ltd. — 90D anchor unlock (871\,800 sh\; 3.99% of capital\; ~Rs.8.0 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/ashutosh-fibre-ipo/2751/
+END:VEVENT
+BEGIN:VEVENT
+UID:ashutosh-fibre-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:🔓 Ashutosh Fibre Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/ashutosh-fibre-ipo/2751/
+END:VEVENT
+BEGIN:VEVENT
 UID:esds-software-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
-SUMMARY:🔓 ESDS Software Solution Ltd. — 30D anchor unlock
+SUMMARY:🔓 ESDS Software Solution Ltd. — 30D anchor unlock (2\,517\,482 sh\; ~Rs.108.0 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/esds-software-ipo/1198/
 END:VEVENT
 BEGIN:VEVENT
 UID:esds-software-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
-SUMMARY:🔓 ESDS Software Solution Ltd. — 90D anchor unlock
+SUMMARY:🔓 ESDS Software Solution Ltd. — 90D anchor unlock (2\,517\,482 sh\; ~Rs.108.0 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/esds-software-ipo/1198/
 END:VEVENT
 BEGIN:VEVENT
 UID:priority-jewels-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
-SUMMARY:🔓 Priority Jewels Ltd. — 30D anchor unlock
+SUMMARY:🔓 Priority Jewels Ltd. — 30D anchor unlock (686\,250 sh\; ~Rs.13.7 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/priority-jewels-ipo/2435/
 END:VEVENT
 BEGIN:VEVENT
 UID:priority-jewels-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
-SUMMARY:🔓 Priority Jewels Ltd. — 90D anchor unlock
+SUMMARY:🔓 Priority Jewels Ltd. — 90D anchor unlock (686\,250 sh\; ~Rs.13.7 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/priority-jewels-ipo/2435/
 END:VEVENT
 BEGIN:VEVENT
@@ -209,15 +286,15 @@ DESCRIPTION:https://www.chittorgarh.com/ipo/augmont-enterprises-ipo/2673/
 END:VEVENT
 BEGIN:VEVENT
 UID:tempsens-instruments-india-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260924
-DTEND;VALUE=DATE:20260925
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
 SUMMARY:🔓 Tempsens Instruments (India) Ltd. — 30D anchor unlock (3\,242\,499 sh\; ~Rs.97.3 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/tempsens-instruments-india-ipo/2668/
 END:VEVENT
 BEGIN:VEVENT
 UID:tempsens-instruments-india-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261123
-DTEND;VALUE=DATE:20261124
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
 SUMMARY:🔓 Tempsens Instruments (India) Ltd. — 90D anchor unlock (3\,242\,499 sh\; ~Rs.97.3 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/tempsens-instruments-india-ipo/2668/
 END:VEVENT
