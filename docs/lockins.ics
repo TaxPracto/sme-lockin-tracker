@@ -831,13 +831,6 @@ SUMMARY:🔓 Poojaa Precision Engg.Ltd. — 2Y promoter unlock (4\,051\,818 sh\;
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/poojaa-precision-engg-ipo/2954/
 END:VEVENT
 BEGIN:VEVENT
-UID:silverstorm-parks-resorts-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260828
-DTEND;VALUE=DATE:20260829
-SUMMARY:🔓 Silverstorm Parks & Resorts Ltd. — 30D anchor unlock (826\,000 sh\; 3.64% of capital\; ~Rs.11.0 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/silverstorm-parks-resorts-ipo/2824/
-END:VEVENT
-BEGIN:VEVENT
 UID:silverstorm-parks-resorts-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261028
@@ -866,25 +859,11 @@ SUMMARY:🔓 Silverstorm Parks & Resorts Ltd. — 2Y promoter unlock (3\,512\,62
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/silverstorm-parks-resorts-ipo/2824/
 END:VEVENT
 BEGIN:VEVENT
-UID:xtranet-technologies-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260828
-DTEND;VALUE=DATE:20260829
-SUMMARY:🔓 Xtranet Technologies Ltd. — 30D anchor unlock (1\,970\,100 sh\; ~Rs.25.0 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/xtranet-technologies-ipo/2688/
-END:VEVENT
-BEGIN:VEVENT
 UID:xtranet-technologies-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
 SUMMARY:🔓 Xtranet Technologies Ltd. — 90D anchor unlock (1\,970\,100 sh\; ~Rs.25.0 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/xtranet-technologies-ipo/2688/
-END:VEVENT
-BEGIN:VEVENT
-UID:cube-highways-trust-invit-A30@unlockradar
-DTSTART;VALUE=DATE:20260828
-DTEND;VALUE=DATE:20260829
-SUMMARY:🔓 Cube Highways Trust — 30D anchor unlock (55\,509\,782 sh)
-DESCRIPTION:https://www.chittorgarh.com/ipo/cube-highways-trust-invit/3192/
 END:VEVENT
 BEGIN:VEVENT
 UID:cube-highways-trust-invit-A90@unlockradar
