@@ -5,6 +5,34 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:rays-of-belief-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:🔓 Rays of Belief Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/rays-of-belief-ipo/2787/
+END:VEVENT
+BEGIN:VEVENT
+UID:rays-of-belief-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:🔓 Rays of Belief Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/rays-of-belief-ipo/2787/
+END:VEVENT
+BEGIN:VEVENT
+UID:deepa-jewellers-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:🔓 Deepa Jewellers Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/deepa-jewellers-ipo/2827/
+END:VEVENT
+BEGIN:VEVENT
+UID:deepa-jewellers-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:🔓 Deepa Jewellers Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/deepa-jewellers-ipo/2827/
+END:VEVENT
+BEGIN:VEVENT
 UID:purple-style-labs-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261004
@@ -22,14 +50,14 @@ BEGIN:VEVENT
 UID:phychem-technologies-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261004
-SUMMARY:🔓 Phychem Technologies Ltd. — 30D anchor unlock (384\,000 sh\; 3.75% of capital\; ~Rs.2.1 cr)
+SUMMARY:🔓 Phychem Technologies Ltd. — 30D anchor unlock (381\,000 sh\; 3.72% of capital\; ~Rs.2.1 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/phychem-technologies-ipo/2730/
 END:VEVENT
 BEGIN:VEVENT
 UID:phychem-technologies-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
-SUMMARY:🔓 Phychem Technologies Ltd. — 90D anchor unlock (384\,000 sh\; 3.75% of capital\; ~Rs.2.1 cr)
+SUMMARY:🔓 Phychem Technologies Ltd. — 90D anchor unlock (381\,000 sh\; 3.72% of capital\; ~Rs.2.1 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/phychem-technologies-ipo/2730/
 END:VEVENT
 BEGIN:VEVENT
@@ -43,14 +71,14 @@ BEGIN:VEVENT
 UID:shanti-inorganics-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261004
-SUMMARY:🔓 Shanti Inorganics Ltd. — 30D anchor unlock
+SUMMARY:🔓 Shanti Inorganics Ltd. — 30D anchor unlock (809\,600 sh\; 4.69% of capital\; ~Rs.6.7 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/shanti-inorganics-ipo/2736/
 END:VEVENT
 BEGIN:VEVENT
 UID:shanti-inorganics-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
-SUMMARY:🔓 Shanti Inorganics Ltd. — 90D anchor unlock
+SUMMARY:🔓 Shanti Inorganics Ltd. — 90D anchor unlock (809\,600 sh\; 4.69% of capital\; ~Rs.6.7 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/shanti-inorganics-ipo/2736/
 END:VEVENT
 BEGIN:VEVENT
@@ -272,15 +300,15 @@ DESCRIPTION:https://www.chittorgarh.com/ipo/symbiotec-pharmalab-ipo/2815/
 END:VEVENT
 BEGIN:VEVENT
 UID:augmont-enterprises-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260926
-DTEND;VALUE=DATE:20260927
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
 SUMMARY:🔓 Augmont Enterprises Ltd. — 30D anchor unlock (1\,562\,816 sh\; ~Rs.123.2 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/augmont-enterprises-ipo/2673/
 END:VEVENT
 BEGIN:VEVENT
 UID:augmont-enterprises-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261125
-DTEND;VALUE=DATE:20261126
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
 SUMMARY:🔓 Augmont Enterprises Ltd. — 90D anchor unlock (1\,562\,816 sh\; ~Rs.123.2 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/augmont-enterprises-ipo/2673/
 END:VEVENT

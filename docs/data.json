@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-30T12:32:53+05:30",
+ "generated_at": "2026-08-31T12:48:22+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -7,6 +7,102 @@
   2026
  ],
  "records": [
+  {
+   "company": "Rays of Belief Ltd.",
+   "slug": "rays-of-belief-ipo",
+   "url": "https://www.chittorgarh.com/ipo/rays-of-belief-ipo/2787/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-08-31",
+   "boa_date": "2026-08-31",
+   "d30": "2026-10-04",
+   "d90": "2026-12-03",
+   "anchor_shares": 0,
+   "anchor_investment_cr": 0.0,
+   "pct_of_issue": null,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-04",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-12-03",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": null,
+   "chg_from_issue_pct": null
+  },
+  {
+   "company": "Deepa Jewellers Ltd.",
+   "slug": "deepa-jewellers-ipo",
+   "url": "https://www.chittorgarh.com/ipo/deepa-jewellers-ipo/2827/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-08-31",
+   "boa_date": "2026-08-31",
+   "d30": "2026-10-04",
+   "d90": "2026-12-03",
+   "anchor_shares": 0,
+   "anchor_investment_cr": 0.0,
+   "pct_of_issue": null,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-04",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-12-03",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": null,
+   "chg_from_issue_pct": null
+  },
   {
    "company": "Purple Style Labs Ltd.",
    "slug": "purple-style-labs-ipo",
@@ -18,7 +114,7 @@
    "d90": "2026-12-02",
    "anchor_shares": 0,
    "anchor_investment_cr": 0.0,
-   "pct_of_issue": null,
+   "pct_of_issue": 0.0,
    "isin": "",
    "nse_symbol": "",
    "bse_code": "",
@@ -64,9 +160,9 @@
    "boa_date": "2026-08-28",
    "d30": "2026-10-03",
    "d90": "2026-12-02",
-   "anchor_shares": 768000,
-   "anchor_investment_cr": 4.15,
-   "pct_of_issue": 22.15,
+   "anchor_shares": 762000,
+   "anchor_investment_cr": 4.11,
+   "pct_of_issue": 22.01,
    "isin": "",
    "nse_symbol": "",
    "bse_code": "",
@@ -88,17 +184,17 @@
     {
      "t": "A30",
      "d": "2026-10-03",
-     "sh": 384000,
-     "pct": 3.75,
-     "val": 2.075,
+     "sh": 381000,
+     "pct": 3.72,
+     "val": 2.055,
      "est": false
     },
     {
      "t": "A90",
      "d": "2026-12-02",
-     "sh": 384000,
-     "pct": 3.75,
-     "val": 2.075,
+     "sh": 381000,
+     "pct": 3.72,
+     "val": 2.055,
      "est": false
     },
     {
@@ -113,7 +209,7 @@
    "last_close": null,
    "close_date": null,
    "avg_vol": null,
-   "issue_px": 54.04,
+   "issue_px": 53.94,
    "chg_from_issue_pct": null
   },
   {
@@ -125,9 +221,9 @@
    "boa_date": "2026-08-28",
    "d30": "2026-10-03",
    "d90": "2026-12-02",
-   "anchor_shares": 0,
-   "anchor_investment_cr": 0.0,
-   "pct_of_issue": null,
+   "anchor_shares": 1619200,
+   "anchor_investment_cr": 13.44,
+   "pct_of_issue": 23.05,
    "isin": "",
    "nse_symbol": "",
    "bse_code": "",
@@ -149,17 +245,17 @@
     {
      "t": "A30",
      "d": "2026-10-03",
-     "sh": null,
-     "pct": null,
-     "val": null,
+     "sh": 809600,
+     "pct": 4.69,
+     "val": 6.72,
      "est": false
     },
     {
      "t": "A90",
      "d": "2026-12-02",
-     "sh": null,
-     "pct": null,
-     "val": null,
+     "sh": 809600,
+     "pct": 4.69,
+     "val": 6.72,
      "est": false
     },
     {
@@ -174,7 +270,7 @@
    "last_close": null,
    "close_date": null,
    "avg_vol": null,
-   "issue_px": null,
+   "issue_px": 83.0,
    "chg_from_issue_pct": null
   },
   {
@@ -188,7 +284,7 @@
    "d90": "2026-12-02",
    "anchor_shares": 1743600,
    "anchor_investment_cr": 16.04,
-   "pct_of_issue": 22.16,
+   "pct_of_issue": 23.06,
    "isin": "",
    "nse_symbol": "",
    "bse_code": "",
@@ -838,8 +934,8 @@
    "category": "Mainboard",
    "anchor_allotment_date": "2026-08-20",
    "boa_date": "2026-08-20",
-   "d30": "2026-09-26",
-   "d90": "2026-11-25",
+   "d30": "2026-09-25",
+   "d90": "2026-11-24",
    "anchor_shares": 3125633,
    "anchor_investment_cr": 246.3,
    "pct_of_issue": 22.99,
@@ -858,7 +954,7 @@
    "events": [
     {
      "t": "A30",
-     "d": "2026-09-26",
+     "d": "2026-09-25",
      "sh": 1562816,
      "pct": null,
      "val": 123.15,
@@ -866,7 +962,7 @@
     },
     {
      "t": "A90",
-     "d": "2026-11-25",
+     "d": "2026-11-24",
      "sh": 1562816,
      "pct": null,
      "val": 123.15,
