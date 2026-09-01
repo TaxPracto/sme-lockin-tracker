@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-31T12:48:22+05:30",
+ "generated_at": "2026-09-01T12:01:24+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -16,9 +16,9 @@
    "boa_date": "2026-08-31",
    "d30": "2026-10-04",
    "d90": "2026-12-03",
-   "anchor_shares": 0,
-   "anchor_investment_cr": 0.0,
-   "pct_of_issue": null,
+   "anchor_shares": 2092190,
+   "anchor_investment_cr": 50.0,
+   "pct_of_issue": 28.57,
    "isin": "",
    "nse_symbol": "",
    "bse_code": "",
@@ -35,17 +35,17 @@
     {
      "t": "A30",
      "d": "2026-10-04",
-     "sh": null,
+     "sh": 1046095,
      "pct": null,
-     "val": null,
+     "val": 25.0,
      "est": false
     },
     {
      "t": "A90",
      "d": "2026-12-03",
-     "sh": null,
+     "sh": 1046095,
      "pct": null,
-     "val": null,
+     "val": 25.0,
      "est": false
     }
    ]
@@ -59,9 +59,9 @@
    "boa_date": "2026-08-31",
    "d30": "2026-10-04",
    "d90": "2026-12-03",
-   "anchor_shares": 0,
-   "anchor_investment_cr": 0.0,
-   "pct_of_issue": null,
+   "anchor_shares": 7791789,
+   "anchor_investment_cr": 137.91,
+   "pct_of_issue": 23.08,
    "isin": "",
    "nse_symbol": "",
    "bse_code": "",
@@ -78,17 +78,17 @@
     {
      "t": "A30",
      "d": "2026-10-04",
-     "sh": null,
+     "sh": 3895894,
      "pct": null,
-     "val": null,
+     "val": 68.955,
      "est": false
     },
     {
      "t": "A90",
      "d": "2026-12-03",
-     "sh": null,
+     "sh": 3895894,
      "pct": null,
-     "val": null,
+     "val": 68.955,
      "est": false
     }
    ]
@@ -102,9 +102,9 @@
    "boa_date": "2026-08-28",
    "d30": "2026-10-03",
    "d90": "2026-12-02",
-   "anchor_shares": 0,
-   "anchor_investment_cr": 0.0,
-   "pct_of_issue": 0.0,
+   "anchor_shares": 5321739,
+   "anchor_investment_cr": 306.0,
+   "pct_of_issue": 31.03,
    "isin": "",
    "nse_symbol": "",
    "bse_code": "",
@@ -121,17 +121,17 @@
     {
      "t": "A30",
      "d": "2026-10-03",
-     "sh": null,
+     "sh": 2660869,
      "pct": null,
-     "val": null,
+     "val": 153.0,
      "est": false
     },
     {
      "t": "A90",
      "d": "2026-12-02",
-     "sh": null,
+     "sh": 2660869,
      "pct": null,
-     "val": null,
+     "val": 153.0,
      "est": false
     }
    ]
@@ -658,92 +658,6 @@
    ]
   },
   {
-   "company": "Skyways Air Services Ltd.",
-   "slug": "skyways-air-ipo",
-   "url": "https://www.chittorgarh.com/ipo/skyways-air-ipo/2510/",
-   "category": "Mainboard",
-   "anchor_allotment_date": "2026-08-21",
-   "boa_date": "2026-08-21",
-   "d30": "2026-09-27",
-   "d90": "2026-11-26",
-   "anchor_shares": 12648000,
-   "anchor_investment_cr": 174.54,
-   "pct_of_issue": 23.05,
-   "isin": "",
-   "nse_symbol": "",
-   "bse_code": "",
-   "pre_shares": null,
-   "post_shares": null,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": null,
-   "anchor_names": [],
-   "lm": [],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-09-27",
-     "sh": 6324000,
-     "pct": null,
-     "val": 87.27,
-     "est": false
-    },
-    {
-     "t": "A90",
-     "d": "2026-11-26",
-     "sh": 6324000,
-     "pct": null,
-     "val": 87.27,
-     "est": false
-    }
-   ]
-  },
-  {
-   "company": "Hy-Tech Engineers Ltd.",
-   "slug": "hy-tech-engineers-ipo",
-   "url": "https://www.chittorgarh.com/ipo/hy-tech-engineers-ipo/2591/",
-   "category": "Mainboard",
-   "anchor_allotment_date": "2026-08-21",
-   "boa_date": "2026-08-21",
-   "d30": "2026-09-27",
-   "d90": "2026-11-26",
-   "anchor_shares": 7683060,
-   "anchor_investment_cr": 40.72,
-   "pct_of_issue": 23.08,
-   "isin": "",
-   "nse_symbol": "",
-   "bse_code": "",
-   "pre_shares": null,
-   "post_shares": null,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": null,
-   "anchor_names": [],
-   "lm": [],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-09-27",
-     "sh": 3841530,
-     "pct": null,
-     "val": 20.36,
-     "est": false
-    },
-    {
-     "t": "A90",
-     "d": "2026-11-26",
-     "sh": 3841530,
-     "pct": null,
-     "val": 20.36,
-     "est": false
-    }
-   ]
-  },
-  {
    "company": "Madhur Knit Crafts Ltd.",
    "slug": "madhur-knit-ipo",
    "url": "https://www.chittorgarh.com/ipo/madhur-knit-ipo/2783/",
@@ -755,8 +669,8 @@
    "anchor_shares": 302400,
    "anchor_investment_cr": 3.02,
    "pct_of_issue": 5.37,
-   "isin": "",
-   "nse_symbol": "",
+   "isin": "INE1P5601010",
+   "nse_symbol": "MADHURKNIT",
    "bse_code": "",
    "pre_shares": 13410125,
    "post_shares": 18736925,
@@ -800,20 +714,20 @@
    ]
   },
   {
-   "company": "Symbiotec Pharmalab Ltd.",
-   "slug": "symbiotec-pharmalab-ipo",
-   "url": "https://www.chittorgarh.com/ipo/symbiotec-pharmalab-ipo/2815/",
+   "company": "Skyways Air Services Ltd.",
+   "slug": "skyways-air-ipo",
+   "url": "https://www.chittorgarh.com/ipo/skyways-air-ipo/2510/",
    "category": "Mainboard",
    "anchor_allotment_date": "2026-08-21",
    "boa_date": "2026-08-21",
-   "d30": "2026-09-27",
-   "d90": "2026-11-26",
-   "anchor_shares": 5325909,
-   "anchor_investment_cr": 526.2,
-   "pct_of_issue": 23.04,
-   "isin": "",
-   "nse_symbol": "",
-   "bse_code": "",
+   "d30": "2026-09-26",
+   "d90": "2026-11-25",
+   "anchor_shares": 12648000,
+   "anchor_investment_cr": 174.54,
+   "pct_of_issue": 23.05,
+   "isin": "INE0PX301025",
+   "nse_symbol": "SKYWAYS",
+   "bse_code": 544890,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -826,7 +740,93 @@
    "events": [
     {
      "t": "A30",
-     "d": "2026-09-27",
+     "d": "2026-09-26",
+     "sh": 6324000,
+     "pct": null,
+     "val": 87.27,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-11-25",
+     "sh": 6324000,
+     "pct": null,
+     "val": 87.27,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "Hy-Tech Engineers Ltd.",
+   "slug": "hy-tech-engineers-ipo",
+   "url": "https://www.chittorgarh.com/ipo/hy-tech-engineers-ipo/2591/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-08-21",
+   "boa_date": "2026-08-21",
+   "d30": "2026-09-26",
+   "d90": "2026-11-25",
+   "anchor_shares": 7683060,
+   "anchor_investment_cr": 40.72,
+   "pct_of_issue": 23.08,
+   "isin": "INE0LEG01024",
+   "nse_symbol": "",
+   "bse_code": 544891,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-09-26",
+     "sh": 3841530,
+     "pct": null,
+     "val": 20.36,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-11-25",
+     "sh": 3841530,
+     "pct": null,
+     "val": 20.36,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "Symbiotec Pharmalab Ltd.",
+   "slug": "symbiotec-pharmalab-ipo",
+   "url": "https://www.chittorgarh.com/ipo/symbiotec-pharmalab-ipo/2815/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-08-21",
+   "boa_date": "2026-08-21",
+   "d30": "2026-09-26",
+   "d90": "2026-11-25",
+   "anchor_shares": 5325909,
+   "anchor_investment_cr": 526.2,
+   "pct_of_issue": 23.04,
+   "isin": "INE899I01028",
+   "nse_symbol": "SYMBIOTEC",
+   "bse_code": 544889,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-09-26",
      "sh": 2662954,
      "pct": null,
      "val": 263.1,
@@ -834,7 +834,7 @@
     },
     {
      "t": "A90",
-     "d": "2026-11-26",
+     "d": "2026-11-25",
      "sh": 2662954,
      "pct": null,
      "val": 263.1,

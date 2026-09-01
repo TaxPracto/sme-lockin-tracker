@@ -8,42 +8,42 @@ BEGIN:VEVENT
 UID:rays-of-belief-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261004
 DTEND;VALUE=DATE:20261005
-SUMMARY:🔓 Rays of Belief Ltd. — 30D anchor unlock
+SUMMARY:🔓 Rays of Belief Ltd. — 30D anchor unlock (1\,046\,095 sh\; ~Rs.25.0 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/rays-of-belief-ipo/2787/
 END:VEVENT
 BEGIN:VEVENT
 UID:rays-of-belief-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
-SUMMARY:🔓 Rays of Belief Ltd. — 90D anchor unlock
+SUMMARY:🔓 Rays of Belief Ltd. — 90D anchor unlock (1\,046\,095 sh\; ~Rs.25.0 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/rays-of-belief-ipo/2787/
 END:VEVENT
 BEGIN:VEVENT
 UID:deepa-jewellers-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261004
 DTEND;VALUE=DATE:20261005
-SUMMARY:🔓 Deepa Jewellers Ltd. — 30D anchor unlock
+SUMMARY:🔓 Deepa Jewellers Ltd. — 30D anchor unlock (3\,895\,894 sh\; ~Rs.69.0 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/deepa-jewellers-ipo/2827/
 END:VEVENT
 BEGIN:VEVENT
 UID:deepa-jewellers-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
-SUMMARY:🔓 Deepa Jewellers Ltd. — 90D anchor unlock
+SUMMARY:🔓 Deepa Jewellers Ltd. — 90D anchor unlock (3\,895\,894 sh\; ~Rs.69.0 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/deepa-jewellers-ipo/2827/
 END:VEVENT
 BEGIN:VEVENT
 UID:purple-style-labs-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261004
-SUMMARY:🔓 Purple Style Labs Ltd. — 30D anchor unlock
+SUMMARY:🔓 Purple Style Labs Ltd. — 30D anchor unlock (2\,660\,869 sh\; ~Rs.153.0 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/purple-style-labs-ipo/2622/
 END:VEVENT
 BEGIN:VEVENT
 UID:purple-style-labs-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
-SUMMARY:🔓 Purple Style Labs Ltd. — 90D anchor unlock
+SUMMARY:🔓 Purple Style Labs Ltd. — 90D anchor unlock (2\,660\,869 sh\; ~Rs.153.0 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/purple-style-labs-ipo/2622/
 END:VEVENT
 BEGIN:VEVENT
@@ -236,34 +236,6 @@ SUMMARY:🔓 Sumax Engineering Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/sumax-engineering-ipo/2977/
 END:VEVENT
 BEGIN:VEVENT
-UID:skyways-air-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260927
-DTEND;VALUE=DATE:20260928
-SUMMARY:🔓 Skyways Air Services Ltd. — 30D anchor unlock (6\,324\,000 sh\; ~Rs.87.3 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/skyways-air-ipo/2510/
-END:VEVENT
-BEGIN:VEVENT
-UID:skyways-air-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261126
-DTEND;VALUE=DATE:20261127
-SUMMARY:🔓 Skyways Air Services Ltd. — 90D anchor unlock (6\,324\,000 sh\; ~Rs.87.3 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/skyways-air-ipo/2510/
-END:VEVENT
-BEGIN:VEVENT
-UID:hy-tech-engineers-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260927
-DTEND;VALUE=DATE:20260928
-SUMMARY:🔓 Hy-Tech Engineers Ltd. — 30D anchor unlock (3\,841\,530 sh\; ~Rs.20.4 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/hy-tech-engineers-ipo/2591/
-END:VEVENT
-BEGIN:VEVENT
-UID:hy-tech-engineers-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261126
-DTEND;VALUE=DATE:20261127
-SUMMARY:🔓 Hy-Tech Engineers Ltd. — 90D anchor unlock (3\,841\,530 sh\; ~Rs.20.4 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/hy-tech-engineers-ipo/2591/
-END:VEVENT
-BEGIN:VEVENT
 UID:madhur-knit-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
@@ -285,16 +257,44 @@ SUMMARY:🔓 Madhur Knit Crafts Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/madhur-knit-ipo/2783/
 END:VEVENT
 BEGIN:VEVENT
+UID:skyways-air-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:🔓 Skyways Air Services Ltd. — 30D anchor unlock (6\,324\,000 sh\; ~Rs.87.3 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/skyways-air-ipo/2510/
+END:VEVENT
+BEGIN:VEVENT
+UID:skyways-air-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:🔓 Skyways Air Services Ltd. — 90D anchor unlock (6\,324\,000 sh\; ~Rs.87.3 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/skyways-air-ipo/2510/
+END:VEVENT
+BEGIN:VEVENT
+UID:hy-tech-engineers-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:🔓 Hy-Tech Engineers Ltd. — 30D anchor unlock (3\,841\,530 sh\; ~Rs.20.4 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/hy-tech-engineers-ipo/2591/
+END:VEVENT
+BEGIN:VEVENT
+UID:hy-tech-engineers-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:🔓 Hy-Tech Engineers Ltd. — 90D anchor unlock (3\,841\,530 sh\; ~Rs.20.4 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/hy-tech-engineers-ipo/2591/
+END:VEVENT
+BEGIN:VEVENT
 UID:symbiotec-pharmalab-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260927
-DTEND;VALUE=DATE:20260928
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
 SUMMARY:🔓 Symbiotec Pharmalab Ltd. — 30D anchor unlock (2\,662\,954 sh\; ~Rs.263.1 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/symbiotec-pharmalab-ipo/2815/
 END:VEVENT
 BEGIN:VEVENT
 UID:symbiotec-pharmalab-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261126
-DTEND;VALUE=DATE:20261127
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
 SUMMARY:🔓 Symbiotec Pharmalab Ltd. — 90D anchor unlock (2\,662\,954 sh\; ~Rs.263.1 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/symbiotec-pharmalab-ipo/2815/
 END:VEVENT
