@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T12:01:24+05:30",
+ "generated_at": "2026-09-02T11:40:13+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -613,8 +613,8 @@
    "anchor_shares": 1435200,
    "anchor_investment_cr": 14.5,
    "pct_of_issue": 21.35,
-   "isin": "",
-   "nse_symbol": "",
+   "isin": "INE11Z001019",
+   "nse_symbol": "SUMAX",
    "bse_code": "",
    "pre_shares": 14731500,
    "post_shares": 19022700,
@@ -769,7 +769,7 @@
    "anchor_investment_cr": 40.72,
    "pct_of_issue": 23.08,
    "isin": "INE0LEG01024",
-   "nse_symbol": "",
+   "nse_symbol": "HTEL",
    "bse_code": 544891,
    "pre_shares": null,
    "post_shares": null,

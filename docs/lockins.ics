@@ -810,13 +810,6 @@ SUMMARY:🔓 H.R.Hygiene Products Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/hr-hygiene-products-ipo/2713/
 END:VEVENT
 BEGIN:VEVENT
-UID:manipal-health-enterprises-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20260902
-SUMMARY:🔓 Manipal Health Enterprises Ltd. — 30D anchor unlock (35\,314\,384 sh\; ~Rs.2083.6 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/manipal-health-enterprises-ipo/2956/
-END:VEVENT
-BEGIN:VEVENT
 UID:manipal-health-enterprises-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
@@ -1361,13 +1354,6 @@ DTSTART;VALUE=DATE:20260905
 DTEND;VALUE=DATE:20260906
 SUMMARY:🔓 CMR Green Technologies Ltd. — 90D anchor unlock (4\,907\,196 sh\; ~Rs.94.2 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/cmr-green-technologies-ipo/2586/
-END:VEVENT
-BEGIN:VEVENT
-UID:merritronix-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20260902
-SUMMARY:🔓 Merritronix Ltd. — 90D anchor unlock (668\,000 sh\; 3.82% of capital\; ~Rs.10.0 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/merritronix-ipo/2961/
 END:VEVENT
 BEGIN:VEVENT
 UID:merritronix-ipo-PRE6M@unlockradar
