@@ -5,6 +5,27 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:qualiance-international-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:🔓 Qualiance International Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/qualiance-international-ipo/2979/
+END:VEVENT
+BEGIN:VEVENT
+UID:qualiance-international-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:🔓 Qualiance International Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/qualiance-international-ipo/2979/
+END:VEVENT
+BEGIN:VEVENT
+UID:qualiance-international-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270303
+DTEND;VALUE=DATE:20270304
+SUMMARY:🔓 Qualiance International Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/qualiance-international-ipo/2979/
+END:VEVENT
+BEGIN:VEVENT
 UID:rays-of-belief-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261004
 DTEND;VALUE=DATE:20261005
@@ -195,15 +216,15 @@ DESCRIPTION:https://www.chittorgarh.com/ipo/lumino-industries-ipo/2013/
 END:VEVENT
 BEGIN:VEVENT
 UID:kwick-forensic-solutions-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20261002
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
 SUMMARY:🔓 Kwick Forensic Solutions Ltd. — 30D anchor unlock (801\,600 sh\; 3.74% of capital\; ~Rs.7.2 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/kwick-forensic-solutions-ipo/2757/
 END:VEVENT
 BEGIN:VEVENT
 UID:kwick-forensic-solutions-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261130
-DTEND;VALUE=DATE:20261201
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
 SUMMARY:🔓 Kwick Forensic Solutions Ltd. — 90D anchor unlock (801\,600 sh\; 3.74% of capital\; ~Rs.7.2 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/kwick-forensic-solutions-ipo/2757/
 END:VEVENT
@@ -740,13 +761,6 @@ SUMMARY:🔓 Oneindig Technologies Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/oneindig-technologies-ipo/2646/
 END:VEVENT
 BEGIN:VEVENT
-UID:juniper-green-energy-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260902
-DTEND;VALUE=DATE:20260903
-SUMMARY:🔓 Juniper Green Energy Ltd. — 30D anchor unlock (11\,986\,666 sh\; ~Rs.269.7 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/juniper-green-energy-ipo/2492/
-END:VEVENT
-BEGIN:VEVENT
 UID:juniper-green-energy-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
@@ -754,25 +768,11 @@ SUMMARY:🔓 Juniper Green Energy Ltd. — 90D anchor unlock (11\,986\,666 sh\; 
 DESCRIPTION:https://www.chittorgarh.com/ipo/juniper-green-energy-ipo/2492/
 END:VEVENT
 BEGIN:VEVENT
-UID:mv-electrosystems-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260902
-DTEND;VALUE=DATE:20260903
-SUMMARY:🔓 MV Electrosystems Ltd. — 30D anchor unlock (1\,535\,293 sh\; ~Rs.65.2 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/mv-electrosystems-ipo/2800/
-END:VEVENT
-BEGIN:VEVENT
 UID:mv-electrosystems-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:🔓 MV Electrosystems Ltd. — 90D anchor unlock (1\,535\,293 sh\; ~Rs.65.2 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/mv-electrosystems-ipo/2800/
-END:VEVENT
-BEGIN:VEVENT
-UID:dhaval-packaging-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260902
-DTEND;VALUE=DATE:20260903
-SUMMARY:🔓 Dhaval Packaging Ltd. — 30D anchor unlock (515\,400 sh\; 3.75% of capital\; ~Rs.5.0 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/dhaval-packaging-ipo/2835/
 END:VEVENT
 BEGIN:VEVENT
 UID:dhaval-packaging-ipo-A90@unlockradar
@@ -787,13 +787,6 @@ DTSTART;VALUE=DATE:20270129
 DTEND;VALUE=DATE:20270130
 SUMMARY:🔓 Dhaval Packaging Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/dhaval-packaging-ipo/2835/
-END:VEVENT
-BEGIN:VEVENT
-UID:hr-hygiene-products-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260902
-DTEND;VALUE=DATE:20260903
-SUMMARY:🔓 H.R.Hygiene Products Ltd. — 30D anchor unlock (843\,200 sh\; 3.71% of capital\; ~Rs.7.4 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/hr-hygiene-products-ipo/2713/
 END:VEVENT
 BEGIN:VEVENT
 UID:hr-hygiene-products-ipo-A90@unlockradar

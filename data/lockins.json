@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-02T11:40:13+05:30",
+ "generated_at": "2026-09-03T11:38:24+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -7,6 +7,62 @@
   2026
  ],
  "records": [
+  {
+   "company": "Qualiance International Ltd.",
+   "slug": "qualiance-international-ipo",
+   "url": "https://www.chittorgarh.com/ipo/qualiance-international-ipo/2979/",
+   "category": "SME",
+   "anchor_allotment_date": "2026-09-03",
+   "boa_date": "2026-09-03",
+   "d30": "2026-10-09",
+   "d90": "2026-12-08",
+   "anchor_shares": 0,
+   "anchor_investment_cr": 0.0,
+   "pct_of_issue": 0.0,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": 9900000,
+   "post_shares": 13452000,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": "2026-09-11",
+   "anchor_names": [],
+   "lm": [
+    [
+     76,
+     "Hem Securities Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-09",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-12-08",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    },
+    {
+     "t": "PRE6M",
+     "d": "2027-03-03",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": true
+    }
+   ]
+  },
   {
    "company": "Rays of Belief Ltd.",
    "slug": "rays-of-belief-ipo",
@@ -203,7 +259,7 @@
    "d90": "2026-12-02",
    "anchor_shares": 1619200,
    "anchor_investment_cr": 13.44,
-   "pct_of_issue": 23.05,
+   "pct_of_issue": 22.15,
    "isin": "",
    "nse_symbol": "",
    "bse_code": "",
@@ -259,7 +315,7 @@
    "d90": "2026-12-02",
    "anchor_shares": 1743600,
    "anchor_investment_cr": 16.04,
-   "pct_of_issue": 23.06,
+   "pct_of_issue": 22.16,
    "isin": "",
    "nse_symbol": "",
    "bse_code": "",
@@ -401,7 +457,7 @@
    "d90": "2026-12-01",
    "anchor_shares": 1956000,
    "anchor_investment_cr": 9.39,
-   "pct_of_issue": 33.54,
+   "pct_of_issue": 22.15,
    "isin": "",
    "nse_symbol": "",
    "bse_code": "",
@@ -514,9 +570,9 @@
    "anchor_shares": 25243901,
    "anchor_investment_cr": 207.0,
    "pct_of_issue": 22.82,
-   "isin": "",
-   "nse_symbol": "",
-   "bse_code": "",
+   "isin": "INE185Q01025",
+   "nse_symbol": "LUMINO",
+   "bse_code": 544894,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -552,14 +608,14 @@
    "category": "SME",
    "anchor_allotment_date": "2026-08-25",
    "boa_date": "2026-08-25",
-   "d30": "2026-10-01",
-   "d90": "2026-11-30",
+   "d30": "2026-09-30",
+   "d90": "2026-11-29",
    "anchor_shares": 1603200,
    "anchor_investment_cr": 14.43,
    "pct_of_issue": 22.13,
-   "isin": "",
+   "isin": "INE1SFA01019",
    "nse_symbol": "",
-   "bse_code": "",
+   "bse_code": 544895,
    "pre_shares": 16874840,
    "post_shares": 21436440,
    "prom_pre_pct": null,
@@ -577,7 +633,7 @@
    "events": [
     {
      "t": "A30",
-     "d": "2026-10-01",
+     "d": "2026-09-30",
      "sh": 801600,
      "pct": 3.74,
      "val": 7.215,
@@ -585,7 +641,7 @@
     },
     {
      "t": "A90",
-     "d": "2026-11-30",
+     "d": "2026-11-29",
      "sh": 801600,
      "pct": 3.74,
      "val": 7.215,
