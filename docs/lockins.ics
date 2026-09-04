@@ -5,17 +5,31 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:pranav-constructions-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:🔓 Pranav Constructions Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/pranav-constructions-ipo/2127/
+END:VEVENT
+BEGIN:VEVENT
+UID:pranav-constructions-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:🔓 Pranav Constructions Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/pranav-constructions-ipo/2127/
+END:VEVENT
+BEGIN:VEVENT
 UID:qualiance-international-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
-SUMMARY:🔓 Qualiance International Ltd. — 30D anchor unlock
+SUMMARY:🔓 Qualiance International Ltd. — 30D anchor unlock (504\,500 sh\; 3.75% of capital\; ~Rs.6.4 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/qualiance-international-ipo/2979/
 END:VEVENT
 BEGIN:VEVENT
 UID:qualiance-international-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
-SUMMARY:🔓 Qualiance International Ltd. — 90D anchor unlock
+SUMMARY:🔓 Qualiance International Ltd. — 90D anchor unlock (504\,500 sh\; 3.75% of capital\; ~Rs.6.4 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/qualiance-international-ipo/2979/
 END:VEVENT
 BEGIN:VEVENT
@@ -160,15 +174,15 @@ DESCRIPTION:https://www.chittorgarh.com/ipo/priority-jewels-ipo/2435/
 END:VEVENT
 BEGIN:VEVENT
 UID:paluck-technologies-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261002
-DTEND;VALUE=DATE:20261003
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
 SUMMARY:🔓 Paluck Technologies Ltd. — 30D anchor unlock (978\,000 sh\; 4.7% of capital\; ~Rs.4.7 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/paluck-technologies-ipo/2702/
 END:VEVENT
 BEGIN:VEVENT
 UID:paluck-technologies-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261201
-DTEND;VALUE=DATE:20261202
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
 SUMMARY:🔓 Paluck Technologies Ltd. — 90D anchor unlock (978\,000 sh\; 4.7% of capital\; ~Rs.4.7 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/paluck-technologies-ipo/2702/
 END:VEVENT
@@ -181,15 +195,15 @@ DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/palu
 END:VEVENT
 BEGIN:VEVENT
 UID:complete-sports-and-management-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261002
-DTEND;VALUE=DATE:20261003
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
 SUMMARY:🔓 Complete Sports & Management India Ltd. — 30D anchor unlock (789\,500 sh\; 3.84% of capital\; ~Rs.10.7 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/complete-sports-and-management-ipo/3182/
 END:VEVENT
 BEGIN:VEVENT
 UID:complete-sports-and-management-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261201
-DTEND;VALUE=DATE:20261202
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
 SUMMARY:🔓 Complete Sports & Management India Ltd. — 90D anchor unlock (789\,500 sh\; 3.84% of capital\; ~Rs.10.7 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/complete-sports-and-management-ipo/3182/
 END:VEVENT
@@ -738,13 +752,6 @@ DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270131
 SUMMARY:🔓 Fusion Klassroom Edutech Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/fusion-klassroom-edutech-ipo/2867/
-END:VEVENT
-BEGIN:VEVENT
-UID:oneindig-technologies-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260903
-DTEND;VALUE=DATE:20260904
-SUMMARY:🔓 Oneindig Technologies Ltd. — 30D anchor unlock (408\,000 sh\; 3.73% of capital\; ~Rs.3.9 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/oneindig-technologies-ipo/2646/
 END:VEVENT
 BEGIN:VEVENT
 UID:oneindig-technologies-ipo-A90@unlockradar
