@@ -712,13 +712,6 @@ SUMMARY:🔓 Aegeus Technologies Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/aegeus-technologies-ipo/2837/
 END:VEVENT
 BEGIN:VEVENT
-UID:anawil-wire-engieering-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260905
-DTEND;VALUE=DATE:20260906
-SUMMARY:🔓 Anawil Wire & Engineering Ltd. — 30D anchor unlock (937\,800 sh\; 3.75% of capital\; ~Rs.25.3 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/anawil-wire-engieering-ipo/2618/
-END:VEVENT
-BEGIN:VEVENT
 UID:anawil-wire-engieering-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
@@ -731,13 +724,6 @@ DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:🔓 Anawil Wire & Engineering Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/anawil-wire-engieering-ipo/2618/
-END:VEVENT
-BEGIN:VEVENT
-UID:fusion-klassroom-edutech-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260905
-DTEND;VALUE=DATE:20260906
-SUMMARY:🔓 Fusion Klassroom Edutech Ltd. — 30D anchor unlock (348\,400 sh\; 3.74% of capital\; ~Rs.5.5 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/fusion-klassroom-edutech-ipo/2867/
 END:VEVENT
 BEGIN:VEVENT
 UID:fusion-klassroom-edutech-ipo-A90@unlockradar
@@ -1347,13 +1333,6 @@ DTSTART;VALUE=DATE:20280604
 DTEND;VALUE=DATE:20280605
 SUMMARY:🔓 Genxai Analytics Ltd. — 2Y promoter unlock (4\,170\,992 sh\; 23.24% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/genxai-analytics-ipo/2801/
-END:VEVENT
-BEGIN:VEVENT
-UID:cmr-green-technologies-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20260905
-DTEND;VALUE=DATE:20260906
-SUMMARY:🔓 CMR Green Technologies Ltd. — 90D anchor unlock (4\,907\,196 sh\; ~Rs.94.2 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/cmr-green-technologies-ipo/2586/
 END:VEVENT
 BEGIN:VEVENT
 UID:merritronix-ipo-PRE6M@unlockradar
