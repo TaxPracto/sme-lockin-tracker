@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-06T11:46:49+05:30",
+ "generated_at": "2026-09-07T11:54:59+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -8,14 +8,14 @@
  ],
  "records": [
   {
-   "company": "Pranav Constructions Ltd.",
-   "slug": "pranav-constructions-ipo",
-   "url": "https://www.chittorgarh.com/ipo/pranav-constructions-ipo/2127/",
+   "company": "Glass Wall Systems (India) Ltd.",
+   "slug": "glass-wall-systems-ipo",
+   "url": "https://www.chittorgarh.com/ipo/glass-wall-systems-ipo/2594/",
    "category": "Mainboard",
-   "anchor_allotment_date": "2026-09-04",
-   "boa_date": "2026-09-04",
-   "d30": "2026-10-10",
-   "d90": "2026-12-09",
+   "anchor_allotment_date": "2026-09-07",
+   "boa_date": "2026-09-07",
+   "d30": "2026-10-11",
+   "d90": "2026-12-10",
    "anchor_shares": 0,
    "anchor_investment_cr": 0.0,
    "pct_of_issue": null,
@@ -34,7 +34,7 @@
    "events": [
     {
      "t": "A30",
-     "d": "2026-10-10",
+     "d": "2026-10-11",
      "sh": null,
      "pct": null,
      "val": null,
@@ -42,10 +42,139 @@
     },
     {
      "t": "A90",
-     "d": "2026-12-09",
+     "d": "2026-12-10",
      "sh": null,
      "pct": null,
      "val": null,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "Prasol Chemicals Ltd.",
+   "slug": "prasol-chemicals-ipo",
+   "url": "https://www.chittorgarh.com/ipo/prasol-chemicals-ipo/2775/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-09-07",
+   "boa_date": "2026-09-07",
+   "d30": "2026-10-11",
+   "d90": "2026-12-10",
+   "anchor_shares": 0,
+   "anchor_investment_cr": 0.0,
+   "pct_of_issue": null,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-11",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-12-10",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "Kanohar Electricals Ltd.",
+   "slug": "kanohar-electricals-ipo",
+   "url": "https://www.chittorgarh.com/ipo/kanohar-electricals-ipo/2856/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-09-07",
+   "boa_date": "2026-09-07",
+   "d30": "2026-10-11",
+   "d90": "2026-12-10",
+   "anchor_shares": 0,
+   "anchor_investment_cr": 0.0,
+   "pct_of_issue": null,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-11",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-12-10",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "Pranav Constructions Ltd.",
+   "slug": "pranav-constructions-ipo",
+   "url": "https://www.chittorgarh.com/ipo/pranav-constructions-ipo/2127/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-09-04",
+   "boa_date": "2026-09-04",
+   "d30": "2026-10-10",
+   "d90": "2026-12-09",
+   "anchor_shares": 6794034,
+   "anchor_investment_cr": 84.25,
+   "pct_of_issue": 19.35,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-10",
+     "sh": 3397017,
+     "pct": null,
+     "val": 42.125,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-12-09",
+     "sh": 3397017,
+     "pct": null,
+     "val": 42.125,
      "est": false
     }
    ]
@@ -188,49 +317,6 @@
      "sh": 3895894,
      "pct": null,
      "val": 68.955,
-     "est": false
-    }
-   ]
-  },
-  {
-   "company": "Purple Style Labs Ltd.",
-   "slug": "purple-style-labs-ipo",
-   "url": "https://www.chittorgarh.com/ipo/purple-style-labs-ipo/2622/",
-   "category": "Mainboard",
-   "anchor_allotment_date": "2026-08-28",
-   "boa_date": "2026-08-28",
-   "d30": "2026-10-03",
-   "d90": "2026-12-02",
-   "anchor_shares": 5321739,
-   "anchor_investment_cr": 306.0,
-   "pct_of_issue": 31.03,
-   "isin": "INE0I1B01016",
-   "nse_symbol": "PERNIASPOP",
-   "bse_code": 544901,
-   "pre_shares": null,
-   "post_shares": null,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": null,
-   "anchor_names": [],
-   "lm": [],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-10-03",
-     "sh": 2660869,
-     "pct": null,
-     "val": 153.0,
-     "est": false
-    },
-    {
-     "t": "A90",
-     "d": "2026-12-02",
-     "sh": 2660869,
-     "pct": null,
-     "val": 153.0,
      "est": false
     }
    ]
@@ -400,6 +486,49 @@
      "pct": null,
      "val": null,
      "est": true
+    }
+   ]
+  },
+  {
+   "company": "Purple Style Labs Ltd.",
+   "slug": "purple-style-labs-ipo",
+   "url": "https://www.chittorgarh.com/ipo/purple-style-labs-ipo/2622/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-08-28",
+   "boa_date": "2026-08-28",
+   "d30": "2026-10-02",
+   "d90": "2026-12-01",
+   "anchor_shares": 5321739,
+   "anchor_investment_cr": 306.0,
+   "pct_of_issue": 31.03,
+   "isin": "INE0I1B01016",
+   "nse_symbol": "PERNIASPOP",
+   "bse_code": 544901,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-02",
+     "sh": 2660869,
+     "pct": null,
+     "val": 153.0,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-12-01",
+     "sh": 2660869,
+     "pct": null,
+     "val": 153.0,
+     "est": false
     }
    ]
   },

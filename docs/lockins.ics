@@ -5,17 +5,59 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:glass-wall-systems-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:🔓 Glass Wall Systems (India) Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/glass-wall-systems-ipo/2594/
+END:VEVENT
+BEGIN:VEVENT
+UID:glass-wall-systems-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:🔓 Glass Wall Systems (India) Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/glass-wall-systems-ipo/2594/
+END:VEVENT
+BEGIN:VEVENT
+UID:prasol-chemicals-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:🔓 Prasol Chemicals Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/prasol-chemicals-ipo/2775/
+END:VEVENT
+BEGIN:VEVENT
+UID:prasol-chemicals-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:🔓 Prasol Chemicals Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/prasol-chemicals-ipo/2775/
+END:VEVENT
+BEGIN:VEVENT
+UID:kanohar-electricals-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:🔓 Kanohar Electricals Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/kanohar-electricals-ipo/2856/
+END:VEVENT
+BEGIN:VEVENT
+UID:kanohar-electricals-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:🔓 Kanohar Electricals Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/kanohar-electricals-ipo/2856/
+END:VEVENT
+BEGIN:VEVENT
 UID:pranav-constructions-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20261011
-SUMMARY:🔓 Pranav Constructions Ltd. — 30D anchor unlock
+SUMMARY:🔓 Pranav Constructions Ltd. — 30D anchor unlock (3\,397\,017 sh\; ~Rs.42.1 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/pranav-constructions-ipo/2127/
 END:VEVENT
 BEGIN:VEVENT
 UID:pranav-constructions-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
-SUMMARY:🔓 Pranav Constructions Ltd. — 90D anchor unlock
+SUMMARY:🔓 Pranav Constructions Ltd. — 90D anchor unlock (3\,397\,017 sh\; ~Rs.42.1 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/pranav-constructions-ipo/2127/
 END:VEVENT
 BEGIN:VEVENT
@@ -66,20 +108,6 @@ DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:🔓 Deepa Jewellers Ltd. — 90D anchor unlock (3\,895\,894 sh\; ~Rs.69.0 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/deepa-jewellers-ipo/2827/
-END:VEVENT
-BEGIN:VEVENT
-UID:purple-style-labs-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261003
-DTEND;VALUE=DATE:20261004
-SUMMARY:🔓 Purple Style Labs Ltd. — 30D anchor unlock (2\,660\,869 sh\; ~Rs.153.0 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/purple-style-labs-ipo/2622/
-END:VEVENT
-BEGIN:VEVENT
-UID:purple-style-labs-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261202
-DTEND;VALUE=DATE:20261203
-SUMMARY:🔓 Purple Style Labs Ltd. — 90D anchor unlock (2\,660\,869 sh\; ~Rs.153.0 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/purple-style-labs-ipo/2622/
 END:VEVENT
 BEGIN:VEVENT
 UID:phychem-technologies-ipo-A30@unlockradar
@@ -143,6 +171,20 @@ DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:🔓 Ashutosh Fibre Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/ashutosh-fibre-ipo/2751/
+END:VEVENT
+BEGIN:VEVENT
+UID:purple-style-labs-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:🔓 Purple Style Labs Ltd. — 30D anchor unlock (2\,660\,869 sh\; ~Rs.153.0 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/purple-style-labs-ipo/2622/
+END:VEVENT
+BEGIN:VEVENT
+UID:purple-style-labs-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:🔓 Purple Style Labs Ltd. — 90D anchor unlock (2\,660\,869 sh\; ~Rs.153.0 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/purple-style-labs-ipo/2622/
 END:VEVENT
 BEGIN:VEVENT
 UID:esds-software-ipo-A30@unlockradar
@@ -689,13 +731,6 @@ DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:🔓 Ardee Industries Ltd. — 90D anchor unlock (12\,052\,792 sh\; ~Rs.63.9 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/ardee-industries-ipo/2860/
-END:VEVENT
-BEGIN:VEVENT
-UID:aegeus-technologies-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260906
-DTEND;VALUE=DATE:20260907
-SUMMARY:🔓 Aegeus Technologies Ltd. — 30D anchor unlock (286\,200 sh\; 3.42% of capital\; ~Rs.3.0 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/aegeus-technologies-ipo/2837/
 END:VEVENT
 BEGIN:VEVENT
 UID:aegeus-technologies-ipo-A90@unlockradar
