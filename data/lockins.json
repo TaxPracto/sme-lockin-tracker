@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-08T11:44:11+05:30",
+ "generated_at": "2026-09-09T11:50:47+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -8,14 +8,70 @@
  ],
  "records": [
   {
-   "company": "Karamtara Engineering Ltd.",
-   "slug": "karamtara-engineering-ipo",
-   "url": "https://www.chittorgarh.com/ipo/karamtara-engineering-ipo/2020/",
+   "company": "Raksan Transformers Ltd.",
+   "slug": "raksan-transformers-ipo",
+   "url": "https://www.chittorgarh.com/ipo/raksan-transformers-ipo/2767/",
+   "category": "SME",
+   "anchor_allotment_date": "2026-09-09",
+   "boa_date": "2026-09-09",
+   "d30": "2026-10-16",
+   "d90": "2026-12-15",
+   "anchor_shares": 1570000,
+   "anchor_investment_cr": 42.86,
+   "pct_of_issue": 11.09,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": 16480600,
+   "post_shares": 20893400,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": "2026-09-18",
+   "anchor_names": [],
+   "lm": [
+    [
+     76,
+     "Hem Securities Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-16",
+     "sh": 785000,
+     "pct": 3.76,
+     "val": 21.43,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-12-15",
+     "sh": 785000,
+     "pct": 3.76,
+     "val": 21.43,
+     "est": false
+    },
+    {
+     "t": "PRE6M",
+     "d": "2027-03-09",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": true
+    }
+   ]
+  },
+  {
+   "company": "Veegaland Developers Ltd.",
+   "slug": "veegaland-developers-ipo",
+   "url": "https://www.chittorgarh.com/ipo/veegaland-developers-ipo/2834/",
    "category": "Mainboard",
-   "anchor_allotment_date": "2026-09-08",
-   "boa_date": "2026-09-08",
-   "d30": "2026-10-15",
-   "d90": "2026-12-14",
+   "anchor_allotment_date": "2026-09-09",
+   "boa_date": "2026-09-09",
+   "d30": "2026-10-16",
+   "d90": "2026-12-15",
    "anchor_shares": 0,
    "anchor_investment_cr": 0.0,
    "pct_of_issue": null,
@@ -34,7 +90,7 @@
    "events": [
     {
      "t": "A30",
-     "d": "2026-10-15",
+     "d": "2026-10-16",
      "sh": null,
      "pct": null,
      "val": null,
@@ -42,10 +98,165 @@
     },
     {
      "t": "A90",
-     "d": "2026-12-14",
+     "d": "2026-12-15",
      "sh": null,
      "pct": null,
      "val": null,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "Om Galaxy Ltd.",
+   "slug": "om-galaxy-ipo",
+   "url": "https://www.chittorgarh.com/ipo/om-galaxy-ipo/2987/",
+   "category": "SME",
+   "anchor_allotment_date": "2026-09-09",
+   "boa_date": "2026-09-09",
+   "d30": "2026-10-16",
+   "d90": "2026-12-15",
+   "anchor_shares": 3321600,
+   "anchor_investment_cr": 29.89,
+   "pct_of_issue": 22.16,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": 22210824,
+   "post_shares": 33878024,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": "2026-09-18",
+   "anchor_names": [],
+   "lm": [
+    [
+     175,
+     "Indorient Financial Services Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-16",
+     "sh": 1660800,
+     "pct": 4.9,
+     "val": 14.945,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-12-15",
+     "sh": 1660800,
+     "pct": 4.9,
+     "val": 14.945,
+     "est": false
+    },
+    {
+     "t": "PRE6M",
+     "d": "2027-03-09",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": true
+    }
+   ]
+  },
+  {
+   "company": "Maharaja & Speedex India Ltd.",
+   "slug": "maharaja-speedex-ipo",
+   "url": "https://www.chittorgarh.com/ipo/maharaja-speedex-ipo/3089/",
+   "category": "SME",
+   "anchor_allotment_date": "2026-09-09",
+   "boa_date": "2026-09-09",
+   "d30": "2026-10-16",
+   "d90": "2026-12-15",
+   "anchor_shares": 0,
+   "anchor_investment_cr": 0.0,
+   "pct_of_issue": null,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": 12898740,
+   "post_shares": 16345140,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": "2026-09-18",
+   "anchor_names": [],
+   "lm": [
+    [
+     116,
+     "Choice Capital Advisors Pvt.Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-16",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-12-15",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    },
+    {
+     "t": "PRE6M",
+     "d": "2027-03-09",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": true
+    }
+   ]
+  },
+  {
+   "company": "Karamtara Engineering Ltd.",
+   "slug": "karamtara-engineering-ipo",
+   "url": "https://www.chittorgarh.com/ipo/karamtara-engineering-ipo/2020/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-09-08",
+   "boa_date": "2026-09-08",
+   "d30": "2026-10-15",
+   "d90": "2026-12-14",
+   "anchor_shares": 10334644,
+   "anchor_investment_cr": 262.5,
+   "pct_of_issue": 23.08,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-15",
+     "sh": 5167322,
+     "pct": null,
+     "val": 131.25,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-12-14",
+     "sh": 5167322,
+     "pct": null,
+     "val": 131.25,
      "est": false
     }
    ]
@@ -59,9 +270,9 @@
    "boa_date": "2026-09-08",
    "d30": "2026-10-15",
    "d90": "2026-12-14",
-   "anchor_shares": 0,
-   "anchor_investment_cr": 0.0,
-   "pct_of_issue": null,
+   "anchor_shares": 8776869,
+   "anchor_investment_cr": 128.14,
+   "pct_of_issue": 23.08,
    "isin": "",
    "nse_symbol": "",
    "bse_code": "",
@@ -78,17 +289,17 @@
     {
      "t": "A30",
      "d": "2026-10-15",
-     "sh": null,
+     "sh": 4388434,
      "pct": null,
-     "val": null,
+     "val": 64.07,
      "est": false
     },
     {
      "t": "A90",
      "d": "2026-12-14",
-     "sh": null,
+     "sh": 4388434,
      "pct": null,
-     "val": null,
+     "val": 64.07,
      "est": false
     }
    ]
@@ -158,9 +369,9 @@
    "boa_date": "2026-09-08",
    "d30": "2026-10-15",
    "d90": "2026-12-14",
-   "anchor_shares": 0,
-   "anchor_investment_cr": 0.0,
-   "pct_of_issue": null,
+   "anchor_shares": 15333332,
+   "anchor_investment_cr": 124.2,
+   "pct_of_issue": 23.08,
    "isin": "",
    "nse_symbol": "",
    "bse_code": "",
@@ -177,17 +388,17 @@
     {
      "t": "A30",
      "d": "2026-10-15",
-     "sh": null,
+     "sh": 7666666,
      "pct": null,
-     "val": null,
+     "val": 62.1,
      "est": false
     },
     {
      "t": "A90",
      "d": "2026-12-14",
-     "sh": null,
+     "sh": 7666666,
      "pct": null,
-     "val": null,
+     "val": 62.1,
      "est": false
     }
    ]
@@ -201,9 +412,9 @@
    "boa_date": "2026-09-08",
    "d30": "2026-10-15",
    "d90": "2026-12-14",
-   "anchor_shares": 0,
-   "anchor_investment_cr": 0.0,
-   "pct_of_issue": null,
+   "anchor_shares": 10685841,
+   "anchor_investment_cr": 362.25,
+   "pct_of_issue": 31.03,
    "isin": "",
    "nse_symbol": "",
    "bse_code": "",
@@ -220,17 +431,17 @@
     {
      "t": "A30",
      "d": "2026-10-15",
-     "sh": null,
+     "sh": 5342920,
      "pct": null,
-     "val": null,
+     "val": 181.125,
      "est": false
     },
     {
      "t": "A90",
      "d": "2026-12-14",
-     "sh": null,
+     "sh": 5342920,
      "pct": null,
-     "val": null,
+     "val": 181.125,
      "est": false
     }
    ]
@@ -244,9 +455,9 @@
    "boa_date": "2026-09-08",
    "d30": "2026-10-15",
    "d90": "2026-12-14",
-   "anchor_shares": 0,
-   "anchor_investment_cr": 0.0,
-   "pct_of_issue": null,
+   "anchor_shares": 15819583,
+   "anchor_investment_cr": 219.89,
+   "pct_of_issue": 23.08,
    "isin": "",
    "nse_symbol": "",
    "bse_code": "",
@@ -263,17 +474,17 @@
     {
      "t": "A30",
      "d": "2026-10-15",
-     "sh": null,
+     "sh": 7909791,
      "pct": null,
-     "val": null,
+     "val": 109.945,
      "est": false
     },
     {
      "t": "A90",
      "d": "2026-12-14",
-     "sh": null,
+     "sh": 7909791,
      "pct": null,
-     "val": null,
+     "val": 109.945,
      "est": false
     }
    ]
@@ -287,9 +498,9 @@
    "boa_date": "2026-09-08",
    "d30": "2026-10-15",
    "d90": "2026-12-14",
-   "anchor_shares": 0,
-   "anchor_investment_cr": 0.0,
-   "pct_of_issue": null,
+   "anchor_shares": 9308667,
+   "anchor_investment_cr": 376.07,
+   "pct_of_issue": 23.05,
    "isin": "",
    "nse_symbol": "",
    "bse_code": "",
@@ -306,17 +517,17 @@
     {
      "t": "A30",
      "d": "2026-10-15",
-     "sh": null,
+     "sh": 4654333,
      "pct": null,
-     "val": null,
+     "val": 188.035,
      "est": false
     },
     {
      "t": "A90",
      "d": "2026-12-14",
-     "sh": null,
+     "sh": 4654333,
      "pct": null,
-     "val": null,
+     "val": 188.035,
      "est": false
     }
    ]
