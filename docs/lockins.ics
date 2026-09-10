@@ -5,6 +5,62 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:manika-plastech-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:🔓 Manika Plastech Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/manika-plastech-ipo/2483/
+END:VEVENT
+BEGIN:VEVENT
+UID:manika-plastech-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+SUMMARY:🔓 Manika Plastech Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/manika-plastech-ipo/2483/
+END:VEVENT
+BEGIN:VEVENT
+UID:century-business-media-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:🔓 Century Business Media Ltd. — 30D anchor unlock (327\,200 sh\; 3.73% of capital\; ~Rs.2.4 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/century-business-media-ipo/2604/
+END:VEVENT
+BEGIN:VEVENT
+UID:century-business-media-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+SUMMARY:🔓 Century Business Media Ltd. — 90D anchor unlock (327\,200 sh\; 3.73% of capital\; ~Rs.2.4 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/century-business-media-ipo/2604/
+END:VEVENT
+BEGIN:VEVENT
+UID:century-business-media-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270310
+DTEND;VALUE=DATE:20270311
+SUMMARY:🔓 Century Business Media Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/century-business-media-ipo/2604/
+END:VEVENT
+BEGIN:VEVENT
+UID:injecto-polymers-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:🔓 Injecto Polymers Ltd. — 30D anchor unlock (478\,800 sh\; 2.3% of capital\; ~Rs.4.8 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/injecto-polymers-ipo/2625/
+END:VEVENT
+BEGIN:VEVENT
+UID:injecto-polymers-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+SUMMARY:🔓 Injecto Polymers Ltd. — 90D anchor unlock (478\,800 sh\; 2.3% of capital\; ~Rs.4.8 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/injecto-polymers-ipo/2625/
+END:VEVENT
+BEGIN:VEVENT
+UID:injecto-polymers-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270310
+DTEND;VALUE=DATE:20270311
+SUMMARY:🔓 Injecto Polymers Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/injecto-polymers-ipo/2625/
+END:VEVENT
+BEGIN:VEVENT
 UID:raksan-transformers-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
@@ -64,14 +120,14 @@ BEGIN:VEVENT
 UID:maharaja-speedex-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
-SUMMARY:🔓 Maharaja & Speedex India Ltd. — 30D anchor unlock
+SUMMARY:🔓 Maharaja & Speedex India Ltd. — 30D anchor unlock (613\,500 sh\; 3.75% of capital\; ~Rs.11.4 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/maharaja-speedex-ipo/3089/
 END:VEVENT
 BEGIN:VEVENT
 UID:maharaja-speedex-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
-SUMMARY:🔓 Maharaja & Speedex India Ltd. — 90D anchor unlock
+SUMMARY:🔓 Maharaja & Speedex India Ltd. — 90D anchor unlock (613\,500 sh\; 3.75% of capital\; ~Rs.11.4 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/maharaja-speedex-ipo/3089/
 END:VEVENT
 BEGIN:VEVENT
