@@ -901,13 +901,6 @@ SUMMARY:🔓 LAPL Automotive Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/lapl-automotive-ipo/2300/
 END:VEVENT
 BEGIN:VEVENT
-UID:molbio-diagnostics-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260911
-DTEND;VALUE=DATE:20260912
-SUMMARY:🔓 Molbio Diagnostics Ltd. — 30D anchor unlock (1\,743\,858 sh\; ~Rs.140.7 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/molbio-diagnostics-ipo/2579/
-END:VEVENT
-BEGIN:VEVENT
 UID:molbio-diagnostics-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
@@ -915,25 +908,11 @@ SUMMARY:🔓 Molbio Diagnostics Ltd. — 90D anchor unlock (1\,743\,858 sh\; ~Rs
 DESCRIPTION:https://www.chittorgarh.com/ipo/molbio-diagnostics-ipo/2579/
 END:VEVENT
 BEGIN:VEVENT
-UID:dhoot-transmission-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260911
-DTEND;VALUE=DATE:20260912
-SUMMARY:🔓 Dhoot Transmission Ltd. — 30D anchor unlock (5\,271\,328 sh\; ~Rs.459.1 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/dhoot-transmission-ipo/2859/
-END:VEVENT
-BEGIN:VEVENT
 UID:dhoot-transmission-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 SUMMARY:🔓 Dhoot Transmission Ltd. — 90D anchor unlock (5\,271\,328 sh\; ~Rs.459.1 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/dhoot-transmission-ipo/2859/
-END:VEVENT
-BEGIN:VEVENT
-UID:optimystix-entertainment-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260911
-DTEND;VALUE=DATE:20260912
-SUMMARY:🔓 Optimystix Entertainment India Ltd. — 30D anchor unlock (835\,200 sh\; 3.59% of capital\; ~Rs.14.6 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/optimystix-entertainment-ipo/2755/
 END:VEVENT
 BEGIN:VEVENT
 UID:optimystix-entertainment-ipo-A90@unlockradar
