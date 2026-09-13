@@ -866,25 +866,11 @@ SUMMARY:🔓 G.V.Electricals Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/gv-electricals-ipo/2985/
 END:VEVENT
 BEGIN:VEVENT
-UID:milky-mist-dairy-food-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260912
-DTEND;VALUE=DATE:20260913
-SUMMARY:🔓 Milky Mist Dairy Food Ltd. — 30D anchor unlock (16\,617\,856 sh\; ~Rs.232.7 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/milky-mist-dairy-food-ipo/2541/
-END:VEVENT
-BEGIN:VEVENT
 UID:milky-mist-dairy-food-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:🔓 Milky Mist Dairy Food Ltd. — 90D anchor unlock (16\,617\,856 sh\; ~Rs.232.7 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/milky-mist-dairy-food-ipo/2541/
-END:VEVENT
-BEGIN:VEVENT
-UID:lapl-automotive-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260912
-DTEND;VALUE=DATE:20260913
-SUMMARY:🔓 LAPL Automotive Ltd. — 30D anchor unlock (488\,400 sh\; 3.9% of capital\; ~Rs.4.6 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/lapl-automotive-ipo/2300/
 END:VEVENT
 BEGIN:VEVENT
 UID:lapl-automotive-ipo-A90@unlockradar
