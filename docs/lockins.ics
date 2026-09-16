@@ -5,45 +5,115 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:kheria-autocomp-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:🔓 Kheria Autocomp Ltd. — 30D anchor unlock (655\,200 sh\; 4.13% of capital\; ~Rs.6.6 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/kheria-autocomp-ipo/2760/
+END:VEVENT
+BEGIN:VEVENT
+UID:kheria-autocomp-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20261222
+SUMMARY:🔓 Kheria Autocomp Ltd. — 90D anchor unlock (655\,200 sh\; 4.13% of capital\; ~Rs.6.6 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/kheria-autocomp-ipo/2760/
+END:VEVENT
+BEGIN:VEVENT
+UID:kheria-autocomp-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270316
+DTEND;VALUE=DATE:20270317
+SUMMARY:🔓 Kheria Autocomp Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/kheria-autocomp-ipo/2760/
+END:VEVENT
+BEGIN:VEVENT
+UID:sonaselection-india-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:🔓 Sonaselection India Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/sonaselection-india-ipo/2805/
+END:VEVENT
+BEGIN:VEVENT
+UID:sonaselection-india-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20261222
+SUMMARY:🔓 Sonaselection India Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/sonaselection-india-ipo/2805/
+END:VEVENT
+BEGIN:VEVENT
+UID:spectraa-technology-solutions-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:🔓 SpectraA Technology Solutions Ltd. — 30D anchor unlock (512\,400 sh\; 3.84% of capital\; ~Rs.6.0 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/spectraa-technology-solutions-ipo/2950/
+END:VEVENT
+BEGIN:VEVENT
+UID:spectraa-technology-solutions-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20261222
+SUMMARY:🔓 SpectraA Technology Solutions Ltd. — 90D anchor unlock (512\,400 sh\; 3.84% of capital\; ~Rs.6.0 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/spectraa-technology-solutions-ipo/2950/
+END:VEVENT
+BEGIN:VEVENT
+UID:spectraa-technology-solutions-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270316
+DTEND;VALUE=DATE:20270317
+SUMMARY:🔓 SpectraA Technology Solutions Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/spectraa-technology-solutions-ipo/2950/
+END:VEVENT
+BEGIN:VEVENT
+UID:nse-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:🔓 National Stock Exchange of India Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/nse-ipo/3151/
+END:VEVENT
+BEGIN:VEVENT
+UID:nse-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:🔓 National Stock Exchange of India Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/nse-ipo/3151/
+END:VEVENT
+BEGIN:VEVENT
 UID:hero-motors-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261021
 DTEND;VALUE=DATE:20261022
-SUMMARY:🔓 Hero Motors Ltd. — 30D anchor unlock
+SUMMARY:🔓 Hero Motors Ltd. — 30D anchor unlock (17\,857\,142 sh\; ~Rs.150.0 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/hero-motors-ipo/2225/
 END:VEVENT
 BEGIN:VEVENT
 UID:hero-motors-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
-SUMMARY:🔓 Hero Motors Ltd. — 90D anchor unlock
+SUMMARY:🔓 Hero Motors Ltd. — 90D anchor unlock (17\,857\,142 sh\; ~Rs.150.0 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/hero-motors-ipo/2225/
 END:VEVENT
 BEGIN:VEVENT
 UID:jindal-supreme-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261021
 DTEND;VALUE=DATE:20261022
-SUMMARY:🔓 Jindal Supreme (India) Ltd. — 30D anchor unlock
+SUMMARY:🔓 Jindal Supreme (India) Ltd. — 30D anchor unlock (2\,014\,200 sh\; ~Rs.18.7 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/jindal-supreme-ipo/2803/
 END:VEVENT
 BEGIN:VEVENT
 UID:jindal-supreme-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
-SUMMARY:🔓 Jindal Supreme (India) Ltd. — 90D anchor unlock
+SUMMARY:🔓 Jindal Supreme (India) Ltd. — 90D anchor unlock (2\,014\,200 sh\; ~Rs.18.7 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/jindal-supreme-ipo/2803/
 END:VEVENT
 BEGIN:VEVENT
 UID:ss-retail-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261021
 DTEND;VALUE=DATE:20261022
-SUMMARY:🔓 SS Retail Ltd. — 30D anchor unlock
+SUMMARY:🔓 SS Retail Ltd. — 30D anchor unlock (1\,726\,414 sh\; ~Rs.73.2 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/ss-retail-ipo/2822/
 END:VEVENT
 BEGIN:VEVENT
 UID:ss-retail-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
-SUMMARY:🔓 SS Retail Ltd. — 90D anchor unlock
+SUMMARY:🔓 SS Retail Ltd. — 90D anchor unlock (1\,726\,414 sh\; ~Rs.73.2 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/ss-retail-ipo/2822/
 END:VEVENT
 BEGIN:VEVENT
@@ -307,43 +377,43 @@ DESCRIPTION:https://www.chittorgarh.com/ipo/rentomojo-ipo/2971/
 END:VEVENT
 BEGIN:VEVENT
 UID:glass-wall-systems-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261011
-DTEND;VALUE=DATE:20261012
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
 SUMMARY:🔓 Glass Wall Systems (India) Ltd. — 30D anchor unlock (3\,526\,563 sh\; ~Rs.64.2 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/glass-wall-systems-ipo/2594/
 END:VEVENT
 BEGIN:VEVENT
 UID:glass-wall-systems-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261210
-DTEND;VALUE=DATE:20261211
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
 SUMMARY:🔓 Glass Wall Systems (India) Ltd. — 90D anchor unlock (3\,526\,563 sh\; ~Rs.64.2 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/glass-wall-systems-ipo/2594/
 END:VEVENT
 BEGIN:VEVENT
 UID:prasol-chemicals-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261011
-DTEND;VALUE=DATE:20261012
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
 SUMMARY:🔓 Prasol Chemicals Ltd. — 30D anchor unlock (1\,109\,465 sh\; ~Rs.75.0 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/prasol-chemicals-ipo/2775/
 END:VEVENT
 BEGIN:VEVENT
 UID:prasol-chemicals-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261210
-DTEND;VALUE=DATE:20261211
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
 SUMMARY:🔓 Prasol Chemicals Ltd. — 90D anchor unlock (1\,109\,465 sh\; ~Rs.75.0 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/prasol-chemicals-ipo/2775/
 END:VEVENT
 BEGIN:VEVENT
 UID:kanohar-electricals-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261011
-DTEND;VALUE=DATE:20261012
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
 SUMMARY:🔓 Kanohar Electricals Ltd. — 30D anchor unlock (2\,505\,712 sh\; ~Rs.158.4 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/kanohar-electricals-ipo/2856/
 END:VEVENT
 BEGIN:VEVENT
 UID:kanohar-electricals-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261210
-DTEND;VALUE=DATE:20261211
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
 SUMMARY:🔓 Kanohar Electricals Ltd. — 90D anchor unlock (2\,505\,712 sh\; ~Rs.158.4 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/kanohar-electricals-ipo/2856/
 END:VEVENT
@@ -859,25 +929,11 @@ SUMMARY:🔓 Pramodini Medicare Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/pramodini-medicare-ipo/3088/
 END:VEVENT
 BEGIN:VEVENT
-UID:shiprocket-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260915
-DTEND;VALUE=DATE:20260916
-SUMMARY:🔓 Shiprocket Ltd. — 30D anchor unlock (37\,495\,784 sh\; ~Rs.363.7 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/shiprocket-ipo/2450/
-END:VEVENT
-BEGIN:VEVENT
 UID:shiprocket-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:🔓 Shiprocket Ltd. — 90D anchor unlock (37\,495\,784 sh\; ~Rs.363.7 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/shiprocket-ipo/2450/
-END:VEVENT
-BEGIN:VEVENT
-UID:behari-lal-engineering-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260915
-DTEND;VALUE=DATE:20260916
-SUMMARY:🔓 Behari Lal Engineering Ltd. — 30D anchor unlock (1\,587\,473 sh\; ~Rs.45.2 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/behari-lal-engineering-ipo/2659/
 END:VEVENT
 BEGIN:VEVENT
 UID:behari-lal-engineering-ipo-A90@unlockradar
