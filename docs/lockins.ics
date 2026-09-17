@@ -5,6 +5,27 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:axiom-gas-engineering-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:🔓 Axiom Gas Engineering Ltd. — 30D anchor unlock (535\,200 sh\; 1.51% of capital\; ~Rs.2.9 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/axiom-gas-engineering-ipo/2193/
+END:VEVENT
+BEGIN:VEVENT
+UID:axiom-gas-engineering-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
+SUMMARY:🔓 Axiom Gas Engineering Ltd. — 90D anchor unlock (535\,200 sh\; 1.51% of capital\; ~Rs.2.9 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/axiom-gas-engineering-ipo/2193/
+END:VEVENT
+BEGIN:VEVENT
+UID:axiom-gas-engineering-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270317
+DTEND;VALUE=DATE:20270318
+SUMMARY:🔓 Axiom Gas Engineering Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/axiom-gas-engineering-ipo/2193/
+END:VEVENT
+BEGIN:VEVENT
 UID:kheria-autocomp-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261023
@@ -29,14 +50,14 @@ BEGIN:VEVENT
 UID:sonaselection-india-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261023
-SUMMARY:🔓 Sonaselection India Ltd. — 30D anchor unlock
+SUMMARY:🔓 Sonaselection India Ltd. — 30D anchor unlock (2\,145\,000 sh\; ~Rs.21.2 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/sonaselection-india-ipo/2805/
 END:VEVENT
 BEGIN:VEVENT
 UID:sonaselection-india-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261221
 DTEND;VALUE=DATE:20261222
-SUMMARY:🔓 Sonaselection India Ltd. — 90D anchor unlock
+SUMMARY:🔓 Sonaselection India Ltd. — 90D anchor unlock (2\,145\,000 sh\; ~Rs.21.2 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/sonaselection-india-ipo/2805/
 END:VEVENT
 BEGIN:VEVENT
@@ -64,14 +85,14 @@ BEGIN:VEVENT
 UID:nse-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261021
 DTEND;VALUE=DATE:20261022
-SUMMARY:🔓 National Stock Exchange of India Ltd. — 30D anchor unlock
+SUMMARY:🔓 National Stock Exchange of India Ltd. — 30D anchor unlock (18\,896\,869 sh\; ~Rs.3373.1 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/nse-ipo/3151/
 END:VEVENT
 BEGIN:VEVENT
 UID:nse-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
-SUMMARY:🔓 National Stock Exchange of India Ltd. — 90D anchor unlock
+SUMMARY:🔓 National Stock Exchange of India Ltd. — 90D anchor unlock (18\,896\,869 sh\; ~Rs.3373.1 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/nse-ipo/3151/
 END:VEVENT
 BEGIN:VEVENT
@@ -271,20 +292,6 @@ SUMMARY:🔓 Maharaja & Speedex India Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/maharaja-speedex-ipo/3089/
 END:VEVENT
 BEGIN:VEVENT
-UID:karamtara-engineering-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261015
-DTEND;VALUE=DATE:20261016
-SUMMARY:🔓 Karamtara Engineering Ltd. — 30D anchor unlock (5\,167\,322 sh\; ~Rs.131.2 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/karamtara-engineering-ipo/2020/
-END:VEVENT
-BEGIN:VEVENT
-UID:karamtara-engineering-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261214
-DTEND;VALUE=DATE:20261215
-SUMMARY:🔓 Karamtara Engineering Ltd. — 90D anchor unlock (5\,167\,322 sh\; ~Rs.131.2 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/karamtara-engineering-ipo/2020/
-END:VEVENT
-BEGIN:VEVENT
 UID:lcc-projects-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
@@ -320,20 +327,6 @@ SUMMARY:🔓 Amtech Esters Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/amtech-esters-ipo/2207/
 END:VEVENT
 BEGIN:VEVENT
-UID:steamhouse-india-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261015
-DTEND;VALUE=DATE:20261016
-SUMMARY:🔓 Steamhouse India Ltd. — 30D anchor unlock (7\,666\,666 sh\; ~Rs.62.1 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/steamhouse-india-ipo/2514/
-END:VEVENT
-BEGIN:VEVENT
-UID:steamhouse-india-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261214
-DTEND;VALUE=DATE:20261215
-SUMMARY:🔓 Steamhouse India Ltd. — 90D anchor unlock (7\,666\,666 sh\; ~Rs.62.1 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/steamhouse-india-ipo/2514/
-END:VEVENT
-BEGIN:VEVENT
 UID:manipal-payment-and-identity-solutions-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
@@ -348,30 +341,58 @@ SUMMARY:🔓 Manipal Payment & Identity Solutions Ltd. — 90D anchor unlock (5\
 DESCRIPTION:https://www.chittorgarh.com/ipo/manipal-payment-and-identity-solutions-ipo/2524/
 END:VEVENT
 BEGIN:VEVENT
+UID:karamtara-engineering-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+SUMMARY:🔓 Karamtara Engineering Ltd. — 30D anchor unlock (5\,167\,322 sh\; ~Rs.131.2 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/karamtara-engineering-ipo/2020/
+END:VEVENT
+BEGIN:VEVENT
+UID:karamtara-engineering-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:🔓 Karamtara Engineering Ltd. — 90D anchor unlock (5\,167\,322 sh\; ~Rs.131.2 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/karamtara-engineering-ipo/2020/
+END:VEVENT
+BEGIN:VEVENT
+UID:steamhouse-india-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+SUMMARY:🔓 Steamhouse India Ltd. — 30D anchor unlock (7\,666\,666 sh\; ~Rs.62.1 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/steamhouse-india-ipo/2514/
+END:VEVENT
+BEGIN:VEVENT
+UID:steamhouse-india-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:🔓 Steamhouse India Ltd. — 90D anchor unlock (7\,666\,666 sh\; ~Rs.62.1 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/steamhouse-india-ipo/2514/
+END:VEVENT
+BEGIN:VEVENT
 UID:asset-reconstruction-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261015
-DTEND;VALUE=DATE:20261016
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
 SUMMARY:🔓 Asset Reconstruction Co.(India) Ltd. — 30D anchor unlock (7\,909\,791 sh\; ~Rs.109.9 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/asset-reconstruction-ipo/2558/
 END:VEVENT
 BEGIN:VEVENT
 UID:asset-reconstruction-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261214
-DTEND;VALUE=DATE:20261215
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
 SUMMARY:🔓 Asset Reconstruction Co.(India) Ltd. — 90D anchor unlock (7\,909\,791 sh\; ~Rs.109.9 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/asset-reconstruction-ipo/2558/
 END:VEVENT
 BEGIN:VEVENT
 UID:rentomojo-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261015
-DTEND;VALUE=DATE:20261016
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
 SUMMARY:🔓 Rentomojo Ltd. — 30D anchor unlock (4\,654\,333 sh\; ~Rs.188.0 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/rentomojo-ipo/2971/
 END:VEVENT
 BEGIN:VEVENT
 UID:rentomojo-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261214
-DTEND;VALUE=DATE:20261215
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
 SUMMARY:🔓 Rentomojo Ltd. — 90D anchor unlock (4\,654\,333 sh\; ~Rs.188.0 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/rentomojo-ipo/2971/
 END:VEVENT
@@ -906,13 +927,6 @@ DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:🔓 Credent Connect N Care Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/credent-connect-ipo/2991/
-END:VEVENT
-BEGIN:VEVENT
-UID:pramodini-medicare-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260916
-DTEND;VALUE=DATE:20260917
-SUMMARY:🔓 Pramodini Medicare Ltd. — 30D anchor unlock (680\,400 sh\; 3.09% of capital\; ~Rs.8.0 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/pramodini-medicare-ipo/3088/
 END:VEVENT
 BEGIN:VEVENT
 UID:pramodini-medicare-ipo-A90@unlockradar
@@ -1928,13 +1942,6 @@ DTSTART;VALUE=DATE:20280320
 DTEND;VALUE=DATE:20280321
 SUMMARY:🔓 Tipco Engineering India Ltd. — 2Y promoter unlock (3\,924\,034 sh\; 18.89% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/tipco-engineering-ipo/2733/
-END:VEVENT
-BEGIN:VEVENT
-UID:novus-loyalty-ipo-PRE6M@unlockradar
-DTSTART;VALUE=DATE:20260916
-DTEND;VALUE=DATE:20260917
-SUMMARY:🔓 Novus Loyalty Ltd. — 6M pre-IPO unlock (536\,558 sh\; 3.45% of capital)
-DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/novus-loyalty-ipo/2747/
 END:VEVENT
 BEGIN:VEVENT
 UID:novus-loyalty-ipo-PX1Y@unlockradar
