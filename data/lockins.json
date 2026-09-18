@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-17T11:54:54+05:30",
+ "generated_at": "2026-09-18T11:47:17+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -7,6 +7,174 @@
   2026
  ],
  "records": [
+  {
+   "company": "Vivekanand Cotspin Ltd.",
+   "slug": "vivekanand-cotspin-ipo",
+   "url": "https://www.chittorgarh.com/ipo/vivekanand-cotspin-ipo/2062/",
+   "category": "SME",
+   "anchor_allotment_date": "2026-09-18",
+   "boa_date": "2026-09-18",
+   "d30": "2026-10-24",
+   "d90": "2026-12-23",
+   "anchor_shares": 1710000,
+   "anchor_investment_cr": 6.33,
+   "pct_of_issue": 22.18,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": 16250000,
+   "post_shares": 22250000,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": "2026-09-28",
+   "anchor_names": [],
+   "lm": [
+    [
+     122,
+     "Swastika Investmart Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-24",
+     "sh": 855000,
+     "pct": 3.84,
+     "val": 3.165,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-12-23",
+     "sh": 855000,
+     "pct": 3.84,
+     "val": 3.165,
+     "est": false
+    },
+    {
+     "t": "PRE6M",
+     "d": "2027-03-18",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": true
+    }
+   ]
+  },
+  {
+   "company": "FX Multitech Ltd.",
+   "slug": "fx-multitech-ipo",
+   "url": "https://www.chittorgarh.com/ipo/fx-multitech-ipo/2849/",
+   "category": "SME",
+   "anchor_allotment_date": "2026-09-18",
+   "boa_date": "2026-09-18",
+   "d30": "2026-10-24",
+   "d90": "2026-12-23",
+   "anchor_shares": 1102800,
+   "anchor_investment_cr": 12.79,
+   "pct_of_issue": 22.04,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": 10807600,
+   "post_shares": 14359600,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": "2026-09-28",
+   "anchor_names": [],
+   "lm": [
+    [
+     94,
+     "Oneview Corporate Advisors Pvt.Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-24",
+     "sh": 551400,
+     "pct": 3.84,
+     "val": 6.395,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-12-23",
+     "sh": 551400,
+     "pct": 3.84,
+     "val": 6.395,
+     "est": false
+    },
+    {
+     "t": "PRE6M",
+     "d": "2027-03-18",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": true
+    }
+   ]
+  },
+  {
+   "company": "Robokidz Eduventures Ltd.",
+   "slug": "robokidz-eduventures-ipo",
+   "url": "https://www.chittorgarh.com/ipo/robokidz-eduventures-ipo/3205/",
+   "category": "SME",
+   "anchor_allotment_date": "2026-09-18",
+   "boa_date": "2026-09-18",
+   "d30": "2026-10-24",
+   "d90": "2026-12-23",
+   "anchor_shares": 828000,
+   "anchor_investment_cr": 8.78,
+   "pct_of_issue": 22.02,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": 7926653,
+   "post_shares": 10859453,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": "2026-09-28",
+   "anchor_names": [],
+   "lm": [
+    [
+     182,
+     "GYR Capital Advisors Pvt.Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-24",
+     "sh": 414000,
+     "pct": 3.81,
+     "val": 4.39,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-12-23",
+     "sh": 414000,
+     "pct": 3.81,
+     "val": 4.39,
+     "est": false
+    },
+    {
+     "t": "PRE6M",
+     "d": "2027-03-18",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": true
+    }
+   ]
+  },
   {
    "company": "Axiom Gas Engineering Ltd.",
    "slug": "axiom-gas-engineering-ipo",
@@ -18,7 +186,7 @@
    "d90": "2026-12-22",
    "anchor_shares": 1070400,
    "anchor_investment_cr": 5.78,
-   "pct_of_issue": 10.23,
+   "pct_of_issue": 10.22,
    "isin": "",
    "nse_symbol": "",
    "bse_code": "",
@@ -602,6 +770,62 @@
    ]
   },
   {
+   "company": "Maharaja & Speedex India Ltd.",
+   "slug": "maharaja-speedex-ipo",
+   "url": "https://www.chittorgarh.com/ipo/maharaja-speedex-ipo/3089/",
+   "category": "SME",
+   "anchor_allotment_date": "2026-09-09",
+   "boa_date": "2026-09-09",
+   "d30": "2026-10-17",
+   "d90": "2026-12-16",
+   "anchor_shares": 1227000,
+   "anchor_investment_cr": 22.82,
+   "pct_of_issue": 22.17,
+   "isin": "INE0SVD01012",
+   "nse_symbol": "",
+   "bse_code": 544925,
+   "pre_shares": 12898740,
+   "post_shares": 16345140,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": "2026-09-18",
+   "anchor_names": [],
+   "lm": [
+    [
+     116,
+     "Choice Capital Advisors Pvt.Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-17",
+     "sh": 613500,
+     "pct": 3.75,
+     "val": 11.41,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-12-16",
+     "sh": 613500,
+     "pct": 3.75,
+     "val": 11.41,
+     "est": false
+    },
+    {
+     "t": "PRE6M",
+     "d": "2027-03-09",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": true
+    }
+   ]
+  },
+  {
    "company": "Raksan Transformers Ltd.",
    "slug": "raksan-transformers-ipo",
    "url": "https://www.chittorgarh.com/ipo/raksan-transformers-ipo/2767/",
@@ -613,9 +837,9 @@
    "anchor_shares": 1570000,
    "anchor_investment_cr": 42.86,
    "pct_of_issue": 22.17,
-   "isin": "",
+   "isin": "INE1S7M01017",
    "nse_symbol": "",
-   "bse_code": "",
+   "bse_code": 544924,
    "pre_shares": 16480600,
    "post_shares": 20893400,
    "prom_pre_pct": null,
@@ -669,9 +893,9 @@
    "anchor_shares": 4500000,
    "anchor_investment_cr": 63.0,
    "pct_of_issue": 23.08,
-   "isin": "",
-   "nse_symbol": "",
-   "bse_code": "",
+   "isin": "INE1JTV01015",
+   "nse_symbol": "VEEGALAND",
+   "bse_code": 544923,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -712,9 +936,9 @@
    "anchor_shares": 3321600,
    "anchor_investment_cr": 29.89,
    "pct_of_issue": 22.16,
-   "isin": "",
+   "isin": "INE2D0Q01027",
    "nse_symbol": "",
-   "bse_code": "",
+   "bse_code": 544922,
    "pre_shares": 22210824,
    "post_shares": 33878024,
    "prom_pre_pct": null,
@@ -757,62 +981,6 @@
    ]
   },
   {
-   "company": "Maharaja & Speedex India Ltd.",
-   "slug": "maharaja-speedex-ipo",
-   "url": "https://www.chittorgarh.com/ipo/maharaja-speedex-ipo/3089/",
-   "category": "SME",
-   "anchor_allotment_date": "2026-09-09",
-   "boa_date": "2026-09-09",
-   "d30": "2026-10-16",
-   "d90": "2026-12-15",
-   "anchor_shares": 1227000,
-   "anchor_investment_cr": 22.82,
-   "pct_of_issue": 22.17,
-   "isin": "",
-   "nse_symbol": "",
-   "bse_code": "",
-   "pre_shares": 12898740,
-   "post_shares": 16345140,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": "2026-09-18",
-   "anchor_names": [],
-   "lm": [
-    [
-     116,
-     "Choice Capital Advisors Pvt.Ltd"
-    ]
-   ],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-10-16",
-     "sh": 613500,
-     "pct": 3.75,
-     "val": 11.41,
-     "est": false
-    },
-    {
-     "t": "A90",
-     "d": "2026-12-15",
-     "sh": 613500,
-     "pct": 3.75,
-     "val": 11.41,
-     "est": false
-    },
-    {
-     "t": "PRE6M",
-     "d": "2027-03-09",
-     "sh": null,
-     "pct": null,
-     "val": null,
-     "est": true
-    }
-   ]
-  },
-  {
    "company": "LCC Projects Ltd.",
    "slug": "lcc-projects-ipo",
    "url": "https://www.chittorgarh.com/ipo/lcc-projects-ipo/2086/",
@@ -826,7 +994,7 @@
    "pct_of_issue": 23.08,
    "isin": "INE1FPN01026",
    "nse_symbol": "LCCPROJECT",
-   "bse_code": "",
+   "bse_code": 544918,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,

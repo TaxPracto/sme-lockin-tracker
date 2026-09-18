@@ -5,6 +5,69 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:vivekanand-cotspin-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:🔓 Vivekanand Cotspin Ltd. — 30D anchor unlock (855\,000 sh\; 3.84% of capital\; ~Rs.3.2 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/vivekanand-cotspin-ipo/2062/
+END:VEVENT
+BEGIN:VEVENT
+UID:vivekanand-cotspin-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:🔓 Vivekanand Cotspin Ltd. — 90D anchor unlock (855\,000 sh\; 3.84% of capital\; ~Rs.3.2 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/vivekanand-cotspin-ipo/2062/
+END:VEVENT
+BEGIN:VEVENT
+UID:vivekanand-cotspin-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270318
+DTEND;VALUE=DATE:20270319
+SUMMARY:🔓 Vivekanand Cotspin Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/vivekanand-cotspin-ipo/2062/
+END:VEVENT
+BEGIN:VEVENT
+UID:fx-multitech-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:🔓 FX Multitech Ltd. — 30D anchor unlock (551\,400 sh\; 3.84% of capital\; ~Rs.6.4 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/fx-multitech-ipo/2849/
+END:VEVENT
+BEGIN:VEVENT
+UID:fx-multitech-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:🔓 FX Multitech Ltd. — 90D anchor unlock (551\,400 sh\; 3.84% of capital\; ~Rs.6.4 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/fx-multitech-ipo/2849/
+END:VEVENT
+BEGIN:VEVENT
+UID:fx-multitech-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270318
+DTEND;VALUE=DATE:20270319
+SUMMARY:🔓 FX Multitech Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/fx-multitech-ipo/2849/
+END:VEVENT
+BEGIN:VEVENT
+UID:robokidz-eduventures-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:🔓 Robokidz Eduventures Ltd. — 30D anchor unlock (414\,000 sh\; 3.81% of capital\; ~Rs.4.4 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/robokidz-eduventures-ipo/3205/
+END:VEVENT
+BEGIN:VEVENT
+UID:robokidz-eduventures-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:🔓 Robokidz Eduventures Ltd. — 90D anchor unlock (414\,000 sh\; 3.81% of capital\; ~Rs.4.4 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/robokidz-eduventures-ipo/3205/
+END:VEVENT
+BEGIN:VEVENT
+UID:robokidz-eduventures-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270318
+DTEND;VALUE=DATE:20270319
+SUMMARY:🔓 Robokidz Eduventures Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/robokidz-eduventures-ipo/3205/
+END:VEVENT
+BEGIN:VEVENT
 UID:axiom-gas-engineering-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
@@ -215,6 +278,27 @@ SUMMARY:🔓 Injecto Polymers Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/injecto-polymers-ipo/2625/
 END:VEVENT
 BEGIN:VEVENT
+UID:maharaja-speedex-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:🔓 Maharaja & Speedex India Ltd. — 30D anchor unlock (613\,500 sh\; 3.75% of capital\; ~Rs.11.4 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/maharaja-speedex-ipo/3089/
+END:VEVENT
+BEGIN:VEVENT
+UID:maharaja-speedex-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+SUMMARY:🔓 Maharaja & Speedex India Ltd. — 90D anchor unlock (613\,500 sh\; 3.75% of capital\; ~Rs.11.4 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/maharaja-speedex-ipo/3089/
+END:VEVENT
+BEGIN:VEVENT
+UID:maharaja-speedex-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270309
+DTEND;VALUE=DATE:20270310
+SUMMARY:🔓 Maharaja & Speedex India Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/maharaja-speedex-ipo/3089/
+END:VEVENT
+BEGIN:VEVENT
 UID:raksan-transformers-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
@@ -269,27 +353,6 @@ DTSTART;VALUE=DATE:20270309
 DTEND;VALUE=DATE:20270310
 SUMMARY:🔓 Om Galaxy Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/om-galaxy-ipo/2987/
-END:VEVENT
-BEGIN:VEVENT
-UID:maharaja-speedex-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261016
-DTEND;VALUE=DATE:20261017
-SUMMARY:🔓 Maharaja & Speedex India Ltd. — 30D anchor unlock (613\,500 sh\; 3.75% of capital\; ~Rs.11.4 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/maharaja-speedex-ipo/3089/
-END:VEVENT
-BEGIN:VEVENT
-UID:maharaja-speedex-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261215
-DTEND;VALUE=DATE:20261216
-SUMMARY:🔓 Maharaja & Speedex India Ltd. — 90D anchor unlock (613\,500 sh\; 3.75% of capital\; ~Rs.11.4 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/maharaja-speedex-ipo/3089/
-END:VEVENT
-BEGIN:VEVENT
-UID:maharaja-speedex-ipo-PRE6M@unlockradar
-DTSTART;VALUE=DATE:20270309
-DTEND;VALUE=DATE:20270310
-SUMMARY:🔓 Maharaja & Speedex India Ltd. — 6M pre-IPO unlock
-DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/maharaja-speedex-ipo/3089/
 END:VEVENT
 BEGIN:VEVENT
 UID:lcc-projects-ipo-A30@unlockradar
@@ -906,13 +969,6 @@ DTSTART;VALUE=DATE:20270213
 DTEND;VALUE=DATE:20270214
 SUMMARY:🔓 Technocrats Plasma Systems Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/technocrats-plasma-systems-ipo/2840/
-END:VEVENT
-BEGIN:VEVENT
-UID:credent-connect-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260917
-DTEND;VALUE=DATE:20260918
-SUMMARY:🔓 Credent Connect N Care Ltd. — 30D anchor unlock (702\,000 sh\; 3.85% of capital\; ~Rs.13.3 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/credent-connect-ipo/2991/
 END:VEVENT
 BEGIN:VEVENT
 UID:credent-connect-ipo-A90@unlockradar
