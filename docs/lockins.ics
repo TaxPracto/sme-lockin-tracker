@@ -5,6 +5,41 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:varmora-granito-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:🔓 Varmora Granito Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/varmora-granito-ipo/2563/
+END:VEVENT
+BEGIN:VEVENT
+UID:varmora-granito-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261224
+DTEND;VALUE=DATE:20261225
+SUMMARY:🔓 Varmora Granito Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/varmora-granito-ipo/2563/
+END:VEVENT
+BEGIN:VEVENT
+UID:himalaya-nutravedics-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:🔓 Himalaya Nutravedics India Ltd. — 30D anchor unlock (355\,200 sh\; 4.03% of capital\; ~Rs.3.8 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/himalaya-nutravedics-ipo/2970/
+END:VEVENT
+BEGIN:VEVENT
+UID:himalaya-nutravedics-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261224
+DTEND;VALUE=DATE:20261225
+SUMMARY:🔓 Himalaya Nutravedics India Ltd. — 90D anchor unlock (355\,200 sh\; 4.03% of capital\; ~Rs.3.8 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/himalaya-nutravedics-ipo/2970/
+END:VEVENT
+BEGIN:VEVENT
+UID:himalaya-nutravedics-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270322
+SUMMARY:🔓 Himalaya Nutravedics India Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/himalaya-nutravedics-ipo/2970/
+END:VEVENT
+BEGIN:VEVENT
 UID:vivekanand-cotspin-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
@@ -1601,13 +1636,6 @@ SUMMARY:🔓 Avience Biomedicals Ltd. — 2Y promoter unlock (1\,222\,893 sh\; 2
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/avience-biomedicals-ipo/2184/
 END:VEVENT
 BEGIN:VEVENT
-UID:clay-craft-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20260920
-DTEND;VALUE=DATE:20260921
-SUMMARY:🔓 Clay Craft India Ltd. — 90D anchor unlock (771\,900 sh\; 3.75% of capital\; ~Rs.15.7 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/clay-craft-ipo/2585/
-END:VEVENT
-BEGIN:VEVENT
 UID:clay-craft-ipo-PRE6M@unlockradar
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
@@ -1935,13 +1963,6 @@ DTSTART;VALUE=DATE:20280323
 DTEND;VALUE=DATE:20280324
 SUMMARY:🔓 Highness Microelectronics Ltd. — 2Y promoter unlock (1\,160\,777 sh\; 22.48% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/highness-microelectronics-ipo/2768/
-END:VEVENT
-BEGIN:VEVENT
-UID:tipco-engineering-ipo-PRE6M@unlockradar
-DTSTART;VALUE=DATE:20260920
-DTEND;VALUE=DATE:20260921
-SUMMARY:🔓 Tipco Engineering India Ltd. — 6M pre-IPO unlock (1\,962\,438 sh\; 9.45% of capital)
-DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/tipco-engineering-ipo/2733/
 END:VEVENT
 BEGIN:VEVENT
 UID:tipco-engineering-ipo-PX1Y@unlockradar
