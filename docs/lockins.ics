@@ -5,17 +5,136 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:armee-infotech-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:🔓 ArMee Infotech Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/armee-infotech-ipo/2140/
+END:VEVENT
+BEGIN:VEVENT
+UID:armee-infotech-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261227
+DTEND;VALUE=DATE:20261228
+SUMMARY:🔓 ArMee Infotech Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/armee-infotech-ipo/2140/
+END:VEVENT
+BEGIN:VEVENT
+UID:swastika-infra-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:🔓 Swastika Infra Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/swastika-infra-ipo/2287/
+END:VEVENT
+BEGIN:VEVENT
+UID:swastika-infra-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261227
+DTEND;VALUE=DATE:20261228
+SUMMARY:🔓 Swastika Infra Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/swastika-infra-ipo/2287/
+END:VEVENT
+BEGIN:VEVENT
+UID:elevate-campuses-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:🔓 Elevate Campuses Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/elevate-campuses-ipo/2647/
+END:VEVENT
+BEGIN:VEVENT
+UID:elevate-campuses-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261227
+DTEND;VALUE=DATE:20261228
+SUMMARY:🔓 Elevate Campuses Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/elevate-campuses-ipo/2647/
+END:VEVENT
+BEGIN:VEVENT
+UID:pooja-logistics-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:🔓 Pooja Logistics Ltd. — 30D anchor unlock (531\,000 sh\; 3.72% of capital\; ~Rs.6.1 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/pooja-logistics-ipo/2724/
+END:VEVENT
+BEGIN:VEVENT
+UID:pooja-logistics-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261227
+DTEND;VALUE=DATE:20261228
+SUMMARY:🔓 Pooja Logistics Ltd. — 90D anchor unlock (531\,000 sh\; 3.72% of capital\; ~Rs.6.1 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/pooja-logistics-ipo/2724/
+END:VEVENT
+BEGIN:VEVENT
+UID:pooja-logistics-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270322
+DTEND;VALUE=DATE:20270323
+SUMMARY:🔓 Pooja Logistics Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/pooja-logistics-ipo/2724/
+END:VEVENT
+BEGIN:VEVENT
+UID:adroit-industries-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:🔓 Adroit Industries (India) Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/adroit-industries-ipo/3007/
+END:VEVENT
+BEGIN:VEVENT
+UID:adroit-industries-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261227
+DTEND;VALUE=DATE:20261228
+SUMMARY:🔓 Adroit Industries (India) Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/adroit-industries-ipo/3007/
+END:VEVENT
+BEGIN:VEVENT
+UID:skoffset-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:🔓 S.K.Offset Ltd. — 30D anchor unlock (270\,000 sh\; 3.49% of capital\; ~Rs.3.4 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/skoffset-ipo/3150/
+END:VEVENT
+BEGIN:VEVENT
+UID:skoffset-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261227
+DTEND;VALUE=DATE:20261228
+SUMMARY:🔓 S.K.Offset Ltd. — 90D anchor unlock (270\,000 sh\; 3.49% of capital\; ~Rs.3.4 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/skoffset-ipo/3150/
+END:VEVENT
+BEGIN:VEVENT
+UID:skoffset-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270322
+DTEND;VALUE=DATE:20270323
+SUMMARY:🔓 S.K.Offset Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/skoffset-ipo/3150/
+END:VEVENT
+BEGIN:VEVENT
+UID:unitec-fibres-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:🔓 Unitec Fibres Ltd. — 30D anchor unlock (553\,600 sh\; 3.84% of capital\; ~Rs.4.9 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/unitec-fibres-ipo/3171/
+END:VEVENT
+BEGIN:VEVENT
+UID:unitec-fibres-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261227
+DTEND;VALUE=DATE:20261228
+SUMMARY:🔓 Unitec Fibres Ltd. — 90D anchor unlock (553\,600 sh\; 3.84% of capital\; ~Rs.4.9 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/unitec-fibres-ipo/3171/
+END:VEVENT
+BEGIN:VEVENT
+UID:unitec-fibres-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270322
+DTEND;VALUE=DATE:20270323
+SUMMARY:🔓 Unitec Fibres Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/unitec-fibres-ipo/3171/
+END:VEVENT
+BEGIN:VEVENT
 UID:varmora-granito-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
-SUMMARY:🔓 Varmora Granito Ltd. — 30D anchor unlock
+SUMMARY:🔓 Varmora Granito Ltd. — 30D anchor unlock (7\,175\,887 sh\; ~Rs.106.2 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/varmora-granito-ipo/2563/
 END:VEVENT
 BEGIN:VEVENT
 UID:varmora-granito-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261224
 DTEND;VALUE=DATE:20261225
-SUMMARY:🔓 Varmora Granito Ltd. — 90D anchor unlock
+SUMMARY:🔓 Varmora Granito Ltd. — 90D anchor unlock (7\,175\,887 sh\; ~Rs.106.2 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/varmora-granito-ipo/2563/
 END:VEVENT
 BEGIN:VEVENT
@@ -1573,20 +1692,6 @@ SUMMARY:🔓 Shreedhar Spinners Ltd. — 2Y promoter unlock (5\,410\,951 sh\; 25
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/shreedhar-spinners-ipo/2851/
 END:VEVENT
 BEGIN:VEVENT
-UID:turtlemint-fintech-solutions-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20260921
-DTEND;VALUE=DATE:20260922
-SUMMARY:🔓 Turtlemint Fintech Solutions Ltd. — 90D anchor unlock (13\,065\,840 sh\; ~Rs.198.6 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/turtlemint-fintech-solutions-ipo/2601/
-END:VEVENT
-BEGIN:VEVENT
-UID:anubhav-plast-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20260921
-DTEND;VALUE=DATE:20260922
-SUMMARY:🔓 Anubhav Plast Ltd. — 90D anchor unlock (424\,000 sh\; 3.85% of capital\; ~Rs.3.4 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/anubhav-plast-ipo/2610/
-END:VEVENT
-BEGIN:VEVENT
 UID:anubhav-plast-ipo-PRE6M@unlockradar
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
@@ -1606,13 +1711,6 @@ DTSTART;VALUE=DATE:20280618
 DTEND;VALUE=DATE:20280619
 SUMMARY:🔓 Anubhav Plast Ltd. — 2Y promoter unlock (2\,900\,150 sh\; 26.36% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/anubhav-plast-ipo/2610/
-END:VEVENT
-BEGIN:VEVENT
-UID:avience-biomedicals-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20260921
-DTEND;VALUE=DATE:20260922
-SUMMARY:🔓 Avience Biomedicals Ltd. — 90D anchor unlock (204\,900 sh\; 3.74% of capital\; ~Rs.4.3 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/avience-biomedicals-ipo/2184/
 END:VEVENT
 BEGIN:VEVENT
 UID:avience-biomedicals-ipo-PRE6M@unlockradar
