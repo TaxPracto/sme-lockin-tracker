@@ -5,45 +5,94 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:a-one-steels-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:🔓 A-One Steels India Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/a-one-steels-ipo/2000/
+END:VEVENT
+BEGIN:VEVENT
+UID:a-one-steels-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261228
+DTEND;VALUE=DATE:20261229
+SUMMARY:🔓 A-One Steels India Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/a-one-steels-ipo/2000/
+END:VEVENT
+BEGIN:VEVENT
+UID:roopa-screen-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:🔓 Roopa Screen Ltd. — 30D anchor unlock (416\,000 sh\; 3.76% of capital\; ~Rs.2.7 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/roopa-screen-ipo/2651/
+END:VEVENT
+BEGIN:VEVENT
+UID:roopa-screen-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261228
+DTEND;VALUE=DATE:20261229
+SUMMARY:🔓 Roopa Screen Ltd. — 90D anchor unlock (416\,000 sh\; 3.76% of capital\; ~Rs.2.7 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/roopa-screen-ipo/2651/
+END:VEVENT
+BEGIN:VEVENT
+UID:roopa-screen-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270323
+DTEND;VALUE=DATE:20270324
+SUMMARY:🔓 Roopa Screen Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/roopa-screen-ipo/2651/
+END:VEVENT
+BEGIN:VEVENT
+UID:moneyview-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:🔓 Moneyview Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/moneyview-ipo/2936/
+END:VEVENT
+BEGIN:VEVENT
+UID:moneyview-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261228
+DTEND;VALUE=DATE:20261229
+SUMMARY:🔓 Moneyview Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/moneyview-ipo/2936/
+END:VEVENT
+BEGIN:VEVENT
 UID:armee-infotech-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261028
 DTEND;VALUE=DATE:20261029
-SUMMARY:🔓 ArMee Infotech Ltd. — 30D anchor unlock
+SUMMARY:🔓 ArMee Infotech Ltd. — 30D anchor unlock (532\,500 sh\; ~Rs.20.0 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/armee-infotech-ipo/2140/
 END:VEVENT
 BEGIN:VEVENT
 UID:armee-infotech-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
-SUMMARY:🔓 ArMee Infotech Ltd. — 90D anchor unlock
+SUMMARY:🔓 ArMee Infotech Ltd. — 90D anchor unlock (532\,500 sh\; ~Rs.20.0 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/armee-infotech-ipo/2140/
 END:VEVENT
 BEGIN:VEVENT
 UID:swastika-infra-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261028
 DTEND;VALUE=DATE:20261029
-SUMMARY:🔓 Swastika Infra Ltd. — 30D anchor unlock
+SUMMARY:🔓 Swastika Infra Ltd. — 30D anchor unlock (1\,304\,391 sh\; ~Rs.24.1 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/swastika-infra-ipo/2287/
 END:VEVENT
 BEGIN:VEVENT
 UID:swastika-infra-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
-SUMMARY:🔓 Swastika Infra Ltd. — 90D anchor unlock
+SUMMARY:🔓 Swastika Infra Ltd. — 90D anchor unlock (1\,304\,391 sh\; ~Rs.24.1 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/swastika-infra-ipo/2287/
 END:VEVENT
 BEGIN:VEVENT
 UID:elevate-campuses-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261028
 DTEND;VALUE=DATE:20261029
-SUMMARY:🔓 Elevate Campuses Ltd. — 30D anchor unlock
+SUMMARY:🔓 Elevate Campuses Ltd. — 30D anchor unlock (13\,052\,486 sh\; ~Rs.472.5 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/elevate-campuses-ipo/2647/
 END:VEVENT
 BEGIN:VEVENT
 UID:elevate-campuses-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
-SUMMARY:🔓 Elevate Campuses Ltd. — 90D anchor unlock
+SUMMARY:🔓 Elevate Campuses Ltd. — 90D anchor unlock (13\,052\,486 sh\; ~Rs.472.5 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/elevate-campuses-ipo/2647/
 END:VEVENT
 BEGIN:VEVENT
@@ -71,14 +120,14 @@ BEGIN:VEVENT
 UID:adroit-industries-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261028
 DTEND;VALUE=DATE:20261029
-SUMMARY:🔓 Adroit Industries (India) Ltd. — 30D anchor unlock
+SUMMARY:🔓 Adroit Industries (India) Ltd. — 30D anchor unlock (1\,687\,050 sh\; ~Rs.22.6 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/adroit-industries-ipo/3007/
 END:VEVENT
 BEGIN:VEVENT
 UID:adroit-industries-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
-SUMMARY:🔓 Adroit Industries (India) Ltd. — 90D anchor unlock
+SUMMARY:🔓 Adroit Industries (India) Ltd. — 90D anchor unlock (1\,687\,050 sh\; ~Rs.22.6 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/adroit-industries-ipo/3007/
 END:VEVENT
 BEGIN:VEVENT
@@ -314,43 +363,43 @@ DESCRIPTION:https://www.chittorgarh.com/ipo/nse-ipo/3151/
 END:VEVENT
 BEGIN:VEVENT
 UID:hero-motors-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261021
-DTEND;VALUE=DATE:20261022
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
 SUMMARY:🔓 Hero Motors Ltd. — 30D anchor unlock (17\,857\,142 sh\; ~Rs.150.0 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/hero-motors-ipo/2225/
 END:VEVENT
 BEGIN:VEVENT
 UID:hero-motors-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261220
-DTEND;VALUE=DATE:20261221
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
 SUMMARY:🔓 Hero Motors Ltd. — 90D anchor unlock (17\,857\,142 sh\; ~Rs.150.0 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/hero-motors-ipo/2225/
 END:VEVENT
 BEGIN:VEVENT
 UID:jindal-supreme-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261021
-DTEND;VALUE=DATE:20261022
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
 SUMMARY:🔓 Jindal Supreme (India) Ltd. — 30D anchor unlock (2\,014\,200 sh\; ~Rs.18.7 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/jindal-supreme-ipo/2803/
 END:VEVENT
 BEGIN:VEVENT
 UID:jindal-supreme-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261220
-DTEND;VALUE=DATE:20261221
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
 SUMMARY:🔓 Jindal Supreme (India) Ltd. — 90D anchor unlock (2\,014\,200 sh\; ~Rs.18.7 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/jindal-supreme-ipo/2803/
 END:VEVENT
 BEGIN:VEVENT
 UID:ss-retail-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261021
-DTEND;VALUE=DATE:20261022
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
 SUMMARY:🔓 SS Retail Ltd. — 30D anchor unlock (1\,726\,414 sh\; ~Rs.73.2 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/ss-retail-ipo/2822/
 END:VEVENT
 BEGIN:VEVENT
 UID:ss-retail-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261220
-DTEND;VALUE=DATE:20261221
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
 SUMMARY:🔓 SS Retail Ltd. — 90D anchor unlock (1\,726\,414 sh\; ~Rs.73.2 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/ss-retail-ipo/2822/
 END:VEVENT
@@ -1011,13 +1060,6 @@ DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:🔓 Tempsens Instruments (India) Ltd. — 90D anchor unlock (3\,242\,499 sh\; ~Rs.97.3 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/tempsens-instruments-india-ipo/2668/
-END:VEVENT
-BEGIN:VEVENT
-UID:gaja-alternative-asset-management-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260922
-DTEND;VALUE=DATE:20260923
-SUMMARY:🔓 Gaja Alternative Asset Management Ltd. — 30D anchor unlock (5\,156\,250 sh\; ~Rs.82.5 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/gaja-alternative-asset-management-ipo/2527/
 END:VEVENT
 BEGIN:VEVENT
 UID:gaja-alternative-asset-management-ipo-A90@unlockradar
