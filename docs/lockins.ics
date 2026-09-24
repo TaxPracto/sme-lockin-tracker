@@ -5,17 +5,136 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:runwal-enterprises-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:🔓 Runwal Enterprises Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/runwal-enterprises-ipo/2298/
+END:VEVENT
+BEGIN:VEVENT
+UID:runwal-enterprises-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+SUMMARY:🔓 Runwal Enterprises Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/runwal-enterprises-ipo/2298/
+END:VEVENT
+BEGIN:VEVENT
+UID:german-green-steel-and-power-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:🔓 German Green Steel & Power Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/german-green-steel-and-power-ipo/2497/
+END:VEVENT
+BEGIN:VEVENT
+UID:german-green-steel-and-power-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+SUMMARY:🔓 German Green Steel & Power Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/german-green-steel-and-power-ipo/2497/
+END:VEVENT
+BEGIN:VEVENT
+UID:orient-cables-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:🔓 Orient Cables (India) Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/orient-cables-ipo/2532/
+END:VEVENT
+BEGIN:VEVENT
+UID:orient-cables-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+SUMMARY:🔓 Orient Cables (India) Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/orient-cables-ipo/2532/
+END:VEVENT
+BEGIN:VEVENT
+UID:acevector-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:🔓 Acevector Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/acevector-ipo/2543/
+END:VEVENT
+BEGIN:VEVENT
+UID:acevector-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+SUMMARY:🔓 Acevector Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/acevector-ipo/2543/
+END:VEVENT
+BEGIN:VEVENT
+UID:himalayan-solar-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:🔓 Himalayan Solar Ltd. — 30D anchor unlock (376\,200 sh\; 1.7% of capital\; ~Rs.3.9 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/himalayan-solar-ipo/2716/
+END:VEVENT
+BEGIN:VEVENT
+UID:himalayan-solar-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+SUMMARY:🔓 Himalayan Solar Ltd. — 90D anchor unlock (376\,200 sh\; 1.7% of capital\; ~Rs.3.9 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/himalayan-solar-ipo/2716/
+END:VEVENT
+BEGIN:VEVENT
+UID:himalayan-solar-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270324
+DTEND;VALUE=DATE:20270325
+SUMMARY:🔓 Himalayan Solar Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/himalayan-solar-ipo/2716/
+END:VEVENT
+BEGIN:VEVENT
+UID:shree-tnb-polymers-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:🔓 Shree TNB Polymers Ltd. — 30D anchor unlock (853\,000 sh\; 4.0% of capital\; ~Rs.4.4 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/shree-tnb-polymers-ipo/3095/
+END:VEVENT
+BEGIN:VEVENT
+UID:shree-tnb-polymers-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+SUMMARY:🔓 Shree TNB Polymers Ltd. — 90D anchor unlock (853\,000 sh\; 4.0% of capital\; ~Rs.4.4 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/shree-tnb-polymers-ipo/3095/
+END:VEVENT
+BEGIN:VEVENT
+UID:shree-tnb-polymers-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270324
+DTEND;VALUE=DATE:20270325
+SUMMARY:🔓 Shree TNB Polymers Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/shree-tnb-polymers-ipo/3095/
+END:VEVENT
+BEGIN:VEVENT
+UID:bench-mark-infotech-services-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:🔓 Bench Mark Infotech Services Ltd. — 30D anchor unlock (548\,400 sh\; 3.84% of capital\; ~Rs.6.0 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/bench-mark-infotech-services-ipo/3212/
+END:VEVENT
+BEGIN:VEVENT
+UID:bench-mark-infotech-services-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+SUMMARY:🔓 Bench Mark Infotech Services Ltd. — 90D anchor unlock (548\,400 sh\; 3.84% of capital\; ~Rs.6.0 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/bench-mark-infotech-services-ipo/3212/
+END:VEVENT
+BEGIN:VEVENT
+UID:bench-mark-infotech-services-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270324
+DTEND;VALUE=DATE:20270325
+SUMMARY:🔓 Bench Mark Infotech Services Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/bench-mark-infotech-services-ipo/3212/
+END:VEVENT
+BEGIN:VEVENT
 UID:a-one-steels-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261030
-SUMMARY:🔓 A-One Steels India Ltd. — 30D anchor unlock
+SUMMARY:🔓 A-One Steels India Ltd. — 30D anchor unlock (1\,492\,580 sh\; ~Rs.60.5 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/a-one-steels-ipo/2000/
 END:VEVENT
 BEGIN:VEVENT
 UID:a-one-steels-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261228
 DTEND;VALUE=DATE:20261229
-SUMMARY:🔓 A-One Steels India Ltd. — 90D anchor unlock
+SUMMARY:🔓 A-One Steels India Ltd. — 90D anchor unlock (1\,492\,580 sh\; ~Rs.60.5 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/a-one-steels-ipo/2000/
 END:VEVENT
 BEGIN:VEVENT
@@ -43,15 +162,36 @@ BEGIN:VEVENT
 UID:moneyview-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261030
-SUMMARY:🔓 Moneyview Ltd. — 30D anchor unlock
+SUMMARY:🔓 Moneyview Ltd. — 30D anchor unlock (48\,162\,364 sh\; ~Rs.163.8 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/moneyview-ipo/2936/
 END:VEVENT
 BEGIN:VEVENT
 UID:moneyview-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261228
 DTEND;VALUE=DATE:20261229
-SUMMARY:🔓 Moneyview Ltd. — 90D anchor unlock
+SUMMARY:🔓 Moneyview Ltd. — 90D anchor unlock (48\,162\,364 sh\; ~Rs.163.8 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/moneyview-ipo/2936/
+END:VEVENT
+BEGIN:VEVENT
+UID:sai-urja-indo-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:🔓 Sai Urja Indo Ventures Ltd. — 30D anchor unlock (293\,400 sh\; 3.84% of capital\; ~Rs.3.3 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/sai-urja-indo-ipo/2655/
+END:VEVENT
+BEGIN:VEVENT
+UID:sai-urja-indo-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261227
+DTEND;VALUE=DATE:20261228
+SUMMARY:🔓 Sai Urja Indo Ventures Ltd. — 90D anchor unlock (293\,400 sh\; 3.84% of capital\; ~Rs.3.3 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/sai-urja-indo-ipo/2655/
+END:VEVENT
+BEGIN:VEVENT
+UID:sai-urja-indo-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270324
+DTEND;VALUE=DATE:20270325
+SUMMARY:🔓 Sai Urja Indo Ventures Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/sai-urja-indo-ipo/2655/
 END:VEVENT
 BEGIN:VEVENT
 UID:armee-infotech-ipo-A30@unlockradar
@@ -313,20 +453,6 @@ SUMMARY:🔓 Kheria Autocomp Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/kheria-autocomp-ipo/2760/
 END:VEVENT
 BEGIN:VEVENT
-UID:sonaselection-india-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261022
-DTEND;VALUE=DATE:20261023
-SUMMARY:🔓 Sonaselection India Ltd. — 30D anchor unlock (2\,145\,000 sh\; ~Rs.21.2 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/sonaselection-india-ipo/2805/
-END:VEVENT
-BEGIN:VEVENT
-UID:sonaselection-india-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261221
-DTEND;VALUE=DATE:20261222
-SUMMARY:🔓 Sonaselection India Ltd. — 90D anchor unlock (2\,145\,000 sh\; ~Rs.21.2 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/sonaselection-india-ipo/2805/
-END:VEVENT
-BEGIN:VEVENT
 UID:spectraa-technology-solutions-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261023
@@ -346,6 +472,20 @@ DTSTART;VALUE=DATE:20270316
 DTEND;VALUE=DATE:20270317
 SUMMARY:🔓 SpectraA Technology Solutions Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/spectraa-technology-solutions-ipo/2950/
+END:VEVENT
+BEGIN:VEVENT
+UID:sonaselection-india-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:🔓 Sonaselection India Ltd. — 30D anchor unlock (2\,145\,000 sh\; ~Rs.21.2 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/sonaselection-india-ipo/2805/
+END:VEVENT
+BEGIN:VEVENT
+UID:sonaselection-india-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:🔓 Sonaselection India Ltd. — 90D anchor unlock (2\,145\,000 sh\; ~Rs.21.2 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/sonaselection-india-ipo/2805/
 END:VEVENT
 BEGIN:VEVENT
 UID:nse-ipo-A30@unlockradar
@@ -1046,13 +1186,6 @@ DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:🔓 Augmont Enterprises Ltd. — 90D anchor unlock (1\,562\,816 sh\; ~Rs.123.2 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/augmont-enterprises-ipo/2673/
-END:VEVENT
-BEGIN:VEVENT
-UID:tempsens-instruments-india-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260923
-DTEND;VALUE=DATE:20260924
-SUMMARY:🔓 Tempsens Instruments (India) Ltd. — 30D anchor unlock (3\,242\,499 sh\; ~Rs.97.3 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/tempsens-instruments-india-ipo/2668/
 END:VEVENT
 BEGIN:VEVENT
 UID:tempsens-instruments-india-ipo-A90@unlockradar
@@ -2082,13 +2215,6 @@ DTSTART;VALUE=DATE:20280324
 DTEND;VALUE=DATE:20280325
 SUMMARY:🔓 Vivid Electromech Ltd. — 2Y promoter unlock (2\,378\,819 sh\; 26.76% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/vivid-electromech-ipo/2728/
-END:VEVENT
-BEGIN:VEVENT
-UID:highness-microelectronics-ipo-PRE6M@unlockradar
-DTSTART;VALUE=DATE:20260923
-DTEND;VALUE=DATE:20260924
-SUMMARY:🔓 Highness Microelectronics Ltd. — 6M pre-IPO unlock (3\,509 sh\; 0.07% of capital)
-DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/highness-microelectronics-ipo/2768/
 END:VEVENT
 BEGIN:VEVENT
 UID:highness-microelectronics-ipo-PX1Y@unlockradar

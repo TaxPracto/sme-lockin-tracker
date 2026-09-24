@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-23T11:48:40+05:30",
+ "generated_at": "2026-09-24T11:57:24+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -8,14 +8,14 @@
  ],
  "records": [
   {
-   "company": "A-One Steels India Ltd.",
-   "slug": "a-one-steels-ipo",
-   "url": "https://www.chittorgarh.com/ipo/a-one-steels-ipo/2000/",
+   "company": "Runwal Enterprises Ltd.",
+   "slug": "runwal-enterprises-ipo",
+   "url": "https://www.chittorgarh.com/ipo/runwal-enterprises-ipo/2298/",
    "category": "Mainboard",
-   "anchor_allotment_date": "2026-09-23",
-   "boa_date": "2026-09-23",
-   "d30": "2026-10-29",
-   "d90": "2026-12-28",
+   "anchor_allotment_date": "2026-09-24",
+   "boa_date": "2026-09-24",
+   "d30": "2026-10-30",
+   "d90": "2026-12-29",
    "anchor_shares": 0,
    "anchor_investment_cr": 0.0,
    "pct_of_issue": null,
@@ -34,7 +34,7 @@
    "events": [
     {
      "t": "A30",
-     "d": "2026-10-29",
+     "d": "2026-10-30",
      "sh": null,
      "pct": null,
      "val": null,
@@ -42,10 +42,350 @@
     },
     {
      "t": "A90",
-     "d": "2026-12-28",
+     "d": "2026-12-29",
      "sh": null,
      "pct": null,
      "val": null,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "German Green Steel & Power Ltd.",
+   "slug": "german-green-steel-and-power-ipo",
+   "url": "https://www.chittorgarh.com/ipo/german-green-steel-and-power-ipo/2497/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-09-24",
+   "boa_date": "2026-09-24",
+   "d30": "2026-10-30",
+   "d90": "2026-12-29",
+   "anchor_shares": 0,
+   "anchor_investment_cr": 0.0,
+   "pct_of_issue": null,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-30",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-12-29",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "Orient Cables (India) Ltd.",
+   "slug": "orient-cables-ipo",
+   "url": "https://www.chittorgarh.com/ipo/orient-cables-ipo/2532/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-09-24",
+   "boa_date": "2026-09-24",
+   "d30": "2026-10-30",
+   "d90": "2026-12-29",
+   "anchor_shares": 0,
+   "anchor_investment_cr": 0.0,
+   "pct_of_issue": null,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-30",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-12-29",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "Acevector Ltd.",
+   "slug": "acevector-ipo",
+   "url": "https://www.chittorgarh.com/ipo/acevector-ipo/2543/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-09-24",
+   "boa_date": "2026-09-24",
+   "d30": "2026-10-30",
+   "d90": "2026-12-29",
+   "anchor_shares": 0,
+   "anchor_investment_cr": 0.0,
+   "pct_of_issue": null,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-30",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-12-29",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "Himalayan Solar Ltd.",
+   "slug": "himalayan-solar-ipo",
+   "url": "https://www.chittorgarh.com/ipo/himalayan-solar-ipo/2716/",
+   "category": "SME",
+   "anchor_allotment_date": "2026-09-24",
+   "boa_date": "2026-09-24",
+   "d30": "2026-10-30",
+   "d90": "2026-12-29",
+   "anchor_shares": 752400,
+   "anchor_investment_cr": 7.75,
+   "pct_of_issue": 10.23,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": 16218899,
+   "post_shares": 22109699,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": "2026-10-05",
+   "anchor_names": [],
+   "lm": [
+    [
+     147,
+     "Finshore Management Services Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-30",
+     "sh": 376200,
+     "pct": 1.7,
+     "val": 3.875,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-12-29",
+     "sh": 376200,
+     "pct": 1.7,
+     "val": 3.875,
+     "est": false
+    },
+    {
+     "t": "PRE6M",
+     "d": "2027-03-24",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": true
+    }
+   ]
+  },
+  {
+   "company": "Shree TNB Polymers Ltd.",
+   "slug": "shree-tnb-polymers-ipo",
+   "url": "https://www.chittorgarh.com/ipo/shree-tnb-polymers-ipo/3095/",
+   "category": "SME",
+   "anchor_allotment_date": "2026-09-24",
+   "boa_date": "2026-09-24",
+   "d30": "2026-10-30",
+   "d90": "2026-12-29",
+   "anchor_shares": 1706000,
+   "anchor_investment_cr": 8.87,
+   "pct_of_issue": 22.14,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": 15344997,
+   "post_shares": 21344997,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": "2026-10-05",
+   "anchor_names": [],
+   "lm": [
+    [
+     440,
+     "Corporate Makers Capital Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-30",
+     "sh": 853000,
+     "pct": 4.0,
+     "val": 4.435,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-12-29",
+     "sh": 853000,
+     "pct": 4.0,
+     "val": 4.435,
+     "est": false
+    },
+    {
+     "t": "PRE6M",
+     "d": "2027-03-24",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": true
+    }
+   ]
+  },
+  {
+   "company": "Bench Mark Infotech Services Ltd.",
+   "slug": "bench-mark-infotech-services-ipo",
+   "url": "https://www.chittorgarh.com/ipo/bench-mark-infotech-services-ipo/3212/",
+   "category": "SME",
+   "anchor_allotment_date": "2026-09-24",
+   "boa_date": "2026-09-24",
+   "d30": "2026-10-30",
+   "d90": "2026-12-29",
+   "anchor_shares": 1096800,
+   "anchor_investment_cr": 12.06,
+   "pct_of_issue": 22.14,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": 10872650,
+   "post_shares": 14272650,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": "2026-10-05",
+   "anchor_names": [],
+   "lm": [
+    [
+     182,
+     "GYR Capital Advisors Pvt.Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-30",
+     "sh": 548400,
+     "pct": 3.84,
+     "val": 6.03,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-12-29",
+     "sh": 548400,
+     "pct": 3.84,
+     "val": 6.03,
+     "est": false
+    },
+    {
+     "t": "PRE6M",
+     "d": "2027-03-24",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": true
+    }
+   ]
+  },
+  {
+   "company": "A-One Steels India Ltd.",
+   "slug": "a-one-steels-ipo",
+   "url": "https://www.chittorgarh.com/ipo/a-one-steels-ipo/2000/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-09-23",
+   "boa_date": "2026-09-23",
+   "d30": "2026-10-29",
+   "d90": "2026-12-28",
+   "anchor_shares": 2985160,
+   "anchor_investment_cr": 120.9,
+   "pct_of_issue": 22.99,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-29",
+     "sh": 1492580,
+     "pct": null,
+     "val": 60.45,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-12-28",
+     "sh": 1492580,
+     "pct": null,
+     "val": 60.45,
      "est": false
     }
    ]
@@ -61,7 +401,7 @@
    "d90": "2026-12-28",
    "anchor_shares": 832000,
    "anchor_investment_cr": 5.32,
-   "pct_of_issue": 21.71,
+   "pct_of_issue": 17.84,
    "isin": "",
    "nse_symbol": "",
    "bse_code": "",
@@ -115,9 +455,9 @@
    "boa_date": "2026-09-23",
    "d30": "2026-10-29",
    "d90": "2026-12-28",
-   "anchor_shares": 0,
-   "anchor_investment_cr": 0.0,
-   "pct_of_issue": null,
+   "anchor_shares": 96324729,
+   "anchor_investment_cr": 327.5,
+   "pct_of_issue": 23.08,
    "isin": "",
    "nse_symbol": "",
    "bse_code": "",
@@ -134,18 +474,74 @@
     {
      "t": "A30",
      "d": "2026-10-29",
-     "sh": null,
+     "sh": 48162364,
      "pct": null,
-     "val": null,
+     "val": 163.75,
      "est": false
     },
     {
      "t": "A90",
      "d": "2026-12-28",
+     "sh": 48162364,
+     "pct": null,
+     "val": 163.75,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "Sai Urja Indo Ventures Ltd.",
+   "slug": "sai-urja-indo-ipo",
+   "url": "https://www.chittorgarh.com/ipo/sai-urja-indo-ipo/2655/",
+   "category": "SME",
+   "anchor_allotment_date": "2026-09-24",
+   "boa_date": "2026-09-24",
+   "d30": "2026-10-28",
+   "d90": "2026-12-27",
+   "anchor_shares": 586800,
+   "anchor_investment_cr": 6.63,
+   "pct_of_issue": 21.0,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": 5810000,
+   "post_shares": 7638800,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": "2026-10-05",
+   "anchor_names": [],
+   "lm": [
+    [
+     442,
+     "Shannon Advisors Pvt.Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-28",
+     "sh": 293400,
+     "pct": 3.84,
+     "val": 3.315,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-12-27",
+     "sh": 293400,
+     "pct": 3.84,
+     "val": 3.315,
+     "est": false
+    },
+    {
+     "t": "PRE6M",
+     "d": "2027-03-24",
      "sh": null,
      "pct": null,
      "val": null,
-     "est": false
+     "est": true
     }
    ]
   },
@@ -824,8 +1220,8 @@
    "anchor_shares": 1310400,
    "anchor_investment_cr": 13.24,
    "pct_of_issue": 22.18,
-   "isin": "",
-   "nse_symbol": "",
+   "isin": "INE0HOL01013",
+   "nse_symbol": "KHERIAAUTO",
    "bse_code": "",
    "pre_shares": 11250000,
    "post_shares": 15848400,
@@ -869,49 +1265,6 @@
    ]
   },
   {
-   "company": "Sonaselection India Ltd.",
-   "slug": "sonaselection-india-ipo",
-   "url": "https://www.chittorgarh.com/ipo/sonaselection-india-ipo/2805/",
-   "category": "Mainboard",
-   "anchor_allotment_date": "2026-09-16",
-   "boa_date": "2026-09-16",
-   "d30": "2026-10-22",
-   "d90": "2026-12-21",
-   "anchor_shares": 4290000,
-   "anchor_investment_cr": 42.47,
-   "pct_of_issue": 23.08,
-   "isin": "",
-   "nse_symbol": "",
-   "bse_code": "",
-   "pre_shares": null,
-   "post_shares": null,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": null,
-   "anchor_names": [],
-   "lm": [],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-10-22",
-     "sh": 2145000,
-     "pct": null,
-     "val": 21.235,
-     "est": false
-    },
-    {
-     "t": "A90",
-     "d": "2026-12-21",
-     "sh": 2145000,
-     "pct": null,
-     "val": 21.235,
-     "est": false
-    }
-   ]
-  },
-  {
    "company": "SpectraA Technology Solutions Ltd.",
    "slug": "spectraa-technology-solutions-ipo",
    "url": "https://www.chittorgarh.com/ipo/spectraa-technology-solutions-ipo/2950/",
@@ -923,8 +1276,8 @@
    "anchor_shares": 1024800,
    "anchor_investment_cr": 12.09,
    "pct_of_issue": 22.14,
-   "isin": "",
-   "nse_symbol": "",
+   "isin": "INE0GAN01010",
+   "nse_symbol": "SPECTRAA",
    "bse_code": "",
    "pre_shares": 10091646,
    "post_shares": 13347246,
@@ -968,6 +1321,49 @@
    ]
   },
   {
+   "company": "Sonaselection India Ltd.",
+   "slug": "sonaselection-india-ipo",
+   "url": "https://www.chittorgarh.com/ipo/sonaselection-india-ipo/2805/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-09-16",
+   "boa_date": "2026-09-16",
+   "d30": "2026-10-21",
+   "d90": "2026-12-20",
+   "anchor_shares": 4290000,
+   "anchor_investment_cr": 42.47,
+   "pct_of_issue": 23.08,
+   "isin": "INE0LLZ01011",
+   "nse_symbol": "SONA",
+   "bse_code": 544938,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-21",
+     "sh": 2145000,
+     "pct": null,
+     "val": 21.235,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-12-20",
+     "sh": 2145000,
+     "pct": null,
+     "val": 21.235,
+     "est": false
+    }
+   ]
+  },
+  {
    "company": "National Stock Exchange of India Ltd.",
    "slug": "nse-ipo",
    "url": "https://www.chittorgarh.com/ipo/nse-ipo/3151/",
@@ -979,9 +1375,9 @@
    "anchor_shares": 37793739,
    "anchor_investment_cr": 6746.18,
    "pct_of_issue": 23.01,
-   "isin": "",
+   "isin": "INE721I01024",
    "nse_symbol": "",
-   "bse_code": "",
+   "bse_code": 544937,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
