@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T11:57:24+05:30",
+ "generated_at": "2026-09-25T11:54:40+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -8,14 +8,14 @@
  ],
  "records": [
   {
-   "company": "Runwal Enterprises Ltd.",
-   "slug": "runwal-enterprises-ipo",
-   "url": "https://www.chittorgarh.com/ipo/runwal-enterprises-ipo/2298/",
+   "company": "Shah Investor's Home Ltd.",
+   "slug": "shah-investors-home-ipo",
+   "url": "https://www.chittorgarh.com/ipo/shah-investors-home-ipo/2657/",
    "category": "Mainboard",
-   "anchor_allotment_date": "2026-09-24",
-   "boa_date": "2026-09-24",
-   "d30": "2026-10-30",
-   "d90": "2026-12-29",
+   "anchor_allotment_date": "2026-09-25",
+   "boa_date": "2026-09-25",
+   "d30": "2026-10-31",
+   "d90": "2026-12-30",
    "anchor_shares": 0,
    "anchor_investment_cr": 0.0,
    "pct_of_issue": null,
@@ -34,7 +34,7 @@
    "events": [
     {
      "t": "A30",
-     "d": "2026-10-30",
+     "d": "2026-10-31",
      "sh": null,
      "pct": null,
      "val": null,
@@ -42,10 +42,203 @@
     },
     {
      "t": "A90",
-     "d": "2026-12-29",
+     "d": "2026-12-30",
      "sh": null,
      "pct": null,
      "val": null,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "SRIT India Ltd.",
+   "slug": "srit-india-ipo",
+   "url": "https://www.chittorgarh.com/ipo/srit-india-ipo/2858/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-09-25",
+   "boa_date": "2026-09-25",
+   "d30": "2026-10-31",
+   "d90": "2026-12-30",
+   "anchor_shares": 0,
+   "anchor_investment_cr": 0.0,
+   "pct_of_issue": null,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-31",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-12-30",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "Acme Universal Safezone 9 Ltd.",
+   "slug": "acme-universal-safezone-9-ipo",
+   "url": "https://www.chittorgarh.com/ipo/acme-universal-safezone-9-ipo/3206/",
+   "category": "SME",
+   "anchor_allotment_date": "2026-09-25",
+   "boa_date": "2026-09-25",
+   "d30": "2026-10-31",
+   "d90": "2026-12-30",
+   "anchor_shares": 1438400,
+   "anchor_investment_cr": 10.21,
+   "pct_of_issue": 22.13,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-31",
+     "sh": 719200,
+     "pct": null,
+     "val": 5.105,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-12-30",
+     "sh": 719200,
+     "pct": null,
+     "val": 5.105,
+     "est": false
+    },
+    {
+     "t": "PRE6M",
+     "d": "2027-03-25",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": true
+    }
+   ]
+  },
+  {
+   "company": "Shree TNB Polymers Ltd.",
+   "slug": "shree-tnb-polymers-ipo",
+   "url": "https://www.chittorgarh.com/ipo/shree-tnb-polymers-ipo/3095/",
+   "category": "SME",
+   "anchor_allotment_date": "2026-09-25",
+   "boa_date": "2026-09-25",
+   "d30": "2026-10-30",
+   "d90": "2026-12-29",
+   "anchor_shares": 1706000,
+   "anchor_investment_cr": 9.04,
+   "pct_of_issue": 22.14,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": 15344997,
+   "post_shares": 21344997,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": "2026-10-05",
+   "anchor_names": [],
+   "lm": [
+    [
+     440,
+     "Corporate Makers Capital Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-30",
+     "sh": 853000,
+     "pct": 4.0,
+     "val": 4.52,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-12-29",
+     "sh": 853000,
+     "pct": 4.0,
+     "val": 4.52,
+     "est": false
+    },
+    {
+     "t": "PRE6M",
+     "d": "2027-03-25",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": true
+    }
+   ]
+  },
+  {
+   "company": "Runwal Enterprises Ltd.",
+   "slug": "runwal-enterprises-ipo",
+   "url": "https://www.chittorgarh.com/ipo/runwal-enterprises-ipo/2298/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-09-24",
+   "boa_date": "2026-09-24",
+   "d30": "2026-10-30",
+   "d90": "2026-12-29",
+   "anchor_shares": 4883605,
+   "anchor_investment_cr": 148.95,
+   "pct_of_issue": 22.95,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-30",
+     "sh": 2441802,
+     "pct": null,
+     "val": 74.475,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-12-29",
+     "sh": 2441802,
+     "pct": null,
+     "val": 74.475,
      "est": false
     }
    ]
@@ -59,9 +252,9 @@
    "boa_date": "2026-09-24",
    "d30": "2026-10-30",
    "d90": "2026-12-29",
-   "anchor_shares": 0,
-   "anchor_investment_cr": 0.0,
-   "pct_of_issue": null,
+   "anchor_shares": 6558991,
+   "anchor_investment_cr": 91.17,
+   "pct_of_issue": 23.08,
    "isin": "",
    "nse_symbol": "",
    "bse_code": "",
@@ -78,17 +271,17 @@
     {
      "t": "A30",
      "d": "2026-10-30",
-     "sh": null,
+     "sh": 3279495,
      "pct": null,
-     "val": null,
+     "val": 45.585,
      "est": false
     },
     {
      "t": "A90",
      "d": "2026-12-29",
-     "sh": null,
+     "sh": 3279495,
      "pct": null,
-     "val": null,
+     "val": 45.585,
      "est": false
     }
    ]
@@ -102,9 +295,9 @@
    "boa_date": "2026-09-24",
    "d30": "2026-10-30",
    "d90": "2026-12-29",
-   "anchor_shares": 0,
-   "anchor_investment_cr": 0.0,
-   "pct_of_issue": null,
+   "anchor_shares": 6088233,
+   "anchor_investment_cr": 165.6,
+   "pct_of_issue": 23.08,
    "isin": "",
    "nse_symbol": "",
    "bse_code": "",
@@ -121,33 +314,33 @@
     {
      "t": "A30",
      "d": "2026-10-30",
-     "sh": null,
+     "sh": 3044116,
      "pct": null,
-     "val": null,
+     "val": 82.8,
      "est": false
     },
     {
      "t": "A90",
      "d": "2026-12-29",
-     "sh": null,
+     "sh": 3044116,
      "pct": null,
-     "val": null,
+     "val": 82.8,
      "est": false
     }
    ]
   },
   {
    "company": "Acevector Ltd.",
-   "slug": "acevector-ipo",
-   "url": "https://www.chittorgarh.com/ipo/acevector-ipo/2543/",
+   "slug": "snapdeal-ipo",
+   "url": "https://www.chittorgarh.com/ipo/snapdeal-ipo/2543/",
    "category": "Mainboard",
    "anchor_allotment_date": "2026-09-24",
    "boa_date": "2026-09-24",
    "d30": "2026-10-30",
    "d90": "2026-12-29",
-   "anchor_shares": 0,
-   "anchor_investment_cr": 0.0,
-   "pct_of_issue": null,
+   "anchor_shares": 59062500,
+   "anchor_investment_cr": 189.0,
+   "pct_of_issue": 31.03,
    "isin": "",
    "nse_symbol": "",
    "bse_code": "",
@@ -164,17 +357,17 @@
     {
      "t": "A30",
      "d": "2026-10-30",
-     "sh": null,
+     "sh": 29531250,
      "pct": null,
-     "val": null,
+     "val": 94.5,
      "est": false
     },
     {
      "t": "A90",
      "d": "2026-12-29",
-     "sh": null,
+     "sh": 29531250,
      "pct": null,
-     "val": null,
+     "val": 94.5,
      "est": false
     }
    ]
@@ -223,62 +416,6 @@
      "sh": 376200,
      "pct": 1.7,
      "val": 3.875,
-     "est": false
-    },
-    {
-     "t": "PRE6M",
-     "d": "2027-03-24",
-     "sh": null,
-     "pct": null,
-     "val": null,
-     "est": true
-    }
-   ]
-  },
-  {
-   "company": "Shree TNB Polymers Ltd.",
-   "slug": "shree-tnb-polymers-ipo",
-   "url": "https://www.chittorgarh.com/ipo/shree-tnb-polymers-ipo/3095/",
-   "category": "SME",
-   "anchor_allotment_date": "2026-09-24",
-   "boa_date": "2026-09-24",
-   "d30": "2026-10-30",
-   "d90": "2026-12-29",
-   "anchor_shares": 1706000,
-   "anchor_investment_cr": 8.87,
-   "pct_of_issue": 22.14,
-   "isin": "",
-   "nse_symbol": "",
-   "bse_code": "",
-   "pre_shares": 15344997,
-   "post_shares": 21344997,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": "2026-10-05",
-   "anchor_names": [],
-   "lm": [
-    [
-     440,
-     "Corporate Makers Capital Ltd"
-    ]
-   ],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-10-30",
-     "sh": 853000,
-     "pct": 4.0,
-     "val": 4.435,
-     "est": false
-    },
-    {
-     "t": "A90",
-     "d": "2026-12-29",
-     "sh": 853000,
-     "pct": 4.0,
-     "val": 4.435,
      "est": false
     },
     {
@@ -1161,11 +1298,11 @@
    "boa_date": "2026-09-17",
    "d30": "2026-10-23",
    "d90": "2026-12-22",
-   "anchor_shares": 1070400,
+   "anchor_shares": 1070000,
    "anchor_investment_cr": 5.78,
    "pct_of_issue": 10.22,
-   "isin": "",
-   "nse_symbol": "",
+   "isin": "INE16J201028",
+   "nse_symbol": "AXIOMGAS",
    "bse_code": "",
    "pre_shares": 25946000,
    "post_shares": 35344000,
@@ -1185,7 +1322,7 @@
     {
      "t": "A30",
      "d": "2026-10-23",
-     "sh": 535200,
+     "sh": 535000,
      "pct": 1.51,
      "val": 2.89,
      "est": false
@@ -1193,7 +1330,7 @@
     {
      "t": "A90",
      "d": "2026-12-22",
-     "sh": 535200,
+     "sh": 535000,
      "pct": 1.51,
      "val": 2.89,
      "est": false

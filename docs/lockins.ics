@@ -5,60 +5,130 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:shah-investors-home-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:🔓 Shah Investor's Home Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/shah-investors-home-ipo/2657/
+END:VEVENT
+BEGIN:VEVENT
+UID:shah-investors-home-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261230
+DTEND;VALUE=DATE:20261231
+SUMMARY:🔓 Shah Investor's Home Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/shah-investors-home-ipo/2657/
+END:VEVENT
+BEGIN:VEVENT
+UID:srit-india-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:🔓 SRIT India Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/srit-india-ipo/2858/
+END:VEVENT
+BEGIN:VEVENT
+UID:srit-india-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261230
+DTEND;VALUE=DATE:20261231
+SUMMARY:🔓 SRIT India Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/srit-india-ipo/2858/
+END:VEVENT
+BEGIN:VEVENT
+UID:acme-universal-safezone-9-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:🔓 Acme Universal Safezone 9 Ltd. — 30D anchor unlock (719\,200 sh\; ~Rs.5.1 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/acme-universal-safezone-9-ipo/3206/
+END:VEVENT
+BEGIN:VEVENT
+UID:acme-universal-safezone-9-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261230
+DTEND;VALUE=DATE:20261231
+SUMMARY:🔓 Acme Universal Safezone 9 Ltd. — 90D anchor unlock (719\,200 sh\; ~Rs.5.1 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/acme-universal-safezone-9-ipo/3206/
+END:VEVENT
+BEGIN:VEVENT
+UID:acme-universal-safezone-9-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270325
+DTEND;VALUE=DATE:20270326
+SUMMARY:🔓 Acme Universal Safezone 9 Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/acme-universal-safezone-9-ipo/3206/
+END:VEVENT
+BEGIN:VEVENT
+UID:shree-tnb-polymers-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:🔓 Shree TNB Polymers Ltd. — 30D anchor unlock (853\,000 sh\; 4.0% of capital\; ~Rs.4.5 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/shree-tnb-polymers-ipo/3095/
+END:VEVENT
+BEGIN:VEVENT
+UID:shree-tnb-polymers-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+SUMMARY:🔓 Shree TNB Polymers Ltd. — 90D anchor unlock (853\,000 sh\; 4.0% of capital\; ~Rs.4.5 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/shree-tnb-polymers-ipo/3095/
+END:VEVENT
+BEGIN:VEVENT
+UID:shree-tnb-polymers-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270325
+DTEND;VALUE=DATE:20270326
+SUMMARY:🔓 Shree TNB Polymers Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/shree-tnb-polymers-ipo/3095/
+END:VEVENT
+BEGIN:VEVENT
 UID:runwal-enterprises-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
-SUMMARY:🔓 Runwal Enterprises Ltd. — 30D anchor unlock
+SUMMARY:🔓 Runwal Enterprises Ltd. — 30D anchor unlock (2\,441\,802 sh\; ~Rs.74.5 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/runwal-enterprises-ipo/2298/
 END:VEVENT
 BEGIN:VEVENT
 UID:runwal-enterprises-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261229
 DTEND;VALUE=DATE:20261230
-SUMMARY:🔓 Runwal Enterprises Ltd. — 90D anchor unlock
+SUMMARY:🔓 Runwal Enterprises Ltd. — 90D anchor unlock (2\,441\,802 sh\; ~Rs.74.5 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/runwal-enterprises-ipo/2298/
 END:VEVENT
 BEGIN:VEVENT
 UID:german-green-steel-and-power-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
-SUMMARY:🔓 German Green Steel & Power Ltd. — 30D anchor unlock
+SUMMARY:🔓 German Green Steel & Power Ltd. — 30D anchor unlock (3\,279\,495 sh\; ~Rs.45.6 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/german-green-steel-and-power-ipo/2497/
 END:VEVENT
 BEGIN:VEVENT
 UID:german-green-steel-and-power-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261229
 DTEND;VALUE=DATE:20261230
-SUMMARY:🔓 German Green Steel & Power Ltd. — 90D anchor unlock
+SUMMARY:🔓 German Green Steel & Power Ltd. — 90D anchor unlock (3\,279\,495 sh\; ~Rs.45.6 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/german-green-steel-and-power-ipo/2497/
 END:VEVENT
 BEGIN:VEVENT
 UID:orient-cables-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
-SUMMARY:🔓 Orient Cables (India) Ltd. — 30D anchor unlock
+SUMMARY:🔓 Orient Cables (India) Ltd. — 30D anchor unlock (3\,044\,116 sh\; ~Rs.82.8 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/orient-cables-ipo/2532/
 END:VEVENT
 BEGIN:VEVENT
 UID:orient-cables-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261229
 DTEND;VALUE=DATE:20261230
-SUMMARY:🔓 Orient Cables (India) Ltd. — 90D anchor unlock
+SUMMARY:🔓 Orient Cables (India) Ltd. — 90D anchor unlock (3\,044\,116 sh\; ~Rs.82.8 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/orient-cables-ipo/2532/
 END:VEVENT
 BEGIN:VEVENT
-UID:acevector-ipo-A30@unlockradar
+UID:snapdeal-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
-SUMMARY:🔓 Acevector Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/acevector-ipo/2543/
+SUMMARY:🔓 Acevector Ltd. — 30D anchor unlock (29\,531\,250 sh\; ~Rs.94.5 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/snapdeal-ipo/2543/
 END:VEVENT
 BEGIN:VEVENT
-UID:acevector-ipo-A90@unlockradar
+UID:snapdeal-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261229
 DTEND;VALUE=DATE:20261230
-SUMMARY:🔓 Acevector Ltd. — 90D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/acevector-ipo/2543/
+SUMMARY:🔓 Acevector Ltd. — 90D anchor unlock (29\,531\,250 sh\; ~Rs.94.5 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/snapdeal-ipo/2543/
 END:VEVENT
 BEGIN:VEVENT
 UID:himalayan-solar-ipo-A30@unlockradar
@@ -80,27 +150,6 @@ DTSTART;VALUE=DATE:20270324
 DTEND;VALUE=DATE:20270325
 SUMMARY:🔓 Himalayan Solar Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/himalayan-solar-ipo/2716/
-END:VEVENT
-BEGIN:VEVENT
-UID:shree-tnb-polymers-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
-SUMMARY:🔓 Shree TNB Polymers Ltd. — 30D anchor unlock (853\,000 sh\; 4.0% of capital\; ~Rs.4.4 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/shree-tnb-polymers-ipo/3095/
-END:VEVENT
-BEGIN:VEVENT
-UID:shree-tnb-polymers-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261229
-DTEND;VALUE=DATE:20261230
-SUMMARY:🔓 Shree TNB Polymers Ltd. — 90D anchor unlock (853\,000 sh\; 4.0% of capital\; ~Rs.4.4 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/shree-tnb-polymers-ipo/3095/
-END:VEVENT
-BEGIN:VEVENT
-UID:shree-tnb-polymers-ipo-PRE6M@unlockradar
-DTSTART;VALUE=DATE:20270324
-DTEND;VALUE=DATE:20270325
-SUMMARY:🔓 Shree TNB Polymers Ltd. — 6M pre-IPO unlock
-DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/shree-tnb-polymers-ipo/3095/
 END:VEVENT
 BEGIN:VEVENT
 UID:bench-mark-infotech-services-ipo-A30@unlockradar
@@ -414,14 +463,14 @@ BEGIN:VEVENT
 UID:axiom-gas-engineering-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
-SUMMARY:🔓 Axiom Gas Engineering Ltd. — 30D anchor unlock (535\,200 sh\; 1.51% of capital\; ~Rs.2.9 cr)
+SUMMARY:🔓 Axiom Gas Engineering Ltd. — 30D anchor unlock (535\,000 sh\; 1.51% of capital\; ~Rs.2.9 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/axiom-gas-engineering-ipo/2193/
 END:VEVENT
 BEGIN:VEVENT
 UID:axiom-gas-engineering-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261222
 DTEND;VALUE=DATE:20261223
-SUMMARY:🔓 Axiom Gas Engineering Ltd. — 90D anchor unlock (535\,200 sh\; 1.51% of capital\; ~Rs.2.9 cr)
+SUMMARY:🔓 Axiom Gas Engineering Ltd. — 90D anchor unlock (535\,000 sh\; 1.51% of capital\; ~Rs.2.9 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/axiom-gas-engineering-ipo/2193/
 END:VEVENT
 BEGIN:VEVENT
@@ -2194,13 +2243,6 @@ DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
 SUMMARY:🔓 Emiac Technologies Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/emiac-technologies-ipo/2766/
-END:VEVENT
-BEGIN:VEVENT
-UID:vivid-electromech-ipo-PRE6M@unlockradar
-DTSTART;VALUE=DATE:20260924
-DTEND;VALUE=DATE:20260925
-SUMMARY:🔓 Vivid Electromech Ltd. — 6M pre-IPO unlock (700 sh\; 0.01% of capital)
-DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/vivid-electromech-ipo/2728/
 END:VEVENT
 BEGIN:VEVENT
 UID:vivid-electromech-ipo-PX1Y@unlockradar
