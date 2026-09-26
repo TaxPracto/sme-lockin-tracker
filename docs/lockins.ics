@@ -36,14 +36,14 @@ BEGIN:VEVENT
 UID:acme-universal-safezone-9-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
-SUMMARY:🔓 Acme Universal Safezone 9 Ltd. — 30D anchor unlock (719\,200 sh\; ~Rs.5.1 cr)
+SUMMARY:🔓 Acme Universal Safezone 9 Ltd. — 30D anchor unlock (719\,200 sh\; 3.77% of capital\; ~Rs.5.1 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/acme-universal-safezone-9-ipo/3206/
 END:VEVENT
 BEGIN:VEVENT
 UID:acme-universal-safezone-9-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261230
 DTEND;VALUE=DATE:20261231
-SUMMARY:🔓 Acme Universal Safezone 9 Ltd. — 90D anchor unlock (719\,200 sh\; ~Rs.5.1 cr)
+SUMMARY:🔓 Acme Universal Safezone 9 Ltd. — 90D anchor unlock (719\,200 sh\; 3.77% of capital\; ~Rs.5.1 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/acme-universal-safezone-9-ipo/3206/
 END:VEVENT
 BEGIN:VEVENT
@@ -400,14 +400,14 @@ BEGIN:VEVENT
 UID:vivekanand-cotspin-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
-SUMMARY:🔓 Vivekanand Cotspin Ltd. — 30D anchor unlock (855\,000 sh\; 3.84% of capital\; ~Rs.3.2 cr)
+SUMMARY:🔓 Vivekanand Cotspin Ltd. — 30D anchor unlock (850\,500 sh\; 3.82% of capital\; ~Rs.3.1 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/vivekanand-cotspin-ipo/2062/
 END:VEVENT
 BEGIN:VEVENT
 UID:vivekanand-cotspin-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261223
 DTEND;VALUE=DATE:20261224
-SUMMARY:🔓 Vivekanand Cotspin Ltd. — 90D anchor unlock (855\,000 sh\; 3.84% of capital\; ~Rs.3.2 cr)
+SUMMARY:🔓 Vivekanand Cotspin Ltd. — 90D anchor unlock (850\,500 sh\; 3.82% of capital\; ~Rs.3.1 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/vivekanand-cotspin-ipo/2062/
 END:VEVENT
 BEGIN:VEVENT
@@ -1221,13 +1221,6 @@ DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:🔓 Symbiotec Pharmalab Ltd. — 90D anchor unlock (2\,662\,954 sh\; ~Rs.263.1 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/symbiotec-pharmalab-ipo/2815/
-END:VEVENT
-BEGIN:VEVENT
-UID:augmont-enterprises-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260925
-DTEND;VALUE=DATE:20260926
-SUMMARY:🔓 Augmont Enterprises Ltd. — 30D anchor unlock (1\,562\,816 sh\; ~Rs.123.2 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/augmont-enterprises-ipo/2673/
 END:VEVENT
 BEGIN:VEVENT
 UID:augmont-enterprises-ipo-A90@unlockradar
@@ -2236,13 +2229,6 @@ DTSTART;VALUE=DATE:20280402
 DTEND;VALUE=DATE:20280403
 SUMMARY:🔓 Safety Controls & Devices Ltd. — 2Y promoter unlock (2\,617\,163 sh\; 13.2% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/safety-controls-and-devices-ipo/2328/
-END:VEVENT
-BEGIN:VEVENT
-UID:emiac-technologies-ipo-PRE6M@unlockradar
-DTSTART;VALUE=DATE:20260925
-DTEND;VALUE=DATE:20260926
-SUMMARY:🔓 Emiac Technologies Ltd. — 6M pre-IPO unlock
-DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/emiac-technologies-ipo/2766/
 END:VEVENT
 BEGIN:VEVENT
 UID:vivid-electromech-ipo-PX1Y@unlockradar
