@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-26T11:53:25+05:30",
+ "generated_at": "2026-09-27T12:21:21+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -1127,6 +1127,62 @@
    ]
   },
   {
+   "company": "Robokidz Eduventures Ltd.",
+   "slug": "robokidz-eduventures-ipo",
+   "url": "https://www.chittorgarh.com/ipo/robokidz-eduventures-ipo/3205/",
+   "category": "SME",
+   "anchor_allotment_date": "2026-09-18",
+   "boa_date": "2026-09-18",
+   "d30": "2026-10-25",
+   "d90": "2026-12-24",
+   "anchor_shares": 828000,
+   "anchor_investment_cr": 8.78,
+   "pct_of_issue": 22.02,
+   "isin": "INE1W8R01018",
+   "nse_symbol": "",
+   "bse_code": 544940,
+   "pre_shares": 7926653,
+   "post_shares": 10859453,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": "2026-09-28",
+   "anchor_names": [],
+   "lm": [
+    [
+     182,
+     "GYR Capital Advisors Pvt.Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-25",
+     "sh": 414000,
+     "pct": 3.81,
+     "val": 4.39,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-12-24",
+     "sh": 414000,
+     "pct": 3.81,
+     "val": 4.39,
+     "est": false
+    },
+    {
+     "t": "PRE6M",
+     "d": "2027-03-18",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": true
+    }
+   ]
+  },
+  {
    "company": "Vivekanand Cotspin Ltd.",
    "slug": "vivekanand-cotspin-ipo",
    "url": "https://www.chittorgarh.com/ipo/vivekanand-cotspin-ipo/2062/",
@@ -1134,7 +1190,7 @@
    "anchor_allotment_date": "2026-09-18",
    "boa_date": "2026-09-18",
    "d30": "2026-10-24",
-   "d90": "2026-12-23",
+   "d90": "2026-12-24",
    "anchor_shares": 1701000,
    "anchor_investment_cr": 6.29,
    "pct_of_issue": 22.09,
@@ -1166,7 +1222,7 @@
     },
     {
      "t": "A90",
-     "d": "2026-12-23",
+     "d": "2026-12-24",
      "sh": 850500,
      "pct": 3.82,
      "val": 3.145,
@@ -1189,7 +1245,7 @@
    "category": "SME",
    "anchor_allotment_date": "2026-09-18",
    "boa_date": "2026-09-18",
-   "d30": "2026-10-24",
+   "d30": "2026-10-23",
    "d90": "2026-12-23",
    "anchor_shares": 1102800,
    "anchor_investment_cr": 12.79,
@@ -1214,7 +1270,7 @@
    "events": [
     {
      "t": "A30",
-     "d": "2026-10-24",
+     "d": "2026-10-23",
      "sh": 551400,
      "pct": 3.84,
      "val": 6.395,
@@ -1226,62 +1282,6 @@
      "sh": 551400,
      "pct": 3.84,
      "val": 6.395,
-     "est": false
-    },
-    {
-     "t": "PRE6M",
-     "d": "2027-03-18",
-     "sh": null,
-     "pct": null,
-     "val": null,
-     "est": true
-    }
-   ]
-  },
-  {
-   "company": "Robokidz Eduventures Ltd.",
-   "slug": "robokidz-eduventures-ipo",
-   "url": "https://www.chittorgarh.com/ipo/robokidz-eduventures-ipo/3205/",
-   "category": "SME",
-   "anchor_allotment_date": "2026-09-18",
-   "boa_date": "2026-09-18",
-   "d30": "2026-10-24",
-   "d90": "2026-12-23",
-   "anchor_shares": 828000,
-   "anchor_investment_cr": 8.78,
-   "pct_of_issue": 22.02,
-   "isin": "INE1W8R01018",
-   "nse_symbol": "",
-   "bse_code": 544940,
-   "pre_shares": 7926653,
-   "post_shares": 10859453,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": "2026-09-28",
-   "anchor_names": [],
-   "lm": [
-    [
-     182,
-     "GYR Capital Advisors Pvt.Ltd"
-    ]
-   ],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-10-24",
-     "sh": 414000,
-     "pct": 3.81,
-     "val": 4.39,
-     "est": false
-    },
-    {
-     "t": "A90",
-     "d": "2026-12-23",
-     "sh": 414000,
-     "pct": 3.81,
-     "val": 4.39,
      "est": false
     },
     {
@@ -2341,7 +2341,7 @@
    "pct_of_issue": 23.08,
    "isin": "INE148G01016",
    "nse_symbol": "ARCIL",
-   "bse_code": "",
+   "bse_code": 544921,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,

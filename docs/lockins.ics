@@ -397,6 +397,27 @@ SUMMARY:🔓 Himalaya Nutravedics India Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/himalaya-nutravedics-ipo/2970/
 END:VEVENT
 BEGIN:VEVENT
+UID:robokidz-eduventures-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:🔓 Robokidz Eduventures Ltd. — 30D anchor unlock (414\,000 sh\; 3.81% of capital\; ~Rs.4.4 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/robokidz-eduventures-ipo/3205/
+END:VEVENT
+BEGIN:VEVENT
+UID:robokidz-eduventures-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261224
+DTEND;VALUE=DATE:20261225
+SUMMARY:🔓 Robokidz Eduventures Ltd. — 90D anchor unlock (414\,000 sh\; 3.81% of capital\; ~Rs.4.4 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/robokidz-eduventures-ipo/3205/
+END:VEVENT
+BEGIN:VEVENT
+UID:robokidz-eduventures-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270318
+DTEND;VALUE=DATE:20270319
+SUMMARY:🔓 Robokidz Eduventures Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/robokidz-eduventures-ipo/3205/
+END:VEVENT
+BEGIN:VEVENT
 UID:vivekanand-cotspin-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
@@ -405,8 +426,8 @@ DESCRIPTION:https://www.chittorgarh.com/ipo/vivekanand-cotspin-ipo/2062/
 END:VEVENT
 BEGIN:VEVENT
 UID:vivekanand-cotspin-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261223
-DTEND;VALUE=DATE:20261224
+DTSTART;VALUE=DATE:20261224
+DTEND;VALUE=DATE:20261225
 SUMMARY:🔓 Vivekanand Cotspin Ltd. — 90D anchor unlock (850\,500 sh\; 3.82% of capital\; ~Rs.3.1 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/vivekanand-cotspin-ipo/2062/
 END:VEVENT
@@ -419,8 +440,8 @@ DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/vive
 END:VEVENT
 BEGIN:VEVENT
 UID:fx-multitech-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
 SUMMARY:🔓 FX Multitech Ltd. — 30D anchor unlock (551\,400 sh\; 3.84% of capital\; ~Rs.6.4 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/fx-multitech-ipo/2849/
 END:VEVENT
@@ -437,27 +458,6 @@ DTSTART;VALUE=DATE:20270318
 DTEND;VALUE=DATE:20270319
 SUMMARY:🔓 FX Multitech Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/fx-multitech-ipo/2849/
-END:VEVENT
-BEGIN:VEVENT
-UID:robokidz-eduventures-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
-SUMMARY:🔓 Robokidz Eduventures Ltd. — 30D anchor unlock (414\,000 sh\; 3.81% of capital\; ~Rs.4.4 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/robokidz-eduventures-ipo/3205/
-END:VEVENT
-BEGIN:VEVENT
-UID:robokidz-eduventures-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261223
-DTEND;VALUE=DATE:20261224
-SUMMARY:🔓 Robokidz Eduventures Ltd. — 90D anchor unlock (414\,000 sh\; 3.81% of capital\; ~Rs.4.4 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/robokidz-eduventures-ipo/3205/
-END:VEVENT
-BEGIN:VEVENT
-UID:robokidz-eduventures-ipo-PRE6M@unlockradar
-DTSTART;VALUE=DATE:20270318
-DTEND;VALUE=DATE:20270319
-SUMMARY:🔓 Robokidz Eduventures Ltd. — 6M pre-IPO unlock
-DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/robokidz-eduventures-ipo/3205/
 END:VEVENT
 BEGIN:VEVENT
 UID:axiom-gas-engineering-ipo-A30@unlockradar
@@ -1181,13 +1181,6 @@ SUMMARY:🔓 Madhur Knit Crafts Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/madhur-knit-ipo/2783/
 END:VEVENT
 BEGIN:VEVENT
-UID:skyways-air-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260926
-DTEND;VALUE=DATE:20260927
-SUMMARY:🔓 Skyways Air Services Ltd. — 30D anchor unlock (6\,324\,000 sh\; ~Rs.87.3 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/skyways-air-ipo/2510/
-END:VEVENT
-BEGIN:VEVENT
 UID:skyways-air-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
@@ -1195,25 +1188,11 @@ SUMMARY:🔓 Skyways Air Services Ltd. — 90D anchor unlock (6\,324\,000 sh\; ~
 DESCRIPTION:https://www.chittorgarh.com/ipo/skyways-air-ipo/2510/
 END:VEVENT
 BEGIN:VEVENT
-UID:hy-tech-engineers-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260926
-DTEND;VALUE=DATE:20260927
-SUMMARY:🔓 Hy-Tech Engineers Ltd. — 30D anchor unlock (3\,841\,530 sh\; ~Rs.20.4 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/hy-tech-engineers-ipo/2591/
-END:VEVENT
-BEGIN:VEVENT
 UID:hy-tech-engineers-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:🔓 Hy-Tech Engineers Ltd. — 90D anchor unlock (3\,841\,530 sh\; ~Rs.20.4 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/hy-tech-engineers-ipo/2591/
-END:VEVENT
-BEGIN:VEVENT
-UID:symbiotec-pharmalab-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260926
-DTEND;VALUE=DATE:20260927
-SUMMARY:🔓 Symbiotec Pharmalab Ltd. — 30D anchor unlock (2\,662\,954 sh\; ~Rs.263.1 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/symbiotec-pharmalab-ipo/2815/
 END:VEVENT
 BEGIN:VEVENT
 UID:symbiotec-pharmalab-ipo-A90@unlockradar
@@ -1872,20 +1851,6 @@ DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
 SUMMARY:🔓 Advit Jewels Ltd. — 90D anchor unlock (1\,794\,350 sh\; ~Rs.24.8 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/advit-jewels-ipo/2686/
-END:VEVENT
-BEGIN:VEVENT
-UID:cordelia-cruises-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20260926
-DTEND;VALUE=DATE:20260927
-SUMMARY:🔓 Waterways Leisure Tourism Ltd. — 90D anchor unlock (1\,629\,022 sh\; ~Rs.131.6 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/cordelia-cruises-ipo/2474/
-END:VEVENT
-BEGIN:VEVENT
-UID:shreedhar-spinners-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20260926
-DTEND;VALUE=DATE:20260927
-SUMMARY:🔓 Shreedhar Spinners Ltd. — 90D anchor unlock (809\,000 sh\; 3.77% of capital\; ~Rs.4.3 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/shreedhar-spinners-ipo/2851/
 END:VEVENT
 BEGIN:VEVENT
 UID:shreedhar-spinners-ipo-PRE6M@unlockradar
