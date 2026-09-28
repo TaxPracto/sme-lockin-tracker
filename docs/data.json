@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-27T12:21:21+05:30",
+ "generated_at": "2026-09-28T12:47:55+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -7,6 +7,189 @@
   2026
  ],
  "records": [
+  {
+   "company": "EverestIMS Technologies Ltd.",
+   "slug": "everestims-technologies-ipo",
+   "url": "https://www.chittorgarh.com/ipo/everestims-technologies-ipo/2063/",
+   "category": "SME",
+   "anchor_allotment_date": "2026-09-28",
+   "boa_date": "2026-09-28",
+   "d30": "2026-11-05",
+   "d90": "2027-01-04",
+   "anchor_shares": 1612800,
+   "anchor_investment_cr": 13.71,
+   "pct_of_issue": 22.05,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": 17044578,
+   "post_shares": 21638178,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": "2026-10-08",
+   "anchor_names": [],
+   "lm": [
+    [
+     94,
+     "Oneview Corporate Advisors Pvt.Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-11-05",
+     "sh": 806400,
+     "pct": 3.73,
+     "val": 6.855,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2027-01-04",
+     "sh": 806400,
+     "pct": 3.73,
+     "val": 6.855,
+     "est": false
+    },
+    {
+     "t": "PRE6M",
+     "d": "2027-03-28",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": true
+    }
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 85.01,
+   "chg_from_issue_pct": null
+  },
+  {
+   "company": "Black Opal Consultants Ltd.",
+   "slug": "black-opal-consultants-ipo",
+   "url": "https://www.chittorgarh.com/ipo/black-opal-consultants-ipo/2798/",
+   "category": "SME",
+   "anchor_allotment_date": "2026-09-28",
+   "boa_date": "2026-09-28",
+   "d30": "2026-11-04",
+   "d90": "2027-01-03",
+   "anchor_shares": 796800,
+   "anchor_investment_cr": 15.7,
+   "pct_of_issue": 22.18,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": 8339190,
+   "post_shares": 10577190,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": "2026-10-07",
+   "anchor_names": [],
+   "lm": [
+    [
+     154,
+     "Khambatta Securities Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-11-04",
+     "sh": 398400,
+     "pct": 3.77,
+     "val": 7.85,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2027-01-03",
+     "sh": 398400,
+     "pct": 3.77,
+     "val": 7.85,
+     "est": false
+    },
+    {
+     "t": "PRE6M",
+     "d": "2027-03-28",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": true
+    }
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 197.04,
+   "chg_from_issue_pct": null
+  },
+  {
+   "company": "Vans Electroengineerings Ltd.",
+   "slug": "vans-electroengineerings-ipo",
+   "url": "https://www.chittorgarh.com/ipo/vans-electroengineerings-ipo/3197/",
+   "category": "SME",
+   "anchor_allotment_date": "2026-09-28",
+   "boa_date": "2026-09-28",
+   "d30": "2026-11-04",
+   "d90": "2027-01-03",
+   "anchor_shares": 804000,
+   "anchor_investment_cr": 9.49,
+   "pct_of_issue": 21.82,
+   "isin": "",
+   "nse_symbol": "",
+   "bse_code": "",
+   "pre_shares": 8000000,
+   "post_shares": 10880000,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": "2026-10-07",
+   "anchor_names": [],
+   "lm": [
+    [
+     76,
+     "Hem Securities Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-11-04",
+     "sh": 402000,
+     "pct": 3.69,
+     "val": 4.745,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2027-01-03",
+     "sh": 402000,
+     "pct": 3.69,
+     "val": 4.745,
+     "est": false
+    },
+    {
+     "t": "PRE6M",
+     "d": "2027-03-28",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": true
+    }
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 118.03,
+   "chg_from_issue_pct": null
+  },
   {
    "company": "Shah Investor's Home Ltd.",
    "slug": "shah-investors-home-ipo",
@@ -16,9 +199,9 @@
    "boa_date": "2026-09-25",
    "d30": "2026-10-31",
    "d90": "2026-12-30",
-   "anchor_shares": 0,
-   "anchor_investment_cr": 0.0,
-   "pct_of_issue": null,
+   "anchor_shares": 1619760,
+   "anchor_investment_cr": 27.05,
+   "pct_of_issue": 23.08,
    "isin": "",
    "nse_symbol": "",
    "bse_code": "",
@@ -35,24 +218,24 @@
     {
      "t": "A30",
      "d": "2026-10-31",
-     "sh": null,
+     "sh": 809880,
      "pct": null,
-     "val": null,
+     "val": 13.525,
      "est": false
     },
     {
      "t": "A90",
      "d": "2026-12-30",
-     "sh": null,
+     "sh": 809880,
      "pct": null,
-     "val": null,
+     "val": 13.525,
      "est": false
     }
    ],
    "last_close": null,
    "close_date": null,
    "avg_vol": null,
-   "issue_px": null,
+   "issue_px": 167.0,
    "chg_from_issue_pct": null
   },
   {
@@ -64,9 +247,9 @@
    "boa_date": "2026-09-25",
    "d30": "2026-10-31",
    "d90": "2026-12-30",
-   "anchor_shares": 0,
-   "anchor_investment_cr": 0.0,
-   "pct_of_issue": null,
+   "anchor_shares": 5040000,
+   "anchor_investment_cr": 65.52,
+   "pct_of_issue": 23.08,
    "isin": "",
    "nse_symbol": "",
    "bse_code": "",
@@ -83,24 +266,24 @@
     {
      "t": "A30",
      "d": "2026-10-31",
-     "sh": null,
+     "sh": 2520000,
      "pct": null,
-     "val": null,
+     "val": 32.76,
      "est": false
     },
     {
      "t": "A90",
      "d": "2026-12-30",
-     "sh": null,
+     "sh": 2520000,
      "pct": null,
-     "val": null,
+     "val": 32.76,
      "est": false
     }
    ],
    "last_close": null,
    "close_date": null,
    "avg_vol": null,
-   "issue_px": null,
+   "issue_px": 130.0,
    "chg_from_issue_pct": null
   },
   {
@@ -114,7 +297,7 @@
    "d90": "2026-12-30",
    "anchor_shares": 1438400,
    "anchor_investment_cr": 10.21,
-   "pct_of_issue": 22.13,
+   "pct_of_issue": 18.12,
    "isin": "",
    "nse_symbol": "",
    "bse_code": "",

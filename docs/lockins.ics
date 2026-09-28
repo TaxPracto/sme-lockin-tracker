@@ -5,31 +5,94 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:everestims-technologies-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:🔓 EverestIMS Technologies Ltd. — 30D anchor unlock (806\,400 sh\; 3.73% of capital\; ~Rs.6.9 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/everestims-technologies-ipo/2063/
+END:VEVENT
+BEGIN:VEVENT
+UID:everestims-technologies-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270105
+SUMMARY:🔓 EverestIMS Technologies Ltd. — 90D anchor unlock (806\,400 sh\; 3.73% of capital\; ~Rs.6.9 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/everestims-technologies-ipo/2063/
+END:VEVENT
+BEGIN:VEVENT
+UID:everestims-technologies-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270328
+DTEND;VALUE=DATE:20270329
+SUMMARY:🔓 EverestIMS Technologies Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/everestims-technologies-ipo/2063/
+END:VEVENT
+BEGIN:VEVENT
+UID:black-opal-consultants-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:🔓 Black Opal Consultants Ltd. — 30D anchor unlock (398\,400 sh\; 3.77% of capital\; ~Rs.7.8 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/black-opal-consultants-ipo/2798/
+END:VEVENT
+BEGIN:VEVENT
+UID:black-opal-consultants-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+SUMMARY:🔓 Black Opal Consultants Ltd. — 90D anchor unlock (398\,400 sh\; 3.77% of capital\; ~Rs.7.8 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/black-opal-consultants-ipo/2798/
+END:VEVENT
+BEGIN:VEVENT
+UID:black-opal-consultants-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270328
+DTEND;VALUE=DATE:20270329
+SUMMARY:🔓 Black Opal Consultants Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/black-opal-consultants-ipo/2798/
+END:VEVENT
+BEGIN:VEVENT
+UID:vans-electroengineerings-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:🔓 Vans Electroengineerings Ltd. — 30D anchor unlock (402\,000 sh\; 3.69% of capital\; ~Rs.4.7 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/vans-electroengineerings-ipo/3197/
+END:VEVENT
+BEGIN:VEVENT
+UID:vans-electroengineerings-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+SUMMARY:🔓 Vans Electroengineerings Ltd. — 90D anchor unlock (402\,000 sh\; 3.69% of capital\; ~Rs.4.7 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/vans-electroengineerings-ipo/3197/
+END:VEVENT
+BEGIN:VEVENT
+UID:vans-electroengineerings-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270328
+DTEND;VALUE=DATE:20270329
+SUMMARY:🔓 Vans Electroengineerings Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/vans-electroengineerings-ipo/3197/
+END:VEVENT
+BEGIN:VEVENT
 UID:shah-investors-home-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
-SUMMARY:🔓 Shah Investor's Home Ltd. — 30D anchor unlock
+SUMMARY:🔓 Shah Investor's Home Ltd. — 30D anchor unlock (809\,880 sh\; ~Rs.13.5 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/shah-investors-home-ipo/2657/
 END:VEVENT
 BEGIN:VEVENT
 UID:shah-investors-home-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261230
 DTEND;VALUE=DATE:20261231
-SUMMARY:🔓 Shah Investor's Home Ltd. — 90D anchor unlock
+SUMMARY:🔓 Shah Investor's Home Ltd. — 90D anchor unlock (809\,880 sh\; ~Rs.13.5 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/shah-investors-home-ipo/2657/
 END:VEVENT
 BEGIN:VEVENT
 UID:srit-india-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
-SUMMARY:🔓 SRIT India Ltd. — 30D anchor unlock
+SUMMARY:🔓 SRIT India Ltd. — 30D anchor unlock (2\,520\,000 sh\; ~Rs.32.8 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/srit-india-ipo/2858/
 END:VEVENT
 BEGIN:VEVENT
 UID:srit-india-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261230
 DTEND;VALUE=DATE:20261231
-SUMMARY:🔓 SRIT India Ltd. — 90D anchor unlock
+SUMMARY:🔓 SRIT India Ltd. — 90D anchor unlock (2\,520\,000 sh\; ~Rs.32.8 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/srit-india-ipo/2858/
 END:VEVENT
 BEGIN:VEVENT
@@ -1160,13 +1223,6 @@ SUMMARY:🔓 Sumax Engineering Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/sumax-engineering-ipo/2977/
 END:VEVENT
 BEGIN:VEVENT
-UID:madhur-knit-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260927
-DTEND;VALUE=DATE:20260928
-SUMMARY:🔓 Madhur Knit Crafts Ltd. — 30D anchor unlock (151\,200 sh\; 0.81% of capital\; ~Rs.1.5 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/madhur-knit-ipo/2783/
-END:VEVENT
-BEGIN:VEVENT
 UID:madhur-knit-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
@@ -1844,13 +1900,6 @@ DTSTART;VALUE=DATE:20260928
 DTEND;VALUE=DATE:20260929
 SUMMARY:🔓 CSM Technologies Ltd. — 90D anchor unlock (885\,060 sh\; ~Rs.10.0 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/csm-technologies-ipo/2641/
-END:VEVENT
-BEGIN:VEVENT
-UID:advit-jewels-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20260927
-DTEND;VALUE=DATE:20260928
-SUMMARY:🔓 Advit Jewels Ltd. — 90D anchor unlock (1\,794\,350 sh\; ~Rs.24.8 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/advit-jewels-ipo/2686/
 END:VEVENT
 BEGIN:VEVENT
 UID:shreedhar-spinners-ipo-PRE6M@unlockradar
