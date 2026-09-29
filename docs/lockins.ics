@@ -5,6 +5,83 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:acme-india-industries-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:🔓 Acme India Industries Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/acme-india-industries-ipo/2748/
+END:VEVENT
+BEGIN:VEVENT
+UID:acme-india-industries-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270106
+SUMMARY:🔓 Acme India Industries Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/acme-india-industries-ipo/2748/
+END:VEVENT
+BEGIN:VEVENT
+UID:acme-india-industries-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270329
+DTEND;VALUE=DATE:20270330
+SUMMARY:🔓 Acme India Industries Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/acme-india-industries-ipo/2748/
+END:VEVENT
+BEGIN:VEVENT
+UID:tna-solutions-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:🔓 TNA Solutions Ltd. — 30D anchor unlock (768\,000 sh\; 3.76% of capital\; ~Rs.5.4 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/tna-solutions-ipo/3216/
+END:VEVENT
+BEGIN:VEVENT
+UID:tna-solutions-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270106
+SUMMARY:🔓 TNA Solutions Ltd. — 90D anchor unlock (768\,000 sh\; 3.76% of capital\; ~Rs.5.4 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/tna-solutions-ipo/3216/
+END:VEVENT
+BEGIN:VEVENT
+UID:tna-solutions-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270329
+DTEND;VALUE=DATE:20270330
+SUMMARY:🔓 TNA Solutions Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/tna-solutions-ipo/3216/
+END:VEVENT
+BEGIN:VEVENT
+UID:nityas-gems-jewellery-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:🔓 Nityas Gems & Jewellery Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/nityas-gems-jewellery-ipo/2974/
+END:VEVENT
+BEGIN:VEVENT
+UID:nityas-gems-jewellery-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270105
+SUMMARY:🔓 Nityas Gems & Jewellery Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/nityas-gems-jewellery-ipo/2974/
+END:VEVENT
+BEGIN:VEVENT
+UID:eventions-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:🔓 Eventions Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/eventions-ipo/3006/
+END:VEVENT
+BEGIN:VEVENT
+UID:eventions-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270105
+SUMMARY:🔓 Eventions Ltd. — 90D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/eventions-ipo/3006/
+END:VEVENT
+BEGIN:VEVENT
+UID:eventions-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270329
+DTEND;VALUE=DATE:20270330
+SUMMARY:🔓 Eventions Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/eventions-ipo/3006/
+END:VEVENT
+BEGIN:VEVENT
 UID:everestims-technologies-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
@@ -29,14 +106,14 @@ BEGIN:VEVENT
 UID:black-opal-consultants-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
-SUMMARY:🔓 Black Opal Consultants Ltd. — 30D anchor unlock (398\,400 sh\; 3.77% of capital\; ~Rs.7.8 cr)
+SUMMARY:🔓 Black Opal Consultants Ltd. — 30D anchor unlock (398\,100 sh\; 3.76% of capital\; ~Rs.7.8 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/black-opal-consultants-ipo/2798/
 END:VEVENT
 BEGIN:VEVENT
 UID:black-opal-consultants-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
-SUMMARY:🔓 Black Opal Consultants Ltd. — 90D anchor unlock (398\,400 sh\; 3.77% of capital\; ~Rs.7.8 cr)
+SUMMARY:🔓 Black Opal Consultants Ltd. — 90D anchor unlock (398\,100 sh\; 3.76% of capital\; ~Rs.7.8 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/black-opal-consultants-ipo/2798/
 END:VEVENT
 BEGIN:VEVENT
@@ -425,41 +502,6 @@ SUMMARY:🔓 Unitec Fibres Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/unitec-fibres-ipo/3171/
 END:VEVENT
 BEGIN:VEVENT
-UID:varmora-granito-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-SUMMARY:🔓 Varmora Granito Ltd. — 30D anchor unlock (7\,175\,887 sh\; ~Rs.106.2 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/varmora-granito-ipo/2563/
-END:VEVENT
-BEGIN:VEVENT
-UID:varmora-granito-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261224
-DTEND;VALUE=DATE:20261225
-SUMMARY:🔓 Varmora Granito Ltd. — 90D anchor unlock (7\,175\,887 sh\; ~Rs.106.2 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/varmora-granito-ipo/2563/
-END:VEVENT
-BEGIN:VEVENT
-UID:himalaya-nutravedics-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-SUMMARY:🔓 Himalaya Nutravedics India Ltd. — 30D anchor unlock (355\,200 sh\; 4.03% of capital\; ~Rs.3.8 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/himalaya-nutravedics-ipo/2970/
-END:VEVENT
-BEGIN:VEVENT
-UID:himalaya-nutravedics-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261224
-DTEND;VALUE=DATE:20261225
-SUMMARY:🔓 Himalaya Nutravedics India Ltd. — 90D anchor unlock (355\,200 sh\; 4.03% of capital\; ~Rs.3.8 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/himalaya-nutravedics-ipo/2970/
-END:VEVENT
-BEGIN:VEVENT
-UID:himalaya-nutravedics-ipo-PRE6M@unlockradar
-DTSTART;VALUE=DATE:20270321
-DTEND;VALUE=DATE:20270322
-SUMMARY:🔓 Himalaya Nutravedics India Ltd. — 6M pre-IPO unlock
-DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/himalaya-nutravedics-ipo/2970/
-END:VEVENT
-BEGIN:VEVENT
 UID:robokidz-eduventures-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
@@ -479,6 +521,41 @@ DTSTART;VALUE=DATE:20270318
 DTEND;VALUE=DATE:20270319
 SUMMARY:🔓 Robokidz Eduventures Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/robokidz-eduventures-ipo/3205/
+END:VEVENT
+BEGIN:VEVENT
+UID:varmora-granito-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:🔓 Varmora Granito Ltd. — 30D anchor unlock (7\,175\,887 sh\; ~Rs.106.2 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/varmora-granito-ipo/2563/
+END:VEVENT
+BEGIN:VEVENT
+UID:varmora-granito-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:🔓 Varmora Granito Ltd. — 90D anchor unlock (7\,175\,887 sh\; ~Rs.106.2 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/varmora-granito-ipo/2563/
+END:VEVENT
+BEGIN:VEVENT
+UID:himalaya-nutravedics-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:🔓 Himalaya Nutravedics India Ltd. — 30D anchor unlock (355\,200 sh\; 4.03% of capital\; ~Rs.3.8 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/himalaya-nutravedics-ipo/2970/
+END:VEVENT
+BEGIN:VEVENT
+UID:himalaya-nutravedics-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:🔓 Himalaya Nutravedics India Ltd. — 90D anchor unlock (355\,200 sh\; 4.03% of capital\; ~Rs.3.8 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/himalaya-nutravedics-ipo/2970/
+END:VEVENT
+BEGIN:VEVENT
+UID:himalaya-nutravedics-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270322
+SUMMARY:🔓 Himalaya Nutravedics India Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/himalaya-nutravedics-ipo/2970/
 END:VEVENT
 BEGIN:VEVENT
 UID:vivekanand-cotspin-ipo-A30@unlockradar
@@ -1893,13 +1970,6 @@ DTSTART;VALUE=DATE:20280629
 DTEND;VALUE=DATE:20280630
 SUMMARY:🔓 Kratikal Tech Ltd. — 2Y promoter unlock (1\,851\,570 sh\; 16.68% of capital)
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/kratikal-tech-ipo/2844/
-END:VEVENT
-BEGIN:VEVENT
-UID:csm-technologies-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20260928
-DTEND;VALUE=DATE:20260929
-SUMMARY:🔓 CSM Technologies Ltd. — 90D anchor unlock (885\,060 sh\; ~Rs.10.0 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/csm-technologies-ipo/2641/
 END:VEVENT
 BEGIN:VEVENT
 UID:shreedhar-spinners-ipo-PRE6M@unlockradar
