@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T12:44:44+05:30",
+ "generated_at": "2026-09-30T12:34:38+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -16,9 +16,9 @@
    "boa_date": "2026-09-29",
    "d30": "2026-11-06",
    "d90": "2027-01-05",
-   "anchor_shares": 0,
-   "anchor_investment_cr": 0.0,
-   "pct_of_issue": 0.0,
+   "anchor_shares": 1765800,
+   "anchor_investment_cr": 34.61,
+   "pct_of_issue": 22.14,
    "isin": "",
    "nse_symbol": "",
    "bse_code": "",
@@ -40,17 +40,17 @@
     {
      "t": "A30",
      "d": "2026-11-06",
-     "sh": null,
-     "pct": null,
-     "val": null,
+     "sh": 882900,
+     "pct": 3.76,
+     "val": 17.305,
      "est": false
     },
     {
      "t": "A90",
      "d": "2027-01-05",
-     "sh": null,
-     "pct": null,
-     "val": null,
+     "sh": 882900,
+     "pct": 3.76,
+     "val": 17.305,
      "est": false
     },
     {
@@ -65,7 +65,7 @@
    "last_close": null,
    "close_date": null,
    "avg_vol": null,
-   "issue_px": null,
+   "issue_px": 196.0,
    "chg_from_issue_pct": null
   },
   {
@@ -140,7 +140,7 @@
    "d90": "2027-01-04",
    "anchor_shares": 0,
    "anchor_investment_cr": 0.0,
-   "pct_of_issue": null,
+   "pct_of_issue": 0.0,
    "isin": "",
    "nse_symbol": "",
    "bse_code": "",
@@ -1111,6 +1111,67 @@
    "chg_from_issue_pct": null
   },
   {
+   "company": "S.K.Offset Ltd.",
+   "slug": "skoffset-ipo",
+   "url": "https://www.chittorgarh.com/ipo/skoffset-ipo/3150/",
+   "category": "SME",
+   "anchor_allotment_date": "2026-09-22",
+   "boa_date": "2026-09-22",
+   "d30": "2026-10-29",
+   "d90": "2026-12-28",
+   "anchor_shares": 540000,
+   "anchor_investment_cr": 6.75,
+   "pct_of_issue": 18.85,
+   "isin": "INE2MKZ01017",
+   "nse_symbol": "",
+   "bse_code": 544947,
+   "pre_shares": 5418320,
+   "post_shares": 7743320,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": "2026-09-30",
+   "anchor_names": [],
+   "lm": [
+    [
+     73,
+     "Comfort Securities Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-29",
+     "sh": 270000,
+     "pct": 3.49,
+     "val": 3.375,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-12-28",
+     "sh": 270000,
+     "pct": 3.49,
+     "val": 3.375,
+     "est": false
+    },
+    {
+     "t": "PRE6M",
+     "d": "2027-03-22",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": true
+    }
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 125.0,
+   "chg_from_issue_pct": null
+  },
+  {
    "company": "Sai Urja Indo Ventures Ltd.",
    "slug": "sai-urja-indo-ipo",
    "url": "https://www.chittorgarh.com/ipo/sai-urja-indo-ipo/2655/",
@@ -1183,9 +1244,9 @@
    "anchor_shares": 1065000,
    "anchor_investment_cr": 39.94,
    "pct_of_issue": 11.75,
-   "isin": "",
-   "nse_symbol": "",
-   "bse_code": "",
+   "isin": "INE0TWE01016",
+   "nse_symbol": "ARMEE",
+   "bse_code": 544951,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -1220,102 +1281,6 @@
    "chg_from_issue_pct": null
   },
   {
-   "company": "Swastika Infra Ltd.",
-   "slug": "swastika-infra-ipo",
-   "url": "https://www.chittorgarh.com/ipo/swastika-infra-ipo/2287/",
-   "category": "Mainboard",
-   "anchor_allotment_date": "2026-09-22",
-   "boa_date": "2026-09-22",
-   "d30": "2026-10-28",
-   "d90": "2026-12-27",
-   "anchor_shares": 2608782,
-   "anchor_investment_cr": 48.26,
-   "pct_of_issue": 23.08,
-   "isin": "",
-   "nse_symbol": "",
-   "bse_code": "",
-   "pre_shares": null,
-   "post_shares": null,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": null,
-   "anchor_names": [],
-   "lm": [],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-10-28",
-     "sh": 1304391,
-     "pct": null,
-     "val": 24.13,
-     "est": false
-    },
-    {
-     "t": "A90",
-     "d": "2026-12-27",
-     "sh": 1304391,
-     "pct": null,
-     "val": 24.13,
-     "est": false
-    }
-   ],
-   "last_close": null,
-   "close_date": null,
-   "avg_vol": null,
-   "issue_px": 184.99,
-   "chg_from_issue_pct": null
-  },
-  {
-   "company": "Elevate Campuses Ltd.",
-   "slug": "elevate-campuses-ipo",
-   "url": "https://www.chittorgarh.com/ipo/elevate-campuses-ipo/2647/",
-   "category": "Mainboard",
-   "anchor_allotment_date": "2026-09-22",
-   "boa_date": "2026-09-22",
-   "d30": "2026-10-28",
-   "d90": "2026-12-27",
-   "anchor_shares": 26104972,
-   "anchor_investment_cr": 945.0,
-   "pct_of_issue": 31.03,
-   "isin": "",
-   "nse_symbol": "",
-   "bse_code": "",
-   "pre_shares": null,
-   "post_shares": null,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": null,
-   "anchor_names": [],
-   "lm": [],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-10-28",
-     "sh": 13052486,
-     "pct": null,
-     "val": 472.5,
-     "est": false
-    },
-    {
-     "t": "A90",
-     "d": "2026-12-27",
-     "sh": 13052486,
-     "pct": null,
-     "val": 472.5,
-     "est": false
-    }
-   ],
-   "last_close": null,
-   "close_date": null,
-   "avg_vol": null,
-   "issue_px": 362.0,
-   "chg_from_issue_pct": null
-  },
-  {
    "company": "Pooja Logistics Ltd.",
    "slug": "pooja-logistics-ipo",
    "url": "https://www.chittorgarh.com/ipo/pooja-logistics-ipo/2724/",
@@ -1327,8 +1292,8 @@
    "anchor_shares": 1062000,
    "anchor_investment_cr": 12.21,
    "pct_of_issue": 21.64,
-   "isin": "",
-   "nse_symbol": "",
+   "isin": "INE1C2Q01017",
+   "nse_symbol": "POOJALOGIS",
    "bse_code": "",
    "pre_shares": 10438000,
    "post_shares": 14284000,
@@ -1377,115 +1342,6 @@
    "chg_from_issue_pct": null
   },
   {
-   "company": "Adroit Industries (India) Ltd.",
-   "slug": "adroit-industries-ipo",
-   "url": "https://www.chittorgarh.com/ipo/adroit-industries-ipo/3007/",
-   "category": "Mainboard",
-   "anchor_allotment_date": "2026-09-22",
-   "boa_date": "2026-09-22",
-   "d30": "2026-10-28",
-   "d90": "2026-12-27",
-   "anchor_shares": 3374100,
-   "anchor_investment_cr": 45.21,
-   "pct_of_issue": 23.08,
-   "isin": "",
-   "nse_symbol": "",
-   "bse_code": "",
-   "pre_shares": null,
-   "post_shares": null,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": null,
-   "anchor_names": [],
-   "lm": [],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-10-28",
-     "sh": 1687050,
-     "pct": null,
-     "val": 22.605,
-     "est": false
-    },
-    {
-     "t": "A90",
-     "d": "2026-12-27",
-     "sh": 1687050,
-     "pct": null,
-     "val": 22.605,
-     "est": false
-    }
-   ],
-   "last_close": null,
-   "close_date": null,
-   "avg_vol": null,
-   "issue_px": 133.99,
-   "chg_from_issue_pct": null
-  },
-  {
-   "company": "S.K.Offset Ltd.",
-   "slug": "skoffset-ipo",
-   "url": "https://www.chittorgarh.com/ipo/skoffset-ipo/3150/",
-   "category": "SME",
-   "anchor_allotment_date": "2026-09-22",
-   "boa_date": "2026-09-22",
-   "d30": "2026-10-28",
-   "d90": "2026-12-27",
-   "anchor_shares": 540000,
-   "anchor_investment_cr": 6.75,
-   "pct_of_issue": 18.85,
-   "isin": "",
-   "nse_symbol": "",
-   "bse_code": "",
-   "pre_shares": 5418320,
-   "post_shares": 7743320,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": "2026-09-30",
-   "anchor_names": [],
-   "lm": [
-    [
-     73,
-     "Comfort Securities Ltd"
-    ]
-   ],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-10-28",
-     "sh": 270000,
-     "pct": 3.49,
-     "val": 3.375,
-     "est": false
-    },
-    {
-     "t": "A90",
-     "d": "2026-12-27",
-     "sh": 270000,
-     "pct": 3.49,
-     "val": 3.375,
-     "est": false
-    },
-    {
-     "t": "PRE6M",
-     "d": "2027-03-22",
-     "sh": null,
-     "pct": null,
-     "val": null,
-     "est": true
-    }
-   ],
-   "last_close": null,
-   "close_date": null,
-   "avg_vol": null,
-   "issue_px": 125.0,
-   "chg_from_issue_pct": null
-  },
-  {
    "company": "Unitec Fibres Ltd.",
    "slug": "unitec-fibres-ipo",
    "url": "https://www.chittorgarh.com/ipo/unitec-fibres-ipo/3171/",
@@ -1497,9 +1353,9 @@
    "anchor_shares": 1107200,
    "anchor_investment_cr": 9.74,
    "pct_of_issue": 22.04,
-   "isin": "",
+   "isin": "INE0WOK01014",
    "nse_symbol": "",
-   "bse_code": "",
+   "bse_code": 544948,
    "pre_shares": 10501778,
    "post_shares": 14418578,
    "prom_pre_pct": null,
@@ -1544,6 +1400,150 @@
    "close_date": null,
    "avg_vol": null,
    "issue_px": 87.97,
+   "chg_from_issue_pct": null
+  },
+  {
+   "company": "Swastika Infra Ltd.",
+   "slug": "swastika-infra-ipo",
+   "url": "https://www.chittorgarh.com/ipo/swastika-infra-ipo/2287/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-09-22",
+   "boa_date": "2026-09-22",
+   "d30": "2026-10-27",
+   "d90": "2026-12-26",
+   "anchor_shares": 2608782,
+   "anchor_investment_cr": 48.26,
+   "pct_of_issue": 23.08,
+   "isin": "INE1QJA01015",
+   "nse_symbol": "SWASTIKAIN",
+   "bse_code": 544949,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-27",
+     "sh": 1304391,
+     "pct": null,
+     "val": 24.13,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-12-26",
+     "sh": 1304391,
+     "pct": null,
+     "val": 24.13,
+     "est": false
+    }
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 184.99,
+   "chg_from_issue_pct": null
+  },
+  {
+   "company": "Elevate Campuses Ltd.",
+   "slug": "elevate-campuses-ipo",
+   "url": "https://www.chittorgarh.com/ipo/elevate-campuses-ipo/2647/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-09-22",
+   "boa_date": "2026-09-22",
+   "d30": "2026-10-27",
+   "d90": "2026-12-26",
+   "anchor_shares": 26104972,
+   "anchor_investment_cr": 945.0,
+   "pct_of_issue": 31.03,
+   "isin": "INE147X01013",
+   "nse_symbol": "ELEVATE",
+   "bse_code": 544945,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-27",
+     "sh": 13052486,
+     "pct": null,
+     "val": 472.5,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-12-26",
+     "sh": 13052486,
+     "pct": null,
+     "val": 472.5,
+     "est": false
+    }
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 362.0,
+   "chg_from_issue_pct": null
+  },
+  {
+   "company": "Adroit Industries (India) Ltd.",
+   "slug": "adroit-industries-ipo",
+   "url": "https://www.chittorgarh.com/ipo/adroit-industries-ipo/3007/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-09-22",
+   "boa_date": "2026-09-22",
+   "d30": "2026-10-27",
+   "d90": "2026-12-26",
+   "anchor_shares": 3374100,
+   "anchor_investment_cr": 45.21,
+   "pct_of_issue": 23.08,
+   "isin": "INE505M01015",
+   "nse_symbol": "ADROITIND",
+   "bse_code": 544950,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-27",
+     "sh": 1687050,
+     "pct": null,
+     "val": 22.605,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-12-26",
+     "sh": 1687050,
+     "pct": null,
+     "val": 22.605,
+     "est": false
+    }
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": 133.99,
    "chg_from_issue_pct": null
   },
   {
@@ -1601,11 +1601,11 @@
      "est": true
     }
    ],
-   "last_close": 211.45,
-   "close_date": "2026-09-28",
-   "avg_vol": 1089600,
+   "last_close": 222.0,
+   "close_date": "2026-09-29",
+   "avg_vol": 1087800,
    "issue_px": 106.04,
-   "chg_from_issue_pct": 99.4
+   "chg_from_issue_pct": 109.4
   },
   {
    "company": "Varmora Granito Ltd.",
@@ -1649,11 +1649,11 @@
      "est": false
     }
    ],
-   "last_close": null,
-   "close_date": null,
-   "avg_vol": null,
+   "last_close": 152.19,
+   "close_date": "2026-09-29",
+   "avg_vol": 51633016,
    "issue_px": 148.0,
-   "chg_from_issue_pct": null
+   "chg_from_issue_pct": 2.8
   },
   {
    "company": "Himalaya Nutravedics India Ltd.",
@@ -1710,11 +1710,11 @@
      "est": true
     }
    ],
-   "last_close": null,
-   "close_date": null,
-   "avg_vol": null,
+   "last_close": 122.9,
+   "close_date": "2026-09-29",
+   "avg_vol": 842400,
    "issue_px": 106.0,
-   "chg_from_issue_pct": null
+   "chg_from_issue_pct": 15.9
   },
   {
    "company": "Vivekanand Cotspin Ltd.",
@@ -1771,11 +1771,11 @@
      "est": true
     }
    ],
-   "last_close": 39.9,
-   "close_date": "2026-09-28",
-   "avg_vol": 1659000,
+   "last_close": 41.89,
+   "close_date": "2026-09-29",
+   "avg_vol": 886500,
    "issue_px": 36.98,
-   "chg_from_issue_pct": 7.9
+   "chg_from_issue_pct": 13.3
   },
   {
    "company": "FX Multitech Ltd.",
@@ -1832,11 +1832,11 @@
      "est": true
     }
    ],
-   "last_close": 129.2,
-   "close_date": "2026-09-28",
-   "avg_vol": 1664400,
+   "last_close": 129.0,
+   "close_date": "2026-09-29",
+   "avg_vol": 1012200,
    "issue_px": 115.98,
-   "chg_from_issue_pct": 11.4
+   "chg_from_issue_pct": 11.2
   },
   {
    "company": "Axiom Gas Engineering Ltd.",
@@ -1893,11 +1893,11 @@
      "est": true
     }
    ],
-   "last_close": 51.35,
-   "close_date": "2026-09-28",
-   "avg_vol": 2492000,
+   "last_close": 48.8,
+   "close_date": "2026-09-29",
+   "avg_vol": 1696666,
    "issue_px": 54.02,
-   "chg_from_issue_pct": -4.9
+   "chg_from_issue_pct": -9.7
   },
   {
    "company": "Kheria Autocomp Ltd.",
@@ -1954,11 +1954,11 @@
      "est": true
     }
    ],
-   "last_close": 96.3,
-   "close_date": "2026-09-28",
-   "avg_vol": 527600,
+   "last_close": 101.1,
+   "close_date": "2026-09-29",
+   "avg_vol": 479400,
    "issue_px": 101.04,
-   "chg_from_issue_pct": -4.7
+   "chg_from_issue_pct": 0.1
   },
   {
    "company": "SpectraA Technology Solutions Ltd.",
@@ -2015,11 +2015,11 @@
      "est": true
     }
    ],
-   "last_close": 248.5,
-   "close_date": "2026-09-28",
-   "avg_vol": 906400,
+   "last_close": 248.1,
+   "close_date": "2026-09-29",
+   "avg_vol": 736500,
    "issue_px": 117.97,
-   "chg_from_issue_pct": 110.6
+   "chg_from_issue_pct": 110.3
   },
   {
    "company": "Sonaselection India Ltd.",
@@ -2063,11 +2063,11 @@
      "est": false
     }
    ],
-   "last_close": 96.95,
-   "close_date": "2026-09-28",
-   "avg_vol": 1232303,
+   "last_close": 98.41,
+   "close_date": "2026-09-29",
+   "avg_vol": 1018820,
    "issue_px": 99.0,
-   "chg_from_issue_pct": -2.1
+   "chg_from_issue_pct": -0.6
   },
   {
    "company": "National Stock Exchange of India Ltd.",
@@ -2111,11 +2111,11 @@
      "est": false
     }
    ],
-   "last_close": 1762.7,
-   "close_date": "2026-09-28",
-   "avg_vol": 22002661,
+   "last_close": 1769.3,
+   "close_date": "2026-09-29",
+   "avg_vol": 17370322,
    "issue_px": 1785.0,
-   "chg_from_issue_pct": -1.2
+   "chg_from_issue_pct": -0.9
   },
   {
    "company": "Hero Motors Ltd.",
@@ -2159,11 +2159,11 @@
      "est": false
     }
    ],
-   "last_close": 135.06,
-   "close_date": "2026-09-28",
-   "avg_vol": 131722727,
+   "last_close": 138.71,
+   "close_date": "2026-09-29",
+   "avg_vol": 123948579,
    "issue_px": 84.0,
-   "chg_from_issue_pct": 60.8
+   "chg_from_issue_pct": 65.1
   },
   {
    "company": "Jindal Supreme (India) Ltd.",
@@ -2207,11 +2207,11 @@
      "est": false
     }
    ],
-   "last_close": 145.85,
-   "close_date": "2026-09-28",
-   "avg_vol": 1708502,
+   "last_close": 153.14,
+   "close_date": "2026-09-29",
+   "avg_vol": 1414545,
    "issue_px": 92.99,
-   "chg_from_issue_pct": 56.8
+   "chg_from_issue_pct": 64.7
   },
   {
    "company": "SS Retail Ltd.",
@@ -2255,11 +2255,11 @@
      "est": false
     }
    ],
-   "last_close": 716.95,
-   "close_date": "2026-09-28",
-   "avg_vol": 34706079,
+   "last_close": 746.85,
+   "close_date": "2026-09-29",
+   "avg_vol": 31131878,
    "issue_px": 424.0,
-   "chg_from_issue_pct": 69.1
+   "chg_from_issue_pct": 76.1
   },
   {
    "company": "Shakti Polytarp Ltd.",
@@ -2316,11 +2316,11 @@
      "est": true
     }
    ],
-   "last_close": 56.12,
-   "close_date": "2026-09-28",
-   "avg_vol": 582000,
+   "last_close": 56.0,
+   "close_date": "2026-09-29",
+   "avg_vol": 489666,
    "issue_px": 59.0,
-   "chg_from_issue_pct": -4.9
+   "chg_from_issue_pct": -5.1
   },
   {
    "company": "Manika Plastech Ltd.",
@@ -2364,11 +2364,11 @@
      "est": false
     }
    ],
-   "last_close": 41.37,
-   "close_date": "2026-09-28",
-   "avg_vol": 2559561,
+   "last_close": 41.83,
+   "close_date": "2026-09-29",
+   "avg_vol": 2239003,
    "issue_px": 43.0,
-   "chg_from_issue_pct": -3.8
+   "chg_from_issue_pct": -2.7
   },
   {
    "company": "Century Business Media Ltd.",
@@ -2425,11 +2425,11 @@
      "est": true
     }
    ],
-   "last_close": 68.76,
-   "close_date": "2026-09-28",
-   "avg_vol": 235466,
+   "last_close": 71.45,
+   "close_date": "2026-09-29",
+   "avg_vol": 202285,
    "issue_px": 73.96,
-   "chg_from_issue_pct": -7.0
+   "chg_from_issue_pct": -3.4
   },
   {
    "company": "Injecto Polymers Ltd.",
@@ -2486,11 +2486,11 @@
      "est": true
     }
    ],
-   "last_close": 96.9,
-   "close_date": "2026-09-28",
-   "avg_vol": 290600,
+   "last_close": 96.83,
+   "close_date": "2026-09-29",
+   "avg_vol": 252857,
    "issue_px": 100.04,
-   "chg_from_issue_pct": -3.1
+   "chg_from_issue_pct": -3.2
   },
   {
    "company": "Maharaja & Speedex India Ltd.",
@@ -2547,11 +2547,11 @@
      "est": true
     }
    ],
-   "last_close": 255.4,
-   "close_date": "2026-09-28",
-   "avg_vol": 597857,
+   "last_close": 255.75,
+   "close_date": "2026-09-29",
+   "avg_vol": 539475,
    "issue_px": 185.98,
-   "chg_from_issue_pct": 37.3
+   "chg_from_issue_pct": 37.5
   },
   {
    "company": "Raksan Transformers Ltd.",
@@ -2608,11 +2608,11 @@
      "est": true
     }
    ],
-   "last_close": 267.85,
-   "close_date": "2026-09-28",
-   "avg_vol": 602971,
+   "last_close": 275.6,
+   "close_date": "2026-09-29",
+   "avg_vol": 546950,
    "issue_px": 272.99,
-   "chg_from_issue_pct": -1.9
+   "chg_from_issue_pct": 1.0
   },
   {
    "company": "Veegaland Developers Ltd.",
@@ -2656,11 +2656,11 @@
      "est": false
     }
    ],
-   "last_close": 140.62,
-   "close_date": "2026-09-28",
-   "avg_vol": 1293243,
+   "last_close": 141.17,
+   "close_date": "2026-09-29",
+   "avg_vol": 1143915,
    "issue_px": 140.0,
-   "chg_from_issue_pct": 0.4
+   "chg_from_issue_pct": 0.8
   },
   {
    "company": "Om Galaxy Ltd.",
@@ -2717,11 +2717,11 @@
      "est": true
     }
    ],
-   "last_close": 88.25,
-   "close_date": "2026-09-28",
-   "avg_vol": 426971,
+   "last_close": 87.8,
+   "close_date": "2026-09-29",
+   "avg_vol": 374600,
    "issue_px": 89.99,
-   "chg_from_issue_pct": -1.9
+   "chg_from_issue_pct": -2.4
   },
   {
    "company": "LCC Projects Ltd.",
@@ -2765,11 +2765,11 @@
      "est": false
     }
    ],
-   "last_close": 149.35,
-   "close_date": "2026-09-28",
-   "avg_vol": 7172845,
+   "last_close": 150.82,
+   "close_date": "2026-09-29",
+   "avg_vol": 6502866,
    "issue_px": 146.0,
-   "chg_from_issue_pct": 2.3
+   "chg_from_issue_pct": 3.3
   },
   {
    "company": "Amtech Esters Ltd.",
@@ -2826,11 +2826,11 @@
      "est": true
     }
    ],
-   "last_close": 113.62,
-   "close_date": "2026-09-28",
-   "avg_vol": 360000,
+   "last_close": 118.02,
+   "close_date": "2026-09-29",
+   "avg_vol": 336533,
    "issue_px": 75.06,
-   "chg_from_issue_pct": 51.4
+   "chg_from_issue_pct": 57.2
   },
   {
    "company": "Manipal Payment & Identity Solutions Ltd.",
@@ -2874,11 +2874,11 @@
      "est": false
     }
    ],
-   "last_close": 387.1,
-   "close_date": "2026-09-28",
-   "avg_vol": 3294801,
+   "last_close": 417.4,
+   "close_date": "2026-09-29",
+   "avg_vol": 4388623,
    "issue_px": 339.0,
-   "chg_from_issue_pct": 14.2
+   "chg_from_issue_pct": 23.1
   },
   {
    "company": "Karamtara Engineering Ltd.",
@@ -2922,11 +2922,11 @@
      "est": false
     }
    ],
-   "last_close": 357.8,
-   "close_date": "2026-09-28",
-   "avg_vol": 10712382,
+   "last_close": 359.45,
+   "close_date": "2026-09-29",
+   "avg_vol": 9659793,
    "issue_px": 254.0,
-   "chg_from_issue_pct": 40.9
+   "chg_from_issue_pct": 41.5
   },
   {
    "company": "Steamhouse India Ltd.",
@@ -2970,11 +2970,11 @@
      "est": false
     }
    ],
-   "last_close": 107.57,
-   "close_date": "2026-09-28",
-   "avg_vol": 21293210,
+   "last_close": 110.86,
+   "close_date": "2026-09-29",
+   "avg_vol": 19425309,
    "issue_px": 81.0,
-   "chg_from_issue_pct": 32.8
+   "chg_from_issue_pct": 36.9
   },
   {
    "company": "Asset Reconstruction Co.(India) Ltd.",
@@ -3018,11 +3018,11 @@
      "est": false
     }
    ],
-   "last_close": 142.71,
-   "close_date": "2026-09-28",
-   "avg_vol": 8821815,
+   "last_close": 142.51,
+   "close_date": "2026-09-29",
+   "avg_vol": 8237042,
    "issue_px": 139.0,
-   "chg_from_issue_pct": 2.7
+   "chg_from_issue_pct": 2.5
   },
   {
    "company": "Rentomojo Ltd.",
@@ -3066,11 +3066,11 @@
      "est": false
     }
    ],
-   "last_close": 491.35,
-   "close_date": "2026-09-28",
-   "avg_vol": 13796861,
+   "last_close": 502.15,
+   "close_date": "2026-09-29",
+   "avg_vol": 12507377,
    "issue_px": 404.0,
-   "chg_from_issue_pct": 21.6
+   "chg_from_issue_pct": 24.3
   },
   {
    "company": "Glass Wall Systems (India) Ltd.",
@@ -3114,11 +3114,11 @@
      "est": false
     }
    ],
-   "last_close": 270.32,
-   "close_date": "2026-09-28",
-   "avg_vol": 45587748,
+   "last_close": 286.55,
+   "close_date": "2026-09-29",
+   "avg_vol": 42220519,
    "issue_px": 182.0,
-   "chg_from_issue_pct": 48.5
+   "chg_from_issue_pct": 57.4
   },
   {
    "company": "Prasol Chemicals Ltd.",
@@ -3162,11 +3162,11 @@
      "est": false
     }
    ],
-   "last_close": 763.8,
-   "close_date": "2026-09-28",
-   "avg_vol": 926904,
+   "last_close": 840.15,
+   "close_date": "2026-09-29",
+   "avg_vol": 1215763,
    "issue_px": 676.0,
-   "chg_from_issue_pct": 13.0
+   "chg_from_issue_pct": 24.3
   },
   {
    "company": "Kanohar Electricals Ltd.",
@@ -3210,11 +3210,11 @@
      "est": false
     }
    ],
-   "last_close": 811.15,
-   "close_date": "2026-09-28",
-   "avg_vol": 9708027,
+   "last_close": 862.75,
+   "close_date": "2026-09-29",
+   "avg_vol": 9087284,
    "issue_px": 632.0,
-   "chg_from_issue_pct": 28.3
+   "chg_from_issue_pct": 36.5
   },
   {
    "company": "Pranav Constructions Ltd.",
@@ -3258,11 +3258,11 @@
      "est": false
     }
    ],
-   "last_close": 101.39,
-   "close_date": "2026-09-28",
-   "avg_vol": 10344247,
+   "last_close": 100.18,
+   "close_date": "2026-09-29",
+   "avg_vol": 9576043,
    "issue_px": 124.01,
-   "chg_from_issue_pct": -18.2
+   "chg_from_issue_pct": -19.2
   },
   {
    "company": "Qualiance International Ltd.",
@@ -3319,11 +3319,11 @@
      "est": true
     }
    ],
-   "last_close": 181.4,
-   "close_date": "2026-09-28",
-   "avg_vol": 341909,
+   "last_close": 189.1,
+   "close_date": "2026-09-29",
+   "avg_vol": 318250,
    "issue_px": 126.96,
-   "chg_from_issue_pct": 42.9
+   "chg_from_issue_pct": 48.9
   },
   {
    "company": "Rays of Belief Ltd.",
@@ -3367,11 +3367,11 @@
      "est": false
     }
    ],
-   "last_close": 223.01,
-   "close_date": "2026-09-28",
-   "avg_vol": 270022,
+   "last_close": 255.96,
+   "close_date": "2026-09-29",
+   "avg_vol": 430773,
    "issue_px": 238.98,
-   "chg_from_issue_pct": -6.7
+   "chg_from_issue_pct": 7.1
   },
   {
    "company": "Deepa Jewellers Ltd.",
@@ -3415,11 +3415,11 @@
      "est": false
     }
    ],
-   "last_close": 202.54,
-   "close_date": "2026-09-28",
-   "avg_vol": 9321585,
+   "last_close": 188.89,
+   "close_date": "2026-09-29",
+   "avg_vol": 8974653,
    "issue_px": 176.99,
-   "chg_from_issue_pct": 14.4
+   "chg_from_issue_pct": 6.7
   },
   {
    "company": "Phychem Technologies Ltd.",
@@ -3476,11 +3476,11 @@
      "est": true
     }
    ],
-   "last_close": 50.66,
-   "close_date": "2026-09-28",
-   "avg_vol": 138933,
+   "last_close": 50.95,
+   "close_date": "2026-09-29",
+   "avg_vol": 130500,
    "issue_px": 53.94,
-   "chg_from_issue_pct": -6.1
+   "chg_from_issue_pct": -5.5
   },
   {
    "company": "Shanti Inorganics Ltd.",
@@ -3537,11 +3537,11 @@
      "est": true
     }
    ],
-   "last_close": 177.45,
-   "close_date": "2026-09-28",
-   "avg_vol": 429546,
+   "last_close": 177.7,
+   "close_date": "2026-09-29",
+   "avg_vol": 408400,
    "issue_px": 83.0,
-   "chg_from_issue_pct": 113.8
+   "chg_from_issue_pct": 114.1
   },
   {
    "company": "Ashutosh Fibre Ltd.",
@@ -3598,11 +3598,11 @@
      "est": true
     }
    ],
-   "last_close": 158.1,
-   "close_date": "2026-09-28",
-   "avg_vol": 485760,
+   "last_close": 163.35,
+   "close_date": "2026-09-29",
+   "avg_vol": 468300,
    "issue_px": 91.99,
-   "chg_from_issue_pct": 71.9
+   "chg_from_issue_pct": 77.6
   },
   {
    "company": "Purple Style Labs Ltd.",
@@ -3646,11 +3646,11 @@
      "est": false
     }
    ],
-   "last_close": 517.85,
-   "close_date": "2026-09-28",
-   "avg_vol": 864820,
+   "last_close": 530.75,
+   "close_date": "2026-09-29",
+   "avg_vol": 814707,
    "issue_px": 575.0,
-   "chg_from_issue_pct": -9.9
+   "chg_from_issue_pct": -7.7
   },
   {
    "company": "ESDS Software Solution Ltd.",
@@ -3694,11 +3694,11 @@
      "est": false
     }
    ],
-   "last_close": 1672.5,
-   "close_date": "2026-09-28",
-   "avg_vol": 4278884,
+   "last_close": 1588.9,
+   "close_date": "2026-09-29",
+   "avg_vol": 4028465,
    "issue_px": 429.0,
-   "chg_from_issue_pct": 289.9
+   "chg_from_issue_pct": 270.4
   },
   {
    "company": "Priority Jewels Ltd.",
@@ -3742,11 +3742,11 @@
      "est": false
     }
    ],
-   "last_close": 300.93,
-   "close_date": "2026-09-28",
-   "avg_vol": 649392,
+   "last_close": 293.64,
+   "close_date": "2026-09-29",
+   "avg_vol": 633492,
    "issue_px": 200.0,
-   "chg_from_issue_pct": 50.5
+   "chg_from_issue_pct": 46.8
   },
   {
    "company": "Paluck Technologies Ltd.",
@@ -3803,11 +3803,11 @@
      "est": true
     }
    ],
-   "last_close": 45.05,
-   "close_date": "2026-09-28",
-   "avg_vol": 410625,
+   "last_close": 46.02,
+   "close_date": "2026-09-29",
+   "avg_vol": 394588,
    "issue_px": 48.01,
-   "chg_from_issue_pct": -6.2
+   "chg_from_issue_pct": -4.1
   },
   {
    "company": "Complete Sports & Management India Ltd.",
@@ -3864,11 +3864,11 @@
      "est": true
     }
    ],
-   "last_close": 200.3,
-   "close_date": "2026-09-28",
-   "avg_vol": 309312,
+   "last_close": 205.85,
+   "close_date": "2026-09-29",
+   "avg_vol": 294117,
    "issue_px": 135.02,
-   "chg_from_issue_pct": 48.3
+   "chg_from_issue_pct": 52.5
   },
   {
    "company": "Lumino Industries Ltd.",
@@ -3912,11 +3912,11 @@
      "est": false
     }
    ],
-   "last_close": 104.79,
-   "close_date": "2026-09-28",
-   "avg_vol": 33640768,
+   "last_close": 104.4,
+   "close_date": "2026-09-29",
+   "avg_vol": 31970535,
    "issue_px": 82.0,
-   "chg_from_issue_pct": 27.8
+   "chg_from_issue_pct": 27.3
   },
   {
    "company": "Kwick Forensic Solutions Ltd.",
@@ -3973,11 +3973,11 @@
      "est": true
     }
    ],
-   "last_close": 168.32,
-   "close_date": "2026-09-28",
-   "avg_vol": 590964,
+   "last_close": 191.71,
+   "close_date": "2026-09-29",
+   "avg_vol": 595644,
    "issue_px": 90.01,
-   "chg_from_issue_pct": 87.0
+   "chg_from_issue_pct": 113.0
   },
   {
    "company": "Sumax Engineering Ltd.",
@@ -4034,11 +4034,11 @@
      "est": true
     }
    ],
-   "last_close": 110.0,
-   "close_date": "2026-09-28",
-   "avg_vol": 381066,
+   "last_close": 105.15,
+   "close_date": "2026-09-29",
+   "avg_vol": 368526,
    "issue_px": 101.03,
-   "chg_from_issue_pct": 8.9
+   "chg_from_issue_pct": 4.1
   },
   {
    "company": "Madhur Knit Crafts Ltd.",
@@ -4095,11 +4095,11 @@
      "est": true
     }
    ],
-   "last_close": 50.3,
-   "close_date": "2026-09-28",
-   "avg_vol": 218400,
+   "last_close": 52.25,
+   "close_date": "2026-09-29",
+   "avg_vol": 210847,
    "issue_px": 99.87,
-   "chg_from_issue_pct": -49.6
+   "chg_from_issue_pct": -47.7
   },
   {
    "company": "Skyways Air Services Ltd.",
@@ -4143,11 +4143,11 @@
      "est": false
     }
    ],
-   "last_close": 119.21,
-   "close_date": "2026-09-28",
-   "avg_vol": 15110118,
+   "last_close": 115.31,
+   "close_date": "2026-09-29",
+   "avg_vol": 14455771,
    "issue_px": 138.0,
-   "chg_from_issue_pct": -13.6
+   "chg_from_issue_pct": -16.4
   },
   {
    "company": "Hy-Tech Engineers Ltd.",
@@ -4191,11 +4191,11 @@
      "est": false
     }
    ],
-   "last_close": 65.64,
-   "close_date": "2026-09-28",
-   "avg_vol": 2632376,
+   "last_close": 69.52,
+   "close_date": "2026-09-29",
+   "avg_vol": 2601380,
    "issue_px": 53.0,
-   "chg_from_issue_pct": 23.8
+   "chg_from_issue_pct": 31.2
   },
   {
    "company": "Symbiotec Pharmalab Ltd.",
@@ -4239,11 +4239,11 @@
      "est": false
     }
    ],
-   "last_close": 1055.75,
-   "close_date": "2026-09-28",
-   "avg_vol": 3370660,
+   "last_close": 1144.2,
+   "close_date": "2026-09-29",
+   "avg_vol": 3346518,
    "issue_px": 988.0,
-   "chg_from_issue_pct": 6.9
+   "chg_from_issue_pct": 15.8
   },
   {
    "company": "Augmont Enterprises Ltd.",
@@ -4287,11 +4287,11 @@
      "est": false
     }
    ],
-   "last_close": 965.65,
-   "close_date": "2026-09-28",
-   "avg_vol": 2258954,
+   "last_close": 1062.2,
+   "close_date": "2026-09-29",
+   "avg_vol": 2232877,
    "issue_px": 788.0,
-   "chg_from_issue_pct": 22.5
+   "chg_from_issue_pct": 34.8
   },
   {
    "company": "Tempsens Instruments (India) Ltd.",
@@ -4335,11 +4335,11 @@
      "est": false
     }
    ],
-   "last_close": 530.5,
-   "close_date": "2026-09-28",
-   "avg_vol": 6227973,
+   "last_close": 529.3,
+   "close_date": "2026-09-29",
+   "avg_vol": 6006449,
    "issue_px": 300.0,
-   "chg_from_issue_pct": 76.8
+   "chg_from_issue_pct": 76.4
   },
   {
    "company": "Gaja Alternative Asset Management Ltd.",
@@ -4383,11 +4383,11 @@
      "est": false
     }
    ],
-   "last_close": 140.93,
-   "close_date": "2026-09-28",
-   "avg_vol": 5359406,
+   "last_close": 140.42,
+   "close_date": "2026-09-29",
+   "avg_vol": 5148767,
    "issue_px": 160.0,
-   "chg_from_issue_pct": -11.9
+   "chg_from_issue_pct": -12.2
   },
   {
    "company": "Sunshine Pictures Ltd.",
@@ -4431,11 +4431,11 @@
      "est": false
     }
    ],
-   "last_close": 448.85,
-   "close_date": "2026-09-28",
-   "avg_vol": 3503170,
+   "last_close": 445.05,
+   "close_date": "2026-09-29",
+   "avg_vol": 3414130,
    "issue_px": 360.0,
-   "chg_from_issue_pct": 24.7
+   "chg_from_issue_pct": 23.6
   },
   {
    "company": "Shankesh Jewellers Ltd.",
@@ -4479,11 +4479,11 @@
      "est": false
     }
    ],
-   "last_close": 90.42,
-   "close_date": "2026-09-28",
-   "avg_vol": 11301348,
+   "last_close": 88.8,
+   "close_date": "2026-09-29",
+   "avg_vol": 10910058,
    "issue_px": 93.0,
-   "chg_from_issue_pct": -2.8
+   "chg_from_issue_pct": -4.5
   },
   {
    "company": "Lalithaa Jewellery Mart Ltd.",
@@ -4527,11 +4527,11 @@
      "est": false
     }
    ],
-   "last_close": 357.15,
-   "close_date": "2026-09-28",
-   "avg_vol": 15976726,
+   "last_close": 375.0,
+   "close_date": "2026-09-29",
+   "avg_vol": 15602227,
    "issue_px": 201.0,
-   "chg_from_issue_pct": 77.7
+   "chg_from_issue_pct": 86.6
   },
   {
    "company": "Horizon Industrial Parks Ltd.",
@@ -4575,11 +4575,11 @@
      "est": false
     }
    ],
-   "last_close": 51.79,
-   "close_date": "2026-09-28",
-   "avg_vol": 8358781,
+   "last_close": 51.02,
+   "close_date": "2026-09-29",
+   "avg_vol": 8150154,
    "issue_px": 60.0,
-   "chg_from_issue_pct": -13.7
+   "chg_from_issue_pct": -15.0
   },
   {
    "company": "ENS Enterprises Ltd.",
@@ -4636,11 +4636,11 @@
      "est": true
     }
    ],
-   "last_close": 101.25,
-   "close_date": "2026-09-28",
-   "avg_vol": 147230,
+   "last_close": 101.3,
+   "close_date": "2026-09-29",
+   "avg_vol": 142044,
    "issue_px": 92.01,
-   "chg_from_issue_pct": 10.0
+   "chg_from_issue_pct": 10.1
   },
   {
    "company": "Technocrats Plasma Systems Ltd.",
@@ -4697,11 +4697,11 @@
      "est": true
     }
    ],
-   "last_close": 396.3,
-   "close_date": "2026-09-28",
-   "avg_vol": 313500,
+   "last_close": 404.8,
+   "close_date": "2026-09-29",
+   "avg_vol": 303740,
    "issue_px": 131.96,
-   "chg_from_issue_pct": 200.3
+   "chg_from_issue_pct": 206.8
   },
   {
    "company": "Credent Connect N Care Ltd.",
@@ -4758,11 +4758,11 @@
      "est": true
     }
    ],
-   "last_close": 391.85,
-   "close_date": "2026-09-28",
-   "avg_vol": 257933,
+   "last_close": 407.45,
+   "close_date": "2026-09-29",
+   "avg_vol": 251378,
    "issue_px": 189.03,
-   "chg_from_issue_pct": 107.3
+   "chg_from_issue_pct": 115.5
   },
   {
    "company": "Pramodini Medicare Ltd.",
@@ -4819,11 +4819,11 @@
      "est": true
     }
    ],
-   "last_close": 120.25,
-   "close_date": "2026-09-28",
-   "avg_vol": 271885,
+   "last_close": 117.65,
+   "close_date": "2026-09-29",
+   "avg_vol": 269462,
    "issue_px": 118.02,
-   "chg_from_issue_pct": 1.9
+   "chg_from_issue_pct": -0.3
   },
   {
    "company": "Shiprocket Ltd.",
@@ -4867,11 +4867,11 @@
      "est": false
     }
    ],
-   "last_close": 120.9,
-   "close_date": "2026-09-28",
-   "avg_vol": 23504273,
+   "last_close": 119.99,
+   "close_date": "2026-09-29",
+   "avg_vol": 22775803,
    "issue_px": 97.0,
-   "chg_from_issue_pct": 24.6
+   "chg_from_issue_pct": 23.7
   },
   {
    "company": "Behari Lal Engineering Ltd.",
@@ -4915,11 +4915,11 @@
      "est": false
     }
    ],
-   "last_close": 445.1,
-   "close_date": "2026-09-28",
-   "avg_vol": 3760428,
+   "last_close": 447.05,
+   "close_date": "2026-09-29",
+   "avg_vol": 3639436,
    "issue_px": 285.01,
-   "chg_from_issue_pct": 56.2
+   "chg_from_issue_pct": 56.9
   },
   {
    "company": "G.V.Electricals Ltd.",
@@ -4976,9 +4976,9 @@
      "est": true
     }
    ],
-   "last_close": 130.1,
-   "close_date": "2026-09-28",
-   "avg_vol": 87833,
+   "last_close": 130.05,
+   "close_date": "2026-09-29",
+   "avg_vol": 70900,
    "issue_px": 129.95,
    "chg_from_issue_pct": 0.1
   },
@@ -5024,11 +5024,11 @@
      "est": false
     }
    ],
-   "last_close": 315.12,
-   "close_date": "2026-09-28",
-   "avg_vol": 21916136,
+   "last_close": 317.99,
+   "close_date": "2026-09-29",
+   "avg_vol": 21230550,
    "issue_px": 140.0,
-   "chg_from_issue_pct": 125.1
+   "chg_from_issue_pct": 127.1
   },
   {
    "company": "LAPL Automotive Ltd.",
@@ -5085,11 +5085,11 @@
      "est": true
     }
    ],
-   "last_close": 104.5,
-   "close_date": "2026-09-28",
-   "avg_vol": 96440,
+   "last_close": 105.5,
+   "close_date": "2026-09-29",
+   "avg_vol": 89120,
    "issue_px": 93.98,
-   "chg_from_issue_pct": 11.2
+   "chg_from_issue_pct": 12.3
   },
   {
    "company": "Molbio Diagnostics Ltd.",
@@ -5133,11 +5133,11 @@
      "est": false
     }
    ],
-   "last_close": 1237.5,
-   "close_date": "2026-09-28",
-   "avg_vol": 4091120,
+   "last_close": 1255.6,
+   "close_date": "2026-09-29",
+   "avg_vol": 3573036,
    "issue_px": 807.0,
-   "chg_from_issue_pct": 53.3
+   "chg_from_issue_pct": 55.6
   },
   {
    "company": "Dhoot Transmission Ltd.",
@@ -5181,9 +5181,9 @@
      "est": false
     }
    ],
-   "last_close": 1504.2,
-   "close_date": "2026-09-28",
-   "avg_vol": 5266836,
+   "last_close": 1504.6,
+   "close_date": "2026-09-29",
+   "avg_vol": 4273415,
    "issue_px": 871.0,
    "chg_from_issue_pct": 72.7
   },
@@ -5242,11 +5242,11 @@
      "est": true
     }
    ],
-   "last_close": 131.35,
-   "close_date": "2026-09-28",
-   "avg_vol": 124826,
+   "last_close": 129.75,
+   "close_date": "2026-09-29",
+   "avg_vol": 122960,
    "issue_px": 174.99,
-   "chg_from_issue_pct": -24.9
+   "chg_from_issue_pct": -25.9
   },
   {
    "company": "Technocraft Ventures Ltd.",
@@ -5290,11 +5290,11 @@
      "est": false
     }
    ],
-   "last_close": 476.95,
-   "close_date": "2026-09-28",
-   "avg_vol": 1851325,
+   "last_close": 480.85,
+   "close_date": "2026-09-29",
+   "avg_vol": 1779849,
    "issue_px": 211.99,
-   "chg_from_issue_pct": 125.0
+   "chg_from_issue_pct": 126.8
   },
   {
    "company": "LEAP India Ltd.",
@@ -5338,11 +5338,11 @@
      "est": false
     }
    ],
-   "last_close": 135.36,
-   "close_date": "2026-09-28",
-   "avg_vol": 7083670,
+   "last_close": 137.44,
+   "close_date": "2026-09-29",
+   "avg_vol": 6173318,
    "issue_px": 159.0,
-   "chg_from_issue_pct": -14.9
+   "chg_from_issue_pct": -13.6
   },
   {
    "company": "Ardee Industries Ltd.",
@@ -5386,11 +5386,11 @@
      "est": false
     }
    ],
-   "last_close": 51.99,
-   "close_date": "2026-09-28",
-   "avg_vol": 5301965,
+   "last_close": 51.17,
+   "close_date": "2026-09-29",
+   "avg_vol": 4959281,
    "issue_px": 53.0,
-   "chg_from_issue_pct": -1.9
+   "chg_from_issue_pct": -3.5
   },
   {
    "company": "Aegeus Technologies Ltd.",
@@ -5447,11 +5447,11 @@
      "est": true
     }
    ],
-   "last_close": 125.2,
-   "close_date": "2026-09-28",
-   "avg_vol": 116400,
+   "last_close": 127.55,
+   "close_date": "2026-09-29",
+   "avg_vol": 112720,
    "issue_px": 105.0,
-   "chg_from_issue_pct": 19.2
+   "chg_from_issue_pct": 21.5
   },
   {
    "company": "Anawil Wire & Engineering Ltd.",
@@ -5508,11 +5508,11 @@
      "est": true
     }
    ],
-   "last_close": 468.85,
-   "close_date": "2026-09-28",
-   "avg_vol": 238413,
+   "last_close": 509.0,
+   "close_date": "2026-09-29",
+   "avg_vol": 242133,
    "issue_px": 269.99,
-   "chg_from_issue_pct": 73.7
+   "chg_from_issue_pct": 88.5
   },
   {
    "company": "Fusion Klassroom Edutech Ltd.",
@@ -5569,11 +5569,11 @@
      "est": true
     }
    ],
-   "last_close": 164.25,
-   "close_date": "2026-09-28",
-   "avg_vol": 12373,
+   "last_close": 168.0,
+   "close_date": "2026-09-29",
+   "avg_vol": 12426,
    "issue_px": 159.01,
-   "chg_from_issue_pct": 3.3
+   "chg_from_issue_pct": 5.7
   },
   {
    "company": "Oneindig Technologies Ltd.",
@@ -5630,11 +5630,11 @@
      "est": true
     }
    ],
-   "last_close": 128.3,
-   "close_date": "2026-09-28",
-   "avg_vol": 15680,
+   "last_close": 136.0,
+   "close_date": "2026-09-29",
+   "avg_vol": 13560,
    "issue_px": 95.96,
-   "chg_from_issue_pct": 33.7
+   "chg_from_issue_pct": 41.7
   },
   {
    "company": "Juniper Green Energy Ltd.",
@@ -5678,11 +5678,11 @@
      "est": false
     }
    ],
-   "last_close": 269.95,
-   "close_date": "2026-09-28",
-   "avg_vol": 1458839,
+   "last_close": 272.3,
+   "close_date": "2026-09-29",
+   "avg_vol": 1447399,
    "issue_px": 225.0,
-   "chg_from_issue_pct": 20.0
+   "chg_from_issue_pct": 21.0
   },
   {
    "company": "MV Electrosystems Ltd.",
@@ -5726,11 +5726,11 @@
      "est": false
     }
    ],
-   "last_close": 786.35,
-   "close_date": "2026-09-28",
-   "avg_vol": 5336694,
+   "last_close": 838.05,
+   "close_date": "2026-09-29",
+   "avg_vol": 5368275,
    "issue_px": 425.0,
-   "chg_from_issue_pct": 85.0
+   "chg_from_issue_pct": 97.2
   },
   {
    "company": "Dhaval Packaging Ltd.",
@@ -5787,11 +5787,11 @@
      "est": true
     }
    ],
-   "last_close": 120.6,
-   "close_date": "2026-09-28",
-   "avg_vol": 72720,
+   "last_close": 126.7,
+   "close_date": "2026-09-29",
+   "avg_vol": 69680,
    "issue_px": 97.01,
-   "chg_from_issue_pct": 24.3
+   "chg_from_issue_pct": 30.6
   },
   {
    "company": "H.R.Hygiene Products Ltd.",
@@ -5848,11 +5848,11 @@
      "est": true
     }
    ],
-   "last_close": 69.9,
-   "close_date": "2026-09-28",
-   "avg_vol": 40373,
+   "last_close": 68.88,
+   "close_date": "2026-09-29",
+   "avg_vol": 39786,
    "issue_px": 88.0,
-   "chg_from_issue_pct": -20.6
+   "chg_from_issue_pct": -21.7
   },
   {
    "company": "Manipal Health Enterprises Ltd.",
@@ -5896,11 +5896,11 @@
      "est": false
     }
    ],
-   "last_close": 722.5,
-   "close_date": "2026-09-28",
-   "avg_vol": 1476097,
+   "last_close": 747.75,
+   "close_date": "2026-09-29",
+   "avg_vol": 1451675,
    "issue_px": 590.0,
-   "chg_from_issue_pct": 22.5
+   "chg_from_issue_pct": 26.7
   },
   {
    "company": "Poojaa Precision Engg.Ltd.",
@@ -5973,11 +5973,11 @@
      "est": true
     }
    ],
-   "last_close": 800.3,
-   "close_date": "2026-09-28",
-   "avg_vol": 130613,
+   "last_close": 805.8,
+   "close_date": "2026-09-29",
+   "avg_vol": 128040,
    "issue_px": 301.01,
-   "chg_from_issue_pct": 165.9
+   "chg_from_issue_pct": 167.7
   },
   {
    "company": "Silverstorm Parks & Resorts Ltd.",
@@ -6050,11 +6050,11 @@
      "est": true
     }
    ],
-   "last_close": 131.0,
-   "close_date": "2026-09-28",
-   "avg_vol": 66600,
+   "last_close": 120.5,
+   "close_date": "2026-09-29",
+   "avg_vol": 66300,
    "issue_px": 132.99,
-   "chg_from_issue_pct": -1.5
+   "chg_from_issue_pct": -9.4
   },
   {
    "company": "Xtranet Technologies Ltd.",
@@ -6098,11 +6098,11 @@
      "est": false
     }
    ],
-   "last_close": 285.76,
-   "close_date": "2026-09-28",
-   "avg_vol": 2811076,
+   "last_close": 271.48,
+   "close_date": "2026-09-29",
+   "avg_vol": 2800424,
    "issue_px": 127.0,
-   "chg_from_issue_pct": 125.0
+   "chg_from_issue_pct": 113.8
   },
   {
    "company": "Cube Highways Trust",
@@ -6146,9 +6146,9 @@
      "est": false
     }
    ],
-   "last_close": 154.02,
-   "close_date": "2026-09-28",
-   "avg_vol": 700626,
+   "last_close": 154.59,
+   "close_date": "2026-09-29",
+   "avg_vol": 725720,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6194,11 +6194,11 @@
      "est": false
     }
    ],
-   "last_close": 570.2,
-   "close_date": "2026-09-28",
-   "avg_vol": 659200,
+   "last_close": 581.65,
+   "close_date": "2026-09-29",
+   "avg_vol": 649809,
    "issue_px": 425.0,
-   "chg_from_issue_pct": 34.2
+   "chg_from_issue_pct": 36.9
   },
   {
    "company": "Indo-MIM Ltd.",
@@ -6242,11 +6242,11 @@
      "est": false
     }
    ],
-   "last_close": 1227.6,
-   "close_date": "2026-09-28",
-   "avg_vol": 2911191,
+   "last_close": 1248.15,
+   "close_date": "2026-09-29",
+   "avg_vol": 2890483,
    "issue_px": 485.0,
-   "chg_from_issue_pct": 153.1
+   "chg_from_issue_pct": 157.4
   },
   {
    "company": "Shree Balaji (Mala) Textiles Ltd.",
@@ -6380,11 +6380,11 @@
      "est": true
     }
    ],
-   "last_close": 188.0,
-   "close_date": "2026-09-28",
-   "avg_vol": 138880,
+   "last_close": 178.6,
+   "close_date": "2026-09-29",
+   "avg_vol": 127413,
    "issue_px": 77.01,
-   "chg_from_issue_pct": 144.1
+   "chg_from_issue_pct": 131.9
   },
   {
    "company": "Caliber Mining & Logistics Ltd.",
@@ -6428,11 +6428,11 @@
      "est": false
     }
    ],
-   "last_close": 524.8,
-   "close_date": "2026-09-28",
-   "avg_vol": 402256,
+   "last_close": 542.9,
+   "close_date": "2026-09-29",
+   "avg_vol": 419766,
    "issue_px": 424.0,
-   "chg_from_issue_pct": 23.8
+   "chg_from_issue_pct": 28.0
   },
   {
    "company": "Sotefin Bharat Ltd.",
@@ -6489,11 +6489,11 @@
      "est": true
     }
    ],
-   "last_close": 263.65,
-   "close_date": "2026-09-28",
-   "avg_vol": 51340,
+   "last_close": 259.9,
+   "close_date": "2026-09-29",
+   "avg_vol": 50080,
    "issue_px": 186.99,
-   "chg_from_issue_pct": 41.0
+   "chg_from_issue_pct": 39.0
   },
   {
    "company": "Millworks Technologies Ltd.",
@@ -6550,11 +6550,11 @@
      "est": true
     }
    ],
-   "last_close": 1208.0,
-   "close_date": "2026-09-28",
-   "avg_vol": 151106,
+   "last_close": 1192.75,
+   "close_date": "2026-09-29",
+   "avg_vol": 150293,
    "issue_px": 330.97,
-   "chg_from_issue_pct": 265.0
+   "chg_from_issue_pct": 260.4
   },
   {
    "company": "SBI Funds Management Ltd.",
@@ -6598,11 +6598,11 @@
      "est": false
     }
    ],
-   "last_close": 522.9,
-   "close_date": "2026-09-28",
-   "avg_vol": 1434982,
+   "last_close": 517.8,
+   "close_date": "2026-09-29",
+   "avg_vol": 1372392,
    "issue_px": 574.0,
-   "chg_from_issue_pct": -8.9
+   "chg_from_issue_pct": -9.8
   },
   {
    "company": "Laser Power & Infra Ltd.",
@@ -6646,11 +6646,11 @@
      "est": false
     }
    ],
-   "last_close": 262.4,
-   "close_date": "2026-09-28",
-   "avg_vol": 1070768,
+   "last_close": 270.45,
+   "close_date": "2026-09-29",
+   "avg_vol": 885678,
    "issue_px": 214.0,
-   "chg_from_issue_pct": 22.6
+   "chg_from_issue_pct": 26.4
   },
   {
    "company": "Happy Steels Ltd.",
@@ -6725,11 +6725,11 @@
      "est": true
     }
    ],
-   "last_close": 76.2,
-   "close_date": "2026-09-28",
-   "avg_vol": 132400,
+   "last_close": 74.7,
+   "close_date": "2026-09-29",
+   "avg_vol": 131866,
    "issue_px": 65.99,
-   "chg_from_issue_pct": 15.5
+   "chg_from_issue_pct": 13.2
   },
   {
    "company": "Devson Catalyst Ltd.",
@@ -6788,11 +6788,11 @@
      "est": true
     }
    ],
-   "last_close": 323.0,
-   "close_date": "2026-09-28",
-   "avg_vol": 73760,
+   "last_close": 319.6,
+   "close_date": "2026-09-29",
+   "avg_vol": 69280,
    "issue_px": 118.01,
-   "chg_from_issue_pct": 173.7
+   "chg_from_issue_pct": 170.8
   },
   {
    "company": "Kusumgar Ltd.",
@@ -6836,11 +6836,11 @@
      "est": false
     }
    ],
-   "last_close": 617.35,
-   "close_date": "2026-09-28",
-   "avg_vol": 341183,
+   "last_close": 606.25,
+   "close_date": "2026-09-29",
+   "avg_vol": 335434,
    "issue_px": 419.0,
-   "chg_from_issue_pct": 47.3
+   "chg_from_issue_pct": 44.7
   },
   {
    "company": "IC Electricals Co.Ltd.",
@@ -6915,11 +6915,11 @@
      "est": true
     }
    ],
-   "last_close": 128.25,
-   "close_date": "2026-09-28",
-   "avg_vol": 64160,
+   "last_close": 128.85,
+   "close_date": "2026-09-29",
+   "avg_vol": 62960,
    "issue_px": 98.98,
-   "chg_from_issue_pct": 29.6
+   "chg_from_issue_pct": 30.2
   },
   {
    "company": "Knack Packaging Ltd.",
@@ -6963,9 +6963,9 @@
      "est": false
     }
    ],
-   "last_close": 176.65,
-   "close_date": "2026-09-28",
-   "avg_vol": 716965,
+   "last_close": 176.58,
+   "close_date": "2026-09-29",
+   "avg_vol": 673771,
    "issue_px": 170.0,
    "chg_from_issue_pct": 3.9
   },
@@ -7026,11 +7026,11 @@
      "est": true
     }
    ],
-   "last_close": 120.15,
-   "close_date": "2026-09-28",
-   "avg_vol": 70800,
+   "last_close": 116.19,
+   "close_date": "2026-09-29",
+   "avg_vol": 70666,
    "issue_px": 59.97,
-   "chg_from_issue_pct": 100.4
+   "chg_from_issue_pct": 93.7
   },
   {
    "company": "Sampark India Logistics Ltd.",
@@ -7105,11 +7105,11 @@
      "est": true
     }
    ],
-   "last_close": 112.95,
-   "close_date": "2026-09-28",
-   "avg_vol": 26186,
+   "last_close": 112.45,
+   "close_date": "2026-09-29",
+   "avg_vol": 27360,
    "issue_px": 83.95,
-   "chg_from_issue_pct": 34.5
+   "chg_from_issue_pct": 33.9
   },
   {
    "company": "Kratikal Tech Ltd.",
@@ -7184,11 +7184,11 @@
      "est": true
     }
    ],
-   "last_close": 174.6,
-   "close_date": "2026-09-28",
-   "avg_vol": 22800,
+   "last_close": 170.0,
+   "close_date": "2026-09-29",
+   "avg_vol": 20500,
    "issue_px": 135.02,
-   "chg_from_issue_pct": 29.3
+   "chg_from_issue_pct": 25.9
   },
   {
    "company": "CSM Technologies Ltd.",
@@ -7232,11 +7232,11 @@
      "est": false
     }
    ],
-   "last_close": 98.31,
-   "close_date": "2026-09-28",
-   "avg_vol": 905237,
+   "last_close": 98.16,
+   "close_date": "2026-09-29",
+   "avg_vol": 903785,
    "issue_px": 112.99,
-   "chg_from_issue_pct": -13.0
+   "chg_from_issue_pct": -13.1
   },
   {
    "company": "Advit Jewels Ltd.",
@@ -7280,11 +7280,11 @@
      "est": false
     }
    ],
-   "last_close": 265.03,
-   "close_date": "2026-09-28",
-   "avg_vol": 2134288,
+   "last_close": 290.97,
+   "close_date": "2026-09-29",
+   "avg_vol": 2187152,
    "issue_px": 137.99,
-   "chg_from_issue_pct": 92.1
+   "chg_from_issue_pct": 110.9
   },
   {
    "company": "Waterways Leisure Tourism Ltd.",
@@ -7407,11 +7407,11 @@
      "est": true
     }
    ],
-   "last_close": 165.0,
-   "close_date": "2026-09-28",
-   "avg_vol": 26133,
+   "last_close": 156.75,
+   "close_date": "2026-09-29",
+   "avg_vol": 26666,
    "issue_px": 53.03,
-   "chg_from_issue_pct": 211.1
+   "chg_from_issue_pct": 195.6
   },
   {
    "company": "Turtlemint Fintech Solutions Ltd.",
@@ -7455,11 +7455,11 @@
      "est": false
     }
    ],
-   "last_close": 83.29,
-   "close_date": "2026-09-28",
-   "avg_vol": 2899416,
+   "last_close": 79.52,
+   "close_date": "2026-09-29",
+   "avg_vol": 2251166,
    "issue_px": 152.0,
-   "chg_from_issue_pct": -45.2
+   "chg_from_issue_pct": -47.7
   },
   {
    "company": "Anubhav Plast Ltd.",
@@ -7535,8 +7535,8 @@
     }
    ],
    "last_close": 42.6,
-   "close_date": "2026-09-28",
-   "avg_vol": 22133,
+   "close_date": "2026-09-29",
+   "avg_vol": 20213,
    "issue_px": 79.95,
    "chg_from_issue_pct": -46.7
   },
@@ -7613,11 +7613,11 @@
      "est": true
     }
    ],
-   "last_close": 376.25,
-   "close_date": "2026-09-28",
-   "avg_vol": 44640,
+   "last_close": 361.65,
+   "close_date": "2026-09-29",
+   "avg_vol": 46420,
    "issue_px": 207.91,
-   "chg_from_issue_pct": 81.0
+   "chg_from_issue_pct": 73.9
   },
   {
    "company": "Clay Craft India Ltd.",
@@ -7676,11 +7676,11 @@
      "est": true
     }
    ],
-   "last_close": 174.15,
-   "close_date": "2026-09-28",
-   "avg_vol": 50760,
+   "last_close": 168.45,
+   "close_date": "2026-09-29",
+   "avg_vol": 53880,
    "issue_px": 203.01,
-   "chg_from_issue_pct": -14.2
+   "chg_from_issue_pct": -17.0
   },
   {
    "company": "Horizon Reclaim (India) Ltd.",
@@ -7739,11 +7739,11 @@
      "est": true
     }
    ],
-   "last_close": 138.1,
-   "close_date": "2026-09-28",
-   "avg_vol": 78960,
+   "last_close": 139.7,
+   "close_date": "2026-09-29",
+   "avg_vol": 77120,
    "issue_px": 102.98,
-   "chg_from_issue_pct": 34.1
+   "chg_from_issue_pct": 35.7
   },
   {
    "company": "Susan Electricals India Ltd.",
@@ -7818,11 +7818,11 @@
      "est": true
     }
    ],
-   "last_close": 287.3,
-   "close_date": "2026-09-28",
-   "avg_vol": 137833,
+   "last_close": 285.95,
+   "close_date": "2026-09-29",
+   "avg_vol": 131733,
    "issue_px": 126.99,
-   "chg_from_issue_pct": 126.2
+   "chg_from_issue_pct": 125.2
   },
   {
    "company": "Hexagon Nutrition Ltd.",
@@ -7866,11 +7866,11 @@
      "est": false
     }
    ],
-   "last_close": 64.35,
-   "close_date": "2026-09-28",
-   "avg_vol": 301691,
+   "last_close": 65.34,
+   "close_date": "2026-09-29",
+   "avg_vol": 295081,
    "issue_px": 45.0,
-   "chg_from_issue_pct": 43.0
+   "chg_from_issue_pct": 45.2
   },
   {
    "company": "Genxai Analytics Ltd.",
@@ -7945,11 +7945,11 @@
      "est": true
     }
    ],
-   "last_close": 69.2,
-   "close_date": "2026-09-28",
-   "avg_vol": 28120,
+   "last_close": 75.65,
+   "close_date": "2026-09-29",
+   "avg_vol": 32200,
    "issue_px": 115.99,
-   "chg_from_issue_pct": -40.3
+   "chg_from_issue_pct": -34.8
   },
   {
    "company": "CMR Green Technologies Ltd.",
@@ -7993,11 +7993,11 @@
      "est": false
     }
    ],
-   "last_close": 221.77,
-   "close_date": "2026-09-28",
-   "avg_vol": 577756,
+   "last_close": 227.91,
+   "close_date": "2026-09-29",
+   "avg_vol": 587874,
    "issue_px": 192.0,
-   "chg_from_issue_pct": 15.5
+   "chg_from_issue_pct": 18.7
   },
   {
    "company": "Merritronix Ltd.",
@@ -8072,11 +8072,11 @@
      "est": true
     }
    ],
-   "last_close": 424.35,
-   "close_date": "2026-09-28",
-   "avg_vol": 165700,
+   "last_close": 460.3,
+   "close_date": "2026-09-29",
+   "avg_vol": 168000,
    "issue_px": 149.03,
-   "chg_from_issue_pct": 184.7
+   "chg_from_issue_pct": 208.9
   },
   {
    "company": "Rajnandini Fashion India Ltd.",
@@ -8151,11 +8151,11 @@
      "est": true
     }
    ],
-   "last_close": 25.07,
-   "close_date": "2026-09-28",
-   "avg_vol": 17533,
+   "last_close": 25.0,
+   "close_date": "2026-09-29",
+   "avg_vol": 18800,
    "issue_px": 62.96,
-   "chg_from_issue_pct": -60.2
+   "chg_from_issue_pct": -60.3
   },
   {
    "company": "M R Maniveni Foods Ltd.",
@@ -8230,11 +8230,11 @@
      "est": true
     }
    ],
-   "last_close": 26.13,
-   "close_date": "2026-09-25",
+   "last_close": 28.0,
+   "close_date": "2026-09-29",
    "avg_vol": 32800,
    "issue_px": 51.97,
-   "chg_from_issue_pct": -49.7
+   "chg_from_issue_pct": -46.1
   },
   {
    "company": "Q-Line Biotech Ltd.",
@@ -8293,11 +8293,11 @@
      "est": true
     }
    ],
-   "last_close": 666.7,
-   "close_date": "2026-09-28",
-   "avg_vol": 114466,
+   "last_close": 672.75,
+   "close_date": "2026-09-29",
+   "avg_vol": 116840,
    "issue_px": 343.03,
-   "chg_from_issue_pct": 94.4
+   "chg_from_issue_pct": 96.1
   },
   {
    "company": "Vegorama Punjabi Angithi Ltd.",
@@ -8372,11 +8372,11 @@
      "est": true
     }
    ],
-   "last_close": 249.15,
-   "close_date": "2026-09-28",
-   "avg_vol": 31680,
+   "last_close": 239.65,
+   "close_date": "2026-09-29",
+   "avg_vol": 31573,
    "issue_px": 76.98,
-   "chg_from_issue_pct": 223.7
+   "chg_from_issue_pct": 211.3
   },
   {
    "company": "Teamtech Formwork Solutions Ltd.",
@@ -8451,11 +8451,11 @@
      "est": true
     }
    ],
-   "last_close": 133.5,
-   "close_date": "2026-09-28",
-   "avg_vol": 35933,
+   "last_close": 137.0,
+   "close_date": "2026-09-29",
+   "avg_vol": 36733,
    "issue_px": 63.02,
-   "chg_from_issue_pct": 111.8
+   "chg_from_issue_pct": 117.4
   },
   {
    "company": "Goldline Pharmaceutical Ltd.",
@@ -8530,11 +8530,11 @@
      "est": true
     }
    ],
-   "last_close": 32.0,
-   "close_date": "2026-09-28",
-   "avg_vol": 52600,
+   "last_close": 29.43,
+   "close_date": "2026-09-29",
+   "avg_vol": 53400,
    "issue_px": 43.03,
-   "chg_from_issue_pct": -25.6
+   "chg_from_issue_pct": -31.6
   },
   {
    "company": "Simca Advertising Ltd.",
@@ -8609,11 +8609,11 @@
      "est": true
     }
    ],
-   "last_close": 288.5,
-   "close_date": "2026-09-28",
-   "avg_vol": 25740,
+   "last_close": 291.0,
+   "close_date": "2026-09-29",
+   "avg_vol": 26240,
    "issue_px": 183.06,
-   "chg_from_issue_pct": 57.6
+   "chg_from_issue_pct": 59.0
   },
   {
    "company": "Bagmane Prime Office REIT",
@@ -8657,9 +8657,9 @@
      "est": false
     }
    ],
-   "last_close": 109.3,
-   "close_date": "2026-09-28",
-   "avg_vol": 938720,
+   "last_close": 106.31,
+   "close_date": "2026-09-29",
+   "avg_vol": 1261526,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8736,11 +8736,11 @@
      "est": true
     }
    ],
-   "last_close": 448.55,
-   "close_date": "2026-09-28",
-   "avg_vol": 27520,
+   "last_close": 426.15,
+   "close_date": "2026-09-29",
+   "avg_vol": 26853,
    "issue_px": 158.06,
-   "chg_from_issue_pct": 183.8
+   "chg_from_issue_pct": 169.6
   },
   {
    "company": "OnEMI Technology Solutions Ltd.",
@@ -8784,11 +8784,11 @@
      "est": false
     }
    ],
-   "last_close": 344.9,
-   "close_date": "2026-09-28",
-   "avg_vol": 1555558,
+   "last_close": 358.65,
+   "close_date": "2026-09-29",
+   "avg_vol": 1593799,
    "issue_px": 171.0,
-   "chg_from_issue_pct": 101.7
+   "chg_from_issue_pct": 109.7
   },
   {
    "company": "Adisoft Technologies Ltd.",
@@ -8863,11 +8863,11 @@
      "est": true
     }
    ],
-   "last_close": 264.6,
-   "close_date": "2026-09-28",
-   "avg_vol": 114426,
+   "last_close": 260.15,
+   "close_date": "2026-09-29",
+   "avg_vol": 116880,
    "issue_px": 172.0,
-   "chg_from_issue_pct": 53.8
+   "chg_from_issue_pct": 51.2
   },
   {
    "company": "Citius Transnet Investment Trust",
@@ -8903,9 +8903,9 @@
      "est": false
     }
    ],
-   "last_close": 117.3,
-   "close_date": "2026-09-28",
-   "avg_vol": 188625,
+   "last_close": 117.86,
+   "close_date": "2026-09-29",
+   "avg_vol": 189532,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8966,11 +8966,11 @@
      "est": true
     }
    ],
-   "last_close": 108.05,
-   "close_date": "2026-09-28",
-   "avg_vol": 29800,
+   "last_close": 111.15,
+   "close_date": "2026-09-29",
+   "avg_vol": 30560,
    "issue_px": 98.02,
-   "chg_from_issue_pct": 10.2
+   "chg_from_issue_pct": 13.4
   },
   {
    "company": "Om Power Transmission Ltd.",
@@ -9014,11 +9014,11 @@
      "est": false
     }
    ],
-   "last_close": 162.71,
-   "close_date": "2026-09-28",
-   "avg_vol": 86170,
+   "last_close": 163.18,
+   "close_date": "2026-09-29",
+   "avg_vol": 87317,
    "issue_px": 174.98,
-   "chg_from_issue_pct": -7.0
+   "chg_from_issue_pct": -6.7
   },
   {
    "company": "Safety Controls & Devices Ltd.",
@@ -9093,11 +9093,11 @@
      "est": true
     }
    ],
-   "last_close": 68.95,
-   "close_date": "2026-09-28",
-   "avg_vol": 51786,
+   "last_close": 69.0,
+   "close_date": "2026-09-29",
+   "avg_vol": 49760,
    "issue_px": 79.99,
-   "chg_from_issue_pct": -13.8
+   "chg_from_issue_pct": -13.7
   },
   {
    "company": "Emiac Technologies Ltd.",
@@ -9156,11 +9156,11 @@
      "est": true
     }
    ],
-   "last_close": 88.94,
-   "close_date": "2026-09-28",
-   "avg_vol": 22120,
+   "last_close": 90.42,
+   "close_date": "2026-09-29",
+   "avg_vol": 21600,
    "issue_px": 97.97,
-   "chg_from_issue_pct": -9.2
+   "chg_from_issue_pct": -7.7
   },
   {
    "company": "Vivid Electromech Ltd.",
@@ -9235,11 +9235,11 @@
      "est": true
     }
    ],
-   "last_close": 1686.05,
-   "close_date": "2026-09-28",
-   "avg_vol": 27528,
+   "last_close": 1738.1,
+   "close_date": "2026-09-29",
+   "avg_vol": 27760,
    "issue_px": 554.96,
-   "chg_from_issue_pct": 203.8
+   "chg_from_issue_pct": 213.2
   },
   {
    "company": "Highness Microelectronics Ltd.",
@@ -9314,11 +9314,11 @@
      "est": true
     }
    ],
-   "last_close": 242.25,
-   "close_date": "2026-09-28",
+   "last_close": 247.05,
+   "close_date": "2026-09-29",
    "avg_vol": 10800,
    "issue_px": 119.91,
-   "chg_from_issue_pct": 102.0
+   "chg_from_issue_pct": 106.0
   },
   {
    "company": "Amir Chand Jagdish Kumar (Exports) Ltd.",
@@ -9362,11 +9362,11 @@
      "est": false
     }
    ],
-   "last_close": 201.09,
-   "close_date": "2026-09-28",
-   "avg_vol": 716514,
+   "last_close": 202.08,
+   "close_date": "2026-09-29",
+   "avg_vol": 728170,
    "issue_px": 211.99,
-   "chg_from_issue_pct": -5.1
+   "chg_from_issue_pct": -4.7
   },
   {
    "company": "Powerica Ltd.",
@@ -9410,11 +9410,11 @@
      "est": false
     }
    ],
-   "last_close": 562.95,
-   "close_date": "2026-09-28",
-   "avg_vol": 157406,
+   "last_close": 599.75,
+   "close_date": "2026-09-29",
+   "avg_vol": 178771,
    "issue_px": 395.0,
-   "chg_from_issue_pct": 42.5
+   "chg_from_issue_pct": 51.8
   },
   {
    "company": "Sai Parenteral's Ltd.",
@@ -9458,11 +9458,11 @@
      "est": false
     }
    ],
-   "last_close": 509.95,
-   "close_date": "2026-09-28",
-   "avg_vol": 91133,
+   "last_close": 502.5,
+   "close_date": "2026-09-29",
+   "avg_vol": 90177,
    "issue_px": 392.01,
-   "chg_from_issue_pct": 30.1
+   "chg_from_issue_pct": 28.2
   },
   {
    "company": "Tipco Engineering India Ltd.",
@@ -9537,11 +9537,11 @@
      "est": true
     }
    ],
-   "last_close": 305.6,
-   "close_date": "2026-09-28",
-   "avg_vol": 216160,
+   "last_close": 320.85,
+   "close_date": "2026-09-29",
+   "avg_vol": 217333,
    "issue_px": 89.01,
-   "chg_from_issue_pct": 243.3
+   "chg_from_issue_pct": 260.5
   },
   {
    "company": "Central Mine Planning & Design Institute Ltd.",
@@ -9585,11 +9585,11 @@
      "est": false
     }
    ],
-   "last_close": 204.58,
-   "close_date": "2026-09-28",
-   "avg_vol": 1752575,
+   "last_close": 213.12,
+   "close_date": "2026-09-29",
+   "avg_vol": 1783799,
    "issue_px": 172.0,
-   "chg_from_issue_pct": 18.9
+   "chg_from_issue_pct": 23.9
   },
   {
    "company": "Novus Loyalty Ltd.",
@@ -9664,11 +9664,11 @@
      "est": true
     }
    ],
-   "last_close": 220.45,
-   "close_date": "2026-09-28",
-   "avg_vol": 115166,
+   "last_close": 215.85,
+   "close_date": "2026-09-29",
+   "avg_vol": 117733,
    "issue_px": 146.02,
-   "chg_from_issue_pct": 51.0
+   "chg_from_issue_pct": 47.8
   },
   {
    "company": "GSP Crop Science Ltd.",
@@ -9712,11 +9712,11 @@
      "est": false
     }
    ],
-   "last_close": 483.1,
-   "close_date": "2026-09-28",
-   "avg_vol": 404849,
+   "last_close": 469.45,
+   "close_date": "2026-09-29",
+   "avg_vol": 410007,
    "issue_px": 320.0,
-   "chg_from_issue_pct": 51.0
+   "chg_from_issue_pct": 46.7
   },
   {
    "company": "Raajmarg Infra Investment Trust",
@@ -9760,9 +9760,9 @@
      "est": false
     }
    ],
-   "last_close": 119.42,
-   "close_date": "2026-09-28",
-   "avg_vol": 262826,
+   "last_close": 120.38,
+   "close_date": "2026-09-29",
+   "avg_vol": 235025,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -9823,11 +9823,11 @@
      "est": true
     }
    ],
-   "last_close": 588.0,
-   "close_date": "2026-09-28",
-   "avg_vol": 19360,
+   "last_close": 600.0,
+   "close_date": "2026-09-29",
+   "avg_vol": 19320,
    "issue_px": 109.98,
-   "chg_from_issue_pct": 434.6
+   "chg_from_issue_pct": 445.6
   },
   {
    "company": "SEDEMAC Mechatronics Ltd.",
@@ -9871,11 +9871,11 @@
      "est": false
     }
    ],
-   "last_close": 3547.8,
-   "close_date": "2026-09-28",
-   "avg_vol": 210791,
+   "last_close": 3485.6,
+   "close_date": "2026-09-29",
+   "avg_vol": 220425,
    "issue_px": 1352.02,
-   "chg_from_issue_pct": 162.4
+   "chg_from_issue_pct": 157.8
   },
   {
    "company": "Striders Impex Ltd.",
@@ -9950,11 +9950,11 @@
      "est": true
     }
    ],
-   "last_close": 51.7,
-   "close_date": "2026-09-28",
-   "avg_vol": 45013,
+   "last_close": 50.95,
+   "close_date": "2026-09-29",
+   "avg_vol": 44266,
    "issue_px": 71.99,
-   "chg_from_issue_pct": -28.2
+   "chg_from_issue_pct": -29.2
   },
   {
    "company": "Omnitech Engineering Ltd.",
@@ -9998,11 +9998,11 @@
      "est": false
     }
    ],
-   "last_close": 525.85,
-   "close_date": "2026-09-28",
-   "avg_vol": 748355,
+   "last_close": 560.4,
+   "close_date": "2026-09-29",
+   "avg_vol": 762811,
    "issue_px": 227.0,
-   "chg_from_issue_pct": 131.7
+   "chg_from_issue_pct": 146.9
   },
   {
    "company": "Yaap Digital Ltd.",
@@ -10077,11 +10077,11 @@
      "est": true
     }
    ],
-   "last_close": 123.05,
-   "close_date": "2026-09-28",
-   "avg_vol": 15633,
+   "last_close": 121.05,
+   "close_date": "2026-09-29",
+   "avg_vol": 14733,
    "issue_px": 145.01,
-   "chg_from_issue_pct": -15.1
+   "chg_from_issue_pct": -16.5
   },
   {
    "company": "PNGS Reva Diamond Jewellery Ltd.",
@@ -10125,11 +10125,11 @@
      "est": false
     }
    ],
-   "last_close": 506.05,
-   "close_date": "2026-09-28",
-   "avg_vol": 183246,
+   "last_close": 513.4,
+   "close_date": "2026-09-29",
+   "avg_vol": 171396,
    "issue_px": 386.0,
-   "chg_from_issue_pct": 31.1
+   "chg_from_issue_pct": 33.0
   },
   {
    "company": "Mobilise App Lab Ltd.",
@@ -10204,11 +10204,11 @@
      "est": true
     }
    ],
-   "last_close": 103.45,
-   "close_date": "2026-09-25",
-   "avg_vol": 11466,
+   "last_close": 98.35,
+   "close_date": "2026-09-29",
+   "avg_vol": 11360,
    "issue_px": 80.02,
-   "chg_from_issue_pct": 29.3
+   "chg_from_issue_pct": 22.9
   },
   {
    "company": "Clean Max Enviro Energy Solutions Ltd.",
@@ -10252,11 +10252,11 @@
      "est": false
     }
    ],
-   "last_close": 1373.1,
-   "close_date": "2026-09-28",
-   "avg_vol": 821575,
+   "last_close": 1382.4,
+   "close_date": "2026-09-29",
+   "avg_vol": 880370,
    "issue_px": 1053.0,
-   "chg_from_issue_pct": 30.4
+   "chg_from_issue_pct": 31.3
   },
   {
    "company": "Accord Transformer & Switchgear Ltd.",
@@ -10331,11 +10331,11 @@
      "est": true
     }
    ],
-   "last_close": 87.16,
-   "close_date": "2026-09-28",
-   "avg_vol": 110400,
+   "last_close": 87.94,
+   "close_date": "2026-09-29",
+   "avg_vol": 115400,
    "issue_px": 46.02,
-   "chg_from_issue_pct": 89.4
+   "chg_from_issue_pct": 91.1
   },
   {
    "company": "Manilam Industries India Ltd.",
@@ -10458,11 +10458,11 @@
      "est": false
     }
    ],
-   "last_close": 112.2,
-   "close_date": "2026-09-28",
-   "avg_vol": 175057,
+   "last_close": 113.9,
+   "close_date": "2026-09-29",
+   "avg_vol": 181690,
    "issue_px": 79.0,
-   "chg_from_issue_pct": 42.0
+   "chg_from_issue_pct": 44.2
   },
   {
    "company": "Fractal Industries Ltd.",
@@ -10537,11 +10537,11 @@
      "est": true
     }
    ],
-   "last_close": 211.95,
-   "close_date": "2026-09-23",
-   "avg_vol": 7540,
+   "last_close": 229.0,
+   "close_date": "2026-09-29",
+   "avg_vol": 7140,
    "issue_px": 215.97,
-   "chg_from_issue_pct": -1.9
+   "chg_from_issue_pct": 6.0
   },
   {
    "company": "Marushika Technology Ltd.",
@@ -10743,11 +10743,11 @@
      "est": false
     }
    ],
-   "last_close": 162.49,
-   "close_date": "2026-09-28",
-   "avg_vol": 1602003,
+   "last_close": 159.7,
+   "close_date": "2026-09-29",
+   "avg_vol": 1621324,
    "issue_px": 129.0,
-   "chg_from_issue_pct": 26.0
+   "chg_from_issue_pct": 23.8
   },
   {
    "company": "Fractal Analytics Ltd.",
@@ -10791,11 +10791,11 @@
      "est": false
     }
    ],
-   "last_close": 742.1,
-   "close_date": "2026-09-28",
-   "avg_vol": 314582,
+   "last_close": 753.15,
+   "close_date": "2026-09-29",
+   "avg_vol": 333168,
    "issue_px": 900.0,
-   "chg_from_issue_pct": -17.5
+   "chg_from_issue_pct": -16.3
   },
   {
    "company": "Grover Jewells Ltd.",
@@ -10854,11 +10854,11 @@
      "est": true
     }
    ],
-   "last_close": 406.25,
-   "close_date": "2026-09-28",
-   "avg_vol": 6240,
+   "last_close": 426.55,
+   "close_date": "2026-09-29",
+   "avg_vol": 6400,
    "issue_px": 88.03,
-   "chg_from_issue_pct": 361.5
+   "chg_from_issue_pct": 384.6
   },
   {
    "company": "Brandman Retail Ltd.",
@@ -10933,9 +10933,9 @@
      "est": true
     }
    ],
-   "last_close": 163.0,
-   "close_date": "2026-09-28",
-   "avg_vol": 24533,
+   "last_close": 163.05,
+   "close_date": "2026-09-29",
+   "avg_vol": 24026,
    "issue_px": 176.01,
    "chg_from_issue_pct": -7.4
   },
@@ -10996,11 +10996,11 @@
      "est": true
     }
    ],
-   "last_close": 271.65,
-   "close_date": "2026-09-28",
-   "avg_vol": 51433,
+   "last_close": 274.0,
+   "close_date": "2026-09-29",
+   "avg_vol": 51833,
    "issue_px": 123.02,
-   "chg_from_issue_pct": 120.8
+   "chg_from_issue_pct": 122.7
   },
   {
    "company": "CKK Retail Mart Ltd.",
@@ -11059,11 +11059,11 @@
      "est": true
     }
    ],
-   "last_close": 170.0,
-   "close_date": "2026-09-28",
-   "avg_vol": 37920,
+   "last_close": 169.9,
+   "close_date": "2026-09-29",
+   "avg_vol": 39333,
    "issue_px": 163.0,
-   "chg_from_issue_pct": 4.3
+   "chg_from_issue_pct": 4.2
   },
   {
    "company": "Accretion Nutraveda Ltd.",
@@ -11122,11 +11122,11 @@
      "est": true
     }
    ],
-   "last_close": 269.8,
-   "close_date": "2026-09-28",
-   "avg_vol": 5700,
+   "last_close": 292.0,
+   "close_date": "2026-09-29",
+   "avg_vol": 5900,
    "issue_px": 129.04,
-   "chg_from_issue_pct": 109.1
+   "chg_from_issue_pct": 126.3
   },
   {
    "company": "Kasturi Metal Composite Ltd.",
@@ -11201,11 +11201,11 @@
      "est": true
     }
    ],
-   "last_close": 65.0,
-   "close_date": "2026-09-28",
-   "avg_vol": 25400,
+   "last_close": 71.99,
+   "close_date": "2026-09-29",
+   "avg_vol": 30800,
    "issue_px": 63.94,
-   "chg_from_issue_pct": 1.7
+   "chg_from_issue_pct": 12.6
   },
   {
    "company": "Hannah Joseph Hospital Ltd.",
@@ -11280,11 +11280,11 @@
      "est": true
     }
    ],
-   "last_close": 107.45,
-   "close_date": "2026-09-28",
-   "avg_vol": 16666,
+   "last_close": 104.05,
+   "close_date": "2026-09-29",
+   "avg_vol": 17000,
    "issue_px": 69.99,
-   "chg_from_issue_pct": 53.5
+   "chg_from_issue_pct": 48.7
   },
   {
    "company": "KRM Ayurveda Ltd.",
@@ -11359,11 +11359,11 @@
      "est": true
     }
    ],
-   "last_close": 299.3,
-   "close_date": "2026-09-28",
-   "avg_vol": 102800,
+   "last_close": 305.25,
+   "close_date": "2026-09-29",
+   "avg_vol": 99433,
    "issue_px": 135.02,
-   "chg_from_issue_pct": 121.7
+   "chg_from_issue_pct": 126.1
   },
   {
    "company": "Shadowfax Technologies Ltd.",
@@ -11407,11 +11407,11 @@
      "est": false
     }
    ],
-   "last_close": 274.05,
-   "close_date": "2026-09-28",
-   "avg_vol": 4569637,
+   "last_close": 280.85,
+   "close_date": "2026-09-29",
+   "avg_vol": 4504936,
    "issue_px": 124.0,
-   "chg_from_issue_pct": 121.0
+   "chg_from_issue_pct": 126.5
   },
   {
    "company": "Digilogic Systems Ltd.",
@@ -11486,11 +11486,11 @@
      "est": true
     }
    ],
-   "last_close": 179.3,
-   "close_date": "2026-09-28",
-   "avg_vol": 38800,
+   "last_close": 188.25,
+   "close_date": "2026-09-29",
+   "avg_vol": 39080,
    "issue_px": 104.02,
-   "chg_from_issue_pct": 72.4
+   "chg_from_issue_pct": 81.0
   },
   {
    "company": "GRE Renew Enertech Ltd.",
@@ -11565,11 +11565,11 @@
      "est": true
     }
    ],
-   "last_close": 228.1,
-   "close_date": "2026-09-28",
-   "avg_vol": 26000,
+   "last_close": 235.0,
+   "close_date": "2026-09-29",
+   "avg_vol": 26280,
    "issue_px": 104.99,
-   "chg_from_issue_pct": 117.3
+   "chg_from_issue_pct": 123.8
   },
   {
    "company": "Amagi Media Labs Ltd.",
@@ -11613,11 +11613,11 @@
      "est": false
     }
    ],
-   "last_close": 560.0,
-   "close_date": "2026-09-28",
-   "avg_vol": 616610,
+   "last_close": 563.85,
+   "close_date": "2026-09-29",
+   "avg_vol": 605958,
    "issue_px": 361.0,
-   "chg_from_issue_pct": 55.1
+   "chg_from_issue_pct": 56.2
   },
   {
    "company": "INDO SMC Ltd.",
@@ -11692,11 +11692,11 @@
      "est": true
     }
    ],
-   "last_close": 502.0,
-   "close_date": "2026-09-28",
-   "avg_vol": 60766,
+   "last_close": 499.85,
+   "close_date": "2026-09-29",
+   "avg_vol": 57533,
    "issue_px": 148.97,
-   "chg_from_issue_pct": 237.0
+   "chg_from_issue_pct": 235.5
   },
   {
    "company": "Defrail Technologies Ltd.",
@@ -11755,11 +11755,11 @@
      "est": true
     }
    ],
-   "last_close": 70.0,
-   "close_date": "2026-09-28",
-   "avg_vol": 7573,
+   "last_close": 71.0,
+   "close_date": "2026-09-29",
+   "avg_vol": 7520,
    "issue_px": 74.07,
-   "chg_from_issue_pct": -5.5
+   "chg_from_issue_pct": -4.1
   },
   {
    "company": "Avana Electrosystems Ltd.",
@@ -11818,11 +11818,11 @@
      "est": true
     }
    ],
-   "last_close": 131.4,
-   "close_date": "2026-09-28",
-   "avg_vol": 16133,
+   "last_close": 130.0,
+   "close_date": "2026-09-29",
+   "avg_vol": 16400,
    "issue_px": 58.99,
-   "chg_from_issue_pct": 122.7
+   "chg_from_issue_pct": 120.4
   },
   {
    "company": "Bharat Coking Coal Ltd.",
@@ -11866,11 +11866,11 @@
      "est": false
     }
    ],
-   "last_close": 32.51,
-   "close_date": "2026-09-28",
-   "avg_vol": 5177624,
+   "last_close": 33.5,
+   "close_date": "2026-09-29",
+   "avg_vol": 5458796,
    "issue_px": 23.0,
-   "chg_from_issue_pct": 41.3
+   "chg_from_issue_pct": 45.7
   },
   {
    "company": "Gabion Technologies India Ltd.",
@@ -11929,11 +11929,11 @@
      "est": true
     }
    ],
-   "last_close": 133.55,
-   "close_date": "2026-09-28",
-   "avg_vol": 104906,
+   "last_close": 135.75,
+   "close_date": "2026-09-29",
+   "avg_vol": 103626,
    "issue_px": 80.99,
-   "chg_from_issue_pct": 64.9
+   "chg_from_issue_pct": 67.6
   },
   {
    "company": "Modern Diagnostic & Research Centre Ltd.",
@@ -12008,11 +12008,11 @@
      "est": true
     }
    ],
-   "last_close": 70.01,
-   "close_date": "2026-09-28",
-   "avg_vol": 40266,
+   "last_close": 68.5,
+   "close_date": "2026-09-29",
+   "avg_vol": 40533,
    "issue_px": 89.96,
-   "chg_from_issue_pct": -22.2
+   "chg_from_issue_pct": -23.9
   },
   {
    "company": "E to E Transportation Infrastructure Ltd.",
@@ -12087,11 +12087,11 @@
      "est": true
     }
    ],
-   "last_close": 317.6,
-   "close_date": "2026-09-28",
-   "avg_vol": 181386,
+   "last_close": 322.15,
+   "close_date": "2026-09-29",
+   "avg_vol": 180320,
    "issue_px": 174.0,
-   "chg_from_issue_pct": 82.5
+   "chg_from_issue_pct": 85.1
   },
   {
    "company": "Admach Systems Ltd.",
@@ -12166,11 +12166,11 @@
      "est": true
     }
    ],
-   "last_close": 458.35,
-   "close_date": "2026-09-28",
+   "last_close": 481.25,
+   "close_date": "2026-09-29",
    "avg_vol": 6780,
    "issue_px": 238.84,
-   "chg_from_issue_pct": 91.9
+   "chg_from_issue_pct": 101.5
   },
   {
    "company": "Bai Kakaji Polymers Ltd.",
@@ -12229,11 +12229,11 @@
      "est": true
     }
    ],
-   "last_close": 298.05,
-   "close_date": "2026-09-28",
-   "avg_vol": 57520,
+   "last_close": 300.0,
+   "close_date": "2026-09-29",
+   "avg_vol": 57440,
    "issue_px": 186.01,
-   "chg_from_issue_pct": 60.2
+   "chg_from_issue_pct": 61.3
   },
   {
    "company": "Apollo Techno Industries Ltd.",
@@ -12292,11 +12292,11 @@
      "est": true
     }
    ],
-   "last_close": 89.85,
-   "close_date": "2026-09-28",
-   "avg_vol": 10766,
+   "last_close": 90.15,
+   "close_date": "2026-09-29",
+   "avg_vol": 10400,
    "issue_px": 130.0,
-   "chg_from_issue_pct": -30.9
+   "chg_from_issue_pct": -30.7
   },
   {
    "company": "Technichem Organics Ltd.",
@@ -12395,11 +12395,11 @@
      "est": false
     }
    ],
-   "last_close": 134.27,
-   "close_date": "2026-09-28",
-   "avg_vol": 193385,
+   "last_close": 133.17,
+   "close_date": "2026-09-29",
+   "avg_vol": 191515,
    "issue_px": 215.01,
-   "chg_from_issue_pct": -37.6
+   "chg_from_issue_pct": -38.1
   },
   {
    "company": "Anya Polytech & Fertilizers Ltd.",
@@ -12450,11 +12450,11 @@
      "est": false
     }
    ],
-   "last_close": 18.3,
-   "close_date": "2026-09-28",
-   "avg_vol": 31666,
+   "last_close": 17.55,
+   "close_date": "2026-09-29",
+   "avg_vol": 31833,
    "issue_px": 14.0,
-   "chg_from_issue_pct": 30.7
+   "chg_from_issue_pct": 25.4
   },
   {
    "company": "Unimech Aerospace & Manufacturing Ltd.",
@@ -12498,11 +12498,11 @@
      "est": false
     }
    ],
-   "last_close": 1616.2,
-   "close_date": "2026-09-28",
-   "avg_vol": 266379,
+   "last_close": 1675.0,
+   "close_date": "2026-09-29",
+   "avg_vol": 277298,
    "issue_px": 785.0,
-   "chg_from_issue_pct": 105.9
+   "chg_from_issue_pct": 113.4
   },
   {
    "company": "Ventive Hospitality Ltd.",
@@ -12546,11 +12546,11 @@
      "est": false
     }
    ],
-   "last_close": 558.9,
-   "close_date": "2026-09-28",
-   "avg_vol": 32500,
+   "last_close": 559.85,
+   "close_date": "2026-09-29",
+   "avg_vol": 32782,
    "issue_px": 643.0,
-   "chg_from_issue_pct": -13.1
+   "chg_from_issue_pct": -12.9
   }
  ]
 }
