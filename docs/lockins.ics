@@ -313,55 +313,6 @@ SUMMARY:🔓 Bench Mark Infotech Services Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/bench-mark-infotech-services-ipo/3212/
 END:VEVENT
 BEGIN:VEVENT
-UID:a-one-steels-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261029
-DTEND;VALUE=DATE:20261030
-SUMMARY:🔓 A-One Steels India Ltd. — 30D anchor unlock (1\,492\,580 sh\; ~Rs.60.5 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/a-one-steels-ipo/2000/
-END:VEVENT
-BEGIN:VEVENT
-UID:a-one-steels-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261228
-DTEND;VALUE=DATE:20261229
-SUMMARY:🔓 A-One Steels India Ltd. — 90D anchor unlock (1\,492\,580 sh\; ~Rs.60.5 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/a-one-steels-ipo/2000/
-END:VEVENT
-BEGIN:VEVENT
-UID:roopa-screen-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261029
-DTEND;VALUE=DATE:20261030
-SUMMARY:🔓 Roopa Screen Ltd. — 30D anchor unlock (416\,000 sh\; 3.76% of capital\; ~Rs.2.7 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/roopa-screen-ipo/2651/
-END:VEVENT
-BEGIN:VEVENT
-UID:roopa-screen-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261228
-DTEND;VALUE=DATE:20261229
-SUMMARY:🔓 Roopa Screen Ltd. — 90D anchor unlock (416\,000 sh\; 3.76% of capital\; ~Rs.2.7 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/roopa-screen-ipo/2651/
-END:VEVENT
-BEGIN:VEVENT
-UID:roopa-screen-ipo-PRE6M@unlockradar
-DTSTART;VALUE=DATE:20270323
-DTEND;VALUE=DATE:20270324
-SUMMARY:🔓 Roopa Screen Ltd. — 6M pre-IPO unlock
-DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/roopa-screen-ipo/2651/
-END:VEVENT
-BEGIN:VEVENT
-UID:moneyview-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261029
-DTEND;VALUE=DATE:20261030
-SUMMARY:🔓 Moneyview Ltd. — 30D anchor unlock (48\,162\,364 sh\; ~Rs.163.8 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/moneyview-ipo/2936/
-END:VEVENT
-BEGIN:VEVENT
-UID:moneyview-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261228
-DTEND;VALUE=DATE:20261229
-SUMMARY:🔓 Moneyview Ltd. — 90D anchor unlock (48\,162\,364 sh\; ~Rs.163.8 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/moneyview-ipo/2936/
-END:VEVENT
-BEGIN:VEVENT
 UID:skoffset-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261030
@@ -402,6 +353,55 @@ DTSTART;VALUE=DATE:20270324
 DTEND;VALUE=DATE:20270325
 SUMMARY:🔓 Sai Urja Indo Ventures Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/sai-urja-indo-ipo/2655/
+END:VEVENT
+BEGIN:VEVENT
+UID:a-one-steels-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:🔓 A-One Steels India Ltd. — 30D anchor unlock (1\,492\,580 sh\; ~Rs.60.5 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/a-one-steels-ipo/2000/
+END:VEVENT
+BEGIN:VEVENT
+UID:a-one-steels-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261227
+DTEND;VALUE=DATE:20261228
+SUMMARY:🔓 A-One Steels India Ltd. — 90D anchor unlock (1\,492\,580 sh\; ~Rs.60.5 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/a-one-steels-ipo/2000/
+END:VEVENT
+BEGIN:VEVENT
+UID:roopa-screen-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:🔓 Roopa Screen Ltd. — 30D anchor unlock (416\,000 sh\; 3.76% of capital\; ~Rs.2.7 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/roopa-screen-ipo/2651/
+END:VEVENT
+BEGIN:VEVENT
+UID:roopa-screen-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261227
+DTEND;VALUE=DATE:20261228
+SUMMARY:🔓 Roopa Screen Ltd. — 90D anchor unlock (416\,000 sh\; 3.76% of capital\; ~Rs.2.7 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/roopa-screen-ipo/2651/
+END:VEVENT
+BEGIN:VEVENT
+UID:roopa-screen-ipo-PRE6M@unlockradar
+DTSTART;VALUE=DATE:20270323
+DTEND;VALUE=DATE:20270324
+SUMMARY:🔓 Roopa Screen Ltd. — 6M pre-IPO unlock
+DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/roopa-screen-ipo/2651/
+END:VEVENT
+BEGIN:VEVENT
+UID:moneyview-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:🔓 Moneyview Ltd. — 30D anchor unlock (48\,162\,364 sh\; ~Rs.163.8 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/moneyview-ipo/2936/
+END:VEVENT
+BEGIN:VEVENT
+UID:moneyview-ipo-A90@unlockradar
+DTSTART;VALUE=DATE:20261227
+DTEND;VALUE=DATE:20261228
+SUMMARY:🔓 Moneyview Ltd. — 90D anchor unlock (48\,162\,364 sh\; ~Rs.163.8 cr)
+DESCRIPTION:https://www.chittorgarh.com/ipo/moneyview-ipo/2936/
 END:VEVENT
 BEGIN:VEVENT
 UID:armee-infotech-ipo-A30@unlockradar
@@ -1258,13 +1258,6 @@ SUMMARY:🔓 Lumino Industries Ltd. — 90D anchor unlock (12\,621\,950 sh\; ~Rs
 DESCRIPTION:https://www.chittorgarh.com/ipo/lumino-industries-ipo/2013/
 END:VEVENT
 BEGIN:VEVENT
-UID:kwick-forensic-solutions-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260930
-DTEND;VALUE=DATE:20261001
-SUMMARY:🔓 Kwick Forensic Solutions Ltd. — 30D anchor unlock (801\,600 sh\; 3.74% of capital\; ~Rs.7.2 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/kwick-forensic-solutions-ipo/2757/
-END:VEVENT
-BEGIN:VEVENT
 UID:kwick-forensic-solutions-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -1277,13 +1270,6 @@ DTSTART;VALUE=DATE:20270225
 DTEND;VALUE=DATE:20270226
 SUMMARY:🔓 Kwick Forensic Solutions Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/kwick-forensic-solutions-ipo/2757/
-END:VEVENT
-BEGIN:VEVENT
-UID:sumax-engineering-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20260930
-DTEND;VALUE=DATE:20261001
-SUMMARY:🔓 Sumax Engineering Ltd. — 30D anchor unlock (717\,600 sh\; 3.77% of capital\; ~Rs.7.2 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/sumax-engineering-ipo/2977/
 END:VEVENT
 BEGIN:VEVENT
 UID:sumax-engineering-ipo-A90@unlockradar

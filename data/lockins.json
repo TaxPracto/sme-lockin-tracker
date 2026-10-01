@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T12:34:38+05:30",
+ "generated_at": "2026-10-01T12:59:44+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -869,148 +869,6 @@
    ]
   },
   {
-   "company": "A-One Steels India Ltd.",
-   "slug": "a-one-steels-ipo",
-   "url": "https://www.chittorgarh.com/ipo/a-one-steels-ipo/2000/",
-   "category": "Mainboard",
-   "anchor_allotment_date": "2026-09-23",
-   "boa_date": "2026-09-23",
-   "d30": "2026-10-29",
-   "d90": "2026-12-28",
-   "anchor_shares": 2985160,
-   "anchor_investment_cr": 120.9,
-   "pct_of_issue": 22.99,
-   "isin": "",
-   "nse_symbol": "",
-   "bse_code": "",
-   "pre_shares": null,
-   "post_shares": null,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": null,
-   "anchor_names": [],
-   "lm": [],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-10-29",
-     "sh": 1492580,
-     "pct": null,
-     "val": 60.45,
-     "est": false
-    },
-    {
-     "t": "A90",
-     "d": "2026-12-28",
-     "sh": 1492580,
-     "pct": null,
-     "val": 60.45,
-     "est": false
-    }
-   ]
-  },
-  {
-   "company": "Roopa Screen Ltd.",
-   "slug": "roopa-screen-ipo",
-   "url": "https://www.chittorgarh.com/ipo/roopa-screen-ipo/2651/",
-   "category": "SME",
-   "anchor_allotment_date": "2026-09-23",
-   "boa_date": "2026-09-23",
-   "d30": "2026-10-29",
-   "d90": "2026-12-28",
-   "anchor_shares": 832000,
-   "anchor_investment_cr": 5.32,
-   "pct_of_issue": 21.71,
-   "isin": "",
-   "nse_symbol": "",
-   "bse_code": "",
-   "pre_shares": 8067500,
-   "post_shares": 11067500,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": "2026-10-01",
-   "anchor_names": [],
-   "lm": [
-    [
-     450,
-     "Seren Capital Pvt.Ltd"
-    ]
-   ],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-10-29",
-     "sh": 416000,
-     "pct": 3.76,
-     "val": 2.66,
-     "est": false
-    },
-    {
-     "t": "A90",
-     "d": "2026-12-28",
-     "sh": 416000,
-     "pct": 3.76,
-     "val": 2.66,
-     "est": false
-    },
-    {
-     "t": "PRE6M",
-     "d": "2027-03-23",
-     "sh": null,
-     "pct": null,
-     "val": null,
-     "est": true
-    }
-   ]
-  },
-  {
-   "company": "Moneyview Ltd.",
-   "slug": "moneyview-ipo",
-   "url": "https://www.chittorgarh.com/ipo/moneyview-ipo/2936/",
-   "category": "Mainboard",
-   "anchor_allotment_date": "2026-09-23",
-   "boa_date": "2026-09-23",
-   "d30": "2026-10-29",
-   "d90": "2026-12-28",
-   "anchor_shares": 96324729,
-   "anchor_investment_cr": 327.5,
-   "pct_of_issue": 23.08,
-   "isin": "",
-   "nse_symbol": "",
-   "bse_code": "",
-   "pre_shares": null,
-   "post_shares": null,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": null,
-   "anchor_names": [],
-   "lm": [],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-10-29",
-     "sh": 48162364,
-     "pct": null,
-     "val": 163.75,
-     "est": false
-    },
-    {
-     "t": "A90",
-     "d": "2026-12-28",
-     "sh": 48162364,
-     "pct": null,
-     "val": 163.75,
-     "est": false
-    }
-   ]
-  },
-  {
    "company": "S.K.Offset Ltd.",
    "slug": "skoffset-ipo",
    "url": "https://www.chittorgarh.com/ipo/skoffset-ipo/3150/",
@@ -1119,6 +977,148 @@
      "pct": null,
      "val": null,
      "est": true
+    }
+   ]
+  },
+  {
+   "company": "A-One Steels India Ltd.",
+   "slug": "a-one-steels-ipo",
+   "url": "https://www.chittorgarh.com/ipo/a-one-steels-ipo/2000/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-09-23",
+   "boa_date": "2026-09-23",
+   "d30": "2026-10-28",
+   "d90": "2026-12-27",
+   "anchor_shares": 2985160,
+   "anchor_investment_cr": 120.9,
+   "pct_of_issue": 22.98,
+   "isin": "INE0OTC01025",
+   "nse_symbol": "AONESTEELS",
+   "bse_code": 544952,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-28",
+     "sh": 1492580,
+     "pct": null,
+     "val": 60.45,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-12-27",
+     "sh": 1492580,
+     "pct": null,
+     "val": 60.45,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "Roopa Screen Ltd.",
+   "slug": "roopa-screen-ipo",
+   "url": "https://www.chittorgarh.com/ipo/roopa-screen-ipo/2651/",
+   "category": "SME",
+   "anchor_allotment_date": "2026-09-23",
+   "boa_date": "2026-09-23",
+   "d30": "2026-10-28",
+   "d90": "2026-12-27",
+   "anchor_shares": 832000,
+   "anchor_investment_cr": 5.32,
+   "pct_of_issue": 21.71,
+   "isin": "INE2BTZ01011",
+   "nse_symbol": "",
+   "bse_code": 544954,
+   "pre_shares": 8067500,
+   "post_shares": 11067500,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": "2026-10-01",
+   "anchor_names": [],
+   "lm": [
+    [
+     450,
+     "Seren Capital Pvt.Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-28",
+     "sh": 416000,
+     "pct": 3.76,
+     "val": 2.66,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-12-27",
+     "sh": 416000,
+     "pct": 3.76,
+     "val": 2.66,
+     "est": false
+    },
+    {
+     "t": "PRE6M",
+     "d": "2027-03-23",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": true
+    }
+   ]
+  },
+  {
+   "company": "Moneyview Ltd.",
+   "slug": "moneyview-ipo",
+   "url": "https://www.chittorgarh.com/ipo/moneyview-ipo/2936/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-09-23",
+   "boa_date": "2026-09-23",
+   "d30": "2026-10-28",
+   "d90": "2026-12-27",
+   "anchor_shares": 96324729,
+   "anchor_investment_cr": 327.5,
+   "pct_of_issue": 23.08,
+   "isin": "INE0PTN01011",
+   "nse_symbol": "MONEYVIEW",
+   "bse_code": 544953,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-28",
+     "sh": 48162364,
+     "pct": null,
+     "val": 163.75,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-12-27",
+     "sh": 48162364,
+     "pct": null,
+     "val": 163.75,
+     "est": false
     }
    ]
   },
