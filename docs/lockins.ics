@@ -1160,13 +1160,6 @@ SUMMARY:🔓 Ashutosh Fibre Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/ashutosh-fibre-ipo/2751/
 END:VEVENT
 BEGIN:VEVENT
-UID:purple-style-labs-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261002
-DTEND;VALUE=DATE:20261003
-SUMMARY:🔓 Purple Style Labs Ltd. — 30D anchor unlock (2\,660\,869 sh\; ~Rs.153.0 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/purple-style-labs-ipo/2622/
-END:VEVENT
-BEGIN:VEVENT
 UID:purple-style-labs-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
@@ -1174,25 +1167,11 @@ SUMMARY:🔓 Purple Style Labs Ltd. — 90D anchor unlock (2\,660\,869 sh\; ~Rs.
 DESCRIPTION:https://www.chittorgarh.com/ipo/purple-style-labs-ipo/2622/
 END:VEVENT
 BEGIN:VEVENT
-UID:esds-software-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261002
-DTEND;VALUE=DATE:20261003
-SUMMARY:🔓 ESDS Software Solution Ltd. — 30D anchor unlock (2\,517\,482 sh\; ~Rs.108.0 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/esds-software-ipo/1198/
-END:VEVENT
-BEGIN:VEVENT
 UID:esds-software-ipo-A90@unlockradar
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:🔓 ESDS Software Solution Ltd. — 90D anchor unlock (2\,517\,482 sh\; ~Rs.108.0 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/esds-software-ipo/1198/
-END:VEVENT
-BEGIN:VEVENT
-UID:priority-jewels-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261002
-DTEND;VALUE=DATE:20261003
-SUMMARY:🔓 Priority Jewels Ltd. — 30D anchor unlock (686\,250 sh\; ~Rs.13.7 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/priority-jewels-ipo/2435/
 END:VEVENT
 BEGIN:VEVENT
 UID:priority-jewels-ipo-A90@unlockradar
@@ -2236,13 +2215,6 @@ DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:🔓 Mehul Telecom Ltd. — 6M pre-IPO unlock
 DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/mehul-telecom-ipo/2536/
-END:VEVENT
-BEGIN:VEVENT
-UID:safety-controls-and-devices-ipo-PRE6M@unlockradar
-DTSTART;VALUE=DATE:20261002
-DTEND;VALUE=DATE:20261003
-SUMMARY:🔓 Safety Controls & Devices Ltd. — 6M pre-IPO unlock (4\,627\,896 sh\; 23.34% of capital)
-DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/safety-controls-and-devices-ipo/2328/
 END:VEVENT
 BEGIN:VEVENT
 UID:safety-controls-and-devices-ipo-PX1Y@unlockradar
