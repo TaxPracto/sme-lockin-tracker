@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T12:54:43+05:30",
+ "generated_at": "2026-10-06T13:21:08+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -387,106 +387,20 @@
    ]
   },
   {
-   "company": "Shah Investor's Home Ltd.",
-   "slug": "shah-investors-home-ipo",
-   "url": "https://www.chittorgarh.com/ipo/shah-investors-home-ipo/2657/",
-   "category": "Mainboard",
-   "anchor_allotment_date": "2026-09-25",
-   "boa_date": "2026-09-25",
-   "d30": "2026-10-31",
-   "d90": "2026-12-30",
-   "anchor_shares": 1619760,
-   "anchor_investment_cr": 27.05,
-   "pct_of_issue": 23.08,
-   "isin": "",
-   "nse_symbol": "",
-   "bse_code": "",
-   "pre_shares": null,
-   "post_shares": null,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": null,
-   "anchor_names": [],
-   "lm": [],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-10-31",
-     "sh": 809880,
-     "pct": null,
-     "val": 13.525,
-     "est": false
-    },
-    {
-     "t": "A90",
-     "d": "2026-12-30",
-     "sh": 809880,
-     "pct": null,
-     "val": 13.525,
-     "est": false
-    }
-   ]
-  },
-  {
-   "company": "SRIT India Ltd.",
-   "slug": "srit-india-ipo",
-   "url": "https://www.chittorgarh.com/ipo/srit-india-ipo/2858/",
-   "category": "Mainboard",
-   "anchor_allotment_date": "2026-09-25",
-   "boa_date": "2026-09-25",
-   "d30": "2026-10-31",
-   "d90": "2026-12-30",
-   "anchor_shares": 5040000,
-   "anchor_investment_cr": 65.52,
-   "pct_of_issue": 23.08,
-   "isin": "",
-   "nse_symbol": "",
-   "bse_code": "",
-   "pre_shares": null,
-   "post_shares": null,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": null,
-   "anchor_names": [],
-   "lm": [],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-10-31",
-     "sh": 2520000,
-     "pct": null,
-     "val": 32.76,
-     "est": false
-    },
-    {
-     "t": "A90",
-     "d": "2026-12-30",
-     "sh": 2520000,
-     "pct": null,
-     "val": 32.76,
-     "est": false
-    }
-   ]
-  },
-  {
    "company": "Acme Universal Safezone 9 Ltd.",
    "slug": "acme-universal-safezone-9-ipo",
    "url": "https://www.chittorgarh.com/ipo/acme-universal-safezone-9-ipo/3206/",
    "category": "SME",
    "anchor_allotment_date": "2026-09-25",
    "boa_date": "2026-09-25",
-   "d30": "2026-10-31",
-   "d90": "2026-12-30",
+   "d30": "2026-11-01",
+   "d90": "2026-12-31",
    "anchor_shares": 1438400,
    "anchor_investment_cr": 10.21,
    "pct_of_issue": 22.13,
-   "isin": "",
+   "isin": "INE1KUL01020",
    "nse_symbol": "",
-   "bse_code": "",
+   "bse_code": 544964,
    "pre_shares": 14032620,
    "post_shares": 19093420,
    "prom_pre_pct": null,
@@ -504,7 +418,7 @@
    "events": [
     {
      "t": "A30",
-     "d": "2026-10-31",
+     "d": "2026-11-01",
      "sh": 719200,
      "pct": 3.77,
      "val": 5.105,
@@ -512,7 +426,7 @@
     },
     {
      "t": "A90",
-     "d": "2026-12-30",
+     "d": "2026-12-31",
      "sh": 719200,
      "pct": 3.77,
      "val": 5.105,
@@ -637,6 +551,92 @@
      "pct": null,
      "val": null,
      "est": true
+    }
+   ]
+  },
+  {
+   "company": "Shah Investor's Home Ltd.",
+   "slug": "shah-investors-home-ipo",
+   "url": "https://www.chittorgarh.com/ipo/shah-investors-home-ipo/2657/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-09-25",
+   "boa_date": "2026-09-25",
+   "d30": "2026-10-30",
+   "d90": "2026-12-29",
+   "anchor_shares": 1619760,
+   "anchor_investment_cr": 27.05,
+   "pct_of_issue": 23.08,
+   "isin": "INE029N01014",
+   "nse_symbol": "SHAHINVEST",
+   "bse_code": 544963,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-30",
+     "sh": 809880,
+     "pct": null,
+     "val": 13.525,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-12-29",
+     "sh": 809880,
+     "pct": null,
+     "val": 13.525,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "SRIT India Ltd.",
+   "slug": "srit-india-ipo",
+   "url": "https://www.chittorgarh.com/ipo/srit-india-ipo/2858/",
+   "category": "Mainboard",
+   "anchor_allotment_date": "2026-09-25",
+   "boa_date": "2026-09-25",
+   "d30": "2026-10-30",
+   "d90": "2026-12-29",
+   "anchor_shares": 5040000,
+   "anchor_investment_cr": 65.52,
+   "pct_of_issue": 23.08,
+   "isin": "INE307K01028",
+   "nse_symbol": "SRIT",
+   "bse_code": 544965,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-30",
+     "sh": 2520000,
+     "pct": null,
+     "val": 32.76,
+     "est": false
+    },
+    {
+     "t": "A90",
+     "d": "2026-12-29",
+     "sh": 2520000,
+     "pct": null,
+     "val": 32.76,
+     "est": false
     }
    ]
   },
