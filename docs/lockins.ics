@@ -61,27 +61,6 @@ SUMMARY:🔓 Nityas Gems & Jewellery Ltd. — 90D anchor unlock
 DESCRIPTION:https://www.chittorgarh.com/ipo/nityas-gems-jewellery-ipo/2974/
 END:VEVENT
 BEGIN:VEVENT
-UID:eventions-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261106
-SUMMARY:🔓 Eventions Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/eventions-ipo/3006/
-END:VEVENT
-BEGIN:VEVENT
-UID:eventions-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20270104
-DTEND;VALUE=DATE:20270105
-SUMMARY:🔓 Eventions Ltd. — 90D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/eventions-ipo/3006/
-END:VEVENT
-BEGIN:VEVENT
-UID:eventions-ipo-PRE6M@unlockradar
-DTSTART;VALUE=DATE:20270329
-DTEND;VALUE=DATE:20270330
-SUMMARY:🔓 Eventions Ltd. — 6M pre-IPO unlock
-DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/eventions-ipo/3006/
-END:VEVENT
-BEGIN:VEVENT
 UID:everestims-technologies-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
@@ -111,8 +90,8 @@ DESCRIPTION:https://www.chittorgarh.com/ipo/black-opal-consultants-ipo/2798/
 END:VEVENT
 BEGIN:VEVENT
 UID:black-opal-consultants-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20270103
-DTEND;VALUE=DATE:20270104
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270105
 SUMMARY:🔓 Black Opal Consultants Ltd. — 90D anchor unlock (398\,100 sh\; 3.76% of capital\; ~Rs.7.8 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/black-opal-consultants-ipo/2798/
 END:VEVENT
@@ -125,15 +104,15 @@ DESCRIPTION:Estimated from SEBI ICDR rules. https://www.chittorgarh.com/ipo/blac
 END:VEVENT
 BEGIN:VEVENT
 UID:vans-electroengineerings-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261105
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
 SUMMARY:🔓 Vans Electroengineerings Ltd. — 30D anchor unlock (402\,000 sh\; 3.69% of capital\; ~Rs.4.7 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/vans-electroengineerings-ipo/3197/
 END:VEVENT
 BEGIN:VEVENT
 UID:vans-electroengineerings-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20270103
-DTEND;VALUE=DATE:20270104
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270103
 SUMMARY:🔓 Vans Electroengineerings Ltd. — 90D anchor unlock (402\,000 sh\; 3.69% of capital\; ~Rs.4.7 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/vans-electroengineerings-ipo/3197/
 END:VEVENT
@@ -1774,13 +1753,6 @@ DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20261011
 SUMMARY:🔓 Kusumgar Ltd. — 90D anchor unlock (2\,314\,438 sh\; ~Rs.97.0 cr)
 DESCRIPTION:https://www.chittorgarh.com/ipo/kusumgar-ipo/2670/
-END:VEVENT
-BEGIN:VEVENT
-UID:ic-electricals-ipo-A90@unlockradar
-DTSTART;VALUE=DATE:20261006
-DTEND;VALUE=DATE:20261007
-SUMMARY:🔓 IC Electricals Co.Ltd. — 90D anchor unlock (684\,000 sh\; 3.75% of capital\; ~Rs.6.8 cr)
-DESCRIPTION:https://www.chittorgarh.com/ipo/ic-electricals-ipo/2754/
 END:VEVENT
 BEGIN:VEVENT
 UID:ic-electricals-ipo-PRE6M@unlockradar

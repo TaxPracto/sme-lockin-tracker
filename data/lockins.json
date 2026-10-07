@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T13:21:08+05:30",
+ "generated_at": "2026-10-07T13:00:14+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -163,62 +163,6 @@
    ]
   },
   {
-   "company": "Eventions Ltd.",
-   "slug": "eventions-ipo",
-   "url": "https://www.chittorgarh.com/ipo/eventions-ipo/3006/",
-   "category": "SME",
-   "anchor_allotment_date": "2026-09-29",
-   "boa_date": "2026-09-29",
-   "d30": "2026-11-05",
-   "d90": "2027-01-04",
-   "anchor_shares": 0,
-   "anchor_investment_cr": 0.0,
-   "pct_of_issue": 0.0,
-   "isin": "",
-   "nse_symbol": "",
-   "bse_code": "",
-   "pre_shares": 8953509,
-   "post_shares": 12183909,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": "2026-10-08",
-   "anchor_names": [],
-   "lm": [
-    [
-     173,
-     "Corporate Professionals Capital Pvt.Ltd"
-    ]
-   ],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-11-05",
-     "sh": null,
-     "pct": null,
-     "val": null,
-     "est": false
-    },
-    {
-     "t": "A90",
-     "d": "2027-01-04",
-     "sh": null,
-     "pct": null,
-     "val": null,
-     "est": false
-    },
-    {
-     "t": "PRE6M",
-     "d": "2027-03-29",
-     "sh": null,
-     "pct": null,
-     "val": null,
-     "est": true
-    }
-   ]
-  },
-  {
    "company": "EverestIMS Technologies Ltd.",
    "slug": "everestims-technologies-ipo",
    "url": "https://www.chittorgarh.com/ipo/everestims-technologies-ipo/2063/",
@@ -282,13 +226,13 @@
    "anchor_allotment_date": "2026-09-28",
    "boa_date": "2026-09-28",
    "d30": "2026-11-04",
-   "d90": "2027-01-03",
+   "d90": "2027-01-04",
    "anchor_shares": 796200,
    "anchor_investment_cr": 15.69,
    "pct_of_issue": 22.16,
-   "isin": "",
+   "isin": "INE0M3101012",
    "nse_symbol": "",
-   "bse_code": "",
+   "bse_code": 544972,
    "pre_shares": 8339190,
    "post_shares": 10577190,
    "prom_pre_pct": null,
@@ -314,7 +258,7 @@
     },
     {
      "t": "A90",
-     "d": "2027-01-03",
+     "d": "2027-01-04",
      "sh": 398100,
      "pct": 3.76,
      "val": 7.845,
@@ -337,14 +281,14 @@
    "category": "SME",
    "anchor_allotment_date": "2026-09-28",
    "boa_date": "2026-09-28",
-   "d30": "2026-11-04",
-   "d90": "2027-01-03",
+   "d30": "2026-11-03",
+   "d90": "2027-01-02",
    "anchor_shares": 804000,
    "anchor_investment_cr": 9.49,
    "pct_of_issue": 21.82,
-   "isin": "",
+   "isin": "INE2SO401011",
    "nse_symbol": "",
-   "bse_code": "",
+   "bse_code": 544971,
    "pre_shares": 8000000,
    "post_shares": 10880000,
    "prom_pre_pct": null,
@@ -362,7 +306,7 @@
    "events": [
     {
      "t": "A30",
-     "d": "2026-11-04",
+     "d": "2026-11-03",
      "sh": 402000,
      "pct": 3.69,
      "val": 4.745,
@@ -370,7 +314,7 @@
     },
     {
      "t": "A90",
-     "d": "2027-01-03",
+     "d": "2027-01-02",
      "sh": 402000,
      "pct": 3.69,
      "val": 4.745,
