@@ -6,15 +6,15 @@ X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
 UID:tna-solutions-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20270105
-DTEND;VALUE=DATE:20270106
+DTSTART;VALUE=DATE:20270106
+DTEND;VALUE=DATE:20270107
 SUMMARY:🔓 TNA Solutions Ltd. — 30D anchor unlock
 DESCRIPTION:https://www.chittorgarh.com/ipo/tna-solutions-ipo/3216/
 END:VEVENT
 BEGIN:VEVENT
 UID:acme-india-industries-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20270105
-DTEND;VALUE=DATE:20270106
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270105
 SUMMARY:🔓 Acme India Industries Ltd. — 30D anchor unlock
 DESCRIPTION:https://www.chittorgarh.com/ipo/acme-india-industries-ipo/2748/
 END:VEVENT

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T13:16:52+05:30",
+ "generated_at": "2026-10-09T13:13:18+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -11,17 +11,17 @@
    "company": "TNA Solutions Ltd.",
    "slug": "tna-solutions-ipo",
    "url": "https://www.chittorgarh.com/ipo/tna-solutions-ipo/3216/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
-   "d30": "2027-01-05",
+   "d30": "2027-01-06",
    "d90": null,
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "",
+   "isin": "INE10VL01011",
    "nse_symbol": "",
-   "bse_code": "",
+   "bse_code": 544983,
    "pre_shares": 15000000,
    "post_shares": 20408000,
    "prom_pre_pct": null,
@@ -39,7 +39,7 @@
    "events": [
     {
      "t": "A30",
-     "d": "2027-01-05",
+     "d": "2027-01-06",
      "sh": null,
      "pct": null,
      "val": null,
@@ -56,17 +56,17 @@
    "company": "Acme India Industries Ltd.",
    "slug": "acme-india-industries-ipo",
    "url": "https://www.chittorgarh.com/ipo/acme-india-industries-ipo/2748/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
-   "d30": "2027-01-05",
+   "d30": "2027-01-04",
    "d90": null,
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "",
+   "isin": "INE162701010",
    "nse_symbol": "",
-   "bse_code": "",
+   "bse_code": 544981,
    "pre_shares": 18065000,
    "post_shares": 23472200,
    "prom_pre_pct": null,
@@ -84,7 +84,7 @@
    "events": [
     {
      "t": "A30",
-     "d": "2027-01-05",
+     "d": "2027-01-04",
      "sh": null,
      "pct": null,
      "val": null,
@@ -101,7 +101,7 @@
    "company": "Black Opal Consultants Ltd.",
    "slug": "black-opal-consultants-ipo",
    "url": "https://www.chittorgarh.com/ipo/black-opal-consultants-ipo/2798/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2027-01-04",
@@ -136,9 +136,9 @@
      "est": false
     }
    ],
-   "last_close": 206.3,
-   "close_date": "2026-10-07",
-   "avg_vol": 1556400,
+   "last_close": 196.0,
+   "close_date": "2026-10-08",
+   "avg_vol": 928800,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -146,7 +146,7 @@
    "company": "EverestIMS Technologies Ltd.",
    "slug": "everestims-technologies-ipo",
    "url": "https://www.chittorgarh.com/ipo/everestims-technologies-ipo/2063/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2027-01-04",
@@ -181,9 +181,9 @@
      "est": false
     }
    ],
-   "last_close": null,
-   "close_date": null,
-   "avg_vol": null,
+   "last_close": 119.7,
+   "close_date": "2026-10-08",
+   "avg_vol": 2942400,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -191,7 +191,7 @@
    "company": "Shree TNB Polymers Ltd.",
    "slug": "shree-tnb-polymers-ipo",
    "url": "https://www.chittorgarh.com/ipo/shree-tnb-polymers-ipo/3095/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2027-01-03",
@@ -226,9 +226,9 @@
      "est": false
     }
    ],
-   "last_close": null,
-   "close_date": null,
-   "avg_vol": null,
+   "last_close": 57.0,
+   "close_date": "2026-10-08",
+   "avg_vol": 1814000,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -236,7 +236,7 @@
    "company": "Vans Electroengineerings Ltd.",
    "slug": "vans-electroengineerings-ipo",
    "url": "https://www.chittorgarh.com/ipo/vans-electroengineerings-ipo/3197/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2027-01-02",
@@ -271,9 +271,9 @@
      "est": false
     }
    ],
-   "last_close": 235.4,
-   "close_date": "2026-10-07",
-   "avg_vol": 1038000,
+   "last_close": 247.15,
+   "close_date": "2026-10-08",
+   "avg_vol": 591600,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -281,7 +281,7 @@
    "company": "Acme Universal Safezone 9 Ltd.",
    "slug": "acme-universal-safezone-9-ipo",
    "url": "https://www.chittorgarh.com/ipo/acme-universal-safezone-9-ipo/3206/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-31",
@@ -316,9 +316,9 @@
      "est": false
     }
    ],
-   "last_close": 111.35,
-   "close_date": "2026-10-07",
-   "avg_vol": 1560800,
+   "last_close": 116.91,
+   "close_date": "2026-10-08",
+   "avg_vol": 1115200,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -326,7 +326,7 @@
    "company": "Sai Urja Indo Ventures Ltd.",
    "slug": "sai-urja-indo-ipo",
    "url": "https://www.chittorgarh.com/ipo/sai-urja-indo-ipo/2655/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-30",
@@ -361,9 +361,9 @@
      "est": false
     }
    ],
-   "last_close": 154.8,
-   "close_date": "2026-10-07",
-   "avg_vol": 464000,
+   "last_close": 157.1,
+   "close_date": "2026-10-08",
+   "avg_vol": 371100,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -371,7 +371,7 @@
    "company": "SRIT India Ltd.",
    "slug": "srit-india-ipo",
    "url": "https://www.chittorgarh.com/ipo/srit-india-ipo/2858/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-29",
@@ -401,9 +401,9 @@
      "est": false
     }
    ],
-   "last_close": 147.34,
-   "close_date": "2026-10-07",
-   "avg_vol": 2958015,
+   "last_close": 139.98,
+   "close_date": "2026-10-08",
+   "avg_vol": 2014132,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -411,7 +411,7 @@
    "company": "Shah Investor's Home Ltd.",
    "slug": "shah-investors-home-ipo",
    "url": "https://www.chittorgarh.com/ipo/shah-investors-home-ipo/2657/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-29",
@@ -441,9 +441,9 @@
      "est": false
     }
    ],
-   "last_close": 166.82,
-   "close_date": "2026-10-07",
-   "avg_vol": 1516458,
+   "last_close": 158.48,
+   "close_date": "2026-10-08",
+   "avg_vol": 1019895,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -451,7 +451,7 @@
    "company": "Himalayan Solar Ltd.",
    "slug": "himalayan-solar-ipo",
    "url": "https://www.chittorgarh.com/ipo/himalayan-solar-ipo/2716/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-29",
@@ -487,8 +487,8 @@
     }
    ],
    "last_close": 76.8,
-   "close_date": "2026-10-07",
-   "avg_vol": 1300000,
+   "close_date": "2026-10-08",
+   "avg_vol": 988200,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -496,7 +496,7 @@
    "company": "Bench Mark Infotech Services Ltd.",
    "slug": "bench-mark-infotech-services-ipo",
    "url": "https://www.chittorgarh.com/ipo/bench-mark-infotech-services-ipo/3212/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-28",
@@ -531,9 +531,9 @@
      "est": false
     }
    ],
-   "last_close": 127.3,
-   "close_date": "2026-10-07",
-   "avg_vol": 689600,
+   "last_close": 132.5,
+   "close_date": "2026-10-08",
+   "avg_vol": 688800,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -541,7 +541,7 @@
    "company": "Acevector Ltd.",
    "slug": "snapdeal-ipo",
    "url": "https://www.chittorgarh.com/ipo/snapdeal-ipo/2543/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-28",
@@ -571,9 +571,9 @@
      "est": false
     }
    ],
-   "last_close": 31.11,
-   "close_date": "2026-10-07",
-   "avg_vol": 65880000,
+   "last_close": 29.12,
+   "close_date": "2026-10-08",
+   "avg_vol": 68314068,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -581,7 +581,7 @@
    "company": "Orient Cables (India) Ltd.",
    "slug": "orient-cables-ipo",
    "url": "https://www.chittorgarh.com/ipo/orient-cables-ipo/2532/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-28",
@@ -611,9 +611,9 @@
      "est": false
     }
    ],
-   "last_close": 418.4,
-   "close_date": "2026-10-07",
-   "avg_vol": 14694828,
+   "last_close": 386.85,
+   "close_date": "2026-10-08",
+   "avg_vol": 11941052,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -621,7 +621,7 @@
    "company": "German Green Steel & Power Ltd.",
    "slug": "german-green-steel-and-power-ipo",
    "url": "https://www.chittorgarh.com/ipo/german-green-steel-and-power-ipo/2497/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-28",
@@ -651,9 +651,9 @@
      "est": false
     }
    ],
-   "last_close": 120.11,
-   "close_date": "2026-10-07",
-   "avg_vol": 11547528,
+   "last_close": 115.62,
+   "close_date": "2026-10-08",
+   "avg_vol": 9318932,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -661,7 +661,7 @@
    "company": "Runwal Enterprises Ltd.",
    "slug": "runwal-enterprises-ipo",
    "url": "https://www.chittorgarh.com/ipo/runwal-enterprises-ipo/2298/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-28",
@@ -691,9 +691,9 @@
      "est": false
     }
    ],
-   "last_close": 279.1,
-   "close_date": "2026-10-07",
-   "avg_vol": 5219988,
+   "last_close": 263.2,
+   "close_date": "2026-10-08",
+   "avg_vol": 4096087,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -701,7 +701,7 @@
    "company": "S.K.Offset Ltd.",
    "slug": "skoffset-ipo",
    "url": "https://www.chittorgarh.com/ipo/skoffset-ipo/3150/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-28",
@@ -736,9 +736,9 @@
      "est": false
     }
    ],
-   "last_close": 104.0,
-   "close_date": "2026-10-07",
-   "avg_vol": 215600,
+   "last_close": 103.5,
+   "close_date": "2026-10-08",
+   "avg_vol": 180000,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -746,7 +746,7 @@
    "company": "Moneyview Ltd.",
    "slug": "moneyview-ipo",
    "url": "https://www.chittorgarh.com/ipo/moneyview-ipo/2936/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-27",
@@ -776,9 +776,9 @@
      "est": false
     }
    ],
-   "last_close": 60.46,
-   "close_date": "2026-10-07",
-   "avg_vol": 362536613,
+   "last_close": 57.89,
+   "close_date": "2026-10-08",
+   "avg_vol": 365225217,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -786,7 +786,7 @@
    "company": "Roopa Screen Ltd.",
    "slug": "roopa-screen-ipo",
    "url": "https://www.chittorgarh.com/ipo/roopa-screen-ipo/2651/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-27",
@@ -821,9 +821,9 @@
      "est": false
     }
    ],
-   "last_close": 111.15,
-   "close_date": "2026-10-07",
-   "avg_vol": 669500,
+   "last_close": 105.6,
+   "close_date": "2026-10-08",
+   "avg_vol": 551600,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -831,7 +831,7 @@
    "company": "A-One Steels India Ltd.",
    "slug": "a-one-steels-ipo",
    "url": "https://www.chittorgarh.com/ipo/a-one-steels-ipo/2000/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-27",
@@ -861,9 +861,9 @@
      "est": false
     }
    ],
-   "last_close": 420.35,
-   "close_date": "2026-10-07",
-   "avg_vol": 4379171,
+   "last_close": 416.95,
+   "close_date": "2026-10-08",
+   "avg_vol": 3610504,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -871,7 +871,7 @@
    "company": "Unitec Fibres Ltd.",
    "slug": "unitec-fibres-ipo",
    "url": "https://www.chittorgarh.com/ipo/unitec-fibres-ipo/3171/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-27",
@@ -906,9 +906,9 @@
      "est": false
     }
    ],
-   "last_close": 94.38,
-   "close_date": "2026-10-07",
-   "avg_vol": 416640,
+   "last_close": 93.0,
+   "close_date": "2026-10-08",
+   "avg_vol": 358133,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -916,7 +916,7 @@
    "company": "Pooja Logistics Ltd.",
    "slug": "pooja-logistics-ipo",
    "url": "https://www.chittorgarh.com/ipo/pooja-logistics-ipo/2724/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-27",
@@ -951,9 +951,9 @@
      "est": false
     }
    ],
-   "last_close": 125.85,
-   "close_date": "2026-10-07",
-   "avg_vol": 481680,
+   "last_close": 132.1,
+   "close_date": "2026-10-08",
+   "avg_vol": 424200,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -961,7 +961,7 @@
    "company": "ArMee Infotech Ltd.",
    "slug": "armee-infotech-ipo",
    "url": "https://www.chittorgarh.com/ipo/armee-infotech-ipo/2140/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-27",
@@ -991,9 +991,9 @@
      "est": false
     }
    ],
-   "last_close": 269.95,
-   "close_date": "2026-10-07",
-   "avg_vol": 4585052,
+   "last_close": 256.4,
+   "close_date": "2026-10-08",
+   "avg_vol": 3908305,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1001,7 +1001,7 @@
    "company": "Adroit Industries (India) Ltd.",
    "slug": "adroit-industries-ipo",
    "url": "https://www.chittorgarh.com/ipo/adroit-industries-ipo/3007/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-26",
@@ -1031,9 +1031,9 @@
      "est": false
     }
    ],
-   "last_close": 223.63,
-   "close_date": "2026-10-07",
-   "avg_vol": 1650192,
+   "last_close": 212.45,
+   "close_date": "2026-10-08",
+   "avg_vol": 1416081,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1041,7 +1041,7 @@
    "company": "Elevate Campuses Ltd.",
    "slug": "elevate-campuses-ipo",
    "url": "https://www.chittorgarh.com/ipo/elevate-campuses-ipo/2647/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-26",
@@ -1071,9 +1071,9 @@
      "est": false
     }
    ],
-   "last_close": 350.0,
-   "close_date": "2026-10-07",
-   "avg_vol": 12477290,
+   "last_close": 329.85,
+   "close_date": "2026-10-08",
+   "avg_vol": 10685366,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1081,7 +1081,7 @@
    "company": "Swastika Infra Ltd.",
    "slug": "swastika-infra-ipo",
    "url": "https://www.chittorgarh.com/ipo/swastika-infra-ipo/2287/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-26",
@@ -1111,9 +1111,9 @@
      "est": false
     }
    ],
-   "last_close": 210.13,
-   "close_date": "2026-10-07",
-   "avg_vol": 1294498,
+   "last_close": 220.61,
+   "close_date": "2026-10-08",
+   "avg_vol": 1196332,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1121,7 +1121,7 @@
    "company": "Robokidz Eduventures Ltd.",
    "slug": "robokidz-eduventures-ipo",
    "url": "https://www.chittorgarh.com/ipo/robokidz-eduventures-ipo/3205/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-24",
@@ -1156,9 +1156,9 @@
      "est": false
     }
    ],
-   "last_close": 206.7,
-   "close_date": "2026-10-07",
-   "avg_vol": 574628,
+   "last_close": 198.6,
+   "close_date": "2026-10-08",
+   "avg_vol": 521700,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1166,7 +1166,7 @@
    "company": "Vivekanand Cotspin Ltd.",
    "slug": "vivekanand-cotspin-ipo",
    "url": "https://www.chittorgarh.com/ipo/vivekanand-cotspin-ipo/2062/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-24",
@@ -1201,9 +1201,9 @@
      "est": false
     }
    ],
-   "last_close": 45.11,
-   "close_date": "2026-10-07",
-   "avg_vol": 436714,
+   "last_close": 42.86,
+   "close_date": "2026-10-08",
+   "avg_vol": 385125,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1211,7 +1211,7 @@
    "company": "Himalaya Nutravedics India Ltd.",
    "slug": "himalaya-nutravedics-ipo",
    "url": "https://www.chittorgarh.com/ipo/himalaya-nutravedics-ipo/2970/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-23",
@@ -1246,9 +1246,9 @@
      "est": false
     }
    ],
-   "last_close": 129.2,
-   "close_date": "2026-10-07",
-   "avg_vol": 294800,
+   "last_close": 122.75,
+   "close_date": "2026-10-08",
+   "avg_vol": 256457,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1256,7 +1256,7 @@
    "company": "Varmora Granito Ltd.",
    "slug": "varmora-granito-ipo",
    "url": "https://www.chittorgarh.com/ipo/varmora-granito-ipo/2563/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-23",
@@ -1286,9 +1286,9 @@
      "est": false
     }
    ],
-   "last_close": 136.31,
-   "close_date": "2026-10-07",
-   "avg_vol": 11876953,
+   "last_close": 134.16,
+   "close_date": "2026-10-08",
+   "avg_vol": 10320197,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1296,7 +1296,7 @@
    "company": "FX Multitech Ltd.",
    "slug": "fx-multitech-ipo",
    "url": "https://www.chittorgarh.com/ipo/fx-multitech-ipo/2849/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-23",
@@ -1331,9 +1331,9 @@
      "est": false
     }
    ],
-   "last_close": 126.9,
-   "close_date": "2026-10-07",
-   "avg_vol": 395828,
+   "last_close": 132.5,
+   "close_date": "2026-10-08",
+   "avg_vol": 373350,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1341,7 +1341,7 @@
    "company": "Axiom Gas Engineering Ltd.",
    "slug": "axiom-gas-engineering-ipo",
    "url": "https://www.chittorgarh.com/ipo/axiom-gas-engineering-ipo/2193/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-22",
@@ -1376,9 +1376,9 @@
      "est": false
     }
    ],
-   "last_close": 42.0,
-   "close_date": "2026-10-07",
-   "avg_vol": 783000,
+   "last_close": 44.1,
+   "close_date": "2026-10-08",
+   "avg_vol": 729777,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1386,7 +1386,7 @@
    "company": "SpectraA Technology Solutions Ltd.",
    "slug": "spectraa-technology-solutions-ipo",
    "url": "https://www.chittorgarh.com/ipo/spectraa-technology-solutions-ipo/2950/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-21",
@@ -1421,9 +1421,9 @@
      "est": false
     }
    ],
-   "last_close": 272.55,
-   "close_date": "2026-10-07",
-   "avg_vol": 406800,
+   "last_close": 266.75,
+   "close_date": "2026-10-08",
+   "avg_vol": 380280,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1431,7 +1431,7 @@
    "company": "Kheria Autocomp Ltd.",
    "slug": "kheria-autocomp-ipo",
    "url": "https://www.chittorgarh.com/ipo/kheria-autocomp-ipo/2760/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-21",
@@ -1466,9 +1466,9 @@
      "est": false
     }
    ],
-   "last_close": 92.15,
-   "close_date": "2026-10-07",
-   "avg_vol": 270400,
+   "last_close": 92.6,
+   "close_date": "2026-10-08",
+   "avg_vol": 247560,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1476,7 +1476,7 @@
    "company": "National Stock Exchange of India Ltd.",
    "slug": "nse-ipo",
    "url": "https://www.chittorgarh.com/ipo/nse-ipo/3151/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-20",
@@ -1506,9 +1506,9 @@
      "est": false
     }
    ],
-   "last_close": 1743.35,
-   "close_date": "2026-10-07",
-   "avg_vol": 9094893,
+   "last_close": 1724.6,
+   "close_date": "2026-10-08",
+   "avg_vol": 8313328,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1516,7 +1516,7 @@
    "company": "Sonaselection India Ltd.",
    "slug": "sonaselection-india-ipo",
    "url": "https://www.chittorgarh.com/ipo/sonaselection-india-ipo/2805/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-20",
@@ -1546,9 +1546,9 @@
      "est": false
     }
    ],
-   "last_close": 98.78,
-   "close_date": "2026-10-07",
-   "avg_vol": 534921,
+   "last_close": 99.77,
+   "close_date": "2026-10-08",
+   "avg_vol": 494157,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1556,7 +1556,7 @@
    "company": "SS Retail Ltd.",
    "slug": "ss-retail-ipo",
    "url": "https://www.chittorgarh.com/ipo/ss-retail-ipo/2822/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-19",
@@ -1586,9 +1586,9 @@
      "est": false
     }
    ],
-   "last_close": 720.3,
-   "close_date": "2026-10-07",
-   "avg_vol": 20392365,
+   "last_close": 681.45,
+   "close_date": "2026-10-08",
+   "avg_vol": 18772601,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1596,7 +1596,7 @@
    "company": "Jindal Supreme (India) Ltd.",
    "slug": "jindal-supreme-ipo",
    "url": "https://www.chittorgarh.com/ipo/jindal-supreme-ipo/2803/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-19",
@@ -1626,9 +1626,9 @@
      "est": false
     }
    ],
-   "last_close": 195.42,
-   "close_date": "2026-10-07",
-   "avg_vol": 865594,
+   "last_close": 175.88,
+   "close_date": "2026-10-08",
+   "avg_vol": 1408891,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1636,7 +1636,7 @@
    "company": "Hero Motors Ltd.",
    "slug": "hero-motors-ipo",
    "url": "https://www.chittorgarh.com/ipo/hero-motors-ipo/2225/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-19",
@@ -1666,9 +1666,9 @@
      "est": false
     }
    ],
-   "last_close": 170.84,
-   "close_date": "2026-10-07",
-   "avg_vol": 105252665,
+   "last_close": 164.35,
+   "close_date": "2026-10-08",
+   "avg_vol": 97774442,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1676,7 +1676,7 @@
    "company": "Shakti Polytarp Ltd.",
    "slug": "shakti-polytarp-ipo",
    "url": "https://www.chittorgarh.com/ipo/shakti-polytarp-ipo/2427/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-17",
@@ -1711,9 +1711,9 @@
      "est": false
     }
    ],
-   "last_close": 52.0,
-   "close_date": "2026-10-07",
-   "avg_vol": 294909,
+   "last_close": 53.79,
+   "close_date": "2026-10-08",
+   "avg_vol": 289000,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1721,7 +1721,7 @@
    "company": "Injecto Polymers Ltd.",
    "slug": "injecto-polymers-ipo",
    "url": "https://www.chittorgarh.com/ipo/injecto-polymers-ipo/2625/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-16",
@@ -1756,9 +1756,9 @@
      "est": false
     }
    ],
-   "last_close": 95.68,
-   "close_date": "2026-10-07",
-   "avg_vol": 164100,
+   "last_close": 98.95,
+   "close_date": "2026-10-08",
+   "avg_vol": 152861,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1766,7 +1766,7 @@
    "company": "Century Business Media Ltd.",
    "slug": "century-business-media-ipo",
    "url": "https://www.chittorgarh.com/ipo/century-business-media-ipo/2604/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-16",
@@ -1801,9 +1801,9 @@
      "est": false
     }
    ],
-   "last_close": 69.03,
-   "close_date": "2026-10-07",
-   "avg_vol": 126666,
+   "last_close": 70.9,
+   "close_date": "2026-10-08",
+   "avg_vol": 118030,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1811,7 +1811,7 @@
    "company": "Manika Plastech Ltd.",
    "slug": "manika-plastech-ipo",
    "url": "https://www.chittorgarh.com/ipo/manika-plastech-ipo/2483/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-16",
@@ -1841,9 +1841,9 @@
      "est": false
     }
    ],
-   "last_close": 58.64,
-   "close_date": "2026-10-07",
-   "avg_vol": 3692369,
+   "last_close": 55.46,
+   "close_date": "2026-10-08",
+   "avg_vol": 3774325,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1851,7 +1851,7 @@
    "company": "Maharaja & Speedex India Ltd.",
    "slug": "maharaja-speedex-ipo",
    "url": "https://www.chittorgarh.com/ipo/maharaja-speedex-ipo/3089/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-16",
@@ -1886,9 +1886,9 @@
      "est": false
     }
    ],
-   "last_close": 253.95,
-   "close_date": "2026-10-07",
-   "avg_vol": 391153,
+   "last_close": 247.6,
+   "close_date": "2026-10-08",
+   "avg_vol": 369342,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1896,7 +1896,7 @@
    "company": "Om Galaxy Ltd.",
    "slug": "om-galaxy-ipo",
    "url": "https://www.chittorgarh.com/ipo/om-galaxy-ipo/2987/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-15",
@@ -1932,8 +1932,8 @@
     }
    ],
    "last_close": 89.95,
-   "close_date": "2026-10-07",
-   "avg_vol": 259446,
+   "close_date": "2026-10-08",
+   "avg_vol": 242171,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1941,7 +1941,7 @@
    "company": "Veegaland Developers Ltd.",
    "slug": "veegaland-developers-ipo",
    "url": "https://www.chittorgarh.com/ipo/veegaland-developers-ipo/2834/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-15",
@@ -1971,9 +1971,9 @@
      "est": false
     }
    ],
-   "last_close": 143.63,
-   "close_date": "2026-10-07",
-   "avg_vol": 1230513,
+   "last_close": 136.9,
+   "close_date": "2026-10-08",
+   "avg_vol": 1198446,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1981,7 +1981,7 @@
    "company": "Raksan Transformers Ltd.",
    "slug": "raksan-transformers-ipo",
    "url": "https://www.chittorgarh.com/ipo/raksan-transformers-ipo/2767/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-15",
@@ -2016,9 +2016,9 @@
      "est": false
     }
    ],
-   "last_close": 293.0,
-   "close_date": "2026-10-07",
-   "avg_vol": 407538,
+   "last_close": 285.65,
+   "close_date": "2026-10-08",
+   "avg_vol": 392342,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2026,7 +2026,7 @@
    "company": "Manipal Payment & Identity Solutions Ltd.",
    "slug": "manipal-payment-and-identity-solutions-ipo",
    "url": "https://www.chittorgarh.com/ipo/manipal-payment-and-identity-solutions-ipo/2524/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-14",
@@ -2056,9 +2056,9 @@
      "est": false
     }
    ],
-   "last_close": 377.6,
-   "close_date": "2026-10-07",
-   "avg_vol": 3493929,
+   "last_close": 361.8,
+   "close_date": "2026-10-08",
+   "avg_vol": 3336561,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2066,7 +2066,7 @@
    "company": "Amtech Esters Ltd.",
    "slug": "amtech-esters-ipo",
    "url": "https://www.chittorgarh.com/ipo/amtech-esters-ipo/2207/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-14",
@@ -2101,9 +2101,9 @@
      "est": false
     }
    ],
-   "last_close": 117.15,
-   "close_date": "2026-10-07",
-   "avg_vol": 257828,
+   "last_close": 109.8,
+   "close_date": "2026-10-08",
+   "avg_vol": 244800,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2111,7 +2111,7 @@
    "company": "LCC Projects Ltd.",
    "slug": "lcc-projects-ipo",
    "url": "https://www.chittorgarh.com/ipo/lcc-projects-ipo/2086/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-14",
@@ -2141,9 +2141,9 @@
      "est": false
     }
    ],
-   "last_close": 143.97,
-   "close_date": "2026-10-07",
-   "avg_vol": 4582259,
+   "last_close": 145.08,
+   "close_date": "2026-10-08",
+   "avg_vol": 4337660,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2151,7 +2151,7 @@
    "company": "Rentomojo Ltd.",
    "slug": "rentomojo-ipo",
    "url": "https://www.chittorgarh.com/ipo/rentomojo-ipo/2971/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-13",
@@ -2181,9 +2181,9 @@
      "est": false
     }
    ],
-   "last_close": 618.95,
-   "close_date": "2026-10-07",
-   "avg_vol": 10498778,
+   "last_close": 600.45,
+   "close_date": "2026-10-08",
+   "avg_vol": 10141168,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2191,7 +2191,7 @@
    "company": "Asset Reconstruction Co.(India) Ltd.",
    "slug": "asset-reconstruction-ipo",
    "url": "https://www.chittorgarh.com/ipo/asset-reconstruction-ipo/2558/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-13",
@@ -2221,9 +2221,9 @@
      "est": false
     }
    ],
-   "last_close": 160.31,
-   "close_date": "2026-10-07",
-   "avg_vol": 6875047,
+   "last_close": 156.18,
+   "close_date": "2026-10-08",
+   "avg_vol": 6828412,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2231,7 +2231,7 @@
    "company": "Steamhouse India Ltd.",
    "slug": "steamhouse-india-ipo",
    "url": "https://www.chittorgarh.com/ipo/steamhouse-india-ipo/2514/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-13",
@@ -2261,9 +2261,9 @@
      "est": false
     }
    ],
-   "last_close": 125.17,
-   "close_date": "2026-10-07",
-   "avg_vol": 15692840,
+   "last_close": 121.21,
+   "close_date": "2026-10-08",
+   "avg_vol": 15058951,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2271,7 +2271,7 @@
    "company": "Karamtara Engineering Ltd.",
    "slug": "karamtara-engineering-ipo",
    "url": "https://www.chittorgarh.com/ipo/karamtara-engineering-ipo/2020/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-13",
@@ -2301,9 +2301,9 @@
      "est": false
     }
    ],
-   "last_close": 416.65,
-   "close_date": "2026-10-07",
-   "avg_vol": 8106210,
+   "last_close": 393.8,
+   "close_date": "2026-10-08",
+   "avg_vol": 7834537,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2311,7 +2311,7 @@
    "company": "Kanohar Electricals Ltd.",
    "slug": "kanohar-electricals-ipo",
    "url": "https://www.chittorgarh.com/ipo/kanohar-electricals-ipo/2856/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-09",
@@ -2341,9 +2341,9 @@
      "est": false
     }
    ],
-   "last_close": 1091.05,
-   "close_date": "2026-10-07",
-   "avg_vol": 9703754,
+   "last_close": 1183.25,
+   "close_date": "2026-10-08",
+   "avg_vol": 10480299,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2351,7 +2351,7 @@
    "company": "Prasol Chemicals Ltd.",
    "slug": "prasol-chemicals-ipo",
    "url": "https://www.chittorgarh.com/ipo/prasol-chemicals-ipo/2775/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-09",
@@ -2381,9 +2381,9 @@
      "est": false
     }
    ],
-   "last_close": 878.9,
-   "close_date": "2026-10-07",
-   "avg_vol": 1075606,
+   "last_close": 878.2,
+   "close_date": "2026-10-08",
+   "avg_vol": 1043057,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2391,7 +2391,7 @@
    "company": "Glass Wall Systems (India) Ltd.",
    "slug": "glass-wall-systems-ipo",
    "url": "https://www.chittorgarh.com/ipo/glass-wall-systems-ipo/2594/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-09",
@@ -2421,9 +2421,9 @@
      "est": false
     }
    ],
-   "last_close": 262.25,
-   "close_date": "2026-10-07",
-   "avg_vol": 30821554,
+   "last_close": 267.1,
+   "close_date": "2026-10-08",
+   "avg_vol": 29476853,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2431,7 +2431,7 @@
    "company": "Pranav Constructions Ltd.",
    "slug": "pranav-constructions-ipo",
    "url": "https://www.chittorgarh.com/ipo/pranav-constructions-ipo/2127/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-09",
@@ -2461,9 +2461,9 @@
      "est": false
     }
    ],
-   "last_close": 94.22,
-   "close_date": "2026-10-07",
-   "avg_vol": 7236422,
+   "last_close": 95.73,
+   "close_date": "2026-10-08",
+   "avg_vol": 7204784,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2471,7 +2471,7 @@
    "company": "Qualiance International Ltd.",
    "slug": "qualiance-international-ipo",
    "url": "https://www.chittorgarh.com/ipo/qualiance-international-ipo/2979/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-07",
@@ -2506,9 +2506,9 @@
      "est": false
     }
    ],
-   "last_close": 175.45,
-   "close_date": "2026-10-07",
-   "avg_vol": 243411,
+   "last_close": 179.4,
+   "close_date": "2026-10-08",
+   "avg_vol": 232333,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2516,7 +2516,7 @@
    "company": "Deepa Jewellers Ltd.",
    "slug": "deepa-jewellers-ipo",
    "url": "https://www.chittorgarh.com/ipo/deepa-jewellers-ipo/2827/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-02",
@@ -2546,9 +2546,9 @@
      "est": false
     }
    ],
-   "last_close": 227.06,
-   "close_date": "2026-10-07",
-   "avg_vol": 8515365,
+   "last_close": 232.8,
+   "close_date": "2026-10-08",
+   "avg_vol": 8508391,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2556,7 +2556,7 @@
    "company": "Rays of Belief Ltd.",
    "slug": "rays-of-belief-ipo",
    "url": "https://www.chittorgarh.com/ipo/rays-of-belief-ipo/2787/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-02",
@@ -2586,9 +2586,9 @@
      "est": false
     }
    ],
-   "last_close": 229.68,
-   "close_date": "2026-10-07",
-   "avg_vol": 373409,
+   "last_close": 218.49,
+   "close_date": "2026-10-08",
+   "avg_vol": 377562,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2596,7 +2596,7 @@
    "company": "Ashutosh Fibre Ltd.",
    "slug": "ashutosh-fibre-ipo",
    "url": "https://www.chittorgarh.com/ipo/ashutosh-fibre-ipo/2751/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-02",
@@ -2631,9 +2631,9 @@
      "est": false
     }
    ],
-   "last_close": 143.15,
-   "close_date": "2026-10-07",
-   "avg_vol": 418685,
+   "last_close": 138.95,
+   "close_date": "2026-10-08",
+   "avg_vol": 401236,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2641,7 +2641,7 @@
    "company": "Shanti Inorganics Ltd.",
    "slug": "shanti-inorganics-ipo",
    "url": "https://www.chittorgarh.com/ipo/shanti-inorganics-ipo/2736/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-02",
@@ -2676,9 +2676,9 @@
      "est": false
     }
    ],
-   "last_close": 205.4,
-   "close_date": "2026-10-07",
-   "avg_vol": 395504,
+   "last_close": 202.45,
+   "close_date": "2026-10-08",
+   "avg_vol": 383272,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2686,7 +2686,7 @@
    "company": "Phychem Technologies Ltd.",
    "slug": "phychem-technologies-ipo",
    "url": "https://www.chittorgarh.com/ipo/phychem-technologies-ipo/2730/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-02",
@@ -2721,9 +2721,9 @@
      "est": false
     }
    ],
-   "last_close": 45.0,
-   "close_date": "2026-10-07",
-   "avg_vol": 101904,
+   "last_close": 46.0,
+   "close_date": "2026-10-08",
+   "avg_vol": 97363,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2731,7 +2731,7 @@
    "company": "Purple Style Labs Ltd.",
    "slug": "purple-style-labs-ipo",
    "url": "https://www.chittorgarh.com/ipo/purple-style-labs-ipo/2622/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-01",
@@ -2761,9 +2761,9 @@
      "est": false
     }
    ],
-   "last_close": 531.45,
-   "close_date": "2026-10-07",
-   "avg_vol": 642116,
+   "last_close": 528.55,
+   "close_date": "2026-10-08",
+   "avg_vol": 614977,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2771,7 +2771,7 @@
    "company": "Priority Jewels Ltd.",
    "slug": "priority-jewels-ipo",
    "url": "https://www.chittorgarh.com/ipo/priority-jewels-ipo/2435/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-01",
@@ -2801,9 +2801,9 @@
      "est": false
     }
    ],
-   "last_close": 319.55,
-   "close_date": "2026-10-07",
-   "avg_vol": 646753,
+   "last_close": 310.05,
+   "close_date": "2026-10-08",
+   "avg_vol": 646436,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2811,7 +2811,7 @@
    "company": "ESDS Software Solution Ltd.",
    "slug": "esds-software-ipo",
    "url": "https://www.chittorgarh.com/ipo/esds-software-ipo/1198/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-12-01",
@@ -2841,9 +2841,9 @@
      "est": false
     }
    ],
-   "last_close": 1359.0,
-   "close_date": "2026-10-07",
-   "avg_vol": 3241640,
+   "last_close": 1426.9,
+   "close_date": "2026-10-08",
+   "avg_vol": 3242494,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2851,7 +2851,7 @@
    "company": "Complete Sports & Management India Ltd.",
    "slug": "complete-sports-and-management-ipo",
    "url": "https://www.chittorgarh.com/ipo/complete-sports-and-management-ipo/3182/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-11-30",
@@ -2886,9 +2886,9 @@
      "est": false
     }
    ],
-   "last_close": 189.1,
-   "close_date": "2026-10-07",
-   "avg_vol": 232272,
+   "last_close": 178.0,
+   "close_date": "2026-10-08",
+   "avg_vol": 222956,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2896,7 +2896,7 @@
    "company": "Paluck Technologies Ltd.",
    "slug": "paluck-technologies-ipo",
    "url": "https://www.chittorgarh.com/ipo/paluck-technologies-ipo/2702/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-11-30",
@@ -2931,9 +2931,9 @@
      "est": false
     }
    ],
-   "last_close": 42.72,
-   "close_date": "2026-10-07",
-   "avg_vol": 327545,
+   "last_close": 41.3,
+   "close_date": "2026-10-08",
+   "avg_vol": 320478,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2941,7 +2941,7 @@
    "company": "Lumino Industries Ltd.",
    "slug": "lumino-industries-ipo",
    "url": "https://www.chittorgarh.com/ipo/lumino-industries-ipo/2013/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-11-30",
@@ -2971,9 +2971,9 @@
      "est": false
     }
    ],
-   "last_close": 108.9,
-   "close_date": "2026-10-07",
-   "avg_vol": 26812417,
+   "last_close": 101.95,
+   "close_date": "2026-10-08",
+   "avg_vol": 25904211,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2981,7 +2981,7 @@
    "company": "Kwick Forensic Solutions Ltd.",
    "slug": "kwick-forensic-solutions-ipo",
    "url": "https://www.chittorgarh.com/ipo/kwick-forensic-solutions-ipo/2757/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-11-29",
@@ -3016,9 +3016,9 @@
      "est": false
     }
    ],
-   "last_close": 213.25,
-   "close_date": "2026-10-07",
-   "avg_vol": 576765,
+   "last_close": 210.85,
+   "close_date": "2026-10-08",
+   "avg_vol": 560800,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3026,7 +3026,7 @@
    "company": "Sumax Engineering Ltd.",
    "slug": "sumax-engineering-ipo",
    "url": "https://www.chittorgarh.com/ipo/sumax-engineering-ipo/2977/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-11-29",
@@ -3061,9 +3061,9 @@
      "est": false
     }
    ],
-   "last_close": 105.35,
-   "close_date": "2026-10-07",
-   "avg_vol": 309050,
+   "last_close": 98.85,
+   "close_date": "2026-10-08",
+   "avg_vol": 303168,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3071,7 +3071,7 @@
    "company": "Madhur Knit Crafts Ltd.",
    "slug": "madhur-knit-ipo",
    "url": "https://www.chittorgarh.com/ipo/madhur-knit-ipo/2783/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-11-26",
@@ -3106,9 +3106,9 @@
      "est": false
     }
    ],
-   "last_close": 57.45,
-   "close_date": "2026-10-07",
-   "avg_vol": 174272,
+   "last_close": 57.4,
+   "close_date": "2026-10-08",
+   "avg_vol": 170139,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3116,7 +3116,7 @@
    "company": "Symbiotec Pharmalab Ltd.",
    "slug": "symbiotec-pharmalab-ipo",
    "url": "https://www.chittorgarh.com/ipo/symbiotec-pharmalab-ipo/2815/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-11-25",
@@ -3146,9 +3146,9 @@
      "est": false
     }
    ],
-   "last_close": 1135.6,
-   "close_date": "2026-10-07",
-   "avg_vol": 2980980,
+   "last_close": 1093.8,
+   "close_date": "2026-10-08",
+   "avg_vol": 2891137,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3156,7 +3156,7 @@
    "company": "Hy-Tech Engineers Ltd.",
    "slug": "hy-tech-engineers-ipo",
    "url": "https://www.chittorgarh.com/ipo/hy-tech-engineers-ipo/2591/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-11-25",
@@ -3186,9 +3186,9 @@
      "est": false
     }
    ],
-   "last_close": 87.94,
-   "close_date": "2026-10-07",
-   "avg_vol": 3018806,
+   "last_close": 97.27,
+   "close_date": "2026-10-08",
+   "avg_vol": 4732730,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3196,7 +3196,7 @@
    "company": "Skyways Air Services Ltd.",
    "slug": "skyways-air-ipo",
    "url": "https://www.chittorgarh.com/ipo/skyways-air-ipo/2510/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-11-25",
@@ -3226,9 +3226,9 @@
      "est": false
     }
    ],
-   "last_close": 114.72,
-   "close_date": "2026-10-07",
-   "avg_vol": 11889131,
+   "last_close": 111.14,
+   "close_date": "2026-10-08",
+   "avg_vol": 11512159,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3236,7 +3236,7 @@
    "company": "Augmont Enterprises Ltd.",
    "slug": "augmont-enterprises-ipo",
    "url": "https://www.chittorgarh.com/ipo/augmont-enterprises-ipo/2673/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-11-24",
@@ -3266,9 +3266,9 @@
      "est": false
     }
    ],
-   "last_close": 1216.2,
-   "close_date": "2026-10-07",
-   "avg_vol": 2115625,
+   "last_close": 1274.1,
+   "close_date": "2026-10-08",
+   "avg_vol": 2067176,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3276,7 +3276,7 @@
    "company": "Tempsens Instruments (India) Ltd.",
    "slug": "tempsens-instruments-india-ipo",
    "url": "https://www.chittorgarh.com/ipo/tempsens-instruments-india-ipo/2668/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-11-22",
@@ -3306,9 +3306,9 @@
      "est": false
     }
    ],
-   "last_close": 578.0,
-   "close_date": "2026-10-07",
-   "avg_vol": 5434009,
+   "last_close": 561.0,
+   "close_date": "2026-10-08",
+   "avg_vol": 5316194,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3316,7 +3316,7 @@
    "company": "Gaja Alternative Asset Management Ltd.",
    "slug": "gaja-alternative-asset-management-ipo",
    "url": "https://www.chittorgarh.com/ipo/gaja-alternative-asset-management-ipo/2527/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-11-21",
@@ -3346,9 +3346,9 @@
      "est": false
     }
    ],
-   "last_close": 146.35,
-   "close_date": "2026-10-07",
-   "avg_vol": 4338206,
+   "last_close": 145.1,
+   "close_date": "2026-10-08",
+   "avg_vol": 4204966,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3356,7 +3356,7 @@
    "company": "Shankesh Jewellers Ltd.",
    "slug": "shankesh-jewellers-ipo",
    "url": "https://www.chittorgarh.com/ipo/shankesh-jewellers-ipo/2663/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-11-18",
@@ -3386,9 +3386,9 @@
      "est": false
     }
    ],
-   "last_close": 96.51,
-   "close_date": "2026-10-07",
-   "avg_vol": 9602168,
+   "last_close": 91.84,
+   "close_date": "2026-10-08",
+   "avg_vol": 6513149,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3396,7 +3396,7 @@
    "company": "Sunshine Pictures Ltd.",
    "slug": "sunshine-pictures-ipo",
    "url": "https://www.chittorgarh.com/ipo/sunshine-pictures-ipo/2002/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-11-18",
@@ -3426,9 +3426,9 @@
      "est": false
     }
    ],
-   "last_close": 448.9,
-   "close_date": "2026-10-07",
-   "avg_vol": 2931713,
+   "last_close": 432.8,
+   "close_date": "2026-10-08",
+   "avg_vol": 2426994,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3436,7 +3436,7 @@
    "company": "ENS Enterprises Ltd.",
    "slug": "ens-enterprises-ipo",
    "url": "https://www.chittorgarh.com/ipo/ens-enterprises-ipo/2792/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-11-18",
@@ -3471,9 +3471,9 @@
      "est": false
     }
    ],
-   "last_close": 101.3,
-   "close_date": "2026-10-07",
-   "avg_vol": 58480,
+   "last_close": 101.25,
+   "close_date": "2026-10-08",
+   "avg_vol": 50960,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3481,7 +3481,7 @@
    "company": "Horizon Industrial Parks Ltd.",
    "slug": "horizon-industrial-parks-ipo",
    "url": "https://www.chittorgarh.com/ipo/horizon-industrial-parks-ipo/2826/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-11-17",
@@ -3511,9 +3511,9 @@
      "est": false
     }
    ],
-   "last_close": 50.15,
-   "close_date": "2026-10-07",
-   "avg_vol": 4537107,
+   "last_close": 48.47,
+   "close_date": "2026-10-08",
+   "avg_vol": 4320561,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3521,7 +3521,7 @@
    "company": "Lalithaa Jewellery Mart Ltd.",
    "slug": "lalithaa-jewellery-mart-ipo",
    "url": "https://www.chittorgarh.com/ipo/lalithaa-jewellery-mart-ipo/2469/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-11-17",
@@ -3551,9 +3551,9 @@
      "est": false
     }
    ],
-   "last_close": 394.85,
-   "close_date": "2026-10-07",
-   "avg_vol": 11044131,
+   "last_close": 376.45,
+   "close_date": "2026-10-08",
+   "avg_vol": 10253273,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3561,7 +3561,7 @@
    "company": "Technocrats Plasma Systems Ltd.",
    "slug": "technocrats-plasma-systems-ipo",
    "url": "https://www.chittorgarh.com/ipo/technocrats-plasma-systems-ipo/2840/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-11-17",
@@ -3596,9 +3596,9 @@
      "est": false
     }
    ],
-   "last_close": 433.0,
-   "close_date": "2026-10-07",
-   "avg_vol": 163433,
+   "last_close": 411.35,
+   "close_date": "2026-10-08",
+   "avg_vol": 153566,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3606,7 +3606,7 @@
    "company": "Credent Connect N Care Ltd.",
    "slug": "credent-connect-ipo",
    "url": "https://www.chittorgarh.com/ipo/credent-connect-ipo/2991/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-11-16",
@@ -3641,9 +3641,9 @@
      "est": false
     }
    ],
-   "last_close": 370.45,
-   "close_date": "2026-10-07",
-   "avg_vol": 115600,
+   "last_close": 368.05,
+   "close_date": "2026-10-08",
+   "avg_vol": 102320,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3651,7 +3651,7 @@
    "company": "Pramodini Medicare Ltd.",
    "slug": "pramodini-medicare-ipo",
    "url": "https://www.chittorgarh.com/ipo/pramodini-medicare-ipo/3088/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-11-15",
@@ -3686,9 +3686,9 @@
      "est": false
     }
    ],
-   "last_close": 115.2,
-   "close_date": "2026-10-07",
-   "avg_vol": 153040,
+   "last_close": 114.4,
+   "close_date": "2026-10-08",
+   "avg_vol": 148960,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3696,7 +3696,7 @@
    "company": "Behari Lal Engineering Ltd.",
    "slug": "behari-lal-engineering-ipo",
    "url": "https://www.chittorgarh.com/ipo/behari-lal-engineering-ipo/2659/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-11-14",
@@ -3726,9 +3726,9 @@
      "est": false
     }
    ],
-   "last_close": 514.4,
-   "close_date": "2026-10-07",
-   "avg_vol": 1899494,
+   "last_close": 486.95,
+   "close_date": "2026-10-08",
+   "avg_vol": 1836418,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3736,7 +3736,7 @@
    "company": "Shiprocket Ltd.",
    "slug": "shiprocket-ipo",
    "url": "https://www.chittorgarh.com/ipo/shiprocket-ipo/2450/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-11-14",
@@ -3766,9 +3766,9 @@
      "est": false
     }
    ],
-   "last_close": 133.11,
-   "close_date": "2026-10-07",
-   "avg_vol": 8604716,
+   "last_close": 129.1,
+   "close_date": "2026-10-08",
+   "avg_vol": 8338975,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3776,7 +3776,7 @@
    "company": "Milky Mist Dairy Food Ltd.",
    "slug": "milky-mist-dairy-food-ipo",
    "url": "https://www.chittorgarh.com/ipo/milky-mist-dairy-food-ipo/2541/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-11-11",
@@ -3806,9 +3806,9 @@
      "est": false
     }
    ],
-   "last_close": 335.15,
-   "close_date": "2026-10-07",
-   "avg_vol": 13754338,
+   "last_close": 328.35,
+   "close_date": "2026-10-08",
+   "avg_vol": 13295912,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3816,7 +3816,7 @@
    "company": "LAPL Automotive Ltd.",
    "slug": "lapl-automotive-ipo",
    "url": "https://www.chittorgarh.com/ipo/lapl-automotive-ipo/2300/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-11-11",
@@ -3851,9 +3851,9 @@
      "est": false
     }
    ],
-   "last_close": 113.7,
-   "close_date": "2026-10-07",
-   "avg_vol": 65640,
+   "last_close": 111.45,
+   "close_date": "2026-10-08",
+   "avg_vol": 62680,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3861,7 +3861,7 @@
    "company": "G.V.Electricals Ltd.",
    "slug": "gv-electricals-ipo",
    "url": "https://www.chittorgarh.com/ipo/gv-electricals-ipo/2985/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-11-11",
@@ -3896,9 +3896,9 @@
      "est": false
     }
    ],
-   "last_close": 129.5,
-   "close_date": "2026-10-07",
-   "avg_vol": 50900,
+   "last_close": 126.1,
+   "close_date": "2026-10-08",
+   "avg_vol": 46433,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3906,7 +3906,7 @@
    "company": "Dhoot Transmission Ltd.",
    "slug": "dhoot-transmission-ipo",
    "url": "https://www.chittorgarh.com/ipo/dhoot-transmission-ipo/2859/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-11-10",
@@ -3936,9 +3936,9 @@
      "est": false
     }
    ],
-   "last_close": 1463.7,
-   "close_date": "2026-10-07",
-   "avg_vol": 2620185,
+   "last_close": 1440.4,
+   "close_date": "2026-10-08",
+   "avg_vol": 2474917,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3946,7 +3946,7 @@
    "company": "Molbio Diagnostics Ltd.",
    "slug": "molbio-diagnostics-ipo",
    "url": "https://www.chittorgarh.com/ipo/molbio-diagnostics-ipo/2579/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-11-10",
@@ -3976,9 +3976,9 @@
      "est": false
     }
    ],
-   "last_close": 1544.7,
-   "close_date": "2026-10-07",
-   "avg_vol": 3244228,
+   "last_close": 1479.2,
+   "close_date": "2026-10-08",
+   "avg_vol": 3230261,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3986,7 +3986,7 @@
    "company": "Optimystix Entertainment India Ltd.",
    "slug": "optimystix-entertainment-ipo",
    "url": "https://www.chittorgarh.com/ipo/optimystix-entertainment-ipo/2755/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-11-10",
@@ -4021,9 +4021,9 @@
      "est": false
     }
    ],
-   "last_close": 136.9,
-   "close_date": "2026-10-07",
-   "avg_vol": 93920,
+   "last_close": 139.65,
+   "close_date": "2026-10-08",
+   "avg_vol": 92666,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4031,7 +4031,7 @@
    "company": "LEAP India Ltd.",
    "slug": "leap-india-ipo",
    "url": "https://www.chittorgarh.com/ipo/leap-india-ipo/2583/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-11-09",
@@ -4061,9 +4061,9 @@
      "est": false
     }
    ],
-   "last_close": 148.03,
-   "close_date": "2026-10-07",
-   "avg_vol": 3404969,
+   "last_close": 141.42,
+   "close_date": "2026-10-08",
+   "avg_vol": 3329584,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4071,7 +4071,7 @@
    "company": "Technocraft Ventures Ltd.",
    "slug": "technocraft-ventures-ipo",
    "url": "https://www.chittorgarh.com/ipo/technocraft-ventures-ipo/2565/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-11-09",
@@ -4101,9 +4101,9 @@
      "est": false
     }
    ],
-   "last_close": 486.4,
-   "close_date": "2026-10-07",
-   "avg_vol": 1442896,
+   "last_close": 472.5,
+   "close_date": "2026-10-08",
+   "avg_vol": 1442228,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4111,7 +4111,7 @@
    "company": "Ardee Industries Ltd.",
    "slug": "ardee-industries-ipo",
    "url": "https://www.chittorgarh.com/ipo/ardee-industries-ipo/2860/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-11-07",
@@ -4141,9 +4141,9 @@
      "est": false
     }
    ],
-   "last_close": 50.79,
-   "close_date": "2026-10-07",
-   "avg_vol": 4057440,
+   "last_close": 48.96,
+   "close_date": "2026-10-08",
+   "avg_vol": 3683021,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4151,7 +4151,7 @@
    "company": "Aegeus Technologies Ltd.",
    "slug": "aegeus-technologies-ipo",
    "url": "https://www.chittorgarh.com/ipo/aegeus-technologies-ipo/2837/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-11-05",
@@ -4186,9 +4186,9 @@
      "est": false
     }
    ],
-   "last_close": 121.55,
-   "close_date": "2026-10-07",
-   "avg_vol": 90960,
+   "last_close": 121.2,
+   "close_date": "2026-10-08",
+   "avg_vol": 71840,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4196,7 +4196,7 @@
    "company": "Anawil Wire & Engineering Ltd.",
    "slug": "anawil-wire-engieering-ipo",
    "url": "https://www.chittorgarh.com/ipo/anawil-wire-engieering-ipo/2618/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-11-04",
@@ -4231,9 +4231,9 @@
      "est": false
     }
    ],
-   "last_close": 433.2,
-   "close_date": "2026-10-07",
-   "avg_vol": 253426,
+   "last_close": 429.45,
+   "close_date": "2026-10-08",
+   "avg_vol": 251213,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4241,7 +4241,7 @@
    "company": "Fusion Klassroom Edutech Ltd.",
    "slug": "fusion-klassroom-edutech-ipo",
    "url": "https://www.chittorgarh.com/ipo/fusion-klassroom-edutech-ipo/2867/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-11-04",
@@ -4276,9 +4276,9 @@
      "est": false
     }
    ],
-   "last_close": 162.6,
-   "close_date": "2026-10-07",
-   "avg_vol": 10453,
+   "last_close": 157.25,
+   "close_date": "2026-10-08",
+   "avg_vol": 11013,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4286,7 +4286,7 @@
    "company": "Oneindig Technologies Ltd.",
    "slug": "oneindig-technologies-ipo",
    "url": "https://www.chittorgarh.com/ipo/oneindig-technologies-ipo/2646/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-11-02",
@@ -4331,7 +4331,7 @@
    "company": "Dhaval Packaging Ltd.",
    "slug": "dhaval-packaging-ipo",
    "url": "https://www.chittorgarh.com/ipo/dhaval-packaging-ipo/2835/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-11-01",
@@ -4366,9 +4366,9 @@
      "est": false
     }
    ],
-   "last_close": 118.6,
-   "close_date": "2026-10-07",
-   "avg_vol": 48160,
+   "last_close": 117.0,
+   "close_date": "2026-10-08",
+   "avg_vol": 47240,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4376,7 +4376,7 @@
    "company": "MV Electrosystems Ltd.",
    "slug": "mv-electrosystems-ipo",
    "url": "https://www.chittorgarh.com/ipo/mv-electrosystems-ipo/2800/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-11-01",
@@ -4406,9 +4406,9 @@
      "est": false
     }
    ],
-   "last_close": 920.25,
-   "close_date": "2026-10-07",
-   "avg_vol": 5603468,
+   "last_close": 879.25,
+   "close_date": "2026-10-08",
+   "avg_vol": 5642634,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4416,7 +4416,7 @@
    "company": "Juniper Green Energy Ltd.",
    "slug": "juniper-green-energy-ipo",
    "url": "https://www.chittorgarh.com/ipo/juniper-green-energy-ipo/2492/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-11-01",
@@ -4446,9 +4446,9 @@
      "est": false
     }
    ],
-   "last_close": 280.65,
-   "close_date": "2026-10-07",
-   "avg_vol": 1114257,
+   "last_close": 274.45,
+   "close_date": "2026-10-08",
+   "avg_vol": 1109134,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4456,7 +4456,7 @@
    "company": "H.R.Hygiene Products Ltd.",
    "slug": "hr-hygiene-products-ipo",
    "url": "https://www.chittorgarh.com/ipo/hr-hygiene-products-ipo/2713/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-11-01",
@@ -4491,9 +4491,9 @@
      "est": false
     }
    ],
-   "last_close": 61.0,
-   "close_date": "2026-10-06",
-   "avg_vol": 34826,
+   "last_close": 59.0,
+   "close_date": "2026-10-08",
+   "avg_vol": 31360,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4501,7 +4501,7 @@
    "company": "Manipal Health Enterprises Ltd.",
    "slug": "manipal-health-enterprises-ipo",
    "url": "https://www.chittorgarh.com/ipo/manipal-health-enterprises-ipo/2956/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-10-31",
@@ -4531,9 +4531,9 @@
      "est": false
     }
    ],
-   "last_close": 699.15,
-   "close_date": "2026-10-07",
-   "avg_vol": 1401271,
+   "last_close": 684.05,
+   "close_date": "2026-10-08",
+   "avg_vol": 1347136,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4541,7 +4541,7 @@
    "company": "Poojaa Precision Engg.Ltd.",
    "slug": "poojaa-precision-engg-ipo",
    "url": "https://www.chittorgarh.com/ipo/poojaa-precision-engg-ipo/2954/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-10-28",
@@ -4576,9 +4576,9 @@
      "est": false
     }
    ],
-   "last_close": 805.95,
-   "close_date": "2026-10-07",
-   "avg_vol": 107880,
+   "last_close": 784.45,
+   "close_date": "2026-10-08",
+   "avg_vol": 105080,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4586,7 +4586,7 @@
    "company": "Silverstorm Parks & Resorts Ltd.",
    "slug": "silverstorm-parks-resorts-ipo",
    "url": "https://www.chittorgarh.com/ipo/silverstorm-parks-resorts-ipo/2824/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-10-27",
@@ -4621,9 +4621,9 @@
      "est": false
     }
    ],
-   "last_close": 123.85,
-   "close_date": "2026-10-07",
-   "avg_vol": 63600,
+   "last_close": 123.9,
+   "close_date": "2026-10-08",
+   "avg_vol": 64066,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4631,7 +4631,7 @@
    "company": "Cube Highways Trust",
    "slug": "cube-highways-trust-invit",
    "url": "https://www.chittorgarh.com/ipo/cube-highways-trust-invit/3192/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-10-27",
@@ -4661,9 +4661,9 @@
      "est": false
     }
    ],
-   "last_close": 154.85,
-   "close_date": "2026-10-07",
-   "avg_vol": 686162,
+   "last_close": 154.17,
+   "close_date": "2026-10-08",
+   "avg_vol": 686869,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4671,7 +4671,7 @@
    "company": "Xtranet Technologies Ltd.",
    "slug": "xtranet-technologies-ipo",
    "url": "https://www.chittorgarh.com/ipo/xtranet-technologies-ipo/2688/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-10-25",
@@ -4701,9 +4701,9 @@
      "est": false
     }
    ],
-   "last_close": 302.65,
-   "close_date": "2026-10-07",
-   "avg_vol": 2790001,
+   "last_close": 287.6,
+   "close_date": "2026-10-08",
+   "avg_vol": 2791435,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4711,7 +4711,7 @@
    "company": "Indo-MIM Ltd.",
    "slug": "indo-mim-ipo",
    "url": "https://www.chittorgarh.com/ipo/indo-mim-ipo/2682/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-10-25",
@@ -4741,9 +4741,9 @@
      "est": false
     }
    ],
-   "last_close": 1359.9,
-   "close_date": "2026-10-07",
-   "avg_vol": 2200129,
+   "last_close": 1238.6,
+   "close_date": "2026-10-08",
+   "avg_vol": 2219898,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4751,7 +4751,7 @@
    "company": "Lohia Corp Ltd.",
    "slug": "lohia-corp-ipo",
    "url": "https://www.chittorgarh.com/ipo/lohia-corp-ipo/2574/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-10-25",
@@ -4781,9 +4781,9 @@
      "est": false
     }
    ],
-   "last_close": 624.1,
-   "close_date": "2026-10-07",
-   "avg_vol": 562052,
+   "last_close": 608.7,
+   "close_date": "2026-10-08",
+   "avg_vol": 545576,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4791,7 +4791,7 @@
    "company": "Shree Balaji (Mala) Textiles Ltd.",
    "slug": "shree-balaji-mala-ipo",
    "url": "https://www.chittorgarh.com/ipo/shree-balaji-mala-ipo/2706/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-10-25",
@@ -4836,7 +4836,7 @@
    "company": "Metalic Technoforge Ltd.",
    "slug": "metalic-technoforge-ipo",
    "url": "https://www.chittorgarh.com/ipo/metalic-technoforge-ipo/2993/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-10-22",
@@ -4871,9 +4871,9 @@
      "est": false
     }
    ],
-   "last_close": 169.45,
-   "close_date": "2026-10-07",
-   "avg_vol": 90506,
+   "last_close": 161.25,
+   "close_date": "2026-10-08",
+   "avg_vol": 92480,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4881,7 +4881,7 @@
    "company": "Caliber Mining & Logistics Ltd.",
    "slug": "caliber-mining-ipo",
    "url": "https://www.chittorgarh.com/ipo/caliber-mining-ipo/1999/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-10-20",
@@ -4911,9 +4911,9 @@
      "est": false
     }
    ],
-   "last_close": 531.95,
-   "close_date": "2026-10-07",
-   "avg_vol": 350926,
+   "last_close": 515.15,
+   "close_date": "2026-10-08",
+   "avg_vol": 352294,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4921,7 +4921,7 @@
    "company": "Sotefin Bharat Ltd.",
    "slug": "sotefin-bharat-ipo",
    "url": "https://www.chittorgarh.com/ipo/sotefin-bharat-ipo/2836/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-10-19",
@@ -4956,9 +4956,9 @@
      "est": false
     }
    ],
-   "last_close": 257.65,
-   "close_date": "2026-10-07",
-   "avg_vol": 43440,
+   "last_close": 260.3,
+   "close_date": "2026-10-08",
+   "avg_vol": 43500,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4966,7 +4966,7 @@
    "company": "SBI Funds Management Ltd.",
    "slug": "sbi-funds-management-ipo",
    "url": "https://www.chittorgarh.com/ipo/sbi-funds-management-ipo/2949/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-10-15",
@@ -4996,9 +4996,9 @@
      "est": false
     }
    ],
-   "last_close": 501.2,
-   "close_date": "2026-10-07",
-   "avg_vol": 1300334,
+   "last_close": 499.95,
+   "close_date": "2026-10-08",
+   "avg_vol": 1258406,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5006,7 +5006,7 @@
    "company": "Millworks Technologies Ltd.",
    "slug": "millworks-technologies-ipo",
    "url": "https://www.chittorgarh.com/ipo/millworks-technologies-ipo/2866/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-10-15",
@@ -5041,9 +5041,9 @@
      "est": false
     }
    ],
-   "last_close": 1175.25,
-   "close_date": "2026-10-07",
-   "avg_vol": 115066,
+   "last_close": 1119.75,
+   "close_date": "2026-10-08",
+   "avg_vol": 114093,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5051,7 +5051,7 @@
    "company": "Devson Catalyst Ltd.",
    "slug": "devson-catalyst-ipo",
    "url": "https://www.chittorgarh.com/ipo/devson-catalyst-ipo/2943/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-10-12",
@@ -5088,9 +5088,9 @@
      "est": false
     }
    ],
-   "last_close": 390.65,
-   "close_date": "2026-10-07",
-   "avg_vol": 60480,
+   "last_close": 372.4,
+   "close_date": "2026-10-08",
+   "avg_vol": 60040,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5098,7 +5098,7 @@
    "company": "Happy Steels Ltd.",
    "slug": "happy-steels-ipo",
    "url": "https://www.chittorgarh.com/ipo/happy-steels-ipo/2864/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-10-12",
@@ -5135,9 +5135,9 @@
      "est": false
     }
    ],
-   "last_close": 83.0,
-   "close_date": "2026-10-07",
-   "avg_vol": 85200,
+   "last_close": 78.1,
+   "close_date": "2026-10-08",
+   "avg_vol": 64866,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5145,7 +5145,7 @@
    "company": "Laser Power & Infra Ltd.",
    "slug": "laser-power-infra-ipo",
    "url": "https://www.chittorgarh.com/ipo/laser-power-infra-ipo/2654/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-10-12",
@@ -5175,9 +5175,9 @@
      "est": false
     }
    ],
-   "last_close": 284.55,
-   "close_date": "2026-10-07",
-   "avg_vol": 714009,
+   "last_close": 272.5,
+   "close_date": "2026-10-08",
+   "avg_vol": 695975,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5185,7 +5185,7 @@
    "company": "Kusumgar Ltd.",
    "slug": "kusumgar-ipo",
    "url": "https://www.chittorgarh.com/ipo/kusumgar-ipo/2670/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-10-10",
@@ -5215,9 +5215,9 @@
      "est": false
     }
    ],
-   "last_close": 626.85,
-   "close_date": "2026-10-07",
-   "avg_vol": 297621,
+   "last_close": 608.0,
+   "close_date": "2026-10-08",
+   "avg_vol": 302427,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5225,7 +5225,7 @@
    "company": "IC Electricals Co.Ltd.",
    "slug": "ic-electricals-ipo",
    "url": "https://www.chittorgarh.com/ipo/ic-electricals-ipo/2754/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-10-06",
@@ -5262,9 +5262,9 @@
      "est": false
     }
    ],
-   "last_close": 119.5,
-   "close_date": "2026-10-07",
-   "avg_vol": 61680,
+   "last_close": 117.65,
+   "close_date": "2026-10-08",
+   "avg_vol": 65080,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5272,7 +5272,7 @@
    "company": "Knack Packaging Ltd.",
    "slug": "knack-packaging-ipo",
    "url": "https://www.chittorgarh.com/ipo/knack-packaging-ipo/2592/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-10-03",
@@ -5302,9 +5302,9 @@
      "est": false
     }
    ],
-   "last_close": 211.86,
-   "close_date": "2026-10-07",
-   "avg_vol": 911826,
+   "last_close": 202.16,
+   "close_date": "2026-10-08",
+   "avg_vol": 934536,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5312,7 +5312,7 @@
    "company": "Kratikal Tech Ltd.",
    "slug": "kratikal-tech-ipo",
    "url": "https://www.chittorgarh.com/ipo/kratikal-tech-ipo/2844/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-10-01",
@@ -5349,9 +5349,9 @@
      "est": false
     }
    ],
-   "last_close": 171.0,
-   "close_date": "2026-10-07",
-   "avg_vol": 18633,
+   "last_close": 167.0,
+   "close_date": "2026-10-08",
+   "avg_vol": 17866,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5359,7 +5359,7 @@
    "company": "Sampark India Logistics Ltd.",
    "slug": "sampark-india-logistics-ipo",
    "url": "https://www.chittorgarh.com/ipo/sampark-india-logistics-ipo/2711/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-10-01",
@@ -5396,9 +5396,9 @@
      "est": false
     }
    ],
-   "last_close": 142.1,
-   "close_date": "2026-10-07",
-   "avg_vol": 51200,
+   "last_close": 132.0,
+   "close_date": "2026-10-08",
+   "avg_vol": 54133,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5406,7 +5406,7 @@
    "company": "Atharva Polyplast Ltd.",
    "slug": "atharva-polyplast-ipo",
    "url": "https://www.chittorgarh.com/ipo/atharva-polyplast-ipo/2653/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-10-01",
@@ -5443,9 +5443,9 @@
      "est": false
     }
    ],
-   "last_close": 131.45,
-   "close_date": "2026-10-07",
-   "avg_vol": 72733,
+   "last_close": 124.9,
+   "close_date": "2026-10-08",
+   "avg_vol": 69333,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5453,7 +5453,7 @@
    "company": "CSM Technologies Ltd.",
    "slug": "csm-technologies-ipo",
    "url": "https://www.chittorgarh.com/ipo/csm-technologies-ipo/2641/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-09-28",
@@ -5483,9 +5483,9 @@
      "est": false
     }
    ],
-   "last_close": 91.82,
-   "close_date": "2026-10-07",
-   "avg_vol": 877203,
+   "last_close": 90.35,
+   "close_date": "2026-10-08",
+   "avg_vol": 883293,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5493,7 +5493,7 @@
    "company": "Advit Jewels Ltd.",
    "slug": "advit-jewels-ipo",
    "url": "https://www.chittorgarh.com/ipo/advit-jewels-ipo/2686/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-09-27",
@@ -5523,9 +5523,9 @@
      "est": false
     }
    ],
-   "last_close": 360.8,
-   "close_date": "2026-10-07",
-   "avg_vol": 2281601,
+   "last_close": 356.55,
+   "close_date": "2026-10-08",
+   "avg_vol": 1974856,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5533,7 +5533,7 @@
    "company": "Shreedhar Spinners Ltd.",
    "slug": "shreedhar-spinners-ipo",
    "url": "https://www.chittorgarh.com/ipo/shreedhar-spinners-ipo/2851/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-09-26",
@@ -5570,9 +5570,9 @@
      "est": false
     }
    ],
-   "last_close": 161.4,
-   "close_date": "2026-10-07",
-   "avg_vol": 31133,
+   "last_close": 160.0,
+   "close_date": "2026-10-08",
+   "avg_vol": 31533,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5580,7 +5580,7 @@
    "company": "Waterways Leisure Tourism Ltd.",
    "slug": "cordelia-cruises-ipo",
    "url": "https://www.chittorgarh.com/ipo/cordelia-cruises-ipo/2474/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-09-26",
@@ -5620,7 +5620,7 @@
    "company": "Anubhav Plast Ltd.",
    "slug": "anubhav-plast-ipo",
    "url": "https://www.chittorgarh.com/ipo/anubhav-plast-ipo/2610/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-09-21",
@@ -5657,9 +5657,9 @@
      "est": false
     }
    ],
-   "last_close": 47.8,
-   "close_date": "2026-10-01",
-   "avg_vol": 17120,
+   "last_close": 45.2,
+   "close_date": "2026-10-08",
+   "avg_vol": 15466,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5667,7 +5667,7 @@
    "company": "Turtlemint Fintech Solutions Ltd.",
    "slug": "turtlemint-fintech-solutions-ipo",
    "url": "https://www.chittorgarh.com/ipo/turtlemint-fintech-solutions-ipo/2601/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-09-21",
@@ -5697,9 +5697,9 @@
      "est": false
     }
    ],
-   "last_close": 72.28,
-   "close_date": "2026-10-07",
-   "avg_vol": 2173530,
+   "last_close": 69.53,
+   "close_date": "2026-10-08",
+   "avg_vol": 2217787,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5707,7 +5707,7 @@
    "company": "Avience Biomedicals Ltd.",
    "slug": "avience-biomedicals-ipo",
    "url": "https://www.chittorgarh.com/ipo/avience-biomedicals-ipo/2184/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-09-21",
@@ -5744,9 +5744,9 @@
      "est": false
     }
    ],
-   "last_close": 287.4,
-   "close_date": "2026-10-07",
-   "avg_vol": 60100,
+   "last_close": 276.6,
+   "close_date": "2026-10-08",
+   "avg_vol": 59240,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5754,7 +5754,7 @@
    "company": "Clay Craft India Ltd.",
    "slug": "clay-craft-ipo",
    "url": "https://www.chittorgarh.com/ipo/clay-craft-ipo/2585/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-09-20",
@@ -5791,9 +5791,9 @@
      "est": false
     }
    ],
-   "last_close": 171.15,
-   "close_date": "2026-10-07",
-   "avg_vol": 50320,
+   "last_close": 161.3,
+   "close_date": "2026-10-08",
+   "avg_vol": 52180,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5801,7 +5801,7 @@
    "company": "Horizon Reclaim (India) Ltd.",
    "slug": "horizon-reclaim-india-ipo",
    "url": "https://www.chittorgarh.com/ipo/horizon-reclaim-india-ipo/2937/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-09-14",
@@ -5838,9 +5838,9 @@
      "est": false
     }
    ],
-   "last_close": 144.45,
-   "close_date": "2026-10-07",
-   "avg_vol": 79880,
+   "last_close": 148.35,
+   "close_date": "2026-10-08",
+   "avg_vol": 86080,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5848,7 +5848,7 @@
    "company": "Susan Electricals India Ltd.",
    "slug": "susan-electricals-india-ipo",
    "url": "https://www.chittorgarh.com/ipo/susan-electricals-india-ipo/2872/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-09-14",
@@ -5885,9 +5885,9 @@
      "est": false
     }
    ],
-   "last_close": 297.6,
-   "close_date": "2026-10-07",
-   "avg_vol": 94166,
+   "last_close": 292.85,
+   "close_date": "2026-10-08",
+   "avg_vol": 93833,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5895,7 +5895,7 @@
    "company": "Genxai Analytics Ltd.",
    "slug": "genxai-analytics-ipo",
    "url": "https://www.chittorgarh.com/ipo/genxai-analytics-ipo/2801/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-09-07",
@@ -5932,9 +5932,9 @@
      "est": false
     }
    ],
-   "last_close": 89.0,
-   "close_date": "2026-10-07",
-   "avg_vol": 58040,
+   "last_close": 85.5,
+   "close_date": "2026-10-08",
+   "avg_vol": 58680,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5942,7 +5942,7 @@
    "company": "Hexagon Nutrition Ltd.",
    "slug": "hexagon-nutrition-ipo",
    "url": "https://www.chittorgarh.com/ipo/hexagon-nutrition-ipo/2658/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-09-07",
@@ -5972,9 +5972,9 @@
      "est": false
     }
    ],
-   "last_close": 71.97,
-   "close_date": "2026-10-07",
-   "avg_vol": 337520,
+   "last_close": 68.59,
+   "close_date": "2026-10-08",
+   "avg_vol": 341900,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5982,7 +5982,7 @@
    "company": "CMR Green Technologies Ltd.",
    "slug": "cmr-green-technologies-ipo",
    "url": "https://www.chittorgarh.com/ipo/cmr-green-technologies-ipo/2586/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-09-05",
@@ -6012,9 +6012,9 @@
      "est": false
     }
    ],
-   "last_close": 224.99,
-   "close_date": "2026-10-07",
-   "avg_vol": 501096,
+   "last_close": 217.22,
+   "close_date": "2026-10-08",
+   "avg_vol": 489405,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6022,7 +6022,7 @@
    "company": "Merritronix Ltd.",
    "slug": "merritronix-ipo",
    "url": "https://www.chittorgarh.com/ipo/merritronix-ipo/2961/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-09-01",
@@ -6059,9 +6059,9 @@
      "est": false
     }
    ],
-   "last_close": 412.3,
-   "close_date": "2026-10-07",
-   "avg_vol": 161966,
+   "last_close": 396.5,
+   "close_date": "2026-10-08",
+   "avg_vol": 161800,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6069,7 +6069,7 @@
    "company": "Rajnandini Fashion India Ltd.",
    "slug": "rajnandini-fashion-india-ipo",
    "url": "https://www.chittorgarh.com/ipo/rajnandini-fashion-india-ipo/2729/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-08-29",
@@ -6106,9 +6106,9 @@
      "est": false
     }
    ],
-   "last_close": 27.49,
-   "close_date": "2026-10-06",
-   "avg_vol": 19600,
+   "last_close": 25.6,
+   "close_date": "2026-10-08",
+   "avg_vol": 19133,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6116,7 +6116,7 @@
    "company": "M R Maniveni Foods Ltd.",
    "slug": "m-r-maniveni-ipo",
    "url": "https://www.chittorgarh.com/ipo/m-r-maniveni-ipo/2627/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-08-24",
@@ -6153,9 +6153,9 @@
      "est": false
     }
    ],
-   "last_close": 24.85,
-   "close_date": "2026-10-06",
-   "avg_vol": 32666,
+   "last_close": 24.0,
+   "close_date": "2026-10-08",
+   "avg_vol": 32600,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6163,7 +6163,7 @@
    "company": "Q-Line Biotech Ltd.",
    "slug": "q-line-biotec-ipo",
    "url": "https://www.chittorgarh.com/ipo/q-line-biotec-ipo/2745/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-08-24",
@@ -6200,9 +6200,9 @@
      "est": false
     }
    ],
-   "last_close": 684.35,
-   "close_date": "2026-10-07",
-   "avg_vol": 110653,
+   "last_close": 655.75,
+   "close_date": "2026-10-08",
+   "avg_vol": 111546,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6210,7 +6210,7 @@
    "company": "Vegorama Punjabi Angithi Ltd.",
    "slug": "vegorama-punjabi-angithi-ipo",
    "url": "https://www.chittorgarh.com/ipo/vegorama-punjabi-angithi-ipo/2477/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-08-22",
@@ -6247,9 +6247,9 @@
      "est": false
     }
    ],
-   "last_close": 251.9,
-   "close_date": "2026-10-07",
-   "avg_vol": 29546,
+   "last_close": 248.0,
+   "close_date": "2026-10-08",
+   "avg_vol": 29013,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6257,7 +6257,7 @@
    "company": "Teamtech Formwork Solutions Ltd.",
    "slug": "teamtech-formwork-solutions-ipo",
    "url": "https://www.chittorgarh.com/ipo/teamtech-formwork-solutions-ipo/2964/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-08-20",
@@ -6294,9 +6294,9 @@
      "est": false
     }
    ],
-   "last_close": 146.3,
-   "close_date": "2026-10-07",
-   "avg_vol": 39000,
+   "last_close": 142.1,
+   "close_date": "2026-10-08",
+   "avg_vol": 38133,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6304,7 +6304,7 @@
    "company": "Goldline Pharmaceutical Ltd.",
    "slug": "goldline-pharmaceutical-ipo",
    "url": "https://www.chittorgarh.com/ipo/goldline-pharmaceutical-ipo/2773/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-08-13",
@@ -6351,7 +6351,7 @@
    "company": "Simca Advertising Ltd.",
    "slug": "simca-advertising-ipo",
    "url": "https://www.chittorgarh.com/ipo/simca-advertising-ipo/2512/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-08-11",
@@ -6388,9 +6388,9 @@
      "est": false
     }
    ],
-   "last_close": 321.95,
-   "close_date": "2026-10-07",
-   "avg_vol": 28120,
+   "last_close": 338.0,
+   "close_date": "2026-10-08",
+   "avg_vol": 27800,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6398,7 +6398,7 @@
    "company": "Bagmane Prime Office REIT",
    "slug": "bagmane-reit",
    "url": "https://www.chittorgarh.com/ipo/bagmane-reit/3090/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-08-10",
@@ -6428,9 +6428,9 @@
      "est": false
     }
    ],
-   "last_close": 106.62,
-   "close_date": "2026-10-07",
-   "avg_vol": 1276683,
+   "last_close": 106.52,
+   "close_date": "2026-10-08",
+   "avg_vol": 1277101,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6438,7 +6438,7 @@
    "company": "Recode Studios Ltd.",
    "slug": "recode-studios-ipo",
    "url": "https://www.chittorgarh.com/ipo/recode-studios-ipo/2825/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-08-06",
@@ -6475,9 +6475,9 @@
      "est": false
     }
    ],
-   "last_close": 432.05,
-   "close_date": "2026-10-07",
-   "avg_vol": 21760,
+   "last_close": 425.0,
+   "close_date": "2026-10-08",
+   "avg_vol": 22400,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6485,7 +6485,7 @@
    "company": "OnEMI Technology Solutions Ltd.",
    "slug": "onemi-technology-ipo",
    "url": "https://www.chittorgarh.com/ipo/onemi-technology-ipo/2576/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-08-03",
@@ -6515,9 +6515,9 @@
      "est": false
     }
    ],
-   "last_close": 377.35,
-   "close_date": "2026-10-07",
-   "avg_vol": 1717828,
+   "last_close": 372.15,
+   "close_date": "2026-10-08",
+   "avg_vol": 1726454,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6525,7 +6525,7 @@
    "company": "Adisoft Technologies Ltd.",
    "slug": "adisoft-technologies-ipo",
    "url": "https://www.chittorgarh.com/ipo/adisoft-technologies-ipo/2788/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-07-27",
@@ -6562,9 +6562,9 @@
      "est": false
     }
    ],
-   "last_close": 306.85,
-   "close_date": "2026-10-07",
-   "avg_vol": 127840,
+   "last_close": 285.6,
+   "close_date": "2026-10-08",
+   "avg_vol": 136026,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6572,7 +6572,7 @@
    "company": "Mehul Telecom Ltd.",
    "slug": "mehul-telecom-ipo",
    "url": "https://www.chittorgarh.com/ipo/mehul-telecom-ipo/2536/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-07-21",
@@ -6609,9 +6609,9 @@
      "est": false
     }
    ],
-   "last_close": 135.85,
-   "close_date": "2026-10-07",
-   "avg_vol": 39920,
+   "last_close": 121.9,
+   "close_date": "2026-10-08",
+   "avg_vol": 41000,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6619,7 +6619,7 @@
    "company": "Om Power Transmission Ltd.",
    "slug": "om-power-transmission-ipo",
    "url": "https://www.chittorgarh.com/ipo/om-power-transmission-ipo/2676/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-07-13",
@@ -6649,9 +6649,9 @@
      "est": false
     }
    ],
-   "last_close": 165.75,
-   "close_date": "2026-10-07",
-   "avg_vol": 126728,
+   "last_close": 166.11,
+   "close_date": "2026-10-08",
+   "avg_vol": 136783,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6659,7 +6659,7 @@
    "company": "Safety Controls & Devices Ltd.",
    "slug": "safety-controls-and-devices-ipo",
    "url": "https://www.chittorgarh.com/ipo/safety-controls-and-devices-ipo/2328/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-07-08",
@@ -6696,9 +6696,9 @@
      "est": false
     }
    ],
-   "last_close": 77.16,
-   "close_date": "2026-10-07",
-   "avg_vol": 43306,
+   "last_close": 74.0,
+   "close_date": "2026-10-08",
+   "avg_vol": 37546,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6706,7 +6706,7 @@
    "company": "Emiac Technologies Ltd.",
    "slug": "emiac-technologies-ipo",
    "url": "https://www.chittorgarh.com/ipo/emiac-technologies-ipo/2766/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-07-07",
@@ -6743,9 +6743,9 @@
      "est": false
     }
    ],
-   "last_close": 87.6,
-   "close_date": "2026-10-07",
-   "avg_vol": 20400,
+   "last_close": 83.76,
+   "close_date": "2026-10-08",
+   "avg_vol": 20560,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6753,7 +6753,7 @@
    "company": "Vivid Electromech Ltd.",
    "slug": "vivid-electromech-ipo",
    "url": "https://www.chittorgarh.com/ipo/vivid-electromech-ipo/2728/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-07-01",
@@ -6790,9 +6790,9 @@
      "est": false
     }
    ],
-   "last_close": 1750.0,
-   "close_date": "2026-10-07",
-   "avg_vol": 28264,
+   "last_close": 1885.8,
+   "close_date": "2026-10-08",
+   "avg_vol": 28800,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6800,7 +6800,7 @@
    "company": "Highness Microelectronics Ltd.",
    "slug": "highness-microelectronics-ipo",
    "url": "https://www.chittorgarh.com/ipo/highness-microelectronics-ipo/2768/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-06-30",
@@ -6837,9 +6837,9 @@
      "est": false
     }
    ],
-   "last_close": 262.05,
-   "close_date": "2026-10-06",
-   "avg_vol": 11560,
+   "last_close": 267.25,
+   "close_date": "2026-10-08",
+   "avg_vol": 11640,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6847,7 +6847,7 @@
    "company": "Sai Parenteral's Ltd.",
    "slug": "sai-parenterals-ipo",
    "url": "https://www.chittorgarh.com/ipo/sai-parenterals-ipo/2681/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-06-27",
@@ -6877,9 +6877,9 @@
      "est": false
     }
    ],
-   "last_close": 521.65,
-   "close_date": "2026-10-07",
-   "avg_vol": 114136,
+   "last_close": 500.45,
+   "close_date": "2026-10-08",
+   "avg_vol": 115003,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6887,7 +6887,7 @@
    "company": "Powerica Ltd.",
    "slug": "powerica-ipo",
    "url": "https://www.chittorgarh.com/ipo/powerica-ipo/2570/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-06-27",
@@ -6917,9 +6917,9 @@
      "est": false
     }
    ],
-   "last_close": 600.95,
-   "close_date": "2026-10-07",
-   "avg_vol": 184400,
+   "last_close": 585.0,
+   "close_date": "2026-10-08",
+   "avg_vol": 182273,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6927,7 +6927,7 @@
    "company": "Amir Chand Jagdish Kumar (Exports) Ltd.",
    "slug": "amir-chand-jagdish-kumar-ipo",
    "url": "https://www.chittorgarh.com/ipo/amir-chand-jagdish-kumar-ipo/2501/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-06-27",
@@ -6957,9 +6957,9 @@
      "est": false
     }
    ],
-   "last_close": 218.44,
-   "close_date": "2026-10-07",
-   "avg_vol": 836457,
+   "last_close": 216.09,
+   "close_date": "2026-10-08",
+   "avg_vol": 845825,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6967,7 +6967,7 @@
    "company": "Tipco Engineering India Ltd.",
    "slug": "tipco-engineering-ipo",
    "url": "https://www.chittorgarh.com/ipo/tipco-engineering-ipo/2733/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-06-25",
@@ -7004,9 +7004,9 @@
      "est": false
     }
    ],
-   "last_close": 312.5,
-   "close_date": "2026-10-07",
-   "avg_vol": 162346,
+   "last_close": 308.6,
+   "close_date": "2026-10-08",
+   "avg_vol": 148746,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7014,7 +7014,7 @@
    "company": "Central Mine Planning & Design Institute Ltd.",
    "slug": "central-mine-planning-design-institute-ipo",
    "url": "https://www.chittorgarh.com/ipo/central-mine-planning-design-institute-ipo/2456/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-06-22",
@@ -7044,9 +7044,9 @@
      "est": false
     }
    ],
-   "last_close": 209.05,
-   "close_date": "2026-10-07",
-   "avg_vol": 1659786,
+   "last_close": 206.65,
+   "close_date": "2026-10-08",
+   "avg_vol": 1700243,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7054,7 +7054,7 @@
    "company": "Novus Loyalty Ltd.",
    "slug": "novus-loyalty-ipo",
    "url": "https://www.chittorgarh.com/ipo/novus-loyalty-ipo/2747/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-06-21",
@@ -7091,9 +7091,9 @@
      "est": false
     }
    ],
-   "last_close": 222.65,
-   "close_date": "2026-10-07",
-   "avg_vol": 137866,
+   "last_close": 205.2,
+   "close_date": "2026-10-08",
+   "avg_vol": 142066,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7101,7 +7101,7 @@
    "company": "GSP Crop Science Ltd.",
    "slug": "gsp-crop-ipo",
    "url": "https://www.chittorgarh.com/ipo/gsp-crop-ipo/2031/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-06-18",
@@ -7131,9 +7131,9 @@
      "est": false
     }
    ],
-   "last_close": 482.8,
-   "close_date": "2026-10-07",
-   "avg_vol": 412720,
+   "last_close": 492.1,
+   "close_date": "2026-10-08",
+   "avg_vol": 390387,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7141,7 +7141,7 @@
    "company": "Raajmarg Infra Investment Trust",
    "slug": "raajmarg-infra-investment-trust-ipo",
    "url": "https://www.chittorgarh.com/ipo/raajmarg-infra-investment-trust-ipo/2863/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-06-16",
@@ -7171,9 +7171,9 @@
      "est": false
     }
    ],
-   "last_close": 121.0,
-   "close_date": "2026-10-07",
-   "avg_vol": 238584,
+   "last_close": 120.22,
+   "close_date": "2026-10-08",
+   "avg_vol": 245320,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7181,7 +7181,7 @@
    "company": "Apsis Aerocom Ltd.",
    "slug": "apsis-aerocom-ipo",
    "url": "https://www.chittorgarh.com/ipo/apsis-aerocom-ipo/2752/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-06-14",
@@ -7218,9 +7218,9 @@
      "est": false
     }
    ],
-   "last_close": 582.1,
-   "close_date": "2026-10-07",
-   "avg_vol": 24920,
+   "last_close": 568.5,
+   "close_date": "2026-10-08",
+   "avg_vol": 26640,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7228,7 +7228,7 @@
    "company": "SEDEMAC Mechatronics Ltd.",
    "slug": "sedemac-mechatronics-ipo",
    "url": "https://www.chittorgarh.com/ipo/sedemac-mechatronics-ipo/2794/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-06-06",
@@ -7258,9 +7258,9 @@
      "est": false
     }
    ],
-   "last_close": 3425.6,
-   "close_date": "2026-10-07",
-   "avg_vol": 229467,
+   "last_close": 3232.1,
+   "close_date": "2026-10-08",
+   "avg_vol": 231259,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7268,7 +7268,7 @@
    "company": "Striders Impex Ltd.",
    "slug": "striders-impex-ipo",
    "url": "https://www.chittorgarh.com/ipo/striders-impex-ipo/2714/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-06-01",
@@ -7306,8 +7306,8 @@
     }
    ],
    "last_close": 50.0,
-   "close_date": "2026-10-07",
-   "avg_vol": 46933,
+   "close_date": "2026-10-08",
+   "avg_vol": 48213,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7315,7 +7315,7 @@
    "company": "Yaap Digital Ltd.",
    "slug": "yaap-digital-ipo",
    "url": "https://www.chittorgarh.com/ipo/yaap-digital-ipo/2582/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-05-30",
@@ -7352,9 +7352,9 @@
      "est": false
     }
    ],
-   "last_close": 122.9,
-   "close_date": "2026-10-07",
-   "avg_vol": 16000,
+   "last_close": 120.0,
+   "close_date": "2026-10-08",
+   "avg_vol": 15900,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7362,7 +7362,7 @@
    "company": "Omnitech Engineering Ltd.",
    "slug": "omnitech-engineering-ipo",
    "url": "https://www.chittorgarh.com/ipo/omnitech-engineering-ipo/2479/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-05-30",
@@ -7392,9 +7392,9 @@
      "est": false
     }
    ],
-   "last_close": 657.55,
-   "close_date": "2026-10-07",
-   "avg_vol": 893203,
+   "last_close": 636.5,
+   "close_date": "2026-10-08",
+   "avg_vol": 887334,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7402,7 +7402,7 @@
    "company": "PNGS Reva Diamond Jewellery Ltd.",
    "slug": "pngs-reva-ipo",
    "url": "https://www.chittorgarh.com/ipo/pngs-reva-ipo/2475/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-05-27",
@@ -7432,9 +7432,9 @@
      "est": false
     }
    ],
-   "last_close": 631.0,
-   "close_date": "2026-10-07",
-   "avg_vol": 316041,
+   "last_close": 701.95,
+   "close_date": "2026-10-08",
+   "avg_vol": 808717,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7442,7 +7442,7 @@
    "company": "Mobilise App Lab Ltd.",
    "slug": "mobilise-app-ipo",
    "url": "https://www.chittorgarh.com/ipo/mobilise-app-ipo/2584/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-05-27",
@@ -7489,7 +7489,7 @@
    "company": "Accord Transformer & Switchgear Ltd.",
    "slug": "accord-transformer-switchgear-ipo",
    "url": "https://www.chittorgarh.com/ipo/accord-transformer-switchgear-ipo/2763/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-05-26",
@@ -7526,9 +7526,9 @@
      "est": false
     }
    ],
-   "last_close": 93.77,
-   "close_date": "2026-10-07",
-   "avg_vol": 148400,
+   "last_close": 91.0,
+   "close_date": "2026-10-08",
+   "avg_vol": 154000,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7536,7 +7536,7 @@
    "company": "Clean Max Enviro Energy Solutions Ltd.",
    "slug": "clean-max-enviro-energy-solutions-ipo",
    "url": "https://www.chittorgarh.com/ipo/clean-max-enviro-energy-solutions-ipo/2573/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-05-26",
@@ -7566,9 +7566,9 @@
      "est": false
     }
    ],
-   "last_close": 1388.5,
-   "close_date": "2026-10-07",
-   "avg_vol": 930754,
+   "last_close": 1348.3,
+   "close_date": "2026-10-08",
+   "avg_vol": 935721,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7576,7 +7576,7 @@
    "company": "Manilam Industries India Ltd.",
    "slug": "manilam-industries-ipo",
    "url": "https://www.chittorgarh.com/ipo/manilam-industries-ipo/2727/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-05-26",
@@ -7623,7 +7623,7 @@
    "company": "Gaudium IVF & Women Health Ltd.",
    "slug": "gaudium-ivf-ipo",
    "url": "https://www.chittorgarh.com/ipo/gaudium-ivf-ipo/2019/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-05-25",
@@ -7653,9 +7653,9 @@
      "est": false
     }
    ],
-   "last_close": 107.5,
-   "close_date": "2026-10-07",
-   "avg_vol": 214517,
+   "last_close": 104.38,
+   "close_date": "2026-10-08",
+   "avg_vol": 217388,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7663,7 +7663,7 @@
    "company": "Citius Transnet Investment Trust",
    "slug": "citius-transnet-invit-ipo",
    "url": "https://www.chittorgarh.com/ipo/citius-transnet-invit-ipo/2862/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-05-23",
@@ -7693,9 +7693,9 @@
      "est": false
     }
    ],
-   "last_close": 114.26,
-   "close_date": "2026-10-07",
-   "avg_vol": 109730,
+   "last_close": 114.88,
+   "close_date": "2026-10-08",
+   "avg_vol": 116504,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7703,7 +7703,7 @@
    "company": "Fractal Industries Ltd.",
    "slug": "fractal-industries-ipo",
    "url": "https://www.chittorgarh.com/ipo/fractal-industries-ipo/2780/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-05-21",
@@ -7740,9 +7740,9 @@
      "est": false
     }
    ],
-   "last_close": 213.9,
-   "close_date": "2026-10-06",
-   "avg_vol": 9920,
+   "last_close": 216.6,
+   "close_date": "2026-10-08",
+   "avg_vol": 9900,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7750,7 +7750,7 @@
    "company": "Marushika Technology Ltd.",
    "slug": "marushika-technology-ipo",
    "url": "https://www.chittorgarh.com/ipo/marushika-technology-ipo/2606/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-05-18",
@@ -7787,9 +7787,9 @@
      "est": false
     }
    ],
-   "last_close": 114.0,
-   "close_date": "2026-10-06",
-   "avg_vol": 20680,
+   "last_close": 110.0,
+   "close_date": "2026-10-08",
+   "avg_vol": 19920,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7797,7 +7797,7 @@
    "company": "PAN HR Solutions Ltd.",
    "slug": "pan-hr-solutions-ipo",
    "url": "https://www.chittorgarh.com/ipo/pan-hr-solutions-ipo/2759/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-05-14",
@@ -7844,7 +7844,7 @@
    "company": "Fractal Analytics Ltd.",
    "slug": "fractal-analytics-ipo",
    "url": "https://www.chittorgarh.com/ipo/fractal-analytics-ipo/2569/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-05-12",
@@ -7874,9 +7874,9 @@
      "est": false
     }
    ],
-   "last_close": 721.3,
-   "close_date": "2026-10-07",
-   "avg_vol": 307278,
+   "last_close": 700.65,
+   "close_date": "2026-10-08",
+   "avg_vol": 304910,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7884,7 +7884,7 @@
    "company": "Aye Finance Ltd.",
    "slug": "aye-finance-ipo",
    "url": "https://www.chittorgarh.com/ipo/aye-finance-ipo/2026/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-05-12",
@@ -7914,9 +7914,9 @@
      "est": false
     }
    ],
-   "last_close": 167.63,
-   "close_date": "2026-10-07",
-   "avg_vol": 1696564,
+   "last_close": 160.79,
+   "close_date": "2026-10-08",
+   "avg_vol": 1657273,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7924,7 +7924,7 @@
    "company": "Grover Jewells Ltd.",
    "slug": "grover-jewells-ipo",
    "url": "https://www.chittorgarh.com/ipo/grover-jewells-ipo/2731/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-05-12",
@@ -7961,9 +7961,9 @@
      "est": false
     }
    ],
-   "last_close": 484.6,
-   "close_date": "2026-10-07",
-   "avg_vol": 6933,
+   "last_close": 460.4,
+   "close_date": "2026-10-08",
+   "avg_vol": 6826,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7971,7 +7971,7 @@
    "company": "Brandman Retail Ltd.",
    "slug": "brandman-retail-ipo",
    "url": "https://www.chittorgarh.com/ipo/brandman-retail-ipo/2274/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-05-09",
@@ -8008,9 +8008,9 @@
      "est": false
     }
    ],
-   "last_close": 162.15,
-   "close_date": "2026-10-07",
-   "avg_vol": 15306,
+   "last_close": 169.1,
+   "close_date": "2026-10-08",
+   "avg_vol": 15120,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8018,7 +8018,7 @@
    "company": "Msafe Equipments Ltd.",
    "slug": "msafe-equipments-ipo",
    "url": "https://www.chittorgarh.com/ipo/msafe-equipments-ipo/2600/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-05-05",
@@ -8055,9 +8055,9 @@
      "est": false
     }
    ],
-   "last_close": 297.85,
-   "close_date": "2026-10-07",
-   "avg_vol": 57700,
+   "last_close": 292.15,
+   "close_date": "2026-10-08",
+   "avg_vol": 58666,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8065,7 +8065,7 @@
    "company": "CKK Retail Mart Ltd.",
    "slug": "c-k-k-retail-mart-ipo",
    "url": "https://www.chittorgarh.com/ipo/c-k-k-retail-mart-ipo/2409/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-05-04",
@@ -8103,8 +8103,8 @@
     }
    ],
    "last_close": 168.0,
-   "close_date": "2026-10-07",
-   "avg_vol": 49866,
+   "close_date": "2026-10-08",
+   "avg_vol": 48613,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8112,7 +8112,7 @@
    "company": "Accretion Nutraveda Ltd.",
    "slug": "accretion-nutraveda-ipo",
    "url": "https://www.chittorgarh.com/ipo/accretion-nutraveda-ipo/2699/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-05-02",
@@ -8149,9 +8149,9 @@
      "est": false
     }
    ],
-   "last_close": 304.5,
-   "close_date": "2026-10-07",
-   "avg_vol": 11266,
+   "last_close": 303.0,
+   "close_date": "2026-10-08",
+   "avg_vol": 11800,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8159,7 +8159,7 @@
    "company": "Kasturi Metal Composite Ltd.",
    "slug": "kasturi-metal-ipo",
    "url": "https://www.chittorgarh.com/ipo/kasturi-metal-ipo/2281/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-04-29",
@@ -8196,8 +8196,8 @@
      "est": false
     }
    ],
-   "last_close": 70.0,
-   "close_date": "2026-10-07",
+   "last_close": 68.0,
+   "close_date": "2026-10-08",
    "avg_vol": 31400,
    "issue_px": null,
    "chg_from_issue_pct": null
@@ -8206,7 +8206,7 @@
    "company": "Hannah Joseph Hospital Ltd.",
    "slug": "hannah-joseph-ipo",
    "url": "https://www.chittorgarh.com/ipo/hannah-joseph-ipo/2251/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-04-28",
@@ -8243,9 +8243,9 @@
      "est": false
     }
    ],
-   "last_close": 108.7,
-   "close_date": "2026-10-07",
-   "avg_vol": 18200,
+   "last_close": 102.95,
+   "close_date": "2026-10-08",
+   "avg_vol": 18933,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8253,7 +8253,7 @@
    "company": "KRM Ayurveda Ltd.",
    "slug": "krm-ayurveda-ipo",
    "url": "https://www.chittorgarh.com/ipo/krm-ayurveda-ipo/2620/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-04-22",
@@ -8290,9 +8290,9 @@
      "est": false
     }
    ],
-   "last_close": 275.0,
-   "close_date": "2026-10-07",
-   "avg_vol": 109866,
+   "last_close": 274.35,
+   "close_date": "2026-10-08",
+   "avg_vol": 110600,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8300,7 +8300,7 @@
    "company": "Digilogic Systems Ltd.",
    "slug": "digilogic-systems-ipo",
    "url": "https://www.chittorgarh.com/ipo/digilogic-systems-ipo/2617/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-04-22",
@@ -8337,9 +8337,9 @@
      "est": false
     }
    ],
-   "last_close": 196.5,
-   "close_date": "2026-10-07",
-   "avg_vol": 34320,
+   "last_close": 194.0,
+   "close_date": "2026-10-08",
+   "avg_vol": 34920,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8347,7 +8347,7 @@
    "company": "Shadowfax Technologies Ltd.",
    "slug": "shadowfax-technologies-ipo",
    "url": "https://www.chittorgarh.com/ipo/shadowfax-technologies-ipo/2526/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-04-22",
@@ -8377,9 +8377,9 @@
      "est": false
     }
    ],
-   "last_close": 292.85,
-   "close_date": "2026-10-07",
-   "avg_vol": 4136147,
+   "last_close": 286.1,
+   "close_date": "2026-10-08",
+   "avg_vol": 4180903,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8387,7 +8387,7 @@
    "company": "GRE Renew Enertech Ltd.",
    "slug": "gre-renew-enertech-ipo",
    "url": "https://www.chittorgarh.com/ipo/gre-renew-enertech-ipo/2353/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-04-19",
@@ -8424,9 +8424,9 @@
      "est": false
     }
    ],
-   "last_close": 234.85,
-   "close_date": "2026-10-07",
-   "avg_vol": 30840,
+   "last_close": 221.1,
+   "close_date": "2026-10-08",
+   "avg_vol": 30720,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8434,7 +8434,7 @@
    "company": "Amagi Media Labs Ltd.",
    "slug": "amagi-media-labs-ipo",
    "url": "https://www.chittorgarh.com/ipo/amagi-media-labs-ipo/2549/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-04-18",
@@ -8464,9 +8464,9 @@
      "est": false
     }
    ],
-   "last_close": 561.45,
-   "close_date": "2026-10-07",
-   "avg_vol": 383833,
+   "last_close": 555.3,
+   "close_date": "2026-10-08",
+   "avg_vol": 379876,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8474,7 +8474,7 @@
    "company": "INDO SMC Ltd.",
    "slug": "indo-smc-ipo",
    "url": "https://www.chittorgarh.com/ipo/indo-smc-ipo/2694/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-04-16",
@@ -8511,9 +8511,9 @@
      "est": false
     }
    ],
-   "last_close": 500.65,
-   "close_date": "2026-10-07",
-   "avg_vol": 54733,
+   "last_close": 481.6,
+   "close_date": "2026-10-08",
+   "avg_vol": 55866,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8521,7 +8521,7 @@
    "company": "Defrail Technologies Ltd.",
    "slug": "defrail-technologies-ipo",
    "url": "https://www.chittorgarh.com/ipo/defrail-technologies-ipo/2693/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-04-16",
@@ -8558,9 +8558,9 @@
      "est": false
     }
    ],
-   "last_close": 74.0,
-   "close_date": "2026-10-07",
-   "avg_vol": 7306,
+   "last_close": 75.0,
+   "close_date": "2026-10-08",
+   "avg_vol": 7360,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8568,7 +8568,7 @@
    "company": "Avana Electrosystems Ltd.",
    "slug": "avana-electrosystems-ipo",
    "url": "https://www.chittorgarh.com/ipo/avana-electrosystems-ipo/2635/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-04-15",
@@ -8605,9 +8605,9 @@
      "est": false
     }
    ],
-   "last_close": 139.6,
-   "close_date": "2026-10-07",
-   "avg_vol": 21466,
+   "last_close": 137.95,
+   "close_date": "2026-10-08",
+   "avg_vol": 21733,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8615,7 +8615,7 @@
    "company": "Bharat Coking Coal Ltd.",
    "slug": "bharat-coking-coal-ipo",
    "url": "https://www.chittorgarh.com/ipo/bharat-coking-coal-ipo/2462/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-04-13",
@@ -8645,9 +8645,9 @@
      "est": false
     }
    ],
-   "last_close": 32.09,
-   "close_date": "2026-10-07",
-   "avg_vol": 4708778,
+   "last_close": 31.31,
+   "close_date": "2026-10-08",
+   "avg_vol": 4649967,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8655,7 +8655,7 @@
    "company": "Gabion Technologies India Ltd.",
    "slug": "gabion-technologies-india-ipo",
    "url": "https://www.chittorgarh.com/ipo/gabion-technologies-india-ipo/2277/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-04-08",
@@ -8692,9 +8692,9 @@
      "est": false
     }
    ],
-   "last_close": 127.55,
-   "close_date": "2026-10-07",
-   "avg_vol": 105013,
+   "last_close": 131.55,
+   "close_date": "2026-10-08",
+   "avg_vol": 104853,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8702,7 +8702,7 @@
    "company": "Modern Diagnostic & Research Centre Ltd.",
    "slug": "modern-diagnostic-ipo",
    "url": "https://www.chittorgarh.com/ipo/modern-diagnostic-ipo/2276/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-04-04",
@@ -8739,9 +8739,9 @@
      "est": false
     }
    ],
-   "last_close": 68.3,
-   "close_date": "2026-10-07",
-   "avg_vol": 40106,
+   "last_close": 66.75,
+   "close_date": "2026-10-08",
+   "avg_vol": 38560,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8749,7 +8749,7 @@
    "company": "E to E Transportation Infrastructure Ltd.",
    "slug": "e-to-e-transportation-infrastructure-ipo",
    "url": "https://www.chittorgarh.com/ipo/e-to-e-transportation-infrastructure-ipo/2720/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-03-31",
@@ -8786,9 +8786,9 @@
      "est": false
     }
    ],
-   "last_close": 305.3,
-   "close_date": "2026-10-07",
-   "avg_vol": 152933,
+   "last_close": 290.0,
+   "close_date": "2026-10-08",
+   "avg_vol": 154000,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8796,7 +8796,7 @@
    "company": "Admach Systems Ltd.",
    "slug": "admach-systems-ipo",
    "url": "https://www.chittorgarh.com/ipo/admach-systems-ipo/2578/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-01-30",
@@ -8833,9 +8833,9 @@
      "est": false
     }
    ],
-   "last_close": 466.7,
-   "close_date": "2026-10-07",
-   "avg_vol": 7360,
+   "last_close": 466.0,
+   "close_date": "2026-10-08",
+   "avg_vol": 7180,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8843,7 +8843,7 @@
    "company": "Technichem Organics Ltd.",
    "slug": "technichem-organics-ipo",
    "url": "https://www.chittorgarh.com/ipo/technichem-organics-ipo/1948/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2025-04-03",
@@ -8880,9 +8880,9 @@
      "est": false
     }
    ],
-   "last_close": 53.0,
-   "close_date": "2026-10-06",
-   "avg_vol": 20000,
+   "last_close": 50.35,
+   "close_date": "2026-10-08",
+   "avg_vol": 19800,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8890,7 +8890,7 @@
    "company": "Indo Farm Equipment Ltd.",
    "slug": "indo-farm-equipment-ipo",
    "url": "https://www.chittorgarh.com/ipo/indo-farm-equipment-ipo/1934/",
-   "category": "Unknown",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2025-04-02",
@@ -8920,9 +8920,9 @@
      "est": false
     }
    ],
-   "last_close": 139.92,
-   "close_date": "2026-10-07",
-   "avg_vol": 189279,
+   "last_close": 134.66,
+   "close_date": "2026-10-08",
+   "avg_vol": 190372,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8930,7 +8930,7 @@
    "company": "Anya Polytech & Fertilizers Ltd.",
    "slug": "anya-polytech-ipo",
    "url": "https://www.chittorgarh.com/ipo/anya-polytech-ipo/1946/",
-   "category": "Unknown",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2025-01-30",
