@@ -382,32 +382,4 @@ DTEND;VALUE=DATE:20261015
 SUMMARY:🔓 Rentomojo Ltd. — 30D anchor unlock
 DESCRIPTION:https://www.chittorgarh.com/ipo/rentomojo-ipo/2971/
 END:VEVENT
-BEGIN:VEVENT
-UID:pranav-constructions-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261010
-DTEND;VALUE=DATE:20261011
-SUMMARY:🔓 Pranav Constructions Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/pranav-constructions-ipo/2127/
-END:VEVENT
-BEGIN:VEVENT
-UID:glass-wall-systems-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261010
-DTEND;VALUE=DATE:20261011
-SUMMARY:🔓 Glass Wall Systems (India) Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/glass-wall-systems-ipo/2594/
-END:VEVENT
-BEGIN:VEVENT
-UID:prasol-chemicals-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261010
-DTEND;VALUE=DATE:20261011
-SUMMARY:🔓 Prasol Chemicals Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/prasol-chemicals-ipo/2775/
-END:VEVENT
-BEGIN:VEVENT
-UID:kanohar-electricals-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261010
-DTEND;VALUE=DATE:20261011
-SUMMARY:🔓 Kanohar Electricals Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/kanohar-electricals-ipo/2856/
-END:VEVENT
 END:VCALENDAR
