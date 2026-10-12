@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11T13:04:53+05:30",
+ "generated_at": "2026-10-12T13:13:00+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -8051,9 +8051,9 @@
    ]
   },
   {
-   "company": "Senores Pharmaceuticals Ltd.",
-   "slug": "senores-pharmaceuticals-ipo",
-   "url": "https://www.chittorgarh.com/ipo/senores-pharmaceuticals-ipo/1943/",
+   "company": "Carraro India Ltd.",
+   "slug": "carraro-india-ipo",
+   "url": "https://www.chittorgarh.com/ipo/carraro-india-ipo/1945/",
    "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
@@ -8062,9 +8062,9 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE0RB801010",
-   "nse_symbol": "SENORES",
-   "bse_code": 544319,
+   "isin": "INE0V7W01012",
+   "nse_symbol": "CARRARO",
+   "bse_code": 544320,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
