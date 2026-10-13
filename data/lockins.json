@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T13:13:00+05:30",
+ "generated_at": "2026-10-13T13:34:20+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -4083,41 +4083,6 @@
    ]
   },
   {
-   "company": "Cube Highways Trust",
-   "slug": "cube-highways-trust-invit",
-   "url": "https://www.chittorgarh.com/ipo/cube-highways-trust-invit/3192/",
-   "category": "Mainboard",
-   "anchor_allotment_date": null,
-   "boa_date": null,
-   "d30": "2026-08-28",
-   "d90": null,
-   "anchor_shares": null,
-   "anchor_investment_cr": null,
-   "pct_of_issue": null,
-   "isin": "INE0NR623014",
-   "nse_symbol": "CUBEINVIT",
-   "bse_code": 543899,
-   "pre_shares": null,
-   "post_shares": null,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": null,
-   "anchor_names": [],
-   "lm": [],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-08-28",
-     "sh": null,
-     "pct": null,
-     "val": null,
-     "est": false
-    }
-   ]
-  },
-  {
    "company": "Xtranet Technologies Ltd.",
    "slug": "xtranet-technologies-ipo",
    "url": "https://www.chittorgarh.com/ipo/xtranet-technologies-ipo/2688/",
@@ -5650,41 +5615,6 @@
    ]
   },
   {
-   "company": "Bagmane Prime Office REIT",
-   "slug": "bagmane-reit",
-   "url": "https://www.chittorgarh.com/ipo/bagmane-reit/3090/",
-   "category": "Mainboard",
-   "anchor_allotment_date": null,
-   "boa_date": null,
-   "d30": "2026-06-10",
-   "d90": null,
-   "anchor_shares": null,
-   "anchor_investment_cr": null,
-   "pct_of_issue": null,
-   "isin": "INE2OVN25015",
-   "nse_symbol": "BAGMANE",
-   "bse_code": 544758,
-   "pre_shares": null,
-   "post_shares": null,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": null,
-   "anchor_names": [],
-   "lm": [],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-06-10",
-     "sh": null,
-     "pct": null,
-     "val": null,
-     "est": false
-    }
-   ]
-  },
-  {
    "company": "Recode Studios Ltd.",
    "slug": "recode-studios-ipo",
    "url": "https://www.chittorgarh.com/ipo/recode-studios-ipo/2825/",
@@ -5796,41 +5726,6 @@
     {
      "t": "A30",
      "d": "2026-05-28",
-     "sh": null,
-     "pct": null,
-     "val": null,
-     "est": false
-    }
-   ]
-  },
-  {
-   "company": "Citius Transnet Investment Trust",
-   "slug": "citius-transnet-invit-ipo",
-   "url": "https://www.chittorgarh.com/ipo/citius-transnet-invit-ipo/2862/",
-   "category": "Mainboard",
-   "anchor_allotment_date": null,
-   "boa_date": null,
-   "d30": "2026-05-23",
-   "d90": null,
-   "anchor_shares": null,
-   "anchor_investment_cr": null,
-   "pct_of_issue": null,
-   "isin": "INE2Q7823014",
-   "nse_symbol": "CITIUSINVT",
-   "bse_code": 544753,
-   "pre_shares": null,
-   "post_shares": null,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": null,
-   "anchor_names": [],
-   "lm": [],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-05-23",
      "sh": null,
      "pct": null,
      "val": null,
@@ -6343,41 +6238,6 @@
    ]
   },
   {
-   "company": "Raajmarg Infra Investment Trust",
-   "slug": "raajmarg-infra-investment-trust-ipo",
-   "url": "https://www.chittorgarh.com/ipo/raajmarg-infra-investment-trust-ipo/2863/",
-   "category": "Mainboard",
-   "anchor_allotment_date": null,
-   "boa_date": null,
-   "d30": "2026-04-17",
-   "d90": null,
-   "anchor_shares": null,
-   "anchor_investment_cr": null,
-   "pct_of_issue": null,
-   "isin": "INE2PB023011",
-   "nse_symbol": "RIIT",
-   "bse_code": 544734,
-   "pre_shares": null,
-   "post_shares": null,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": null,
-   "anchor_names": [],
-   "lm": [],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-04-17",
-     "sh": null,
-     "pct": null,
-     "val": null,
-     "est": false
-    }
-   ]
-  },
-  {
    "company": "Apsis Aerocom Ltd.",
    "slug": "apsis-aerocom-ipo",
    "url": "https://www.chittorgarh.com/ipo/apsis-aerocom-ipo/2752/",
@@ -6539,48 +6399,6 @@
    ]
   },
   {
-   "company": "Admach Systems Ltd.",
-   "slug": "admach-systems-ipo",
-   "url": "https://www.chittorgarh.com/ipo/admach-systems-ipo/2578/",
-   "category": "SME",
-   "anchor_allotment_date": null,
-   "boa_date": null,
-   "d30": "2026-03-31",
-   "d90": null,
-   "anchor_shares": null,
-   "anchor_investment_cr": null,
-   "pct_of_issue": null,
-   "isin": "INE0XLO01010",
-   "nse_symbol": "",
-   "bse_code": 544669,
-   "pre_shares": 4990200,
-   "post_shares": 6772800,
-   "prom_pre_pct": 71.87,
-   "prom_post_pct": 52.95,
-   "listing_date": "2025-12-31",
-   "anchor_names": [
-    "Investment by Mutual Fund"
-   ],
-   "lm": [
-    [
-     448,
-     "Aftertrade Broking Pvt.Ltd"
-    ]
-   ],
-   "nonprom_pre_shares": 1403743,
-   "nonprom_pre_pct_of_post": 20.73,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-03-31",
-     "sh": null,
-     "pct": null,
-     "val": null,
-     "est": false
-    }
-   ]
-  },
-  {
    "company": "E to E Transportation Infrastructure Ltd.",
    "slug": "e-to-e-transportation-infrastructure-ipo",
    "url": "https://www.chittorgarh.com/ipo/e-to-e-transportation-infrastructure-ipo/2720/",
@@ -6611,6 +6429,48 @@
    ],
    "nonprom_pre_shares": 6806070,
    "nonprom_pre_pct_of_post": 39.44,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-03-31",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "Admach Systems Ltd.",
+   "slug": "admach-systems-ipo",
+   "url": "https://www.chittorgarh.com/ipo/admach-systems-ipo/2578/",
+   "category": "SME",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-03-31",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE0XLO01010",
+   "nse_symbol": "",
+   "bse_code": 544669,
+   "pre_shares": 4990200,
+   "post_shares": 6772800,
+   "prom_pre_pct": 71.87,
+   "prom_post_pct": 52.95,
+   "listing_date": "2025-12-31",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
+   "lm": [
+    [
+     448,
+     "Aftertrade Broking Pvt.Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": 1403743,
+   "nonprom_pre_pct_of_post": 20.73,
    "events": [
     {
      "t": "A30",
