@@ -354,32 +354,4 @@ DTEND;VALUE=DATE:20261016
 SUMMARY:🔓 Manipal Payment & Identity Solutions Ltd. — 30D anchor unlock
 DESCRIPTION:https://www.chittorgarh.com/ipo/manipal-payment-and-identity-solutions-ipo/2524/
 END:VEVENT
-BEGIN:VEVENT
-UID:karamtara-engineering-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261014
-DTEND;VALUE=DATE:20261015
-SUMMARY:🔓 Karamtara Engineering Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/karamtara-engineering-ipo/2020/
-END:VEVENT
-BEGIN:VEVENT
-UID:steamhouse-india-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261014
-DTEND;VALUE=DATE:20261015
-SUMMARY:🔓 Steamhouse India Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/steamhouse-india-ipo/2514/
-END:VEVENT
-BEGIN:VEVENT
-UID:asset-reconstruction-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261014
-DTEND;VALUE=DATE:20261015
-SUMMARY:🔓 Asset Reconstruction Co.(India) Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/asset-reconstruction-ipo/2558/
-END:VEVENT
-BEGIN:VEVENT
-UID:rentomojo-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261014
-DTEND;VALUE=DATE:20261015
-SUMMARY:🔓 Rentomojo Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/rentomojo-ipo/2971/
-END:VEVENT
 END:VCALENDAR
