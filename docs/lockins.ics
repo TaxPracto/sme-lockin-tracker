@@ -284,32 +284,4 @@ DTEND;VALUE=DATE:20261019
 SUMMARY:🔓 Shakti Polytarp Ltd. — 30D anchor unlock
 DESCRIPTION:https://www.chittorgarh.com/ipo/shakti-polytarp-ipo/2427/
 END:VEVENT
-BEGIN:VEVENT
-UID:manika-plastech-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
-SUMMARY:🔓 Manika Plastech Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/manika-plastech-ipo/2483/
-END:VEVENT
-BEGIN:VEVENT
-UID:century-business-media-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
-SUMMARY:🔓 Century Business Media Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/century-business-media-ipo/2604/
-END:VEVENT
-BEGIN:VEVENT
-UID:injecto-polymers-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
-SUMMARY:🔓 Injecto Polymers Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/injecto-polymers-ipo/2625/
-END:VEVENT
-BEGIN:VEVENT
-UID:maharaja-speedex-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
-SUMMARY:🔓 Maharaja & Speedex India Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/maharaja-speedex-ipo/3089/
-END:VEVENT
 END:VCALENDAR
