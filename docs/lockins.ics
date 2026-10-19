@@ -277,11 +277,4 @@ DTEND;VALUE=DATE:20261021
 SUMMARY:🔓 SS Retail Ltd. — 30D anchor unlock
 DESCRIPTION:https://www.chittorgarh.com/ipo/ss-retail-ipo/2822/
 END:VEVENT
-BEGIN:VEVENT
-UID:shakti-polytarp-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261018
-DTEND;VALUE=DATE:20261019
-SUMMARY:🔓 Shakti Polytarp Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/shakti-polytarp-ipo/2427/
-END:VEVENT
 END:VCALENDAR
