@@ -5,6 +5,20 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:hd-fire-protect-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:🔓 HD Fire Protect Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/hd-fire-protect-ipo/2628/
+END:VEVENT
+BEGIN:VEVENT
+UID:vaibhav-vyapaar-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:🔓 Vaibhav Vyapaar Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/vaibhav-vyapaar-ipo/3180/
+END:VEVENT
+BEGIN:VEVENT
 UID:tna-solutions-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
@@ -255,26 +269,5 @@ DTSTART;VALUE=DATE:20261021
 DTEND;VALUE=DATE:20261022
 SUMMARY:🔓 National Stock Exchange of India Ltd. — 30D anchor unlock
 DESCRIPTION:https://www.chittorgarh.com/ipo/nse-ipo/3151/
-END:VEVENT
-BEGIN:VEVENT
-UID:hero-motors-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261020
-DTEND;VALUE=DATE:20261021
-SUMMARY:🔓 Hero Motors Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/hero-motors-ipo/2225/
-END:VEVENT
-BEGIN:VEVENT
-UID:jindal-supreme-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261020
-DTEND;VALUE=DATE:20261021
-SUMMARY:🔓 Jindal Supreme (India) Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/jindal-supreme-ipo/2803/
-END:VEVENT
-BEGIN:VEVENT
-UID:ss-retail-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261020
-DTEND;VALUE=DATE:20261021
-SUMMARY:🔓 SS Retail Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/ss-retail-ipo/2822/
 END:VEVENT
 END:VCALENDAR

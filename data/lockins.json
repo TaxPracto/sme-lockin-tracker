@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T11:48:27+05:30",
+ "generated_at": "2026-10-21T11:48:12+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -7,6 +7,76 @@
   2026
  ],
  "records": [
+  {
+   "company": "HD Fire Protect Ltd.",
+   "slug": "hd-fire-protect-ipo",
+   "url": "https://www.chittorgarh.com/ipo/hd-fire-protect-ipo/2628/",
+   "category": "Mainboard",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-11-14",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE18AK01028",
+   "nse_symbol": "HDFIRE",
+   "bse_code": 544994,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-11-14",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "Vaibhav Vyapaar Ltd.",
+   "slug": "vaibhav-vyapaar-ipo",
+   "url": "https://www.chittorgarh.com/ipo/vaibhav-vyapaar-ipo/3180/",
+   "category": "SME",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-11-14",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE1KAA01025",
+   "nse_symbol": "LOANFRONT",
+   "bse_code": "",
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-11-14",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
   {
    "company": "TNA Solutions Ltd.",
    "slug": "tna-solutions-ipo",
