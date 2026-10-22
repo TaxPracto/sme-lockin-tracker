@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T11:48:12+05:30",
+ "generated_at": "2026-10-22T11:52:10+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -7,6 +7,76 @@
   2026
  ],
  "records": [
+  {
+   "company": "Fusion CX Ltd.",
+   "slug": "fusion-cx-ipo",
+   "url": "https://www.chittorgarh.com/ipo/fusion-cx-ipo/2455/",
+   "category": "Mainboard",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-11-17",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE0N2201019",
+   "nse_symbol": "FUSIONCX",
+   "bse_code": 544995,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-11-17",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "Ravita Engineering Services Ltd.",
+   "slug": "ravita-engineering-services-ipo",
+   "url": "https://www.chittorgarh.com/ipo/ravita-engineering-services-ipo/2959/",
+   "category": "SME",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-11-17",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE1UEL01023",
+   "nse_symbol": "RAVITA",
+   "bse_code": "",
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-11-17",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
   {
    "company": "HD Fire Protect Ltd.",
    "slug": "hd-fire-protect-ipo",
