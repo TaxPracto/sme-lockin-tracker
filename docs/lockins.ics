@@ -5,6 +5,41 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:sahajanand-medical-technologies-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:🔓 Sahajanand Medical Technologies Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/sahajanand-medical-technologies-ipo/2550/
+END:VEVENT
+BEGIN:VEVENT
+UID:bonfiglioli-transmissions-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:🔓 Bonfiglioli Transmissions Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/bonfiglioli-transmissions-ipo/2861/
+END:VEVENT
+BEGIN:VEVENT
+UID:shellz-india-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:🔓 Shellz India Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/shellz-india-ipo/2966/
+END:VEVENT
+BEGIN:VEVENT
+UID:zetwerk-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:🔓 Zetwerk Manufacturing Business Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/zetwerk-ipo/3091/
+END:VEVENT
+BEGIN:VEVENT
+UID:tonbo-imaging-india-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:🔓 Tonbo Imaging India Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/tonbo-imaging-india-ipo/3215/
+END:VEVENT
+BEGIN:VEVENT
 UID:fusion-cx-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
@@ -255,19 +290,5 @@ DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:🔓 Axiom Gas Engineering Ltd. — 30D anchor unlock
 DESCRIPTION:https://www.chittorgarh.com/ipo/axiom-gas-engineering-ipo/2193/
-END:VEVENT
-BEGIN:VEVENT
-UID:kheria-autocomp-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261022
-DTEND;VALUE=DATE:20261023
-SUMMARY:🔓 Kheria Autocomp Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/kheria-autocomp-ipo/2760/
-END:VEVENT
-BEGIN:VEVENT
-UID:spectraa-technology-solutions-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261022
-DTEND;VALUE=DATE:20261023
-SUMMARY:🔓 SpectraA Technology Solutions Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/spectraa-technology-solutions-ipo/2950/
 END:VEVENT
 END:VCALENDAR

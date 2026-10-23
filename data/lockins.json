@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T11:52:10+05:30",
+ "generated_at": "2026-10-23T11:45:59+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -7,6 +7,181 @@
   2026
  ],
  "records": [
+  {
+   "company": "Sahajanand Medical Technologies Ltd.",
+   "slug": "sahajanand-medical-technologies-ipo",
+   "url": "https://www.chittorgarh.com/ipo/sahajanand-medical-technologies-ipo/2550/",
+   "category": "Mainboard",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-11-19",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE356Y01018",
+   "nse_symbol": "SMT",
+   "bse_code": 545001,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-11-19",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "Bonfiglioli Transmissions Ltd.",
+   "slug": "bonfiglioli-transmissions-ipo",
+   "url": "https://www.chittorgarh.com/ipo/bonfiglioli-transmissions-ipo/2861/",
+   "category": "Mainboard",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-11-19",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE28SO01013",
+   "nse_symbol": "BONFIG",
+   "bse_code": 544996,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-11-19",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "Shellz India Ltd.",
+   "slug": "shellz-india-ipo",
+   "url": "https://www.chittorgarh.com/ipo/shellz-india-ipo/2966/",
+   "category": "SME",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-11-19",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE0Z7301016",
+   "nse_symbol": "",
+   "bse_code": 544998,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-11-19",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "Zetwerk Manufacturing Business Ltd.",
+   "slug": "zetwerk-ipo",
+   "url": "https://www.chittorgarh.com/ipo/zetwerk-ipo/3091/",
+   "category": "Mainboard",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-11-19",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE09PO01019",
+   "nse_symbol": "ZETWERK",
+   "bse_code": 545000,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-11-19",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "Tonbo Imaging India Ltd.",
+   "slug": "tonbo-imaging-india-ipo",
+   "url": "https://www.chittorgarh.com/ipo/tonbo-imaging-india-ipo/3215/",
+   "category": "Mainboard",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-11-19",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE0LDG01026",
+   "nse_symbol": "TONBO",
+   "bse_code": 544999,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-11-19",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
   {
    "company": "Fusion CX Ltd.",
    "slug": "fusion-cx-ipo",

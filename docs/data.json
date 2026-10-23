@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T11:52:10+05:30",
+ "generated_at": "2026-10-23T11:45:59+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -7,6 +7,206 @@
   2026
  ],
  "records": [
+  {
+   "company": "Sahajanand Medical Technologies Ltd.",
+   "slug": "sahajanand-medical-technologies-ipo",
+   "url": "https://www.chittorgarh.com/ipo/sahajanand-medical-technologies-ipo/2550/",
+   "category": "Mainboard",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-11-19",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE356Y01018",
+   "nse_symbol": "SMT",
+   "bse_code": 545001,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-11-19",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": null,
+   "chg_from_issue_pct": null
+  },
+  {
+   "company": "Bonfiglioli Transmissions Ltd.",
+   "slug": "bonfiglioli-transmissions-ipo",
+   "url": "https://www.chittorgarh.com/ipo/bonfiglioli-transmissions-ipo/2861/",
+   "category": "Mainboard",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-11-19",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE28SO01013",
+   "nse_symbol": "BONFIG",
+   "bse_code": 544996,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-11-19",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": null,
+   "chg_from_issue_pct": null
+  },
+  {
+   "company": "Shellz India Ltd.",
+   "slug": "shellz-india-ipo",
+   "url": "https://www.chittorgarh.com/ipo/shellz-india-ipo/2966/",
+   "category": "SME",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-11-19",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE0Z7301016",
+   "nse_symbol": "",
+   "bse_code": 544998,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-11-19",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": null,
+   "chg_from_issue_pct": null
+  },
+  {
+   "company": "Zetwerk Manufacturing Business Ltd.",
+   "slug": "zetwerk-ipo",
+   "url": "https://www.chittorgarh.com/ipo/zetwerk-ipo/3091/",
+   "category": "Mainboard",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-11-19",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE09PO01019",
+   "nse_symbol": "ZETWERK",
+   "bse_code": 545000,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-11-19",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": null,
+   "chg_from_issue_pct": null
+  },
+  {
+   "company": "Tonbo Imaging India Ltd.",
+   "slug": "tonbo-imaging-india-ipo",
+   "url": "https://www.chittorgarh.com/ipo/tonbo-imaging-india-ipo/3215/",
+   "category": "Mainboard",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-11-19",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE0LDG01026",
+   "nse_symbol": "TONBO",
+   "bse_code": 544999,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-11-19",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": null,
+   "chg_from_issue_pct": null
+  },
   {
    "company": "Fusion CX Ltd.",
    "slug": "fusion-cx-ipo",
@@ -41,9 +241,9 @@
      "est": false
     }
    ],
-   "last_close": null,
-   "close_date": null,
-   "avg_vol": null,
+   "last_close": 289.65,
+   "close_date": "2026-10-22",
+   "avg_vol": 18044390,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -81,9 +281,9 @@
      "est": false
     }
    ],
-   "last_close": null,
-   "close_date": null,
-   "avg_vol": null,
+   "last_close": 113.7,
+   "close_date": "2026-10-22",
+   "avg_vol": 4174800,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -121,9 +321,9 @@
      "est": false
     }
    ],
-   "last_close": 306.75,
-   "close_date": "2026-10-21",
-   "avg_vol": 31157931,
+   "last_close": 276.7,
+   "close_date": "2026-10-22",
+   "avg_vol": 19250103,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -161,9 +361,9 @@
      "est": false
     }
    ],
-   "last_close": 53.05,
-   "close_date": "2026-10-21",
-   "avg_vol": 2178000,
+   "last_close": 53.35,
+   "close_date": "2026-10-22",
+   "avg_vol": 1160000,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -206,9 +406,9 @@
      "est": false
     }
    ],
-   "last_close": 46.4,
-   "close_date": "2026-10-21",
-   "avg_vol": 400000,
+   "last_close": 44.08,
+   "close_date": "2026-10-22",
+   "avg_vol": 370000,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -251,9 +451,9 @@
      "est": false
     }
    ],
-   "last_close": 105.07,
-   "close_date": "2026-10-21",
-   "avg_vol": 552355,
+   "last_close": 100.71,
+   "close_date": "2026-10-22",
+   "avg_vol": 512800,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -296,9 +496,9 @@
      "est": false
     }
    ],
-   "last_close": 205.75,
-   "close_date": "2026-10-21",
-   "avg_vol": 640650,
+   "last_close": 195.8,
+   "close_date": "2026-10-22",
+   "avg_vol": 590266,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -341,9 +541,9 @@
      "est": false
     }
    ],
-   "last_close": 174.95,
-   "close_date": "2026-10-21",
-   "avg_vol": 227580,
+   "last_close": 152.55,
+   "close_date": "2026-10-22",
+   "avg_vol": 210818,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -386,9 +586,9 @@
      "est": false
     }
    ],
-   "last_close": 52.95,
-   "close_date": "2026-10-21",
-   "avg_vol": 316000,
+   "last_close": 53.55,
+   "close_date": "2026-10-22",
+   "avg_vol": 296800,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -431,9 +631,9 @@
      "est": false
     }
    ],
-   "last_close": 365.0,
-   "close_date": "2026-10-21",
-   "avg_vol": 281040,
+   "last_close": 401.5,
+   "close_date": "2026-10-22",
+   "avg_vol": 308945,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -476,9 +676,9 @@
      "est": false
     }
    ],
-   "last_close": 105.94,
-   "close_date": "2026-10-21",
-   "avg_vol": 347636,
+   "last_close": 106.16,
+   "close_date": "2026-10-22",
+   "avg_vol": 324533,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -521,9 +721,9 @@
      "est": false
     }
    ],
-   "last_close": 194.1,
-   "close_date": "2026-10-21",
-   "avg_vol": 203800,
+   "last_close": 177.95,
+   "close_date": "2026-10-22",
+   "avg_vol": 193661,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -561,9 +761,9 @@
      "est": false
     }
    ],
-   "last_close": 143.59,
-   "close_date": "2026-10-21",
-   "avg_vol": 395641,
+   "last_close": 140.03,
+   "close_date": "2026-10-22",
+   "avg_vol": 393750,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -606,9 +806,9 @@
      "est": false
     }
    ],
-   "last_close": 74.9,
-   "close_date": "2026-10-21",
-   "avg_vol": 382000,
+   "last_close": 84.95,
+   "close_date": "2026-10-22",
+   "avg_vol": 353261,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -646,9 +846,9 @@
      "est": false
     }
    ],
-   "last_close": 101.53,
-   "close_date": "2026-10-21",
-   "avg_vol": 1249715,
+   "last_close": 111.7,
+   "close_date": "2026-10-22",
+   "avg_vol": 1359013,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -686,9 +886,9 @@
      "est": false
     }
    ],
-   "last_close": 231.9,
-   "close_date": "2026-10-21",
-   "avg_vol": 1652372,
+   "last_close": 221.9,
+   "close_date": "2026-10-22",
+   "avg_vol": 1547322,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -726,9 +926,9 @@
      "est": false
     }
    ],
-   "last_close": 104.79,
-   "close_date": "2026-10-21",
-   "avg_vol": 7531214,
+   "last_close": 102.88,
+   "close_date": "2026-10-22",
+   "avg_vol": 7091225,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -766,9 +966,9 @@
      "est": false
     }
    ],
-   "last_close": 374.55,
-   "close_date": "2026-10-21",
-   "avg_vol": 5087085,
+   "last_close": 361.8,
+   "close_date": "2026-10-22",
+   "avg_vol": 4742833,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -806,9 +1006,9 @@
      "est": false
     }
    ],
-   "last_close": 22.75,
-   "close_date": "2026-10-21",
-   "avg_vol": 35059195,
+   "last_close": 21.63,
+   "close_date": "2026-10-22",
+   "avg_vol": 32736255,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -851,9 +1051,9 @@
      "est": false
     }
    ],
-   "last_close": 108.0,
-   "close_date": "2026-10-21",
-   "avg_vol": 99545,
+   "last_close": 108.3,
+   "close_date": "2026-10-22",
+   "avg_vol": 91333,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -896,9 +1096,9 @@
      "est": false
     }
    ],
-   "last_close": 232.75,
-   "close_date": "2026-10-21",
-   "avg_vol": 306600,
+   "last_close": 208.7,
+   "close_date": "2026-10-22",
+   "avg_vol": 294646,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -936,9 +1136,9 @@
      "est": false
     }
    ],
-   "last_close": 408.65,
-   "close_date": "2026-10-21",
-   "avg_vol": 1611562,
+   "last_close": 386.35,
+   "close_date": "2026-10-22",
+   "avg_vol": 1511859,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -976,9 +1176,9 @@
      "est": false
     }
    ],
-   "last_close": 252.7,
-   "close_date": "2026-10-21",
-   "avg_vol": 2000022,
+   "last_close": 265.45,
+   "close_date": "2026-10-22",
+   "avg_vol": 1907246,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1021,9 +1221,9 @@
      "est": false
     }
    ],
-   "last_close": 93.0,
-   "close_date": "2026-10-21",
-   "avg_vol": 251384,
+   "last_close": 91.0,
+   "close_date": "2026-10-22",
+   "avg_vol": 237714,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1066,9 +1266,9 @@
      "est": false
     }
    ],
-   "last_close": 128.5,
-   "close_date": "2026-10-21",
-   "avg_vol": 212657,
+   "last_close": 126.05,
+   "close_date": "2026-10-22",
+   "avg_vol": 200480,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1106,9 +1306,9 @@
      "est": false
     }
    ],
-   "last_close": 54.53,
-   "close_date": "2026-10-21",
-   "avg_vol": 246609425,
+   "last_close": 52.61,
+   "close_date": "2026-10-22",
+   "avg_vol": 233193565,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1151,9 +1351,9 @@
      "est": false
     }
    ],
-   "last_close": 94.05,
-   "close_date": "2026-10-21",
-   "avg_vol": 207314,
+   "last_close": 92.0,
+   "close_date": "2026-10-22",
+   "avg_vol": 194346,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1191,9 +1391,9 @@
      "est": false
     }
    ],
-   "last_close": 236.91,
-   "close_date": "2026-10-21",
-   "avg_vol": 1238828,
+   "last_close": 208.22,
+   "close_date": "2026-10-22",
+   "avg_vol": 1221854,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1231,9 +1431,9 @@
      "est": false
     }
    ],
-   "last_close": 304.7,
-   "close_date": "2026-10-21",
-   "avg_vol": 5129520,
+   "last_close": 300.0,
+   "close_date": "2026-10-22",
+   "avg_vol": 4830395,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1271,9 +1471,9 @@
      "est": false
     }
    ],
-   "last_close": 166.55,
-   "close_date": "2026-10-21",
-   "avg_vol": 1065721,
+   "last_close": 162.89,
+   "close_date": "2026-10-22",
+   "avg_vol": 1031210,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1316,9 +1516,9 @@
      "est": false
     }
    ],
-   "last_close": 143.85,
-   "close_date": "2026-10-21",
-   "avg_vol": 398025,
+   "last_close": 135.4,
+   "close_date": "2026-10-22",
+   "avg_vol": 381035,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1361,9 +1561,9 @@
      "est": false
     }
    ],
-   "last_close": 40.06,
-   "close_date": "2026-10-21",
-   "avg_vol": 201000,
+   "last_close": 41.32,
+   "close_date": "2026-10-22",
+   "avg_vol": 193588,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1401,9 +1601,9 @@
      "est": false
     }
    ],
-   "last_close": 132.87,
-   "close_date": "2026-10-21",
-   "avg_vol": 5565175,
+   "last_close": 135.12,
+   "close_date": "2026-10-22",
+   "avg_vol": 5292617,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1446,9 +1646,9 @@
      "est": false
     }
    ],
-   "last_close": 123.55,
-   "close_date": "2026-10-21",
-   "avg_vol": 168720,
+   "last_close": 137.2,
+   "close_date": "2026-10-22",
+   "avg_vol": 159450,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1491,9 +1691,9 @@
      "est": false
     }
    ],
-   "last_close": 127.3,
-   "close_date": "2026-10-21",
-   "avg_vol": 250200,
+   "last_close": 127.25,
+   "close_date": "2026-10-22",
+   "avg_vol": 239717,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1536,9 +1736,9 @@
      "est": false
     }
    ],
-   "last_close": 36.9,
-   "close_date": "2026-10-21",
-   "avg_vol": 439294,
+   "last_close": 34.2,
+   "close_date": "2026-10-22",
+   "avg_vol": 417000,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1581,9 +1781,9 @@
      "est": false
     }
    ],
-   "last_close": 87.4,
-   "close_date": "2026-10-21",
-   "avg_vol": 154800,
+   "last_close": 101.2,
+   "close_date": "2026-10-22",
+   "avg_vol": 161810,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1626,9 +1826,9 @@
      "est": false
     }
    ],
-   "last_close": 246.85,
-   "close_date": "2026-10-21",
-   "avg_vol": 246066,
+   "last_close": 245.35,
+   "close_date": "2026-10-22",
+   "avg_vol": 234378,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1666,9 +1866,9 @@
      "est": false
     }
    ],
-   "last_close": 95.29,
-   "close_date": "2026-10-21",
-   "avg_vol": 411558,
+   "last_close": 95.88,
+   "close_date": "2026-10-22",
+   "avg_vol": 417025,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1706,9 +1906,9 @@
      "est": false
     }
    ],
-   "last_close": 1706.55,
-   "close_date": "2026-10-21",
-   "avg_vol": 5157441,
+   "last_close": 1695.6,
+   "close_date": "2026-10-22",
+   "avg_vol": 4976497,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1746,9 +1946,9 @@
      "est": false
     }
    ],
-   "last_close": 122.71,
-   "close_date": "2026-10-21",
-   "avg_vol": 66034292,
+   "last_close": 116.58,
+   "close_date": "2026-10-22",
+   "avg_vol": 63758585,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1786,9 +1986,9 @@
      "est": false
     }
    ],
-   "last_close": 150.02,
-   "close_date": "2026-10-21",
-   "avg_vol": 1297178,
+   "last_close": 143.82,
+   "close_date": "2026-10-22",
+   "avg_vol": 1244423,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1826,9 +2026,9 @@
      "est": false
     }
    ],
-   "last_close": 695.95,
-   "close_date": "2026-10-21",
-   "avg_vol": 13660595,
+   "last_close": 677.4,
+   "close_date": "2026-10-22",
+   "avg_vol": 13082345,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1871,9 +2071,9 @@
      "est": false
     }
    ],
-   "last_close": 50.1,
-   "close_date": "2026-10-21",
-   "avg_vol": 197368,
+   "last_close": 49.81,
+   "close_date": "2026-10-22",
+   "avg_vol": 192300,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1911,9 +2111,9 @@
      "est": false
     }
    ],
-   "last_close": 46.17,
-   "close_date": "2026-10-21",
-   "avg_vol": 2970076,
+   "last_close": 45.85,
+   "close_date": "2026-10-22",
+   "avg_vol": 2886452,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1956,9 +2156,9 @@
      "est": false
     }
    ],
-   "last_close": 55.25,
-   "close_date": "2026-10-21",
-   "avg_vol": 84631,
+   "last_close": 56.0,
+   "close_date": "2026-10-22",
+   "avg_vol": 80720,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2001,9 +2201,9 @@
      "est": false
     }
    ],
-   "last_close": 95.7,
-   "close_date": "2026-10-19",
-   "avg_vol": 117347,
+   "last_close": 96.0,
+   "close_date": "2026-10-22",
+   "avg_vol": 112020,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2046,9 +2246,9 @@
      "est": false
     }
    ],
-   "last_close": 239.5,
-   "close_date": "2026-10-21",
-   "avg_vol": 273981,
+   "last_close": 238.5,
+   "close_date": "2026-10-22",
+   "avg_vol": 266582,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2091,9 +2291,9 @@
      "est": false
     }
    ],
-   "last_close": 239.05,
-   "close_date": "2026-10-21",
-   "avg_vol": 283072,
+   "last_close": 231.65,
+   "close_date": "2026-10-22",
+   "avg_vol": 272400,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2131,9 +2331,9 @@
      "est": false
     }
    ],
-   "last_close": 133.17,
-   "close_date": "2026-10-21",
-   "avg_vol": 899025,
+   "last_close": 131.16,
+   "close_date": "2026-10-22",
+   "avg_vol": 864611,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2176,9 +2376,9 @@
      "est": false
     }
    ],
-   "last_close": 87.99,
-   "close_date": "2026-10-21",
-   "avg_vol": 160654,
+   "last_close": 85.5,
+   "close_date": "2026-10-22",
+   "avg_vol": 153808,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2216,9 +2416,9 @@
      "est": false
     }
    ],
-   "last_close": 128.53,
-   "close_date": "2026-10-21",
-   "avg_vol": 3106213,
+   "last_close": 124.45,
+   "close_date": "2026-10-22",
+   "avg_vol": 2982887,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2261,9 +2461,9 @@
      "est": false
     }
    ],
-   "last_close": 99.65,
-   "close_date": "2026-10-21",
-   "avg_vol": 182330,
+   "last_close": 96.5,
+   "close_date": "2026-10-22",
+   "avg_vol": 180066,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2301,9 +2501,9 @@
      "est": false
     }
    ],
-   "last_close": 314.6,
-   "close_date": "2026-10-21",
-   "avg_vol": 2355623,
+   "last_close": 308.55,
+   "close_date": "2026-10-22",
+   "avg_vol": 2298398,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2341,9 +2541,9 @@
      "est": false
     }
    ],
-   "last_close": 359.1,
-   "close_date": "2026-10-21",
-   "avg_vol": 5650910,
+   "last_close": 363.5,
+   "close_date": "2026-10-22",
+   "avg_vol": 5443395,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2381,9 +2581,9 @@
      "est": false
     }
    ],
-   "last_close": 126.62,
-   "close_date": "2026-10-21",
-   "avg_vol": 11776773,
+   "last_close": 128.95,
+   "close_date": "2026-10-22",
+   "avg_vol": 11374389,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2421,9 +2621,9 @@
      "est": false
     }
    ],
-   "last_close": 130.13,
-   "close_date": "2026-10-21",
-   "avg_vol": 4781193,
+   "last_close": 124.38,
+   "close_date": "2026-10-22",
+   "avg_vol": 4637049,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2461,9 +2661,9 @@
      "est": false
     }
    ],
-   "last_close": 550.55,
-   "close_date": "2026-10-21",
-   "avg_vol": 7194827,
+   "last_close": 530.85,
+   "close_date": "2026-10-22",
+   "avg_vol": 6929708,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2501,9 +2701,9 @@
      "est": false
     }
    ],
-   "last_close": 89.88,
-   "close_date": "2026-10-21",
-   "avg_vol": 5672505,
+   "last_close": 91.77,
+   "close_date": "2026-10-22",
+   "avg_vol": 5898452,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2541,9 +2741,9 @@
      "est": false
     }
    ],
-   "last_close": 231.5,
-   "close_date": "2026-10-21",
-   "avg_vol": 20407057,
+   "last_close": 218.75,
+   "close_date": "2026-10-22",
+   "avg_vol": 19665346,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2581,9 +2781,9 @@
      "est": false
     }
    ],
-   "last_close": 708.0,
-   "close_date": "2026-10-21",
-   "avg_vol": 772634,
+   "last_close": 702.85,
+   "close_date": "2026-10-22",
+   "avg_vol": 746960,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2621,9 +2821,9 @@
      "est": false
     }
    ],
-   "last_close": 1031.5,
-   "close_date": "2026-10-21",
-   "avg_vol": 8727304,
+   "last_close": 990.25,
+   "close_date": "2026-10-22",
+   "avg_vol": 8453932,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2666,9 +2866,9 @@
      "est": false
     }
    ],
-   "last_close": 171.2,
-   "close_date": "2026-10-21",
-   "avg_vol": 177615,
+   "last_close": 176.0,
+   "close_date": "2026-10-22",
+   "avg_vol": 171518,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2711,9 +2911,9 @@
      "est": false
     }
    ],
-   "last_close": 44.0,
-   "close_date": "2026-10-16",
-   "avg_vol": 81333,
+   "last_close": 43.0,
+   "close_date": "2026-10-22",
+   "avg_vol": 78642,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2756,9 +2956,9 @@
      "est": false
     }
    ],
-   "last_close": 198.3,
-   "close_date": "2026-10-21",
-   "avg_vol": 309386,
+   "last_close": 207.5,
+   "close_date": "2026-10-22",
+   "avg_vol": 196266,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2801,9 +3001,9 @@
      "est": false
     }
    ],
-   "last_close": 125.5,
-   "close_date": "2026-10-21",
-   "avg_vol": 310960,
+   "last_close": 127.25,
+   "close_date": "2026-10-22",
+   "avg_vol": 205800,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2841,9 +3041,9 @@
      "est": false
     }
    ],
-   "last_close": 273.97,
-   "close_date": "2026-10-21",
-   "avg_vol": 1006146,
+   "last_close": 263.39,
+   "close_date": "2026-10-22",
+   "avg_vol": 989274,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2881,9 +3081,9 @@
      "est": false
     }
    ],
-   "last_close": 249.97,
-   "close_date": "2026-10-21",
-   "avg_vol": 7661802,
+   "last_close": 244.21,
+   "close_date": "2026-10-22",
+   "avg_vol": 7518993,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2921,9 +3121,9 @@
      "est": false
     }
    ],
-   "last_close": 1364.7,
-   "close_date": "2026-10-21",
-   "avg_vol": 2344614,
+   "last_close": 1296.5,
+   "close_date": "2026-10-22",
+   "avg_vol": 2322795,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2961,9 +3161,9 @@
      "est": false
     }
    ],
-   "last_close": 306.65,
-   "close_date": "2026-10-21",
-   "avg_vol": 818630,
+   "last_close": 298.85,
+   "close_date": "2026-10-22",
+   "avg_vol": 809863,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3001,9 +3201,9 @@
      "est": false
     }
    ],
-   "last_close": 517.25,
-   "close_date": "2026-10-21",
-   "avg_vol": 459591,
+   "last_close": 516.8,
+   "close_date": "2026-10-22",
+   "avg_vol": 176268,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3041,9 +3241,9 @@
      "est": false
     }
    ],
-   "last_close": 96.67,
-   "close_date": "2026-10-21",
-   "avg_vol": 11141289,
+   "last_close": 94.25,
+   "close_date": "2026-10-22",
+   "avg_vol": 9724191,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3086,9 +3286,9 @@
      "est": false
     }
    ],
-   "last_close": 37.77,
-   "close_date": "2026-10-21",
-   "avg_vol": 161300,
+   "last_close": 36.33,
+   "close_date": "2026-10-22",
+   "avg_vol": 141100,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3131,9 +3331,9 @@
      "est": false
     }
    ],
-   "last_close": 170.05,
-   "close_date": "2026-10-21",
-   "avg_vol": 85566,
+   "last_close": 167.0,
+   "close_date": "2026-10-22",
+   "avg_vol": 74800,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3176,9 +3376,9 @@
      "est": false
     }
    ],
-   "last_close": 190.45,
-   "close_date": "2026-10-21",
-   "avg_vol": 344693,
+   "last_close": 203.85,
+   "close_date": "2026-10-22",
+   "avg_vol": 319680,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3221,9 +3421,9 @@
      "est": false
     }
    ],
-   "last_close": 95.35,
-   "close_date": "2026-10-21",
-   "avg_vol": 143440,
+   "last_close": 94.15,
+   "close_date": "2026-10-22",
+   "avg_vol": 125960,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3266,9 +3466,9 @@
      "est": false
     }
    ],
-   "last_close": 57.65,
-   "close_date": "2026-10-21",
-   "avg_vol": 123520,
+   "last_close": 57.9,
+   "close_date": "2026-10-22",
+   "avg_vol": 126080,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3306,9 +3506,9 @@
      "est": false
     }
    ],
-   "last_close": 104.07,
-   "close_date": "2026-10-21",
-   "avg_vol": 7277086,
+   "last_close": 100.02,
+   "close_date": "2026-10-22",
+   "avg_vol": 6980069,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3346,9 +3546,9 @@
      "est": false
     }
    ],
-   "last_close": 78.46,
-   "close_date": "2026-10-21",
-   "avg_vol": 4529497,
+   "last_close": 76.9,
+   "close_date": "2026-10-22",
+   "avg_vol": 4548911,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3386,9 +3586,9 @@
      "est": false
     }
    ],
-   "last_close": 1208.4,
-   "close_date": "2026-10-21",
-   "avg_vol": 1404637,
+   "last_close": 1197.5,
+   "close_date": "2026-10-22",
+   "avg_vol": 1311627,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3426,9 +3626,9 @@
      "est": false
     }
    ],
-   "last_close": 1214.6,
-   "close_date": "2026-10-21",
-   "avg_vol": 974489,
+   "last_close": 1153.9,
+   "close_date": "2026-10-22",
+   "avg_vol": 931123,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3466,9 +3666,9 @@
      "est": false
     }
    ],
-   "last_close": 512.85,
-   "close_date": "2026-10-21",
-   "avg_vol": 2500911,
+   "last_close": 506.2,
+   "close_date": "2026-10-22",
+   "avg_vol": 2470154,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3506,9 +3706,9 @@
      "est": false
     }
    ],
-   "last_close": 126.56,
-   "close_date": "2026-10-21",
-   "avg_vol": 1187504,
+   "last_close": 123.92,
+   "close_date": "2026-10-22",
+   "avg_vol": 1163262,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3546,9 +3746,9 @@
      "est": false
     }
    ],
-   "last_close": 410.3,
-   "close_date": "2026-10-21",
-   "avg_vol": 1384639,
+   "last_close": 391.65,
+   "close_date": "2026-10-22",
+   "avg_vol": 1273701,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3586,9 +3786,9 @@
      "est": false
     }
    ],
-   "last_close": 101.85,
-   "close_date": "2026-10-21",
-   "avg_vol": 6124841,
+   "last_close": 101.19,
+   "close_date": "2026-10-22",
+   "avg_vol": 5953466,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3631,9 +3831,9 @@
      "est": false
     }
    ],
-   "last_close": 103.6,
-   "close_date": "2026-10-21",
-   "avg_vol": 52680,
+   "last_close": 103.75,
+   "close_date": "2026-10-22",
+   "avg_vol": 51240,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3671,9 +3871,9 @@
      "est": false
     }
    ],
-   "last_close": 355.45,
-   "close_date": "2026-10-21",
-   "avg_vol": 6516215,
+   "last_close": 352.6,
+   "close_date": "2026-10-22",
+   "avg_vol": 5753997,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3711,9 +3911,9 @@
      "est": false
     }
    ],
-   "last_close": 45.8,
-   "close_date": "2026-10-21",
-   "avg_vol": 2969203,
+   "last_close": 43.79,
+   "close_date": "2026-10-22",
+   "avg_vol": 3037367,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3756,9 +3956,9 @@
      "est": false
     }
    ],
-   "last_close": 395.35,
-   "close_date": "2026-10-21",
-   "avg_vol": 95033,
+   "last_close": 377.75,
+   "close_date": "2026-10-22",
+   "avg_vol": 85366,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3801,9 +4001,9 @@
      "est": false
     }
    ],
-   "last_close": 323.2,
-   "close_date": "2026-10-21",
-   "avg_vol": 75700,
+   "last_close": 308.95,
+   "close_date": "2026-10-22",
+   "avg_vol": 72240,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3846,9 +4046,9 @@
      "est": false
     }
    ],
-   "last_close": 111.4,
-   "close_date": "2026-10-21",
-   "avg_vol": 143320,
+   "last_close": 111.05,
+   "close_date": "2026-10-22",
+   "avg_vol": 141440,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3886,9 +4086,9 @@
      "est": false
     }
    ],
-   "last_close": 121.63,
-   "close_date": "2026-10-21",
-   "avg_vol": 4960271,
+   "last_close": 121.85,
+   "close_date": "2026-10-22",
+   "avg_vol": 4703016,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3926,9 +4126,9 @@
      "est": false
     }
    ],
-   "last_close": 447.4,
-   "close_date": "2026-10-21",
-   "avg_vol": 1577672,
+   "last_close": 450.95,
+   "close_date": "2026-10-22",
+   "avg_vol": 1507162,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3971,9 +4171,9 @@
      "est": false
     }
    ],
-   "last_close": 109.0,
-   "close_date": "2026-10-21",
-   "avg_vol": 38733,
+   "last_close": 99.65,
+   "close_date": "2026-10-22",
+   "avg_vol": 40033,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4016,9 +4216,9 @@
      "est": false
     }
    ],
-   "last_close": 115.0,
-   "close_date": "2026-10-21",
-   "avg_vol": 58840,
+   "last_close": 113.35,
+   "close_date": "2026-10-22",
+   "avg_vol": 58360,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4056,9 +4256,9 @@
      "est": false
     }
    ],
-   "last_close": 277.6,
-   "close_date": "2026-10-21",
-   "avg_vol": 5321761,
+   "last_close": 272.85,
+   "close_date": "2026-10-22",
+   "avg_vol": 4178007,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4096,9 +4296,9 @@
      "est": false
     }
    ],
-   "last_close": 1322.6,
-   "close_date": "2026-10-21",
-   "avg_vol": 3448800,
+   "last_close": 1259.7,
+   "close_date": "2026-10-22",
+   "avg_vol": 3451077,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4141,9 +4341,9 @@
      "est": false
     }
    ],
-   "last_close": 151.0,
-   "close_date": "2026-10-21",
-   "avg_vol": 75013,
+   "last_close": 148.15,
+   "close_date": "2026-10-22",
+   "avg_vol": 43466,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4181,9 +4381,9 @@
      "est": false
     }
    ],
-   "last_close": 1429.9,
-   "close_date": "2026-10-21",
-   "avg_vol": 1565197,
+   "last_close": 1401.4,
+   "close_date": "2026-10-22",
+   "avg_vol": 1524050,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4221,9 +4421,9 @@
      "est": false
     }
    ],
-   "last_close": 494.5,
-   "close_date": "2026-10-21",
-   "avg_vol": 1459806,
+   "last_close": 492.45,
+   "close_date": "2026-10-22",
+   "avg_vol": 1408934,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4261,9 +4461,9 @@
      "est": false
     }
    ],
-   "last_close": 129.3,
-   "close_date": "2026-10-21",
-   "avg_vol": 1905004,
+   "last_close": 125.29,
+   "close_date": "2026-10-22",
+   "avg_vol": 1867272,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4301,9 +4501,9 @@
      "est": false
     }
    ],
-   "last_close": 44.13,
-   "close_date": "2026-10-21",
-   "avg_vol": 2882405,
+   "last_close": 43.37,
+   "close_date": "2026-10-22",
+   "avg_vol": 2798713,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4346,9 +4546,9 @@
      "est": false
     }
    ],
-   "last_close": 112.05,
-   "close_date": "2026-10-21",
-   "avg_vol": 42800,
+   "last_close": 107.65,
+   "close_date": "2026-10-22",
+   "avg_vol": 42040,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4391,9 +4591,9 @@
      "est": false
     }
    ],
-   "last_close": 409.35,
-   "close_date": "2026-10-21",
-   "avg_vol": 207306,
+   "last_close": 401.4,
+   "close_date": "2026-10-22",
+   "avg_vol": 202000,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4436,9 +4636,9 @@
      "est": false
     }
    ],
-   "last_close": 162.0,
-   "close_date": "2026-10-21",
-   "avg_vol": 7733,
+   "last_close": 167.0,
+   "close_date": "2026-10-22",
+   "avg_vol": 7946,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4521,9 +4721,9 @@
      "est": false
     }
    ],
-   "last_close": 248.95,
-   "close_date": "2026-10-21",
-   "avg_vol": 686734,
+   "last_close": 243.55,
+   "close_date": "2026-10-22",
+   "avg_vol": 687704,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4566,9 +4766,9 @@
      "est": false
     }
    ],
-   "last_close": 58.0,
-   "close_date": "2026-10-21",
-   "avg_vol": 25760,
+   "last_close": 60.95,
+   "close_date": "2026-10-22",
+   "avg_vol": 24960,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4606,9 +4806,9 @@
      "est": false
     }
    ],
-   "last_close": 866.35,
-   "close_date": "2026-10-21",
-   "avg_vol": 4530281,
+   "last_close": 817.15,
+   "close_date": "2026-10-22",
+   "avg_vol": 3907781,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4651,9 +4851,9 @@
      "est": false
     }
    ],
-   "last_close": 115.85,
-   "close_date": "2026-10-21",
-   "avg_vol": 35840,
+   "last_close": 114.0,
+   "close_date": "2026-10-22",
+   "avg_vol": 35160,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4691,9 +4891,9 @@
      "est": false
     }
    ],
-   "last_close": 627.55,
-   "close_date": "2026-10-21",
-   "avg_vol": 947826,
+   "last_close": 625.4,
+   "close_date": "2026-10-22",
+   "avg_vol": 898380,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4736,9 +4936,9 @@
      "est": false
     }
    ],
-   "last_close": 821.8,
-   "close_date": "2026-10-21",
-   "avg_vol": 88586,
+   "last_close": 873.65,
+   "close_date": "2026-10-22",
+   "avg_vol": 87733,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4782,8 +4982,8 @@
     }
    ],
    "last_close": 118.0,
-   "close_date": "2026-10-21",
-   "avg_vol": 57633,
+   "close_date": "2026-10-22",
+   "avg_vol": 57700,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4821,9 +5021,9 @@
      "est": false
     }
    ],
-   "last_close": 285.5,
-   "close_date": "2026-10-21",
-   "avg_vol": 2076097,
+   "last_close": 277.3,
+   "close_date": "2026-10-22",
+   "avg_vol": 1630042,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4861,9 +5061,9 @@
      "est": false
     }
    ],
-   "last_close": 569.9,
-   "close_date": "2026-10-21",
-   "avg_vol": 485761,
+   "last_close": 567.25,
+   "close_date": "2026-10-22",
+   "avg_vol": 480201,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4901,9 +5101,9 @@
      "est": false
     }
    ],
-   "last_close": 1124.0,
-   "close_date": "2026-10-21",
-   "avg_vol": 1905850,
+   "last_close": 1096.9,
+   "close_date": "2026-10-22",
+   "avg_vol": 1886182,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4946,8 +5146,8 @@
      "est": false
     }
    ],
-   "last_close": 50.9,
-   "close_date": "2026-10-21",
+   "last_close": 48.6,
+   "close_date": "2026-10-22",
    "avg_vol": 12600,
    "issue_px": null,
    "chg_from_issue_pct": null
@@ -4991,9 +5191,9 @@
      "est": false
     }
    ],
-   "last_close": 157.75,
-   "close_date": "2026-10-21",
-   "avg_vol": 76266,
+   "last_close": 152.35,
+   "close_date": "2026-10-22",
+   "avg_vol": 75306,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5031,9 +5231,9 @@
      "est": false
     }
    ],
-   "last_close": 529.6,
-   "close_date": "2026-10-21",
-   "avg_vol": 1502274,
+   "last_close": 522.7,
+   "close_date": "2026-10-22",
+   "avg_vol": 1508644,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5076,9 +5276,9 @@
      "est": false
     }
    ],
-   "last_close": 240.0,
-   "close_date": "2026-10-21",
-   "avg_vol": 43500,
+   "last_close": 231.95,
+   "close_date": "2026-10-22",
+   "avg_vol": 43900,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5121,9 +5321,9 @@
      "est": false
     }
    ],
-   "last_close": 1001.7,
-   "close_date": "2026-10-21",
-   "avg_vol": 93080,
+   "last_close": 1002.5,
+   "close_date": "2026-10-22",
+   "avg_vol": 91626,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5161,9 +5361,9 @@
      "est": false
     }
    ],
-   "last_close": 478.8,
-   "close_date": "2026-10-21",
-   "avg_vol": 1152086,
+   "last_close": 471.7,
+   "close_date": "2026-10-22",
+   "avg_vol": 1180145,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5201,9 +5401,9 @@
      "est": false
     }
    ],
-   "last_close": 215.85,
-   "close_date": "2026-10-21",
-   "avg_vol": 770509,
+   "last_close": 217.2,
+   "close_date": "2026-10-22",
+   "avg_vol": 754985,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5248,9 +5448,9 @@
      "est": false
     }
    ],
-   "last_close": 65.8,
-   "close_date": "2026-10-21",
-   "avg_vol": 42800,
+   "last_close": 64.95,
+   "close_date": "2026-10-22",
+   "avg_vol": 40333,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5295,9 +5495,9 @@
      "est": false
     }
    ],
-   "last_close": 356.05,
-   "close_date": "2026-10-21",
-   "avg_vol": 55840,
+   "last_close": 350.4,
+   "close_date": "2026-10-22",
+   "avg_vol": 50960,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5335,9 +5535,9 @@
      "est": false
     }
    ],
-   "last_close": 575.25,
-   "close_date": "2026-10-21",
-   "avg_vol": 302262,
+   "last_close": 568.3,
+   "close_date": "2026-10-22",
+   "avg_vol": 305345,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5382,9 +5582,9 @@
      "est": false
     }
    ],
-   "last_close": 101.6,
-   "close_date": "2026-10-21",
-   "avg_vol": 79040,
+   "last_close": 108.0,
+   "close_date": "2026-10-22",
+   "avg_vol": 80240,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5422,9 +5622,9 @@
      "est": false
     }
    ],
-   "last_close": 199.09,
-   "close_date": "2026-10-21",
-   "avg_vol": 1053250,
+   "last_close": 206.12,
+   "close_date": "2026-10-22",
+   "avg_vol": 1054890,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5469,9 +5669,9 @@
      "est": false
     }
    ],
-   "last_close": 124.8,
-   "close_date": "2026-10-21",
-   "avg_vol": 63800,
+   "last_close": 121.0,
+   "close_date": "2026-10-22",
+   "avg_vol": 63266,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5516,9 +5716,9 @@
      "est": false
     }
    ],
-   "last_close": 132.0,
-   "close_date": "2026-10-21",
-   "avg_vol": 60106,
+   "last_close": 139.15,
+   "close_date": "2026-10-22",
+   "avg_vol": 60053,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5563,9 +5763,9 @@
      "est": false
     }
    ],
-   "last_close": 144.45,
-   "close_date": "2026-10-21",
-   "avg_vol": 19933,
+   "last_close": 148.0,
+   "close_date": "2026-10-22",
+   "avg_vol": 19166,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5603,9 +5803,9 @@
      "est": false
     }
    ],
-   "last_close": 86.67,
-   "close_date": "2026-10-21",
-   "avg_vol": 902496,
+   "last_close": 84.58,
+   "close_date": "2026-10-22",
+   "avg_vol": 911857,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5643,9 +5843,9 @@
      "est": false
     }
    ],
-   "last_close": 384.15,
-   "close_date": "2026-10-21",
-   "avg_vol": 779083,
+   "last_close": 374.1,
+   "close_date": "2026-10-22",
+   "avg_vol": 723391,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5730,9 +5930,9 @@
      "est": false
     }
    ],
-   "last_close": 161.5,
-   "close_date": "2026-10-19",
-   "avg_vol": 32133,
+   "last_close": 161.0,
+   "close_date": "2026-10-22",
+   "avg_vol": 30466,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5777,9 +5977,9 @@
      "est": false
     }
    ],
-   "last_close": 253.95,
-   "close_date": "2026-10-21",
-   "avg_vol": 62200,
+   "last_close": 247.9,
+   "close_date": "2026-10-22",
+   "avg_vol": 61900,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5817,9 +6017,9 @@
      "est": false
     }
    ],
-   "last_close": 62.67,
-   "close_date": "2026-10-21",
-   "avg_vol": 1990866,
+   "last_close": 59.54,
+   "close_date": "2026-10-22",
+   "avg_vol": 1991211,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5911,9 +6111,9 @@
      "est": false
     }
    ],
-   "last_close": 158.8,
-   "close_date": "2026-10-21",
-   "avg_vol": 57280,
+   "last_close": 156.95,
+   "close_date": "2026-10-22",
+   "avg_vol": 54600,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5958,9 +6158,9 @@
      "est": false
     }
    ],
-   "last_close": 240.1,
-   "close_date": "2026-10-21",
-   "avg_vol": 108600,
+   "last_close": 228.4,
+   "close_date": "2026-10-22",
+   "avg_vol": 107100,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6005,9 +6205,9 @@
      "est": false
     }
    ],
-   "last_close": 133.4,
-   "close_date": "2026-10-21",
-   "avg_vol": 88000,
+   "last_close": 125.8,
+   "close_date": "2026-10-22",
+   "avg_vol": 85920,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6045,9 +6245,9 @@
      "est": false
     }
    ],
-   "last_close": 64.5,
-   "close_date": "2026-10-21",
-   "avg_vol": 468183,
+   "last_close": 65.19,
+   "close_date": "2026-10-22",
+   "avg_vol": 480347,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6092,9 +6292,9 @@
      "est": false
     }
    ],
-   "last_close": 77.45,
-   "close_date": "2026-10-21",
-   "avg_vol": 55360,
+   "last_close": 78.45,
+   "close_date": "2026-10-22",
+   "avg_vol": 56440,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6132,9 +6332,9 @@
      "est": false
     }
    ],
-   "last_close": 212.84,
-   "close_date": "2026-10-21",
-   "avg_vol": 405868,
+   "last_close": 208.72,
+   "close_date": "2026-10-22",
+   "avg_vol": 418797,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6179,9 +6379,9 @@
      "est": false
     }
    ],
-   "last_close": 399.15,
-   "close_date": "2026-10-21",
-   "avg_vol": 161666,
+   "last_close": 418.6,
+   "close_date": "2026-10-22",
+   "avg_vol": 163033,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6226,9 +6426,9 @@
      "est": false
     }
    ],
-   "last_close": 27.5,
-   "close_date": "2026-10-21",
-   "avg_vol": 16400,
+   "last_close": 26.08,
+   "close_date": "2026-10-22",
+   "avg_vol": 16000,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6320,9 +6520,9 @@
      "est": false
     }
    ],
-   "last_close": 572.45,
-   "close_date": "2026-10-21",
-   "avg_vol": 95946,
+   "last_close": 569.0,
+   "close_date": "2026-10-22",
+   "avg_vol": 94466,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6367,9 +6567,9 @@
      "est": false
     }
    ],
-   "last_close": 236.8,
-   "close_date": "2026-10-21",
-   "avg_vol": 27306,
+   "last_close": 234.9,
+   "close_date": "2026-10-22",
+   "avg_vol": 26613,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6414,9 +6614,9 @@
      "est": false
     }
    ],
-   "last_close": 138.0,
-   "close_date": "2026-10-21",
-   "avg_vol": 38933,
+   "last_close": 139.0,
+   "close_date": "2026-10-22",
+   "avg_vol": 38733,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6508,9 +6708,9 @@
      "est": false
     }
    ],
-   "last_close": 408.35,
-   "close_date": "2026-10-21",
-   "avg_vol": 31280,
+   "last_close": 427.25,
+   "close_date": "2026-10-22",
+   "avg_vol": 31260,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6555,8 +6755,8 @@
      "est": false
     }
    ],
-   "last_close": 437.8,
-   "close_date": "2026-10-21",
+   "last_close": 445.0,
+   "close_date": "2026-10-22",
    "avg_vol": 21840,
    "issue_px": null,
    "chg_from_issue_pct": null
@@ -6595,9 +6795,9 @@
      "est": false
     }
    ],
-   "last_close": 330.05,
-   "close_date": "2026-10-21",
-   "avg_vol": 1571608,
+   "last_close": 325.55,
+   "close_date": "2026-10-22",
+   "avg_vol": 1525238,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6642,9 +6842,9 @@
      "est": false
     }
    ],
-   "last_close": 286.7,
-   "close_date": "2026-10-21",
-   "avg_vol": 154853,
+   "last_close": 292.35,
+   "close_date": "2026-10-22",
+   "avg_vol": 151520,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6689,9 +6889,9 @@
      "est": false
     }
    ],
-   "last_close": 123.05,
-   "close_date": "2026-10-21",
-   "avg_vol": 35720,
+   "last_close": 125.2,
+   "close_date": "2026-10-22",
+   "avg_vol": 35440,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6729,9 +6929,9 @@
      "est": false
     }
    ],
-   "last_close": 150.67,
-   "close_date": "2026-10-21",
-   "avg_vol": 138866,
+   "last_close": 134.19,
+   "close_date": "2026-10-22",
+   "avg_vol": 149821,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6776,9 +6976,9 @@
      "est": false
     }
    ],
-   "last_close": 76.2,
-   "close_date": "2026-10-21",
-   "avg_vol": 41440,
+   "last_close": 75.0,
+   "close_date": "2026-10-22",
+   "avg_vol": 41280,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6823,9 +7023,9 @@
      "est": false
     }
    ],
-   "last_close": 81.25,
-   "close_date": "2026-10-21",
-   "avg_vol": 26120,
+   "last_close": 83.46,
+   "close_date": "2026-10-22",
+   "avg_vol": 26320,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6870,9 +7070,9 @@
      "est": false
     }
    ],
-   "last_close": 1418.35,
-   "close_date": "2026-10-21",
-   "avg_vol": 31344,
+   "last_close": 1343.3,
+   "close_date": "2026-10-22",
+   "avg_vol": 29896,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6917,9 +7117,9 @@
      "est": false
     }
    ],
-   "last_close": 306.8,
-   "close_date": "2026-10-21",
-   "avg_vol": 13600,
+   "last_close": 312.9,
+   "close_date": "2026-10-22",
+   "avg_vol": 13920,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6957,9 +7157,9 @@
      "est": false
     }
    ],
-   "last_close": 208.98,
-   "close_date": "2026-10-21",
-   "avg_vol": 1059031,
+   "last_close": 203.87,
+   "close_date": "2026-10-22",
+   "avg_vol": 1088383,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6997,9 +7197,9 @@
      "est": false
     }
    ],
-   "last_close": 543.9,
-   "close_date": "2026-10-21",
-   "avg_vol": 196694,
+   "last_close": 529.3,
+   "close_date": "2026-10-22",
+   "avg_vol": 199582,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7037,9 +7237,9 @@
      "est": false
     }
    ],
-   "last_close": 467.6,
-   "close_date": "2026-10-21",
-   "avg_vol": 98760,
+   "last_close": 451.5,
+   "close_date": "2026-10-22",
+   "avg_vol": 103147,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7084,9 +7284,9 @@
      "est": false
     }
    ],
-   "last_close": 270.0,
-   "close_date": "2026-10-21",
-   "avg_vol": 113706,
+   "last_close": 283.5,
+   "close_date": "2026-10-22",
+   "avg_vol": 117333,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7124,9 +7324,9 @@
      "est": false
     }
    ],
-   "last_close": 190.08,
-   "close_date": "2026-10-21",
-   "avg_vol": 1347932,
+   "last_close": 184.95,
+   "close_date": "2026-10-22",
+   "avg_vol": 1282883,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7171,9 +7371,9 @@
      "est": false
     }
    ],
-   "last_close": 183.3,
-   "close_date": "2026-10-21",
-   "avg_vol": 165133,
+   "last_close": 180.05,
+   "close_date": "2026-10-22",
+   "avg_vol": 163833,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7211,9 +7411,9 @@
      "est": false
     }
    ],
-   "last_close": 451.65,
-   "close_date": "2026-10-21",
-   "avg_vol": 401470,
+   "last_close": 454.45,
+   "close_date": "2026-10-22",
+   "avg_vol": 405498,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7258,9 +7458,9 @@
      "est": false
     }
    ],
-   "last_close": 581.1,
-   "close_date": "2026-10-21",
-   "avg_vol": 25320,
+   "last_close": 569.5,
+   "close_date": "2026-10-22",
+   "avg_vol": 24280,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7298,9 +7498,9 @@
      "est": false
     }
    ],
-   "last_close": 3089.1,
-   "close_date": "2026-10-21",
-   "avg_vol": 221524,
+   "last_close": 3101.8,
+   "close_date": "2026-10-22",
+   "avg_vol": 222143,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7345,9 +7545,9 @@
      "est": false
     }
    ],
-   "last_close": 62.62,
-   "close_date": "2026-10-21",
-   "avg_vol": 31733,
+   "last_close": 60.0,
+   "close_date": "2026-10-22",
+   "avg_vol": 31360,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7439,9 +7639,9 @@
      "est": false
     }
    ],
-   "last_close": 287.2,
-   "close_date": "2026-10-21",
-   "avg_vol": 127520,
+   "last_close": 295.65,
+   "close_date": "2026-10-22",
+   "avg_vol": 122506,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7486,9 +7686,9 @@
      "est": false
     }
    ],
-   "last_close": 494.0,
-   "close_date": "2026-10-21",
-   "avg_vol": 6560,
+   "last_close": 493.5,
+   "close_date": "2026-10-22",
+   "avg_vol": 6660,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7526,9 +7726,9 @@
      "est": false
     }
    ],
-   "last_close": 593.05,
-   "close_date": "2026-10-21",
-   "avg_vol": 898776,
+   "last_close": 685.2,
+   "close_date": "2026-10-22",
+   "avg_vol": 1593004,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7573,9 +7773,9 @@
      "est": false
     }
    ],
-   "last_close": 98.85,
-   "close_date": "2026-10-21",
-   "avg_vol": 16200,
+   "last_close": 95.0,
+   "close_date": "2026-10-22",
+   "avg_vol": 15433,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7620,9 +7820,9 @@
      "est": false
     }
    ],
-   "last_close": 299.3,
-   "close_date": "2026-10-21",
-   "avg_vol": 29420,
+   "last_close": 307.85,
+   "close_date": "2026-10-22",
+   "avg_vol": 31340,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7660,9 +7860,9 @@
      "est": false
     }
    ],
-   "last_close": 135.2,
-   "close_date": "2026-10-21",
-   "avg_vol": 8800,
+   "last_close": 135.0,
+   "close_date": "2026-10-22",
+   "avg_vol": 7833,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7700,9 +7900,9 @@
      "est": false
     }
    ],
-   "last_close": 685.0,
-   "close_date": "2026-10-21",
-   "avg_vol": 992479,
+   "last_close": 656.65,
+   "close_date": "2026-10-22",
+   "avg_vol": 981852,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7747,9 +7947,9 @@
      "est": false
     }
    ],
-   "last_close": 103.95,
-   "close_date": "2026-10-21",
-   "avg_vol": 12000,
+   "last_close": 104.2,
+   "close_date": "2026-10-22",
+   "avg_vol": 12213,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7787,9 +7987,9 @@
      "est": false
     }
    ],
-   "last_close": 1218.5,
-   "close_date": "2026-10-21",
-   "avg_vol": 888015,
+   "last_close": 1204.3,
+   "close_date": "2026-10-22",
+   "avg_vol": 881827,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7881,9 +8081,9 @@
      "est": false
     }
    ],
-   "last_close": 93.49,
-   "close_date": "2026-10-21",
-   "avg_vol": 185800,
+   "last_close": 88.82,
+   "close_date": "2026-10-22",
+   "avg_vol": 185300,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7921,9 +8121,9 @@
      "est": false
     }
    ],
-   "last_close": 94.95,
-   "close_date": "2026-10-21",
-   "avg_vol": 208277,
+   "last_close": 93.83,
+   "close_date": "2026-10-22",
+   "avg_vol": 206955,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7968,9 +8168,9 @@
      "est": false
     }
    ],
-   "last_close": 199.8,
-   "close_date": "2026-10-21",
-   "avg_vol": 10960,
+   "last_close": 190.0,
+   "close_date": "2026-10-22",
+   "avg_vol": 11140,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8015,9 +8215,9 @@
      "est": false
     }
    ],
-   "last_close": 111.0,
-   "close_date": "2026-10-21",
-   "avg_vol": 21320,
+   "last_close": 109.25,
+   "close_date": "2026-10-22",
+   "avg_vol": 14200,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8102,9 +8302,9 @@
      "est": false
     }
    ],
-   "last_close": 139.85,
-   "close_date": "2026-10-21",
-   "avg_vol": 987598,
+   "last_close": 133.24,
+   "close_date": "2026-10-22",
+   "avg_vol": 994557,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8142,9 +8342,9 @@
      "est": false
     }
    ],
-   "last_close": 785.9,
-   "close_date": "2026-10-21",
-   "avg_vol": 749124,
+   "last_close": 752.4,
+   "close_date": "2026-10-22",
+   "avg_vol": 854061,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8189,9 +8389,9 @@
      "est": false
     }
    ],
-   "last_close": 394.8,
-   "close_date": "2026-10-21",
-   "avg_vol": 6613,
+   "last_close": 375.1,
+   "close_date": "2026-10-22",
+   "avg_vol": 6506,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8236,9 +8436,9 @@
      "est": false
     }
    ],
-   "last_close": 158.85,
-   "close_date": "2026-10-21",
-   "avg_vol": 11840,
+   "last_close": 155.9,
+   "close_date": "2026-10-22",
+   "avg_vol": 11813,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8283,9 +8483,9 @@
      "est": false
     }
    ],
-   "last_close": 282.2,
-   "close_date": "2026-10-21",
-   "avg_vol": 57000,
+   "last_close": 282.15,
+   "close_date": "2026-10-22",
+   "avg_vol": 54833,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8330,9 +8530,9 @@
      "est": false
     }
    ],
-   "last_close": 298.7,
-   "close_date": "2026-10-21",
-   "avg_vol": 78693,
+   "last_close": 313.6,
+   "close_date": "2026-10-22",
+   "avg_vol": 78373,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8424,9 +8624,9 @@
      "est": false
     }
    ],
-   "last_close": 74.01,
-   "close_date": "2026-10-21",
-   "avg_vol": 82133,
+   "last_close": 73.5,
+   "close_date": "2026-10-22",
+   "avg_vol": 82066,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8471,8 +8671,8 @@
      "est": false
     }
    ],
-   "last_close": 94.0,
-   "close_date": "2026-10-21",
+   "last_close": 97.0,
+   "close_date": "2026-10-22",
    "avg_vol": 19066,
    "issue_px": null,
    "chg_from_issue_pct": null
@@ -8511,9 +8711,9 @@
      "est": false
     }
    ],
-   "last_close": 272.5,
-   "close_date": "2026-10-21",
-   "avg_vol": 4401406,
+   "last_close": 276.25,
+   "close_date": "2026-10-22",
+   "avg_vol": 4488006,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8558,9 +8758,9 @@
      "est": false
     }
    ],
-   "last_close": 178.9,
-   "close_date": "2026-10-21",
-   "avg_vol": 39520,
+   "last_close": 172.35,
+   "close_date": "2026-10-22",
+   "avg_vol": 38120,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8605,9 +8805,9 @@
      "est": false
     }
    ],
-   "last_close": 237.9,
-   "close_date": "2026-10-21",
-   "avg_vol": 106366,
+   "last_close": 233.05,
+   "close_date": "2026-10-22",
+   "avg_vol": 106333,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8652,9 +8852,9 @@
      "est": false
     }
    ],
-   "last_close": 242.0,
-   "close_date": "2026-10-21",
-   "avg_vol": 29400,
+   "last_close": 226.0,
+   "close_date": "2026-10-22",
+   "avg_vol": 29480,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8692,9 +8892,9 @@
      "est": false
     }
    ],
-   "last_close": 567.05,
-   "close_date": "2026-10-21",
-   "avg_vol": 287190,
+   "last_close": 560.0,
+   "close_date": "2026-10-22",
+   "avg_vol": 281576,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8739,8 +8939,8 @@
      "est": false
     }
    ],
-   "last_close": 79.8,
-   "close_date": "2026-10-21",
+   "last_close": 75.0,
+   "close_date": "2026-10-22",
    "avg_vol": 6666,
    "issue_px": null,
    "chg_from_issue_pct": null
@@ -8786,9 +8986,9 @@
      "est": false
     }
    ],
-   "last_close": 426.25,
-   "close_date": "2026-10-21",
-   "avg_vol": 69133,
+   "last_close": 394.1,
+   "close_date": "2026-10-22",
+   "avg_vol": 71500,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8833,9 +9033,9 @@
      "est": false
     }
    ],
-   "last_close": 153.9,
-   "close_date": "2026-10-21",
-   "avg_vol": 34933,
+   "last_close": 161.55,
+   "close_date": "2026-10-22",
+   "avg_vol": 34600,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8873,9 +9073,9 @@
      "est": false
     }
    ],
-   "last_close": 30.34,
-   "close_date": "2026-10-21",
-   "avg_vol": 5482227,
+   "last_close": 30.19,
+   "close_date": "2026-10-22",
+   "avg_vol": 5427952,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8920,9 +9120,9 @@
      "est": false
     }
    ],
-   "last_close": 124.0,
-   "close_date": "2026-10-21",
-   "avg_vol": 38720,
+   "last_close": 117.8,
+   "close_date": "2026-10-22",
+   "avg_vol": 33760,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8967,9 +9167,9 @@
      "est": false
     }
    ],
-   "last_close": 42.75,
-   "close_date": "2026-10-19",
-   "avg_vol": 20733,
+   "last_close": 44.5,
+   "close_date": "2026-10-22",
+   "avg_vol": 20866,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -9007,9 +9207,9 @@
      "est": false
     }
    ],
-   "last_close": 122.2,
-   "close_date": "2026-10-21",
-   "avg_vol": 193007,
+   "last_close": 120.61,
+   "close_date": "2026-10-22",
+   "avg_vol": 192394,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -9054,9 +9254,9 @@
      "est": false
     }
    ],
-   "last_close": 16.8,
-   "close_date": "2026-10-21",
-   "avg_vol": 30833,
+   "last_close": 17.2,
+   "close_date": "2026-10-22",
+   "avg_vol": 30500,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -9094,9 +9294,9 @@
      "est": false
     }
    ],
-   "last_close": 1575.6,
-   "close_date": "2026-10-21",
-   "avg_vol": 291887,
+   "last_close": 1558.5,
+   "close_date": "2026-10-22",
+   "avg_vol": 291012,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -9134,9 +9334,9 @@
      "est": false
     }
    ],
-   "last_close": 478.7,
-   "close_date": "2026-10-21",
-   "avg_vol": 108903,
+   "last_close": 483.9,
+   "close_date": "2026-10-22",
+   "avg_vol": 100879,
    "issue_px": null,
    "chg_from_issue_pct": null
   }
