@@ -277,18 +277,4 @@ DTEND;VALUE=DATE:20261025
 SUMMARY:🔓 Himalaya Nutravedics India Ltd. — 30D anchor unlock
 DESCRIPTION:https://www.chittorgarh.com/ipo/himalaya-nutravedics-ipo/2970/
 END:VEVENT
-BEGIN:VEVENT
-UID:fx-multitech-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:🔓 FX Multitech Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/fx-multitech-ipo/2849/
-END:VEVENT
-BEGIN:VEVENT
-UID:axiom-gas-engineering-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:🔓 Axiom Gas Engineering Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/axiom-gas-engineering-ipo/2193/
-END:VEVENT
 END:VCALENDAR
