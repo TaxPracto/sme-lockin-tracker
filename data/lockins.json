@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T12:05:14+05:30",
+ "generated_at": "2026-10-28T12:35:24+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -7,6 +7,76 @@
   2026
  ],
  "records": [
+  {
+   "company": "Paras Healthcare Ltd.",
+   "slug": "paras-healthcare-ipo",
+   "url": "https://www.chittorgarh.com/ipo/paras-healthcare-ipo/2256/",
+   "category": "Mainboard",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-11-24",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE661T01029",
+   "nse_symbol": "PARASHLTH",
+   "bse_code": 545005,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-11-24",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "Jio Platforms Ltd.",
+   "slug": "jio-platforms-ipo",
+   "url": "https://www.chittorgarh.com/ipo/jio-platforms-ipo/3152/",
+   "category": "Mainboard",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-11-24",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE0BJO01010",
+   "nse_symbol": "JPL",
+   "bse_code": 545004,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-11-24",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
   {
    "company": "Sahajanand Medical Technologies Ltd.",
    "slug": "sahajanand-medical-technologies-ipo",

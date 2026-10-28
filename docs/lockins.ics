@@ -5,6 +5,20 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:paras-healthcare-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:🔓 Paras Healthcare Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/paras-healthcare-ipo/2256/
+END:VEVENT
+BEGIN:VEVENT
+UID:jio-platforms-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:🔓 Jio Platforms Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/jio-platforms-ipo/3152/
+END:VEVENT
+BEGIN:VEVENT
 UID:sahajanand-medical-technologies-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
@@ -227,26 +241,5 @@ DTSTART;VALUE=DATE:20261028
 DTEND;VALUE=DATE:20261029
 SUMMARY:🔓 Unitec Fibres Ltd. — 30D anchor unlock
 DESCRIPTION:https://www.chittorgarh.com/ipo/unitec-fibres-ipo/3171/
-END:VEVENT
-BEGIN:VEVENT
-UID:swastika-infra-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261027
-DTEND;VALUE=DATE:20261028
-SUMMARY:🔓 Swastika Infra Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/swastika-infra-ipo/2287/
-END:VEVENT
-BEGIN:VEVENT
-UID:elevate-campuses-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261027
-DTEND;VALUE=DATE:20261028
-SUMMARY:🔓 Elevate Campuses Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/elevate-campuses-ipo/2647/
-END:VEVENT
-BEGIN:VEVENT
-UID:adroit-industries-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261027
-DTEND;VALUE=DATE:20261028
-SUMMARY:🔓 Adroit Industries (India) Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/adroit-industries-ipo/3007/
 END:VEVENT
 END:VCALENDAR
