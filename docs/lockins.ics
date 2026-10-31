@@ -12,13 +12,6 @@ SUMMARY:🔓 Core4 Engineers Ltd. — 30D anchor unlock
 DESCRIPTION:https://www.chittorgarh.com/ipo/core4-engineers-ipo/2969/
 END:VEVENT
 BEGIN:VEVENT
-UID:paras-healthcare-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261124
-DTEND;VALUE=DATE:20261125
-SUMMARY:🔓 Paras Healthcare Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/paras-healthcare-ipo/2256/
-END:VEVENT
-BEGIN:VEVENT
 UID:jio-platforms-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
@@ -26,32 +19,11 @@ SUMMARY:🔓 Jio Platforms Ltd. — 30D anchor unlock
 DESCRIPTION:https://www.chittorgarh.com/ipo/jio-platforms-ipo/3152/
 END:VEVENT
 BEGIN:VEVENT
-UID:sahajanand-medical-technologies-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:🔓 Sahajanand Medical Technologies Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/sahajanand-medical-technologies-ipo/2550/
-END:VEVENT
-BEGIN:VEVENT
-UID:bonfiglioli-transmissions-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:🔓 Bonfiglioli Transmissions Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/bonfiglioli-transmissions-ipo/2861/
-END:VEVENT
-BEGIN:VEVENT
-UID:shellz-india-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:🔓 Shellz India Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/shellz-india-ipo/2966/
-END:VEVENT
-BEGIN:VEVENT
-UID:zetwerk-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:🔓 Zetwerk Manufacturing Business Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/zetwerk-ipo/3091/
+UID:paras-healthcare-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:🔓 Paras Healthcare Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/paras-healthcare-ipo/2256/
 END:VEVENT
 BEGIN:VEVENT
 UID:tonbo-imaging-india-ipo-A30@unlockradar
@@ -61,11 +33,32 @@ SUMMARY:🔓 Tonbo Imaging India Ltd. — 30D anchor unlock
 DESCRIPTION:https://www.chittorgarh.com/ipo/tonbo-imaging-india-ipo/3215/
 END:VEVENT
 BEGIN:VEVENT
-UID:fusion-cx-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261117
-DTEND;VALUE=DATE:20261118
-SUMMARY:🔓 Fusion CX Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/fusion-cx-ipo/2455/
+UID:zetwerk-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:🔓 Zetwerk Manufacturing Business Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/zetwerk-ipo/3091/
+END:VEVENT
+BEGIN:VEVENT
+UID:shellz-india-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:🔓 Shellz India Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/shellz-india-ipo/2966/
+END:VEVENT
+BEGIN:VEVENT
+UID:bonfiglioli-transmissions-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:🔓 Bonfiglioli Transmissions Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/bonfiglioli-transmissions-ipo/2861/
+END:VEVENT
+BEGIN:VEVENT
+UID:sahajanand-medical-technologies-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:🔓 Sahajanand Medical Technologies Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/sahajanand-medical-technologies-ipo/2550/
 END:VEVENT
 BEGIN:VEVENT
 UID:ravita-engineering-services-ipo-A30@unlockradar
@@ -75,11 +68,11 @@ SUMMARY:🔓 Ravita Engineering Services Ltd. — 30D anchor unlock
 DESCRIPTION:https://www.chittorgarh.com/ipo/ravita-engineering-services-ipo/2959/
 END:VEVENT
 BEGIN:VEVENT
-UID:hd-fire-protect-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:🔓 HD Fire Protect Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/hd-fire-protect-ipo/2628/
+UID:fusion-cx-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:🔓 Fusion CX Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/fusion-cx-ipo/2455/
 END:VEVENT
 BEGIN:VEVENT
 UID:vaibhav-vyapaar-ipo-A30@unlockradar
@@ -89,6 +82,13 @@ SUMMARY:🔓 Vaibhav Vyapaar Ltd. — 30D anchor unlock
 DESCRIPTION:https://www.chittorgarh.com/ipo/vaibhav-vyapaar-ipo/3180/
 END:VEVENT
 BEGIN:VEVENT
+UID:hd-fire-protect-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:🔓 HD Fire Protect Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/hd-fire-protect-ipo/2628/
+END:VEVENT
+BEGIN:VEVENT
 UID:tna-solutions-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
@@ -96,18 +96,18 @@ SUMMARY:🔓 TNA Solutions Ltd. — 30D anchor unlock
 DESCRIPTION:https://www.chittorgarh.com/ipo/tna-solutions-ipo/3216/
 END:VEVENT
 BEGIN:VEVENT
-UID:everestims-technologies-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261106
-SUMMARY:🔓 EverestIMS Technologies Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/everestims-technologies-ipo/2063/
-END:VEVENT
-BEGIN:VEVENT
 UID:acme-india-industries-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:🔓 Acme India Industries Ltd. — 30D anchor unlock
 DESCRIPTION:https://www.chittorgarh.com/ipo/acme-india-industries-ipo/2748/
+END:VEVENT
+BEGIN:VEVENT
+UID:everestims-technologies-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:🔓 EverestIMS Technologies Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/everestims-technologies-ipo/2063/
 END:VEVENT
 BEGIN:VEVENT
 UID:black-opal-consultants-ipo-A30@unlockradar
@@ -143,26 +143,5 @@ DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:🔓 Sai Urja Indo Ventures Ltd. — 30D anchor unlock
 DESCRIPTION:https://www.chittorgarh.com/ipo/sai-urja-indo-ipo/2655/
-END:VEVENT
-BEGIN:VEVENT
-UID:shah-investors-home-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
-SUMMARY:🔓 Shah Investor's Home Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/shah-investors-home-ipo/2657/
-END:VEVENT
-BEGIN:VEVENT
-UID:himalayan-solar-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
-SUMMARY:🔓 Himalayan Solar Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/himalayan-solar-ipo/2716/
-END:VEVENT
-BEGIN:VEVENT
-UID:srit-india-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
-SUMMARY:🔓 SRIT India Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/srit-india-ipo/2858/
 END:VEVENT
 END:VCALENDAR

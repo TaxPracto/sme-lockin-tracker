@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T13:00:10+05:30",
+ "generated_at": "2026-10-31T12:48:05+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -43,41 +43,6 @@
    ]
   },
   {
-   "company": "Paras Healthcare Ltd.",
-   "slug": "paras-healthcare-ipo",
-   "url": "https://www.chittorgarh.com/ipo/paras-healthcare-ipo/2256/",
-   "category": "Mainboard",
-   "anchor_allotment_date": null,
-   "boa_date": null,
-   "d30": "2026-11-24",
-   "d90": null,
-   "anchor_shares": null,
-   "anchor_investment_cr": null,
-   "pct_of_issue": null,
-   "isin": "INE661T01029",
-   "nse_symbol": "PARASHLTH",
-   "bse_code": 545005,
-   "pre_shares": null,
-   "post_shares": null,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": null,
-   "anchor_names": [],
-   "lm": [],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-11-24",
-     "sh": null,
-     "pct": null,
-     "val": null,
-     "est": false
-    }
-   ]
-  },
-  {
    "company": "Jio Platforms Ltd.",
    "slug": "jio-platforms-ipo",
    "url": "https://www.chittorgarh.com/ipo/jio-platforms-ipo/3152/",
@@ -113,20 +78,20 @@
    ]
   },
   {
-   "company": "Sahajanand Medical Technologies Ltd.",
-   "slug": "sahajanand-medical-technologies-ipo",
-   "url": "https://www.chittorgarh.com/ipo/sahajanand-medical-technologies-ipo/2550/",
+   "company": "Paras Healthcare Ltd.",
+   "slug": "paras-healthcare-ipo",
+   "url": "https://www.chittorgarh.com/ipo/paras-healthcare-ipo/2256/",
    "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
-   "d30": "2026-11-19",
+   "d30": "2026-11-24",
    "d90": null,
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE356Y01018",
-   "nse_symbol": "SMT",
-   "bse_code": 545001,
+   "isin": "INE661T01029",
+   "nse_symbol": "PARASHLTH",
+   "bse_code": 545005,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -139,7 +104,7 @@
    "events": [
     {
      "t": "A30",
-     "d": "2026-11-19",
+     "d": "2026-11-24",
      "sh": null,
      "pct": null,
      "val": null,
@@ -148,9 +113,9 @@
    ]
   },
   {
-   "company": "Bonfiglioli Transmissions Ltd.",
-   "slug": "bonfiglioli-transmissions-ipo",
-   "url": "https://www.chittorgarh.com/ipo/bonfiglioli-transmissions-ipo/2861/",
+   "company": "Tonbo Imaging India Ltd.",
+   "slug": "tonbo-imaging-india-ipo",
+   "url": "https://www.chittorgarh.com/ipo/tonbo-imaging-india-ipo/3215/",
    "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
@@ -159,44 +124,9 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE28SO01013",
-   "nse_symbol": "BONFIG",
-   "bse_code": 544996,
-   "pre_shares": null,
-   "post_shares": null,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": null,
-   "anchor_names": [],
-   "lm": [],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-11-19",
-     "sh": null,
-     "pct": null,
-     "val": null,
-     "est": false
-    }
-   ]
-  },
-  {
-   "company": "Shellz India Ltd.",
-   "slug": "shellz-india-ipo",
-   "url": "https://www.chittorgarh.com/ipo/shellz-india-ipo/2966/",
-   "category": "SME",
-   "anchor_allotment_date": null,
-   "boa_date": null,
-   "d30": "2026-11-19",
-   "d90": null,
-   "anchor_shares": null,
-   "anchor_investment_cr": null,
-   "pct_of_issue": null,
-   "isin": "INE0Z7301016",
-   "nse_symbol": "",
-   "bse_code": 544998,
+   "isin": "INE0LDG01026",
+   "nse_symbol": "TONBO",
+   "bse_code": 544999,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -253,10 +183,10 @@
    ]
   },
   {
-   "company": "Tonbo Imaging India Ltd.",
-   "slug": "tonbo-imaging-india-ipo",
-   "url": "https://www.chittorgarh.com/ipo/tonbo-imaging-india-ipo/3215/",
-   "category": "Mainboard",
+   "company": "Shellz India Ltd.",
+   "slug": "shellz-india-ipo",
+   "url": "https://www.chittorgarh.com/ipo/shellz-india-ipo/2966/",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-11-19",
@@ -264,9 +194,9 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE0LDG01026",
-   "nse_symbol": "TONBO",
-   "bse_code": 544999,
+   "isin": "INE0Z7301016",
+   "nse_symbol": "",
+   "bse_code": 544998,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -288,20 +218,20 @@
    ]
   },
   {
-   "company": "Fusion CX Ltd.",
-   "slug": "fusion-cx-ipo",
-   "url": "https://www.chittorgarh.com/ipo/fusion-cx-ipo/2455/",
+   "company": "Bonfiglioli Transmissions Ltd.",
+   "slug": "bonfiglioli-transmissions-ipo",
+   "url": "https://www.chittorgarh.com/ipo/bonfiglioli-transmissions-ipo/2861/",
    "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
-   "d30": "2026-11-17",
+   "d30": "2026-11-19",
    "d90": null,
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE0N2201019",
-   "nse_symbol": "FUSIONCX",
-   "bse_code": 544995,
+   "isin": "INE28SO01013",
+   "nse_symbol": "BONFIG",
+   "bse_code": 544996,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -314,7 +244,42 @@
    "events": [
     {
      "t": "A30",
-     "d": "2026-11-17",
+     "d": "2026-11-19",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "Sahajanand Medical Technologies Ltd.",
+   "slug": "sahajanand-medical-technologies-ipo",
+   "url": "https://www.chittorgarh.com/ipo/sahajanand-medical-technologies-ipo/2550/",
+   "category": "Mainboard",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-11-19",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE356Y01018",
+   "nse_symbol": "SMT",
+   "bse_code": 545001,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-11-19",
      "sh": null,
      "pct": null,
      "val": null,
@@ -358,20 +323,20 @@
    ]
   },
   {
-   "company": "HD Fire Protect Ltd.",
-   "slug": "hd-fire-protect-ipo",
-   "url": "https://www.chittorgarh.com/ipo/hd-fire-protect-ipo/2628/",
+   "company": "Fusion CX Ltd.",
+   "slug": "fusion-cx-ipo",
+   "url": "https://www.chittorgarh.com/ipo/fusion-cx-ipo/2455/",
    "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
-   "d30": "2026-11-14",
+   "d30": "2026-11-17",
    "d90": null,
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE18AK01028",
-   "nse_symbol": "HDFIRE",
-   "bse_code": 544994,
+   "isin": "INE0N2201019",
+   "nse_symbol": "FUSIONCX",
+   "bse_code": 544995,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -384,7 +349,7 @@
    "events": [
     {
      "t": "A30",
-     "d": "2026-11-14",
+     "d": "2026-11-17",
      "sh": null,
      "pct": null,
      "val": null,
@@ -407,6 +372,41 @@
    "isin": "INE1KAA01025",
    "nse_symbol": "LOANFRONT",
    "bse_code": "",
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-11-14",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "HD Fire Protect Ltd.",
+   "slug": "hd-fire-protect-ipo",
+   "url": "https://www.chittorgarh.com/ipo/hd-fire-protect-ipo/2628/",
+   "category": "Mainboard",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-11-14",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE18AK01028",
+   "nse_symbol": "HDFIRE",
+   "bse_code": 544994,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -468,46 +468,6 @@
    ]
   },
   {
-   "company": "EverestIMS Technologies Ltd.",
-   "slug": "everestims-technologies-ipo",
-   "url": "https://www.chittorgarh.com/ipo/everestims-technologies-ipo/2063/",
-   "category": "SME",
-   "anchor_allotment_date": null,
-   "boa_date": null,
-   "d30": "2026-11-05",
-   "d90": null,
-   "anchor_shares": null,
-   "anchor_investment_cr": null,
-   "pct_of_issue": null,
-   "isin": "INE0YUW01020",
-   "nse_symbol": "",
-   "bse_code": 544979,
-   "pre_shares": 17044578,
-   "post_shares": 21638178,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": "2026-10-08",
-   "anchor_names": [],
-   "lm": [
-    [
-     94,
-     "Oneview Corporate Advisors Pvt.Ltd"
-    ]
-   ],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-11-05",
-     "sh": null,
-     "pct": null,
-     "val": null,
-     "est": false
-    }
-   ]
-  },
-  {
    "company": "Acme India Industries Ltd.",
    "slug": "acme-india-industries-ipo",
    "url": "https://www.chittorgarh.com/ipo/acme-india-industries-ipo/2748/",
@@ -532,6 +492,46 @@
     [
      76,
      "Hem Securities Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-11-05",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "EverestIMS Technologies Ltd.",
+   "slug": "everestims-technologies-ipo",
+   "url": "https://www.chittorgarh.com/ipo/everestims-technologies-ipo/2063/",
+   "category": "SME",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-11-05",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE0YUW01020",
+   "nse_symbol": "",
+   "bse_code": 544979,
+   "pre_shares": 17044578,
+   "post_shares": 21638178,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": "2026-10-08",
+   "anchor_names": [],
+   "lm": [
+    [
+     94,
+     "Oneview Corporate Advisors Pvt.Ltd"
     ]
    ],
    "nonprom_pre_shares": null,
@@ -748,6 +748,41 @@
    ]
   },
   {
+   "company": "SRIT India Ltd.",
+   "slug": "srit-india-ipo",
+   "url": "https://www.chittorgarh.com/ipo/srit-india-ipo/2858/",
+   "category": "Mainboard",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-10-30",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE307K01028",
+   "nse_symbol": "SRIT",
+   "bse_code": 544965,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-30",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
+  {
    "company": "Shah Investor's Home Ltd.",
    "slug": "shah-investors-home-ipo",
    "url": "https://www.chittorgarh.com/ipo/shah-investors-home-ipo/2657/",
@@ -823,45 +858,10 @@
    ]
   },
   {
-   "company": "SRIT India Ltd.",
-   "slug": "srit-india-ipo",
-   "url": "https://www.chittorgarh.com/ipo/srit-india-ipo/2858/",
-   "category": "Mainboard",
-   "anchor_allotment_date": null,
-   "boa_date": null,
-   "d30": "2026-10-30",
-   "d90": null,
-   "anchor_shares": null,
-   "anchor_investment_cr": null,
-   "pct_of_issue": null,
-   "isin": "INE307K01028",
-   "nse_symbol": "SRIT",
-   "bse_code": 544965,
-   "pre_shares": null,
-   "post_shares": null,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": null,
-   "anchor_names": [],
-   "lm": [],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-10-30",
-     "sh": null,
-     "pct": null,
-     "val": null,
-     "est": false
-    }
-   ]
-  },
-  {
-   "company": "Runwal Enterprises Ltd.",
-   "slug": "runwal-enterprises-ipo",
-   "url": "https://www.chittorgarh.com/ipo/runwal-enterprises-ipo/2298/",
-   "category": "Mainboard",
+   "company": "Bench Mark Infotech Services Ltd.",
+   "slug": "bench-mark-infotech-services-ipo",
+   "url": "https://www.chittorgarh.com/ipo/bench-mark-infotech-services-ipo/3212/",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-10-29",
@@ -869,16 +869,21 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE804W01029",
-   "nse_symbol": "RUNWALENTR",
-   "bse_code": 544959,
-   "pre_shares": null,
-   "post_shares": null,
+   "isin": "INE2OKU01014",
+   "nse_symbol": "BMISL",
+   "bse_code": "",
+   "pre_shares": 10872650,
+   "post_shares": 14272650,
    "prom_pre_pct": null,
    "prom_post_pct": null,
-   "listing_date": null,
+   "listing_date": "2026-10-05",
    "anchor_names": [],
-   "lm": [],
+   "lm": [
+    [
+     182,
+     "GYR Capital Advisors Pvt.Ltd"
+    ]
+   ],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -893,9 +898,9 @@
    ]
   },
   {
-   "company": "German Green Steel & Power Ltd.",
-   "slug": "german-green-steel-and-power-ipo",
-   "url": "https://www.chittorgarh.com/ipo/german-green-steel-and-power-ipo/2497/",
+   "company": "Acevector Ltd.",
+   "slug": "snapdeal-ipo",
+   "url": "https://www.chittorgarh.com/ipo/snapdeal-ipo/2543/",
    "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
@@ -904,9 +909,9 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE0D4501011",
-   "nse_symbol": "GERMAN",
-   "bse_code": 544957,
+   "isin": "INE580P01029",
+   "nse_symbol": "ACEVECTOR",
+   "bse_code": 544962,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -963,9 +968,9 @@
    ]
   },
   {
-   "company": "Acevector Ltd.",
-   "slug": "snapdeal-ipo",
-   "url": "https://www.chittorgarh.com/ipo/snapdeal-ipo/2543/",
+   "company": "German Green Steel & Power Ltd.",
+   "slug": "german-green-steel-and-power-ipo",
+   "url": "https://www.chittorgarh.com/ipo/german-green-steel-and-power-ipo/2497/",
    "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
@@ -974,9 +979,44 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE580P01029",
-   "nse_symbol": "ACEVECTOR",
-   "bse_code": 544962,
+   "isin": "INE0D4501011",
+   "nse_symbol": "GERMAN",
+   "bse_code": 544957,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-29",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "Runwal Enterprises Ltd.",
+   "slug": "runwal-enterprises-ipo",
+   "url": "https://www.chittorgarh.com/ipo/runwal-enterprises-ipo/2298/",
+   "category": "Mainboard",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-10-29",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE804W01029",
+   "nse_symbol": "RUNWALENTR",
+   "bse_code": 544959,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -1038,49 +1078,9 @@
    ]
   },
   {
-   "company": "Bench Mark Infotech Services Ltd.",
-   "slug": "bench-mark-infotech-services-ipo",
-   "url": "https://www.chittorgarh.com/ipo/bench-mark-infotech-services-ipo/3212/",
-   "category": "SME",
-   "anchor_allotment_date": null,
-   "boa_date": null,
-   "d30": "2026-10-29",
-   "d90": null,
-   "anchor_shares": null,
-   "anchor_investment_cr": null,
-   "pct_of_issue": null,
-   "isin": "INE2OKU01014",
-   "nse_symbol": "BMISL",
-   "bse_code": "",
-   "pre_shares": 10872650,
-   "post_shares": 14272650,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": "2026-10-05",
-   "anchor_names": [],
-   "lm": [
-    [
-     182,
-     "GYR Capital Advisors Pvt.Ltd"
-    ]
-   ],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-10-29",
-     "sh": null,
-     "pct": null,
-     "val": null,
-     "est": false
-    }
-   ]
-  },
-  {
-   "company": "A-One Steels India Ltd.",
-   "slug": "a-one-steels-ipo",
-   "url": "https://www.chittorgarh.com/ipo/a-one-steels-ipo/2000/",
+   "company": "Moneyview Ltd.",
+   "slug": "moneyview-ipo",
+   "url": "https://www.chittorgarh.com/ipo/moneyview-ipo/2936/",
    "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
@@ -1089,44 +1089,9 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE0OTC01025",
-   "nse_symbol": "AONESTEELS",
-   "bse_code": 544952,
-   "pre_shares": null,
-   "post_shares": null,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": null,
-   "anchor_names": [],
-   "lm": [],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-10-28",
-     "sh": null,
-     "pct": null,
-     "val": null,
-     "est": false
-    }
-   ]
-  },
-  {
-   "company": "ArMee Infotech Ltd.",
-   "slug": "armee-infotech-ipo",
-   "url": "https://www.chittorgarh.com/ipo/armee-infotech-ipo/2140/",
-   "category": "Mainboard",
-   "anchor_allotment_date": null,
-   "boa_date": null,
-   "d30": "2026-10-28",
-   "d90": null,
-   "anchor_shares": null,
-   "anchor_investment_cr": null,
-   "pct_of_issue": null,
-   "isin": "INE0TWE01016",
-   "nse_symbol": "ARMEE",
-   "bse_code": 544951,
+   "isin": "INE0PTN01011",
+   "nse_symbol": "MONEYVIEW",
+   "bse_code": 544953,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -1188,49 +1153,9 @@
    ]
   },
   {
-   "company": "Pooja Logistics Ltd.",
-   "slug": "pooja-logistics-ipo",
-   "url": "https://www.chittorgarh.com/ipo/pooja-logistics-ipo/2724/",
-   "category": "SME",
-   "anchor_allotment_date": null,
-   "boa_date": null,
-   "d30": "2026-10-28",
-   "d90": null,
-   "anchor_shares": null,
-   "anchor_investment_cr": null,
-   "pct_of_issue": null,
-   "isin": "INE1C2Q01017",
-   "nse_symbol": "POOJALOGIS",
-   "bse_code": "",
-   "pre_shares": 10438000,
-   "post_shares": 14284000,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": "2026-09-30",
-   "anchor_names": [],
-   "lm": [
-    [
-     162,
-     "Share India Capital Services Pvt.Ltd"
-    ]
-   ],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-10-28",
-     "sh": null,
-     "pct": null,
-     "val": null,
-     "est": false
-    }
-   ]
-  },
-  {
-   "company": "Moneyview Ltd.",
-   "slug": "moneyview-ipo",
-   "url": "https://www.chittorgarh.com/ipo/moneyview-ipo/2936/",
+   "company": "A-One Steels India Ltd.",
+   "slug": "a-one-steels-ipo",
+   "url": "https://www.chittorgarh.com/ipo/a-one-steels-ipo/2000/",
    "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
@@ -1239,9 +1164,9 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE0PTN01011",
-   "nse_symbol": "MONEYVIEW",
-   "bse_code": 544953,
+   "isin": "INE0OTC01025",
+   "nse_symbol": "AONESTEELS",
+   "bse_code": 544952,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -1303,9 +1228,84 @@
    ]
   },
   {
-   "company": "Swastika Infra Ltd.",
-   "slug": "swastika-infra-ipo",
-   "url": "https://www.chittorgarh.com/ipo/swastika-infra-ipo/2287/",
+   "company": "Pooja Logistics Ltd.",
+   "slug": "pooja-logistics-ipo",
+   "url": "https://www.chittorgarh.com/ipo/pooja-logistics-ipo/2724/",
+   "category": "SME",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-10-28",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE1C2Q01017",
+   "nse_symbol": "POOJALOGIS",
+   "bse_code": "",
+   "pre_shares": 10438000,
+   "post_shares": 14284000,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": "2026-09-30",
+   "anchor_names": [],
+   "lm": [
+    [
+     162,
+     "Share India Capital Services Pvt.Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-28",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "ArMee Infotech Ltd.",
+   "slug": "armee-infotech-ipo",
+   "url": "https://www.chittorgarh.com/ipo/armee-infotech-ipo/2140/",
+   "category": "Mainboard",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-10-28",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE0TWE01016",
+   "nse_symbol": "ARMEE",
+   "bse_code": 544951,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-28",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "Adroit Industries (India) Ltd.",
+   "slug": "adroit-industries-ipo",
+   "url": "https://www.chittorgarh.com/ipo/adroit-industries-ipo/3007/",
    "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
@@ -1314,9 +1314,9 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE1QJA01015",
-   "nse_symbol": "SWASTIKAIN",
-   "bse_code": 544949,
+   "isin": "INE505M01015",
+   "nse_symbol": "ADROITIND",
+   "bse_code": 544950,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -1373,9 +1373,9 @@
    ]
   },
   {
-   "company": "Adroit Industries (India) Ltd.",
-   "slug": "adroit-industries-ipo",
-   "url": "https://www.chittorgarh.com/ipo/adroit-industries-ipo/3007/",
+   "company": "Swastika Infra Ltd.",
+   "slug": "swastika-infra-ipo",
+   "url": "https://www.chittorgarh.com/ipo/swastika-infra-ipo/2287/",
    "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
@@ -1384,9 +1384,9 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE505M01015",
-   "nse_symbol": "ADROITIND",
-   "bse_code": 544950,
+   "isin": "INE1QJA01015",
+   "nse_symbol": "SWASTIKAIN",
+   "bse_code": 544949,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -1488,41 +1488,6 @@
    ]
   },
   {
-   "company": "Varmora Granito Ltd.",
-   "slug": "varmora-granito-ipo",
-   "url": "https://www.chittorgarh.com/ipo/varmora-granito-ipo/2563/",
-   "category": "Mainboard",
-   "anchor_allotment_date": null,
-   "boa_date": null,
-   "d30": "2026-10-24",
-   "d90": null,
-   "anchor_shares": null,
-   "anchor_investment_cr": null,
-   "pct_of_issue": null,
-   "isin": "INE0M5301040",
-   "nse_symbol": "VARMORA",
-   "bse_code": 544942,
-   "pre_shares": null,
-   "post_shares": null,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": null,
-   "anchor_names": [],
-   "lm": [],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-10-24",
-     "sh": null,
-     "pct": null,
-     "val": null,
-     "est": false
-    }
-   ]
-  },
-  {
    "company": "Himalaya Nutravedics India Ltd.",
    "slug": "himalaya-nutravedics-ipo",
    "url": "https://www.chittorgarh.com/ipo/himalaya-nutravedics-ipo/2970/",
@@ -1549,6 +1514,41 @@
      "Nirbhay Capital Services Pvt.Ltd"
     ]
    ],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-24",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "Varmora Granito Ltd.",
+   "slug": "varmora-granito-ipo",
+   "url": "https://www.chittorgarh.com/ipo/varmora-granito-ipo/2563/",
+   "category": "Mainboard",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-10-24",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE0M5301040",
+   "nse_symbol": "VARMORA",
+   "bse_code": 544942,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -1643,46 +1643,6 @@
    ]
   },
   {
-   "company": "Kheria Autocomp Ltd.",
-   "slug": "kheria-autocomp-ipo",
-   "url": "https://www.chittorgarh.com/ipo/kheria-autocomp-ipo/2760/",
-   "category": "SME",
-   "anchor_allotment_date": null,
-   "boa_date": null,
-   "d30": "2026-10-22",
-   "d90": null,
-   "anchor_shares": null,
-   "anchor_investment_cr": null,
-   "pct_of_issue": null,
-   "isin": "INE0HOL01013",
-   "nse_symbol": "KHERIAAUTO",
-   "bse_code": "",
-   "pre_shares": 11250000,
-   "post_shares": 15848400,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": "2026-09-24",
-   "anchor_names": [],
-   "lm": [
-    [
-     120,
-     "SMC Capitals Ltd"
-    ]
-   ],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-10-22",
-     "sh": null,
-     "pct": null,
-     "val": null,
-     "est": false
-    }
-   ]
-  },
-  {
    "company": "SpectraA Technology Solutions Ltd.",
    "slug": "spectraa-technology-solutions-ipo",
    "url": "https://www.chittorgarh.com/ipo/spectraa-technology-solutions-ipo/2950/",
@@ -1723,33 +1683,38 @@
    ]
   },
   {
-   "company": "Sonaselection India Ltd.",
-   "slug": "sonaselection-india-ipo",
-   "url": "https://www.chittorgarh.com/ipo/sonaselection-india-ipo/2805/",
-   "category": "Mainboard",
+   "company": "Kheria Autocomp Ltd.",
+   "slug": "kheria-autocomp-ipo",
+   "url": "https://www.chittorgarh.com/ipo/kheria-autocomp-ipo/2760/",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
-   "d30": "2026-10-21",
+   "d30": "2026-10-22",
    "d90": null,
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE0LLZ01011",
-   "nse_symbol": "SONA",
-   "bse_code": 544938,
-   "pre_shares": null,
-   "post_shares": null,
+   "isin": "INE0HOL01013",
+   "nse_symbol": "KHERIAAUTO",
+   "bse_code": "",
+   "pre_shares": 11250000,
+   "post_shares": 15848400,
    "prom_pre_pct": null,
    "prom_post_pct": null,
-   "listing_date": null,
+   "listing_date": "2026-09-24",
    "anchor_names": [],
-   "lm": [],
+   "lm": [
+    [
+     120,
+     "SMC Capitals Ltd"
+    ]
+   ],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
     {
      "t": "A30",
-     "d": "2026-10-21",
+     "d": "2026-10-22",
      "sh": null,
      "pct": null,
      "val": null,
@@ -1793,9 +1758,44 @@
    ]
   },
   {
-   "company": "Hero Motors Ltd.",
-   "slug": "hero-motors-ipo",
-   "url": "https://www.chittorgarh.com/ipo/hero-motors-ipo/2225/",
+   "company": "Sonaselection India Ltd.",
+   "slug": "sonaselection-india-ipo",
+   "url": "https://www.chittorgarh.com/ipo/sonaselection-india-ipo/2805/",
+   "category": "Mainboard",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-10-21",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE0LLZ01011",
+   "nse_symbol": "SONA",
+   "bse_code": 544938,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-21",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "SS Retail Ltd.",
+   "slug": "ss-retail-ipo",
+   "url": "https://www.chittorgarh.com/ipo/ss-retail-ipo/2822/",
    "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
@@ -1804,9 +1804,9 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE012G01022",
-   "nse_symbol": "HEROMOTORS",
-   "bse_code": 544936,
+   "isin": "INE1EQW01028",
+   "nse_symbol": "SSRETAIL",
+   "bse_code": 544934,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -1863,9 +1863,9 @@
    ]
   },
   {
-   "company": "SS Retail Ltd.",
-   "slug": "ss-retail-ipo",
-   "url": "https://www.chittorgarh.com/ipo/ss-retail-ipo/2822/",
+   "company": "Hero Motors Ltd.",
+   "slug": "hero-motors-ipo",
+   "url": "https://www.chittorgarh.com/ipo/hero-motors-ipo/2225/",
    "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
@@ -1874,9 +1874,9 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE1EQW01028",
-   "nse_symbol": "SSRETAIL",
-   "bse_code": 544934,
+   "isin": "INE012G01022",
+   "nse_symbol": "HEROMOTORS",
+   "bse_code": 544936,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -1938,10 +1938,10 @@
    ]
   },
   {
-   "company": "Manika Plastech Ltd.",
-   "slug": "manika-plastech-ipo",
-   "url": "https://www.chittorgarh.com/ipo/manika-plastech-ipo/2483/",
-   "category": "Mainboard",
+   "company": "Injecto Polymers Ltd.",
+   "slug": "injecto-polymers-ipo",
+   "url": "https://www.chittorgarh.com/ipo/injecto-polymers-ipo/2625/",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-10-17",
@@ -1949,16 +1949,21 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE0KWF01020",
-   "nse_symbol": "MANIKA",
-   "bse_code": 544929,
-   "pre_shares": null,
-   "post_shares": null,
+   "isin": "INE1JJF01019",
+   "nse_symbol": "",
+   "bse_code": 544930,
+   "pre_shares": 15177200,
+   "post_shares": 20789600,
    "prom_pre_pct": null,
    "prom_post_pct": null,
-   "listing_date": null,
+   "listing_date": "2026-09-21",
    "anchor_names": [],
-   "lm": [],
+   "lm": [
+    [
+     445,
+     "Indcap Advisors Pvt.Ltd"
+    ]
+   ],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -2013,10 +2018,10 @@
    ]
   },
   {
-   "company": "Injecto Polymers Ltd.",
-   "slug": "injecto-polymers-ipo",
-   "url": "https://www.chittorgarh.com/ipo/injecto-polymers-ipo/2625/",
-   "category": "SME",
+   "company": "Manika Plastech Ltd.",
+   "slug": "manika-plastech-ipo",
+   "url": "https://www.chittorgarh.com/ipo/manika-plastech-ipo/2483/",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-10-17",
@@ -2024,21 +2029,16 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE1JJF01019",
-   "nse_symbol": "",
-   "bse_code": 544930,
-   "pre_shares": 15177200,
-   "post_shares": 20789600,
+   "isin": "INE0KWF01020",
+   "nse_symbol": "MANIKA",
+   "bse_code": 544929,
+   "pre_shares": null,
+   "post_shares": null,
    "prom_pre_pct": null,
    "prom_post_pct": null,
-   "listing_date": "2026-09-21",
+   "listing_date": null,
    "anchor_names": [],
-   "lm": [
-    [
-     445,
-     "Indcap Advisors Pvt.Ltd"
-    ]
-   ],
+   "lm": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -2093,9 +2093,9 @@
    ]
   },
   {
-   "company": "Raksan Transformers Ltd.",
-   "slug": "raksan-transformers-ipo",
-   "url": "https://www.chittorgarh.com/ipo/raksan-transformers-ipo/2767/",
+   "company": "Om Galaxy Ltd.",
+   "slug": "om-galaxy-ipo",
+   "url": "https://www.chittorgarh.com/ipo/om-galaxy-ipo/2987/",
    "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
@@ -2104,19 +2104,19 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE1S7M01017",
+   "isin": "INE2D0Q01027",
    "nse_symbol": "",
-   "bse_code": 544924,
-   "pre_shares": 16480600,
-   "post_shares": 20893400,
+   "bse_code": 544922,
+   "pre_shares": 22210824,
+   "post_shares": 33878024,
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": "2026-09-18",
    "anchor_names": [],
    "lm": [
     [
-     76,
-     "Hem Securities Ltd"
+     175,
+     "Indorient Financial Services Ltd"
     ]
    ],
    "nonprom_pre_shares": null,
@@ -2168,9 +2168,9 @@
    ]
   },
   {
-   "company": "Om Galaxy Ltd.",
-   "slug": "om-galaxy-ipo",
-   "url": "https://www.chittorgarh.com/ipo/om-galaxy-ipo/2987/",
+   "company": "Raksan Transformers Ltd.",
+   "slug": "raksan-transformers-ipo",
+   "url": "https://www.chittorgarh.com/ipo/raksan-transformers-ipo/2767/",
    "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
@@ -2179,19 +2179,19 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE2D0Q01027",
+   "isin": "INE1S7M01017",
    "nse_symbol": "",
-   "bse_code": 544922,
-   "pre_shares": 22210824,
-   "post_shares": 33878024,
+   "bse_code": 544924,
+   "pre_shares": 16480600,
+   "post_shares": 20893400,
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": "2026-09-18",
    "anchor_names": [],
    "lm": [
     [
-     175,
-     "Indorient Financial Services Ltd"
+     76,
+     "Hem Securities Ltd"
     ]
    ],
    "nonprom_pre_shares": null,
@@ -2208,9 +2208,9 @@
    ]
   },
   {
-   "company": "LCC Projects Ltd.",
-   "slug": "lcc-projects-ipo",
-   "url": "https://www.chittorgarh.com/ipo/lcc-projects-ipo/2086/",
+   "company": "Manipal Payment & Identity Solutions Ltd.",
+   "slug": "manipal-payment-and-identity-solutions-ipo",
+   "url": "https://www.chittorgarh.com/ipo/manipal-payment-and-identity-solutions-ipo/2524/",
    "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
@@ -2219,9 +2219,9 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE1FPN01026",
-   "nse_symbol": "LCCPROJECT",
-   "bse_code": 544918,
+   "isin": "INE241U01028",
+   "nse_symbol": "MPIMANIPAL",
+   "bse_code": 544916,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -2283,9 +2283,9 @@
    ]
   },
   {
-   "company": "Manipal Payment & Identity Solutions Ltd.",
-   "slug": "manipal-payment-and-identity-solutions-ipo",
-   "url": "https://www.chittorgarh.com/ipo/manipal-payment-and-identity-solutions-ipo/2524/",
+   "company": "LCC Projects Ltd.",
+   "slug": "lcc-projects-ipo",
+   "url": "https://www.chittorgarh.com/ipo/lcc-projects-ipo/2086/",
    "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
@@ -2294,9 +2294,9 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE241U01028",
-   "nse_symbol": "MPIMANIPAL",
-   "bse_code": 544916,
+   "isin": "INE1FPN01026",
+   "nse_symbol": "LCCPROJECT",
+   "bse_code": 544918,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -2318,9 +2318,9 @@
    ]
   },
   {
-   "company": "Karamtara Engineering Ltd.",
-   "slug": "karamtara-engineering-ipo",
-   "url": "https://www.chittorgarh.com/ipo/karamtara-engineering-ipo/2020/",
+   "company": "Rentomojo Ltd.",
+   "slug": "rentomojo-ipo",
+   "url": "https://www.chittorgarh.com/ipo/rentomojo-ipo/2971/",
    "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
@@ -2329,44 +2329,9 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE590T01012",
-   "nse_symbol": "KARAMTARA",
-   "bse_code": 544917,
-   "pre_shares": null,
-   "post_shares": null,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": null,
-   "anchor_names": [],
-   "lm": [],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-10-14",
-     "sh": null,
-     "pct": null,
-     "val": null,
-     "est": false
-    }
-   ]
-  },
-  {
-   "company": "Steamhouse India Ltd.",
-   "slug": "steamhouse-india-ipo",
-   "url": "https://www.chittorgarh.com/ipo/steamhouse-india-ipo/2514/",
-   "category": "Mainboard",
-   "anchor_allotment_date": null,
-   "boa_date": null,
-   "d30": "2026-10-14",
-   "d90": null,
-   "anchor_shares": null,
-   "anchor_investment_cr": null,
-   "pct_of_issue": null,
-   "isin": "INE0FRO01022",
-   "nse_symbol": "STEAMHOUSE",
-   "bse_code": 544914,
+   "isin": "INE08T701025",
+   "nse_symbol": "RENTOMOJO",
+   "bse_code": 544915,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -2423,9 +2388,9 @@
    ]
   },
   {
-   "company": "Rentomojo Ltd.",
-   "slug": "rentomojo-ipo",
-   "url": "https://www.chittorgarh.com/ipo/rentomojo-ipo/2971/",
+   "company": "Steamhouse India Ltd.",
+   "slug": "steamhouse-india-ipo",
+   "url": "https://www.chittorgarh.com/ipo/steamhouse-india-ipo/2514/",
    "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
@@ -2434,9 +2399,9 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE08T701025",
-   "nse_symbol": "RENTOMOJO",
-   "bse_code": 544915,
+   "isin": "INE0FRO01022",
+   "nse_symbol": "STEAMHOUSE",
+   "bse_code": 544914,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -2458,20 +2423,20 @@
    ]
   },
   {
-   "company": "Pranav Constructions Ltd.",
-   "slug": "pranav-constructions-ipo",
-   "url": "https://www.chittorgarh.com/ipo/pranav-constructions-ipo/2127/",
+   "company": "Karamtara Engineering Ltd.",
+   "slug": "karamtara-engineering-ipo",
+   "url": "https://www.chittorgarh.com/ipo/karamtara-engineering-ipo/2020/",
    "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
-   "d30": "2026-10-10",
+   "d30": "2026-10-14",
    "d90": null,
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE0H4201019",
-   "nse_symbol": "PRANAV",
-   "bse_code": 544909,
+   "isin": "INE590T01012",
+   "nse_symbol": "KARAMTARA",
+   "bse_code": 544917,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -2484,7 +2449,7 @@
    "events": [
     {
      "t": "A30",
-     "d": "2026-10-10",
+     "d": "2026-10-14",
      "sh": null,
      "pct": null,
      "val": null,
@@ -2493,9 +2458,9 @@
    ]
   },
   {
-   "company": "Glass Wall Systems (India) Ltd.",
-   "slug": "glass-wall-systems-ipo",
-   "url": "https://www.chittorgarh.com/ipo/glass-wall-systems-ipo/2594/",
+   "company": "Kanohar Electricals Ltd.",
+   "slug": "kanohar-electricals-ipo",
+   "url": "https://www.chittorgarh.com/ipo/kanohar-electricals-ipo/2856/",
    "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
@@ -2504,9 +2469,9 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE644Q01039",
-   "nse_symbol": "GLASSWALL",
-   "bse_code": 544913,
+   "isin": "INE877D01025",
+   "nse_symbol": "KANOHAR",
+   "bse_code": 544911,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -2563,9 +2528,9 @@
    ]
   },
   {
-   "company": "Kanohar Electricals Ltd.",
-   "slug": "kanohar-electricals-ipo",
-   "url": "https://www.chittorgarh.com/ipo/kanohar-electricals-ipo/2856/",
+   "company": "Glass Wall Systems (India) Ltd.",
+   "slug": "glass-wall-systems-ipo",
+   "url": "https://www.chittorgarh.com/ipo/glass-wall-systems-ipo/2594/",
    "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
@@ -2574,9 +2539,44 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE877D01025",
-   "nse_symbol": "KANOHAR",
-   "bse_code": 544911,
+   "isin": "INE644Q01039",
+   "nse_symbol": "GLASSWALL",
+   "bse_code": 544913,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-10",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "Pranav Constructions Ltd.",
+   "slug": "pranav-constructions-ipo",
+   "url": "https://www.chittorgarh.com/ipo/pranav-constructions-ipo/2127/",
+   "category": "Mainboard",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-10-10",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE0H4201019",
+   "nse_symbol": "PRANAV",
+   "bse_code": 544909,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -2638,9 +2638,79 @@
    ]
   },
   {
-   "company": "Phychem Technologies Ltd.",
-   "slug": "phychem-technologies-ipo",
-   "url": "https://www.chittorgarh.com/ipo/phychem-technologies-ipo/2730/",
+   "company": "Deepa Jewellers Ltd.",
+   "slug": "deepa-jewellers-ipo",
+   "url": "https://www.chittorgarh.com/ipo/deepa-jewellers-ipo/2827/",
+   "category": "Mainboard",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-10-03",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE1M2N01020",
+   "nse_symbol": "DEEPA",
+   "bse_code": 544903,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-03",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "Rays of Belief Ltd.",
+   "slug": "rays-of-belief-ipo",
+   "url": "https://www.chittorgarh.com/ipo/rays-of-belief-ipo/2787/",
+   "category": "Mainboard",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-10-03",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE1FCO01014",
+   "nse_symbol": "MOMSBELIEF",
+   "bse_code": 544906,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-03",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "Ashutosh Fibre Ltd.",
+   "slug": "ashutosh-fibre-ipo",
+   "url": "https://www.chittorgarh.com/ipo/ashutosh-fibre-ipo/2751/",
    "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
@@ -2649,19 +2719,19 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE24YP01017",
-   "nse_symbol": "",
-   "bse_code": 544902,
-   "pre_shares": 7540000,
-   "post_shares": 10240000,
+   "isin": "INE19FR01012",
+   "nse_symbol": "ASHUTOSH",
+   "bse_code": "",
+   "pre_shares": 15750000,
+   "post_shares": 21874800,
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": "2026-09-07",
    "anchor_names": [],
    "lm": [
     [
-     76,
-     "Hem Securities Ltd"
+     463,
+     "Mefcom Capital Markets Ltd"
     ]
    ],
    "nonprom_pre_shares": null,
@@ -2718,9 +2788,9 @@
    ]
   },
   {
-   "company": "Ashutosh Fibre Ltd.",
-   "slug": "ashutosh-fibre-ipo",
-   "url": "https://www.chittorgarh.com/ipo/ashutosh-fibre-ipo/2751/",
+   "company": "Phychem Technologies Ltd.",
+   "slug": "phychem-technologies-ipo",
+   "url": "https://www.chittorgarh.com/ipo/phychem-technologies-ipo/2730/",
    "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
@@ -2729,19 +2799,19 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE19FR01012",
-   "nse_symbol": "ASHUTOSH",
-   "bse_code": "",
-   "pre_shares": 15750000,
-   "post_shares": 21874800,
+   "isin": "INE24YP01017",
+   "nse_symbol": "",
+   "bse_code": 544902,
+   "pre_shares": 7540000,
+   "post_shares": 10240000,
    "prom_pre_pct": null,
    "prom_post_pct": null,
    "listing_date": "2026-09-07",
    "anchor_names": [],
    "lm": [
     [
-     463,
-     "Mefcom Capital Markets Ltd"
+     76,
+     "Hem Securities Ltd"
     ]
    ],
    "nonprom_pre_shares": null,
@@ -2758,79 +2828,9 @@
    ]
   },
   {
-   "company": "Rays of Belief Ltd.",
-   "slug": "rays-of-belief-ipo",
-   "url": "https://www.chittorgarh.com/ipo/rays-of-belief-ipo/2787/",
-   "category": "Mainboard",
-   "anchor_allotment_date": null,
-   "boa_date": null,
-   "d30": "2026-10-03",
-   "d90": null,
-   "anchor_shares": null,
-   "anchor_investment_cr": null,
-   "pct_of_issue": null,
-   "isin": "INE1FCO01014",
-   "nse_symbol": "MOMSBELIEF",
-   "bse_code": 544906,
-   "pre_shares": null,
-   "post_shares": null,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": null,
-   "anchor_names": [],
-   "lm": [],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-10-03",
-     "sh": null,
-     "pct": null,
-     "val": null,
-     "est": false
-    }
-   ]
-  },
-  {
-   "company": "Deepa Jewellers Ltd.",
-   "slug": "deepa-jewellers-ipo",
-   "url": "https://www.chittorgarh.com/ipo/deepa-jewellers-ipo/2827/",
-   "category": "Mainboard",
-   "anchor_allotment_date": null,
-   "boa_date": null,
-   "d30": "2026-10-03",
-   "d90": null,
-   "anchor_shares": null,
-   "anchor_investment_cr": null,
-   "pct_of_issue": null,
-   "isin": "INE1M2N01020",
-   "nse_symbol": "DEEPA",
-   "bse_code": 544903,
-   "pre_shares": null,
-   "post_shares": null,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": null,
-   "anchor_names": [],
-   "lm": [],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-10-03",
-     "sh": null,
-     "pct": null,
-     "val": null,
-     "est": false
-    }
-   ]
-  },
-  {
-   "company": "ESDS Software Solution Ltd.",
-   "slug": "esds-software-ipo",
-   "url": "https://www.chittorgarh.com/ipo/esds-software-ipo/1198/",
+   "company": "Purple Style Labs Ltd.",
+   "slug": "purple-style-labs-ipo",
+   "url": "https://www.chittorgarh.com/ipo/purple-style-labs-ipo/2622/",
    "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
@@ -2839,9 +2839,9 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE0DRI01029",
-   "nse_symbol": "ESDS",
-   "bse_code": 544898,
+   "isin": "INE0I1B01016",
+   "nse_symbol": "PERNIASPOP",
+   "bse_code": 544901,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -2898,9 +2898,9 @@
    ]
   },
   {
-   "company": "Purple Style Labs Ltd.",
-   "slug": "purple-style-labs-ipo",
-   "url": "https://www.chittorgarh.com/ipo/purple-style-labs-ipo/2622/",
+   "company": "ESDS Software Solution Ltd.",
+   "slug": "esds-software-ipo",
+   "url": "https://www.chittorgarh.com/ipo/esds-software-ipo/1198/",
    "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
@@ -2909,9 +2909,9 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE0I1B01016",
-   "nse_symbol": "PERNIASPOP",
-   "bse_code": 544901,
+   "isin": "INE0DRI01029",
+   "nse_symbol": "ESDS",
+   "bse_code": 544898,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -2933,10 +2933,10 @@
    ]
   },
   {
-   "company": "Lumino Industries Ltd.",
-   "slug": "lumino-industries-ipo",
-   "url": "https://www.chittorgarh.com/ipo/lumino-industries-ipo/2013/",
-   "category": "Mainboard",
+   "company": "Complete Sports & Management India Ltd.",
+   "slug": "complete-sports-and-management-ipo",
+   "url": "https://www.chittorgarh.com/ipo/complete-sports-and-management-ipo/3182/",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-10-01",
@@ -2944,16 +2944,21 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE185Q01025",
-   "nse_symbol": "LUMINO",
-   "bse_code": 544894,
-   "pre_shares": null,
-   "post_shares": null,
+   "isin": "INE2K6801014",
+   "nse_symbol": "",
+   "bse_code": 544900,
+   "pre_shares": 15010000,
+   "post_shares": 20560000,
    "prom_pre_pct": null,
    "prom_post_pct": null,
-   "listing_date": null,
+   "listing_date": "2026-09-04",
    "anchor_names": [],
-   "lm": [],
+   "lm": [
+    [
+     172,
+     "Smart Horizon Capital Advisors Pvt.Ltd"
+    ]
+   ],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -3008,10 +3013,10 @@
    ]
   },
   {
-   "company": "Complete Sports & Management India Ltd.",
-   "slug": "complete-sports-and-management-ipo",
-   "url": "https://www.chittorgarh.com/ipo/complete-sports-and-management-ipo/3182/",
-   "category": "SME",
+   "company": "Lumino Industries Ltd.",
+   "slug": "lumino-industries-ipo",
+   "url": "https://www.chittorgarh.com/ipo/lumino-industries-ipo/2013/",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-10-01",
@@ -3019,21 +3024,16 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE2K6801014",
-   "nse_symbol": "",
-   "bse_code": 544900,
-   "pre_shares": 15010000,
-   "post_shares": 20560000,
+   "isin": "INE185Q01025",
+   "nse_symbol": "LUMINO",
+   "bse_code": 544894,
+   "pre_shares": null,
+   "post_shares": null,
    "prom_pre_pct": null,
    "prom_post_pct": null,
-   "listing_date": "2026-09-04",
+   "listing_date": null,
    "anchor_names": [],
-   "lm": [
-    [
-     172,
-     "Smart Horizon Capital Advisors Pvt.Ltd"
-    ]
-   ],
+   "lm": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -3168,9 +3168,9 @@
    ]
   },
   {
-   "company": "Skyways Air Services Ltd.",
-   "slug": "skyways-air-ipo",
-   "url": "https://www.chittorgarh.com/ipo/skyways-air-ipo/2510/",
+   "company": "Symbiotec Pharmalab Ltd.",
+   "slug": "symbiotec-pharmalab-ipo",
+   "url": "https://www.chittorgarh.com/ipo/symbiotec-pharmalab-ipo/2815/",
    "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
@@ -3179,9 +3179,9 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE0PX301025",
-   "nse_symbol": "SKYWAYS",
-   "bse_code": 544890,
+   "isin": "INE899I01028",
+   "nse_symbol": "SYMBIOTEC",
+   "bse_code": 544889,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -3238,9 +3238,9 @@
    ]
   },
   {
-   "company": "Symbiotec Pharmalab Ltd.",
-   "slug": "symbiotec-pharmalab-ipo",
-   "url": "https://www.chittorgarh.com/ipo/symbiotec-pharmalab-ipo/2815/",
+   "company": "Skyways Air Services Ltd.",
+   "slug": "skyways-air-ipo",
+   "url": "https://www.chittorgarh.com/ipo/skyways-air-ipo/2510/",
    "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
@@ -3249,9 +3249,9 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE899I01028",
-   "nse_symbol": "SYMBIOTEC",
-   "bse_code": 544889,
+   "isin": "INE0PX301025",
+   "nse_symbol": "SKYWAYS",
+   "bse_code": 544890,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -3378,9 +3378,9 @@
    ]
   },
   {
-   "company": "Sunshine Pictures Ltd.",
-   "slug": "sunshine-pictures-ipo",
-   "url": "https://www.chittorgarh.com/ipo/sunshine-pictures-ipo/2002/",
+   "company": "Shankesh Jewellers Ltd.",
+   "slug": "shankesh-jewellers-ipo",
+   "url": "https://www.chittorgarh.com/ipo/shankesh-jewellers-ipo/2663/",
    "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
@@ -3389,9 +3389,9 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE1B3O01011",
-   "nse_symbol": "SUNSHINE",
-   "bse_code": 544881,
+   "isin": "INE1WFC01025",
+   "nse_symbol": "SHANKESH",
+   "bse_code": 544882,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -3413,9 +3413,9 @@
    ]
   },
   {
-   "company": "Shankesh Jewellers Ltd.",
-   "slug": "shankesh-jewellers-ipo",
-   "url": "https://www.chittorgarh.com/ipo/shankesh-jewellers-ipo/2663/",
+   "company": "Sunshine Pictures Ltd.",
+   "slug": "sunshine-pictures-ipo",
+   "url": "https://www.chittorgarh.com/ipo/sunshine-pictures-ipo/2002/",
    "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
@@ -3424,9 +3424,9 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE1WFC01025",
-   "nse_symbol": "SHANKESH",
-   "bse_code": 544882,
+   "isin": "INE1B3O01011",
+   "nse_symbol": "SUNSHINE",
+   "bse_code": 544881,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -3488,9 +3488,9 @@
    ]
   },
   {
-   "company": "Lalithaa Jewellery Mart Ltd.",
-   "slug": "lalithaa-jewellery-mart-ipo",
-   "url": "https://www.chittorgarh.com/ipo/lalithaa-jewellery-mart-ipo/2469/",
+   "company": "Horizon Industrial Parks Ltd.",
+   "slug": "horizon-industrial-parks-ipo",
+   "url": "https://www.chittorgarh.com/ipo/horizon-industrial-parks-ipo/2826/",
    "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
@@ -3499,9 +3499,9 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE0K9O01026",
-   "nse_symbol": "LALITHAA",
-   "bse_code": 544879,
+   "isin": "INE685T01010",
+   "nse_symbol": "HORIZONIND",
+   "bse_code": 544880,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -3523,9 +3523,9 @@
    ]
   },
   {
-   "company": "Horizon Industrial Parks Ltd.",
-   "slug": "horizon-industrial-parks-ipo",
-   "url": "https://www.chittorgarh.com/ipo/horizon-industrial-parks-ipo/2826/",
+   "company": "Lalithaa Jewellery Mart Ltd.",
+   "slug": "lalithaa-jewellery-mart-ipo",
+   "url": "https://www.chittorgarh.com/ipo/lalithaa-jewellery-mart-ipo/2469/",
    "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
@@ -3534,9 +3534,9 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE685T01010",
-   "nse_symbol": "HORIZONIND",
-   "bse_code": 544880,
+   "isin": "INE0K9O01026",
+   "nse_symbol": "LALITHAA",
+   "bse_code": 544879,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -3678,9 +3678,9 @@
    ]
   },
   {
-   "company": "Shiprocket Ltd.",
-   "slug": "shiprocket-ipo",
-   "url": "https://www.chittorgarh.com/ipo/shiprocket-ipo/2450/",
+   "company": "Behari Lal Engineering Ltd.",
+   "slug": "behari-lal-engineering-ipo",
+   "url": "https://www.chittorgarh.com/ipo/behari-lal-engineering-ipo/2659/",
    "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
@@ -3689,9 +3689,9 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE0FOO01011",
-   "nse_symbol": "SHIPROCKET",
-   "bse_code": 544871,
+   "isin": "INE1EEM01017",
+   "nse_symbol": "BLEL",
+   "bse_code": 544870,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -3713,9 +3713,9 @@
    ]
   },
   {
-   "company": "Behari Lal Engineering Ltd.",
-   "slug": "behari-lal-engineering-ipo",
-   "url": "https://www.chittorgarh.com/ipo/behari-lal-engineering-ipo/2659/",
+   "company": "Shiprocket Ltd.",
+   "slug": "shiprocket-ipo",
+   "url": "https://www.chittorgarh.com/ipo/shiprocket-ipo/2450/",
    "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
@@ -3724,9 +3724,9 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE1EEM01017",
-   "nse_symbol": "BLEL",
-   "bse_code": 544870,
+   "isin": "INE0FOO01011",
+   "nse_symbol": "SHIPROCKET",
+   "bse_code": 544871,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -3788,6 +3788,41 @@
    ]
   },
   {
+   "company": "Milky Mist Dairy Food Ltd.",
+   "slug": "milky-mist-dairy-food-ipo",
+   "url": "https://www.chittorgarh.com/ipo/milky-mist-dairy-food-ipo/2541/",
+   "category": "Mainboard",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-09-12",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE00IT01020",
+   "nse_symbol": "MILKYMIST",
+   "bse_code": 544868,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-09-12",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
+  {
    "company": "LAPL Automotive Ltd.",
    "slug": "lapl-automotive-ipo",
    "url": "https://www.chittorgarh.com/ipo/lapl-automotive-ipo/2300/",
@@ -3828,20 +3863,20 @@
    ]
   },
   {
-   "company": "Milky Mist Dairy Food Ltd.",
-   "slug": "milky-mist-dairy-food-ipo",
-   "url": "https://www.chittorgarh.com/ipo/milky-mist-dairy-food-ipo/2541/",
+   "company": "Dhoot Transmission Ltd.",
+   "slug": "dhoot-transmission-ipo",
+   "url": "https://www.chittorgarh.com/ipo/dhoot-transmission-ipo/2859/",
    "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
-   "d30": "2026-09-12",
+   "d30": "2026-09-11",
    "d90": null,
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE00IT01020",
-   "nse_symbol": "MILKYMIST",
-   "bse_code": 544868,
+   "isin": "INE01NH01023",
+   "nse_symbol": "DHOOTTRANS",
+   "bse_code": 544867,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -3854,7 +3889,7 @@
    "events": [
     {
      "t": "A30",
-     "d": "2026-09-12",
+     "d": "2026-09-11",
      "sh": null,
      "pct": null,
      "val": null,
@@ -3938,20 +3973,20 @@
    ]
   },
   {
-   "company": "Dhoot Transmission Ltd.",
-   "slug": "dhoot-transmission-ipo",
-   "url": "https://www.chittorgarh.com/ipo/dhoot-transmission-ipo/2859/",
+   "company": "LEAP India Ltd.",
+   "slug": "leap-india-ipo",
+   "url": "https://www.chittorgarh.com/ipo/leap-india-ipo/2583/",
    "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
-   "d30": "2026-09-11",
+   "d30": "2026-09-10",
    "d90": null,
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE01NH01023",
-   "nse_symbol": "DHOOTTRANS",
-   "bse_code": 544867,
+   "isin": "INE00GO01025",
+   "nse_symbol": "LEAPIND",
+   "bse_code": 544865,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -3964,7 +3999,7 @@
    "events": [
     {
      "t": "A30",
-     "d": "2026-09-11",
+     "d": "2026-09-10",
      "sh": null,
      "pct": null,
      "val": null,
@@ -3987,41 +4022,6 @@
    "isin": "INE1D0W01018",
    "nse_symbol": "TECHNOCRAF",
    "bse_code": 544864,
-   "pre_shares": null,
-   "post_shares": null,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": null,
-   "anchor_names": [],
-   "lm": [],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-09-10",
-     "sh": null,
-     "pct": null,
-     "val": null,
-     "est": false
-    }
-   ]
-  },
-  {
-   "company": "LEAP India Ltd.",
-   "slug": "leap-india-ipo",
-   "url": "https://www.chittorgarh.com/ipo/leap-india-ipo/2583/",
-   "category": "Mainboard",
-   "anchor_allotment_date": null,
-   "boa_date": null,
-   "d30": "2026-09-10",
-   "d90": null,
-   "anchor_shares": null,
-   "anchor_investment_cr": null,
-   "pct_of_issue": null,
-   "isin": "INE00GO01025",
-   "nse_symbol": "LEAPIND",
-   "bse_code": 544865,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -4238,6 +4238,81 @@
    ]
   },
   {
+   "company": "Dhaval Packaging Ltd.",
+   "slug": "dhaval-packaging-ipo",
+   "url": "https://www.chittorgarh.com/ipo/dhaval-packaging-ipo/2835/",
+   "category": "SME",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-09-02",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE1HX301016",
+   "nse_symbol": "",
+   "bse_code": 544854,
+   "pre_shares": 9988000,
+   "post_shares": 13736800,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": "2026-08-06",
+   "anchor_names": [],
+   "lm": [
+    [
+     447,
+     "Rarever Financial Advisors Pvt.Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-09-02",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "MV Electrosystems Ltd.",
+   "slug": "mv-electrosystems-ipo",
+   "url": "https://www.chittorgarh.com/ipo/mv-electrosystems-ipo/2800/",
+   "category": "Mainboard",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-09-02",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE0OWZ01020",
+   "nse_symbol": "MVELECTRO",
+   "bse_code": 544851,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-09-02",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
+  {
    "company": "Juniper Green Energy Ltd.",
    "slug": "juniper-green-energy-ipo",
    "url": "https://www.chittorgarh.com/ipo/juniper-green-energy-ipo/2492/",
@@ -4297,81 +4372,6 @@
     [
      435,
      "Marwadi Chandarana Intermediaries Brokers Pvt.Ltd"
-    ]
-   ],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-09-02",
-     "sh": null,
-     "pct": null,
-     "val": null,
-     "est": false
-    }
-   ]
-  },
-  {
-   "company": "MV Electrosystems Ltd.",
-   "slug": "mv-electrosystems-ipo",
-   "url": "https://www.chittorgarh.com/ipo/mv-electrosystems-ipo/2800/",
-   "category": "Mainboard",
-   "anchor_allotment_date": null,
-   "boa_date": null,
-   "d30": "2026-09-02",
-   "d90": null,
-   "anchor_shares": null,
-   "anchor_investment_cr": null,
-   "pct_of_issue": null,
-   "isin": "INE0OWZ01020",
-   "nse_symbol": "MVELECTRO",
-   "bse_code": 544851,
-   "pre_shares": null,
-   "post_shares": null,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": null,
-   "anchor_names": [],
-   "lm": [],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-09-02",
-     "sh": null,
-     "pct": null,
-     "val": null,
-     "est": false
-    }
-   ]
-  },
-  {
-   "company": "Dhaval Packaging Ltd.",
-   "slug": "dhaval-packaging-ipo",
-   "url": "https://www.chittorgarh.com/ipo/dhaval-packaging-ipo/2835/",
-   "category": "SME",
-   "anchor_allotment_date": null,
-   "boa_date": null,
-   "d30": "2026-09-02",
-   "d90": null,
-   "anchor_shares": null,
-   "anchor_investment_cr": null,
-   "pct_of_issue": null,
-   "isin": "INE1HX301016",
-   "nse_symbol": "",
-   "bse_code": 544854,
-   "pre_shares": 9988000,
-   "post_shares": 13736800,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": "2026-08-06",
-   "anchor_names": [],
-   "lm": [
-    [
-     447,
-     "Rarever Financial Advisors Pvt.Ltd"
     ]
    ],
    "nonprom_pre_shares": null,
@@ -4538,9 +4538,9 @@
    ]
   },
   {
-   "company": "Lohia Corp Ltd.",
-   "slug": "lohia-corp-ipo",
-   "url": "https://www.chittorgarh.com/ipo/lohia-corp-ipo/2574/",
+   "company": "Indo-MIM Ltd.",
+   "slug": "indo-mim-ipo",
+   "url": "https://www.chittorgarh.com/ipo/indo-mim-ipo/2682/",
    "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
@@ -4549,9 +4549,9 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE0QJW01029",
-   "nse_symbol": "LCL",
-   "bse_code": 544839,
+   "isin": "INE084101034",
+   "nse_symbol": "INDOMIM",
+   "bse_code": 544837,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -4573,9 +4573,9 @@
    ]
   },
   {
-   "company": "Indo-MIM Ltd.",
-   "slug": "indo-mim-ipo",
-   "url": "https://www.chittorgarh.com/ipo/indo-mim-ipo/2682/",
+   "company": "Lohia Corp Ltd.",
+   "slug": "lohia-corp-ipo",
+   "url": "https://www.chittorgarh.com/ipo/lohia-corp-ipo/2574/",
    "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
@@ -4584,9 +4584,9 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE084101034",
-   "nse_symbol": "INDOMIM",
-   "bse_code": 544837,
+   "isin": "INE0QJW01029",
+   "nse_symbol": "LCL",
+   "bse_code": 544839,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -4763,6 +4763,41 @@
    ]
   },
   {
+   "company": "SBI Funds Management Ltd.",
+   "slug": "sbi-funds-management-ipo",
+   "url": "https://www.chittorgarh.com/ipo/sbi-funds-management-ipo/2949/",
+   "category": "Mainboard",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-08-16",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE640G01020",
+   "nse_symbol": "SBIFUNDS",
+   "bse_code": 544829,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-08-16",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
+  {
    "company": "Millworks Technologies Ltd.",
    "slug": "millworks-technologies-ipo",
    "url": "https://www.chittorgarh.com/ipo/millworks-technologies-ipo/2866/",
@@ -4803,45 +4838,10 @@
    ]
   },
   {
-   "company": "SBI Funds Management Ltd.",
-   "slug": "sbi-funds-management-ipo",
-   "url": "https://www.chittorgarh.com/ipo/sbi-funds-management-ipo/2949/",
-   "category": "Mainboard",
-   "anchor_allotment_date": null,
-   "boa_date": null,
-   "d30": "2026-08-16",
-   "d90": null,
-   "anchor_shares": null,
-   "anchor_investment_cr": null,
-   "pct_of_issue": null,
-   "isin": "INE640G01020",
-   "nse_symbol": "SBIFUNDS",
-   "bse_code": 544829,
-   "pre_shares": null,
-   "post_shares": null,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": null,
-   "anchor_names": [],
-   "lm": [],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-08-16",
-     "sh": null,
-     "pct": null,
-     "val": null,
-     "est": false
-    }
-   ]
-  },
-  {
-   "company": "Laser Power & Infra Ltd.",
-   "slug": "laser-power-infra-ipo",
-   "url": "https://www.chittorgarh.com/ipo/laser-power-infra-ipo/2654/",
-   "category": "Mainboard",
+   "company": "Devson Catalyst Ltd.",
+   "slug": "devson-catalyst-ipo",
+   "url": "https://www.chittorgarh.com/ipo/devson-catalyst-ipo/2943/",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-08-13",
@@ -4849,16 +4849,23 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE17IR01028",
-   "nse_symbol": "LASERPOWER",
-   "bse_code": 544822,
-   "pre_shares": null,
-   "post_shares": null,
+   "isin": "INE2KRP01017",
+   "nse_symbol": "",
+   "bse_code": 544823,
+   "pre_shares": 10250000,
+   "post_shares": 13588000,
    "prom_pre_pct": null,
    "prom_post_pct": null,
-   "listing_date": null,
-   "anchor_names": [],
-   "lm": [],
+   "listing_date": "2026-07-16",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
+   "lm": [
+    [
+     941,
+     "JJ IPO Advisors Pvt.Ltd"
+    ]
+   ],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -4915,10 +4922,10 @@
    ]
   },
   {
-   "company": "Devson Catalyst Ltd.",
-   "slug": "devson-catalyst-ipo",
-   "url": "https://www.chittorgarh.com/ipo/devson-catalyst-ipo/2943/",
-   "category": "SME",
+   "company": "Laser Power & Infra Ltd.",
+   "slug": "laser-power-infra-ipo",
+   "url": "https://www.chittorgarh.com/ipo/laser-power-infra-ipo/2654/",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-08-13",
@@ -4926,23 +4933,16 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE2KRP01017",
-   "nse_symbol": "",
-   "bse_code": 544823,
-   "pre_shares": 10250000,
-   "post_shares": 13588000,
+   "isin": "INE17IR01028",
+   "nse_symbol": "LASERPOWER",
+   "bse_code": 544822,
+   "pre_shares": null,
+   "post_shares": null,
    "prom_pre_pct": null,
    "prom_post_pct": null,
-   "listing_date": "2026-07-16",
-   "anchor_names": [
-    "Investment by Mutual Fund"
-   ],
-   "lm": [
-    [
-     941,
-     "JJ IPO Advisors Pvt.Ltd"
-    ]
-   ],
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
    "nonprom_pre_shares": null,
    "nonprom_pre_pct_of_post": null,
    "events": [
@@ -5069,9 +5069,9 @@
    ]
   },
   {
-   "company": "Atharva Polyplast Ltd.",
-   "slug": "atharva-polyplast-ipo",
-   "url": "https://www.chittorgarh.com/ipo/atharva-polyplast-ipo/2653/",
+   "company": "Kratikal Tech Ltd.",
+   "slug": "kratikal-tech-ipo",
+   "url": "https://www.chittorgarh.com/ipo/kratikal-tech-ipo/2844/",
    "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
@@ -5080,25 +5080,25 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE226801012",
+   "isin": "INE1L0M01019",
    "nse_symbol": "",
-   "bse_code": 544812,
-   "pre_shares": 12349998,
-   "post_shares": 16849998,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
+   "bse_code": 544811,
+   "pre_shares": 8160545,
+   "post_shares": 11100545,
+   "prom_pre_pct": 72.58,
+   "prom_post_pct": 53.36,
    "listing_date": "2026-07-07",
    "anchor_names": [
     "Investment by Mutual Fund"
    ],
    "lm": [
     [
-     406,
-     "Horizon Management Pvt.Ltd"
+     192,
+     "Beeline Capital Advisors Pvt.Ltd"
     ]
    ],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
+   "nonprom_pre_shares": 2237621,
+   "nonprom_pre_pct_of_post": 20.16,
    "events": [
     {
      "t": "A30",
@@ -5153,9 +5153,9 @@
    ]
   },
   {
-   "company": "Kratikal Tech Ltd.",
-   "slug": "kratikal-tech-ipo",
-   "url": "https://www.chittorgarh.com/ipo/kratikal-tech-ipo/2844/",
+   "company": "Atharva Polyplast Ltd.",
+   "slug": "atharva-polyplast-ipo",
+   "url": "https://www.chittorgarh.com/ipo/atharva-polyplast-ipo/2653/",
    "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
@@ -5164,25 +5164,25 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE1L0M01019",
+   "isin": "INE226801012",
    "nse_symbol": "",
-   "bse_code": 544811,
-   "pre_shares": 8160545,
-   "post_shares": 11100545,
-   "prom_pre_pct": 72.58,
-   "prom_post_pct": 53.36,
+   "bse_code": 544812,
+   "pre_shares": 12349998,
+   "post_shares": 16849998,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
    "listing_date": "2026-07-07",
    "anchor_names": [
     "Investment by Mutual Fund"
    ],
    "lm": [
     [
-     192,
-     "Beeline Capital Advisors Pvt.Ltd"
+     406,
+     "Horizon Management Pvt.Ltd"
     ]
    ],
-   "nonprom_pre_shares": 2237621,
-   "nonprom_pre_pct_of_post": 20.16,
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
    "events": [
     {
      "t": "A30",
@@ -5265,41 +5265,6 @@
    ]
   },
   {
-   "company": "Waterways Leisure Tourism Ltd.",
-   "slug": "cordelia-cruises-ipo",
-   "url": "https://www.chittorgarh.com/ipo/cordelia-cruises-ipo/2474/",
-   "category": "Mainboard",
-   "anchor_allotment_date": null,
-   "boa_date": null,
-   "d30": "2026-07-28",
-   "d90": null,
-   "anchor_shares": null,
-   "anchor_investment_cr": null,
-   "pct_of_issue": null,
-   "isin": "INE0LZF01013",
-   "nse_symbol": "CORDELIA",
-   "bse_code": 544802,
-   "pre_shares": null,
-   "post_shares": null,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": null,
-   "anchor_names": [],
-   "lm": [],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-07-28",
-     "sh": null,
-     "pct": null,
-     "val": null,
-     "est": false
-    }
-   ]
-  },
-  {
    "company": "Shreedhar Spinners Ltd.",
    "slug": "shreedhar-spinners-ipo",
    "url": "https://www.chittorgarh.com/ipo/shreedhar-spinners-ipo/2851/",
@@ -5342,9 +5307,44 @@
    ]
   },
   {
-   "company": "Avience Biomedicals Ltd.",
-   "slug": "avience-biomedicals-ipo",
-   "url": "https://www.chittorgarh.com/ipo/avience-biomedicals-ipo/2184/",
+   "company": "Waterways Leisure Tourism Ltd.",
+   "slug": "cordelia-cruises-ipo",
+   "url": "https://www.chittorgarh.com/ipo/cordelia-cruises-ipo/2474/",
+   "category": "Mainboard",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-07-28",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE0LZF01013",
+   "nse_symbol": "CORDELIA",
+   "bse_code": 544802,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-07-28",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "Anubhav Plast Ltd.",
+   "slug": "anubhav-plast-ipo",
+   "url": "https://www.chittorgarh.com/ipo/anubhav-plast-ipo/2610/",
    "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
@@ -5353,25 +5353,25 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE0V9I01017",
-   "nse_symbol": "AVIENCE",
-   "bse_code": "",
-   "pre_shares": 4031256,
-   "post_shares": 5485056,
-   "prom_pre_pct": 87.89,
-   "prom_post_pct": 64.59,
-   "listing_date": "2026-06-25",
+   "isin": "INE1O7201010",
+   "nse_symbol": "",
+   "bse_code": 544800,
+   "pre_shares": 8000000,
+   "post_shares": 11000000,
+   "prom_pre_pct": 99.99,
+   "prom_post_pct": 72.73,
+   "listing_date": "2026-06-29",
    "anchor_names": [
     "Investment by Mutual Fund"
    ],
    "lm": [
     [
-     424,
-     "Fintellectual Corporate Advisors Pvt.Ltd"
+     168,
+     "Capital Square Advisors Pvt.Ltd"
     ]
    ],
-   "nonprom_pre_shares": 488185,
-   "nonprom_pre_pct_of_post": 8.9,
+   "nonprom_pre_shares": 800,
+   "nonprom_pre_pct_of_post": 0.01,
    "events": [
     {
      "t": "A30",
@@ -5419,9 +5419,9 @@
    ]
   },
   {
-   "company": "Anubhav Plast Ltd.",
-   "slug": "anubhav-plast-ipo",
-   "url": "https://www.chittorgarh.com/ipo/anubhav-plast-ipo/2610/",
+   "company": "Avience Biomedicals Ltd.",
+   "slug": "avience-biomedicals-ipo",
+   "url": "https://www.chittorgarh.com/ipo/avience-biomedicals-ipo/2184/",
    "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
@@ -5430,25 +5430,25 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE1O7201010",
-   "nse_symbol": "",
-   "bse_code": 544800,
-   "pre_shares": 8000000,
-   "post_shares": 11000000,
-   "prom_pre_pct": 99.99,
-   "prom_post_pct": 72.73,
-   "listing_date": "2026-06-29",
+   "isin": "INE0V9I01017",
+   "nse_symbol": "AVIENCE",
+   "bse_code": "",
+   "pre_shares": 4031256,
+   "post_shares": 5485056,
+   "prom_pre_pct": 87.89,
+   "prom_post_pct": 64.59,
+   "listing_date": "2026-06-25",
    "anchor_names": [
     "Investment by Mutual Fund"
    ],
    "lm": [
     [
-     168,
-     "Capital Square Advisors Pvt.Ltd"
+     424,
+     "Fintellectual Corporate Advisors Pvt.Ltd"
     ]
    ],
-   "nonprom_pre_shares": 800,
-   "nonprom_pre_pct_of_post": 0.01,
+   "nonprom_pre_shares": 488185,
+   "nonprom_pre_pct_of_post": 8.9,
    "events": [
     {
      "t": "A30",
@@ -5503,48 +5503,6 @@
    ]
   },
   {
-   "company": "Susan Electricals India Ltd.",
-   "slug": "susan-electricals-india-ipo",
-   "url": "https://www.chittorgarh.com/ipo/susan-electricals-india-ipo/2872/",
-   "category": "SME",
-   "anchor_allotment_date": null,
-   "boa_date": null,
-   "d30": "2026-07-16",
-   "d90": null,
-   "anchor_shares": null,
-   "anchor_investment_cr": null,
-   "pct_of_issue": null,
-   "isin": "INE2L0V01019",
-   "nse_symbol": "",
-   "bse_code": 544793,
-   "pre_shares": 15588795,
-   "post_shares": 20330795,
-   "prom_pre_pct": 92.47,
-   "prom_post_pct": 66.97,
-   "listing_date": "2026-06-18",
-   "anchor_names": [
-    "Investment by Mutual Fund"
-   ],
-   "lm": [
-    [
-     450,
-     "Seren Capital Pvt.Ltd"
-    ]
-   ],
-   "nonprom_pre_shares": 1173836,
-   "nonprom_pre_pct_of_post": 5.77,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-07-16",
-     "sh": null,
-     "pct": null,
-     "val": null,
-     "est": false
-    }
-   ]
-  },
-  {
    "company": "Horizon Reclaim (India) Ltd.",
    "slug": "horizon-reclaim-india-ipo",
    "url": "https://www.chittorgarh.com/ipo/horizon-reclaim-india-ipo/2937/",
@@ -5587,33 +5545,40 @@
    ]
   },
   {
-   "company": "Hexagon Nutrition Ltd.",
-   "slug": "hexagon-nutrition-ipo",
-   "url": "https://www.chittorgarh.com/ipo/hexagon-nutrition-ipo/2658/",
-   "category": "Mainboard",
+   "company": "Susan Electricals India Ltd.",
+   "slug": "susan-electricals-india-ipo",
+   "url": "https://www.chittorgarh.com/ipo/susan-electricals-india-ipo/2872/",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
-   "d30": "2026-07-09",
+   "d30": "2026-07-16",
    "d90": null,
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE0JUI01012",
-   "nse_symbol": "HEXAGON",
-   "bse_code": 544785,
-   "pre_shares": null,
-   "post_shares": null,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": null,
-   "anchor_names": [],
-   "lm": [],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
+   "isin": "INE2L0V01019",
+   "nse_symbol": "",
+   "bse_code": 544793,
+   "pre_shares": 15588795,
+   "post_shares": 20330795,
+   "prom_pre_pct": 92.47,
+   "prom_post_pct": 66.97,
+   "listing_date": "2026-06-18",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
+   "lm": [
+    [
+     450,
+     "Seren Capital Pvt.Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": 1173836,
+   "nonprom_pre_pct_of_post": 5.77,
    "events": [
     {
      "t": "A30",
-     "d": "2026-07-09",
+     "d": "2026-07-16",
      "sh": null,
      "pct": null,
      "val": null,
@@ -5652,6 +5617,41 @@
    ],
    "nonprom_pre_shares": 1284557,
    "nonprom_pre_pct_of_post": 7.16,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-07-09",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "Hexagon Nutrition Ltd.",
+   "slug": "hexagon-nutrition-ipo",
+   "url": "https://www.chittorgarh.com/ipo/hexagon-nutrition-ipo/2658/",
+   "category": "Mainboard",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-07-09",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE0JUI01012",
+   "nse_symbol": "HEXAGON",
+   "bse_code": 544785,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
    "events": [
     {
      "t": "A30",
@@ -6399,9 +6399,9 @@
    ]
   },
   {
-   "company": "Amir Chand Jagdish Kumar (Exports) Ltd.",
-   "slug": "amir-chand-jagdish-kumar-ipo",
-   "url": "https://www.chittorgarh.com/ipo/amir-chand-jagdish-kumar-ipo/2501/",
+   "company": "Sai Parenteral's Ltd.",
+   "slug": "sai-parenterals-ipo",
+   "url": "https://www.chittorgarh.com/ipo/sai-parenterals-ipo/2681/",
    "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
@@ -6410,9 +6410,9 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE05TO01019",
-   "nse_symbol": "AMIRCHAND",
-   "bse_code": 544743,
+   "isin": "INE0H9F01037",
+   "nse_symbol": "SAIPARENT",
+   "bse_code": 544742,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -6469,9 +6469,9 @@
    ]
   },
   {
-   "company": "Sai Parenteral's Ltd.",
-   "slug": "sai-parenterals-ipo",
-   "url": "https://www.chittorgarh.com/ipo/sai-parenterals-ipo/2681/",
+   "company": "Amir Chand Jagdish Kumar (Exports) Ltd.",
+   "slug": "amir-chand-jagdish-kumar-ipo",
+   "url": "https://www.chittorgarh.com/ipo/amir-chand-jagdish-kumar-ipo/2501/",
    "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
@@ -6480,9 +6480,9 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE0H9F01037",
-   "nse_symbol": "SAIPARENT",
-   "bse_code": 544742,
+   "isin": "INE05TO01019",
+   "nse_symbol": "AMIRCHAND",
+   "bse_code": 544743,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -6819,48 +6819,6 @@
    ]
   },
   {
-   "company": "E to E Transportation Infrastructure Ltd.",
-   "slug": "e-to-e-transportation-infrastructure-ipo",
-   "url": "https://www.chittorgarh.com/ipo/e-to-e-transportation-infrastructure-ipo/2720/",
-   "category": "SME",
-   "anchor_allotment_date": null,
-   "boa_date": null,
-   "d30": "2026-03-31",
-   "d90": null,
-   "anchor_shares": null,
-   "anchor_investment_cr": null,
-   "pct_of_issue": null,
-   "isin": "INE1CEJ01017",
-   "nse_symbol": "E2ERAIL",
-   "bse_code": "",
-   "pre_shares": 12417570,
-   "post_shares": 17257570,
-   "prom_pre_pct": 45.19,
-   "prom_post_pct": 32.51,
-   "listing_date": "2026-01-02",
-   "anchor_names": [
-    "Investment by Mutual Fund"
-   ],
-   "lm": [
-    [
-     76,
-     "Hem Securities Ltd"
-    ]
-   ],
-   "nonprom_pre_shares": 6806070,
-   "nonprom_pre_pct_of_post": 39.44,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-03-31",
-     "sh": null,
-     "pct": null,
-     "val": null,
-     "est": false
-    }
-   ]
-  },
-  {
    "company": "Admach Systems Ltd.",
    "slug": "admach-systems-ipo",
    "url": "https://www.chittorgarh.com/ipo/admach-systems-ipo/2578/",
@@ -6903,10 +6861,10 @@
    ]
   },
   {
-   "company": "Omnitech Engineering Ltd.",
-   "slug": "omnitech-engineering-ipo",
-   "url": "https://www.chittorgarh.com/ipo/omnitech-engineering-ipo/2479/",
-   "category": "Mainboard",
+   "company": "E to E Transportation Infrastructure Ltd.",
+   "slug": "e-to-e-transportation-infrastructure-ipo",
+   "url": "https://www.chittorgarh.com/ipo/e-to-e-transportation-infrastructure-ipo/2720/",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-03-31",
@@ -6914,18 +6872,25 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE0UH301010",
-   "nse_symbol": "OMNI",
-   "bse_code": 544720,
-   "pre_shares": null,
-   "post_shares": null,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": null,
-   "anchor_names": [],
-   "lm": [],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
+   "isin": "INE1CEJ01017",
+   "nse_symbol": "E2ERAIL",
+   "bse_code": "",
+   "pre_shares": 12417570,
+   "post_shares": 17257570,
+   "prom_pre_pct": 45.19,
+   "prom_post_pct": 32.51,
+   "listing_date": "2026-01-02",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
+   "lm": [
+    [
+     76,
+     "Hem Securities Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": 6806070,
+   "nonprom_pre_pct_of_post": 39.44,
    "events": [
     {
      "t": "A30",
@@ -6968,6 +6933,41 @@
    ],
    "nonprom_pre_shares": 3052324,
    "nonprom_pre_pct_of_post": 14.58,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-03-31",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "Omnitech Engineering Ltd.",
+   "slug": "omnitech-engineering-ipo",
+   "url": "https://www.chittorgarh.com/ipo/omnitech-engineering-ipo/2479/",
+   "category": "Mainboard",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-03-31",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE0UH301010",
+   "nse_symbol": "OMNI",
+   "bse_code": 544720,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
    "events": [
     {
      "t": "A30",
@@ -7134,6 +7134,48 @@
    ]
   },
   {
+   "company": "Accord Transformer & Switchgear Ltd.",
+   "slug": "accord-transformer-switchgear-ipo",
+   "url": "https://www.chittorgarh.com/ipo/accord-transformer-switchgear-ipo/2763/",
+   "category": "SME",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-03-27",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE132201018",
+   "nse_symbol": "",
+   "bse_code": 544710,
+   "pre_shares": 15011289,
+   "post_shares": 20573289,
+   "prom_pre_pct": 84.94,
+   "prom_post_pct": 61.98,
+   "listing_date": "2026-03-02",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
+   "lm": [
+    [
+     182,
+     "GYR Capital Advisors Pvt.Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": 2260700,
+   "nonprom_pre_pct_of_post": 10.99,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-03-27",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
+  {
    "company": "Clean Max Enviro Energy Solutions Ltd.",
    "slug": "clean-max-enviro-energy-solutions-ipo",
    "url": "https://www.chittorgarh.com/ipo/clean-max-enviro-energy-solutions-ipo/2573/",
@@ -7199,48 +7241,6 @@
    ],
    "nonprom_pre_shares": 3637514,
    "nonprom_pre_pct_of_post": 16.65,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-03-27",
-     "sh": null,
-     "pct": null,
-     "val": null,
-     "est": false
-    }
-   ]
-  },
-  {
-   "company": "Accord Transformer & Switchgear Ltd.",
-   "slug": "accord-transformer-switchgear-ipo",
-   "url": "https://www.chittorgarh.com/ipo/accord-transformer-switchgear-ipo/2763/",
-   "category": "SME",
-   "anchor_allotment_date": null,
-   "boa_date": null,
-   "d30": "2026-03-27",
-   "d90": null,
-   "anchor_shares": null,
-   "anchor_investment_cr": null,
-   "pct_of_issue": null,
-   "isin": "INE132201018",
-   "nse_symbol": "",
-   "bse_code": 544710,
-   "pre_shares": 15011289,
-   "post_shares": 20573289,
-   "prom_pre_pct": 84.94,
-   "prom_post_pct": 61.98,
-   "listing_date": "2026-03-02",
-   "anchor_names": [
-    "Investment by Mutual Fund"
-   ],
-   "lm": [
-    [
-     182,
-     "GYR Capital Advisors Pvt.Ltd"
-    ]
-   ],
-   "nonprom_pre_shares": 2260700,
-   "nonprom_pre_pct_of_post": 10.99,
    "events": [
     {
      "t": "A30",
@@ -7414,9 +7414,9 @@
    ]
   },
   {
-   "company": "Aye Finance Ltd.",
-   "slug": "aye-finance-ipo",
-   "url": "https://www.chittorgarh.com/ipo/aye-finance-ipo/2026/",
+   "company": "Fractal Analytics Ltd.",
+   "slug": "fractal-analytics-ipo",
+   "url": "https://www.chittorgarh.com/ipo/fractal-analytics-ipo/2569/",
    "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
@@ -7425,9 +7425,9 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE501X01029",
-   "nse_symbol": "AYE",
-   "bse_code": 544699,
+   "isin": "INE212S01015",
+   "nse_symbol": "FRACTAL",
+   "bse_code": 544700,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -7449,9 +7449,9 @@
    ]
   },
   {
-   "company": "Fractal Analytics Ltd.",
-   "slug": "fractal-analytics-ipo",
-   "url": "https://www.chittorgarh.com/ipo/fractal-analytics-ipo/2569/",
+   "company": "Aye Finance Ltd.",
+   "slug": "aye-finance-ipo",
+   "url": "https://www.chittorgarh.com/ipo/aye-finance-ipo/2026/",
    "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
@@ -7460,9 +7460,9 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE212S01015",
-   "nse_symbol": "FRACTAL",
-   "bse_code": 544700,
+   "isin": "INE501X01029",
+   "nse_symbol": "AYE",
+   "bse_code": 544699,
    "pre_shares": null,
    "post_shares": null,
    "prom_pre_pct": null,
@@ -7778,10 +7778,10 @@
    ]
   },
   {
-   "company": "Shadowfax Technologies Ltd.",
-   "slug": "shadowfax-technologies-ipo",
-   "url": "https://www.chittorgarh.com/ipo/shadowfax-technologies-ipo/2526/",
-   "category": "Mainboard",
+   "company": "KRM Ayurveda Ltd.",
+   "slug": "krm-ayurveda-ipo",
+   "url": "https://www.chittorgarh.com/ipo/krm-ayurveda-ipo/2620/",
+   "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-02-21",
@@ -7789,18 +7789,25 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE12UN01015",
-   "nse_symbol": "SHADOWFAX",
-   "bse_code": 544685,
-   "pre_shares": null,
-   "post_shares": null,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": null,
-   "anchor_names": [],
-   "lm": [],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
+   "isin": "INE1MTV01019",
+   "nse_symbol": "KRMAYURVED",
+   "bse_code": "",
+   "pre_shares": 15520800,
+   "post_shares": 21260800,
+   "prom_pre_pct": 92.16,
+   "prom_post_pct": 67.28,
+   "listing_date": "2026-01-29",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
+   "lm": [
+    [
+     477,
+     "NEXGEN Financial Solutions Pvt.Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": 1216830,
+   "nonprom_pre_pct_of_post": 5.72,
    "events": [
     {
      "t": "A30",
@@ -7855,10 +7862,10 @@
    ]
   },
   {
-   "company": "KRM Ayurveda Ltd.",
-   "slug": "krm-ayurveda-ipo",
-   "url": "https://www.chittorgarh.com/ipo/krm-ayurveda-ipo/2620/",
-   "category": "SME",
+   "company": "Shadowfax Technologies Ltd.",
+   "slug": "shadowfax-technologies-ipo",
+   "url": "https://www.chittorgarh.com/ipo/shadowfax-technologies-ipo/2526/",
+   "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
    "d30": "2026-02-21",
@@ -7866,25 +7873,18 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE1MTV01019",
-   "nse_symbol": "KRMAYURVED",
-   "bse_code": "",
-   "pre_shares": 15520800,
-   "post_shares": 21260800,
-   "prom_pre_pct": 92.16,
-   "prom_post_pct": 67.28,
-   "listing_date": "2026-01-29",
-   "anchor_names": [
-    "Investment by Mutual Fund"
-   ],
-   "lm": [
-    [
-     477,
-     "NEXGEN Financial Solutions Pvt.Ltd"
-    ]
-   ],
-   "nonprom_pre_shares": 1216830,
-   "nonprom_pre_pct_of_post": 5.72,
+   "isin": "INE12UN01015",
+   "nse_symbol": "SHADOWFAX",
+   "bse_code": 544685,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
    "events": [
     {
      "t": "A30",
@@ -7974,48 +7974,6 @@
    ]
   },
   {
-   "company": "Defrail Technologies Ltd.",
-   "slug": "defrail-technologies-ipo",
-   "url": "https://www.chittorgarh.com/ipo/defrail-technologies-ipo/2693/",
-   "category": "SME",
-   "anchor_allotment_date": null,
-   "boa_date": null,
-   "d30": "2026-02-15",
-   "d90": null,
-   "anchor_shares": null,
-   "anchor_investment_cr": null,
-   "pct_of_issue": null,
-   "isin": "INE0ZE201010",
-   "nse_symbol": "",
-   "bse_code": 544677,
-   "pre_shares": 5163620,
-   "post_shares": 7024420,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": "2026-01-19",
-   "anchor_names": [
-    "Investment by Mutual Fund"
-   ],
-   "lm": [
-    [
-     477,
-     "NEXGEN Financial Solutions Pvt. Ltd"
-    ]
-   ],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-02-15",
-     "sh": null,
-     "pct": null,
-     "val": null,
-     "est": false
-    }
-   ]
-  },
-  {
    "company": "INDO SMC Ltd.",
    "slug": "indo-smc-ipo",
    "url": "https://www.chittorgarh.com/ipo/indo-smc-ipo/2694/",
@@ -8046,6 +8004,48 @@
    ],
    "nonprom_pre_shares": 2953129,
    "nonprom_pre_pct_of_post": 12.92,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-02-15",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "Defrail Technologies Ltd.",
+   "slug": "defrail-technologies-ipo",
+   "url": "https://www.chittorgarh.com/ipo/defrail-technologies-ipo/2693/",
+   "category": "SME",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-02-15",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE0ZE201010",
+   "nse_symbol": "",
+   "bse_code": 544677,
+   "pre_shares": 5163620,
+   "post_shares": 7024420,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": "2026-01-19",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
+   "lm": [
+    [
+     477,
+     "NEXGEN Financial Solutions Pvt. Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
    "events": [
     {
      "t": "A30",
