@@ -137,11 +137,4 @@ DTEND;VALUE=DATE:20261102
 SUMMARY:🔓 Acme Universal Safezone 9 Ltd. — 30D anchor unlock
 DESCRIPTION:https://www.chittorgarh.com/ipo/acme-universal-safezone-9-ipo/3206/
 END:VEVENT
-BEGIN:VEVENT
-UID:sai-urja-indo-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:🔓 Sai Urja Indo Ventures Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/sai-urja-indo-ipo/2655/
-END:VEVENT
 END:VCALENDAR
