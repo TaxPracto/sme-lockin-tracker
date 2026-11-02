@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T13:20:14+05:30",
+ "generated_at": "2026-11-02T13:26:33+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -7,6 +7,46 @@
   2026
  ],
  "records": [
+  {
+   "company": "EAAA India Alternatives Ltd.",
+   "slug": "eaaa-india-alternatives-ipo",
+   "url": "https://www.chittorgarh.com/ipo/eaaa-india-alternatives-ipo/2061/",
+   "category": "Mainboard",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-11-27",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE528L01027",
+   "nse_symbol": "EDELALTS",
+   "bse_code": 545008,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-11-27",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": null,
+   "chg_from_issue_pct": null
+  },
   {
    "company": "Core4 Engineers Ltd.",
    "slug": "core4-engineers-ipo",

@@ -5,6 +5,13 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:eaaa-india-alternatives-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:🔓 EAAA India Alternatives Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/eaaa-india-alternatives-ipo/2061/
+END:VEVENT
+BEGIN:VEVENT
 UID:core4-engineers-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
@@ -129,12 +136,5 @@ DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:🔓 Vans Electroengineerings Ltd. — 30D anchor unlock
 DESCRIPTION:https://www.chittorgarh.com/ipo/vans-electroengineerings-ipo/3197/
-END:VEVENT
-BEGIN:VEVENT
-UID:acme-universal-safezone-9-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:🔓 Acme Universal Safezone 9 Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/acme-universal-safezone-9-ipo/3206/
 END:VEVENT
 END:VCALENDAR
