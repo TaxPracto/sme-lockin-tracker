@@ -5,6 +5,27 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:wiscon-industries-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:🔓 Wiscon Industries Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/wiscon-industries-ipo/3202/
+END:VEVENT
+BEGIN:VEVENT
+UID:bls-polymers-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:🔓 BLS Polymers Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/bls-polymers-ipo/2559/
+END:VEVENT
+BEGIN:VEVENT
+UID:sfc-environmental-technologies-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:🔓 SFC Environmental Technologies Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/sfc-environmental-technologies-ipo/2070/
+END:VEVENT
+BEGIN:VEVENT
 UID:eaaa-india-alternatives-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
