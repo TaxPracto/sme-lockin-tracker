@@ -5,6 +5,20 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:carver-roboweld-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:🔓 Carver Roboweld Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/carver-roboweld-ipo/3239/
+END:VEVENT
+BEGIN:VEVENT
+UID:mksons-fine-jewels-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:🔓 M.K.Sons Fine Jewels Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/mksons-fine-jewels-ipo/3100/
+END:VEVENT
+BEGIN:VEVENT
 UID:wiscon-industries-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
@@ -150,12 +164,5 @@ DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
 SUMMARY:🔓 Shree TNB Polymers Ltd. — 30D anchor unlock
 DESCRIPTION:https://www.chittorgarh.com/ipo/shree-tnb-polymers-ipo/3095/
-END:VEVENT
-BEGIN:VEVENT
-UID:vans-electroengineerings-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261103
-DTEND;VALUE=DATE:20261104
-SUMMARY:🔓 Vans Electroengineerings Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/vans-electroengineerings-ipo/3197/
 END:VEVENT
 END:VCALENDAR
