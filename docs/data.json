@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T13:16:09+05:30",
+ "generated_at": "2026-11-05T13:41:19+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -7,6 +7,46 @@
   2026
  ],
  "records": [
+  {
+   "company": "Bombay Coated & Special Steels Ltd.",
+   "slug": "bombay-coated-and-special-steels-ipo",
+   "url": "https://www.chittorgarh.com/ipo/bombay-coated-and-special-steels-ipo/2671/",
+   "category": "Mainboard",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-12-02",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE0XFY01011",
+   "nse_symbol": "BCSSL",
+   "bse_code": 545018,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-12-02",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ],
+   "last_close": null,
+   "close_date": null,
+   "avg_vol": null,
+   "issue_px": null,
+   "chg_from_issue_pct": null
+  },
   {
    "company": "Carver Roboweld Ltd.",
    "slug": "carver-roboweld-ipo",
@@ -41,9 +81,9 @@
      "est": false
     }
    ],
-   "last_close": null,
-   "close_date": null,
-   "avg_vol": null,
+   "last_close": 94.5,
+   "close_date": "2026-11-04",
+   "avg_vol": 1723200,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -81,9 +121,9 @@
      "est": false
     }
    ],
-   "last_close": null,
-   "close_date": null,
-   "avg_vol": null,
+   "last_close": 162.2,
+   "close_date": "2026-11-04",
+   "avg_vol": 22624853,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -121,9 +161,9 @@
      "est": false
     }
    ],
-   "last_close": 203.55,
-   "close_date": "2026-11-03",
-   "avg_vol": 1317000,
+   "last_close": 203.85,
+   "close_date": "2026-11-04",
+   "avg_vol": 1346400,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -161,9 +201,9 @@
      "est": false
     }
    ],
-   "last_close": 268.8,
-   "close_date": "2026-11-03",
-   "avg_vol": 79314574,
+   "last_close": 255.94,
+   "close_date": "2026-11-04",
+   "avg_vol": 62057866,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -201,9 +241,9 @@
      "est": false
     }
    ],
-   "last_close": 426.1,
-   "close_date": "2026-11-03",
-   "avg_vol": 21078628,
+   "last_close": 406.75,
+   "close_date": "2026-11-04",
+   "avg_vol": 24673649,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -241,9 +281,9 @@
      "est": false
     }
    ],
-   "last_close": 1722.3,
-   "close_date": "2026-11-03",
-   "avg_vol": 3830605,
+   "last_close": 1689.9,
+   "close_date": "2026-11-04",
+   "avg_vol": 2615410,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -281,9 +321,9 @@
      "est": false
     }
    ],
-   "last_close": 86.12,
-   "close_date": "2026-11-03",
-   "avg_vol": 644400,
+   "last_close": 88.62,
+   "close_date": "2026-11-04",
+   "avg_vol": 514800,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -321,9 +361,9 @@
      "est": false
     }
    ],
-   "last_close": 1437.4,
-   "close_date": "2026-11-03",
-   "avg_vol": 58658789,
+   "last_close": 1421.7,
+   "close_date": "2026-11-04",
+   "avg_vol": 50133956,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -361,9 +401,9 @@
      "est": false
     }
    ],
-   "last_close": 730.8,
-   "close_date": "2026-11-03",
-   "avg_vol": 2676092,
+   "last_close": 749.8,
+   "close_date": "2026-11-04",
+   "avg_vol": 2316634,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -401,9 +441,9 @@
      "est": false
     }
    ],
-   "last_close": 1230.4,
-   "close_date": "2026-11-03",
-   "avg_vol": 6713592,
+   "last_close": 1275.3,
+   "close_date": "2026-11-04",
+   "avg_vol": 6070861,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -441,9 +481,9 @@
      "est": false
     }
    ],
-   "last_close": 156.4,
-   "close_date": "2026-11-03",
-   "avg_vol": 31168049,
+   "last_close": 164.85,
+   "close_date": "2026-11-04",
+   "avg_vol": 28627493,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -481,9 +521,9 @@
      "est": false
     }
    ],
-   "last_close": 172.0,
-   "close_date": "2026-11-03",
-   "avg_vol": 205500,
+   "last_close": 168.0,
+   "close_date": "2026-11-04",
+   "avg_vol": 183911,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -521,9 +561,9 @@
      "est": false
     }
    ],
-   "last_close": 657.0,
-   "close_date": "2026-11-03",
-   "avg_vol": 7569391,
+   "last_close": 660.65,
+   "close_date": "2026-11-04",
+   "avg_vol": 6790080,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -561,9 +601,9 @@
      "est": false
     }
    ],
-   "last_close": 458.6,
-   "close_date": "2026-11-03",
-   "avg_vol": 6213337,
+   "last_close": 485.9,
+   "close_date": "2026-11-04",
+   "avg_vol": 5621545,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -601,9 +641,9 @@
      "est": false
     }
    ],
-   "last_close": 107.0,
-   "close_date": "2026-11-03",
-   "avg_vol": 717733,
+   "last_close": 105.25,
+   "close_date": "2026-11-04",
+   "avg_vol": 650040,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -641,9 +681,9 @@
      "est": false
     }
    ],
-   "last_close": 272.1,
-   "close_date": "2026-11-03",
-   "avg_vol": 2395571,
+   "last_close": 285.95,
+   "close_date": "2026-11-04",
+   "avg_vol": 2229794,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -681,9 +721,9 @@
      "est": false
     }
    ],
-   "last_close": 61.8,
-   "close_date": "2026-11-03",
-   "avg_vol": 363800,
+   "last_close": 62.85,
+   "close_date": "2026-11-04",
+   "avg_vol": 343636,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -721,9 +761,9 @@
      "est": false
     }
    ],
-   "last_close": 265.9,
-   "close_date": "2026-11-03",
-   "avg_vol": 5165591,
+   "last_close": 265.45,
+   "close_date": "2026-11-04",
+   "avg_vol": 4719006,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -766,9 +806,9 @@
      "est": false
     }
    ],
-   "last_close": 43.98,
-   "close_date": "2026-11-03",
-   "avg_vol": 214705,
+   "last_close": 43.25,
+   "close_date": "2026-11-04",
+   "avg_vol": 207333,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -811,9 +851,9 @@
      "est": false
     }
    ],
-   "last_close": 163.65,
-   "close_date": "2026-11-03",
-   "avg_vol": 344647,
+   "last_close": 168.15,
+   "close_date": "2026-11-04",
+   "avg_vol": 327566,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -856,9 +896,9 @@
      "est": false
     }
    ],
-   "last_close": 82.64,
-   "close_date": "2026-11-03",
-   "avg_vol": 304977,
+   "last_close": 84.3,
+   "close_date": "2026-11-04",
+   "avg_vol": 291705,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -901,9 +941,9 @@
      "est": false
     }
    ],
-   "last_close": 151.5,
-   "close_date": "2026-11-03",
-   "avg_vol": 128147,
+   "last_close": 144.0,
+   "close_date": "2026-11-04",
+   "avg_vol": 121800,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -946,9 +986,9 @@
      "est": false
     }
    ],
-   "last_close": 53.75,
-   "close_date": "2026-11-03",
-   "avg_vol": 193333,
+   "last_close": 52.32,
+   "close_date": "2026-11-04",
+   "avg_vol": 184631,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -991,9 +1031,9 @@
      "est": false
     }
    ],
-   "last_close": 412.95,
-   "close_date": "2026-11-03",
-   "avg_vol": 243031,
+   "last_close": 433.55,
+   "close_date": "2026-11-04",
+   "avg_vol": 232320,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1036,9 +1076,9 @@
      "est": false
     }
    ],
-   "last_close": 104.95,
-   "close_date": "2026-11-03",
-   "avg_vol": 237200,
+   "last_close": 104.0,
+   "close_date": "2026-11-04",
+   "avg_vol": 229866,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1081,9 +1121,9 @@
      "est": false
     }
    ],
-   "last_close": 116.1,
-   "close_date": "2026-11-03",
-   "avg_vol": 148000,
+   "last_close": 121.9,
+   "close_date": "2026-11-04",
+   "avg_vol": 146072,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1121,9 +1161,9 @@
      "est": false
     }
    ],
-   "last_close": 116.04,
-   "close_date": "2026-11-03",
-   "avg_vol": 1196247,
+   "last_close": 118.97,
+   "close_date": "2026-11-04",
+   "avg_vol": 1159073,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1161,9 +1201,9 @@
      "est": false
     }
    ],
-   "last_close": 139.69,
-   "close_date": "2026-11-03",
-   "avg_vol": 261154,
+   "last_close": 139.54,
+   "close_date": "2026-11-04",
+   "avg_vol": 249793,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1206,9 +1246,9 @@
      "est": false
     }
    ],
-   "last_close": 83.25,
-   "close_date": "2026-11-03",
-   "avg_vol": 247440,
+   "last_close": 84.3,
+   "close_date": "2026-11-04",
+   "avg_vol": 235771,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1251,9 +1291,9 @@
      "est": false
     }
    ],
-   "last_close": 189.0,
-   "close_date": "2026-11-03",
-   "avg_vol": 214514,
+   "last_close": 198.45,
+   "close_date": "2026-11-04",
+   "avg_vol": 212127,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1291,9 +1331,9 @@
      "est": false
     }
    ],
-   "last_close": 19.06,
-   "close_date": "2026-11-03",
-   "avg_vol": 24090496,
+   "last_close": 19.47,
+   "close_date": "2026-11-04",
+   "avg_vol": 23298784,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1331,9 +1371,9 @@
      "est": false
     }
    ],
-   "last_close": 337.45,
-   "close_date": "2026-11-03",
-   "avg_vol": 3108724,
+   "last_close": 351.15,
+   "close_date": "2026-11-04",
+   "avg_vol": 2985941,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1371,9 +1411,9 @@
      "est": false
     }
    ],
-   "last_close": 102.08,
-   "close_date": "2026-11-03",
-   "avg_vol": 4799689,
+   "last_close": 115.39,
+   "close_date": "2026-11-04",
+   "avg_vol": 4753648,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1411,9 +1451,9 @@
      "est": false
     }
    ],
-   "last_close": 205.09,
-   "close_date": "2026-11-03",
-   "avg_vol": 1114487,
+   "last_close": 212.18,
+   "close_date": "2026-11-04",
+   "avg_vol": 1072986,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1496,9 +1536,9 @@
      "est": false
     }
    ],
-   "last_close": 53.89,
-   "close_date": "2026-11-03",
-   "avg_vol": 178457741,
+   "last_close": 55.08,
+   "close_date": "2026-11-04",
+   "avg_vol": 174351162,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1541,9 +1581,9 @@
      "est": false
     }
    ],
-   "last_close": 90.79,
-   "close_date": "2026-11-03",
-   "avg_vol": 169727,
+   "last_close": 95.99,
+   "close_date": "2026-11-04",
+   "avg_vol": 166000,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1581,9 +1621,9 @@
      "est": false
     }
    ],
-   "last_close": 369.5,
-   "close_date": "2026-11-03",
-   "avg_vol": 1043365,
+   "last_close": 400.4,
+   "close_date": "2026-11-04",
+   "avg_vol": 1015905,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1626,9 +1666,9 @@
      "est": false
     }
    ],
-   "last_close": 90.0,
-   "close_date": "2026-11-03",
-   "avg_vol": 162156,
+   "last_close": 88.75,
+   "close_date": "2026-11-04",
+   "avg_vol": 156666,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1671,9 +1711,9 @@
      "est": false
     }
    ],
-   "last_close": 94.15,
-   "close_date": "2026-11-03",
-   "avg_vol": 150260,
+   "last_close": 103.0,
+   "close_date": "2026-11-04",
+   "avg_vol": 145400,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1711,9 +1751,9 @@
      "est": false
     }
    ],
-   "last_close": 286.2,
-   "close_date": "2026-11-03",
-   "avg_vol": 1400234,
+   "last_close": 285.2,
+   "close_date": "2026-11-04",
+   "avg_vol": 1360591,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1751,9 +1791,9 @@
      "est": false
     }
    ],
-   "last_close": 171.52,
-   "close_date": "2026-11-03",
-   "avg_vol": 905545,
+   "last_close": 176.32,
+   "close_date": "2026-11-04",
+   "avg_vol": 885405,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1791,9 +1831,9 @@
      "est": false
     }
    ],
-   "last_close": 275.6,
-   "close_date": "2026-11-03",
-   "avg_vol": 3359371,
+   "last_close": 280.95,
+   "close_date": "2026-11-04",
+   "avg_vol": 3277379,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1831,9 +1871,9 @@
      "est": false
     }
    ],
-   "last_close": 196.09,
-   "close_date": "2026-11-03",
-   "avg_vol": 879363,
+   "last_close": 198.65,
+   "close_date": "2026-11-04",
+   "avg_vol": 847155,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1876,9 +1916,9 @@
      "est": false
     }
    ],
-   "last_close": 135.6,
-   "close_date": "2026-11-03",
-   "avg_vol": 296448,
+   "last_close": 146.45,
+   "close_date": "2026-11-04",
+   "avg_vol": 292800,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1921,9 +1961,9 @@
      "est": false
     }
    ],
-   "last_close": 63.99,
-   "close_date": "2026-11-03",
-   "avg_vol": 148375,
+   "last_close": 76.27,
+   "close_date": "2026-11-04",
+   "avg_vol": 145920,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -1966,9 +2006,9 @@
      "est": false
     }
    ],
-   "last_close": 127.95,
-   "close_date": "2026-11-03",
-   "avg_vol": 114400,
+   "last_close": 116.0,
+   "close_date": "2026-11-04",
+   "avg_vol": 110448,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2006,9 +2046,9 @@
      "est": false
     }
    ],
-   "last_close": 123.27,
-   "close_date": "2026-11-03",
-   "avg_vol": 3787678,
+   "last_close": 134.08,
+   "close_date": "2026-11-04",
+   "avg_vol": 3685719,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2051,9 +2091,9 @@
      "est": false
     }
    ],
-   "last_close": 124.45,
-   "close_date": "2026-11-03",
-   "avg_vol": 187440,
+   "last_close": 118.9,
+   "close_date": "2026-11-04",
+   "avg_vol": 182723,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2096,9 +2136,9 @@
      "est": false
     }
    ],
-   "last_close": 39.5,
-   "close_date": "2026-11-03",
-   "avg_vol": 307000,
+   "last_close": 38.75,
+   "close_date": "2026-11-04",
+   "avg_vol": 299555,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2141,9 +2181,9 @@
      "est": false
     }
    ],
-   "last_close": 240.0,
-   "close_date": "2026-11-03",
-   "avg_vol": 178088,
+   "last_close": 237.9,
+   "close_date": "2026-11-04",
+   "avg_vol": 174042,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2186,9 +2226,9 @@
      "est": false
     }
    ],
-   "last_close": 97.55,
-   "close_date": "2026-11-03",
-   "avg_vol": 124933,
+   "last_close": 101.25,
+   "close_date": "2026-11-04",
+   "avg_vol": 125400,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2226,9 +2266,9 @@
      "est": false
     }
    ],
-   "last_close": 1803.8,
-   "close_date": "2026-11-03",
-   "avg_vol": 4127044,
+   "last_close": 1809.4,
+   "close_date": "2026-11-04",
+   "avg_vol": 4121908,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2266,9 +2306,9 @@
      "est": false
     }
    ],
-   "last_close": 102.64,
-   "close_date": "2026-11-03",
-   "avg_vol": 368307,
+   "last_close": 104.38,
+   "close_date": "2026-11-04",
+   "avg_vol": 362876,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2306,9 +2346,9 @@
      "est": false
     }
    ],
-   "last_close": 636.0,
-   "close_date": "2026-11-03",
-   "avg_vol": 9610981,
+   "last_close": 646.35,
+   "close_date": "2026-11-04",
+   "avg_vol": 9293805,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2346,9 +2386,9 @@
      "est": false
     }
    ],
-   "last_close": 159.01,
-   "close_date": "2026-11-03",
-   "avg_vol": 941539,
+   "last_close": 165.37,
+   "close_date": "2026-11-04",
+   "avg_vol": 919672,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2386,9 +2426,9 @@
      "est": false
     }
    ],
-   "last_close": 118.22,
-   "close_date": "2026-11-03",
-   "avg_vol": 49551072,
+   "last_close": 119.55,
+   "close_date": "2026-11-04",
+   "avg_vol": 48088805,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2399,7 +2439,7 @@
    "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
-   "d30": "2026-10-18",
+   "d30": "2026-10-19",
    "d90": null,
    "anchor_shares": null,
    "anchor_investment_cr": null,
@@ -2424,146 +2464,16 @@
    "events": [
     {
      "t": "A30",
-     "d": "2026-10-18",
+     "d": "2026-10-19",
      "sh": null,
      "pct": null,
      "val": null,
      "est": false
     }
    ],
-   "last_close": 45.0,
-   "close_date": "2026-11-03",
-   "avg_vol": 153769,
-   "issue_px": null,
-   "chg_from_issue_pct": null
-  },
-  {
-   "company": "Injecto Polymers Ltd.",
-   "slug": "injecto-polymers-ipo",
-   "url": "https://www.chittorgarh.com/ipo/injecto-polymers-ipo/2625/",
-   "category": "SME",
-   "anchor_allotment_date": null,
-   "boa_date": null,
-   "d30": "2026-10-17",
-   "d90": null,
-   "anchor_shares": null,
-   "anchor_investment_cr": null,
-   "pct_of_issue": null,
-   "isin": "INE1JJF01019",
-   "nse_symbol": "",
-   "bse_code": 544930,
-   "pre_shares": 15177200,
-   "post_shares": 20789600,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": "2026-09-21",
-   "anchor_names": [],
-   "lm": [
-    [
-     445,
-     "Indcap Advisors Pvt.Ltd"
-    ]
-   ],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-10-17",
-     "sh": null,
-     "pct": null,
-     "val": null,
-     "est": false
-    }
-   ],
-   "last_close": 93.49,
-   "close_date": "2026-11-03",
-   "avg_vol": 91500,
-   "issue_px": null,
-   "chg_from_issue_pct": null
-  },
-  {
-   "company": "Century Business Media Ltd.",
-   "slug": "century-business-media-ipo",
-   "url": "https://www.chittorgarh.com/ipo/century-business-media-ipo/2604/",
-   "category": "SME",
-   "anchor_allotment_date": null,
-   "boa_date": null,
-   "d30": "2026-10-17",
-   "d90": null,
-   "anchor_shares": null,
-   "anchor_investment_cr": null,
-   "pct_of_issue": null,
-   "isin": "INE16VF01010",
-   "nse_symbol": "",
-   "bse_code": 544928,
-   "pre_shares": 6449280,
-   "post_shares": 8761280,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": "2026-09-21",
-   "anchor_names": [],
-   "lm": [
-    [
-     76,
-     "Hem Securities Ltd"
-    ]
-   ],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-10-17",
-     "sh": null,
-     "pct": null,
-     "val": null,
-     "est": false
-    }
-   ],
-   "last_close": 48.0,
-   "close_date": "2026-11-03",
-   "avg_vol": 69056,
-   "issue_px": null,
-   "chg_from_issue_pct": null
-  },
-  {
-   "company": "Manika Plastech Ltd.",
-   "slug": "manika-plastech-ipo",
-   "url": "https://www.chittorgarh.com/ipo/manika-plastech-ipo/2483/",
-   "category": "Mainboard",
-   "anchor_allotment_date": null,
-   "boa_date": null,
-   "d30": "2026-10-17",
-   "d90": null,
-   "anchor_shares": null,
-   "anchor_investment_cr": null,
-   "pct_of_issue": null,
-   "isin": "INE0KWF01020",
-   "nse_symbol": "MANIKA",
-   "bse_code": 544929,
-   "pre_shares": null,
-   "post_shares": null,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": null,
-   "anchor_names": [],
-   "lm": [],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-10-17",
-     "sh": null,
-     "pct": null,
-     "val": null,
-     "est": false
-    }
-   ],
-   "last_close": 50.32,
-   "close_date": "2026-11-03",
-   "avg_vol": 2251452,
+   "last_close": 46.02,
+   "close_date": "2026-11-04",
+   "avg_vol": 148296,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2606,9 +2516,139 @@
      "est": false
     }
    ],
-   "last_close": 258.3,
-   "close_date": "2026-11-03",
-   "avg_vol": 154480,
+   "last_close": 257.0,
+   "close_date": "2026-11-04",
+   "avg_vol": 140280,
+   "issue_px": null,
+   "chg_from_issue_pct": null
+  },
+  {
+   "company": "Injecto Polymers Ltd.",
+   "slug": "injecto-polymers-ipo",
+   "url": "https://www.chittorgarh.com/ipo/injecto-polymers-ipo/2625/",
+   "category": "SME",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-10-16",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE1JJF01019",
+   "nse_symbol": "",
+   "bse_code": 544930,
+   "pre_shares": 15177200,
+   "post_shares": 20789600,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": "2026-09-21",
+   "anchor_names": [],
+   "lm": [
+    [
+     445,
+     "Indcap Advisors Pvt.Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-16",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ],
+   "last_close": 93.87,
+   "close_date": "2026-11-04",
+   "avg_vol": 90496,
+   "issue_px": null,
+   "chg_from_issue_pct": null
+  },
+  {
+   "company": "Century Business Media Ltd.",
+   "slug": "century-business-media-ipo",
+   "url": "https://www.chittorgarh.com/ipo/century-business-media-ipo/2604/",
+   "category": "SME",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-10-16",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE16VF01010",
+   "nse_symbol": "",
+   "bse_code": 544928,
+   "pre_shares": 6449280,
+   "post_shares": 8761280,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": "2026-09-21",
+   "anchor_names": [],
+   "lm": [
+    [
+     76,
+     "Hem Securities Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-16",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ],
+   "last_close": 49.75,
+   "close_date": "2026-11-04",
+   "avg_vol": 66830,
+   "issue_px": null,
+   "chg_from_issue_pct": null
+  },
+  {
+   "company": "Manika Plastech Ltd.",
+   "slug": "manika-plastech-ipo",
+   "url": "https://www.chittorgarh.com/ipo/manika-plastech-ipo/2483/",
+   "category": "Mainboard",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-10-16",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE0KWF01020",
+   "nse_symbol": "MANIKA",
+   "bse_code": 544929,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-16",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ],
+   "last_close": 49.03,
+   "close_date": "2026-11-04",
+   "avg_vol": 1964710,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2651,9 +2691,9 @@
      "est": false
     }
    ],
-   "last_close": 87.0,
-   "close_date": "2026-11-03",
-   "avg_vol": 57653,
+   "last_close": 85.5,
+   "close_date": "2026-11-04",
+   "avg_vol": 45546,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2691,9 +2731,9 @@
      "est": false
     }
    ],
-   "last_close": 131.97,
-   "close_date": "2026-11-03",
-   "avg_vol": 520242,
+   "last_close": 132.61,
+   "close_date": "2026-11-04",
+   "avg_vol": 485861,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2736,9 +2776,9 @@
      "est": false
     }
    ],
-   "last_close": 216.7,
-   "close_date": "2026-11-03",
-   "avg_vol": 122106,
+   "last_close": 229.9,
+   "close_date": "2026-11-04",
+   "avg_vol": 110546,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2776,9 +2816,9 @@
      "est": false
     }
    ],
-   "last_close": 330.25,
-   "close_date": "2026-11-03",
-   "avg_vol": 1614380,
+   "last_close": 331.35,
+   "close_date": "2026-11-04",
+   "avg_vol": 1610105,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2821,9 +2861,9 @@
      "est": false
     }
    ],
-   "last_close": 80.68,
-   "close_date": "2026-11-03",
-   "avg_vol": 120106,
+   "last_close": 82.0,
+   "close_date": "2026-11-04",
+   "avg_vol": 95413,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2861,9 +2901,9 @@
      "est": false
     }
    ],
-   "last_close": 136.5,
-   "close_date": "2026-11-03",
-   "avg_vol": 1323841,
+   "last_close": 135.28,
+   "close_date": "2026-11-04",
+   "avg_vol": 1170467,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2901,9 +2941,9 @@
      "est": false
     }
    ],
-   "last_close": 548.5,
-   "close_date": "2026-11-03",
-   "avg_vol": 2988271,
+   "last_close": 589.5,
+   "close_date": "2026-11-04",
+   "avg_vol": 2651336,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2941,9 +2981,9 @@
      "est": false
     }
    ],
-   "last_close": 121.62,
-   "close_date": "2026-11-03",
-   "avg_vol": 2822850,
+   "last_close": 124.11,
+   "close_date": "2026-11-04",
+   "avg_vol": 2773577,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -2981,9 +3021,9 @@
      "est": false
     }
    ],
-   "last_close": 126.33,
-   "close_date": "2026-11-03",
-   "avg_vol": 6595188,
+   "last_close": 133.89,
+   "close_date": "2026-11-04",
+   "avg_vol": 6121967,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3021,9 +3061,9 @@
      "est": false
     }
    ],
-   "last_close": 369.65,
-   "close_date": "2026-11-03",
-   "avg_vol": 2651788,
+   "last_close": 383.0,
+   "close_date": "2026-11-04",
+   "avg_vol": 2340539,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3061,9 +3101,9 @@
      "est": false
     }
    ],
-   "last_close": 1025.6,
-   "close_date": "2026-11-03",
-   "avg_vol": 6154651,
+   "last_close": 1070.6,
+   "close_date": "2026-11-04",
+   "avg_vol": 5869119,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3101,9 +3141,9 @@
      "est": false
     }
    ],
-   "last_close": 754.65,
-   "close_date": "2026-11-03",
-   "avg_vol": 480933,
+   "last_close": 772.45,
+   "close_date": "2026-11-04",
+   "avg_vol": 468810,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3141,9 +3181,9 @@
      "est": false
     }
    ],
-   "last_close": 230.72,
-   "close_date": "2026-11-03",
-   "avg_vol": 10440680,
+   "last_close": 244.63,
+   "close_date": "2026-11-04",
+   "avg_vol": 8015678,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3154,7 +3194,7 @@
    "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
-   "d30": "2026-10-10",
+   "d30": "2026-10-09",
    "d90": null,
    "anchor_shares": null,
    "anchor_investment_cr": null,
@@ -3174,16 +3214,16 @@
    "events": [
     {
      "t": "A30",
-     "d": "2026-10-10",
+     "d": "2026-10-09",
      "sh": null,
      "pct": null,
      "val": null,
      "est": false
     }
    ],
-   "last_close": 89.6,
-   "close_date": "2026-11-03",
-   "avg_vol": 2784756,
+   "last_close": 88.07,
+   "close_date": "2026-11-04",
+   "avg_vol": 2666149,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3226,9 +3266,9 @@
      "est": false
     }
    ],
-   "last_close": 127.65,
-   "close_date": "2026-11-03",
-   "avg_vol": 106900,
+   "last_close": 139.3,
+   "close_date": "2026-11-04",
+   "avg_vol": 92900,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3266,9 +3306,9 @@
      "est": false
     }
    ],
-   "last_close": 202.45,
-   "close_date": "2026-11-03",
-   "avg_vol": 5318378,
+   "last_close": 214.11,
+   "close_date": "2026-11-04",
+   "avg_vol": 5333581,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3306,99 +3346,9 @@
      "est": false
     }
    ],
-   "last_close": 247.56,
-   "close_date": "2026-11-03",
-   "avg_vol": 973023,
-   "issue_px": null,
-   "chg_from_issue_pct": null
-  },
-  {
-   "company": "Ashutosh Fibre Ltd.",
-   "slug": "ashutosh-fibre-ipo",
-   "url": "https://www.chittorgarh.com/ipo/ashutosh-fibre-ipo/2751/",
-   "category": "SME",
-   "anchor_allotment_date": null,
-   "boa_date": null,
-   "d30": "2026-10-03",
-   "d90": null,
-   "anchor_shares": null,
-   "anchor_investment_cr": null,
-   "pct_of_issue": null,
-   "isin": "INE19FR01012",
-   "nse_symbol": "ASHUTOSH",
-   "bse_code": "",
-   "pre_shares": 15750000,
-   "post_shares": 21874800,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": "2026-09-07",
-   "anchor_names": [],
-   "lm": [
-    [
-     463,
-     "Mefcom Capital Markets Ltd"
-    ]
-   ],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-10-03",
-     "sh": null,
-     "pct": null,
-     "val": null,
-     "est": false
-    }
-   ],
-   "last_close": 129.65,
-   "close_date": "2026-11-03",
-   "avg_vol": 108960,
-   "issue_px": null,
-   "chg_from_issue_pct": null
-  },
-  {
-   "company": "Shanti Inorganics Ltd.",
-   "slug": "shanti-inorganics-ipo",
-   "url": "https://www.chittorgarh.com/ipo/shanti-inorganics-ipo/2736/",
-   "category": "SME",
-   "anchor_allotment_date": null,
-   "boa_date": null,
-   "d30": "2026-10-03",
-   "d90": null,
-   "anchor_shares": null,
-   "anchor_investment_cr": null,
-   "pct_of_issue": null,
-   "isin": "INE1ZEE01019",
-   "nse_symbol": "SHANTIINOR",
-   "bse_code": "",
-   "pre_shares": 11556200,
-   "post_shares": 17247400,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": "2026-09-07",
-   "anchor_names": [],
-   "lm": [
-    [
-     62,
-     "Vivro Financial Services Pvt.Ltd"
-    ]
-   ],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-10-03",
-     "sh": null,
-     "pct": null,
-     "val": null,
-     "est": false
-    }
-   ],
-   "last_close": 177.0,
-   "close_date": "2026-11-03",
-   "avg_vol": 157173,
+   "last_close": 251.36,
+   "close_date": "2026-11-04",
+   "avg_vol": 978488,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3441,9 +3391,99 @@
      "est": false
     }
    ],
-   "last_close": 43.0,
-   "close_date": "2026-11-03",
-   "avg_vol": 28800,
+   "last_close": 41.13,
+   "close_date": "2026-11-04",
+   "avg_vol": 22666,
+   "issue_px": null,
+   "chg_from_issue_pct": null
+  },
+  {
+   "company": "Ashutosh Fibre Ltd.",
+   "slug": "ashutosh-fibre-ipo",
+   "url": "https://www.chittorgarh.com/ipo/ashutosh-fibre-ipo/2751/",
+   "category": "SME",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-10-02",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE19FR01012",
+   "nse_symbol": "ASHUTOSH",
+   "bse_code": "",
+   "pre_shares": 15750000,
+   "post_shares": 21874800,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": "2026-09-07",
+   "anchor_names": [],
+   "lm": [
+    [
+     463,
+     "Mefcom Capital Markets Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-02",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ],
+   "last_close": 130.3,
+   "close_date": "2026-11-04",
+   "avg_vol": 107440,
+   "issue_px": null,
+   "chg_from_issue_pct": null
+  },
+  {
+   "company": "Shanti Inorganics Ltd.",
+   "slug": "shanti-inorganics-ipo",
+   "url": "https://www.chittorgarh.com/ipo/shanti-inorganics-ipo/2736/",
+   "category": "SME",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-10-02",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE1ZEE01019",
+   "nse_symbol": "SHANTIINOR",
+   "bse_code": "",
+   "pre_shares": 11556200,
+   "post_shares": 17247400,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": "2026-09-07",
+   "anchor_names": [],
+   "lm": [
+    [
+     62,
+     "Vivro Financial Services Pvt.Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-10-02",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ],
+   "last_close": 187.0,
+   "close_date": "2026-11-04",
+   "avg_vol": 155253,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3481,9 +3521,9 @@
      "est": false
     }
    ],
-   "last_close": 498.75,
-   "close_date": "2026-11-03",
-   "avg_vol": 85222,
+   "last_close": 500.05,
+   "close_date": "2026-11-04",
+   "avg_vol": 78973,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3521,9 +3561,9 @@
      "est": false
     }
    ],
-   "last_close": 270.8,
-   "close_date": "2026-11-03",
-   "avg_vol": 793796,
+   "last_close": 274.6,
+   "close_date": "2026-11-04",
+   "avg_vol": 784524,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3561,9 +3601,9 @@
      "est": false
     }
    ],
-   "last_close": 1187.6,
-   "close_date": "2026-11-03",
-   "avg_vol": 1111908,
+   "last_close": 1193.6,
+   "close_date": "2026-11-04",
+   "avg_vol": 1153328,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3606,9 +3646,9 @@
      "est": false
     }
    ],
-   "last_close": 173.0,
-   "close_date": "2026-11-03",
-   "avg_vol": 58033,
+   "last_close": 186.85,
+   "close_date": "2026-11-04",
+   "avg_vol": 47233,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3651,9 +3691,9 @@
      "est": false
     }
    ],
-   "last_close": 38.26,
-   "close_date": "2026-11-03",
-   "avg_vol": 98800,
+   "last_close": 38.0,
+   "close_date": "2026-11-04",
+   "avg_vol": 98400,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3691,9 +3731,9 @@
      "est": false
     }
    ],
-   "last_close": 94.28,
-   "close_date": "2026-11-03",
-   "avg_vol": 5639384,
+   "last_close": 99.84,
+   "close_date": "2026-11-04",
+   "avg_vol": 5294665,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3736,9 +3776,9 @@
      "est": false
     }
    ],
-   "last_close": 172.6,
-   "close_date": "2026-11-03",
-   "avg_vol": 255466,
+   "last_close": 178.25,
+   "close_date": "2026-11-04",
+   "avg_vol": 252320,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3782,8 +3822,8 @@
     }
    ],
    "last_close": 95.5,
-   "close_date": "2026-11-03",
-   "avg_vol": 65880,
+   "close_date": "2026-11-04",
+   "avg_vol": 62400,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3826,9 +3866,9 @@
      "est": false
     }
    ],
-   "last_close": 65.2,
-   "close_date": "2026-11-03",
-   "avg_vol": 62640,
+   "last_close": 68.7,
+   "close_date": "2026-11-04",
+   "avg_vol": 61840,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3866,9 +3906,9 @@
      "est": false
     }
    ],
-   "last_close": 1263.0,
-   "close_date": "2026-11-03",
-   "avg_vol": 1022573,
+   "last_close": 1233.2,
+   "close_date": "2026-11-04",
+   "avg_vol": 1000198,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3906,9 +3946,9 @@
      "est": false
     }
    ],
-   "last_close": 80.03,
-   "close_date": "2026-11-03",
-   "avg_vol": 4190127,
+   "last_close": 80.8,
+   "close_date": "2026-11-04",
+   "avg_vol": 4117543,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3946,9 +3986,9 @@
      "est": false
     }
    ],
-   "last_close": 97.52,
-   "close_date": "2026-11-03",
-   "avg_vol": 3307219,
+   "last_close": 105.04,
+   "close_date": "2026-11-04",
+   "avg_vol": 2385663,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -3986,9 +4026,9 @@
      "est": false
     }
    ],
-   "last_close": 972.5,
-   "close_date": "2026-11-03",
-   "avg_vol": 738292,
+   "last_close": 1021.05,
+   "close_date": "2026-11-04",
+   "avg_vol": 741182,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4026,9 +4066,9 @@
      "est": false
     }
    ],
-   "last_close": 552.25,
-   "close_date": "2026-11-03",
-   "avg_vol": 2146865,
+   "last_close": 542.85,
+   "close_date": "2026-11-04",
+   "avg_vol": 2138651,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4066,9 +4106,9 @@
      "est": false
     }
    ],
-   "last_close": 127.53,
-   "close_date": "2026-11-03",
-   "avg_vol": 1018613,
+   "last_close": 142.83,
+   "close_date": "2026-11-04",
+   "avg_vol": 527459,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4106,9 +4146,9 @@
      "est": false
     }
    ],
-   "last_close": 90.56,
-   "close_date": "2026-11-03",
-   "avg_vol": 3570496,
+   "last_close": 93.58,
+   "close_date": "2026-11-04",
+   "avg_vol": 3459659,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4146,9 +4186,9 @@
      "est": false
     }
    ],
-   "last_close": 390.45,
-   "close_date": "2026-11-03",
-   "avg_vol": 532459,
+   "last_close": 392.4,
+   "close_date": "2026-11-04",
+   "avg_vol": 417192,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4191,9 +4231,9 @@
      "est": false
     }
    ],
-   "last_close": 125.8,
-   "close_date": "2026-11-03",
-   "avg_vol": 69560,
+   "last_close": 126.7,
+   "close_date": "2026-11-04",
+   "avg_vol": 76360,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4231,9 +4271,9 @@
      "est": false
     }
    ],
-   "last_close": 43.14,
-   "close_date": "2026-11-03",
-   "avg_vol": 4078136,
+   "last_close": 44.35,
+   "close_date": "2026-11-04",
+   "avg_vol": 4086311,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4271,9 +4311,9 @@
      "est": false
     }
    ],
-   "last_close": 363.0,
-   "close_date": "2026-11-03",
-   "avg_vol": 4650466,
+   "last_close": 366.05,
+   "close_date": "2026-11-04",
+   "avg_vol": 4316340,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4316,9 +4356,9 @@
      "est": false
     }
    ],
-   "last_close": 398.0,
-   "close_date": "2026-11-03",
-   "avg_vol": 60900,
+   "last_close": 408.75,
+   "close_date": "2026-11-04",
+   "avg_vol": 58566,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4361,9 +4401,9 @@
      "est": false
     }
    ],
-   "last_close": 396.1,
-   "close_date": "2026-11-03",
-   "avg_vol": 67710,
+   "last_close": 387.8,
+   "close_date": "2026-11-04",
+   "avg_vol": 65450,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4374,7 +4414,7 @@
    "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
-   "d30": "2026-09-16",
+   "d30": "2026-09-15",
    "d90": null,
    "anchor_shares": null,
    "anchor_investment_cr": null,
@@ -4399,16 +4439,16 @@
    "events": [
     {
      "t": "A30",
-     "d": "2026-09-16",
+     "d": "2026-09-15",
      "sh": null,
      "pct": null,
      "val": null,
      "est": false
     }
    ],
-   "last_close": 108.0,
-   "close_date": "2026-11-03",
-   "avg_vol": 52880,
+   "last_close": 110.0,
+   "close_date": "2026-11-04",
+   "avg_vol": 49200,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4446,9 +4486,9 @@
      "est": false
     }
    ],
-   "last_close": 442.95,
-   "close_date": "2026-11-03",
-   "avg_vol": 1329043,
+   "last_close": 453.95,
+   "close_date": "2026-11-04",
+   "avg_vol": 1323540,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4486,9 +4526,9 @@
      "est": false
     }
    ],
-   "last_close": 130.87,
-   "close_date": "2026-11-03",
-   "avg_vol": 2929626,
+   "last_close": 131.89,
+   "close_date": "2026-11-04",
+   "avg_vol": 2807158,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4531,9 +4571,9 @@
      "est": false
     }
    ],
-   "last_close": 96.7,
-   "close_date": "2026-11-03",
-   "avg_vol": 32800,
+   "last_close": 95.33,
+   "close_date": "2026-11-04",
+   "avg_vol": 32566,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4571,9 +4611,9 @@
      "est": false
     }
    ],
-   "last_close": 298.75,
-   "close_date": "2026-11-03",
-   "avg_vol": 1951772,
+   "last_close": 302.55,
+   "close_date": "2026-11-04",
+   "avg_vol": 1778386,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4616,9 +4656,9 @@
      "est": false
     }
    ],
-   "last_close": 110.0,
-   "close_date": "2026-11-03",
-   "avg_vol": 45440,
+   "last_close": 115.4,
+   "close_date": "2026-11-04",
+   "avg_vol": 44920,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4656,9 +4696,9 @@
      "est": false
     }
    ],
-   "last_close": 1488.4,
-   "close_date": "2026-11-03",
-   "avg_vol": 901101,
+   "last_close": 1637.2,
+   "close_date": "2026-11-04",
+   "avg_vol": 903206,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4696,9 +4736,9 @@
      "est": false
     }
    ],
-   "last_close": 1350.8,
-   "close_date": "2026-11-03",
-   "avg_vol": 1618589,
+   "last_close": 1381.8,
+   "close_date": "2026-11-04",
+   "avg_vol": 1571321,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4741,9 +4781,9 @@
      "est": false
     }
    ],
-   "last_close": 132.35,
-   "close_date": "2026-11-03",
-   "avg_vol": 40026,
+   "last_close": 131.25,
+   "close_date": "2026-11-04",
+   "avg_vol": 38400,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4781,9 +4821,9 @@
      "est": false
     }
    ],
-   "last_close": 112.92,
-   "close_date": "2026-11-03",
-   "avg_vol": 1526130,
+   "last_close": 116.45,
+   "close_date": "2026-11-04",
+   "avg_vol": 1448830,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4821,9 +4861,9 @@
      "est": false
     }
    ],
-   "last_close": 506.85,
-   "close_date": "2026-11-03",
-   "avg_vol": 1484691,
+   "last_close": 540.2,
+   "close_date": "2026-11-04",
+   "avg_vol": 1655473,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4861,9 +4901,9 @@
      "est": false
     }
    ],
-   "last_close": 45.1,
-   "close_date": "2026-11-03",
-   "avg_vol": 2266400,
+   "last_close": 47.19,
+   "close_date": "2026-11-04",
+   "avg_vol": 2269867,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4907,53 +4947,8 @@
     }
    ],
    "last_close": 107.0,
-   "close_date": "2026-11-03",
-   "avg_vol": 26360,
-   "issue_px": null,
-   "chg_from_issue_pct": null
-  },
-  {
-   "company": "Anawil Wire & Engineering Ltd.",
-   "slug": "anawil-wire-engieering-ipo",
-   "url": "https://www.chittorgarh.com/ipo/anawil-wire-engieering-ipo/2618/",
-   "category": "SME",
-   "anchor_allotment_date": null,
-   "boa_date": null,
-   "d30": "2026-09-05",
-   "d90": null,
-   "anchor_shares": null,
-   "anchor_investment_cr": null,
-   "pct_of_issue": null,
-   "isin": "INE1J5V01013",
-   "nse_symbol": "ANAWIL",
-   "bse_code": "",
-   "pre_shares": 19715000,
-   "post_shares": 24999800,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": "2026-08-10",
-   "anchor_names": [],
-   "lm": [
-    [
-     76,
-     "Hem Securities Ltd"
-    ]
-   ],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-09-05",
-     "sh": null,
-     "pct": null,
-     "val": null,
-     "est": false
-    }
-   ],
-   "last_close": 387.05,
-   "close_date": "2026-11-03",
-   "avg_vol": 151533,
+   "close_date": "2026-11-04",
+   "avg_vol": 24720,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -4996,9 +4991,54 @@
      "est": false
     }
    ],
-   "last_close": 160.75,
-   "close_date": "2026-11-03",
-   "avg_vol": 7493,
+   "last_close": 166.0,
+   "close_date": "2026-11-04",
+   "avg_vol": 7253,
+   "issue_px": null,
+   "chg_from_issue_pct": null
+  },
+  {
+   "company": "Anawil Wire & Engineering Ltd.",
+   "slug": "anawil-wire-engieering-ipo",
+   "url": "https://www.chittorgarh.com/ipo/anawil-wire-engieering-ipo/2618/",
+   "category": "SME",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-09-04",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE1J5V01013",
+   "nse_symbol": "ANAWIL",
+   "bse_code": "",
+   "pre_shares": 19715000,
+   "post_shares": 24999800,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": "2026-08-10",
+   "anchor_names": [],
+   "lm": [
+    [
+     76,
+     "Hem Securities Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-09-04",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ],
+   "last_close": 401.0,
+   "close_date": "2026-11-04",
+   "avg_vol": 151146,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5041,9 +5081,9 @@
      "est": false
     }
    ],
-   "last_close": 127.7,
-   "close_date": "2026-11-03",
-   "avg_vol": 11360,
+   "last_close": 123.65,
+   "close_date": "2026-11-04",
+   "avg_vol": 16480,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5086,9 +5126,9 @@
      "est": false
     }
    ],
-   "last_close": 113.0,
-   "close_date": "2026-11-03",
-   "avg_vol": 24640,
+   "last_close": 110.45,
+   "close_date": "2026-11-04",
+   "avg_vol": 24280,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5126,9 +5166,9 @@
      "est": false
     }
    ],
-   "last_close": 734.8,
-   "close_date": "2026-11-03",
-   "avg_vol": 2373623,
+   "last_close": 775.7,
+   "close_date": "2026-11-04",
+   "avg_vol": 2282292,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5166,9 +5206,9 @@
      "est": false
     }
    ],
-   "last_close": 250.0,
-   "close_date": "2026-11-03",
-   "avg_vol": 634162,
+   "last_close": 255.42,
+   "close_date": "2026-11-04",
+   "avg_vol": 619443,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5211,9 +5251,9 @@
      "est": false
     }
    ],
-   "last_close": 62.0,
-   "close_date": "2026-11-03",
-   "avg_vol": 39626,
+   "last_close": 59.51,
+   "close_date": "2026-11-04",
+   "avg_vol": 38880,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5251,9 +5291,9 @@
      "est": false
     }
    ],
-   "last_close": 642.0,
-   "close_date": "2026-11-03",
-   "avg_vol": 925803,
+   "last_close": 667.2,
+   "close_date": "2026-11-04",
+   "avg_vol": 959175,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5296,9 +5336,9 @@
      "est": false
     }
    ],
-   "last_close": 931.9,
-   "close_date": "2026-11-03",
-   "avg_vol": 93720,
+   "last_close": 910.4,
+   "close_date": "2026-11-04",
+   "avg_vol": 95426,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5341,9 +5381,9 @@
      "est": false
     }
    ],
-   "last_close": 121.0,
-   "close_date": "2026-11-03",
-   "avg_vol": 47933,
+   "last_close": 117.1,
+   "close_date": "2026-11-04",
+   "avg_vol": 40666,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5381,9 +5421,9 @@
      "est": false
     }
    ],
-   "last_close": 278.2,
-   "close_date": "2026-11-03",
-   "avg_vol": 776111,
+   "last_close": 280.65,
+   "close_date": "2026-11-04",
+   "avg_vol": 714142,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5421,9 +5461,9 @@
      "est": false
     }
    ],
-   "last_close": 1203.8,
-   "close_date": "2026-11-03",
-   "avg_vol": 1583019,
+   "last_close": 1240.1,
+   "close_date": "2026-11-04",
+   "avg_vol": 1471647,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5461,9 +5501,9 @@
      "est": false
     }
    ],
-   "last_close": 515.45,
-   "close_date": "2026-11-03",
-   "avg_vol": 481214,
+   "last_close": 540.2,
+   "close_date": "2026-11-04",
+   "avg_vol": 489882,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5551,9 +5591,9 @@
      "est": false
     }
    ],
-   "last_close": 150.45,
-   "close_date": "2026-11-03",
-   "avg_vol": 67146,
+   "last_close": 147.65,
+   "close_date": "2026-11-04",
+   "avg_vol": 66106,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5591,9 +5631,9 @@
      "est": false
     }
    ],
-   "last_close": 529.05,
-   "close_date": "2026-11-03",
-   "avg_vol": 1500869,
+   "last_close": 526.45,
+   "close_date": "2026-11-04",
+   "avg_vol": 1507122,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5636,9 +5676,9 @@
      "est": false
     }
    ],
-   "last_close": 235.4,
-   "close_date": "2026-11-03",
-   "avg_vol": 28800,
+   "last_close": 239.0,
+   "close_date": "2026-11-04",
+   "avg_vol": 26940,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5676,9 +5716,9 @@
      "est": false
     }
    ],
-   "last_close": 482.35,
-   "close_date": "2026-11-03",
-   "avg_vol": 1373368,
+   "last_close": 498.25,
+   "close_date": "2026-11-04",
+   "avg_vol": 1406533,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5721,9 +5761,9 @@
      "est": false
     }
    ],
-   "last_close": 961.3,
-   "close_date": "2026-11-03",
-   "avg_vol": 68373,
+   "last_close": 983.3,
+   "close_date": "2026-11-04",
+   "avg_vol": 66426,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5768,9 +5808,9 @@
      "est": false
     }
    ],
-   "last_close": 317.55,
-   "close_date": "2026-11-03",
-   "avg_vol": 45920,
+   "last_close": 333.4,
+   "close_date": "2026-11-04",
+   "avg_vol": 49360,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5815,9 +5855,9 @@
      "est": false
     }
    ],
-   "last_close": 66.1,
-   "close_date": "2026-11-03",
-   "avg_vol": 29800,
+   "last_close": 67.2,
+   "close_date": "2026-11-04",
+   "avg_vol": 28533,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5855,9 +5895,9 @@
      "est": false
     }
    ],
-   "last_close": 218.2,
-   "close_date": "2026-11-03",
-   "avg_vol": 732550,
+   "last_close": 222.08,
+   "close_date": "2026-11-04",
+   "avg_vol": 728651,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5895,9 +5935,9 @@
      "est": false
     }
    ],
-   "last_close": 563.05,
-   "close_date": "2026-11-03",
-   "avg_vol": 308147,
+   "last_close": 584.95,
+   "close_date": "2026-11-04",
+   "avg_vol": 300902,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5942,9 +5982,9 @@
      "est": false
     }
    ],
-   "last_close": 111.7,
-   "close_date": "2026-11-03",
-   "avg_vol": 78560,
+   "last_close": 115.6,
+   "close_date": "2026-11-04",
+   "avg_vol": 80240,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -5982,9 +6022,9 @@
      "est": false
     }
    ],
-   "last_close": 186.58,
-   "close_date": "2026-11-03",
-   "avg_vol": 1127105,
+   "last_close": 187.59,
+   "close_date": "2026-11-04",
+   "avg_vol": 1107963,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6029,9 +6069,9 @@
      "est": false
     }
    ],
-   "last_close": 153.25,
-   "close_date": "2026-11-03",
-   "avg_vol": 16500,
+   "last_close": 158.0,
+   "close_date": "2026-11-04",
+   "avg_vol": 16266,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6076,9 +6116,9 @@
      "est": false
     }
    ],
-   "last_close": 139.5,
-   "close_date": "2026-11-03",
-   "avg_vol": 58453,
+   "last_close": 140.0,
+   "close_date": "2026-11-04",
+   "avg_vol": 57706,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6123,9 +6163,9 @@
      "est": false
     }
    ],
-   "last_close": 129.9,
-   "close_date": "2026-11-03",
-   "avg_vol": 52600,
+   "last_close": 126.0,
+   "close_date": "2026-11-04",
+   "avg_vol": 51533,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6163,9 +6203,9 @@
      "est": false
     }
    ],
-   "last_close": 79.35,
-   "close_date": "2026-11-03",
-   "avg_vol": 265377,
+   "last_close": 78.9,
+   "close_date": "2026-11-04",
+   "avg_vol": 248477,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6203,9 +6243,9 @@
      "est": false
     }
    ],
-   "last_close": 314.4,
-   "close_date": "2026-11-03",
-   "avg_vol": 619230,
+   "last_close": 298.7,
+   "close_date": "2026-11-04",
+   "avg_vol": 572471,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6250,9 +6290,9 @@
      "est": false
     }
    ],
-   "last_close": 166.0,
-   "close_date": "2026-11-03",
-   "avg_vol": 27033,
+   "last_close": 164.95,
+   "close_date": "2026-11-04",
+   "avg_vol": 26133,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6337,8 +6377,8 @@
      "est": false
     }
    ],
-   "last_close": 46.5,
-   "close_date": "2026-11-03",
+   "last_close": 48.0,
+   "close_date": "2026-11-04",
    "avg_vol": 12960,
    "issue_px": null,
    "chg_from_issue_pct": null
@@ -6377,9 +6417,9 @@
      "est": false
     }
    ],
-   "last_close": 54.17,
-   "close_date": "2026-11-03",
-   "avg_vol": 1943058,
+   "last_close": 56.87,
+   "close_date": "2026-11-04",
+   "avg_vol": 1940478,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6424,9 +6464,9 @@
      "est": false
     }
    ],
-   "last_close": 250.0,
-   "close_date": "2026-11-03",
-   "avg_vol": 50740,
+   "last_close": 242.9,
+   "close_date": "2026-11-04",
+   "avg_vol": 48760,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6471,9 +6511,9 @@
      "est": false
     }
    ],
-   "last_close": 167.0,
-   "close_date": "2026-11-03",
-   "avg_vol": 47580,
+   "last_close": 168.0,
+   "close_date": "2026-11-04",
+   "avg_vol": 42040,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6518,9 +6558,9 @@
      "est": false
     }
    ],
-   "last_close": 116.65,
-   "close_date": "2026-11-03",
-   "avg_vol": 80960,
+   "last_close": 116.7,
+   "close_date": "2026-11-04",
+   "avg_vol": 65880,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6565,9 +6605,9 @@
      "est": false
     }
    ],
-   "last_close": 209.85,
-   "close_date": "2026-11-03",
-   "avg_vol": 108033,
+   "last_close": 212.5,
+   "close_date": "2026-11-04",
+   "avg_vol": 112700,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6612,9 +6652,9 @@
      "est": false
     }
    ],
-   "last_close": 80.2,
-   "close_date": "2026-11-03",
-   "avg_vol": 60680,
+   "last_close": 84.6,
+   "close_date": "2026-11-04",
+   "avg_vol": 62920,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6652,9 +6692,9 @@
      "est": false
     }
    ],
-   "last_close": 57.42,
-   "close_date": "2026-11-03",
-   "avg_vol": 521550,
+   "last_close": 59.67,
+   "close_date": "2026-11-04",
+   "avg_vol": 525439,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6692,9 +6732,9 @@
      "est": false
     }
    ],
-   "last_close": 204.36,
-   "close_date": "2026-11-03",
-   "avg_vol": 342387,
+   "last_close": 213.08,
+   "close_date": "2026-11-04",
+   "avg_vol": 332217,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6739,9 +6779,9 @@
      "est": false
     }
    ],
-   "last_close": 400.45,
-   "close_date": "2026-11-03",
-   "avg_vol": 133066,
+   "last_close": 401.8,
+   "close_date": "2026-11-04",
+   "avg_vol": 131366,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6786,9 +6826,9 @@
      "est": false
     }
    ],
-   "last_close": 22.99,
-   "close_date": "2026-11-03",
-   "avg_vol": 12600,
+   "last_close": 24.75,
+   "close_date": "2026-11-04",
+   "avg_vol": 12400,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6880,9 +6920,9 @@
      "est": false
     }
    ],
-   "last_close": 521.85,
-   "close_date": "2026-11-03",
-   "avg_vol": 79326,
+   "last_close": 527.15,
+   "close_date": "2026-11-04",
+   "avg_vol": 80573,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6927,9 +6967,9 @@
      "est": false
     }
    ],
-   "last_close": 240.45,
-   "close_date": "2026-11-03",
-   "avg_vol": 23093,
+   "last_close": 239.5,
+   "close_date": "2026-11-04",
+   "avg_vol": 22613,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -6974,9 +7014,9 @@
      "est": false
     }
    ],
-   "last_close": 164.25,
-   "close_date": "2026-11-03",
-   "avg_vol": 51900,
+   "last_close": 160.2,
+   "close_date": "2026-11-04",
+   "avg_vol": 53433,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7068,9 +7108,9 @@
      "est": false
     }
    ],
-   "last_close": 489.45,
-   "close_date": "2026-11-03",
-   "avg_vol": 26100,
+   "last_close": 490.5,
+   "close_date": "2026-11-04",
+   "avg_vol": 25580,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7115,9 +7155,9 @@
      "est": false
     }
    ],
-   "last_close": 387.5,
-   "close_date": "2026-11-03",
-   "avg_vol": 18426,
+   "last_close": 380.0,
+   "close_date": "2026-11-04",
+   "avg_vol": 17653,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7155,9 +7195,9 @@
      "est": false
     }
    ],
-   "last_close": 321.8,
-   "close_date": "2026-11-03",
-   "avg_vol": 1333194,
+   "last_close": 315.05,
+   "close_date": "2026-11-04",
+   "avg_vol": 1297916,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7202,9 +7242,9 @@
      "est": false
     }
    ],
-   "last_close": 245.6,
-   "close_date": "2026-11-03",
-   "avg_vol": 134693,
+   "last_close": 257.85,
+   "close_date": "2026-11-04",
+   "avg_vol": 126986,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7249,9 +7289,9 @@
      "est": false
     }
    ],
-   "last_close": 126.15,
-   "close_date": "2026-11-03",
-   "avg_vol": 43160,
+   "last_close": 126.45,
+   "close_date": "2026-11-04",
+   "avg_vol": 42920,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7289,9 +7329,9 @@
      "est": false
     }
    ],
-   "last_close": 130.36,
-   "close_date": "2026-11-03",
-   "avg_vol": 177282,
+   "last_close": 131.46,
+   "close_date": "2026-11-04",
+   "avg_vol": 178763,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7336,9 +7376,9 @@
      "est": false
     }
    ],
-   "last_close": 72.79,
-   "close_date": "2026-11-03",
-   "avg_vol": 36373,
+   "last_close": 74.0,
+   "close_date": "2026-11-04",
+   "avg_vol": 35626,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7396,7 +7436,7 @@
    "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
-   "d30": "2026-05-02",
+   "d30": "2026-05-01",
    "d90": null,
    "anchor_shares": null,
    "anchor_investment_cr": null,
@@ -7423,16 +7463,16 @@
    "events": [
     {
      "t": "A30",
-     "d": "2026-05-02",
+     "d": "2026-05-01",
      "sh": null,
      "pct": null,
      "val": null,
      "est": false
     }
    ],
-   "last_close": 1040.95,
-   "close_date": "2026-11-03",
-   "avg_vol": 43262,
+   "last_close": 1072.75,
+   "close_date": "2026-11-04",
+   "avg_vol": 44338,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7477,9 +7517,9 @@
      "est": false
     }
    ],
-   "last_close": 312.4,
-   "close_date": "2026-11-03",
-   "avg_vol": 10720,
+   "last_close": 306.2,
+   "close_date": "2026-11-04",
+   "avg_vol": 10520,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7517,9 +7557,9 @@
      "est": false
     }
    ],
-   "last_close": 469.25,
-   "close_date": "2026-11-03",
-   "avg_vol": 148135,
+   "last_close": 478.5,
+   "close_date": "2026-11-04",
+   "avg_vol": 149440,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7557,9 +7597,9 @@
      "est": false
     }
    ],
-   "last_close": 482.95,
-   "close_date": "2026-11-03",
-   "avg_vol": 185609,
+   "last_close": 499.75,
+   "close_date": "2026-11-04",
+   "avg_vol": 188774,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7576,7 +7616,7 @@
    "anchor_investment_cr": null,
    "pct_of_issue": null,
    "isin": "INE05TO01019",
-   "nse_symbol": "AMIRCHAND",
+   "nse_symbol": "AEROPLANE",
    "bse_code": 544743,
    "pre_shares": null,
    "post_shares": null,
@@ -7597,9 +7637,9 @@
      "est": false
     }
    ],
-   "last_close": 217.94,
-   "close_date": "2026-11-03",
-   "avg_vol": 949430,
+   "last_close": 222.57,
+   "close_date": "2026-11-04",
+   "avg_vol": 948644,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7644,9 +7684,9 @@
      "est": false
     }
    ],
-   "last_close": 248.55,
-   "close_date": "2026-11-03",
-   "avg_vol": 103413,
+   "last_close": 260.95,
+   "close_date": "2026-11-04",
+   "avg_vol": 101653,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7684,9 +7724,9 @@
      "est": false
     }
    ],
-   "last_close": 179.29,
-   "close_date": "2026-11-03",
-   "avg_vol": 1044172,
+   "last_close": 183.95,
+   "close_date": "2026-11-04",
+   "avg_vol": 1015467,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7697,7 +7737,7 @@
    "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
-   "d30": "2026-04-22",
+   "d30": "2026-04-21",
    "d90": null,
    "anchor_shares": null,
    "anchor_investment_cr": null,
@@ -7724,16 +7764,16 @@
    "events": [
     {
      "t": "A30",
-     "d": "2026-04-22",
+     "d": "2026-04-21",
      "sh": null,
      "pct": null,
      "val": null,
      "est": false
     }
    ],
-   "last_close": 175.05,
-   "close_date": "2026-11-03",
-   "avg_vol": 169066,
+   "last_close": 178.3,
+   "close_date": "2026-11-04",
+   "avg_vol": 170100,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7744,7 +7784,7 @@
    "category": "Mainboard",
    "anchor_allotment_date": null,
    "boa_date": null,
-   "d30": "2026-04-19",
+   "d30": "2026-04-18",
    "d90": null,
    "anchor_shares": null,
    "anchor_investment_cr": null,
@@ -7764,16 +7804,16 @@
    "events": [
     {
      "t": "A30",
-     "d": "2026-04-19",
+     "d": "2026-04-18",
      "sh": null,
      "pct": null,
      "val": null,
      "est": false
     }
    ],
-   "last_close": 434.3,
-   "close_date": "2026-11-03",
-   "avg_vol": 303085,
+   "last_close": 438.4,
+   "close_date": "2026-11-04",
+   "avg_vol": 302999,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7818,9 +7858,9 @@
      "est": false
     }
    ],
-   "last_close": 485.45,
-   "close_date": "2026-11-03",
-   "avg_vol": 23560,
+   "last_close": 475.75,
+   "close_date": "2026-11-04",
+   "avg_vol": 23426,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7858,9 +7898,9 @@
      "est": false
     }
    ],
-   "last_close": 3207.6,
-   "close_date": "2026-11-03",
-   "avg_vol": 211180,
+   "last_close": 3101.6,
+   "close_date": "2026-11-04",
+   "avg_vol": 222077,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7905,9 +7945,9 @@
      "est": false
     }
    ],
-   "last_close": 56.0,
-   "close_date": "2026-11-03",
-   "avg_vol": 12906,
+   "last_close": 57.0,
+   "close_date": "2026-11-04",
+   "avg_vol": 11573,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -7999,9 +8039,9 @@
      "est": false
     }
    ],
-   "last_close": 420.0,
-   "close_date": "2026-11-03",
-   "avg_vol": 7780,
+   "last_close": 438.0,
+   "close_date": "2026-11-04",
+   "avg_vol": 7840,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8046,9 +8086,9 @@
      "est": false
     }
    ],
-   "last_close": 258.4,
-   "close_date": "2026-11-03",
-   "avg_vol": 90160,
+   "last_close": 258.15,
+   "close_date": "2026-11-04",
+   "avg_vol": 87693,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8093,9 +8133,9 @@
      "est": false
     }
    ],
-   "last_close": 118.0,
-   "close_date": "2026-11-03",
-   "avg_vol": 15633,
+   "last_close": 111.35,
+   "close_date": "2026-11-04",
+   "avg_vol": 15033,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8133,9 +8173,9 @@
      "est": false
     }
    ],
-   "last_close": 656.7,
-   "close_date": "2026-11-03",
-   "avg_vol": 1666463,
+   "last_close": 669.4,
+   "close_date": "2026-11-04",
+   "avg_vol": 1657750,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8180,9 +8220,9 @@
      "est": false
     }
    ],
-   "last_close": 282.15,
-   "close_date": "2026-11-03",
-   "avg_vol": 25180,
+   "last_close": 289.55,
+   "close_date": "2026-11-04",
+   "avg_vol": 24760,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8220,9 +8260,9 @@
      "est": false
     }
    ],
-   "last_close": 122.0,
-   "close_date": "2026-11-03",
-   "avg_vol": 5272,
+   "last_close": 128.0,
+   "close_date": "2026-11-04",
+   "avg_vol": 5166,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8260,56 +8300,9 @@
      "est": false
     }
    ],
-   "last_close": 606.4,
-   "close_date": "2026-11-03",
-   "avg_vol": 1286164,
-   "issue_px": null,
-   "chg_from_issue_pct": null
-  },
-  {
-   "company": "Mobilise App Lab Ltd.",
-   "slug": "mobilise-app-ipo",
-   "url": "https://www.chittorgarh.com/ipo/mobilise-app-ipo/2584/",
-   "category": "SME",
-   "anchor_allotment_date": null,
-   "boa_date": null,
-   "d30": "2026-03-28",
-   "d90": null,
-   "anchor_shares": null,
-   "anchor_investment_cr": null,
-   "pct_of_issue": null,
-   "isin": "INE1YNB01019",
-   "nse_symbol": "MOBILISE",
-   "bse_code": "",
-   "pre_shares": 7000000,
-   "post_shares": 9512000,
-   "prom_pre_pct": 96.0,
-   "prom_post_pct": 70.65,
-   "listing_date": "2026-03-02",
-   "anchor_names": [
-    "Investment by Mutual Fund"
-   ],
-   "lm": [
-    [
-     143,
-     "Corporate Capitalventures Pvt.Ltd"
-    ]
-   ],
-   "nonprom_pre_shares": 280000,
-   "nonprom_pre_pct_of_post": 2.94,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-03-28",
-     "sh": null,
-     "pct": null,
-     "val": null,
-     "est": false
-    }
-   ],
-   "last_close": 105.35,
-   "close_date": "2026-11-03",
-   "avg_vol": 13706,
+   "last_close": 634.5,
+   "close_date": "2026-11-04",
+   "avg_vol": 1293814,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8354,9 +8347,56 @@
      "est": false
     }
    ],
-   "last_close": 80.05,
-   "close_date": "2026-11-03",
-   "avg_vol": 179300,
+   "last_close": 81.55,
+   "close_date": "2026-11-04",
+   "avg_vol": 178600,
+   "issue_px": null,
+   "chg_from_issue_pct": null
+  },
+  {
+   "company": "Mobilise App Lab Ltd.",
+   "slug": "mobilise-app-ipo",
+   "url": "https://www.chittorgarh.com/ipo/mobilise-app-ipo/2584/",
+   "category": "SME",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-03-27",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE1YNB01019",
+   "nse_symbol": "MOBILISE",
+   "bse_code": "",
+   "pre_shares": 7000000,
+   "post_shares": 9512000,
+   "prom_pre_pct": 96.0,
+   "prom_post_pct": 70.65,
+   "listing_date": "2026-03-02",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
+   "lm": [
+    [
+     143,
+     "Corporate Capitalventures Pvt.Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": 280000,
+   "nonprom_pre_pct_of_post": 2.94,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-03-27",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ],
+   "last_close": 110.0,
+   "close_date": "2026-11-04",
+   "avg_vol": 13493,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8394,9 +8434,9 @@
      "est": false
     }
    ],
-   "last_close": 1225.9,
-   "close_date": "2026-11-03",
-   "avg_vol": 899498,
+   "last_close": 1249.1,
+   "close_date": "2026-11-04",
+   "avg_vol": 908463,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8441,9 +8481,9 @@
      "est": false
     }
    ],
-   "last_close": 34.8,
-   "close_date": "2026-11-02",
-   "avg_vol": 35933,
+   "last_close": 33.1,
+   "close_date": "2026-11-04",
+   "avg_vol": 37133,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8481,9 +8521,9 @@
      "est": false
     }
    ],
-   "last_close": 107.93,
-   "close_date": "2026-11-03",
-   "avg_vol": 306755,
+   "last_close": 107.22,
+   "close_date": "2026-11-04",
+   "avg_vol": 301151,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8528,9 +8568,9 @@
      "est": false
     }
    ],
-   "last_close": 194.7,
-   "close_date": "2026-11-03",
-   "avg_vol": 10500,
+   "last_close": 198.0,
+   "close_date": "2026-11-04",
+   "avg_vol": 10420,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8575,9 +8615,9 @@
      "est": false
     }
    ],
-   "last_close": 120.1,
-   "close_date": "2026-11-03",
-   "avg_vol": 14920,
+   "last_close": 120.0,
+   "close_date": "2026-11-04",
+   "avg_vol": 19280,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8623,8 +8663,8 @@
     }
    ],
    "last_close": 45.0,
-   "close_date": "2026-11-03",
-   "avg_vol": 9386,
+   "close_date": "2026-11-04",
+   "avg_vol": 9440,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8662,9 +8702,9 @@
      "est": false
     }
    ],
-   "last_close": 732.8,
-   "close_date": "2026-11-03",
-   "avg_vol": 848523,
+   "last_close": 835.65,
+   "close_date": "2026-11-04",
+   "avg_vol": 1484175,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8702,9 +8742,9 @@
      "est": false
     }
    ],
-   "last_close": 132.81,
-   "close_date": "2026-11-03",
-   "avg_vol": 1032994,
+   "last_close": 134.77,
+   "close_date": "2026-11-04",
+   "avg_vol": 1008568,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8749,9 +8789,9 @@
      "est": false
     }
    ],
-   "last_close": 410.35,
-   "close_date": "2026-11-03",
-   "avg_vol": 4613,
+   "last_close": 430.85,
+   "close_date": "2026-11-04",
+   "avg_vol": 4653,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8796,9 +8836,9 @@
      "est": false
     }
    ],
-   "last_close": 142.0,
-   "close_date": "2026-11-03",
-   "avg_vol": 10613,
+   "last_close": 140.5,
+   "close_date": "2026-11-04",
+   "avg_vol": 10880,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8843,9 +8883,9 @@
      "est": false
     }
    ],
-   "last_close": 277.2,
-   "close_date": "2026-11-03",
-   "avg_vol": 63166,
+   "last_close": 284.3,
+   "close_date": "2026-11-04",
+   "avg_vol": 62066,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8890,9 +8930,9 @@
      "est": false
     }
    ],
-   "last_close": 280.95,
-   "close_date": "2026-11-03",
-   "avg_vol": 74026,
+   "last_close": 294.95,
+   "close_date": "2026-11-04",
+   "avg_vol": 73333,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8937,9 +8977,9 @@
      "est": false
     }
    ],
-   "last_close": 325.0,
-   "close_date": "2026-11-03",
-   "avg_vol": 13933,
+   "last_close": 311.0,
+   "close_date": "2026-11-04",
+   "avg_vol": 13966,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -8984,9 +9024,56 @@
      "est": false
     }
    ],
-   "last_close": 76.0,
-   "close_date": "2026-11-03",
+   "last_close": 72.2,
+   "close_date": "2026-11-04",
    "avg_vol": 80933,
+   "issue_px": null,
+   "chg_from_issue_pct": null
+  },
+  {
+   "company": "KRM Ayurveda Ltd.",
+   "slug": "krm-ayurveda-ipo",
+   "url": "https://www.chittorgarh.com/ipo/krm-ayurveda-ipo/2620/",
+   "category": "SME",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-02-28",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE1MTV01019",
+   "nse_symbol": "KRMAYURVED",
+   "bse_code": "",
+   "pre_shares": 15520800,
+   "post_shares": 21260800,
+   "prom_pre_pct": 92.16,
+   "prom_post_pct": 67.28,
+   "listing_date": "2026-01-29",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
+   "lm": [
+    [
+     477,
+     "NEXGEN Financial Solutions Pvt.Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": 1216830,
+   "nonprom_pre_pct_of_post": 5.72,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-02-28",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ],
+   "last_close": 231.1,
+   "close_date": "2026-11-04",
+   "avg_vol": 76650,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -9031,56 +9118,9 @@
      "est": false
     }
    ],
-   "last_close": 110.3,
-   "close_date": "2026-11-03",
-   "avg_vol": 18933,
-   "issue_px": null,
-   "chg_from_issue_pct": null
-  },
-  {
-   "company": "KRM Ayurveda Ltd.",
-   "slug": "krm-ayurveda-ipo",
-   "url": "https://www.chittorgarh.com/ipo/krm-ayurveda-ipo/2620/",
-   "category": "SME",
-   "anchor_allotment_date": null,
-   "boa_date": null,
-   "d30": "2026-02-21",
-   "d90": null,
-   "anchor_shares": null,
-   "anchor_investment_cr": null,
-   "pct_of_issue": null,
-   "isin": "INE1MTV01019",
-   "nse_symbol": "KRMAYURVED",
-   "bse_code": "",
-   "pre_shares": 15520800,
-   "post_shares": 21260800,
-   "prom_pre_pct": 92.16,
-   "prom_post_pct": 67.28,
-   "listing_date": "2026-01-29",
-   "anchor_names": [
-    "Investment by Mutual Fund"
-   ],
-   "lm": [
-    [
-     477,
-     "NEXGEN Financial Solutions Pvt.Ltd"
-    ]
-   ],
-   "nonprom_pre_shares": 1216830,
-   "nonprom_pre_pct_of_post": 5.72,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-02-21",
-     "sh": null,
-     "pct": null,
-     "val": null,
-     "est": false
-    }
-   ],
-   "last_close": 228.5,
-   "close_date": "2026-11-03",
-   "avg_vol": 73116,
+   "last_close": 112.0,
+   "close_date": "2026-11-04",
+   "avg_vol": 19600,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -9125,9 +9165,9 @@
      "est": false
     }
    ],
-   "last_close": 194.25,
-   "close_date": "2026-11-03",
-   "avg_vol": 45720,
+   "last_close": 190.4,
+   "close_date": "2026-11-04",
+   "avg_vol": 45640,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -9165,9 +9205,9 @@
      "est": false
     }
    ],
-   "last_close": 283.8,
-   "close_date": "2026-11-03",
-   "avg_vol": 5289107,
+   "last_close": 279.5,
+   "close_date": "2026-11-04",
+   "avg_vol": 4951410,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -9212,9 +9252,56 @@
      "est": false
     }
    ],
-   "last_close": 219.9,
-   "close_date": "2026-11-02",
-   "avg_vol": 21400,
+   "last_close": 220.0,
+   "close_date": "2026-11-04",
+   "avg_vol": 20840,
+   "issue_px": null,
+   "chg_from_issue_pct": null
+  },
+  {
+   "company": "INDO SMC Ltd.",
+   "slug": "indo-smc-ipo",
+   "url": "https://www.chittorgarh.com/ipo/indo-smc-ipo/2694/",
+   "category": "SME",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-02-17",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE0WKY01013",
+   "nse_symbol": "",
+   "bse_code": 544681,
+   "pre_shares": 16684350,
+   "post_shares": 22855350,
+   "prom_pre_pct": 82.3,
+   "prom_post_pct": 60.07,
+   "listing_date": "2026-01-21",
+   "anchor_names": [
+    "Investment by Mutual Fund"
+   ],
+   "lm": [
+    [
+     182,
+     "GYR Capital Advisors Pvt.Ltd"
+    ]
+   ],
+   "nonprom_pre_shares": 2953129,
+   "nonprom_pre_pct_of_post": 12.92,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-02-17",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ],
+   "last_close": 358.55,
+   "close_date": "2026-11-04",
+   "avg_vol": 83433,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -9252,16 +9339,16 @@
      "est": false
     }
    ],
-   "last_close": 564.35,
-   "close_date": "2026-11-03",
-   "avg_vol": 244470,
+   "last_close": 574.6,
+   "close_date": "2026-11-04",
+   "avg_vol": 233156,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
   {
-   "company": "INDO SMC Ltd.",
-   "slug": "indo-smc-ipo",
-   "url": "https://www.chittorgarh.com/ipo/indo-smc-ipo/2694/",
+   "company": "Avana Electrosystems Ltd.",
+   "slug": "avana-electrosystems-ipo",
+   "url": "https://www.chittorgarh.com/ipo/avana-electrosystems-ipo/2635/",
    "category": "SME",
    "anchor_allotment_date": null,
    "boa_date": null,
@@ -9270,25 +9357,25 @@
    "anchor_shares": null,
    "anchor_investment_cr": null,
    "pct_of_issue": null,
-   "isin": "INE0WKY01013",
-   "nse_symbol": "",
-   "bse_code": 544681,
-   "pre_shares": 16684350,
-   "post_shares": 22855350,
-   "prom_pre_pct": 82.3,
-   "prom_post_pct": 60.07,
-   "listing_date": "2026-01-21",
+   "isin": "INE1KU201016",
+   "nse_symbol": "AVANA",
+   "bse_code": "",
+   "pre_shares": 17469408,
+   "post_shares": 22645408,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": "2026-01-20",
    "anchor_names": [
     "Investment by Mutual Fund"
    ],
    "lm": [
     [
-     182,
-     "GYR Capital Advisors Pvt.Ltd"
+     445,
+     "Indcap Advisors Pvt.Ltd"
     ]
    ],
-   "nonprom_pre_shares": 2953129,
-   "nonprom_pre_pct_of_post": 12.92,
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
    "events": [
     {
      "t": "A30",
@@ -9299,9 +9386,9 @@
      "est": false
     }
    ],
-   "last_close": 421.2,
-   "close_date": "2026-11-03",
-   "avg_vol": 69066,
+   "last_close": 140.1,
+   "close_date": "2026-11-04",
+   "avg_vol": 34700,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -9347,55 +9434,8 @@
     }
    ],
    "last_close": 69.99,
-   "close_date": "2026-11-03",
-   "avg_vol": 6506,
-   "issue_px": null,
-   "chg_from_issue_pct": null
-  },
-  {
-   "company": "Avana Electrosystems Ltd.",
-   "slug": "avana-electrosystems-ipo",
-   "url": "https://www.chittorgarh.com/ipo/avana-electrosystems-ipo/2635/",
-   "category": "SME",
-   "anchor_allotment_date": null,
-   "boa_date": null,
-   "d30": "2026-02-14",
-   "d90": null,
-   "anchor_shares": null,
-   "anchor_investment_cr": null,
-   "pct_of_issue": null,
-   "isin": "INE1KU201016",
-   "nse_symbol": "AVANA",
-   "bse_code": "",
-   "pre_shares": 17469408,
-   "post_shares": 22645408,
-   "prom_pre_pct": null,
-   "prom_post_pct": null,
-   "listing_date": "2026-01-20",
-   "anchor_names": [
-    "Investment by Mutual Fund"
-   ],
-   "lm": [
-    [
-     445,
-     "Indcap Advisors Pvt.Ltd"
-    ]
-   ],
-   "nonprom_pre_shares": null,
-   "nonprom_pre_pct_of_post": null,
-   "events": [
-    {
-     "t": "A30",
-     "d": "2026-02-14",
-     "sh": null,
-     "pct": null,
-     "val": null,
-     "est": false
-    }
-   ],
-   "last_close": 147.45,
-   "close_date": "2026-11-03",
-   "avg_vol": 35800,
+   "close_date": "2026-11-04",
+   "avg_vol": 6186,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -9433,9 +9473,9 @@
      "est": false
     }
    ],
-   "last_close": 30.35,
-   "close_date": "2026-11-03",
-   "avg_vol": 7449329,
+   "last_close": 31.15,
+   "close_date": "2026-11-04",
+   "avg_vol": 7476393,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -9480,9 +9520,9 @@
      "est": false
     }
    ],
-   "last_close": 116.75,
-   "close_date": "2026-11-03",
-   "avg_vol": 23626,
+   "last_close": 115.25,
+   "close_date": "2026-11-04",
+   "avg_vol": 23306,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -9567,9 +9607,9 @@
      "est": false
     }
    ],
-   "last_close": 117.18,
-   "close_date": "2026-11-03",
-   "avg_vol": 101759,
+   "last_close": 123.26,
+   "close_date": "2026-11-04",
+   "avg_vol": 93567,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -9614,9 +9654,9 @@
      "est": false
     }
    ],
-   "last_close": 18.35,
-   "close_date": "2026-11-02",
-   "avg_vol": 60166,
+   "last_close": 17.95,
+   "close_date": "2026-11-04",
+   "avg_vol": 64500,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -9654,9 +9694,9 @@
      "est": false
     }
    ],
-   "last_close": 1621.1,
-   "close_date": "2026-11-03",
-   "avg_vol": 270950,
+   "last_close": 1772.0,
+   "close_date": "2026-11-04",
+   "avg_vol": 273722,
    "issue_px": null,
    "chg_from_issue_pct": null
   },
@@ -9694,9 +9734,9 @@
      "est": false
     }
    ],
-   "last_close": 486.45,
-   "close_date": "2026-11-03",
-   "avg_vol": 94948,
+   "last_close": 492.8,
+   "close_date": "2026-11-04",
+   "avg_vol": 94699,
    "issue_px": null,
    "chg_from_issue_pct": null
   }

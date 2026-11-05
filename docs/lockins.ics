@@ -5,6 +5,13 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:bombay-coated-and-special-steels-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:🔓 Bombay Coated & Special Steels Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/bombay-coated-and-special-steels-ipo/2671/
+END:VEVENT
+BEGIN:VEVENT
 UID:carver-roboweld-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
@@ -150,19 +157,5 @@ DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:🔓 EverestIMS Technologies Ltd. — 30D anchor unlock
 DESCRIPTION:https://www.chittorgarh.com/ipo/everestims-technologies-ipo/2063/
-END:VEVENT
-BEGIN:VEVENT
-UID:black-opal-consultants-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261105
-SUMMARY:🔓 Black Opal Consultants Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/black-opal-consultants-ipo/2798/
-END:VEVENT
-BEGIN:VEVENT
-UID:shree-tnb-polymers-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261105
-SUMMARY:🔓 Shree TNB Polymers Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/shree-tnb-polymers-ipo/3095/
 END:VEVENT
 END:VCALENDAR
