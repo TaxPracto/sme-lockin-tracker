@@ -5,6 +5,34 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:johnsoncab-electricals-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:🔓 Johnsoncab Electricals Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/johnsoncab-electricals-ipo/3217/
+END:VEVENT
+BEGIN:VEVENT
+UID:vectras-enprocon-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:🔓 Vectras Enprocon Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/vectras-enprocon-ipo/2740/
+END:VEVENT
+BEGIN:VEVENT
+UID:hgs-india-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:🔓 HGS (India) Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/hgs-india-ipo/2981/
+END:VEVENT
+BEGIN:VEVENT
+UID:maxwell-engineering-solutions-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:🔓 Maxwell Engineering Solutions Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/maxwell-engineering-solutions-ipo/2704/
+END:VEVENT
+BEGIN:VEVENT
 UID:bombay-coated-and-special-steels-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
@@ -143,19 +171,5 @@ DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:🔓 TNA Solutions Ltd. — 30D anchor unlock
 DESCRIPTION:https://www.chittorgarh.com/ipo/tna-solutions-ipo/3216/
-END:VEVENT
-BEGIN:VEVENT
-UID:acme-india-industries-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261106
-SUMMARY:🔓 Acme India Industries Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/acme-india-industries-ipo/2748/
-END:VEVENT
-BEGIN:VEVENT
-UID:everestims-technologies-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261106
-SUMMARY:🔓 EverestIMS Technologies Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/everestims-technologies-ipo/2063/
 END:VEVENT
 END:VCALENDAR
