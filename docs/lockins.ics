@@ -151,18 +151,4 @@ DTEND;VALUE=DATE:20261118
 SUMMARY:🔓 Fusion CX Ltd. — 30D anchor unlock
 DESCRIPTION:https://www.chittorgarh.com/ipo/fusion-cx-ipo/2455/
 END:VEVENT
-BEGIN:VEVENT
-UID:vaibhav-vyapaar-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:🔓 Vaibhav Vyapaar Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/vaibhav-vyapaar-ipo/3180/
-END:VEVENT
-BEGIN:VEVENT
-UID:hd-fire-protect-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:🔓 HD Fire Protect Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/hd-fire-protect-ipo/2628/
-END:VEVENT
 END:VCALENDAR
