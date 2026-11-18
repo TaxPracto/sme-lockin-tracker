@@ -137,18 +137,4 @@ DTEND;VALUE=DATE:20261120
 SUMMARY:🔓 Sahajanand Medical Technologies Ltd. — 30D anchor unlock
 DESCRIPTION:https://www.chittorgarh.com/ipo/sahajanand-medical-technologies-ipo/2550/
 END:VEVENT
-BEGIN:VEVENT
-UID:ravita-engineering-services-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261117
-DTEND;VALUE=DATE:20261118
-SUMMARY:🔓 Ravita Engineering Services Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/ravita-engineering-services-ipo/2959/
-END:VEVENT
-BEGIN:VEVENT
-UID:fusion-cx-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261117
-DTEND;VALUE=DATE:20261118
-SUMMARY:🔓 Fusion CX Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/fusion-cx-ipo/2455/
-END:VEVENT
 END:VCALENDAR
