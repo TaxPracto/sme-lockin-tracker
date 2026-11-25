@@ -88,18 +88,4 @@ DTEND;VALUE=DATE:20261127
 SUMMARY:🔓 Core4 Engineers Ltd. — 30D anchor unlock
 DESCRIPTION:https://www.chittorgarh.com/ipo/core4-engineers-ipo/2969/
 END:VEVENT
-BEGIN:VEVENT
-UID:jio-platforms-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261124
-DTEND;VALUE=DATE:20261125
-SUMMARY:🔓 Jio Platforms Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/jio-platforms-ipo/3152/
-END:VEVENT
-BEGIN:VEVENT
-UID:paras-healthcare-ipo-A30@unlockradar
-DTSTART;VALUE=DATE:20261124
-DTEND;VALUE=DATE:20261125
-SUMMARY:🔓 Paras Healthcare Ltd. — 30D anchor unlock
-DESCRIPTION:https://www.chittorgarh.com/ipo/paras-healthcare-ipo/2256/
-END:VEVENT
 END:VCALENDAR
