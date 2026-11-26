@@ -5,6 +5,13 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Unlock Radar - lock-in expiries
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:crystal-crop-protection-ipo-A30@unlockradar
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
+SUMMARY:🔓 Crystal Crop Protection Ltd. — 30D anchor unlock
+DESCRIPTION:https://www.chittorgarh.com/ipo/crystal-crop-protection-ipo/2813/
+END:VEVENT
+BEGIN:VEVENT
 UID:johnsoncab-electricals-ipo-A30@unlockradar
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
