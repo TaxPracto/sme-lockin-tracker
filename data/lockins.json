@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T15:20:44+05:30",
+ "generated_at": "2026-11-27T15:25:22+05:30",
  "source": "chittorgarh.com report #156 + IPO pages",
  "years": [
   2024,
@@ -7,6 +7,76 @@
   2026
  ],
  "records": [
+  {
+   "company": "Mahanadi Coalfields Ltd.",
+   "slug": "mahanadi-coalfields-ipo",
+   "url": "https://www.chittorgarh.com/ipo/mahanadi-coalfields-ipo/3247/",
+   "category": "Mainboard",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-12-25",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE03K401026",
+   "nse_symbol": "MAHACOAL",
+   "bse_code": 545032,
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-12-25",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
+  {
+   "company": "Watrana Rentals Ltd.",
+   "slug": "watrana-rentals-ipo",
+   "url": "https://www.chittorgarh.com/ipo/watrana-rentals-ipo/2503/",
+   "category": "SME",
+   "anchor_allotment_date": null,
+   "boa_date": null,
+   "d30": "2026-12-25",
+   "d90": null,
+   "anchor_shares": null,
+   "anchor_investment_cr": null,
+   "pct_of_issue": null,
+   "isin": "INE11NS01011",
+   "nse_symbol": "WATRANA",
+   "bse_code": "",
+   "pre_shares": null,
+   "post_shares": null,
+   "prom_pre_pct": null,
+   "prom_post_pct": null,
+   "listing_date": null,
+   "anchor_names": [],
+   "lm": [],
+   "nonprom_pre_shares": null,
+   "nonprom_pre_pct_of_post": null,
+   "events": [
+    {
+     "t": "A30",
+     "d": "2026-12-25",
+     "sh": null,
+     "pct": null,
+     "val": null,
+     "est": false
+    }
+   ]
+  },
   {
    "company": "Crystal Crop Protection Ltd.",
    "slug": "crystal-crop-protection-ipo",
